@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARIA - Title Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="assets/chart.min.js"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg-0:#020508;--bg-1:#060b12;--bg-2:#0c1420;--bg-3:#131d2e;
+  --text-0:#dce8f8;--text-1:#7a9bbf;--text-2:#3d5470;
+  --brand-blue:#1a8cff;--brand-purple:#6b4fff;--brand-teal:#00e5cc;
+  --brand-red:#ff3344;--brand-amber:#ffaa00;--brand-green:#00cc7a;
+  --radius:8px;--radius-lg:12px;
+}
+html{font-size:15px;scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--bg-0);color:var(--text-0);line-height:1.6;min-height:100vh}
+a{color:var(--brand-blue);text-decoration:none}
+code,.mono{font-family:'JetBrains Mono',monospace}
+
+/* Navbar */
+.nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:12px;padding:0 24px;height:56px;background:var(--bg-1);border-bottom:1px solid rgba(26,140,255,.12);backdrop-filter:blur(16px)}
+.nav-logo{display:flex;align-items:center;gap:8px;font-weight:700;font-size:1.05rem;letter-spacing:.5px;color:var(--brand-blue)}
+.nav-logo svg{width:28px;height:28px}
+.nav-links{display:flex;gap:4px;margin-left:24px}
+.nav-links a{padding:6px 14px;border-radius:6px;font-size:.82rem;font-weight:500;color:var(--text-1);transition:all .2s}
+.nav-links a:hover{color:var(--text-0);background:rgba(26,140,255,.08)}
+.nav-links a.active{color:var(--brand-blue);background:rgba(26,140,255,.12)}
+.nav-right{margin-left:auto;display:flex;align-items:center;gap:12px}
+.threat-badge{display:flex;align-items:center;gap:6px;padding:4px 12px;border-radius:20px;font-size:.75rem;font-weight:600;background:rgba(255,51,68,.12);color:var(--brand-red);border:1px solid rgba(255,51,68,.2)}
+.threat-badge .dot{width:7px;height:7px;border-radius:50%;background:var(--brand-red);animation:pulse-dot 2s infinite}
+@keyframes pulse-dot{0%,100%{opacity:1}50%{opacity:.3}}
+.btn-export{padding:6px 16px;border-radius:6px;font-size:.8rem;font-weight:600;color:var(--text-0);background:rgba(26,140,255,.15);border:1px solid rgba(26,140,255,.25);cursor:pointer;transition:all .2s}
+.btn-export:hover{background:rgba(26,140,255,.25)}
+
+/* Layout */
+.container{max-width:1360px;margin:0 auto;padding:24px}
+.section{margin-bottom:32px}
+.card{background:var(--bg-2);border:1px solid rgba(26,140,255,.08);border-radius:var(--radius-lg);padding:24px;position:relative;overflow:hidden}
+.card::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(26,140,255,.2),transparent)}
+.card-title{font-size:1rem;font-weight:700;color:var(--text-0);margin-bottom:4px;display:flex;align-items:center;gap:8px}
+.card-sub{font-size:.78rem;color:var(--text-2);margin-bottom:20px}
+.tag{display:inline-block;padding:2px 8px;border-radius:4px;font-size:.7rem;font-weight:600;letter-spacing:.3px}
+.tag-blue{background:rgba(26,140,255,.15);color:var(--brand-blue)}
+.tag-purple{background:rgba(107,79,255,.15);color:var(--brand-purple)}
+.tag-teal{background:rgba(0,229,204,.15);color:var(--brand-teal)}
+.tag-red{background:rgba(255,51,68,.15);color:var(--brand-red)}
+.tag-amber{background:rgba(255,170,0,.15);color:var(--brand-amber)}
+.tag-green{background:rgba(0,204,122,.15);color:var(--brand-green)}
+
+/* Header */
+.page-header{text-align:center;padding:48px 0 32px}
+.page-header h1{font-size:2.4rem;font-weight:800;letter-spacing:2px;background:linear-gradient(135deg,var(--brand-blue),var(--brand-purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.page-header p{font-size:1rem;color:var(--text-1);margin-top:6px}
+.header-meta{display:flex;justify-content:center;gap:16px;margin-top:16px;flex-wrap:wrap}
+
+/* Charts */
+.chart-wrap{position:relative;width:100%;height:400px}
+
+/* Bars */
+.bar-row{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.bar-label{width:180px;flex-shrink:0;font-size:.82rem;font-weight:500;color:var(--text-1);text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar-track{flex:1;height:28px;background:var(--bg-1);border-radius:4px;position:relative;overflow:hidden}
+.bar-fill{height:100%;border-radius:4px;display:flex;align-items:center;padding:0 10px;font-size:.72rem;font-weight:600;color:#fff;white-space:nowrap;transition:width .6s ease}
+.bar-value{margin-left:8px;font-size:.78rem;color:var(--text-1);white-space:nowrap;width:80px;flex-shrink:0;font-family:'JetBrains Mono',monospace}
+
+/* Table */
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:.82rem}
+thead th{padding:10px 12px;text-align:left;font-weight:600;color:var(--text-2);border-bottom:1px solid rgba(26,140,255,.1);cursor:pointer;user-select:none;white-space:nowrap}
+thead th:hover{color:var(--brand-blue)}
+thead th .sort-icon{margin-left:4px;opacity:.4;font-size:.7rem}
+thead th.sorted .sort-icon{opacity:1;color:var(--brand-blue)}
+tbody tr{border-bottom:1px solid rgba(26,140,255,.04);transition:background .15s}
+tbody tr:hover{background:rgba(26,140,255,.04)}
+tbody td{padding:9px 12px;color:var(--text-1)}
+tbody td:first-child{color:var(--text-2);font-family:'JetBrains Mono',monospace;font-size:.75rem}
+.severity-critical{color:var(--brand-red);font-weight:600}
+.severity-high{color:var(--brand-amber);font-weight:600}
+.severity-medium{color:var(--brand-teal);font-weight:500}
+.severity-low{color:var(--brand-green);font-weight:500}
+
+/* Cost-Benefit Panel */
+.cost-panel{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media(max-width:768px){.cost-panel{grid-template-columns:1fr}}
+.cost-card{background:var(--bg-3);border:1px solid rgba(26,140,255,.06);border-radius:var(--radius);padding:24px;text-align:center}
+.cost-card .metric{font-size:2.2rem;font-weight:800;font-family:'JetBrains Mono',monospace;margin:8px 0 4px}
+.cost-card .label{font-size:.82rem;color:var(--text-1)}
+.cost-card .desc{font-size:.72rem;color:var(--text-2);margin-top:6px}
+
+/* Footer */
+.footer{text-align:center;padding:40px 0 24px;font-size:.75rem;color:var(--text-2);border-top:1px solid rgba(26,140,255,.06);margin-top:40px}
+
+/* Print */
+@media print{
+  body{background:#fff;color:#111}
+  .nav,.btn-export,.threat-badge{display:none!important}
+  .card{border:1px solid #ccc;break-inside:avoid}
+  .card::before{display:none}
+  .page-header h1{-webkit-text-fill-color:#111;background:none}
+  table{font-size:9pt}
+  .bar-fill{print-color-adjust:exact;-webkit-print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="nav">
+  <div class="nav-logo">
+    <svg viewBox="0 0 32 32" fill="none"><path d="M16 2L4 8v8c0 7.7 5.1 14.5 12 16 6.9-1.5 12-8.3 12-16V8L16 2z" fill="rgba(26,140,255,.15)" stroke="#1a8cff" stroke-width="1.5"/><path d="M16 8l-6 3.5v5c0 4.2 2.5 7.8 6 8.5 3.5-.7 6-4.3 6-8.5v-5L16 8z" fill="rgba(26,140,255,.25)" stroke="#1a8cff" stroke-width="1"/><circle cx="16" cy="16" r="2.5" fill="#1a8cff"/></svg>
+    ARIA
+  </div>
+  <div class="nav-links">
+    <a href="index.html">Overview</a>
+    <a href="domains.html">Domains</a>
+    <a href="network.html">Network</a>
+    <a href="titles.html" class="active">Title Tracker</a>
+    <a href="monetization.html">Monetization</a>
+    <a href="enforcement.html">Enforcement</a>
+    <a href="settings.html">Settings</a>
+  </div>
+  <div class="nav-right">
+    <div class="threat-badge"><span class="dot"></span>THREAT LEVEL ELEVATED</div>
+    <button class="btn-export" onclick="window.print()">Export PDF</button>
+  </div>
+</nav>
+
+<div class="container">
+
+<!-- HEADER -->
+<div class="page-header section">
+  <h1>TITLE TRACKER</h1>
+  <p>DRM Effectiveness &amp; Release Vulnerability Analysis</p>
+  <div class="header-meta">
+    <span class="tag tag-blue">8,670 Titles Monitored</span>
+    <span class="tag tag-purple">5 DRM Systems</span>
+    <span class="tag tag-amber">23 Active Releases</span>
+    <span class="tag tag-red">4 Cracked This Week</span>
+  </div>
+</div>
+
+<!-- DRM EFFECTIVENESS SCATTER -->
+<div class="section">
+  <div class="card">
+    <div class="card-title">DRM Effectiveness Scatter <span class="tag tag-purple">Bubble Chart</span></div>
+    <div class="card-sub">X = Implementation Cost (USD) / Y = Days to Crack / Size = Piracy Site Count</div>
+    <div class="chart-wrap">
+      <canvas id="drmScatter"></canvas>
+    </div>
+  </div>
+</div>
+
+<!-- RELEASE VULNERABILITY WINDOW -->
+<div class="section">
+  <div class="card">
+    <div class="card-title">Release Vulnerability Window <span class="tag tag-red">Hours to Crack</span></div>
+    <div class="card-sub">Time from retail release to first confirmed crack, sorted by vulnerability window</div>
+    <div id="vulnBars"></div>
+  </div>
+</div>
+
+<!-- TOP 30 MOST PIRATED TITLES -->
+<div class="section">
+  <div class="card">
+    <div class="card-title">Top 30 Most Pirated Titles <span class="tag tag-red">Live Intel</span></div>
+    <div class="card-sub">Ranked by unique piracy site appearances across monitored infrastructure</div>
+    <div class="table-wrap">
+      <table id="titlesTable">
+        <thead>
+          <tr>
+            <th data-col="rank">Rank <span class="sort-icon">&#9650;</span></th>
+            <th data-col="title">Title <span class="sort-icon">&#9650;</span></th>
+            <th data-col="publisher">Publisher <span class="sort-icon">&#9650;</span></th>
+            <th data-col="sites">Sites <span class="sort-icon">&#9650;</span></th>
+            <th data-col="infringement">Infringement <span class="sort-icon">&#9650;</span></th>
+            <th data-col="platform">Platform <span class="sort-icon">&#9650;</span></th>
+            <th data-col="severity">Severity <span class="sort-icon">&#9650;</span></th>
+          </tr>
+        </thead>
+        <tbody id="titlesBody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- DRM COST-BENEFIT ANALYSIS -->
+<div class="section">
+  <div class="card">
+    <div class="card-title">DRM Cost-Benefit Analysis <span class="tag tag-green">ROI Model</span></div>
+    <div class="card-sub">Comparison of protection window and return on DRM investment for AAA releases</div>
+    <div class="cost-panel">
+      <div class="cost-card">
+        <div class="label">Without DRM Protection</div>
+        <div class="metric" style="color:var(--brand-red)">4.2h</div>
+        <div class="label">Average Time to Crack</div>
+        <div class="desc">Based on 38 unprotected AAA releases (2024-2026). Median first-week piracy rate: 62%.</div>
+      </div>
+      <div class="cost-card">
+        <div class="label">Denuvo v7 Protection</div>
+        <div class="metric" style="color:var(--brand-teal)">96d</div>
+        <div class="label">Average Time to Crack</div>
+        <div class="desc">Latest iteration. 96-day window covers critical first 3 months of revenue. $140K implementation.</div>
+      </div>
+      <div class="cost-card">
+        <div class="label">Estimated ROI</div>
+        <div class="metric" style="color:var(--brand-green)">130:1</div>
+        <div class="label">Return on Investment</div>
+        <div class="desc">$140K DRM cost vs $18.2M estimated revenue protected during crack-free window.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  ARIA Intelligence Platform v3.2.0 &middot; Title Tracker Module &middot; Classification data refreshed 2026-03-28 06:00 UTC<br>
+  Data sources: Automated crawl infrastructure, DRM vendor disclosures, community OSINT feeds &middot; For authorized use only
+</div>
+
+<script>
+/* DRM Effectiveness Bubble Chart */
+(function(){
+  var ctx = document.getElementById('drmScatter').getContext('2d');
+  var data = [
+    {label:'None',        x:0,      y:0.2,  r:18, bg:'rgba(255,51,68,.55)',  border:'#ff3344'},
+    {label:'VMProtect',   x:5000,   y:3.1,  r:14, bg:'rgba(255,170,0,.45)',  border:'#ffaa00'},
+    {label:'Denuvo v5',   x:140000, y:18.4, r:11, bg:'rgba(0,229,204,.40)',  border:'#00e5cc'},
+    {label:'Denuvo v6',   x:140000, y:31.2, r:9,  bg:'rgba(26,140,255,.45)', border:'#1a8cff'},
+    {label:'Denuvo v7',   x:140000, y:96,   r:6,  bg:'rgba(107,79,255,.50)', border:'#6b4fff'}
+  ];
+  new Chart(ctx,{
+    type:'bubble',
+    data:{
+      datasets: data.map(function(d){return {
+        label:d.label,
+        data:[{x:d.x, y:d.y, r:d.r}],
+        backgroundColor:d.bg,
+        borderColor:d.border,
+        borderWidth:2,
+        hoverBorderWidth:3
+      };})
+    },
+    options:{
+      responsive:true,
+      maintainAspectRatio:false,
+      plugins:{
+        legend:{position:'top',labels:{color:'#7a9bbf',font:{family:'Inter',size:12},usePointStyle:true,padding:16}},
+        tooltip:{
+          backgroundColor:'#131d2e',
+          titleColor:'#dce8f8',
+          bodyColor:'#7a9bbf',
+          borderColor:'rgba(26,140,255,.2)',
+          borderWidth:1,
+          callbacks:{
+            label:function(c){
+              var p=c.raw;
+              return c.dataset.label+': Cost $'+p.x.toLocaleString()+', '+p.y+'d to crack';
+            }
+          }
+        }
+      },
+      scales:{
+        x:{
+          title:{display:true,text:'Implementation Cost (USD)',color:'#7a9bbf',font:{family:'Inter',size:12}},
+          ticks:{color:'#3d5470',font:{family:'JetBrains Mono',size:11},callback:function(v){return '$'+v.toLocaleString();}},
+          grid:{color:'rgba(26,140,255,.06)'},
+          min:-10000,max:180000
+        },
+        y:{
+          title:{display:true,text:'Days to Crack',color:'#7a9bbf',font:{family:'Inter',size:12}},
+          ticks:{color:'#3d5470',font:{family:'JetBrains Mono',size:11}},
+          grid:{color:'rgba(26,140,255,.06)'},
+          min:-5,max:120
+        }
+      }
+    }
+  });
+})();
+
+/* Release Vulnerability Bars */
+(function(){
+  var games=[
+    {name:'AAA Shooter A',    hours:0.3,   drm:'none',       color:'var(--brand-red)'},
+    {name:'Indie RPG H',      hours:1.1,   drm:'none',       color:'var(--brand-red)'},
+    {name:'AAA RPG B',        hours:4.2,   drm:'none',       color:'var(--brand-red)'},
+    {name:'AAA Racing F',     hours:5.5,   drm:'vmprotect',  color:'var(--brand-amber)'},
+    {name:'AAA Sports C',     hours:6.8,   drm:'denuvo_v5',  color:'var(--brand-teal)'},
+    {name:'AAA Strategy G',   hours:12.4,  drm:'denuvo_v5',  color:'var(--brand-teal)'},
+    {name:'AAA Platformer I', hours:38.6,  drm:'denuvo_v5',  color:'var(--brand-teal)'},
+    {name:'AAA Action D',     hours:76.8,  drm:'denuvo_v6',  color:'var(--brand-blue)'},
+    {name:'AAA Horror J',     hours:192,   drm:'denuvo_v6',  color:'var(--brand-blue)'},
+    {name:'AAA Sim K',        hours:480,   drm:'denuvo_v6',  color:'var(--brand-blue)'},
+    {name:'AAA Sandbox E',    hours:1440,  drm:'denuvo_v7',  color:'var(--brand-purple)'},
+    {name:'AAA MMORPG L',     hours:2304,  drm:'denuvo_v7',  color:'var(--brand-purple)'}
+  ];
+  var maxH=Math.max.apply(null,games.map(function(g){return g.hours;}));
+  var wrap=document.getElementById('vulnBars');
+  var drmLabels={none:'No DRM',vmprotect:'VMProtect',denuvo_v5:'Denuvo v5',denuvo_v6:'Denuvo v6',denuvo_v7:'Denuvo v7'};
+  var html='';
+  games.forEach(function(g){
+    var pct=Math.max(2, (Math.log10(g.hours+1)/Math.log10(maxH+1))*100);
+    var display = g.hours>=24 ? (g.hours/24).toFixed(1)+'d' : g.hours+'h';
+    html+='<div class="bar-row">'
+      +'<div class="bar-label">'+g.name+'</div>'
+      +'<div class="bar-track"><div class="bar-fill" style="width:'+pct+'%;background:'+g.color+'">'+drmLabels[g.drm]+'</div></div>'
+      +'<div class="bar-value">'+display+'</div>'
+      +'</div>';
+  });
+  wrap.innerHTML=html;
+})();
+
+/* Top 30 Titles Table */
+(function(){
+  var titles=[
+    {rank:1,  title:'Pokemon Legends: Z-A',        publisher:'Nintendo',           sites:190, infringement:'ROM/Emulation',    platform:'Switch',      severity:'CRITICAL'},
+    {rank:2,  title:'Pokemon Scarlet/Violet',       publisher:'Nintendo',           sites:174, infringement:'ROM/Emulation',    platform:'Switch',      severity:'CRITICAL'},
+    {rank:3,  title:'Zelda: Echoes of Wisdom',      publisher:'Nintendo',           sites:162, infringement:'ROM/Emulation',    platform:'Switch',      severity:'CRITICAL'},
+    {rank:4,  title:'Mario Kart 9',                 publisher:'Nintendo',           sites:148, infringement:'ROM/Emulation',    platform:'Switch 2',    severity:'CRITICAL'},
+    {rank:5,  title:'Super Mario Bros. Wonder',     publisher:'Nintendo',           sites:135, infringement:'ROM/Emulation',    platform:'Switch',      severity:'CRITICAL'},
+    {rank:6,  title:'FIFA 27',                      publisher:'EA Sports',          sites:89,  infringement:'Crack/Keygen',     platform:'PC/Console',  severity:'CRITICAL'},
+    {rank:7,  title:'Elden Ring: Nightreign',       publisher:'Bandai Namco',       sites:82,  infringement:'Crack/Repack',     platform:'PC',          severity:'HIGH'},
+    {rank:8,  title:'GTA VI',                       publisher:'Rockstar Games',     sites:76,  infringement:'Leak/Pre-release', platform:'PC/Console',  severity:'CRITICAL'},
+    {rank:9,  title:'Hogwarts Legacy 2',            publisher:'Warner Bros.',       sites:68,  infringement:'Crack/Repack',     platform:'PC',          severity:'HIGH'},
+    {rank:10, title:'Starfield: Shattered Space',   publisher:'Bethesda',           sites:61,  infringement:'Crack/Repack',     platform:'PC',          severity:'HIGH'},
+    {rank:11, title:'Call of Duty: Black Ops 7',    publisher:'Activision',         sites:57,  infringement:'Crack/Keygen',     platform:'PC',          severity:'HIGH'},
+    {rank:12, title:'Spider-Man 2',                 publisher:'Sony/Insomniac',     sites:52,  infringement:'Crack/Repack',     platform:'PC',          severity:'HIGH'},
+    {rank:13, title:'God of War: Ragnarok',         publisher:'Sony/Santa Monica',  sites:48,  infringement:'Crack/Repack',     platform:'PC',          severity:'HIGH'},
+    {rank:14, title:'Cyberpunk 2077: Orion',        publisher:'CD Projekt',         sites:45,  infringement:'Crack/Repack',     platform:'PC',          severity:'HIGH'},
+    {rank:15, title:'Final Fantasy VII Rebirth',    publisher:'Square Enix',        sites:42,  infringement:'Crack/Repack',     platform:'PC',          severity:'HIGH'},
+    {rank:16, title:'Monster Hunter Wilds',         publisher:'Capcom',             sites:39,  infringement:'Crack/Repack',     platform:'PC',          severity:'HIGH'},
+    {rank:17, title:"Assassin's Creed Shadows",     publisher:'Ubisoft',            sites:37,  infringement:'Crack/Repack',     platform:'PC',          severity:'MEDIUM'},
+    {rank:18, title:'Resident Evil 9',              publisher:'Capcom',             sites:34,  infringement:'Crack/Repack',     platform:'PC',          severity:'MEDIUM'},
+    {rank:19, title:'Metroid Prime 4',              publisher:'Nintendo',           sites:32,  infringement:'ROM/Emulation',    platform:'Switch 2',    severity:'MEDIUM'},
+    {rank:20, title:'Dragon Age: The Veilguard',    publisher:'EA/BioWare',         sites:30,  infringement:'Crack/Repack',     platform:'PC',          severity:'MEDIUM'},
+    {rank:21, title:'The Witcher 4',                publisher:'CD Projekt',         sites:28,  infringement:'Pre-release Leak', platform:'PC',          severity:'MEDIUM'},
+    {rank:22, title:'GTA V (Legacy)',               publisher:'Rockstar Games',     sites:25,  infringement:'Crack/Mod',        platform:'PC',          severity:'MEDIUM'},
+    {rank:23, title:'Fable',                        publisher:'Xbox Game Studios',  sites:24,  infringement:'Crack/Repack',     platform:'PC',          severity:'MEDIUM'},
+    {rank:24, title:'Death Stranding 2',            publisher:'Sony/Kojima',        sites:22,  infringement:'Crack/Repack',     platform:'PC',          severity:'MEDIUM'},
+    {rank:25, title:'Hollow Knight: Silksong',      publisher:'Team Cherry',        sites:21,  infringement:'Crack/Repack',     platform:'PC',          severity:'LOW'},
+    {rank:26, title:'Doom: The Dark Ages',          publisher:'Bethesda',           sites:19,  infringement:'Crack/Repack',     platform:'PC',          severity:'LOW'},
+    {rank:27, title:'Tekken 8 S2',                  publisher:'Bandai Namco',       sites:18,  infringement:'Crack/Keygen',     platform:'PC',          severity:'LOW'},
+    {rank:28, title:'Like a Dragon: Pirate Yakuza', publisher:'Sega',               sites:16,  infringement:'Crack/Repack',     platform:'PC',          severity:'LOW'},
+    {rank:29, title:'Persona 6',                    publisher:'Atlus/Sega',         sites:15,  infringement:'Crack/Repack',     platform:'PC',          severity:'LOW'},
+    {rank:30, title:'Silent Hill 2 Remake',         publisher:'Konami',             sites:14,  infringement:'Crack/Repack',     platform:'PC',          severity:'LOW'}
+  ];
+
+  var tbody=document.getElementById('titlesBody');
+  function render(data){
+    var html='';
+    data.forEach(function(t){
+      var sevClass='severity-'+t.severity.toLowerCase();
+      html+='<tr>'
+        +'<td>'+t.rank+'</td>'
+        +'<td style="color:var(--text-0);font-weight:500">'+t.title+'</td>'
+        +'<td>'+t.publisher+'</td>'
+        +'<td class="mono" style="color:var(--brand-blue);font-weight:600">'+t.sites+'</td>'
+        +'<td><span class="tag tag-red">'+t.infringement+'</span></td>'
+        +'<td>'+t.platform+'</td>'
+        +'<td class="'+sevClass+'">'+t.severity+'</td>'
+        +'</tr>';
+    });
+    tbody.innerHTML=html;
+  }
+  render(titles);
+
+  var sortCol='rank', sortAsc=true;
+  var headers=document.querySelectorAll('#titlesTable thead th');
+  for(var i=0;i<headers.length;i++){
+    headers[i].addEventListener('click',function(){
+      var col=this.dataset.col;
+      if(sortCol===col){sortAsc=!sortAsc;}else{sortCol=col;sortAsc=true;}
+      for(var j=0;j<headers.length;j++){headers[j].classList.remove('sorted');}
+      this.classList.add('sorted');
+      this.querySelector('.sort-icon').textContent=sortAsc?'\u25B2':'\u25BC';
+      var sorted=titles.slice().sort(function(a,b){
+        var va=a[col],vb=b[col];
+        if(typeof va==='number') return sortAsc? va-vb : vb-va;
+        va=String(va).toLowerCase(); vb=String(vb).toLowerCase();
+        return sortAsc? va.localeCompare(vb) : vb.localeCompare(va);
+      });
+      sorted.forEach(function(t,idx){t.rank=idx+1;});
+      render(sorted);
+    });
+  }
+})();
+</script>
+</body>
+</html>

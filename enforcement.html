@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARIA — Enforcement Center</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="assets/chart.min.js"></script>
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg-0:#020508;--bg-1:#060b12;--bg-2:#0c1420;--bg-3:#131d2e;
+  --text-1:#dce8f8;--text-2:#7a9bbf;--text-3:#3d5470;
+  --primary:#1a8cff;--secondary:#6b4fff;--accent:#00e5cc;
+  --danger:#ff3344;--warning:#ffaa00;--success:#00cc7a;
+  --radius:8px;--radius-lg:12px;
+}
+html{font-size:14px;scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--bg-0);color:var(--text-1);line-height:1.6;min-height:100vh}
+a{color:var(--primary);text-decoration:none}
+a:hover{text-decoration:underline}
+code,.mono{font-family:'JetBrains Mono',monospace}
+
+/* NAV */
+.top-nav{display:flex;align-items:center;gap:1rem;padding:0.75rem 1.5rem;background:var(--bg-1);border-bottom:1px solid var(--bg-3);position:sticky;top:0;z-index:100;backdrop-filter:blur(12px)}
+.nav-logo{display:flex;align-items:center;gap:0.5rem;font-weight:700;font-size:1.1rem;color:var(--text-1);flex-shrink:0}
+.nav-logo svg{width:28px;height:28px}
+.nav-links{display:flex;gap:0.25rem;flex-wrap:wrap;flex:1}
+.nav-links a{padding:0.35rem 0.7rem;border-radius:var(--radius);font-size:0.82rem;font-weight:500;color:var(--text-2);transition:all .15s}
+.nav-links a:hover,.nav-links a.active{background:var(--bg-3);color:var(--text-1);text-decoration:none}
+.nav-links a.active{color:var(--primary)}
+.nav-meta{display:flex;align-items:center;gap:0.75rem;flex-shrink:0;font-size:0.78rem}
+.badge-threat{background:var(--danger);color:#fff;padding:0.2rem 0.6rem;border-radius:20px;font-weight:600;font-size:0.72rem;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.7}}
+.freshness{color:var(--text-3)}
+.btn-export{background:var(--bg-3);color:var(--text-2);border:1px solid var(--text-3);padding:0.3rem 0.75rem;border-radius:var(--radius);cursor:pointer;font-size:0.78rem;font-family:inherit;transition:all .15s}
+.btn-export:hover{border-color:var(--primary);color:var(--primary)}
+
+/* LAYOUT */
+.page-wrap{max-width:1400px;margin:0 auto;padding:1.5rem}
+.page-header{margin-bottom:2rem}
+.page-header h1{font-size:1.75rem;font-weight:800;letter-spacing:0.04em;background:linear-gradient(135deg,var(--primary),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.page-header p{color:var(--text-2);font-size:0.9rem;margin-top:0.25rem}
+
+/* KPI ROW */
+.kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;margin-bottom:2rem}
+.kpi-card{background:var(--bg-2);border:1px solid var(--bg-3);border-radius:var(--radius-lg);padding:1.25rem;text-align:center}
+.kpi-card .label{font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-2);margin-bottom:0.35rem}
+.kpi-card .value{font-size:2rem;font-weight:800;font-family:'JetBrains Mono',monospace}
+.kpi-card .value.blue{color:var(--primary)}.kpi-card .value.green{color:var(--success)}.kpi-card .value.amber{color:var(--warning)}.kpi-card .value.red{color:var(--danger)}
+
+/* CARD */
+.card{background:var(--bg-2);border:1px solid var(--bg-3);border-radius:var(--radius-lg);padding:1.5rem;margin-bottom:1.5rem}
+.card-title{font-size:1rem;font-weight:700;margin-bottom:1rem;display:flex;align-items:center;gap:0.5rem}
+.card-title .icon{width:20px;height:20px;opacity:.7}
+
+/* PRIORITY MATRIX */
+.matrix-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.matrix-labels{display:grid;grid-template-columns:auto 1fr 1fr;grid-template-rows:auto 1fr 1fr;gap:0}
+.matrix-quadrant{border-radius:var(--radius);padding:1rem;min-height:160px;transition:transform .15s,box-shadow .15s;cursor:default}
+.matrix-quadrant:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.4)}
+.matrix-quadrant h3{font-size:0.82rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.75rem}
+.matrix-quadrant ul{list-style:none;display:flex;flex-direction:column;gap:0.4rem}
+.matrix-quadrant li{font-size:0.82rem;color:var(--text-2);padding:0.35rem 0.6rem;background:rgba(0,0,0,.3);border-radius:var(--radius);transition:background .15s}
+.matrix-quadrant li:hover{background:rgba(255,255,255,.05)}
+.q-donow{background:rgba(0,204,122,.08);border:1px solid rgba(0,204,122,.3)}
+.q-donow h3{color:var(--success)}
+.q-plan{background:rgba(255,170,0,.08);border:1px solid rgba(255,170,0,.3)}
+.q-plan h3{color:var(--warning)}
+.q-quick{background:rgba(26,140,255,.08);border:1px solid rgba(26,140,255,.3)}
+.q-quick h3{color:var(--primary)}
+.q-depri{background:rgba(61,84,112,.08);border:1px solid rgba(61,84,112,.3)}
+.q-depri h3{color:var(--text-3)}
+.matrix-axis{font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-3);text-align:center;padding:0.5rem 0}
+
+/* CHARTS */
+.chart-container{position:relative;width:100%;max-height:360px}
+.chart-container canvas{width:100%!important}
+.chart-insight{margin-top:0.75rem;font-size:0.82rem;color:var(--accent);padding:0.5rem 0.75rem;background:rgba(0,229,204,.06);border-left:3px solid var(--accent);border-radius:0 var(--radius) var(--radius) 0}
+
+/* TABLE */
+.table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{width:100%;border-collapse:collapse;font-size:0.82rem}
+th{text-align:left;padding:0.6rem 0.75rem;font-weight:600;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-3);border-bottom:1px solid var(--bg-3);white-space:nowrap;cursor:pointer;user-select:none}
+th:hover{color:var(--text-2)}
+td{padding:0.55rem 0.75rem;border-bottom:1px solid rgba(19,29,46,.5);white-space:nowrap}
+tr:hover td{background:rgba(26,140,255,.04)}
+.status-badge{display:inline-block;padding:0.15rem 0.5rem;border-radius:20px;font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.03em}
+.status-IN_PROGRESS{background:rgba(255,170,0,.15);color:var(--warning)}
+.status-ONGOING{background:rgba(26,140,255,.15);color:var(--primary)}
+.status-PLANNED{background:rgba(61,84,112,.2);color:var(--text-2)}
+.status-COMPLETED{background:rgba(0,204,122,.15);color:var(--success)}
+.priority-badge{display:inline-block;width:24px;height:24px;border-radius:50%;text-align:center;line-height:24px;font-size:0.7rem;font-weight:700;color:#fff}
+.p-1{background:var(--danger)}.p-2{background:var(--warning)}.p-3{background:var(--primary)}.p-4{background:var(--text-3)}
+
+/* TEMPLATE GENERATOR */
+.gen-form{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem}
+.gen-form .full{grid-column:1/-1}
+.gen-form label{display:block;font-size:0.75rem;font-weight:600;color:var(--text-2);margin-bottom:0.3rem;text-transform:uppercase;letter-spacing:0.05em}
+.gen-form select,.gen-form input,.gen-form textarea{width:100%;background:var(--bg-1);border:1px solid var(--bg-3);color:var(--text-1);padding:0.55rem 0.75rem;border-radius:var(--radius);font-family:inherit;font-size:0.85rem;transition:border-color .15s}
+.gen-form select:focus,.gen-form input:focus,.gen-form textarea:focus{outline:none;border-color:var(--primary)}
+.gen-form textarea{resize:vertical;min-height:80px;font-family:'JetBrains Mono',monospace;font-size:0.8rem}
+.btn-row{display:flex;gap:0.75rem;margin-bottom:1rem}
+.btn{padding:0.55rem 1.25rem;border:none;border-radius:var(--radius);font-family:inherit;font-weight:600;font-size:0.85rem;cursor:pointer;transition:all .15s}
+.btn-primary{background:var(--primary);color:#fff}.btn-primary:hover{background:#3da1ff}
+.btn-secondary{background:var(--bg-3);color:var(--text-2);border:1px solid var(--text-3)}.btn-secondary:hover{color:var(--text-1);border-color:var(--text-2)}
+.template-output{background:var(--bg-0);border:1px solid var(--bg-3);border-radius:var(--radius);padding:1rem;font-family:'JetBrains Mono',monospace;font-size:0.78rem;line-height:1.7;color:var(--text-2);white-space:pre-wrap;max-height:420px;overflow-y:auto;display:none}
+.template-output.visible{display:block}
+
+/* TWO COL */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+@media(max-width:900px){.two-col{grid-template-columns:1fr}.matrix-grid{grid-template-columns:1fr}.gen-form{grid-template-columns:1fr}}
+
+/* PRINT */
+@media print{
+  body{background:#fff;color:#000}
+  .top-nav{position:static;background:#fff;border-bottom:2px solid #000}
+  .nav-links a{color:#333}.nav-meta .badge-threat{background:#c00}
+  .card{border:1px solid #ccc;break-inside:avoid}
+  .kpi-card .value{color:#000!important}
+  .matrix-quadrant{border:1px solid #999!important;background:#f9f9f9!important}
+  .matrix-quadrant h3{color:#000!important}
+  .template-output{background:#f5f5f5;color:#000;border:1px solid #ccc}
+  table{font-size:10px}th{border-bottom:2px solid #000}td{border-bottom:1px solid #ccc}
+  .status-badge{border:1px solid #999}
+  .chart-container{max-height:300px}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="top-nav">
+  <div class="nav-logo">
+    <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="var(--primary)" stroke-width="2"/><path d="M10 22l6-14 6 14" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><line x1="12" y1="18" x2="20" y2="18" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/></svg>
+    ARIA
+  </div>
+  <div class="nav-links">
+    <a href="index.html">Overview</a>
+    <a href="domains.html">Domains</a>
+    <a href="infrastructure.html">Infrastructure</a>
+    <a href="monetization.html">Monetization</a>
+    <a href="enforcement.html" class="active">Enforcement</a>
+    <a href="regions.html">Regions</a>
+    <a href="reports.html">Reports</a>
+  </div>
+  <div class="nav-meta">
+    <span class="badge-threat">THREAT: HIGH</span>
+    <span class="freshness">Updated 2026-03-28 09:00 JST</span>
+    <button class="btn-export" onclick="window.print()">Export</button>
+  </div>
+</nav>
+
+<div class="page-wrap">
+  <!-- HEADER -->
+  <div class="page-header">
+    <h1>ENFORCEMENT CENTER</h1>
+    <p>Priority Matrix &times; Workflow &times; Templates</p>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="label">DMCA Submitted</div><div class="value blue">4,117</div></div>
+    <div class="kpi-card"><div class="label">Removed</div><div class="value green">2,950</div></div>
+    <div class="kpi-card"><div class="label">Success Rate</div><div class="value amber">71.7%</div></div>
+    <div class="kpi-card"><div class="label">Active Targets</div><div class="value red">10</div></div>
+  </div>
+
+  <!-- PRIORITY MATRIX -->
+  <div class="card">
+    <div class="card-title">
+      <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M3 3h6v6H3V3zm8 0h6v6h-6V3zM3 11h6v6H3v-6zm8 0h6v6h-6v-6z"/></svg>
+      Priority Matrix
+    </div>
+    <div style="display:flex;justify-content:space-between;margin-bottom:0.5rem">
+      <span class="matrix-axis" style="flex:1;text-align:center">LOW EFFORT</span>
+      <span class="matrix-axis" style="flex:1;text-align:center">HIGH EFFORT</span>
+    </div>
+    <div class="matrix-grid">
+      <div class="matrix-quadrant q-donow">
+        <h3>DO NOW &mdash; High Impact + Low Effort</h3>
+        <ul>
+          <li>MEGA DMCA &mdash; 127 URLs queued</li>
+          <li>Cloudflare Abuse &mdash; 204 severity-5 reports</li>
+          <li>Google Delisting &mdash; Top 50 infringing URLs</li>
+          <li>Rapidgator DMCA &mdash; 247 URLs queued</li>
+        </ul>
+      </div>
+      <div class="matrix-quadrant q-plan">
+        <h3>PLAN &mdash; High Impact + High Effort</h3>
+        <ul>
+          <li>Court Injunction &mdash; $80K, covers 520 domains</li>
+          <li>ISP Blocking &mdash; Requires legal process</li>
+        </ul>
+      </div>
+      <div class="matrix-quadrant q-quick">
+        <h3>QUICK WINS &mdash; Low Impact + Low Effort</h3>
+        <ul>
+          <li>WHOIS Lookup &mdash; 340 domains pending</li>
+          <li>Nitroflare DMCA &mdash; 189 URLs</li>
+          <li>1fichier DMCA &mdash; 28 URLs</li>
+        </ul>
+      </div>
+      <div class="matrix-quadrant q-depri">
+        <h3>DEPRIORITIZE &mdash; Low Impact + High Effort</h3>
+        <ul>
+          <li>Individual Site DMCA &mdash; Low coverage</li>
+          <li>Social Media Complaints &mdash; Minimal effect</li>
+        </ul>
+      </div>
+    </div>
+    <div style="display:flex;justify-content:space-between;margin-top:0.5rem">
+      <span class="matrix-axis" style="flex:1">&uarr; HIGH IMPACT</span>
+      <span class="matrix-axis" style="flex:1;text-align:right">&darr; LOW IMPACT</span>
+    </div>
+  </div>
+
+  <!-- ROI + HISTORY (two col) -->
+  <div class="two-col">
+    <!-- ROI CALCULATOR -->
+    <div class="card">
+      <div class="card-title">
+        <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M2 17V3h2v14H2zm4-4v4h2v-4H6zm4-6v10h2V7h-2zm4-4v14h2V3h-2z"/></svg>
+        Enforcement ROI Calculator
+      </div>
+      <div class="chart-container"><canvas id="roiChart"></canvas></div>
+      <div class="chart-insight">Cloudflare abuse reports offer highest ROI at 10,500:1</div>
+    </div>
+
+    <!-- DMCA HISTORY -->
+    <div class="card">
+      <div class="card-title">
+        <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M2 2v16h16v-2H4V2H2zm3 12l4-5 3 3 5-6v2l-5 5.5-3-3L5 16v-2z"/></svg>
+        DMCA Takedown History (12 mo)
+      </div>
+      <div class="chart-container"><canvas id="historyChart"></canvas></div>
+    </div>
+  </div>
+
+  <!-- TARGET TABLE -->
+  <div class="card">
+    <div class="card-title">
+      <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1a9 9 0 100 18A9 9 0 0010 1zm0 16a7 7 0 110-14 7 7 0 010 14zm0-12a5 5 0 100 10 5 5 0 000-10zm0 8a3 3 0 110-6 3 3 0 010 6z"/></svg>
+      Target Status
+    </div>
+    <div class="table-wrap">
+      <table id="targetTable">
+        <thead>
+          <tr>
+            <th>Pri</th><th>Target</th><th>Category</th><th>Status</th><th>Submitted</th><th>Removed</th><th>Pending</th><th>Success%</th><th>Last Action</th><th>Next Action</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- TEMPLATE GENERATOR -->
+  <div class="card">
+    <div class="card-title">
+      <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M4 2a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V4a2 2 0 00-2-2H4zm1 3h10v2H5V5zm0 4h10v2H5V9zm0 4h7v2H5v-2z"/></svg>
+      DMCA Template Generator
+    </div>
+    <div class="gen-form" id="genForm">
+      <div>
+        <label>Target Type</label>
+        <select id="tmplType">
+          <option value="filehost">Filehost</option>
+          <option value="cdn">CDN Abuse</option>
+          <option value="search">Search Delisting</option>
+        </select>
+      </div>
+      <div>
+        <label>Company Name</label>
+        <input type="text" id="tmplCompany" value="MEGA Limited" placeholder="e.g. MEGA Limited">
+      </div>
+      <div class="full">
+        <label>Title of Copyrighted Work</label>
+        <input type="text" id="tmplTitle" value="One Piece Chapter 1145" placeholder="e.g. One Piece Chapter 1145">
+      </div>
+      <div class="full">
+        <label>Infringing URLs (one per line)</label>
+        <textarea id="tmplUrls" placeholder="https://mega.nz/file/abc123&#10;https://mega.nz/file/def456">https://mega.nz/file/abc123
+https://mega.nz/file/def456
+https://mega.nz/file/ghi789</textarea>
+      </div>
+    </div>
+    <div class="btn-row">
+      <button class="btn btn-primary" onclick="generateTemplate()">Generate</button>
+      <button class="btn btn-secondary" onclick="copyTemplate()">Copy to Clipboard</button>
+    </div>
+    <div class="template-output" id="templateOutput"></div>
+  </div>
+</div>
+
+<script>
+/* ── ROI CHART ── */
+const roiCtx = document.getElementById('roiChart').getContext('2d');
+const roiData = [
+  {label:'DMCA Filehost', cost:500, recovery:800000, roi:1600},
+  {label:'Cloudflare Abuse', cost:200, recovery:2100000, roi:10500},
+  {label:'ASN Termination', cost:15000, recovery:4300000, roi:287},
+  {label:'Court Injunction', cost:80000, recovery:18200000, roi:228},
+  {label:'Platform Delisting', cost:2000, recovery:3100000, roi:1550},
+];
+new Chart(roiCtx, {
+  type:'bar',
+  data:{
+    labels: roiData.map(d=>d.label),
+    datasets:[{
+      label:'ROI Ratio',
+      data: roiData.map(d=>d.roi),
+      backgroundColor: roiData.map(d=> d.roi>5000 ? '#00cc7a' : d.roi>1000 ? '#00cc7a99' : '#ffaa00'),
+      borderRadius:6,
+      barPercentage:0.65
+    }]
+  },
+  options:{
+    responsive:true, maintainAspectRatio:false,
+    plugins:{
+      legend:{display:false},
+      tooltip:{
+        callbacks:{
+          afterLabel: function(ctx){
+            const d = roiData[ctx.dataIndex];
+            return `Cost: $${d.cost.toLocaleString()}\nRecovery: $${d.recovery.toLocaleString()}\nROI: ${d.roi.toLocaleString()}:1`;
+          }
+        }
+      }
+    },
+    scales:{
+      x:{ticks:{color:'#7a9bbf',font:{size:11}},grid:{display:false}},
+      y:{ticks:{color:'#3d5470',callback:v=>v.toLocaleString()+':1'},grid:{color:'rgba(61,84,112,.2)'}}
+    }
+  }
+});
+
+/* ── HISTORY CHART ── */
+const hCtx = document.getElementById('historyChart').getContext('2d');
+const months = ['Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec','Jan','Feb','Mar'];
+const submitted = [234,189,312,278,345,267,401,356,423,389,445,478];
+const acknowledged = [198,156,274,241,298,231,356,312,378,341,398,432];
+const removed = [167,128,231,198,245,187,301,267,318,289,341,378];
+const successRate = [71,68,74,71,71,70,75,75,75,74,77,79];
+new Chart(hCtx, {
+  type:'line',
+  data:{
+    labels:months,
+    datasets:[
+      {label:'Submitted',data:submitted,borderColor:'#1a8cff',backgroundColor:'rgba(26,140,255,.1)',fill:true,tension:.3,pointRadius:3},
+      {label:'Acknowledged',data:acknowledged,borderColor:'#ffaa00',backgroundColor:'transparent',tension:.3,pointRadius:3,borderDash:[5,3]},
+      {label:'Removed',data:removed,borderColor:'#00cc7a',backgroundColor:'rgba(0,204,122,.08)',fill:true,tension:.3,pointRadius:3},
+      {label:'Success %',data:successRate,borderColor:'#6b4fff',backgroundColor:'transparent',tension:.3,pointRadius:2,borderWidth:1.5,yAxisID:'y1'}
+    ]
+  },
+  options:{
+    responsive:true, maintainAspectRatio:false,
+    plugins:{legend:{labels:{color:'#7a9bbf',font:{size:11}}}},
+    scales:{
+      x:{ticks:{color:'#7a9bbf',font:{size:11}},grid:{display:false}},
+      y:{ticks:{color:'#3d5470'},grid:{color:'rgba(61,84,112,.15)'},title:{display:true,text:'Count',color:'#3d5470'}},
+      y1:{position:'right',min:50,max:100,ticks:{color:'#6b4fff',callback:v=>v+'%'},grid:{display:false},title:{display:true,text:'Success %',color:'#6b4fff'}}
+    }
+  }
+});
+
+/* ── TARGET TABLE ── */
+const targets = [
+  {pri:1, name:'MEGA.NZ', cat:'Filehost', status:'IN_PROGRESS', sub:487, rem:341, pend:146, suc:70.0, last:'2026-03-26 DMCA batch #47', next:'Follow-up batch #48'},
+  {pri:1, name:'Rapidgator', cat:'Filehost', status:'IN_PROGRESS', sub:612, rem:389, pend:223, suc:63.6, last:'2026-03-25 DMCA batch #31', next:'Escalate non-response'},
+  {pri:2, name:'Nitroflare', cat:'Filehost', status:'IN_PROGRESS', sub:389, rem:298, pend:91, suc:76.6, last:'2026-03-24 DMCA batch #19', next:'Batch #20 (189 URLs)'},
+  {pri:1, name:'Cloudflare', cat:'CDN/Proxy', status:'ONGOING', sub:834, rem:612, pend:222, suc:73.4, last:'2026-03-27 Abuse batch #52', next:'204 sev-5 reports'},
+  {pri:1, name:'Google Search', cat:'Search Engine', status:'ONGOING', sub:1245, rem:987, pend:258, suc:79.3, last:'2026-03-27 Delisting #84', next:'Top 50 infringing URLs'},
+  {pri:3, name:'3NT Solutions', cat:'Hosting', status:'PLANNED', sub:45, rem:12, pend:33, suc:26.7, last:'2026-03-10 Initial notice', next:'Upstream provider contact'},
+  {pri:3, name:'AEZA Group', cat:'Hosting', status:'PLANNED', sub:28, rem:4, pend:24, suc:14.3, last:'2026-03-08 Initial notice', next:'RIR abuse complaint'},
+  {pri:2, name:'Namecheap', cat:'Registrar', status:'IN_PROGRESS', sub:156, rem:112, pend:44, suc:71.8, last:'2026-03-22 Abuse batch #11', next:'Domain suspension request'},
+  {pri:2, name:'Filecrypt.cc', cat:'Link Protector', status:'IN_PROGRESS', sub:234, rem:156, pend:78, suc:66.7, last:'2026-03-20 Abuse report', next:'CDN provider escalation'},
+  {pri:3, name:'1fichier', cat:'Filehost', status:'COMPLETED', sub:87, rem:39, pend:0, suc:44.8, last:'2026-03-15 Final batch', next:'28 new URLs queued'}
+];
+const tbody = document.querySelector('#targetTable tbody');
+targets.forEach(t=>{
+  const tr = document.createElement('tr');
+  tr.innerHTML = `
+    <td><span class="priority-badge p-${t.pri}">${t.pri}</span></td>
+    <td style="font-weight:600">${t.name}</td>
+    <td>${t.cat}</td>
+    <td><span class="status-badge status-${t.status}">${t.status.replace('_',' ')}</span></td>
+    <td>${t.sub.toLocaleString()}</td>
+    <td>${t.rem.toLocaleString()}</td>
+    <td>${t.pend.toLocaleString()}</td>
+    <td style="color:${t.suc>=70?'var(--success)':t.suc>=50?'var(--warning)':'var(--danger)'}">${t.suc}%</td>
+    <td class="mono" style="font-size:.72rem">${t.last}</td>
+    <td style="font-size:.8rem">${t.next}</td>`;
+  tbody.appendChild(tr);
+});
+
+/* sortable headers */
+document.querySelectorAll('#targetTable th').forEach((th,i)=>{
+  let asc=true;
+  th.addEventListener('click',()=>{
+    const rows=[...tbody.querySelectorAll('tr')];
+    rows.sort((a,b)=>{
+      let va=a.children[i].textContent.trim(), vb=b.children[i].textContent.trim();
+      const na=parseFloat(va.replace(/[^0-9.\-]/g,'')), nb=parseFloat(vb.replace(/[^0-9.\-]/g,''));
+      if(!isNaN(na)&&!isNaN(nb)) return asc?na-nb:nb-na;
+      return asc?va.localeCompare(vb):vb.localeCompare(va);
+    });
+    asc=!asc;
+    rows.forEach(r=>tbody.appendChild(r));
+  });
+});
+
+/* ── TEMPLATE GENERATOR ── */
+function generateTemplate(){
+  const type = document.getElementById('tmplType').value;
+  const company = document.getElementById('tmplCompany').value || '[Company Name]';
+  const title = document.getElementById('tmplTitle').value || '[Title]';
+  const urls = document.getElementById('tmplUrls').value.trim().split('\n').filter(u=>u.trim()).map(u=>'  '+u.trim()).join('\n');
+  const today = new Date().toISOString().split('T')[0];
+
+  let recipient = company;
+  let address = '';
+  if(type==='filehost'){
+    address = `To: ${company} — Abuse / DMCA Department`;
+  } else if(type==='cdn'){
+    address = `To: ${company} — Trust & Safety / Abuse Department`;
+  } else {
+    address = `To: ${company} — Content Removal / Legal Department`;
+  }
+
+  const template =
+`${address}
+Date: ${today}
+Subject: DMCA Takedown Notice — ${title}
+
+Dear ${company} Trust & Safety Team,
+
+I am writing to notify you, pursuant to the Digital Millennium Copyright Act
+(17 U.S.C. § 512), of infringing material hosted on / accessible through
+your service.
+
+1. COPYRIGHTED WORK
+   Title: ${title}
+   Copyright Owner: [Rights Holder Name]
+   Registration: [Registration # if applicable]
+
+2. INFRINGING MATERIAL
+   The following URLs contain unauthorized copies of the above work:
+
+${urls}
+
+3. GOOD FAITH STATEMENT
+   I have a good faith belief that use of the material in the manner
+   complained of is not authorized by the copyright owner, its agent, or
+   the law.
+
+4. ACCURACY STATEMENT
+   The information in this notification is accurate, and under penalty of
+   perjury, I am authorized to act on behalf of the owner of an exclusive
+   right that is allegedly infringed.
+
+5. CONTACT INFORMATION
+   Name:    [Your Full Name]
+   Title:   [Your Title]
+   Company: [Your Company]
+   Email:   [Your Email]
+   Phone:   [Your Phone]
+   Address: [Your Address]
+
+${type==='search'?`6. SPECIFIC REQUEST
+   Please remove or disable access to the above URLs from your search
+   index pursuant to 17 U.S.C. § 512(d).
+
+`:''}Signature: ____________________________
+Date: ${today}
+
+---
+This notice is sent in compliance with the Digital Millennium Copyright Act
+(17 U.S.C. § 512). Failure to respond may result in further legal action.`;
+
+  const out = document.getElementById('templateOutput');
+  out.textContent = template;
+  out.classList.add('visible');
+}
+
+function copyTemplate(){
+  const out = document.getElementById('templateOutput');
+  if(!out.textContent){generateTemplate();}
+  navigator.clipboard.writeText(out.textContent).then(()=>{
+    const btn = document.querySelector('.btn-secondary');
+    const orig = btn.textContent;
+    btn.textContent = 'Copied!';
+    btn.style.borderColor = 'var(--success)';
+    btn.style.color = 'var(--success)';
+    setTimeout(()=>{btn.textContent=orig;btn.style.borderColor='';btn.style.color='';},2000);
+  });
+}
+
+// Pre-fill template on load
+generateTemplate();
+</script>
+</body>
+</html>

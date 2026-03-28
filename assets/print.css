@@ -1,0 +1,235 @@
+@page {
+  size: A4 landscape;
+  margin: 12mm;
+}
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background-image: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    filter: none !important;
+    animation: none !important;
+    transition: none !important;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    color: #111 !important;
+    font-size: 10pt;
+    line-height: 1.4;
+  }
+
+  body::before {
+    display: none !important;
+  }
+
+  .aria-nav,
+  .feed-item,
+  .feed-action,
+  .btn-primary,
+  .btn-secondary,
+  .btn-danger,
+  .btn-export,
+  .nav-hamburger,
+  .aria-tooltip,
+  .pulse-dot,
+  [data-interactive],
+  button,
+  .nav-actions {
+    display: none !important;
+  }
+
+  .aria-page {
+    padding-top: 0 !important;
+  }
+
+  .container {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  a {
+    color: #111 !important;
+    text-decoration: none !important;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 8pt;
+    color: #666;
+  }
+
+  .kpi-card {
+    background: #fff !important;
+    border: 1px solid #ccc !important;
+    padding: 12px 16px !important;
+    page-break-inside: avoid;
+  }
+
+  .kpi-card::before {
+    display: none !important;
+  }
+
+  .kpi-value {
+    color: #111 !important;
+    background: none !important;
+    -webkit-background-clip: unset !important;
+    -webkit-text-fill-color: #111 !important;
+    font-size: 24pt !important;
+  }
+
+  .kpi-value.danger {
+    color: #cc0022 !important;
+    -webkit-text-fill-color: #cc0022 !important;
+  }
+
+  .kpi-value.warning {
+    color: #aa7700 !important;
+    -webkit-text-fill-color: #aa7700 !important;
+  }
+
+  .kpi-value.accent {
+    color: #008866 !important;
+    -webkit-text-fill-color: #008866 !important;
+  }
+
+  .kpi-label,
+  .kpi-sub,
+  .kpi-delta {
+    color: #555 !important;
+  }
+
+  .aria-card {
+    background: #fff !important;
+    border: 1px solid #ccc !important;
+    page-break-inside: avoid;
+  }
+
+  .section-header {
+    page-break-after: avoid;
+  }
+
+  .section-divider {
+    border-bottom: 1px solid #ccc !important;
+    background: none !important;
+  }
+
+  .section-tag {
+    background: #eee !important;
+    color: #333 !important;
+    border: 1px solid #ccc !important;
+  }
+
+  .severity-badge {
+    border: 1px solid #999 !important;
+    color: #111 !important;
+  }
+
+  .severity-badge.critical {
+    background: #fdd !important;
+  }
+
+  .severity-badge.high {
+    background: #fec !important;
+  }
+
+  .severity-badge.medium {
+    background: #def !important;
+  }
+
+  .severity-badge.low {
+    background: #dfd !important;
+  }
+
+  .chart-container {
+    max-height: 300px !important;
+    page-break-inside: avoid;
+  }
+
+  .chart-container canvas,
+  .chart-container svg {
+    max-height: 280px !important;
+  }
+
+  .aria-table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+  }
+
+  .aria-table th {
+    background: #f4f4f4 !important;
+    color: #333 !important;
+    border: 1px solid #bbb !important;
+    font-size: 8pt !important;
+    padding: 4px 8px !important;
+  }
+
+  .aria-table td {
+    color: #222 !important;
+    border: 1px solid #ccc !important;
+    font-size: 9pt !important;
+    padding: 4px 8px !important;
+  }
+
+  .aria-table tr:hover {
+    background: transparent !important;
+  }
+
+  .aria-analysis {
+    background: #f9f9f9 !important;
+    border-left: 3px solid #999 !important;
+    color: #333 !important;
+    page-break-inside: avoid;
+  }
+
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .grid-6 {
+    display: grid !important;
+    gap: 8px !important;
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  .grid-3 {
+    grid-template-columns: 1fr 1fr 1fr !important;
+  }
+
+  .grid-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  }
+
+  section,
+  .page-section {
+    break-before: page;
+  }
+
+  section:first-of-type {
+    break-before: auto;
+  }
+
+  .page-header {
+    break-after: avoid;
+  }
+
+  .print-footer {
+    display: block !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 7pt;
+    color: #999;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 4px;
+  }
+}

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" width="200" height="48">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a8cff"/>
+      <stop offset="100%" stop-color="#6b4fff"/>
+    </linearGradient>
+    <clipPath id="shieldClip">
+      <path d="M24,4 L40,10 L40,26 C40,34 33,40 24,44 C15,40 8,34 8,26 L8,10 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Shield outline -->
+  <path d="M24,4 L40,10 L40,26 C40,34 33,40 24,44 C15,40 8,34 8,26 L8,10 Z"
+        fill="none" stroke="url(#shieldGrad)" stroke-width="1.5" opacity="0.9"/>
+
+  <!-- Radar ripple circles -->
+  <g clip-path="url(#shieldClip)">
+    <circle cx="24" cy="24" r="6" fill="none" stroke="url(#shieldGrad)" stroke-width="0.6" opacity="0.15"/>
+    <circle cx="24" cy="24" r="11" fill="none" stroke="url(#shieldGrad)" stroke-width="0.5" opacity="0.12"/>
+    <circle cx="24" cy="24" r="16" fill="none" stroke="url(#shieldGrad)" stroke-width="0.4" opacity="0.08"/>
+    <circle cx="24" cy="24" r="21" fill="none" stroke="url(#shieldGrad)" stroke-width="0.3" opacity="0.05"/>
+  </g>
+
+  <!-- Center accent dot -->
+  <circle cx="24" cy="24" r="2.5" fill="#00e5cc" opacity="0.9"/>
+
+  <!-- ARIA text -->
+  <text x="52" y="28" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="22" fill="url(#shieldGrad)" letter-spacing="1.5">ARIA</text>
+
+  <!-- Subtitle -->
+  <text x="52" y="40" font-family="'Inter', sans-serif" font-weight="400" font-size="9" fill="#7a9bbf" letter-spacing="2.5">GAME IP INTELLIGENCE</text>
+</svg>

@@ -1,0 +1,880 @@
+/* ============================================================
+   ARIA Design System — aria-components.css
+   Game IP Intelligence Dashboard
+   ============================================================ */
+
+/* 1. CSS Variables
+   ------------------------------------------------------------ */
+:root {
+  --bg-0: #020508;
+  --bg-1: #060b12;
+  --bg-2: #0c1420;
+  --bg-3: #131d2e;
+  --bg-glass: rgba(12, 20, 32, 0.92);
+
+  --text-1: #dce8f8;
+  --text-2: #7a9bbf;
+  --text-3: #3d5470;
+
+  --aria-primary: #1a8cff;
+  --aria-secondary: #6b4fff;
+  --aria-accent: #00e5cc;
+  --aria-danger: #ff3344;
+  --aria-warning: #ffaa00;
+  --aria-success: #00cc7a;
+  --aria-neutral: #4a6080;
+
+  --glow-primary: 0 0 16px rgba(26, 140, 255, 0.25);
+  --glow-danger: 0 0 16px rgba(255, 51, 68, 0.25);
+  --glow-accent: 0 0 16px rgba(0, 229, 204, 0.25);
+
+  --border: rgba(26, 140, 255, 0.1);
+  --border-strong: rgba(26, 140, 255, 0.22);
+
+  --grid-line: rgba(26, 140, 255, 0.04);
+
+  --nav-height: 60px;
+  --container-max: 1600px;
+  --gap: 16px;
+  --radius: 8px;
+  --radius-lg: 10px;
+
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
+}
+
+/* 2. Reset + Body
+   ------------------------------------------------------------ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-1);
+  background-color: var(--bg-0);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+}
+
+/* 3. Navigation (.aria-nav)
+   ------------------------------------------------------------ */
+.aria-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: var(--nav-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  background: var(--bg-glass);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-logo {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.nav-logo img,
+.nav-logo svg {
+  height: 32px;
+  width: auto;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  list-style: none;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-2);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.nav-link:hover {
+  color: var(--text-1);
+  border-bottom-color: var(--text-3);
+}
+
+.nav-link.active {
+  color: var(--aria-primary);
+  border-bottom-color: var(--aria-primary);
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.threat-level {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border: 1px solid;
+}
+
+.threat-level.critical {
+  color: var(--aria-danger);
+  border-color: rgba(255, 51, 68, 0.3);
+  background: rgba(255, 51, 68, 0.08);
+}
+
+.threat-level.elevated {
+  color: var(--aria-warning);
+  border-color: rgba(255, 170, 0, 0.3);
+  background: rgba(255, 170, 0, 0.08);
+}
+
+.threat-level.normal {
+  color: var(--aria-success);
+  border-color: rgba(0, 204, 122, 0.3);
+  background: rgba(0, 204, 122, 0.08);
+}
+
+.nav-freshness {
+  font-size: 11px;
+  color: var(--text-3);
+  font-family: var(--font-mono);
+}
+
+.btn-export {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--aria-primary);
+  background: rgba(26, 140, 255, 0.08);
+  border: 1px solid rgba(26, 140, 255, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.btn-export:hover {
+  background: rgba(26, 140, 255, 0.15);
+  border-color: rgba(26, 140, 255, 0.4);
+}
+
+.nav-hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.nav-hamburger span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: var(--text-2);
+  border-radius: 1px;
+  transition: transform 0.2s;
+}
+
+/* 4. KPI Cards (.kpi-card)
+   ------------------------------------------------------------ */
+.kpi-card {
+  position: relative;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.kpi-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--aria-primary), var(--aria-secondary));
+}
+
+.kpi-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--glow-primary);
+}
+
+.kpi-label {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-3);
+  margin-bottom: 8px;
+}
+
+.kpi-value {
+  font-family: var(--font-mono);
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1.1;
+  color: var(--text-1);
+  margin-bottom: 6px;
+}
+
+.kpi-value.danger {
+  color: var(--aria-danger);
+}
+
+.kpi-value.warning {
+  color: var(--aria-warning);
+}
+
+.kpi-value.accent {
+  color: var(--aria-accent);
+}
+
+.kpi-sub {
+  font-size: 11px;
+  color: var(--text-3);
+  line-height: 1.4;
+}
+
+.kpi-delta {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: var(--font-mono);
+  margin-left: 4px;
+}
+
+.kpi-delta.up {
+  color: var(--aria-danger);
+}
+
+.kpi-delta.down {
+  color: var(--aria-success);
+}
+
+/* 5. Severity Badges (.severity-badge)
+   ------------------------------------------------------------ */
+.severity-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.6;
+}
+
+.severity-badge.critical {
+  color: var(--aria-danger);
+  background: rgba(255, 51, 68, 0.1);
+  border: 1px solid rgba(255, 51, 68, 0.25);
+}
+
+.severity-badge.high {
+  color: var(--aria-warning);
+  background: rgba(255, 170, 0, 0.1);
+  border: 1px solid rgba(255, 170, 0, 0.25);
+}
+
+.severity-badge.medium {
+  color: var(--aria-primary);
+  background: rgba(26, 140, 255, 0.1);
+  border: 1px solid rgba(26, 140, 255, 0.25);
+}
+
+.severity-badge.low {
+  color: var(--aria-success);
+  background: rgba(0, 204, 122, 0.1);
+  border: 1px solid rgba(0, 204, 122, 0.25);
+}
+
+/* 6. Pulse Animation (.pulse-dot)
+   ------------------------------------------------------------ */
+.pulse-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--aria-danger);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.3);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* 7. Data Tables (.aria-table)
+   ------------------------------------------------------------ */
+.aria-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.aria-table th {
+  font-size: 9px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-3);
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border-strong);
+  white-space: nowrap;
+}
+
+.aria-table td {
+  font-size: 12px;
+  color: var(--text-2);
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+
+.aria-table tr:hover td {
+  background: rgba(26, 140, 255, 0.04);
+}
+
+.aria-table .mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+/* 8. Section Headers (.section-header)
+   ------------------------------------------------------------ */
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.section-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--aria-primary);
+  background: rgba(26, 140, 255, 0.08);
+  border: 1px solid rgba(26, 140, 255, 0.2);
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--text-1);
+  line-height: 1.2;
+}
+
+.section-subtitle {
+  font-size: 12px;
+  color: var(--text-3);
+  margin-left: auto;
+}
+
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, var(--border-strong), transparent);
+  margin-bottom: 24px;
+}
+
+/* 9. Cards (.aria-card)
+   ------------------------------------------------------------ */
+.aria-card {
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  transition: box-shadow 0.2s;
+}
+
+.aria-card:hover {
+  box-shadow: var(--glow-primary);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.card-header .card-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-1);
+}
+
+.card-header .card-action {
+  font-size: 11px;
+  color: var(--aria-primary);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.card-header .card-action:hover {
+  text-decoration: underline;
+}
+
+/* 10. Grid System
+   ------------------------------------------------------------ */
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-6 {
+  display: grid;
+  gap: var(--gap);
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+.span-3 {
+  grid-column: span 3;
+}
+
+/* 11. Feed Items (.feed-item)
+   ------------------------------------------------------------ */
+.feed-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 16px;
+  border-left: 3px solid var(--aria-neutral);
+  background: transparent;
+  transition: background 0.15s;
+}
+
+.feed-item:hover {
+  background: rgba(26, 140, 255, 0.03);
+}
+
+.feed-item.critical {
+  border-left-color: var(--aria-danger);
+}
+
+.feed-item.high {
+  border-left-color: var(--aria-warning);
+}
+
+.feed-item.medium {
+  border-left-color: var(--aria-primary);
+}
+
+.feed-item.low {
+  border-left-color: var(--aria-success);
+}
+
+.feed-time {
+  flex-shrink: 0;
+  font-size: 10px;
+  font-family: var(--font-mono);
+  color: var(--text-3);
+  min-width: 56px;
+  padding-top: 2px;
+}
+
+.feed-content {
+  flex: 1;
+  font-size: 12px;
+  color: var(--text-2);
+  line-height: 1.5;
+}
+
+.feed-content strong {
+  color: var(--text-1);
+  font-weight: 600;
+}
+
+.feed-action {
+  flex-shrink: 0;
+  font-size: 11px;
+  color: var(--aria-primary);
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.feed-item:hover .feed-action {
+  opacity: 1;
+}
+
+/* 12. Buttons
+   ------------------------------------------------------------ */
+.btn-primary,
+.btn-secondary,
+.btn-danger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 20px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: var(--font-sans);
+  letter-spacing: 0.02em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.15s, box-shadow 0.2s;
+  text-decoration: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background: linear-gradient(135deg, var(--aria-primary), var(--aria-secondary));
+  box-shadow: var(--glow-primary);
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  color: var(--text-1);
+  background: var(--bg-3);
+  border: 1px solid var(--border-strong);
+}
+
+.btn-secondary:hover {
+  background: rgba(26, 140, 255, 0.1);
+  border-color: var(--aria-primary);
+}
+
+.btn-danger {
+  color: #fff;
+  background: linear-gradient(135deg, var(--aria-danger), #cc1133);
+  box-shadow: var(--glow-danger);
+}
+
+.btn-danger:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+/* 13. Tooltips (.aria-tooltip)
+   ------------------------------------------------------------ */
+.aria-tooltip {
+  position: absolute;
+  z-index: 2000;
+  padding: 8px 12px;
+  font-size: 11px;
+  line-height: 1.4;
+  color: var(--text-1);
+  background: var(--bg-3);
+  border: 1px solid var(--border-strong);
+  border-radius: 4px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.aria-tooltip.visible {
+  opacity: 1;
+}
+
+.aria-tooltip::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 8px;
+  height: 8px;
+  background: var(--bg-3);
+  border-right: 1px solid var(--border-strong);
+  border-bottom: 1px solid var(--border-strong);
+}
+
+/* 14. Analysis Panels (.aria-analysis)
+   ------------------------------------------------------------ */
+.aria-analysis {
+  background: linear-gradient(135deg, rgba(26, 140, 255, 0.04), rgba(107, 79, 255, 0.02));
+  border-left: 3px solid var(--aria-accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 16px 20px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text-2);
+}
+
+.aria-analysis strong {
+  color: var(--text-1);
+}
+
+.aria-analysis code {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  padding: 2px 6px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  color: var(--aria-accent);
+}
+
+/* 15. Chart Containers (.chart-container)
+   ------------------------------------------------------------ */
+.chart-container {
+  position: relative;
+  width: 100%;
+  max-height: 420px;
+}
+
+.chart-container canvas {
+  width: 100% !important;
+  max-height: 400px;
+}
+
+.chart-container.aspect-16-9 {
+  aspect-ratio: 16 / 9;
+}
+
+.chart-container.aspect-4-3 {
+  aspect-ratio: 4 / 3;
+}
+
+.chart-container.aspect-1-1 {
+  aspect-ratio: 1 / 1;
+  max-height: 360px;
+}
+
+/* 16. Page Layout
+   ------------------------------------------------------------ */
+.aria-page {
+  padding-top: var(--nav-height);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.page-header {
+  padding: 40px 0 24px;
+}
+
+.page-header .page-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--text-1);
+  margin-bottom: 6px;
+}
+
+.page-header .page-subtitle {
+  font-size: 14px;
+  color: var(--text-3);
+}
+
+/* 17. Responsive
+   ------------------------------------------------------------ */
+@media (max-width: 1200px) {
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-6 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .span-3 {
+    grid-column: span 2;
+  }
+
+  .container {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: var(--nav-height);
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: var(--bg-glass);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    padding: 8px 0;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-link {
+    padding: 12px 32px;
+    border-bottom: none;
+    width: 100%;
+  }
+
+  .nav-link.active {
+    border-bottom: none;
+    background: rgba(26, 140, 255, 0.06);
+  }
+
+  .nav-hamburger {
+    display: flex;
+  }
+
+  .nav-freshness {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .grid-6 {
+    grid-template-columns: 1fr;
+  }
+
+  .span-2,
+  .span-3 {
+    grid-column: span 1;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .aria-nav {
+    padding: 0 16px;
+  }
+
+  .kpi-value {
+    font-size: 28px;
+  }
+
+  .page-header {
+    padding: 24px 0 16px;
+  }
+
+  .page-header .page-title {
+    font-size: 22px;
+  }
+
+  .aria-card {
+    padding: 16px;
+  }
+
+  .kpi-card {
+    padding: 16px;
+  }
+
+  .section-header {
+    flex-wrap: wrap;
+  }
+
+  .section-subtitle {
+    margin-left: 0;
+    width: 100%;
+  }
+}
