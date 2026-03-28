@@ -923,31 +923,23 @@ function initEcotypeChart(){
   const ctx=document.getElementById('ecotype-chart');
   if(!ctx||typeof Chart==='undefined') return;
   new Chart(ctx,{
-    type:'line',
+    type:'doughnut',
     data:{
-      labels:['Q1\'24','Q2\'24','Q3\'24','Q4\'24','Q1\'25','Q2\'25','Q3\'25','Q4\'25','Q1\'26'],
-      datasets:[
-        {label:'Streaming',data:[820,960,1100,1340,1580,1820,2050,2280,2480],
-         borderColor:'#1a8cff',backgroundColor:'rgba(26,140,255,.08)',fill:true,tension:.4,pointRadius:0,borderWidth:2},
-        {label:'Reader',data:[3200,3350,3480,3600,3700,3750,3820,3900,3950],
-         borderColor:'#6b4fff',backgroundColor:'rgba(107,79,255,.06)',fill:true,tension:.4,pointRadius:0,borderWidth:2},
-        {label:'DDL',data:[1100,1020,950,870,810,740,680,640,610],
-         borderColor:'#ff3344',backgroundColor:'rgba(255,51,68,.06)',fill:true,tension:.4,pointRadius:0,borderWidth:2},
-        {label:'Torrent',data:[600,540,480,420,380,340,310,280,260],
-         borderColor:'#ffaa00',backgroundColor:'rgba(255,170,0,.06)',fill:true,tension:.4,pointRadius:0,borderWidth:2}
-      ]
+      labels:['Unclassified (2,936)','Mobile (278)','Torrent (224)','ROM (214)','Repack (43)','DDL (32)','Crack (28)'],
+      datasets:[{
+        data:[2936,278,224,214,43,32,28],
+        backgroundColor:['#3d5470','#1a8cff','#ffaa00','#6b4fff','#00e5cc','#ff3344','#ff6633'],
+        borderColor:'#0c1420',borderWidth:2,hoverOffset:6
+      }]
     },
     options:{
       responsive:true,maintainAspectRatio:false,
-      interaction:{mode:'index',intersect:false},
+      cutout:'55%',
       plugins:{
         legend:{display:true,position:'bottom',labels:{
-          color:'#7a9bbf',font:{size:10,family:'Inter'},boxWidth:12,padding:8,usePointStyle:true
-        }}
-      },
-      scales:{
-        x:{grid:{color:'rgba(26,140,255,.06)'},ticks:{color:'#3d5470',font:{size:9,family:'JetBrains Mono'}}},
-        y:{grid:{color:'rgba(26,140,255,.06)'},ticks:{color:'#3d5470',font:{size:9,family:'JetBrains Mono'},callback:v=>v>=1000?(v/1000)+'K':v}}
+          color:'#7a9bbf',font:{size:9,family:'Inter'},boxWidth:10,padding:6,usePointStyle:true
+        }},
+        tooltip:{callbacks:{label:function(c){const v=c.raw;const pct=(v/3755*100).toFixed(1);return c.label+': '+v.toLocaleString()+' ('+pct+'%)'}}}
       }
     }
   });
