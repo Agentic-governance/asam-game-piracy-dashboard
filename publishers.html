@@ -191,6 +191,13 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 </style>
 </head>
 <body>
+<script>
+// Redirect hash-based links to individual pages
+var SLUGS = {activision:'activision',nintendo:'nintendo',sony:'sony',ea:'ea','square-enix':'square-enix',sega:'sega','bandai-namco':'bandai-namco',ubisoft:'ubisoft',capcom:'capcom',microsoft:'microsoft',bethesda:'bethesda',rockstar:'rockstar',konami:'konami','2k-games':'2k-games','warner-bros':'warner-bros','505-games':'505-games','thq-nordic':'thq-nordic',valve:'valve','koei-tecmo':'koei-tecmo',paradox:'paradox'};
+var h = location.hash.replace('#','').toLowerCase();
+if (h) { for (var k in SLUGS) { if (k.indexOf(h) >= 0 || SLUGS[k].indexOf(h) >= 0) { location.replace('publishers/' + SLUGS[k] + '.html'); break; } } }
+</script>
+
 
 <!-- ════════════════════ NAV ═════════════════════════════ -->
 <nav class="nav">
