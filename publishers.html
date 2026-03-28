@@ -9,6 +9,8 @@
 <title>Publisher Intelligence — ARIA</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="assets/chart.min.js"></script>
+<script src="assets/d3.min.js"></script>
+<script src="publisher_networks.js"></script>
 <style>
 /* ── Design Tokens ─────────────────────────────────────── */
 :root {
@@ -72,6 +74,13 @@ body { font-family: var(--sans); background: var(--bg-0); color: var(--text-1); 
 /* ── Publisher Detail ──────────────────────────────────── */
 .pub-section { max-width:1440px; margin:0 auto; padding:32px 40px; scroll-margin-top:70px; }
 .pub-section + .pub-section { border-top:1px solid var(--border); }
+.pub-network-wrap{margin-top:20px;background:var(--bg-1);border:1px solid var(--border);border-radius:10px;padding:16px;position:relative}
+.pub-network-wrap h4{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+.pub-network-wrap canvas{width:100%;height:380px;border-radius:6px;cursor:grab}
+.pub-net-legend{display:flex;gap:12px;margin-top:8px;flex-wrap:wrap;font-size:10px;color:var(--text-3)}
+.pub-net-legend span{display:flex;align-items:center;gap:4px}
+.pub-net-legend .ld{width:8px;height:8px;border-radius:50%}
+.pub-net-legend .ldm{width:8px;height:8px;transform:rotate(45deg)}
 .pub-head { display:flex; align-items:center; gap:16px; margin-bottom:24px; }
 .rank-badge { width:44px; height:44px; display:flex; align-items:center; justify-content:center; border-radius:10px; font-size:18px; font-weight:900; flex-shrink:0; font-family:var(--mono); }
 .rank-badge.r-top { background:rgba(255,51,68,.1); border:1px solid rgba(255,51,68,.25); color:var(--danger); }
@@ -689,6 +698,94 @@ document.addEventListener('DOMContentLoaded', function() {
   `;
   container.insertBefore(masterBanner, sections[0]);
 });
+</script>
+
+<script>
+/* ── Publisher Network Canvases (IntersectionObserver lazy load) ── */
+(function(){
+if(typeof PUB_NETWORKS==='undefined')return;
+const ECO={torrent:'#ff3344',repack:'#ff6b81',rom:'#ffaa00',ROM:'#ffaa00',mobile:'#ffc800',ddl:'#00cc7a',DDL:'#00cc7a',crack:'#6b4fff',unclassified:'rgba(74,96,128,0.4)'};
+
+document.querySelectorAll('.pub-section').forEach(function(sec){
+  var heading=sec.querySelector('h2');
+  if(!heading)return;
+  var pubName=heading.textContent.trim();
+  var net=PUB_NETWORKS[pubName];
+  if(!net||net.nodes.length<10)return;
+
+  var wrap=document.createElement('div');
+  wrap.className='pub-network-wrap';
+  wrap.innerHTML='<h4>⬡ '+pubName+' Piracy Network — '+net.stats.domains+' domains, '+net.stats.asns+' ASN clusters</h4><canvas class="pub-net-canvas"></canvas><div class="pub-net-legend"><span><span class="ld" style="background:#ff3344"></span>Torrent</span><span><span class="ld" style="background:#ffaa00"></span>ROM</span><span><span class="ld" style="background:#ffc800"></span>Mobile</span><span><span class="ld" style="background:#00cc7a"></span>DDL</span><span><span class="ldm" style="background:#1a8cff"></span>ASN ◆</span></div>';
+  sec.appendChild(wrap);
+
+  var canvas=wrap.querySelector('canvas');
+  var initialized=false;
+
+  var obs=new IntersectionObserver(function(entries){
+    if(entries[0].isIntersecting&&!initialized){
+      initialized=true;
+      obs.disconnect();
+      initPubNetwork(canvas,net);
+    }
+  },{threshold:0.1});
+  obs.observe(wrap);
+});
+
+function initPubNetwork(canvas,net){
+  var W=canvas.parentElement.clientWidth-32;
+  var H=380;
+  canvas.width=W*2;canvas.height=H*2;
+  canvas.style.width=W+'px';canvas.style.height=H+'px';
+  var ctx=canvas.getContext('2d');
+  ctx.scale(2,2);
+
+  var nodes=net.nodes.map(function(n){return Object.assign({},n)});
+  var links=net.links.map(function(l){return{source:l.source,target:l.target,type:l.type}});
+
+  var sim=d3.forceSimulation(nodes)
+    .force('link',d3.forceLink(links).id(function(d){return d.id}).distance(8).strength(0.25))
+    .force('charge',d3.forceManyBody().strength(function(d){return d.type==='asn'?-120:d.type==='filehost'?-80:-6}).distanceMax(120))
+    .force('center',d3.forceCenter(W/2,H/2))
+    .force('collision',d3.forceCollide(function(d){return d.type==='asn'?14:d.type==='filehost'?10:Math.sqrt(d.degree||1)*0.4+1.5}))
+    .alphaDecay(0.03);
+
+  sim.on('tick',function(){
+    ctx.clearRect(0,0,W,H);
+    // Edges
+    links.forEach(function(l){
+      if(!l.source.x)return;
+      ctx.beginPath();ctx.moveTo(l.source.x,l.source.y);ctx.lineTo(l.target.x,l.target.y);
+      if(l.type==='hosted_by'){ctx.strokeStyle='rgba(107,79,255,0.12)';ctx.lineWidth=0.5}
+      else if(l.type==='uploads_to'){ctx.strokeStyle='rgba(255,170,0,0.12)';ctx.lineWidth=0.5}
+      else{ctx.strokeStyle='rgba(255,255,255,0.03)';ctx.lineWidth=0.2}
+      ctx.stroke();
+    });
+    // Nodes
+    nodes.forEach(function(n){
+      if(!n.x)return;
+      if(n.type==='asn'){
+        var r=8+Math.log(n.domain_count+1)*2;
+        ctx.save();ctx.translate(n.x,n.y);ctx.rotate(Math.PI/4);
+        ctx.fillStyle='rgba(26,140,255,0.8)';ctx.fillRect(-r/2,-r/2,r,r);
+        ctx.restore();
+        ctx.fillStyle='rgba(220,232,248,0.7)';ctx.font='7px JetBrains Mono,monospace';ctx.textAlign='center';
+        ctx.fillText(n.label||'',n.x,n.y+r/2+9);
+      }else if(n.type==='filehost'){
+        ctx.fillStyle='rgba(0,204,122,0.75)';ctx.fillRect(n.x-5,n.y-5,10,10);
+        ctx.fillStyle='rgba(220,232,248,0.6)';ctx.font='7px JetBrains Mono,monospace';ctx.textAlign='center';
+        ctx.fillText(n.label||'',n.x,n.y+12);
+      }else{
+        var r2=Math.sqrt(n.degree||1)*0.4+1.5;
+        ctx.beginPath();ctx.arc(n.x,n.y,r2,0,Math.PI*2);
+        ctx.fillStyle=ECO[n.ecotype]||ECO.unclassified;ctx.fill();
+      }
+    });
+  });
+
+  // Stop after 200 ticks
+  setTimeout(function(){sim.stop()},4000);
+}
+})();
 </script>
 </body>
 </html>

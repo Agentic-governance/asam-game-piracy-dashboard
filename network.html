@@ -336,26 +336,26 @@ a:hover{text-decoration:underline}
   <!-- Page Header -->
   <div class="page-header">
     <h1>Ecosystem Map</h1>
-    <p>1,888 piracy domains + 75 infrastructure nodes &mdash; interactive force-directed network</p>
+    <p id="headerSub">Loading network data...</p>
   </div>
 
-  <!-- Mini KPIs -->
+  <!-- Mini KPIs (populated dynamically from NETWORK_FULL) -->
   <div class="kpi-row">
     <div class="kpi-mini">
       <span class="kpi-mini-label">Domains</span>
-      <span class="kpi-mini-val accent">1,888</span>
+      <span class="kpi-mini-val accent" id="kpi-domains">—</span>
     </div>
     <div class="kpi-mini">
       <span class="kpi-mini-label">ASN Clusters</span>
-      <span class="kpi-mini-val secondary">75</span>
+      <span class="kpi-mini-val secondary" id="kpi-asns">—</span>
     </div>
     <div class="kpi-mini">
       <span class="kpi-mini-label">Edges</span>
-      <span class="kpi-mini-val primary">30,982</span>
+      <span class="kpi-mini-val primary" id="kpi-edges">—</span>
     </div>
     <div class="kpi-mini">
       <span class="kpi-mini-label">Ecotypes</span>
-      <span class="kpi-mini-val warning">7</span>
+      <span class="kpi-mini-val warning" id="kpi-ecotypes">—</span>
     </div>
   </div>
 
@@ -961,7 +961,7 @@ function runSimulation(asnCode, label) {
 
   html += '<div class="impact-before-after">';
   html += '<div style="display:flex;justify-content:center;align-items:center;gap:12px">';
-  html += '<div><span class="big" style="color:var(--text-2)">1,888</span><span class="label">Before</span></div>';
+  html += '<div><span class="big" style="color:var(--text-2)">' + domainNodes.length.toLocaleString() + '</span><span class="label">Before</span></div>';
   html += '<span style="color:var(--text-3);font-size:20px">&rarr;</span>';
   html += '<div><span class="big">' + remaining.toLocaleString() + '</span><span class="label">After</span></div>';
   html += '</div></div>';
@@ -1107,6 +1107,15 @@ function statRow(label, value) {
 }
 
 populateStats();
+
+/* ── Populate header KPIs from live data ── */
+var ecoSet = new Set();
+domainNodes.forEach(function(n){ if(n.ecotype) ecoSet.add(n.ecotype); });
+document.getElementById('kpi-domains').textContent = domainNodes.length.toLocaleString();
+document.getElementById('kpi-asns').textContent = asnNodes.length.toLocaleString();
+document.getElementById('kpi-edges').textContent = links.length.toLocaleString();
+document.getElementById('kpi-ecotypes').textContent = ecoSet.size;
+document.getElementById('headerSub').textContent = domainNodes.length.toLocaleString() + ' piracy domains + ' + asnNodes.length + ' infrastructure nodes — interactive force-directed network';
 
 /* ── Initial cursor ── */
 canvas.style.cursor = 'grab';
