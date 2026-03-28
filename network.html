@@ -3,1122 +3,477 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="ARIA: Game IP Intelligence Platform — Piracy ecosystem analysis for copyright enforcement">
+<meta name="description" content="ARIA: Game IP Intelligence Platform — Piracy ecosystem network visualization">
 <meta name="theme-color" content="#020508">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡</text></svg>">
 <title>ARIA — Ecosystem Map</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<script src="assets/d3.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="network_data.js"></script>
-<script src="caselaw_data.js"></script>
 <style>
-/* ========== RESET & VARIABLES ========== */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{
-  --bg-0:#020508;--bg-1:#060b12;--bg-2:#0c1420;--bg-3:#131d2e;
-  --text-1:#dce8f8;--text-2:#7a9bbf;--text-3:#3d5470;
-  --aria-primary:#1a8cff;--aria-secondary:#6b4fff;--aria-accent:#00e5cc;
-  --aria-danger:#ff3344;--aria-warning:#ffaa00;--aria-success:#00cc7a;
-  --border:rgba(26,140,255,0.12);--border-hover:rgba(26,140,255,0.3);
-  --font-sans:'Inter',system-ui,sans-serif;--font-mono:'JetBrains Mono',monospace;
-}
-html{font-size:14px;scroll-behavior:smooth}
-body{
-  font-family:var(--font-sans);color:var(--text-1);background:var(--bg-0);
-  min-height:100vh;overflow-x:hidden;line-height:1.5;
-  -webkit-font-smoothing:antialiased;
-  background-image:
-    linear-gradient(rgba(26,140,255,.03) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(26,140,255,.03) 1px,transparent 1px);
-  background-size:40px 40px;
-}
-a{color:var(--aria-primary);text-decoration:none}
-a:hover{text-decoration:underline}
-::-webkit-scrollbar{width:6px;height:6px}
-::-webkit-scrollbar-track{background:var(--bg-1)}
-::-webkit-scrollbar-thumb{background:var(--text-3);border-radius:3px}
-::-webkit-scrollbar-thumb:hover{background:var(--text-2)}
+:root{--bg-0:#020508;--bg-1:#060b12;--bg-2:#0c1420;--bg-3:#131d2e;--text-1:#dce8f8;--text-2:#7a9bbf;--text-3:#3d5470;--primary:#1a8cff;--secondary:#6b4fff;--accent:#00e5cc;--danger:#ff3344;--warning:#ffaa00;--success:#00cc7a;--border:rgba(26,140,255,0.1);--mono:'JetBrains Mono',monospace}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--bg-0);color:var(--text-1);overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(rgba(26,140,255,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(26,140,255,.03) 1px,transparent 1px);background-size:40px 40px;pointer-events:none;z-index:0}
 
-/* ========== NAV BAR ========== */
-.nav-bar{
-  position:fixed;top:0;left:0;right:0;z-index:1000;height:52px;
-  background:rgba(6,11,18,0.92);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
-  border-bottom:1px solid var(--border);
-  display:flex;align-items:center;padding:0 24px;gap:8px;
-}
-.nav-logo{display:flex;align-items:center;gap:10px;margin-right:20px}
-.nav-logo svg{width:28px;height:28px}
-.nav-logo-text{font-size:15px;font-weight:700;letter-spacing:2.5px;color:var(--text-1)}
-.nav-links{display:flex;gap:2px;flex:1}
-.nav-link{
-  padding:6px 14px;border-radius:6px;font-size:12.5px;font-weight:500;
-  color:var(--text-2);text-decoration:none;transition:all .2s;white-space:nowrap;
-}
-.nav-link:hover{color:var(--text-1);background:rgba(26,140,255,.08);text-decoration:none}
-.nav-link.active{color:var(--aria-primary);background:rgba(26,140,255,.1);box-shadow:inset 0 -2px 0 var(--aria-primary)}
-.nav-right{display:flex;align-items:center;gap:14px;margin-left:auto}
-.threat-badge{
-  display:flex;align-items:center;gap:6px;
-  padding:4px 12px;border-radius:20px;font-size:11px;font-weight:600;
-  background:rgba(255,51,68,.12);color:var(--aria-danger);border:1px solid rgba(255,51,68,.25);
-}
-.threat-badge .dot{width:7px;height:7px;border-radius:50%;background:var(--aria-danger);animation:pulse 2s infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
-.data-fresh{font-size:11px;color:var(--text-3);font-family:var(--font-mono)}
-.btn-export{
-  padding:5px 14px;border-radius:6px;font-size:11.5px;font-weight:600;
-  background:rgba(26,140,255,.12);color:var(--aria-primary);
-  border:1px solid rgba(26,140,255,.25);cursor:pointer;transition:all .2s;
-}
-.btn-export:hover{background:rgba(26,140,255,.2);border-color:rgba(26,140,255,.5)}
+/* Nav */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(6,11,18,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);display:flex;align-items:center;padding:0 24px;height:52px}
+.nav-brand{display:flex;align-items:center;gap:8px;font-weight:800;font-size:16px;color:var(--accent);text-decoration:none;margin-right:24px}
+.nav-links{display:flex;gap:2px}
+.nav-links a{padding:8px 14px;font-size:11px;font-weight:600;color:var(--text-3);text-decoration:none;border-radius:4px;letter-spacing:.3px}
+.nav-links a:hover{color:var(--text-1);background:rgba(26,140,255,.06)}
+.nav-links a.active{color:var(--primary);background:rgba(26,140,255,.1)}
+.nav-right{margin-left:auto;display:flex;align-items:center;gap:12px}
+.threat-badge{display:flex;align-items:center;gap:6px;font-size:10px;font-weight:700;color:var(--warning);letter-spacing:.5px}
+.pulse-dot{width:6px;height:6px;border-radius:50%;background:var(--warning);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(1.3)}}
+.btn-sm{padding:6px 14px;font-size:11px;font-weight:600;border:1px solid var(--border);border-radius:4px;color:var(--text-2);background:none;cursor:pointer}
+.btn-sm:hover{border-color:var(--primary);color:var(--primary)}
 
-/* ========== CTA BANNER ========== */
-.global-cta{
-  margin-top:52px;
-  display:flex;align-items:center;justify-content:space-between;
-  padding:10px 24px;
-  background:linear-gradient(90deg,rgba(26,140,255,.06),rgba(107,79,255,.06));
-  border-bottom:1px solid var(--border);
-}
-.cta-dot-g{width:8px;height:8px;border-radius:50%;background:var(--aria-success);animation:pulse 2s infinite}
-.cta-btn{
-  padding:6px 18px;border-radius:6px;font-size:12px;font-weight:600;
-  background:linear-gradient(135deg,var(--aria-primary),var(--aria-secondary));
-  color:#fff;white-space:nowrap;transition:opacity .2s;
-}
-.cta-btn:hover{opacity:.85;text-decoration:none}
+/* CTA */
+.global-cta{position:sticky;top:52px;z-index:90;background:linear-gradient(90deg,rgba(0,229,204,.06),rgba(26,140,255,.06));border-bottom:1px solid rgba(0,229,204,.12);padding:8px 24px;display:flex;align-items:center;justify-content:space-between;font-size:12px;color:var(--text-2)}
+.global-cta strong{color:var(--text-1)}
+.cta-btn{background:linear-gradient(135deg,var(--primary),var(--secondary));color:#fff;font-size:11px;font-weight:700;padding:6px 16px;border-radius:5px;text-decoration:none}
+.cta-dot{width:6px;height:6px;border-radius:50%;background:var(--accent);display:inline-block;margin-right:8px;animation:pulse 2s infinite}
 
-/* ========== MAIN LAYOUT ========== */
-.main{max-width:1600px;margin:0 auto;padding:16px 24px 40px}
+/* Layout */
+.main{max-width:1500px;margin:0 auto;padding:60px 24px 40px;position:relative;z-index:1}
+.page-header{text-align:center;padding:20px 0}
+.page-header h1{font-size:28px;font-weight:900;letter-spacing:-.5px}
+.page-header p{color:var(--text-3);font-size:13px;margin-top:4px}
 
-/* ========== PAGE HEADER ========== */
-.page-header{margin-bottom:16px}
-.page-header h1{
-  font-size:11px;font-weight:700;letter-spacing:3px;color:var(--aria-primary);
-  text-transform:uppercase;margin-bottom:4px;
-}
-.page-header p{font-size:13px;color:var(--text-2)}
+/* KPIs */
+.kpi-row{display:flex;justify-content:center;gap:24px;margin:16px 0 20px;flex-wrap:wrap}
+.kpi{text-align:center}
+.kpi .v{font-family:var(--mono);font-size:24px;font-weight:800}
+.kpi .l{font-size:9px;color:var(--text-3);text-transform:uppercase;letter-spacing:1px;margin-top:2px}
+.v-accent{color:var(--accent)}.v-primary{color:var(--primary)}.v-secondary{color:var(--secondary)}.v-warning{color:var(--warning)}
 
-/* ========== MINI KPI ROW ========== */
-.kpi-row{display:flex;gap:12px;margin-bottom:16px;flex-wrap:wrap}
-.kpi-mini{
-  padding:10px 18px;border-radius:8px;
-  background:var(--bg-2);border:1px solid var(--border);
-  display:flex;align-items:baseline;gap:8px;
-}
-.kpi-mini-label{font-size:10px;font-weight:600;letter-spacing:.08em;color:var(--text-3);text-transform:uppercase}
-.kpi-mini-val{font-family:var(--font-mono);font-size:18px;font-weight:600;color:var(--text-1)}
-.kpi-mini-val.accent{color:var(--aria-accent)}
-.kpi-mini-val.primary{color:var(--aria-primary)}
-.kpi-mini-val.secondary{color:var(--aria-secondary)}
-.kpi-mini-val.warning{color:var(--aria-warning)}
+/* Canvas */
+.canvas-area{position:relative;width:100%;height:650px;background:var(--bg-1);border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-bottom:24px}
+canvas{display:block;width:100%;height:100%;cursor:grab}
+canvas:active{cursor:grabbing}
 
-/* ========== CANVAS CONTAINER ========== */
-.canvas-wrap{
-  position:relative;width:100%;height:700px;border-radius:10px;overflow:hidden;
-  background:var(--bg-1);border:1px solid var(--border);margin-bottom:20px;
-}
-.canvas-wrap canvas{display:block;width:100%;height:100%}
-.canvas-controls{
-  position:absolute;bottom:12px;left:12px;display:flex;gap:6px;z-index:10;
-}
-.canvas-controls button{
-  width:32px;height:32px;border-radius:6px;border:1px solid var(--border);
-  background:rgba(6,11,18,.85);color:var(--text-2);font-size:16px;
-  cursor:pointer;display:flex;align-items:center;justify-content:center;
-  transition:all .2s;backdrop-filter:blur(8px);
-}
-.canvas-controls button:hover{background:rgba(26,140,255,.15);color:var(--text-1);border-color:var(--border-hover)}
-.zoom-label{
-  position:absolute;bottom:14px;left:180px;
-  font-size:10px;font-family:var(--font-mono);color:var(--text-3);
-  background:rgba(6,11,18,.7);padding:2px 8px;border-radius:4px;z-index:10;
-}
+/* Controls */
+.controls{position:absolute;top:12px;right:12px;display:flex;flex-direction:column;gap:4px;z-index:10}
+.controls button{width:32px;height:32px;border:1px solid var(--border);border-radius:6px;background:rgba(6,11,18,.8);color:var(--text-2);font-size:16px;cursor:pointer;backdrop-filter:blur(4px)}
+.controls button:hover{border-color:var(--primary);color:var(--primary)}
 
-/* ========== RIGHT SIDE PANEL ========== */
-.side-panel{
-  position:absolute;top:12px;right:12px;width:300px;z-index:10;
-  display:flex;flex-direction:column;gap:10px;max-height:calc(100% - 24px);overflow-y:auto;
-}
-.side-panel::-webkit-scrollbar{width:4px}
-.side-panel::-webkit-scrollbar-thumb{background:var(--text-3);border-radius:2px}
-.panel-card{
-  background:rgba(6,11,18,.92);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
-  border:1px solid var(--border);border-radius:8px;padding:14px;
-}
-.panel-title{
-  font-size:10px;font-weight:700;letter-spacing:.12em;color:var(--text-3);
-  text-transform:uppercase;margin-bottom:10px;display:flex;align-items:center;gap:6px;
-}
-.panel-title svg{width:14px;height:14px;flex-shrink:0}
+/* Legend */
+.legend{position:absolute;bottom:12px;left:12px;display:flex;gap:12px;font-size:10px;color:var(--text-3);background:rgba(6,11,18,.8);padding:6px 12px;border-radius:6px;backdrop-filter:blur(4px)}
+.legend span{display:flex;align-items:center;gap:4px}
+.lg-dot{width:8px;height:8px;border-radius:50%}
+.lg-dia{width:8px;height:8px;transform:rotate(45deg)}
 
-/* Attack scenario buttons */
-.attack-btn{
-  display:flex;align-items:center;gap:10px;width:100%;
-  padding:10px 12px;border-radius:6px;border:1px solid var(--border);
-  background:transparent;cursor:pointer;transition:all .2s;text-align:left;
-  margin-bottom:6px;
-}
-.attack-btn:last-child{margin-bottom:0}
-.attack-btn:hover{border-color:var(--border-hover);background:rgba(26,140,255,.05)}
-.attack-btn.active-sim{border-color:var(--aria-accent);background:rgba(0,229,204,.06)}
-.attack-icon{
-  width:32px;height:32px;border-radius:6px;display:flex;align-items:center;justify-content:center;
-  font-size:14px;flex-shrink:0;
-}
-.attack-info{flex:1;min-width:0}
-.attack-name{font-size:12px;font-weight:600;color:var(--text-1);margin-bottom:2px}
-.attack-meta{font-size:10px;color:var(--text-3)}
-.attack-meta .effort-low{color:var(--aria-success)}
-.attack-meta .effort-high{color:var(--aria-danger)}
+/* Tooltip */
+.tooltip{position:absolute;display:none;background:var(--bg-3);border:1px solid rgba(26,140,255,.2);border-radius:6px;padding:8px 12px;font-size:11px;color:var(--text-1);pointer-events:none;z-index:20;max-width:280px;box-shadow:0 8px 20px rgba(0,0,0,.4)}
+.tt-name{font-weight:700;margin-bottom:4px;font-family:var(--mono);font-size:12px}
+.tt-row{display:flex;justify-content:space-between;gap:12px;color:var(--text-2);font-size:10px}
 
-/* Impact panel */
-.impact-panel{display:none}
-.impact-panel.visible{display:block}
-.impact-stat{
-  display:flex;justify-content:space-between;align-items:baseline;
-  padding:6px 0;border-bottom:1px solid rgba(26,140,255,.06);
-}
-.impact-stat:last-child{border-bottom:none}
-.impact-stat-label{font-size:11px;color:var(--text-2)}
-.impact-stat-val{font-family:var(--font-mono);font-size:13px;font-weight:600}
-.impact-stat-val.danger{color:var(--aria-danger)}
-.impact-stat-val.accent{color:var(--aria-accent)}
-.impact-stat-val.success{color:var(--aria-success)}
-.impact-before-after{
-  text-align:center;padding:12px 0;margin:8px 0;
-  border-radius:6px;background:rgba(0,229,204,.04);
-}
-.impact-before-after .big{font-family:var(--font-mono);font-size:22px;font-weight:700;color:var(--aria-accent)}
-.impact-before-after .label{font-size:10px;color:var(--text-3);display:block;margin-top:2px}
-.impact-cta{
-  display:block;text-align:center;padding:8px;border-radius:6px;margin-top:8px;
-  font-size:11px;font-weight:600;
-  background:linear-gradient(135deg,var(--aria-primary),var(--aria-secondary));
-  color:#fff;transition:opacity .2s;
-}
-.impact-cta:hover{opacity:.85;text-decoration:none}
-.btn-reset{
-  display:block;width:100%;padding:6px;border-radius:4px;margin-top:8px;
-  font-size:11px;font-weight:600;color:var(--text-2);
-  background:rgba(255,255,255,.04);border:1px solid var(--border);
-  cursor:pointer;transition:all .2s;
-}
-.btn-reset:hover{color:var(--text-1);border-color:var(--border-hover)}
+/* Attack panel */
+.attack-panel{position:absolute;top:12px;left:12px;width:260px;background:rgba(6,11,18,.9);border:1px solid var(--border);border-radius:8px;padding:14px;backdrop-filter:blur(8px);z-index:10}
+.attack-title{font-size:10px;font-weight:700;color:var(--accent);letter-spacing:1px;text-transform:uppercase;margin-bottom:10px}
+.attack-btn{display:block;width:100%;text-align:left;padding:8px 10px;margin-bottom:4px;background:var(--bg-2);border:1px solid var(--border);border-radius:6px;color:var(--text-2);font-size:11px;cursor:pointer;transition:all .15s}
+.attack-btn:hover{border-color:var(--primary);background:rgba(26,140,255,.05)}
+.attack-btn .ab-name{font-weight:600;color:var(--text-1)}
+.attack-btn .ab-count{font-family:var(--mono);font-size:10px;color:var(--text-3)}
+.effort-low{color:var(--success)}.effort-high{color:var(--danger)}
+.sim-result{margin-top:12px;padding:12px;background:rgba(0,229,204,.04);border:1px solid rgba(0,229,204,.15);border-radius:6px;display:none}
+.sim-big{font-family:var(--mono);font-size:28px;font-weight:800;color:var(--accent)}
+.sim-label{font-size:10px;color:var(--text-3)}
 
-/* Node detail */
-.node-detail{display:none}
-.node-detail.visible{display:block}
-.node-detail-name{font-family:var(--font-mono);font-size:13px;font-weight:600;color:var(--aria-accent);margin-bottom:8px;word-break:break-all}
-.node-detail-row{
-  display:flex;justify-content:space-between;padding:3px 0;
-  font-size:11px;
-}
-.node-detail-row .label{color:var(--text-3)}
-.node-detail-row .value{color:var(--text-1);font-family:var(--font-mono)}
-
-/* ========== TOOLTIP ========== */
-.tooltip{
-  position:fixed;z-index:2000;pointer-events:none;
-  padding:8px 12px;border-radius:6px;
-  background:rgba(6,11,18,.95);border:1px solid var(--border);
-  backdrop-filter:blur(12px);font-size:11px;line-height:1.5;
-  max-width:280px;display:none;
-}
-.tooltip.visible{display:block}
-.tooltip .tt-name{font-weight:600;color:var(--aria-accent);font-family:var(--font-mono);margin-bottom:4px;word-break:break-all}
-.tooltip .tt-row{color:var(--text-2)}
-.tooltip .tt-row span{color:var(--text-1);font-family:var(--font-mono)}
-
-/* ========== BOTTOM STATS ========== */
-.bottom-stats{
-  display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px;
-}
-.stats-card{
-  background:var(--bg-2);border:1px solid var(--border);border-radius:8px;padding:18px;
-}
-.stats-card h3{
-  font-size:10px;font-weight:700;letter-spacing:.12em;color:var(--text-3);
-  text-transform:uppercase;margin-bottom:12px;
-}
-.stat-row{
-  display:flex;justify-content:space-between;padding:5px 0;
-  border-bottom:1px solid rgba(26,140,255,.04);font-size:12px;
-}
-.stat-row:last-child{border-bottom:none}
-.stat-row .label{color:var(--text-2)}
-.stat-row .value{font-family:var(--font-mono);color:var(--text-1);font-weight:500}
-
-/* Community table */
-.comm-table{width:100%;border-collapse:collapse;font-size:11px}
-.comm-table th{
-  text-align:left;padding:6px 8px;font-size:10px;font-weight:600;
-  letter-spacing:.06em;color:var(--text-3);text-transform:uppercase;
-  border-bottom:1px solid var(--border);
-}
-.comm-table td{padding:5px 8px;color:var(--text-2);border-bottom:1px solid rgba(26,140,255,.04)}
-.comm-table td:first-child{font-family:var(--font-mono);color:var(--text-1)}
-.comm-table tr:hover td{background:rgba(26,140,255,.03)}
+/* Stats */
+.stats-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.stats-card{background:var(--bg-2);border:1px solid var(--border);border-radius:8px;padding:16px}
+.stats-card h3{font-size:13px;font-weight:700;margin-bottom:10px}
+.stat-row{display:flex;justify-content:space-between;padding:4px 0;font-size:11px;border-bottom:1px solid rgba(26,140,255,.04)}
+.stat-row .label{color:var(--text-3)}.stat-row .value{color:var(--text-1);font-family:var(--mono)}
 .eco-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:middle}
+table{width:100%;border-collapse:collapse;font-size:11px}
+th{text-align:left;padding:6px 8px;font-size:9px;font-weight:700;color:var(--text-3);letter-spacing:.5px;text-transform:uppercase;border-bottom:1px solid var(--border)}
+td{padding:5px 8px;color:var(--text-2);border-bottom:1px solid rgba(26,140,255,.03)}
+td:first-child{font-family:var(--mono);color:var(--text-1);font-size:10px}
 
-/* ========== LEGEND ========== */
-.legend{
-  position:absolute;bottom:12px;right:12px;z-index:10;
-  display:flex;flex-direction:column;gap:3px;
-  background:rgba(6,11,18,.85);backdrop-filter:blur(8px);
-  padding:8px 12px;border-radius:6px;border:1px solid var(--border);
-}
-.legend-item{display:flex;align-items:center;gap:6px;font-size:10px;color:var(--text-2)}
-.legend-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
-.legend-diamond{width:8px;height:8px;flex-shrink:0;transform:rotate(45deg)}
+.footer{text-align:center;padding:32px 24px;border-top:1px solid var(--border);color:var(--text-3);font-size:11px;margin-top:32px}
+.footer a{color:var(--primary);text-decoration:none}
 
-/* ========== PRINT ========== */
-@media print{
-  body{background:#fff;color:#000}
-  .nav-bar,.global-cta,.side-panel,.canvas-controls,.legend,.zoom-label,.tooltip{display:none!important}
-  .canvas-wrap{border:2px solid #000;height:500px}
-  .canvas-wrap::after{
-    content:'Interactive visualization - view online for full experience';
-    position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
-    font-size:14px;color:#666;
-  }
-  .stats-card,.panel-card{background:#f8f8f8;border:1px solid #ccc}
-  .kpi-mini{background:#f0f0f0;border:1px solid #ccc}
-  .kpi-mini-val,.stat-row .value,.comm-table td:first-child{color:#000}
-  .stat-row .label,.kpi-mini-label,.comm-table td{color:#333}
-}
+@media print{body{background:#fff;color:#000}nav,.global-cta,.controls,.attack-panel,.legend,.tooltip{display:none!important}.canvas-area{border:1px solid #ccc}canvas{background:#fff!important}}
 </style>
 </head>
 <body>
-
-<!-- ===== NAV BAR ===== -->
-<nav class="nav-bar">
-  <div class="nav-logo">
-    <svg viewBox="0 0 28 28" fill="none">
-      <path d="M14 2L2 26h24L14 2z" stroke="#1a8cff" stroke-width="1.5" fill="none"/>
-      <path d="M14 8L8 22h12L14 8z" fill="rgba(26,140,255,0.15)" stroke="#1a8cff" stroke-width="0.5"/>
-      <circle cx="14" cy="16" r="2.5" fill="#1a8cff"/>
-      <line x1="14" y1="10" x2="14" y2="13" stroke="#1a8cff" stroke-width="1.2"/>
-    </svg>
-    <span class="nav-logo-text">ARIA</span>
-  </div>
+<nav>
+  <a href="index.html" class="nav-brand">🛡 ARIA</a>
   <div class="nav-links">
-    <a href="index.html" class="nav-link">Command Center</a>
-    <a href="network.html" class="nav-link active">Ecosystem Map</a>
-    <a href="publishers/index.html" class="nav-link">Publishers</a>
-    <a href="titles.html" class="nav-link">Title Tracker</a>
-    <a href="enforcement.html" class="nav-link">Enforcement</a>
-    <a href="trends.html" class="nav-link">Trends</a>
-    <a href="regions.html" class="nav-link">Geo Intel</a>
-    <a href="contact.html" class="nav-link">Evidence</a>
+    <a href="index.html">Command Center</a>
+    <a href="network.html" class="active">Ecosystem Map</a>
+    <a href="publishers/index.html">Publishers</a>
+    <a href="titles.html">Title Tracker</a>
+    <a href="enforcement.html">Enforcement</a>
+    <a href="trends.html">Trends</a>
+    <a href="regions.html">Geo Intel</a>
+    <a href="contact.html">Evidence</a>
   </div>
   <div class="nav-right">
-    <div class="threat-badge"><span class="dot"></span>ELEVATED</div>
-    <span class="data-fresh">2026-03-28 09:41 UTC</span>
-    <button class="btn-export" onclick="exportPNG()">Export PNG</button>
+    <div class="threat-badge"><span class="pulse-dot"></span>ELEVATED</div>
+    <span style="font-size:10px;color:var(--text-3)">2026-03-28</span>
+    <button class="btn-sm" onclick="window.print()">Export</button>
   </div>
 </nav>
 
-<!-- ===== CTA BANNER ===== -->
 <div class="global-cta">
-  <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:#7a9bbf">
-    <span class="cta-dot-g"></span>
-    <span><strong style="color:#dce8f8">694</strong> verified infringing URLs available. Win rate <strong style="color:#dce8f8">71-91%</strong> in court with this evidence.</span>
-  </div>
-  <a href="contact.html" class="cta-btn">Request evidence package &rarr;</a>
+  <div><span class="cta-dot"></span><strong>694</strong> verified infringing URLs available. Win rate <strong>71-91%</strong> in court.</div>
+  <a href="contact.html" class="cta-btn">Request evidence package →</a>
 </div>
 
-<!-- ===== MAIN ===== -->
 <div class="main">
-
-  <!-- Page Header -->
   <div class="page-header">
     <h1>Ecosystem Map</h1>
-    <p id="headerSub">Loading network data...</p>
+    <p id="headerSub">Loading...</p>
   </div>
 
-  <!-- Mini KPIs (populated dynamically from NETWORK_FULL) -->
   <div class="kpi-row">
-    <div class="kpi-mini">
-      <span class="kpi-mini-label">Domains</span>
-      <span class="kpi-mini-val accent" id="kpi-domains">—</span>
-    </div>
-    <div class="kpi-mini">
-      <span class="kpi-mini-label">ASN Clusters</span>
-      <span class="kpi-mini-val secondary" id="kpi-asns">—</span>
-    </div>
-    <div class="kpi-mini">
-      <span class="kpi-mini-label">Edges</span>
-      <span class="kpi-mini-val primary" id="kpi-edges">—</span>
-    </div>
-    <div class="kpi-mini">
-      <span class="kpi-mini-label">Ecotypes</span>
-      <span class="kpi-mini-val warning" id="kpi-ecotypes">—</span>
-    </div>
+    <div class="kpi"><div class="v v-accent" id="k-nodes">—</div><div class="l">Domains</div></div>
+    <div class="kpi"><div class="v v-secondary" id="k-asns">—</div><div class="l">ASN Clusters</div></div>
+    <div class="kpi"><div class="v v-primary" id="k-edges">—</div><div class="l">Connections</div></div>
+    <div class="kpi"><div class="v v-warning" id="k-eco">—</div><div class="l">Ecotypes</div></div>
   </div>
 
-  <!-- Canvas + Side Panel -->
-  <div class="canvas-wrap" id="canvasWrap">
-    <canvas id="networkCanvas"></canvas>
+  <div class="canvas-area">
+    <canvas id="netCanvas"></canvas>
 
-    <!-- Zoom Controls -->
-    <div class="canvas-controls">
-      <button onclick="zoomIn()" title="Zoom in">+</button>
-      <button onclick="zoomOut()" title="Zoom out">&minus;</button>
-      <button onclick="zoomReset()" title="Reset view">&#8634;</button>
-      <button onclick="toggleLabels()" title="Toggle labels" id="btnLabels">A</button>
+    <div class="controls">
+      <button onclick="zoomBy(1.3)" title="Zoom in">+</button>
+      <button onclick="zoomBy(0.7)" title="Zoom out">−</button>
+      <button onclick="resetView()" title="Reset">↺</button>
     </div>
-    <div class="zoom-label" id="zoomLabel">1.0x</div>
 
-    <!-- Legend -->
     <div class="legend">
-      <div class="legend-item"><span class="legend-dot" style="background:#ff3344"></span>Torrent</div>
-      <div class="legend-item"><span class="legend-dot" style="background:#ff6b81"></span>Repack</div>
-      <div class="legend-item"><span class="legend-dot" style="background:#ffaa00"></span>ROM</div>
-      <div class="legend-item"><span class="legend-dot" style="background:#ffc800"></span>Mobile</div>
-      <div class="legend-item"><span class="legend-dot" style="background:#00cc7a"></span>DDL</div>
-      <div class="legend-item"><span class="legend-dot" style="background:#6b4fff"></span>Crack</div>
-      <div class="legend-item"><span class="legend-dot" style="background:rgba(74,96,128,0.6)"></span>Unclassified</div>
-      <div class="legend-item"><span class="legend-diamond" style="background:#1a8cff"></span>ASN node</div>
-      <div class="legend-item"><span class="legend-diamond" style="background:#6b4fff"></span>Bulletproof ASN</div>
+      <span><span class="lg-dot" style="background:#ff3344"></span>Torrent</span>
+      <span><span class="lg-dot" style="background:#ffaa00"></span>ROM</span>
+      <span><span class="lg-dot" style="background:#ffc800"></span>Mobile</span>
+      <span><span class="lg-dot" style="background:#00cc7a"></span>DDL</span>
+      <span><span class="lg-dot" style="background:#6b4fff"></span>Crack</span>
+      <span><span class="lg-dot" style="background:rgba(74,96,128,.6)"></span>Other</span>
+      <span><span class="lg-dia" style="background:#1a8cff"></span>ASN ◆</span>
     </div>
 
-    <!-- Right Side Panel -->
-    <div class="side-panel" id="sidePanel">
-      <!-- Attack Simulation -->
-      <div class="panel-card">
-        <div class="panel-title">
-          <svg viewBox="0 0 14 14" fill="none"><path d="M7 1L1 13h12L7 1z" stroke="#ff3344" stroke-width="1.2"/><line x1="7" y1="5" x2="7" y2="9" stroke="#ff3344" stroke-width="1.2"/><circle cx="7" cy="11" r="0.8" fill="#ff3344"/></svg>
-          Attack Simulation
-        </div>
-        <button class="attack-btn" data-asn="AS13335" data-label="Cloudflare">
-          <div class="attack-icon" style="background:rgba(26,140,255,.12);color:#1a8cff">&#9729;</div>
-          <div class="attack-info">
-            <div class="attack-name">Cloudflare Abuse Report</div>
-            <div class="attack-meta">~569 domains &bull; <span class="effort-low">LOW effort</span></div>
-          </div>
-        </button>
-        <button class="attack-btn" data-asn="AS16276" data-label="OVHcloud (Rapidgator)">
-          <div class="attack-icon" style="background:rgba(0,204,122,.12);color:#00cc7a">&#9889;</div>
-          <div class="attack-info">
-            <div class="attack-name">Rapidgator / OVH DMCA</div>
-            <div class="attack-meta">~40 domains &bull; <span class="effort-low">LOW effort</span></div>
-          </div>
-        </button>
-        <button class="attack-btn" data-asn="AS210644" data-label="AEZA Group" data-bulletproof="true">
-          <div class="attack-icon" style="background:rgba(107,79,255,.12);color:#6b4fff">&#9763;</div>
-          <div class="attack-info">
-            <div class="attack-name">AEZA Bulletproof Takedown</div>
-            <div class="attack-meta">~6 domains &bull; <span class="effort-high">HIGH effort</span></div>
-          </div>
-        </button>
-        <button class="attack-btn" data-asn="AS59692" data-label="DDoS-Guard" data-bulletproof="true">
-          <div class="attack-icon" style="background:rgba(107,79,255,.12);color:#6b4fff">&#9763;</div>
-          <div class="attack-info">
-            <div class="attack-name">DDoS-Guard Escalation</div>
-            <div class="attack-meta">~4 domains &bull; <span class="effort-high">HIGH effort</span></div>
-          </div>
-        </button>
-      </div>
-
-      <!-- Impact Panel -->
-      <div class="panel-card impact-panel" id="impactPanel">
-        <div class="panel-title">
-          <svg viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="6" stroke="#00e5cc" stroke-width="1"/><path d="M4 7h6M7 4v6" stroke="#00e5cc" stroke-width="1"/></svg>
-          Simulation Result
-        </div>
-        <div id="impactContent"></div>
-        <a href="contact.html" class="impact-cta">Get evidence for this action &rarr;</a>
-        <button class="btn-reset" onclick="resetSimulation()">Reset Simulation</button>
-      </div>
-
-      <!-- Node Detail -->
-      <div class="panel-card node-detail" id="nodeDetail">
-        <div class="panel-title">
-          <svg viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="5" stroke="#7a9bbf" stroke-width="1"/><circle cx="7" cy="7" r="1.5" fill="#7a9bbf"/></svg>
-          Node Detail
-        </div>
-        <div id="nodeDetailContent"></div>
+    <div class="attack-panel">
+      <div class="attack-title">⚡ Attack Simulation</div>
+      <button class="attack-btn" onclick="simASN('AS13335')"><span class="ab-name">🔵 Cloudflare</span> <span class="ab-count effort-low" id="cnt-cf">—</span></button>
+      <button class="attack-btn" onclick="simASN('AS16276')"><span class="ab-name">🟢 OVHcloud</span> <span class="ab-count effort-low" id="cnt-ovh">—</span></button>
+      <button class="attack-btn" onclick="simASN('AS210644')"><span class="ab-name">🟣 AEZA</span> <span class="ab-count effort-high" id="cnt-aeza">—</span></button>
+      <button class="attack-btn" onclick="simASN('AS60144')"><span class="ab-name">🟣 3NT Solutions</span> <span class="ab-count effort-high" id="cnt-3nt">—</span></button>
+      <button class="attack-btn" onclick="clearSim()" style="text-align:center;color:var(--text-3)">Reset</button>
+      <div class="sim-result" id="simResult">
+        <div class="sim-big" id="simCount">0</div>
+        <div class="sim-label">domains affected</div>
+        <div style="margin-top:8px;font-size:11px;color:var(--text-2)" id="simPct"></div>
+        <a href="contact.html" class="cta-btn" style="display:block;text-align:center;margin-top:10px;font-size:11px">Get evidence →</a>
       </div>
     </div>
+
+    <div class="tooltip" id="tip"><div class="tt-name" id="tipName"></div><div id="tipBody"></div></div>
   </div>
 
-  <!-- Tooltip (positioned via JS) -->
-  <div class="tooltip" id="tooltip">
-    <div class="tt-name" id="ttName"></div>
-    <div id="ttBody"></div>
-  </div>
-
-  <!-- Bottom Stats -->
-  <div class="bottom-stats">
+  <!-- Stats -->
+  <div class="stats-grid">
     <div class="stats-card">
       <h3>Network Statistics</h3>
-      <div id="networkStats"></div>
+      <div id="statsDiv"></div>
     </div>
     <div class="stats-card">
-      <h3>Top ASN Clusters by Domain Count</h3>
-      <table class="comm-table" id="asnTable">
-        <thead><tr><th>ASN</th><th>Label</th><th>Domains</th><th>Type</th></tr></thead>
-        <tbody id="asnTableBody"></tbody>
-      </table>
+      <h3>Top ASN Clusters</h3>
+      <table><thead><tr><th>ASN</th><th>Name</th><th>Domains</th></tr></thead><tbody id="asnTbody"></tbody></table>
     </div>
   </div>
-
-  <!-- Ecotype Breakdown -->
-  <div class="bottom-stats">
+  <div class="stats-grid" style="margin-top:16px">
     <div class="stats-card">
       <h3>Ecotype Distribution</h3>
-      <div id="ecotypeStats"></div>
+      <div id="ecoDiv"></div>
     </div>
     <div class="stats-card">
-      <h3>Top Nodes by Betweenness Centrality</h3>
-      <table class="comm-table" id="centralityTable">
-        <thead><tr><th>Domain</th><th>Betweenness</th><th>Degree</th><th>Ecotype</th></tr></thead>
-        <tbody id="centralityBody"></tbody>
-      </table>
+      <h3>Top Nodes by Degree</h3>
+      <table><thead><tr><th>Domain</th><th>Degree</th><th>Ecotype</th></tr></thead><tbody id="topTbody"></tbody></table>
     </div>
   </div>
+</div>
 
-</div><!-- .main -->
+<footer class="footer">
+  <p><strong style="color:var(--text-2)">Research Purpose Notice:</strong> Compiled for copyright enforcement research. URLs redacted.</p>
+  <p style="margin-top:4px">ARIA v2.0 | 2026-03-28 | 7,225 domains | <a href="index.html">Command Center</a> · <a href="publishers/index.html">Publishers</a> · <a href="enforcement.html">Enforcement</a> · <a href="contact.html">Evidence</a></p>
+</footer>
 
 <script>
-/* ================================================================
-   ARIA Ecosystem Map — Canvas Network Visualization
-   ================================================================ */
 (function(){
 'use strict';
 
-/* ── Color maps ── */
-const ECOTYPE_COLOR = {
-  torrent:  '#ff3344',
-  repack:   '#ff6b81',
-  ROM:      '#ffaa00',
-  rom:      '#ffaa00',
-  mobile:   '#ffc800',
-  DDL:      '#00cc7a',
-  ddl:      '#00cc7a',
-  crack:    '#6b4fff',
-  aggregator:'#1a8cff',
-  unclassified: 'rgba(74,96,128,0.4)'
-};
-function ecoColor(eco) {
-  return ECOTYPE_COLOR[eco] || ECOTYPE_COLOR[(eco||'').toLowerCase()] || ECOTYPE_COLOR.unclassified;
+/* === Data === */
+var nodes = NET.n;
+var edges = NET.e;
+var domainNodes = nodes.filter(function(n){return n.t==='d'});
+var asnNodes = nodes.filter(function(n){return n.t==='a'});
+
+var ECO = {tor:'#ff3344',rep:'#ff6b81',rom:'#ffaa00',ROM:'#ffaa00',mob:'#ffc800',ddl:'#00cc7a',DDL:'#00cc7a',cra:'#6b4fff',unc:'rgba(74,96,128,0.5)',unk:'rgba(74,96,128,0.4)'};
+var ECO_FULL = {tor:'Torrent',rep:'Repack',rom:'ROM',ROM:'ROM',mob:'Mobile',ddl:'DDL',DDL:'DDL',cra:'Crack',unc:'Unclassified',unk:'Unknown'};
+function ecoColor(e){return ECO[e]||ECO.unc}
+function ecoName(e){return ECO_FULL[e]||e||'Unknown'}
+
+/* === KPIs === */
+var ecoSet = new Set(); domainNodes.forEach(function(n){ecoSet.add(n.e)});
+document.getElementById('k-nodes').textContent = domainNodes.length;
+document.getElementById('k-asns').textContent = asnNodes.length;
+document.getElementById('k-edges').textContent = edges.length;
+document.getElementById('k-eco').textContent = ecoSet.size;
+document.getElementById('headerSub').textContent = domainNodes.length+' piracy domains + '+asnNodes.length+' ASN infrastructure nodes';
+
+/* ASN domain counts for attack sim buttons */
+var asnCounts = {};
+domainNodes.forEach(function(n){if(n.a)asnCounts[n.a]=(asnCounts[n.a]||0)+1});
+// Match partial ASN codes
+function getASNCount(full){var c=0;domainNodes.forEach(function(n){if(n.a&&full.startsWith(n.a))c++});return c}
+document.getElementById('cnt-cf').textContent = getASNCount('AS13335')+' domains';
+document.getElementById('cnt-ovh').textContent = getASNCount('AS16276')+' domains';
+document.getElementById('cnt-aeza').textContent = getASNCount('AS210644')+' domains';
+document.getElementById('cnt-3nt').textContent = getASNCount('AS60144')+' domains';
+
+/* === Canvas === */
+var canvas = document.getElementById('netCanvas');
+var ctx = canvas.getContext('2d');
+var W, H, dpr;
+
+function resize(){
+  dpr = window.devicePixelRatio||1;
+  W = canvas.parentElement.clientWidth;
+  H = canvas.parentElement.clientHeight;
+  canvas.width = W*dpr; canvas.height = H*dpr;
+  canvas.style.width = W+'px'; canvas.style.height = H+'px';
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+  draw();
 }
+resize();
+window.addEventListener('resize', resize);
 
-/* ── Load data ── */
-const data = NETWORK_FULL;
-const nodes = data.nodes;
-const links = data.links;
-const domainNodes = nodes.filter(n => n.type === 'domain');
-const asnNodes = nodes.filter(n => n.type === 'asn');
-const domainLinks = links.filter(l => l.type === 'link');
-const hostedLinks = links.filter(l => l.type === 'hosted_by');
+/* === Transform === */
+var tx = W/2, ty = H/2, sc = 0.8;
+var simTarget = null;
+var simSet = new Set();
 
-/* ── Precompute node map ── */
-const nodeMap = new Map();
-nodes.forEach(n => { nodeMap.set(n.id, n); });
-
-/* ── Precompute ASN domain counts (from actual domain.asn field) ── */
-const asnDomainCounts = new Map();
-domainNodes.forEach(d => {
-  if (d.asn) asnDomainCounts.set(d.asn, (asnDomainCounts.get(d.asn)||0) + 1);
-});
-
-/* ── Node sizing ── */
-function nodeRadius(n) {
-  if (n.type === 'asn') {
-    var dc = asnDomainCounts.get(n.asn_code) || n.domain_count || 1;
-    return 8 + Math.log(dc + 1) * 3;
-  }
-  return Math.sqrt(n.degree || 1) * 0.7 + 2;
-}
-
-/* ── Canvas setup ── */
-const wrap = document.getElementById('canvasWrap');
-const canvas = document.getElementById('networkCanvas');
-const ctx = canvas.getContext('2d');
-let W, H, dpr;
-
-function resizeCanvas() {
-  dpr = window.devicePixelRatio || 1;
-  W = wrap.clientWidth;
-  H = wrap.clientHeight;
-  canvas.width = W * dpr;
-  canvas.height = H * dpr;
-  canvas.style.width = W + 'px';
-  canvas.style.height = H + 'px';
-  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-  needsRender = true;
-}
-resizeCanvas();
-window.addEventListener('resize', function() { resizeCanvas(); });
-
-/* ── Transform state ── */
-let tx = W / 2, ty = H / 2, scale = 0.35;
-let showLabels = false;
-let needsRender = true;
-
-/* ── Simulation state ── */
-let simActive = false;
-let simASN = null;
-let simAffected = new Set();
-
-/* ── D3 Force simulation ── */
-var sim = d3.forceSimulation(nodes)
-  .force('link', d3.forceLink(links).id(function(d){return d.id}).distance(12).strength(0.15))
-  .force('charge', d3.forceManyBody().strength(function(d){
-    return d.type === 'asn' ? -300 : -5;
-  }).distanceMax(300))
-  .force('center', d3.forceCenter(0, 0))
-  .force('collision', d3.forceCollide().radius(function(d){
-    return nodeRadius(d) + 1;
-  }))
-  .alphaDecay(0.015)
-  .on('tick', function() { needsRender = true; });
-
-/* Stop after 300 ticks */
-var tickCount = 0;
-sim.on('tick.counter', function() {
-  tickCount++;
-  if (tickCount >= 300) {
-    sim.stop();
-  }
-});
-
-/* ── Render ── */
-function render() {
+function draw(){
   ctx.save();
-  ctx.clearRect(0, 0, W, H);
+  ctx.clearRect(0,0,W,H);
+  ctx.fillStyle='#020508'; ctx.fillRect(0,0,W,H);
 
-  /* Background grid */
-  ctx.fillStyle = '#020508';
-  ctx.fillRect(0, 0, W, H);
-  ctx.strokeStyle = 'rgba(26,140,255,0.025)';
-  ctx.lineWidth = 0.5;
-  var gs = 40 * scale;
-  if (gs > 4) {
-    var ox = tx % gs, oy = ty % gs;
+  // Grid
+  ctx.strokeStyle='rgba(26,140,255,0.025)'; ctx.lineWidth=0.5;
+  var gs=40*sc;
+  if(gs>4){
+    var ox=tx%gs, oy=ty%gs;
     ctx.beginPath();
-    for (var gx = ox; gx < W; gx += gs) { ctx.moveTo(gx, 0); ctx.lineTo(gx, H); }
-    for (var gy = oy; gy < H; gy += gs) { ctx.moveTo(0, gy); ctx.lineTo(W, gy); }
+    for(var gx=ox;gx<W;gx+=gs){ctx.moveTo(gx,0);ctx.lineTo(gx,H)}
+    for(var gy=oy;gy<H;gy+=gs){ctx.moveTo(0,gy);ctx.lineTo(W,gy)}
     ctx.stroke();
   }
 
-  ctx.translate(tx, ty);
-  ctx.scale(scale, scale);
+  ctx.translate(tx,ty); ctx.scale(sc,sc);
 
-  /* ── Draw edges ── */
-  /* Domain-domain links */
-  ctx.strokeStyle = simActive ? 'rgba(255,255,255,0.02)' : 'rgba(26,140,255,0.08)';
-  ctx.lineWidth = 0.4 / scale;
+  // Edges (batched)
+  var hasSim = simTarget!==null;
+  ctx.lineWidth = 0.5/sc;
+
+  // Normal edges
+  ctx.strokeStyle = hasSim ? 'rgba(26,140,255,0.02)' : 'rgba(26,140,255,0.07)';
   ctx.beginPath();
-  for (var i = 0; i < domainLinks.length; i++) {
-    var l = domainLinks[i];
-    var s = l.source, t = l.target;
-    if (typeof s === 'string') continue;
-    ctx.moveTo(s.x, s.y);
-    ctx.lineTo(t.x, t.y);
+  for(var i=0;i<edges.length;i++){
+    var e=edges[i], s=nodes[e[0]], t=nodes[e[1]];
+    if(s.x==null||t.x==null)continue;
+    if(hasSim && !(simSet.has(e[0])&&simSet.has(e[1]))){}
+    ctx.moveTo(s.x,s.y); ctx.lineTo(t.x,t.y);
   }
   ctx.stroke();
 
-  /* Hosted-by links */
-  ctx.strokeStyle = simActive ? 'rgba(107,79,255,0.06)' : 'rgba(107,79,255,0.15)';
-  ctx.lineWidth = 0.4 / scale;
-  ctx.beginPath();
-  for (var i = 0; i < hostedLinks.length; i++) {
-    var l = hostedLinks[i];
-    var s = l.source, t = l.target;
-    if (typeof s === 'string') continue;
-    ctx.moveTo(s.x, s.y);
-    ctx.lineTo(t.x, t.y);
-  }
-  ctx.stroke();
-
-  /* ── Draw highlighted edges during sim ── */
-  if (simActive) {
-    ctx.strokeStyle = 'rgba(0,229,204,0.25)';
-    ctx.lineWidth = 0.6 / scale;
+  // Highlighted edges
+  if(hasSim){
+    ctx.strokeStyle='rgba(0,229,204,0.2)';
+    ctx.lineWidth=0.8/sc;
     ctx.beginPath();
-    for (var i = 0; i < links.length; i++) {
-      var l = links[i];
-      var s = l.source, t = l.target;
-      if (typeof s === 'string') continue;
-      var sAff = simAffected.has(s.id);
-      var tAff = simAffected.has(t.id);
-      if (sAff && tAff) {
-        ctx.moveTo(s.x, s.y);
-        ctx.lineTo(t.x, t.y);
+    for(var i=0;i<edges.length;i++){
+      var e=edges[i];
+      if(simSet.has(e[0])&&simSet.has(e[1])){
+        var s=nodes[e[0]], t=nodes[e[1]];
+        ctx.moveTo(s.x,s.y); ctx.lineTo(t.x,t.y);
       }
     }
     ctx.stroke();
   }
 
-  /* ── Draw nodes ── */
-  for (var i = 0; i < nodes.length; i++) {
-    var n = nodes[i];
-    if (n.x == null) continue;
-    var r = nodeRadius(n);
-    var isAffected = simActive && simAffected.has(n.id);
-    var dimmed = simActive && !isAffected;
-    var alpha = dimmed ? 0.12 : 1;
-
-    if (n.type === 'asn') {
-      /* Diamond shape */
-      var col = n.is_bulletproof ? '#6b4fff' : '#1a8cff';
-      ctx.save();
-      ctx.translate(n.x, n.y);
-      ctx.rotate(Math.PI / 4);
-      ctx.globalAlpha = alpha;
-
-      /* Glow for affected ASN */
-      if (isAffected && simActive) {
-        ctx.shadowColor = '#00e5cc';
-        ctx.shadowBlur = 20 / scale;
-        ctx.fillStyle = '#00e5cc';
-        ctx.fillRect(-r, -r, r*2, r*2);
-        ctx.shadowBlur = 0;
-      }
-
-      ctx.fillStyle = col;
-      ctx.fillRect(-r, -r, r*2, r*2);
-      ctx.strokeStyle = 'rgba(255,255,255,0.3)';
-      ctx.lineWidth = 0.8 / scale;
-      ctx.strokeRect(-r, -r, r*2, r*2);
-      ctx.restore();
-
-      /* ASN label (always visible) */
-      if (!dimmed || !simActive) {
-        ctx.globalAlpha = dimmed ? 0.15 : 0.8;
-        ctx.font = (8/scale < 1 ? 1 : Math.min(8, 8/scale*scale)) + 'px JetBrains Mono, monospace';
-        ctx.fillStyle = '#dce8f8';
-        ctx.textAlign = 'center';
-        ctx.textBaseline = 'top';
-        var labelText = n.label || n.asn_code;
-        if (labelText.length > 16) labelText = labelText.substring(0, 14) + '..';
-        ctx.fillText(labelText, n.x, n.y + r + 3);
-        ctx.globalAlpha = 1;
-      }
-    } else {
-      /* Domain circle */
-      ctx.globalAlpha = alpha;
-      ctx.beginPath();
-      ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
-
-      if (isAffected && simActive) {
-        ctx.shadowColor = '#00e5cc';
-        ctx.shadowBlur = 8 / scale;
-      }
-
-      ctx.fillStyle = ecoColor(n.ecotype);
-      ctx.fill();
-      ctx.shadowBlur = 0;
-
-      /* Labels for high-degree or when toggled */
-      if (showLabels && scale > 1.5 && r > 2) {
-        ctx.font = Math.max(2, 3) + 'px JetBrains Mono, monospace';
-        ctx.fillStyle = 'rgba(220,232,248,0.6)';
-        ctx.textAlign = 'center';
-        ctx.textBaseline = 'top';
-        ctx.fillText(n.id.length > 20 ? n.id.substring(0,18)+'..' : n.id, n.x, n.y + r + 1);
-      }
+  // Domain nodes
+  for(var i=0;i<nodes.length;i++){
+    var n=nodes[i];
+    if(n.t!=='d'||n.x==null)continue;
+    var r = Math.sqrt(n.d||1)*0.7+2;
+    var dim = hasSim && !simSet.has(i);
+    ctx.beginPath(); ctx.arc(n.x,n.y,r,0,Math.PI*2);
+    ctx.fillStyle = dim ? 'rgba(74,96,128,0.1)' : ecoColor(n.e);
+    ctx.fill();
+    if(hasSim && simSet.has(i)){
+      ctx.strokeStyle='rgba(255,255,255,0.4)'; ctx.lineWidth=0.5/sc; ctx.stroke();
     }
-    ctx.globalAlpha = 1;
+  }
+
+  // ASN nodes (diamonds)
+  for(var i=0;i<nodes.length;i++){
+    var n=nodes[i];
+    if(n.t!=='a'||n.x==null)continue;
+    var r = 10+Math.log((n.n||1)+1)*4;
+    var isFocus = simTarget && n.i && simTarget.startsWith(n.i.substring(0,8));
+    var dim = hasSim && !isFocus;
+
+    ctx.save(); ctx.translate(n.x,n.y); ctx.rotate(Math.PI/4);
+    ctx.beginPath(); ctx.rect(-r/2,-r/2,r,r);
+    ctx.fillStyle = isFocus ? '#00e5cc' : dim ? 'rgba(26,140,255,0.15)' : '#1a8cff';
+    ctx.fill();
+    if(!dim){ctx.strokeStyle='rgba(255,255,255,0.3)';ctx.lineWidth=1/sc;ctx.stroke()}
+    ctx.restore();
+
+    // Label
+    if(!dim){
+      ctx.fillStyle = isFocus ? '#00e5cc' : 'rgba(220,232,248,0.7)';
+      ctx.font = Math.max(8, 10/sc)+'px JetBrains Mono, monospace';
+      ctx.textAlign='center';
+      ctx.fillText(n.l||n.i, n.x, n.y+r/2+12/sc);
+    }
   }
 
   ctx.restore();
-  needsRender = false;
 }
 
-/* ── Animation loop ── */
-function loop() {
-  if (needsRender) render();
-  requestAnimationFrame(loop);
+draw();
+
+/* === Zoom/Pan === */
+var isDragging=false, dragX=0, dragY=0;
+
+canvas.addEventListener('wheel', function(e){
+  e.preventDefault();
+  var f = e.deltaY>0 ? 0.9 : 1.1;
+  sc = Math.max(0.1, Math.min(10, sc*f));
+  draw();
+}, {passive:false});
+
+canvas.addEventListener('mousedown', function(e){isDragging=true;dragX=e.clientX;dragY=e.clientY;canvas.style.cursor='grabbing'});
+window.addEventListener('mousemove', function(e){
+  if(isDragging){tx+=e.clientX-dragX;ty+=e.clientY-dragY;dragX=e.clientX;dragY=e.clientY;draw()}
+  else{handleHover(e)}
+});
+window.addEventListener('mouseup', function(){isDragging=false;canvas.style.cursor='grab'});
+
+canvas.addEventListener('click', function(e){
+  if(isDragging)return;
+  var hit = hitTest(e);
+  if(hit && hit.t==='a'){
+    simASN(hit.i);
+  }
+});
+
+window.zoomBy = function(f){sc=Math.max(0.1,Math.min(10,sc*f));draw()};
+window.resetView = function(){tx=W/2;ty=H/2;sc=0.8;clearSim();draw()};
+
+/* === Hit test === */
+function screenToWorld(ex,ey){
+  var rect=canvas.getBoundingClientRect();
+  var mx=ex-rect.left, my=ey-rect.top;
+  return {x:(mx-tx)/sc, y:(my-ty)/sc};
 }
-requestAnimationFrame(loop);
 
-/* ── Mouse interaction ── */
-var isDragging = false;
-var dragStartX, dragStartY, dragTxStart, dragTyStart;
-var hoveredNode = null;
-
-function screenToWorld(sx, sy) {
-  return [(sx - tx) / scale, (sy - ty) / scale];
-}
-
-function findNode(sx, sy) {
-  var wxy = screenToWorld(sx, sy);
-  var wx = wxy[0], wy = wxy[1];
-  var best = null, bestDist = Infinity;
-  for (var i = nodes.length - 1; i >= 0; i--) {
-    var n = nodes[i];
-    if (n.x == null) continue;
-    var r = nodeRadius(n) + 2;
-    var dx = n.x - wx, dy = n.y - wy;
-    var d = dx*dx + dy*dy;
-    if (d < r*r && d < bestDist) {
-      bestDist = d;
-      best = n;
-    }
+function hitTest(e){
+  var p=screenToWorld(e.clientX,e.clientY);
+  var best=null, bestD=20/sc;
+  for(var i=0;i<nodes.length;i++){
+    var n=nodes[i]; if(n.x==null)continue;
+    var dx=n.x-p.x, dy=n.y-p.y, d=Math.sqrt(dx*dx+dy*dy);
+    if(d<bestD){bestD=d;best=n;best._idx=i}
   }
   return best;
 }
 
-canvas.addEventListener('mousedown', function(e) {
-  var rect = canvas.getBoundingClientRect();
-  var mx = e.clientX - rect.left;
-  var my = e.clientY - rect.top;
-  var clicked = findNode(mx, my);
-
-  if (clicked) {
-    if (clicked.type === 'asn') {
-      runSimulation(clicked.asn_code, clicked.label || clicked.asn_code);
-      return;
+/* === Hover tooltip === */
+var tip=document.getElementById('tip'), tipName=document.getElementById('tipName'), tipBody=document.getElementById('tipBody');
+function handleHover(e){
+  var hit=hitTest(e);
+  if(hit){
+    tip.style.display='block';
+    var rect=canvas.getBoundingClientRect();
+    tip.style.left=(e.clientX-rect.left+15)+'px';
+    tip.style.top=(e.clientY-rect.top-10)+'px';
+    if(hit.t==='a'){
+      tipName.textContent='◆ '+( hit.l||hit.i);
+      tipBody.innerHTML='<div class="tt-row"><span>Type</span><span>ASN Infrastructure</span></div><div class="tt-row"><span>Domains</span><span>'+(hit.n||0)+'</span></div>';
+    }else{
+      tipName.textContent=hit.i;
+      tipBody.innerHTML='<div class="tt-row"><span>Ecotype</span><span>'+ecoName(hit.e)+'</span></div><div class="tt-row"><span>Degree</span><span>'+(hit.d||0)+'</span></div><div class="tt-row"><span>Severity</span><span>'+(hit.s||0)+'</span></div><div class="tt-row"><span>Country</span><span>'+(hit.c||'')+'</span></div><div class="tt-row"><span>ASN</span><span>'+(hit.a||'')+'</span></div>';
     }
-    showNodeDetail(clicked);
-    return;
+  }else{
+    tip.style.display='none';
   }
+}
 
-  /* Background click: start pan or reset */
-  isDragging = true;
-  dragStartX = e.clientX;
-  dragStartY = e.clientY;
-  dragTxStart = tx;
-  dragTyStart = ty;
-});
-
-canvas.addEventListener('mousemove', function(e) {
-  if (isDragging) {
-    tx = dragTxStart + (e.clientX - dragStartX);
-    ty = dragTyStart + (e.clientY - dragStartY);
-    needsRender = true;
-    hideTooltip();
-    return;
+/* === Attack Simulation === */
+window.simASN = function(asn){
+  simTarget = asn;
+  simSet.clear();
+  // Find ASN node
+  for(var i=0;i<nodes.length;i++){
+    if(nodes[i].t==='a' && nodes[i].i===asn) simSet.add(i);
   }
-
-  var rect = canvas.getBoundingClientRect();
-  var mx = e.clientX - rect.left;
-  var my = e.clientY - rect.top;
-  var n = findNode(mx, my);
-
-  if (n && n !== hoveredNode) {
-    hoveredNode = n;
-    showTooltip(n, e.clientX, e.clientY);
-    canvas.style.cursor = 'pointer';
-  } else if (!n && hoveredNode) {
-    hoveredNode = null;
-    hideTooltip();
-    canvas.style.cursor = 'grab';
-  }
-  if (n) {
-    showTooltip(n, e.clientX, e.clientY);
-  }
-});
-
-canvas.addEventListener('mouseup', function(e) {
-  if (isDragging) {
-    var dist = Math.abs(e.clientX - dragStartX) + Math.abs(e.clientY - dragStartY);
-    if (dist < 3 && simActive) {
-      resetSimulation();
+  // Find matching domain nodes
+  for(var i=0;i<nodes.length;i++){
+    var n=nodes[i];
+    if(n.t==='d' && n.a && asn.startsWith(n.a)){
+      simSet.add(i);
     }
   }
-  isDragging = false;
-});
+  var count = 0;
+  simSet.forEach(function(idx){if(nodes[idx].t==='d')count++});
 
-canvas.addEventListener('mouseleave', function() {
-  isDragging = false;
-  hoveredNode = null;
-  hideTooltip();
-  canvas.style.cursor = 'grab';
-});
-
-/* ── Zoom ── */
-canvas.addEventListener('wheel', function(e) {
-  e.preventDefault();
-  var rect = canvas.getBoundingClientRect();
-  var mx = e.clientX - rect.left;
-  var my = e.clientY - rect.top;
-
-  var factor = e.deltaY < 0 ? 1.12 : 0.89;
-  var newScale = Math.max(0.1, Math.min(8, scale * factor));
-
-  tx = mx - (mx - tx) * (newScale / scale);
-  ty = my - (my - ty) * (newScale / scale);
-  scale = newScale;
-
-  document.getElementById('zoomLabel').textContent = scale.toFixed(1) + 'x';
-  needsRender = true;
-}, { passive: false });
-
-/* ── Tooltip ── */
-var tooltipEl = document.getElementById('tooltip');
-var ttName = document.getElementById('ttName');
-var ttBody = document.getElementById('ttBody');
-
-function showTooltip(n, cx, cy) {
-  ttName.textContent = n.type === 'asn' ? (n.label || n.asn_code) : n.id;
-  var html = '';
-  if (n.type === 'domain') {
-    html += '<div class="tt-row">Type: <span>Domain</span></div>';
-    html += '<div class="tt-row">Ecotype: <span>' + (n.ecotype || 'unclassified') + '</span></div>';
-    html += '<div class="tt-row">Degree: <span>' + n.degree + '</span></div>';
-    if (n.pagerank) html += '<div class="tt-row">PageRank: <span>' + n.pagerank.toFixed(6) + '</span></div>';
-    if (n.severity != null) html += '<div class="tt-row">Severity: <span>' + n.severity + '/5</span></div>';
-    if (n.country) html += '<div class="tt-row">Country: <span>' + n.country + '</span></div>';
-    if (n.asn) html += '<div class="tt-row">ASN: <span>' + n.asn + '</span></div>';
-    html += '<div class="tt-row">Active: <span>' + (n.active ? 'Yes' : 'No') + '</span></div>';
-  } else {
-    html += '<div class="tt-row">Type: <span>ASN Infrastructure</span></div>';
-    html += '<div class="tt-row">ASN Code: <span>' + n.asn_code + '</span></div>';
-    var dc = asnDomainCounts.get(n.asn_code) || n.domain_count || 0;
-    html += '<div class="tt-row">Domains: <span>' + dc + '</span></div>';
-    html += '<div class="tt-row">Bulletproof: <span>' + (n.is_bulletproof ? 'YES' : 'No') + '</span></div>';
-    html += '<div class="tt-row" style="margin-top:4px;color:var(--aria-accent);font-size:10px">Click to simulate takedown</div>';
-  }
-  ttBody.innerHTML = html;
-  tooltipEl.classList.add('visible');
-
-  /* Position */
-  var tw = tooltipEl.offsetWidth;
-  var th = tooltipEl.offsetHeight;
-  var left = cx + 14;
-  var top = cy - 10;
-  if (left + tw > window.innerWidth - 10) left = cx - tw - 14;
-  if (top + th > window.innerHeight - 10) top = window.innerHeight - th - 10;
-  if (top < 10) top = 10;
-  tooltipEl.style.left = left + 'px';
-  tooltipEl.style.top = top + 'px';
-}
-
-function hideTooltip() {
-  tooltipEl.classList.remove('visible');
-}
-
-/* ── Node detail panel ── */
-function showNodeDetail(n) {
-  var panel = document.getElementById('nodeDetail');
-  var content = document.getElementById('nodeDetailContent');
-  var html = '<div class="node-detail-name">' + n.id + '</div>';
-
-  if (n.type === 'domain') {
-    html += detailRow('Type', 'Domain');
-    html += detailRow('Ecotype', n.ecotype || 'unclassified');
-    html += detailRow('Degree', n.degree);
-    html += detailRow('PageRank', n.pagerank ? n.pagerank.toFixed(6) : 'N/A');
-    html += detailRow('Betweenness', n.betweenness ? n.betweenness.toFixed(6) : 'N/A');
-    html += detailRow('Severity', (n.severity != null ? n.severity + '/5' : 'N/A'));
-    html += detailRow('Country', n.country || 'Unknown');
-    html += detailRow('ASN', n.asn || 'Unknown');
-    html += detailRow('Active', n.active ? 'Yes' : 'No');
-  } else {
-    html += detailRow('Type', 'ASN Infrastructure');
-    html += detailRow('ASN Code', n.asn_code);
-    var dc = asnDomainCounts.get(n.asn_code) || n.domain_count || 0;
-    html += detailRow('Domains hosted', dc);
-    html += detailRow('Bulletproof', n.is_bulletproof ? 'YES' : 'No');
-  }
-
-  content.innerHTML = html;
-  panel.classList.add('visible');
-}
-
-function detailRow(label, value) {
-  return '<div class="node-detail-row"><span class="label">' + label + '</span><span class="value">' + value + '</span></div>';
-}
-
-/* ── Attack Simulation ── */
-function runSimulation(asnCode, label) {
-  simActive = true;
-  simASN = asnCode;
-  simAffected.clear();
-
-  /* Find the ASN node */
-  var asnNode = nodes.find(function(n) { return n.type === 'asn' && n.asn_code === asnCode; });
-  if (asnNode) simAffected.add(asnNode.id);
-
-  /* Find all domains hosted on this ASN */
-  var affected = domainNodes.filter(function(d) { return d.asn === asnCode; });
-  affected.forEach(function(d) { simAffected.add(d.id); });
-
-  var count = affected.length;
-  var pct = (count / domainNodes.length * 100).toFixed(1);
-  var remaining = domainNodes.length - count;
-
-  /* Active ecotype breakdown */
-  var ecoBreakdown = {};
-  affected.forEach(function(d) {
-    var e = d.ecotype || 'unclassified';
-    ecoBreakdown[e] = (ecoBreakdown[e]||0) + 1;
-  });
-  var activeCount = affected.filter(function(d){ return d.active; }).length;
-
-  /* Build impact panel */
-  var html = '';
-  html += '<div class="impact-stat"><span class="impact-stat-label">Domains affected</span><span class="impact-stat-val danger">' + count + '</span></div>';
-  html += '<div class="impact-stat"><span class="impact-stat-label">Network coverage</span><span class="impact-stat-val accent">' + pct + '%</span></div>';
-  html += '<div class="impact-stat"><span class="impact-stat-label">Currently active</span><span class="impact-stat-val">' + activeCount + '</span></div>';
-
-  html += '<div class="impact-before-after">';
-  html += '<div style="display:flex;justify-content:center;align-items:center;gap:12px">';
-  html += '<div><span class="big" style="color:var(--text-2)">' + domainNodes.length.toLocaleString() + '</span><span class="label">Before</span></div>';
-  html += '<span style="color:var(--text-3);font-size:20px">&rarr;</span>';
-  html += '<div><span class="big">' + remaining.toLocaleString() + '</span><span class="label">After</span></div>';
-  html += '</div></div>';
-
-  /* Ecotype mini-breakdown */
-  var ecoKeys = Object.keys(ecoBreakdown).sort(function(a,b){ return ecoBreakdown[b]-ecoBreakdown[a]; });
-  if (ecoKeys.length > 0) {
-    html += '<div style="margin-top:8px;font-size:10px;color:var(--text-3);text-transform:uppercase;font-weight:600;letter-spacing:.08em;margin-bottom:4px">Ecotype breakdown</div>';
-    ecoKeys.forEach(function(e) {
-      html += '<div class="impact-stat"><span class="impact-stat-label"><span class="eco-dot" style="background:' + ecoColor(e) + '"></span>' + e + '</span><span class="impact-stat-val">' + ecoBreakdown[e] + '</span></div>';
-    });
-  }
-
-  document.getElementById('impactContent').innerHTML = html;
-  document.getElementById('impactPanel').classList.add('visible');
-
-  /* Highlight active button */
-  document.querySelectorAll('.attack-btn').forEach(function(btn) {
-    btn.classList.toggle('active-sim', btn.dataset.asn === asnCode);
-  });
-
-  needsRender = true;
-}
-
-window.resetSimulation = function() {
-  simActive = false;
-  simASN = null;
-  simAffected.clear();
-  document.getElementById('impactPanel').classList.remove('visible');
-  document.querySelectorAll('.attack-btn').forEach(function(btn) {
-    btn.classList.remove('active-sim');
-  });
-  needsRender = true;
+  document.getElementById('simResult').style.display='block';
+  document.getElementById('simCount').textContent=count;
+  document.getElementById('simPct').textContent=((count/domainNodes.length)*100).toFixed(1)+'% of network — '+count+' domains would go offline';
+  draw();
 };
 
-/* Wire up attack buttons */
-document.querySelectorAll('.attack-btn').forEach(function(btn) {
-  btn.addEventListener('click', function() {
-    var asn = this.dataset.asn;
-    var label = this.dataset.label || asn;
-    runSimulation(asn, label);
-  });
-});
-
-/* ── Zoom controls ── */
-window.zoomIn = function() {
-  scale = Math.min(8, scale * 1.3);
-  document.getElementById('zoomLabel').textContent = scale.toFixed(1) + 'x';
-  needsRender = true;
-};
-window.zoomOut = function() {
-  scale = Math.max(0.1, scale * 0.77);
-  document.getElementById('zoomLabel').textContent = scale.toFixed(1) + 'x';
-  needsRender = true;
-};
-window.zoomReset = function() {
-  scale = 1; tx = W/2; ty = H/2;
-  document.getElementById('zoomLabel').textContent = '1.0x';
-  needsRender = true;
-};
-window.toggleLabels = function() {
-  showLabels = !showLabels;
-  document.getElementById('btnLabels').style.color = showLabels ? '#00e5cc' : '';
-  needsRender = true;
+window.clearSim = function(){
+  simTarget=null; simSet.clear();
+  document.getElementById('simResult').style.display='none';
+  draw();
 };
 
-/* ── Export ── */
-window.exportPNG = function() {
-  /* Render at current state to a download */
-  var link = document.createElement('a');
-  link.download = 'aria-ecosystem-map.png';
-  link.href = canvas.toDataURL('image/png');
-  link.click();
-};
+/* === Populate Stats === */
+var totalDeg=0, maxDeg=0, maxDegNode='';
+domainNodes.forEach(function(n){totalDeg+=n.d;if(n.d>maxDeg){maxDeg=n.d;maxDegNode=n.i}});
 
-/* ── Populate bottom stats ── */
-function populateStats() {
-  /* Network stats */
-  var totalDeg = 0; var maxDeg = 0; var maxDegNode = '';
-  domainNodes.forEach(function(n) {
-    totalDeg += n.degree;
-    if (n.degree > maxDeg) { maxDeg = n.degree; maxDegNode = n.id; }
-  });
-  var avgDeg = (totalDeg / domainNodes.length).toFixed(1);
-  var activeCount = domainNodes.filter(function(d){return d.active}).length;
-  var avgPR = (domainNodes.reduce(function(s,n){return s+(n.pagerank||0)},0) / domainNodes.length);
-  var maxBetw = 0; var maxBetwNode = '';
-  domainNodes.forEach(function(n) {
-    if ((n.betweenness||0) > maxBetw) { maxBetw = n.betweenness; maxBetwNode = n.id; }
-  });
-  var bpCount = asnNodes.filter(function(a){return a.is_bulletproof}).length;
+var sh='';
+sh+='<div class="stat-row"><span class="label">Total nodes</span><span class="value">'+nodes.length+'</span></div>';
+sh+='<div class="stat-row"><span class="label">Domain nodes</span><span class="value">'+domainNodes.length+'</span></div>';
+sh+='<div class="stat-row"><span class="label">ASN nodes</span><span class="value">'+asnNodes.length+'</span></div>';
+sh+='<div class="stat-row"><span class="label">Edges</span><span class="value">'+edges.length+'</span></div>';
+sh+='<div class="stat-row"><span class="label">Avg degree</span><span class="value">'+(totalDeg/domainNodes.length).toFixed(1)+'</span></div>';
+sh+='<div class="stat-row"><span class="label">Max degree</span><span class="value">'+maxDegNode+' ('+maxDeg+')</span></div>';
+document.getElementById('statsDiv').innerHTML=sh;
 
-  var statsHtml = '';
-  statsHtml += statRow('Total nodes', nodes.length.toLocaleString());
-  statsHtml += statRow('Domain nodes', domainNodes.length.toLocaleString());
-  statsHtml += statRow('ASN infrastructure nodes', asnNodes.length.toLocaleString());
-  statsHtml += statRow('Total edges', links.length.toLocaleString());
-  statsHtml += statRow('Domain-domain links', domainLinks.length.toLocaleString());
-  statsHtml += statRow('Domain-ASN links', hostedLinks.length.toLocaleString());
-  statsHtml += statRow('Average degree', avgDeg);
-  statsHtml += statRow('Max degree node', maxDegNode + ' (' + maxDeg + ')');
-  statsHtml += statRow('Highest betweenness', maxBetwNode.substring(0,24) + ' (' + maxBetw.toFixed(4) + ')');
-  statsHtml += statRow('Active domains', activeCount + ' (' + (activeCount/domainNodes.length*100).toFixed(1) + '%)');
-  statsHtml += statRow('Bulletproof ASNs', bpCount);
-  statsHtml += statRow('Mean PageRank', avgPR.toExponential(3));
-  document.getElementById('networkStats').innerHTML = statsHtml;
+// ASN table
+var asnSorted=asnNodes.slice().sort(function(a,b){return(b.n||0)-(a.n||0)});
+document.getElementById('asnTbody').innerHTML=asnSorted.map(function(a){return'<tr><td>'+a.i+'</td><td>'+(a.l||'')+'</td><td>'+(a.n||0)+'</td></tr>'}).join('');
 
-  /* ASN table */
-  var asnSorted = asnNodes.slice().sort(function(a,b){
-    return (asnDomainCounts.get(b.asn_code)||0) - (asnDomainCounts.get(a.asn_code)||0);
-  }).slice(0, 15);
-  var tbody = document.getElementById('asnTableBody');
-  tbody.innerHTML = asnSorted.map(function(a) {
-    var dc = asnDomainCounts.get(a.asn_code) || a.domain_count || 0;
-    var typeLabel = a.is_bulletproof ? '<span style="color:#ff3344;font-weight:600">BULLETPROOF</span>' : 'Standard';
-    return '<tr><td>' + a.asn_code + '</td><td>' + (a.label||'') + '</td><td>' + dc + '</td><td>' + typeLabel + '</td></tr>';
-  }).join('');
+// Ecotype
+var ecoCounts={};
+domainNodes.forEach(function(n){var e=n.e||'unc';ecoCounts[e]=(ecoCounts[e]||0)+1});
+var ecoKeys=Object.keys(ecoCounts).sort(function(a,b){return ecoCounts[b]-ecoCounts[a]});
+document.getElementById('ecoDiv').innerHTML=ecoKeys.map(function(e){
+  return'<div class="stat-row"><span class="label"><span class="eco-dot" style="background:'+ecoColor(e)+'"></span>'+ecoName(e)+'</span><span class="value">'+ecoCounts[e]+' ('+(ecoCounts[e]/domainNodes.length*100).toFixed(1)+'%)</span></div>';
+}).join('');
 
-  /* Ecotype stats */
-  var ecoCounts = {};
-  domainNodes.forEach(function(n) {
-    var e = n.ecotype || 'unclassified';
-    ecoCounts[e] = (ecoCounts[e]||0) + 1;
-  });
-  var ecoKeys = Object.keys(ecoCounts).sort(function(a,b){return ecoCounts[b]-ecoCounts[a]});
-  var ecoHtml = '';
-  ecoKeys.forEach(function(e) {
-    var pct = (ecoCounts[e] / domainNodes.length * 100).toFixed(1);
-    ecoHtml += '<div class="stat-row"><span class="label"><span class="eco-dot" style="background:' + ecoColor(e) + '"></span>' + e + '</span><span class="value">' + ecoCounts[e] + ' (' + pct + '%)</span></div>';
-  });
-  document.getElementById('ecotypeStats').innerHTML = ecoHtml;
-
-  /* Centrality table */
-  var topBetw = domainNodes.slice().sort(function(a,b){return (b.betweenness||0)-(a.betweenness||0)}).slice(0,15);
-  var cBody = document.getElementById('centralityBody');
-  cBody.innerHTML = topBetw.map(function(n) {
-    return '<tr><td style="font-size:10px">' + n.id + '</td><td>' + (n.betweenness||0).toFixed(4) + '</td><td>' + n.degree + '</td><td><span class="eco-dot" style="background:' + ecoColor(n.ecotype) + '"></span>' + (n.ecotype||'unclassified') + '</td></tr>';
-  }).join('');
-}
-
-function statRow(label, value) {
-  return '<div class="stat-row"><span class="label">' + label + '</span><span class="value">' + value + '</span></div>';
-}
-
-populateStats();
-
-/* ── Populate header KPIs from live data ── */
-var ecoSet = new Set();
-domainNodes.forEach(function(n){ if(n.ecotype) ecoSet.add(n.ecotype); });
-document.getElementById('kpi-domains').textContent = domainNodes.length.toLocaleString();
-document.getElementById('kpi-asns').textContent = asnNodes.length.toLocaleString();
-document.getElementById('kpi-edges').textContent = links.length.toLocaleString();
-document.getElementById('kpi-ecotypes').textContent = ecoSet.size;
-document.getElementById('headerSub').textContent = domainNodes.length.toLocaleString() + ' piracy domains + ' + asnNodes.length + ' infrastructure nodes — interactive force-directed network';
-
-/* ── Initial cursor ── */
-canvas.style.cursor = 'grab';
+// Top degree
+var topDeg=domainNodes.slice().sort(function(a,b){return b.d-a.d}).slice(0,15);
+document.getElementById('topTbody').innerHTML=topDeg.map(function(n){return'<tr><td>'+n.i+'</td><td>'+n.d+'</td><td><span class="eco-dot" style="background:'+ecoColor(n.e)+'"></span>'+ecoName(n.e)+'</td></tr>'}).join('');
 
 })();
 </script>
