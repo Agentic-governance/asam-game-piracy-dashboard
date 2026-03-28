@@ -1,0 +1,60 @@
+name: ARIA Threat Feed Update
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Daily at UTC 06:00 (JST 15:00)
+  workflow_dispatch:       # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch latest piracy news
+        run: python3 scripts/news_fetcher.py
+
+      - name: Inject news into index.html
+        run: |
+          python3 - << 'PYEOF'
+          import re
+
+          with open('news_data.js', 'r') as f:
+              news_js = f.read()
+
+          with open('index.html', 'r') as f:
+              html = f.read()
+
+          # Replace existing ARIA_NEWS block
+          pattern = r'// \[LIVE DATA\].*?const ARIA_NEWS = \{.*?\};'
+          if re.search(pattern, html, re.DOTALL):
+              html = re.sub(pattern, news_js.strip(), html, flags=re.DOTALL)
+              print("Replaced existing ARIA_NEWS block")
+          else:
+              # Inject before </head>
+              html = html.replace('</head>', f'<script>\n{news_js}\n</script>\n</head>')
+              print("Injected new ARIA_NEWS block")
+
+          with open('index.html', 'w') as f:
+              f.write(html)
+          print(f"index.html updated ({len(html):,} bytes)")
+          PYEOF
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "ARIA Bot"
+          git config user.email "aria-bot@users.noreply.github.com"
+          git add news_data.js index.html
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update threat feed $(date -u +%Y-%m-%d)"
+            git push
+          fi
