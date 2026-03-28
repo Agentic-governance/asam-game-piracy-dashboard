@@ -167,6 +167,18 @@ body { font-family: var(--sans); background: var(--bg-0); color: var(--text-1); 
   .kpi-row { flex-wrap:wrap; }
 }
 body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(rgba(26,140,255,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(26,140,255,0.03) 1px,transparent 1px);background-size:40px 40px;pointer-events:none;z-index:0}
+.global-cta{position:sticky;top:56px;z-index:90;background:linear-gradient(90deg,rgba(0,229,204,0.08),rgba(26,140,255,0.08));border-bottom:1px solid rgba(0,229,204,0.15);padding:10px 24px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.cta-dot-g{width:6px;height:6px;border-radius:50%;background:#00e5cc;animation:pulse 2s infinite;flex-shrink:0}
+.cta-btn{display:inline-block;background:linear-gradient(135deg,#1a8cff,#6b4fff);color:#fff;font-size:12px;font-weight:700;padding:7px 18px;border-radius:6px;text-decoration:none;transition:all .2s}
+.cta-btn:hover{box-shadow:0 0 20px rgba(26,140,255,.4);transform:translateY(-1px)}
+.evidence-banner{background:linear-gradient(135deg,rgba(0,229,204,0.04),rgba(26,140,255,0.04));border:1px solid rgba(0,229,204,0.12);border-radius:10px;padding:20px 24px;margin-bottom:20px;display:flex;gap:24px;align-items:center;flex-wrap:wrap}
+.evidence-banner-left{flex:1;min-width:250px}
+.evidence-banner-left h4{color:#00e5cc;font-size:13px;font-weight:700;margin-bottom:8px;letter-spacing:.5px}
+.evidence-banner-left .eb-stats{font-size:12px;color:#7a9bbf;line-height:1.8}
+.evidence-banner-left .eb-caselaw{margin-top:8px;font-size:12px;color:#ffaa00;display:flex;align-items:center;gap:6px}
+.evidence-banner-right{display:flex;flex-direction:column;gap:8px;align-items:flex-end}
+.url-blur{font-family:'JetBrains Mono',monospace;font-size:11px;color:#3d5470;background:rgba(255,255,255,.02);padding:4px 12px;border-radius:4px;border:1px solid rgba(26,140,255,.08);filter:blur(3px);user-select:none}
+.url-more{filter:none;color:#1a8cff;font-weight:600;font-size:10px}
 </style>
 </head>
 <body>
@@ -185,6 +197,7 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
     <a href="enforcement.html" data-page="enforcement">Enforcement</a>
     <a href="trends.html" data-page="trends">Trends</a>
     <a href="regions.html" data-page="regions">Geo Intel</a>
+    <a href="contact.html" data-page="evidence">Evidence</a>
   </div>
   <div class="nav-right">
     <div class="threat-badge"><span class="dot"></span> ELEVATED</div>
@@ -192,6 +205,13 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
     <button class="btn-export" onclick="window.print()">Export PDF</button>
   </div>
 </nav>
+<div class="global-cta">
+  <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:#7a9bbf">
+    <span class="cta-dot-g"></span>
+    <span><strong style="color:#dce8f8">694</strong> verified infringing URLs available. Win rate <strong style="color:#dce8f8">71-91%</strong> in court with this evidence.</span>
+  </div>
+  <a href="contact.html" class="cta-btn">Request evidence package →</a>
+</div>
 
 <!-- ════════════════════ PAGE HEADER ═════════════════════ -->
 <header class="page-header">
@@ -639,5 +659,36 @@ document.addEventListener('DOMContentLoaded', ()=>{
   <p style="margin-bottom:8px"><strong style="color:#7a9bbf">Research Purpose Notice:</strong> This intelligence report was compiled for copyright enforcement research. Domain data represents sites identified as potentially infringing. Direct URLs to infringing content have been redacted.</p>
   <p>ARIA v2.0 | Data as of 2026-03-28 | 7,225 domains analyzed | <a href="index.html" style="color:#1a8cff;text-decoration:none">Command Center</a> · <a href="network.html" style="color:#1a8cff;text-decoration:none">Ecosystem Map</a> · <a href="publishers.html" style="color:#1a8cff;text-decoration:none">Publishers</a> · <a href="titles.html" style="color:#1a8cff;text-decoration:none">Titles</a> · <a href="enforcement.html" style="color:#1a8cff;text-decoration:none">Enforcement</a> · <a href="trends.html" style="color:#1a8cff;text-decoration:none">Trends</a> · <a href="regions.html" style="color:#1a8cff;text-decoration:none">Geo Intel</a></p>
 </footer>
+<script>
+// Add evidence banners to each publisher section
+document.addEventListener('DOMContentLoaded', function() {
+  const sections = document.querySelectorAll('.pub-section, [id^="pub-"]');
+  if (sections.length === 0) return;
+
+  // Insert a master evidence banner before the first publisher
+  const container = sections[0].parentElement;
+  const masterBanner = document.createElement('div');
+  masterBanner.className = 'evidence-banner';
+  masterBanner.innerHTML = `
+    <div class="evidence-banner-left">
+      <h4>⚖ EVIDENCE PACKAGES AVAILABLE</h4>
+      <div class="eb-stats">
+        694 verified download URLs across 10 file hosts<br>
+        SHA-256 hashed · Timestamped · Court-admissible<br>
+        Available for all 20 tracked publishers
+      </div>
+      <div class="eb-caselaw">⚖ Companies with this evidence win 71-91% of copyright cases</div>
+    </div>
+    <div class="evidence-banner-right">
+      <div class="url-blur">rapidgator.net/file/a8f2e9c1d4b...</div>
+      <div class="url-blur">nitroflare.com/view/7bc3d2e5f1...</div>
+      <div class="url-blur">filecrypt.cc/Container/E9A2F8...</div>
+      <div class="url-more">+691 more URLs available</div>
+      <a href="contact.html" class="cta-btn" style="margin-top:8px">Unlock evidence package →</a>
+    </div>
+  `;
+  container.insertBefore(masterBanner, sections[0]);
+});
+</script>
 </body>
 </html>
