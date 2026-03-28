@@ -254,7 +254,7 @@ resize();
 window.addEventListener('resize', resize);
 
 /* === Transform === */
-var tx = W/2, ty = H/2, sc = 0.8;
+var tx = W/2, ty = H/2, sc = 0.35;
 var simTarget = null;
 var simSet = new Set();
 
@@ -281,7 +281,7 @@ function draw(){
   ctx.lineWidth = 0.5/sc;
 
   // Normal edges
-  ctx.strokeStyle = hasSim ? 'rgba(26,140,255,0.02)' : 'rgba(26,140,255,0.07)';
+  ctx.strokeStyle = hasSim ? 'rgba(26,140,255,0.03)' : 'rgba(26,140,255,0.12)';
   ctx.beginPath();
   for(var i=0;i<edges.length;i++){
     var e=edges[i], s=nodes[e[0]], t=nodes[e[1]];
@@ -310,7 +310,7 @@ function draw(){
   for(var i=0;i<nodes.length;i++){
     var n=nodes[i];
     if(n.t!=='d'||n.x==null)continue;
-    var r = Math.sqrt(n.d||1)*0.7+2;
+    var r = Math.sqrt(n.d||1)*1.2+3;
     var dim = hasSim && !simSet.has(i);
     ctx.beginPath(); ctx.arc(n.x,n.y,r,0,Math.PI*2);
     ctx.fillStyle = dim ? 'rgba(74,96,128,0.1)' : ecoColor(n.e);
@@ -324,7 +324,7 @@ function draw(){
   for(var i=0;i<nodes.length;i++){
     var n=nodes[i];
     if(n.t!=='a'||n.x==null)continue;
-    var r = 10+Math.log((n.n||1)+1)*4;
+    var r = 14+Math.log((n.n||1)+1)*6;
     var isFocus = simTarget && n.i && simTarget.startsWith(n.i.substring(0,8));
     var dim = hasSim && !isFocus;
 
