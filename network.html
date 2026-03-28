@@ -532,7 +532,7 @@ function nodeRadius(n) {
     var dc = asnDomainCounts.get(n.asn_code) || n.domain_count || 1;
     return 8 + Math.log(dc + 1) * 3;
   }
-  return Math.sqrt(n.degree || 1) * 0.4 + 1.5;
+  return Math.sqrt(n.degree || 1) * 0.7 + 2;
 }
 
 /* ── Canvas setup ── */
@@ -556,7 +556,7 @@ resizeCanvas();
 window.addEventListener('resize', function() { resizeCanvas(); });
 
 /* ── Transform state ── */
-let tx = W / 2, ty = H / 2, scale = 1;
+let tx = W / 2, ty = H / 2, scale = 0.35;
 let showLabels = false;
 let needsRender = true;
 
@@ -567,15 +567,15 @@ let simAffected = new Set();
 
 /* ── D3 Force simulation ── */
 var sim = d3.forceSimulation(nodes)
-  .force('link', d3.forceLink(links).id(function(d){return d.id}).distance(6).strength(0.3))
+  .force('link', d3.forceLink(links).id(function(d){return d.id}).distance(12).strength(0.15))
   .force('charge', d3.forceManyBody().strength(function(d){
-    return d.type === 'asn' ? -200 : -8;
-  }))
+    return d.type === 'asn' ? -300 : -5;
+  }).distanceMax(300))
   .force('center', d3.forceCenter(0, 0))
   .force('collision', d3.forceCollide().radius(function(d){
-    return nodeRadius(d) + 0.5;
+    return nodeRadius(d) + 1;
   }))
-  .alphaDecay(0.02)
+  .alphaDecay(0.015)
   .on('tick', function() { needsRender = true; });
 
 /* Stop after 300 ticks */
@@ -611,8 +611,8 @@ function render() {
 
   /* ── Draw edges ── */
   /* Domain-domain links */
-  ctx.strokeStyle = simActive ? 'rgba(255,255,255,0.015)' : 'rgba(255,255,255,0.04)';
-  ctx.lineWidth = 0.3 / scale;
+  ctx.strokeStyle = simActive ? 'rgba(255,255,255,0.02)' : 'rgba(26,140,255,0.08)';
+  ctx.lineWidth = 0.4 / scale;
   ctx.beginPath();
   for (var i = 0; i < domainLinks.length; i++) {
     var l = domainLinks[i];
