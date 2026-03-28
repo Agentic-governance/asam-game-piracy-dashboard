@@ -627,15 +627,15 @@ const ARIA_NEWS = {
       <div class="kpi-value" data-target="2680" data-prefix="" data-suffix="">0</div>
       <div class="kpi-sub">37.1% of total</div>
     </div>
-    <div class="kpi-card fade-in" style="--kpi-color:var(--aria-warning)">
-      <div class="kpi-label">Avg Time-to-Crack</div>
-      <div class="kpi-value" data-target="4.2" data-prefix="" data-suffix="h" data-decimal="1">0</div>
-      <div class="kpi-sub">Non-DRM titles only</div>
-    </div>
     <div class="kpi-card fade-in" style="--kpi-color:var(--aria-danger)">
-      <div class="kpi-label">Est. Annual Loss</div>
-      <div class="kpi-value" data-target="1.9" data-prefix="$" data-suffix="B" data-decimal="1">0</div>
-      <div class="kpi-sub">10% displacement rate</div>
+      <div class="kpi-label">Severity 4-5</div>
+      <div class="kpi-value" data-target="2172" data-prefix="" data-suffix="">0</div>
+      <div class="kpi-sub">57.8% of surveyed domains</div>
+    </div>
+    <div class="kpi-card fade-in" style="--kpi-color:var(--aria-accent)">
+      <div class="kpi-label">Monetization Rate</div>
+      <div class="kpi-value" data-target="99.2" data-prefix="" data-suffix="%" data-decimal="1">0</div>
+      <div class="kpi-sub">389 sites deep-analyzed</div>
     </div>
   </div>
 
@@ -690,14 +690,13 @@ const ARIA_NEWS = {
       <div style="font-size:.7rem;color:var(--text-3);margin-top:8px">Total classified: 3,755 domains (Sev 3+ = 71.3%)</div>
     </div>
 
-    <!-- ECOTYPE SHIFT -->
+    <!-- ECOTYPE DISTRIBUTION -->
     <div class="panel fade-in">
-      <div class="section-title">Ecotype Shift</div>
+      <div class="section-title">Site Ecotype Distribution</div>
       <div class="chart-container">
         <canvas id="ecotype-chart"></canvas>
       </div>
-      <div class="insight-text">Streaming piracy &uarr; 183% since 2023</div>
-      <div style="font-size:.66rem;color:var(--text-3);margin-top:4px">Reader (manga/novel) remains dominant. Torrent &amp; DDL steadily declining.</div>
+      <div style="font-size:.66rem;color:var(--text-3);margin-top:4px">N=3,755 classified domains. 78.2% remain unclassified by ecotype sub-category.</div>
     </div>
 
     <!-- PRIORITY ACTIONS -->
@@ -728,22 +727,22 @@ const ARIA_NEWS = {
     </div>
   </div>
 
-  <!-- ESTIMATED LOSS BANNER -->
-  <div class="loss-banner fade-in">
-    <div class="loss-headline">Estimated Annual Revenue Loss: <span>$1.9 Billion</span></div>
-    <div class="loss-note">*Based on 10% displacement rate (Danaher &amp; Smith, 2014). Range: $1.3B &ndash; $2.8B</div>
+  <!-- MONETIZATION ANALYSIS BANNER -->
+  <div class="loss-banner fade-in" style="background:linear-gradient(135deg,rgba(0,229,204,.06),rgba(26,140,255,.06));border:1px solid rgba(0,229,204,.12)">
+    <div class="loss-headline" style="font-size:1.3rem">99.2% of surveyed piracy sites are <span style="background:linear-gradient(135deg,var(--aria-accent),var(--aria-primary));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">commercially monetized</span></div>
+    <div class="loss-note" style="font-style:normal">Based on 389-site deep monetization analysis (ARIA investigation 2025&ndash;2026)</div>
     <div class="loss-boxes">
-      <div class="loss-box">
-        <div class="loss-box-label">Conservative</div>
-        <div class="loss-box-val" style="color:var(--aria-primary)">$1.3B</div>
+      <div class="loss-box active" style="border-color:rgba(0,229,204,.3);background:rgba(0,229,204,.06)">
+        <div class="loss-box-label">VPN Affiliate</div>
+        <div class="loss-box-val" style="color:var(--aria-accent)">81%</div>
       </div>
-      <div class="loss-box active">
-        <div class="loss-box-label">Base</div>
-        <div class="loss-box-val" style="color:var(--aria-danger)">$1.9B</div>
+      <div class="loss-box active" style="border-color:rgba(107,79,255,.3);background:rgba(107,79,255,.06)">
+        <div class="loss-box-label">Crypto Donation</div>
+        <div class="loss-box-val" style="color:var(--aria-secondary)">73%</div>
       </div>
-      <div class="loss-box">
-        <div class="loss-box-label">Aggressive</div>
-        <div class="loss-box-val" style="color:var(--aria-secondary)">$2.8B</div>
+      <div class="loss-box active" style="border-color:rgba(255,170,0,.3);background:rgba(255,170,0,.06)">
+        <div class="loss-box-label">Redirect Chains</div>
+        <div class="loss-box-val" style="color:var(--aria-warning)">55%</div>
       </div>
     </div>
   </div>

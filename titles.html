@@ -138,32 +138,22 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 <!-- HEADER -->
 <div class="page-header section">
   <h1>TITLE TRACKER</h1>
-  <p>DRM Effectiveness &amp; Release Vulnerability Analysis</p>
+  <p>Most Pirated Titles &amp; Publisher Exposure Analysis</p>
   <div class="header-meta">
     <span class="tag tag-blue">8,670 Titles Monitored</span>
-    <span class="tag tag-purple">5 DRM Systems</span>
-    <span class="tag tag-amber">23 Active Releases</span>
-    <span class="tag tag-red">4 Cracked This Week</span>
+    <span class="tag tag-red">30 Highest-Exposure Titles</span>
   </div>
 </div>
 
-<!-- DRM EFFECTIVENESS SCATTER -->
+<!-- PUBLISHER IMPACT SUMMARY -->
 <div class="section">
   <div class="card">
-    <div class="card-title">DRM Effectiveness Scatter <span class="tag tag-purple">Bubble Chart</span></div>
-    <div class="card-sub">X = Implementation Cost (USD) / Y = Days to Crack / Size = Piracy Site Count</div>
-    <div class="chart-wrap">
-      <canvas id="drmScatter"></canvas>
-    </div>
-  </div>
-</div>
-
-<!-- RELEASE VULNERABILITY WINDOW -->
-<div class="section">
-  <div class="card">
-    <div class="card-title">Release Vulnerability Window <span class="tag tag-red">Hours to Crack</span></div>
-    <div class="card-sub">Time from retail release to first confirmed crack, sorted by vulnerability window</div>
-    <div id="vulnBars"></div>
+    <div class="card-title">Publisher Impact Summary <span class="tag tag-blue">Real Data</span></div>
+    <div class="card-sub">Top 4 publishers by work_dict entries across monitored piracy infrastructure</div>
+    <div id="publisherBars"></div>
+    <p style="margin-top:16px;font-size:.82rem;color:var(--text-1);padding:12px 16px;background:rgba(26,140,255,.06);border-left:3px solid var(--brand-blue);border-radius:0 8px 8px 0">
+      Pokemon leads with 190 sites. Call of Duty franchise dominates Activision's exposure. ROM/emulation is Nintendo's unique threat vector.
+    </p>
   </div>
 </div>
 
@@ -191,33 +181,6 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
   </div>
 </div>
 
-<!-- DRM COST-BENEFIT ANALYSIS -->
-<div class="section">
-  <div class="card">
-    <div class="card-title">DRM Cost-Benefit Analysis <span class="tag tag-green">ROI Model</span></div>
-    <div class="card-sub">Comparison of protection window and return on DRM investment for AAA releases</div>
-    <div class="cost-panel">
-      <div class="cost-card">
-        <div class="label">Without DRM Protection</div>
-        <div class="metric" style="color:var(--brand-red)">4.2h</div>
-        <div class="label">Average Time to Crack</div>
-        <div class="desc">Based on 38 unprotected AAA releases (2024-2026). Median first-week piracy rate: 62%.</div>
-      </div>
-      <div class="cost-card">
-        <div class="label">Denuvo v7 Protection</div>
-        <div class="metric" style="color:var(--brand-teal)">96d</div>
-        <div class="label">Average Time to Crack</div>
-        <div class="desc">Latest iteration. 96-day window covers critical first 3 months of revenue. $140K implementation.</div>
-      </div>
-      <div class="cost-card">
-        <div class="label">Estimated ROI</div>
-        <div class="metric" style="color:var(--brand-green)">130:1</div>
-        <div class="label">Return on Investment</div>
-        <div class="desc">$140K DRM cost vs $18.2M estimated revenue protected during crack-free window.</div>
-      </div>
-    </div>
-  </div>
-</div>
 
 </div>
 
@@ -228,92 +191,23 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 </div>
 
 <script>
-/* DRM Effectiveness Bubble Chart */
+/* Publisher Impact Summary Bars */
 (function(){
-  var ctx = document.getElementById('drmScatter').getContext('2d');
-  var data = [
-    {label:'None',        x:0,      y:0.2,  r:18, bg:'rgba(255,51,68,.55)',  border:'#ff3344'},
-    {label:'VMProtect',   x:5000,   y:3.1,  r:14, bg:'rgba(255,170,0,.45)',  border:'#ffaa00'},
-    {label:'Denuvo v5',   x:140000, y:18.4, r:11, bg:'rgba(0,229,204,.40)',  border:'#00e5cc'},
-    {label:'Denuvo v6',   x:140000, y:31.2, r:9,  bg:'rgba(26,140,255,.45)', border:'#1a8cff'},
-    {label:'Denuvo v7',   x:140000, y:96,   r:6,  bg:'rgba(107,79,255,.50)', border:'#6b4fff'}
+  var pubs=[
+    {name:'Activision', entries:14402, sites:915, color:'var(--brand-red)'},
+    {name:'Nintendo',   entries:12171, sites:850, color:'var(--brand-amber)'},
+    {name:'Sony',       entries:11665, sites:1115, color:'var(--brand-blue)'},
+    {name:'EA',         entries:10740, sites:655, color:'var(--brand-teal)'}
   ];
-  new Chart(ctx,{
-    type:'bubble',
-    data:{
-      datasets: data.map(function(d){return {
-        label:d.label,
-        data:[{x:d.x, y:d.y, r:d.r}],
-        backgroundColor:d.bg,
-        borderColor:d.border,
-        borderWidth:2,
-        hoverBorderWidth:3
-      };})
-    },
-    options:{
-      responsive:true,
-      maintainAspectRatio:false,
-      plugins:{
-        legend:{position:'top',labels:{color:'#7a9bbf',font:{family:'Inter',size:12},usePointStyle:true,padding:16}},
-        tooltip:{
-          backgroundColor:'#131d2e',
-          titleColor:'#dce8f8',
-          bodyColor:'#7a9bbf',
-          borderColor:'rgba(26,140,255,.2)',
-          borderWidth:1,
-          callbacks:{
-            label:function(c){
-              var p=c.raw;
-              return c.dataset.label+': Cost $'+p.x.toLocaleString()+', '+p.y+'d to crack';
-            }
-          }
-        }
-      },
-      scales:{
-        x:{
-          title:{display:true,text:'Implementation Cost (USD)',color:'#7a9bbf',font:{family:'Inter',size:12}},
-          ticks:{color:'#3d5470',font:{family:'JetBrains Mono',size:11},callback:function(v){return '$'+v.toLocaleString();}},
-          grid:{color:'rgba(26,140,255,.06)'},
-          min:-10000,max:180000
-        },
-        y:{
-          title:{display:true,text:'Days to Crack',color:'#7a9bbf',font:{family:'Inter',size:12}},
-          ticks:{color:'#3d5470',font:{family:'JetBrains Mono',size:11}},
-          grid:{color:'rgba(26,140,255,.06)'},
-          min:-5,max:120
-        }
-      }
-    }
-  });
-})();
-
-/* Release Vulnerability Bars */
-(function(){
-  var games=[
-    {name:'AAA Shooter A',    hours:0.3,   drm:'none',       color:'var(--brand-red)'},
-    {name:'Indie RPG H',      hours:1.1,   drm:'none',       color:'var(--brand-red)'},
-    {name:'AAA RPG B',        hours:4.2,   drm:'none',       color:'var(--brand-red)'},
-    {name:'AAA Racing F',     hours:5.5,   drm:'vmprotect',  color:'var(--brand-amber)'},
-    {name:'AAA Sports C',     hours:6.8,   drm:'denuvo_v5',  color:'var(--brand-teal)'},
-    {name:'AAA Strategy G',   hours:12.4,  drm:'denuvo_v5',  color:'var(--brand-teal)'},
-    {name:'AAA Platformer I', hours:38.6,  drm:'denuvo_v5',  color:'var(--brand-teal)'},
-    {name:'AAA Action D',     hours:76.8,  drm:'denuvo_v6',  color:'var(--brand-blue)'},
-    {name:'AAA Horror J',     hours:192,   drm:'denuvo_v6',  color:'var(--brand-blue)'},
-    {name:'AAA Sim K',        hours:480,   drm:'denuvo_v6',  color:'var(--brand-blue)'},
-    {name:'AAA Sandbox E',    hours:1440,  drm:'denuvo_v7',  color:'var(--brand-purple)'},
-    {name:'AAA MMORPG L',     hours:2304,  drm:'denuvo_v7',  color:'var(--brand-purple)'}
-  ];
-  var maxH=Math.max.apply(null,games.map(function(g){return g.hours;}));
-  var wrap=document.getElementById('vulnBars');
-  var drmLabels={none:'No DRM',vmprotect:'VMProtect',denuvo_v5:'Denuvo v5',denuvo_v6:'Denuvo v6',denuvo_v7:'Denuvo v7'};
+  var maxE=Math.max.apply(null,pubs.map(function(p){return p.entries;}));
+  var wrap=document.getElementById('publisherBars');
   var html='';
-  games.forEach(function(g){
-    var pct=Math.max(2, (Math.log10(g.hours+1)/Math.log10(maxH+1))*100);
-    var display = g.hours>=24 ? (g.hours/24).toFixed(1)+'d' : g.hours+'h';
+  pubs.forEach(function(p){
+    var pct=Math.max(5,(p.entries/maxE)*100);
     html+='<div class="bar-row">'
-      +'<div class="bar-label">'+g.name+'</div>'
-      +'<div class="bar-track"><div class="bar-fill" style="width:'+pct+'%;background:'+g.color+'">'+drmLabels[g.drm]+'</div></div>'
-      +'<div class="bar-value">'+display+'</div>'
+      +'<div class="bar-label">'+p.name+'</div>'
+      +'<div class="bar-track"><div class="bar-fill" style="width:'+pct+'%;background:'+p.color+'">'+p.entries.toLocaleString()+' entries</div></div>'
+      +'<div class="bar-value">'+p.sites+' sites</div>'
       +'</div>';
   });
   wrap.innerHTML=html;

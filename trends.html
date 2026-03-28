@@ -49,23 +49,13 @@ code,.mono{font-family:'JetBrains Mono',monospace}
 .card-title{font-size:16px;font-weight:700;color:var(--text-1);margin-bottom:4px;display:flex;align-items:center;gap:8px}
 .card-title .tag{font-size:10px;font-weight:600;padding:2px 8px;border-radius:10px;letter-spacing:.5px}
 .tag-live{background:rgba(0,229,204,.12);color:var(--teal)}
-.tag-forecast{background:rgba(107,79,255,.15);color:var(--purple)}
+.tag-data{background:rgba(0,229,204,.12);color:var(--teal)}
 .card-sub{font-size:12px;color:var(--text-3);margin-bottom:20px}
 .chart-wrap{position:relative;width:100%;height:340px}
 
 /* GRID */
 .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:28px}
 @media(max-width:900px){.grid-2{grid-template-columns:1fr}}
-
-/* FORECAST TABLE */
-.forecast-table{width:100%;border-collapse:collapse;font-size:13px}
-.forecast-table th{text-align:left;padding:10px 14px;color:var(--text-2);font-weight:600;border-bottom:1px solid rgba(26,140,255,.1);font-size:11px;letter-spacing:.8px;text-transform:uppercase}
-.forecast-table td{padding:10px 14px;border-bottom:1px solid rgba(26,140,255,.05);color:var(--text-1)}
-.forecast-table tr:hover td{background:rgba(26,140,255,.04)}
-.val-up{color:var(--red)}
-.val-down{color:var(--green)}
-.val-neutral{color:var(--amber)}
-.conf-bar{display:inline-block;height:6px;border-radius:3px;background:var(--brand);opacity:.7}
 
 /* ANALYSIS PANELS */
 .insight{padding:18px 22px;background:var(--bg-3);border-radius:var(--radius-sm);border-left:3px solid var(--brand);margin-bottom:14px;font-size:13px;color:var(--text-2);line-height:1.7}
@@ -126,81 +116,61 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
   <!-- HEADER -->
   <div class="page-header">
     <h1>TREND ANALYSIS</h1>
-    <p class="subtitle">39-month longitudinal tracking &mdash; piracy ecosystem dynamics, seasonal patterns, and 6-month forecast</p>
+    <p class="subtitle">14-Phase Discovery Progression &amp; Ecosystem Composition</p>
   </div>
 
   <!-- DOMAIN GROWTH TREND -->
   <div class="card">
-    <div class="card-title">Domain Growth Trend <span class="tag tag-live">LIVE</span></div>
-    <div class="card-sub">Active piracy domains tracked monthly &middot; Jan 2023 &ndash; Mar 2026 + 6-month forecast</div>
+    <div class="card-title">Domain Growth Trend <span class="tag tag-live">INVESTIGATION DATA</span></div>
+    <div class="card-sub">Cumulative domains discovered across 14 investigation phases &middot; 7,225 total</div>
     <div class="chart-wrap"><canvas id="chartGrowth"></canvas></div>
   </div>
 
   <div class="grid-2">
-    <!-- SEASONAL PATTERN -->
+    <!-- ECOTYPE DISTRIBUTION -->
     <div class="card">
-      <div class="card-title">Seasonal Pattern</div>
-      <div class="card-sub">Monthly seasonality index (1.0 = baseline average)</div>
-      <div class="chart-wrap" style="height:280px"><canvas id="chartSeasonal"></canvas></div>
-    </div>
-
-    <!-- ECOTYPE SHIFT -->
-    <div class="card">
-      <div class="card-title">Ecotype Shift <span class="tag tag-forecast">7 QUARTERS</span></div>
-      <div class="card-sub">Distribution of piracy site archetypes over time</div>
+      <div class="card-title">Ecotype Distribution</div>
+      <div class="card-sub">Site archetype breakdown across investigated domains</div>
       <div class="chart-wrap" style="height:280px"><canvas id="chartEcotype"></canvas></div>
     </div>
+
+    <!-- SEVERITY DISTRIBUTION -->
+    <div class="card">
+      <div class="card-title">Severity Distribution</div>
+      <div class="card-sub">Domains by severity score (0 = lowest, 5 = highest)</div>
+      <div class="chart-wrap" style="height:280px"><canvas id="chartSeverity"></canvas></div>
+    </div>
   </div>
 
-  <!-- DRM EFFECTIVENESS -->
+  <!-- LANGUAGE DISTRIBUTION -->
   <div class="card">
-    <div class="card-title">DRM Effectiveness</div>
-    <div class="card-sub">Mean days-to-crack by protection technology</div>
-    <div class="chart-wrap" style="height:300px"><canvas id="chartDRM"></canvas></div>
+    <div class="card-title">Language Distribution</div>
+    <div class="card-sub">Top 10 primary languages across investigated domains</div>
+    <div class="chart-wrap" style="height:300px"><canvas id="chartLanguage"></canvas></div>
   </div>
 
-  <!-- FORECAST TABLE -->
+  <!-- DISCOVERY INSIGHTS -->
   <div class="card">
-    <div class="card-title">6-Month Forecast <span class="tag tag-forecast">PROJECTION</span></div>
-    <div class="card-sub">ARIMA(2,1,1) model &middot; 80% confidence intervals</div>
-    <table class="forecast-table">
-      <thead>
-        <tr><th>Month</th><th>Projected Active</th><th>Net Growth</th><th>Trend</th><th>Confidence</th></tr>
-      </thead>
-      <tbody>
-        <tr><td class="mono">Apr 2026</td><td class="mono">3,298</td><td class="val-up mono">+58</td><td>Expansion</td><td><span class="conf-bar" style="width:82px"></span> 82%</td></tr>
-        <tr><td class="mono">May 2026</td><td class="mono">3,351</td><td class="val-up mono">+53</td><td>Expansion</td><td><span class="conf-bar" style="width:79px"></span> 79%</td></tr>
-        <tr><td class="mono">Jun 2026</td><td class="mono">3,389</td><td class="val-up mono">+38</td><td>Moderate</td><td><span class="conf-bar" style="width:74px"></span> 74%</td></tr>
-        <tr><td class="mono">Jul 2026</td><td class="mono">3,440</td><td class="val-up mono">+51</td><td>Expansion</td><td><span class="conf-bar" style="width:68px"></span> 68%</td></tr>
-        <tr><td class="mono">Aug 2026</td><td class="mono">3,502</td><td class="val-up mono">+62</td><td>Peak Season</td><td><span class="conf-bar" style="width:61px"></span> 61%</td></tr>
-        <tr><td class="mono">Sep 2026</td><td class="mono">3,534</td><td class="val-up mono">+32</td><td>Stabilising</td><td><span class="conf-bar" style="width:55px"></span> 55%</td></tr>
-      </tbody>
-    </table>
-    <p style="margin-top:16px;font-size:11px;color:var(--text-3)">Disclaimer: Projections are model-based estimates subject to uncertainty. Actual values may differ due to enforcement actions, platform changes, or other exogenous factors. Confidence intervals widen over the forecast horizon.</p>
-  </div>
-
-  <!-- ANALYSIS PANELS -->
-  <div class="card">
-    <div class="card-title">Analysis &amp; Insights</div>
-    <div class="card-sub">Key findings from trend decomposition</div>
+    <div class="card-title">Discovery Insights</div>
+    <div class="card-sub">Key findings from the 14-phase investigation</div>
 
     <div class="insight">
-      <strong>Streaming dominance accelerating.</strong> Streaming ecotype share grew from <span class="highlight">12% to 34%</span> over 7 quarters, overtaking both Torrent (-15pp) and DDL (-13pp). This shift correlates with improved video CDN availability and lower hosting costs in Southeast Asia.
+      <strong>Phase 2 (Title&times;Language search) and Phase 6 (Full Classify) yielded <span class="highlight">44.7%</span> of all domains.</strong> These two phases alone accounted for 3,230 of the 7,225 total domains discovered, demonstrating the effectiveness of combining title-based search with comprehensive classification.
     </div>
     <div class="insight">
-      <strong>Seasonal spikes align with content release cycles.</strong> January (index <span class="highlight">1.28</span>) and August (<span class="highlight">1.22</span>) consistently show peak piracy activity, coinciding with winter anime season launches and summer blockbuster releases respectively. June dips to <span class="highlight">0.81</span>, the annual trough.
+      <strong>Diminishing returns after Phase 11.</strong> The final three phases (12&ndash;14) contributed only <span class="highlight">772 domains (10.7%)</span>, suggesting the investigation has achieved &gt;90% coverage of surface-web game piracy infrastructure.
     </div>
     <div class="insight">
-      <strong>DRM arms race shows diminishing piracy returns.</strong> Denuvo v7 extends mean crack time to <span class="highlight">96 days</span>, a 5.2x improvement over v5. However, 42% of Denuvo-protected titles were still cracked within the critical 30-day sales window, suggesting DRM alone is insufficient.
+      <strong>Severity 4 dominates.</strong> Over half of all domains (<span class="highlight">52.4%</span>) carry a severity score of 4, indicating widespread high-impact infringement across the ecosystem.
     </div>
     <div class="insight">
-      <strong>Domain growth remains structurally positive.</strong> Net domain growth has averaged <span class="highlight">+37/month</span> over the trailing 12 months. Takedowns are accelerating (+18% YoY) but new registrations outpace removals by a 1.4:1 ratio. The ecosystem is expanding despite enforcement pressure.
+      <strong>English-language sites represent the majority.</strong> <span class="highlight">3,586 domains (82.5%)</span> primarily serve English-language content, followed by Russian (375) and Japanese (155), reflecting global distribution patterns.
     </div>
   </div>
 
   <!-- FOOTER -->
   <div class="footer">
-    ARIA Intelligence Platform &middot; Trend data refreshed daily at 06:00 UTC &middot; Classification models retrained weekly<br>
+    ARIA Intelligence Platform &middot; Investigation data from 14-phase domain discovery<br>
     This analysis is generated for research and anti-piracy operations. All data subject to the ARIA data governance policy.
   </div>
 
@@ -216,133 +186,89 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
   Chart.defaults.font.family = "'Inter', sans-serif";
   Chart.defaults.font.size = 11;
 
-  /* ---------- DOMAIN GROWTH ---------- */
-  var months39 = [];
-  var activeData = [];
-  var newData = [];
-  var takedownData = [];
-  var active = 1820;
-  // Seed-based pseudo-random for reproducibility
-  var seed = 42;
-  function seededRandom(){seed=(seed*16807+0)%2147483647;return(seed-1)/2147483646;}
-  var newVals=[78,95,63,88,102,67,71,114,84,92,68,131,82,97,75,91,108,61,79,119,88,96,72,138,86,103,69,94,112,65,83,124,90,98,76,142,89,107,73];
-  var tdVals= [42,55,39,48,58,41,44,62,47,53,40,72,45,57,43,50,61,38,46,65,49,54,42,76,48,59,44,52,64,39,47,68,51,56,43,80,50,63,46];
-  for(var i=0;i<39;i++){
-    var d=new Date(2023,i);
-    months39.push(d.toLocaleDateString('en',{year:'2-digit',month:'short'}));
-    active += newVals[i] - tdVals[i];
-    activeData.push(active);
-    newData.push(newVals[i]);
-    takedownData.push(tdVals[i]);
-  }
-  // Ensure final value is 3240
-  activeData[38] = 3240;
-
-  // Forecast 6 months
-  var forecastLabels = ['Apr \'26','May \'26','Jun \'26','Jul \'26','Aug \'26','Sep \'26'];
-  var forecastVals = [3298,3351,3389,3440,3502,3534];
-  var forecastUpper = [3360,3430,3490,3570,3650,3710];
-  var forecastLower = [3236,3272,3288,3310,3354,3358];
-
-  var allLabels = months39.concat(forecastLabels);
-  var lineMain = activeData.concat([null,null,null,null,null,null]);
-  var lineForecast = new Array(38).fill(null).concat([activeData[38]]).concat(forecastVals);
-  var upperBand = new Array(38).fill(null).concat([activeData[38]]).concat(forecastUpper);
-  var lowerBand = new Array(38).fill(null).concat([activeData[38]]).concat(forecastLower);
-  var barNew = newData.concat([null,null,null,null,null,null]);
-  var barTD = takedownData.map(function(v){return -v;}).concat([null,null,null,null,null,null]);
+  /* ---------- DOMAIN GROWTH (14-Phase Discovery) ---------- */
+  var phaseLabels = ['P1','P2','P3','P4','P5','P6','P7','P8','P9','P10','P11','P12','P13','P14'];
+  var perPhase = [258,1653,415,37,113,1577,1007,713,478,104,98,347,279,146];
+  var cumulative = [258,1911,2326,2363,2476,4053,5060,5773,6251,6355,6453,6800,7079,7225];
 
   new Chart(document.getElementById('chartGrowth'),{
     type:'bar',
     data:{
-      labels: allLabels,
+      labels: phaseLabels,
       datasets:[
-        {type:'line',label:'Active Domains',data:lineMain,borderColor:COLORS.brand,backgroundColor:'transparent',borderWidth:2.5,pointRadius:0,tension:.3,yAxisID:'y',order:1},
-        {type:'line',label:'Forecast',data:lineForecast,borderColor:COLORS.purple,borderDash:[6,4],backgroundColor:'transparent',borderWidth:2,pointRadius:0,tension:.3,yAxisID:'y',order:1},
-        {type:'line',label:'Upper CI',data:upperBand,borderColor:'transparent',backgroundColor:'rgba(107,79,255,.1)',fill:'+1',pointRadius:0,yAxisID:'y',order:2},
-        {type:'line',label:'Lower CI',data:lowerBand,borderColor:'transparent',backgroundColor:'rgba(107,79,255,.1)',fill:'-1',pointRadius:0,yAxisID:'y',order:2},
-        {label:'New Domains',data:barNew,backgroundColor:'rgba(0,229,204,.5)',borderRadius:2,barPercentage:.6,yAxisID:'y2',order:3},
-        {label:'Takedowns',data:barTD,backgroundColor:'rgba(255,51,68,.45)',borderRadius:2,barPercentage:.6,yAxisID:'y2',order:3}
+        {type:'line',label:'Cumulative Domains',data:cumulative,borderColor:COLORS.brand,backgroundColor:'rgba(26,140,255,.08)',borderWidth:2.5,pointRadius:4,pointBackgroundColor:COLORS.brand,tension:.3,yAxisID:'y',order:1,fill:true},
+        {label:'Per-Phase Discovered',data:perPhase,backgroundColor:'rgba(0,229,204,.5)',borderColor:COLORS.teal,borderWidth:1,borderRadius:4,barPercentage:.6,yAxisID:'y2',order:2}
       ]
     },
     options:{
       responsive:true,maintainAspectRatio:false,
       interaction:{mode:'index',intersect:false},
-      plugins:{legend:{labels:{boxWidth:12,padding:14,usePointStyle:true}},tooltip:{callbacks:{label:function(ctx){var v=ctx.parsed.y;if(ctx.dataset.label==='Takedowns')v=Math.abs(v);return ctx.dataset.label+': '+v.toLocaleString();}}}},
+      plugins:{legend:{labels:{boxWidth:12,padding:14,usePointStyle:true}},tooltip:{callbacks:{label:function(ctx){return ctx.dataset.label+': '+ctx.parsed.y.toLocaleString();}}}},
       scales:{
-        x:{grid:{color:gridColor},ticks:{maxTicksLimit:15}},
-        y:{position:'left',grid:{color:gridColor},title:{display:true,text:'Active Domains'},min:1600},
-        y2:{position:'right',grid:{drawOnChartArea:false},title:{display:true,text:'Monthly +/-'},min:-150,max:200}
+        x:{grid:{color:gridColor},title:{display:true,text:'Investigation Phase'}},
+        y:{position:'left',grid:{color:gridColor},title:{display:true,text:'Cumulative Domains'},min:0},
+        y2:{position:'right',grid:{drawOnChartArea:false},title:{display:true,text:'Domains per Phase'},min:0}
       }
     }
   });
 
-  /* ---------- SEASONAL PATTERN ---------- */
-  var seasonIdx = [1.28,1.08,0.96,0.92,0.88,0.81,1.04,1.22,1.09,0.94,0.87,1.16];
-  var seasonMonths = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-  var seasonColors = seasonIdx.map(function(v){return v >= 1.15 ? COLORS.red : v >= 1.0 ? COLORS.amber : v >= 0.9 ? COLORS.brand : COLORS.teal;});
-
-  new Chart(document.getElementById('chartSeasonal'),{
-    type:'bar',
-    data:{
-      labels:seasonMonths,
-      datasets:[{label:'Seasonality Index',data:seasonIdx,backgroundColor:seasonColors,borderRadius:4,barPercentage:.65}]
-    },
-    options:{
-      responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return 'Index: '+ctx.parsed.y.toFixed(2);}}}},
-      scales:{
-        x:{grid:{color:gridColor}},
-        y:{grid:{color:gridColor},min:0.6,max:1.45,ticks:{callback:function(v){return v.toFixed(1);}},
-          title:{display:true,text:'Index'}}
-      }
-    }
-  });
-
-  /* ---------- ECOTYPE SHIFT ---------- */
-  var quarters = ['Q1 24','Q2 24','Q3 24','Q4 24','Q1 25','Q2 25','Q3 25'];
-  var torrent =   [38,35,33,30,28,25,23];
-  var ddl =       [31,28,26,24,22,20,18];
-  var streaming = [12,16,20,24,28,31,34];
-  var repack =    [11,12,12,12,12,13,13];
-  var other =     quarters.map(function(_,i){return 100-torrent[i]-ddl[i]-streaming[i]-repack[i];});
+  /* ---------- ECOTYPE DISTRIBUTION ---------- */
+  var ecoLabels = ['Unclassified','Mobile','Torrent','ROM','Repack','DDL','Crack'];
+  var ecoData = [2936,278,224,214,43,32,28];
+  var ecoColors = ['#3d5470','#1a8cff','#ff3344','#6b4fff','#ffaa00','#00e5cc','#00cc7a'];
 
   new Chart(document.getElementById('chartEcotype'),{
-    type:'line',
+    type:'bar',
     data:{
-      labels:quarters,
-      datasets:[
-        {label:'Streaming',data:streaming,backgroundColor:'rgba(0,229,204,.35)',borderColor:COLORS.teal,borderWidth:1.5,fill:true,tension:.35,pointRadius:0},
-        {label:'Torrent',data:torrent,backgroundColor:'rgba(255,51,68,.3)',borderColor:COLORS.red,borderWidth:1.5,fill:true,tension:.35,pointRadius:0},
-        {label:'DDL',data:ddl,backgroundColor:'rgba(26,140,255,.3)',borderColor:COLORS.brand,borderWidth:1.5,fill:true,tension:.35,pointRadius:0},
-        {label:'Repack',data:repack,backgroundColor:'rgba(255,170,0,.25)',borderColor:COLORS.amber,borderWidth:1.5,fill:true,tension:.35,pointRadius:0},
-        {label:'Other',data:other,backgroundColor:'rgba(61,84,112,.25)',borderColor:'#3d5470',borderWidth:1.5,fill:true,tension:.35,pointRadius:0}
-      ]
+      labels:ecoLabels,
+      datasets:[{label:'Domains',data:ecoData,backgroundColor:ecoColors.map(function(c){return c+'99';}),borderColor:ecoColors,borderWidth:1.5,borderRadius:4,barPercentage:.65}]
     },
     options:{
       responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{labels:{boxWidth:10,padding:10,usePointStyle:true}},tooltip:{callbacks:{label:function(ctx){return ctx.dataset.label+': '+ctx.parsed.y+'%';}}}},
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return ctx.parsed.y.toLocaleString()+' domains';}}}},
       scales:{
         x:{grid:{color:gridColor}},
-        y:{stacked:true,grid:{color:gridColor},min:0,max:100,ticks:{callback:function(v){return v+'%';}},title:{display:true,text:'Share %'}}
+        y:{grid:{color:gridColor},title:{display:true,text:'Domain Count'},min:0}
       }
     }
   });
 
-  /* ---------- DRM EFFECTIVENESS ---------- */
-  var drmLabels = ['None','VMProtect','Denuvo v5','Denuvo v6','Denuvo v7'];
-  var drmDays = [0.2, 3.1, 18.4, 31.2, 96];
-  var drmColors = ['#ff3344','#ffaa00','#1a8cff','#6b4fff','#00e5cc'];
+  /* ---------- SEVERITY DISTRIBUTION ---------- */
+  var sevLabels = ['Sev 0','Sev 1','Sev 2','Sev 3','Sev 4','Sev 5'];
+  var sevData = [403,400,274,506,1968,204];
+  var sevPct = ['10.7%','10.6%','7.3%','13.5%','52.4%','5.4%'];
+  var sevColors = ['#00cc7a','#00e5cc','#1a8cff','#ffaa00','#ff3344','#6b4fff'];
 
-  new Chart(document.getElementById('chartDRM'),{
+  new Chart(document.getElementById('chartSeverity'),{
     type:'bar',
     data:{
-      labels:drmLabels,
+      labels:sevLabels,
+      datasets:[{label:'Domains',data:sevData,backgroundColor:sevColors.map(function(c){return c+'99';}),borderColor:sevColors,borderWidth:1.5,borderRadius:4,barPercentage:.65}]
+    },
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return ctx.parsed.y.toLocaleString()+' domains ('+sevPct[ctx.dataIndex]+')';}}}},
+      scales:{
+        x:{grid:{color:gridColor}},
+        y:{grid:{color:gridColor},title:{display:true,text:'Domain Count'},min:0}
+      }
+    }
+  });
+
+  /* ---------- LANGUAGE DISTRIBUTION ---------- */
+  var langLabels = ['English','Russian','Japanese','Chinese','Arabic','Hindi','Spanish','Thai','Korean','Italian'];
+  var langData = [3586,375,155,104,62,37,33,26,24,22];
+  var langColors = ['#1a8cff','#ff3344','#00e5cc','#ffaa00','#6b4fff','#00cc7a','#3d5470','#ff6b8a','#7a9bbf','#cc7a00'];
+
+  new Chart(document.getElementById('chartLanguage'),{
+    type:'bar',
+    data:{
+      labels:langLabels,
       datasets:[{
-        label:'Days to Crack (mean)',
-        data:drmDays,
-        backgroundColor: drmColors.map(function(c){return c+'88';}),
-        borderColor: drmColors,
+        label:'Domains',
+        data:langData,
+        backgroundColor: langColors.map(function(c){return c+'88';}),
+        borderColor: langColors,
         borderWidth:1.5,
         borderRadius:6,
         barPercentage:.55
@@ -351,9 +277,9 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
     options:{
       indexAxis:'y',
       responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return ctx.parsed.x+' days';}}}},
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return ctx.parsed.x.toLocaleString()+' domains';}}}},
       scales:{
-        x:{grid:{color:gridColor},title:{display:true,text:'Mean Days to Crack'},min:0},
+        x:{grid:{color:gridColor},title:{display:true,text:'Domain Count'},min:0},
         y:{grid:{color:gridColor}}
       }
     }

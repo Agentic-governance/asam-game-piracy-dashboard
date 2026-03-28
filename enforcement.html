@@ -165,9 +165,9 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 
   <!-- KPIs -->
   <div class="kpi-row">
-    <div class="kpi-card"><div class="label">DMCA Submitted</div><div class="value blue">4,117</div></div>
-    <div class="kpi-card"><div class="label">Removed</div><div class="value green">2,950</div></div>
-    <div class="kpi-card"><div class="label">Success Rate</div><div class="value amber">71.7%</div></div>
+    <div class="kpi-card"><div class="label">DMCA Submitted [ESTIMATED]</div><div class="value blue">4,117</div></div>
+    <div class="kpi-card"><div class="label">Removed [ESTIMATED]</div><div class="value green">2,950</div></div>
+    <div class="kpi-card"><div class="label">Success Rate [ESTIMATED]</div><div class="value amber">71.7%</div></div>
     <div class="kpi-card"><div class="label">Active Targets</div><div class="value red">10</div></div>
   </div>
 
@@ -220,25 +220,43 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
     </div>
   </div>
 
-  <!-- ROI + HISTORY (two col) -->
+  <!-- FILE HOST DISTRIBUTION + DMCA SUMMARY (two col) -->
   <div class="two-col">
-    <!-- ROI CALCULATOR -->
+    <!-- FILE HOST DISTRIBUTION -->
     <div class="card">
       <div class="card-title">
         <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M2 17V3h2v14H2zm4-4v4h2v-4H6zm4-6v10h2V7h-2zm4-4v14h2V3h-2z"/></svg>
-        Enforcement ROI Calculator
+        File Host Distribution <span style="font-size:.7rem;color:var(--accent);font-weight:600;margin-left:8px">[VERIFIED DATA]</span>
       </div>
-      <div class="chart-container"><canvas id="roiChart"></canvas></div>
-      <div class="chart-insight">Cloudflare abuse reports offer highest ROI at 10,500:1</div>
+      <div class="chart-container"><canvas id="fileHostChart"></canvas></div>
+      <div class="chart-insight">694 verified infringing file URLs identified across 10 file hosting services. Source: verified_urls dataset.</div>
     </div>
 
-    <!-- DMCA HISTORY -->
+    <!-- DMCA SUMMARY -->
     <div class="card">
       <div class="card-title">
         <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M2 2v16h16v-2H4V2H2zm3 12l4-5 3 3 5-6v2l-5 5.5-3-3L5 16v-2z"/></svg>
-        DMCA Takedown History (12 mo)
+        Infringing URL Summary <span style="font-size:.7rem;color:var(--accent);font-weight:600;margin-left:8px">[VERIFIED DATA]</span>
       </div>
-      <div class="chart-container"><canvas id="historyChart"></canvas></div>
+      <div style="padding:16px 0">
+        <div style="font-size:2.4rem;font-weight:800;font-family:'JetBrains Mono',monospace;color:var(--primary);margin-bottom:8px">694</div>
+        <div style="font-size:.9rem;color:var(--text-1);margin-bottom:16px">Verified infringing file URLs identified across 10 file hosting services</div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:16px">
+          <div style="background:var(--bg-3);border-radius:var(--radius);padding:12px 16px;flex:1;min-width:140px;text-align:center">
+            <div style="font-size:1.4rem;font-weight:800;font-family:'JetBrains Mono',monospace;color:var(--danger)">247</div>
+            <div style="font-size:.75rem;color:var(--text-2)">Rapidgator</div>
+          </div>
+          <div style="background:var(--bg-3);border-radius:var(--radius);padding:12px 16px;flex:1;min-width:140px;text-align:center">
+            <div style="font-size:1.4rem;font-weight:800;font-family:'JetBrains Mono',monospace;color:var(--warning)">189</div>
+            <div style="font-size:.75rem;color:var(--text-2)">Nitroflare</div>
+          </div>
+          <div style="background:var(--bg-3);border-radius:var(--radius);padding:12px 16px;flex:1;min-width:140px;text-align:center">
+            <div style="font-size:1.4rem;font-weight:800;font-family:'JetBrains Mono',monospace;color:var(--success)">258</div>
+            <div style="font-size:.75rem;color:var(--text-2)">Other 8 hosts</div>
+          </div>
+        </div>
+        <div class="chart-insight">Priority: Rapidgator (247) + Nitroflare (189) = 62.8% of total verified URLs.</div>
+      </div>
     </div>
   </div>
 
@@ -299,72 +317,49 @@ https://mega.nz/file/ghi789</textarea>
 </div>
 
 <script>
-/* ── ROI CHART ── */
-const roiCtx = document.getElementById('roiChart').getContext('2d');
-const roiData = [
-  {label:'DMCA Filehost', cost:500, recovery:800000, roi:1600},
-  {label:'Cloudflare Abuse', cost:200, recovery:2100000, roi:10500},
-  {label:'ASN Termination', cost:15000, recovery:4300000, roi:287},
-  {label:'Court Injunction', cost:80000, recovery:18200000, roi:228},
-  {label:'Platform Delisting', cost:2000, recovery:3100000, roi:1550},
+/* ── FILE HOST DISTRIBUTION CHART ── */
+const fhCtx = document.getElementById('fileHostChart').getContext('2d');
+const fileHosts = [
+  {name:'Rapidgator', urls:247},
+  {name:'Nitroflare', urls:189},
+  {name:'Filecrypt', urls:55},
+  {name:'MediaFire', urls:44},
+  {name:'MEGA', urls:38},
+  {name:'1fichier', urls:28},
+  {name:'Katfile', urls:26},
+  {name:'Uptobox', urls:21},
+  {name:'Google Drive', urls:18},
+  {name:'Turbobit', urls:10}
 ];
-new Chart(roiCtx, {
+new Chart(fhCtx, {
   type:'bar',
   data:{
-    labels: roiData.map(d=>d.label),
+    labels: fileHosts.map(d=>d.name),
     datasets:[{
-      label:'ROI Ratio',
-      data: roiData.map(d=>d.roi),
-      backgroundColor: roiData.map(d=> d.roi>5000 ? '#00cc7a' : d.roi>1000 ? '#00cc7a99' : '#ffaa00'),
+      label:'Verified URLs',
+      data: fileHosts.map(d=>d.urls),
+      backgroundColor: fileHosts.map(d=> d.urls>100 ? '#ff3344' : d.urls>40 ? '#ffaa00' : '#1a8cff'),
       borderRadius:6,
       barPercentage:0.65
     }]
   },
   options:{
+    indexAxis:'y',
     responsive:true, maintainAspectRatio:false,
     plugins:{
       legend:{display:false},
       tooltip:{
         callbacks:{
-          afterLabel: function(ctx){
-            const d = roiData[ctx.dataIndex];
-            return `Cost: $${d.cost.toLocaleString()}\nRecovery: $${d.recovery.toLocaleString()}\nROI: ${d.roi.toLocaleString()}:1`;
+          label: function(ctx){
+            const d = fileHosts[ctx.dataIndex];
+            return d.name+': '+d.urls+' URLs ('+(d.urls/694*100).toFixed(1)+'%)';
           }
         }
       }
     },
     scales:{
-      x:{ticks:{color:'#7a9bbf',font:{size:11}},grid:{display:false}},
-      y:{ticks:{color:'#3d5470',callback:v=>v.toLocaleString()+':1'},grid:{color:'rgba(61,84,112,.2)'}}
-    }
-  }
-});
-
-/* ── HISTORY CHART ── */
-const hCtx = document.getElementById('historyChart').getContext('2d');
-const months = ['Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec','Jan','Feb','Mar'];
-const submitted = [234,189,312,278,345,267,401,356,423,389,445,478];
-const acknowledged = [198,156,274,241,298,231,356,312,378,341,398,432];
-const removed = [167,128,231,198,245,187,301,267,318,289,341,378];
-const successRate = [71,68,74,71,71,70,75,75,75,74,77,79];
-new Chart(hCtx, {
-  type:'line',
-  data:{
-    labels:months,
-    datasets:[
-      {label:'Submitted',data:submitted,borderColor:'#1a8cff',backgroundColor:'rgba(26,140,255,.1)',fill:true,tension:.3,pointRadius:3},
-      {label:'Acknowledged',data:acknowledged,borderColor:'#ffaa00',backgroundColor:'transparent',tension:.3,pointRadius:3,borderDash:[5,3]},
-      {label:'Removed',data:removed,borderColor:'#00cc7a',backgroundColor:'rgba(0,204,122,.08)',fill:true,tension:.3,pointRadius:3},
-      {label:'Success %',data:successRate,borderColor:'#6b4fff',backgroundColor:'transparent',tension:.3,pointRadius:2,borderWidth:1.5,yAxisID:'y1'}
-    ]
-  },
-  options:{
-    responsive:true, maintainAspectRatio:false,
-    plugins:{legend:{labels:{color:'#7a9bbf',font:{size:11}}}},
-    scales:{
-      x:{ticks:{color:'#7a9bbf',font:{size:11}},grid:{display:false}},
-      y:{ticks:{color:'#3d5470'},grid:{color:'rgba(61,84,112,.15)'},title:{display:true,text:'Count',color:'#3d5470'}},
-      y1:{position:'right',min:50,max:100,ticks:{color:'#6b4fff',callback:v=>v+'%'},grid:{display:false},title:{display:true,text:'Success %',color:'#6b4fff'}}
+      x:{ticks:{color:'#3d5470',font:{size:11}},grid:{color:'rgba(61,84,112,.15)'},title:{display:true,text:'Verified Infringing URLs',color:'#3d5470'}},
+      y:{ticks:{color:'#7a9bbf',font:{size:11}},grid:{display:false}}
     }
   }
 });
