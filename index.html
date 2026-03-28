@@ -291,6 +291,36 @@ a:hover{text-decoration:underline}
 .feed-tag.tag-legal{background:rgba(255,170,0,.1);color:#ffaa00;border-color:rgba(255,170,0,.25)}
 
 body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(rgba(26,140,255,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(26,140,255,0.03) 1px,transparent 1px);background-size:40px 40px;pointer-events:none;z-index:0}
+
+/* ━━━━ DIFF ALERTS (Layer 2) ━━━━ */
+.diff-banner{display:flex;align-items:center;gap:12px;padding:8px 16px;background:rgba(0,229,204,0.05);border:1px solid rgba(0,229,204,0.15);border-radius:6px;margin-bottom:10px;flex-wrap:wrap}
+.diff-banner-label{font-size:9px;font-weight:800;letter-spacing:.15em;text-transform:uppercase;color:#00e5cc}
+.diff-banner-date{font-family:'JetBrains Mono',monospace;font-size:10px;color:#3d5470}
+.diff-stat{font-size:11px;font-weight:700;color:#7a9bbf;font-family:'JetBrains Mono',monospace}
+.diff-stat.up{color:#ff3344}.diff-stat.down{color:#00cc7a}.diff-stat.critical{color:#ff3344;animation:pulse 2s infinite}
+.diff-card{border-color:rgba(0,229,204,0.2)!important}
+.diff-card::before{background:linear-gradient(90deg,#00e5cc,#1a8cff)!important}
+.diff-source{color:#00e5cc!important;display:flex;align-items:center;gap:4px}
+.diff-dot{width:6px;height:6px;border-radius:50%;background:#00e5cc;animation:pulse 1.5s infinite}
+.diff-samples{display:flex;flex-wrap:wrap;gap:4px}
+.diff-sample{font-family:'JetBrains Mono',monospace;font-size:9px;color:#3d5470;background:rgba(255,255,255,.03);padding:2px 6px;border-radius:2px;border:1px solid rgba(26,140,255,.1);max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.feed-tag.tag-layer2{background:rgba(0,229,204,.1);color:#00e5cc;border-color:rgba(0,229,204,.25)}
+.diff-modal{position:fixed;inset:0;background:rgba(2,5,8,.85);backdrop-filter:blur(8px);z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px}
+.diff-modal-content{background:#0c1420;border:1px solid rgba(26,140,255,.22);border-radius:12px;padding:28px;max-width:560px;width:100%;max-height:80vh;overflow-y:auto}
+.diff-modal-header{display:flex;align-items:flex-start;gap:10px;margin-bottom:16px}
+.diff-modal-header h3{font-size:15px;font-weight:700;color:#dce8f8;flex:1;line-height:1.4}
+.diff-modal-close{background:none;border:none;color:#3d5470;font-size:16px;cursor:pointer;padding:4px}
+.diff-modal-close:hover{color:#dce8f8}
+.diff-modal-detail{font-size:13px;color:#7a9bbf;margin-bottom:20px;line-height:1.6}
+.diff-modal-label{font-size:9px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#3d5470;margin-bottom:10px}
+.diff-domain-row{display:flex;align-items:center;gap:10px;padding:7px 0;border-bottom:1px solid rgba(255,255,255,.04);flex-wrap:wrap}
+.diff-domain-row .mono{font-family:'JetBrains Mono',monospace;font-size:11px;color:#dce8f8}
+.diff-domain-meta{font-size:10px;color:#3d5470;margin-left:auto}
+.severity-badge{display:inline-flex;align-items:center;gap:4px;padding:2px 8px;border-radius:3px;font-size:10px;font-weight:700;letter-spacing:.08em}
+.severity-badge.critical{background:rgba(255,51,68,.15);color:#ff3344;border:1px solid rgba(255,51,68,.3)}
+.severity-badge.high{background:rgba(255,170,0,.15);color:#ffaa00;border:1px solid rgba(255,170,0,.3)}
+.severity-badge.medium{background:rgba(26,140,255,.1);color:#1a8cff;border:1px solid rgba(26,140,255,.25)}
+.severity-badge.low{background:rgba(0,204,122,.1);color:#00cc7a;border:1px solid rgba(0,204,122,.25)}
 </style>
 <script>
 // [LIVE DATA] Game piracy news — auto-fetched 2026-03-28 07:13 UTC
@@ -644,6 +674,7 @@ From: TF, for the latest news on copyright battles, piracy and more.",
 };
 
 </script>
+<script src="diff_data.js"></script>
 </head>
 <body>
 
@@ -1089,5 +1120,98 @@ document.getElementById('feed-next').addEventListener('click',()=>rail.scrollBy(
   <p style="margin-bottom:8px"><strong style="color:#7a9bbf">Research Purpose Notice:</strong> This intelligence report was compiled for copyright enforcement research. Domain data represents sites identified as potentially infringing. Direct URLs to infringing content have been redacted.</p>
   <p>ARIA v2.0 | Data as of 2026-03-28 | 7,225 domains analyzed | <a href="index.html" style="color:#1a8cff;text-decoration:none">Command Center</a> · <a href="network.html" style="color:#1a8cff;text-decoration:none">Ecosystem Map</a> · <a href="publishers.html" style="color:#1a8cff;text-decoration:none">Publishers</a> · <a href="titles.html" style="color:#1a8cff;text-decoration:none">Titles</a> · <a href="enforcement.html" style="color:#1a8cff;text-decoration:none">Enforcement</a> · <a href="trends.html" style="color:#1a8cff;text-decoration:none">Trends</a> · <a href="regions.html" style="color:#1a8cff;text-decoration:none">Geo Intel</a></p>
 </footer>
+
+<script>
+// ━━━━ LAYER 2: DIFF ALERTS ━━━━
+(function renderDiffAlerts(){
+  if(typeof ARIA_DIFF==='undefined'||!ARIA_DIFF.alerts||!ARIA_DIFF.alerts.length)return;
+  const rail=document.getElementById('feed-rail');
+  if(!rail)return;
+  const s=ARIA_DIFF.summary;
+
+  // Summary banner
+  const banner=document.createElement('div');
+  banner.className='diff-banner';
+  banner.innerHTML=`
+    <span class="diff-banner-label">📡 DATASET UPDATE</span>
+    <span class="diff-banner-date">${s.prev_date||'?'} → ${s.curr_date||'?'}</span>
+    <span class="diff-stat ${s.net_change>0?'up':'down'}">${s.net_change>0?'▲':'▼'} ${Math.abs(s.net_change)} domains</span>
+    <span class="diff-stat">${s.new_domains||0} new</span>
+    <span class="diff-stat">${s.newly_inactive||0} offline</span>
+    ${s.new_critical>0?`<span class="diff-stat critical">⚠ ${s.new_critical} new CRITICAL</span>`:''}
+  `;
+  rail.parentElement.insertBefore(banner,rail);
+
+  // Alert cards (prepend to rail)
+  const sevOrder={CRITICAL:0,HIGH:1,MEDIUM:2,LOW:3};
+  const sorted=ARIA_DIFF.alerts.slice().sort((a,b)=>(sevOrder[a.severity]??9)-(sevOrder[b.severity]??9));
+
+  sorted.forEach(alert=>{
+    const card=document.createElement('div');
+    card.className='feed-card diff-card';
+    card.dataset.score=alert.severity==='CRITICAL'||alert.severity==='HIGH'?'high':alert.severity==='MEDIUM'?'medium':'low';
+    card.dataset.category=alert.category||'monitoring';
+    card.dataset.layer='2';
+
+    const samples=(alert.samples||[]).slice(0,3).map(s=>`<span class="diff-sample">${s.domain}</span>`).join('');
+
+    card.innerHTML=`
+      <div class="feed-card-meta">
+        <span class="feed-card-source diff-source"><span class="diff-dot"></span> LIVE DIFF</span>
+        <span class="feed-card-date">${alert.timestamp||''}</span>
+      </div>
+      <div style="margin-bottom:4px"><span class="severity-badge ${alert.severity.toLowerCase()}">${alert.severity}</span></div>
+      <div class="feed-card-title">${alert.title}</div>
+      <div class="feed-card-desc">${alert.detail}</div>
+      ${samples?`<div class="diff-samples">${samples}</div>`:''}
+      <div class="feed-card-tags">
+        <span class="feed-tag tag-layer2">ARIA DATA</span>
+        <span class="feed-tag">${alert.count} domains</span>
+      </div>
+    `;
+
+    card.style.cursor='pointer';
+    card.addEventListener('click',()=>showDiffDetail(alert));
+    rail.insertBefore(card,rail.firstChild);
+  });
+
+  // Update counter
+  const counter=document.getElementById('feed-count');
+  if(counter){
+    const total=rail.querySelectorAll('.feed-card').length;
+    counter.textContent=`— ${total} articles (${sorted.length} live)`;
+  }
+})();
+
+function showDiffDetail(alert){
+  const ex=document.getElementById('diff-modal');
+  if(ex)ex.remove();
+  const modal=document.createElement('div');
+  modal.id='diff-modal';
+  modal.className='diff-modal';
+  modal.innerHTML=`
+    <div class="diff-modal-content">
+      <div class="diff-modal-header">
+        <span class="severity-badge ${alert.severity.toLowerCase()}">${alert.severity}</span>
+        <h3>${alert.title}</h3>
+        <button class="diff-modal-close" onclick="document.getElementById('diff-modal').remove()">✕</button>
+      </div>
+      <p class="diff-modal-detail">${alert.detail}</p>
+      <div>
+        <div class="diff-modal-label">Affected domains (${Math.min(10,(alert.samples||[]).length)})</div>
+        ${(alert.samples||[]).slice(0,10).map(s=>`
+          <div class="diff-domain-row">
+            <span class="mono">${s.domain}</span>
+            <span class="severity-badge ${['low','low','medium','medium','high','critical'][parseInt(s.severity)||0]||'low'}">Sev ${s.severity||'?'}</span>
+            <span class="diff-domain-meta">${s.country||''} ${s.ecotype||''}</span>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+  modal.addEventListener('click',e=>{if(e.target===modal)modal.remove()});
+  document.body.appendChild(modal);
+}
+</script>
 </body>
 </html>
