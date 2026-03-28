@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="ARIA: Game IP Intelligence Platform — Piracy ecosystem analysis for copyright enforcement">
+<meta name="theme-color" content="#020508">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡</text></svg>">
 <title>Publisher Intelligence — ARIA</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="assets/chart.min.js"></script>
@@ -163,6 +166,7 @@ body { font-family: var(--sans); background: var(--bg-0); color: var(--text-1); 
   .pub-kpis { margin-left:0; flex-wrap:wrap; }
   .kpi-row { flex-wrap:wrap; }
 }
+body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(rgba(26,140,255,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(26,140,255,0.03) 1px,transparent 1px);background-size:40px 40px;pointer-events:none;z-index:0}
 </style>
 </head>
 <body>
@@ -174,13 +178,13 @@ body { font-family: var(--sans); background: var(--bg-0); color: var(--text-1); 
     ARIA
   </a>
   <div class="nav-links">
-    <a href="index.html">Overview</a>
-    <a href="publishers.html" class="active">Publishers</a>
-    <a href="domains.html">Domains</a>
-    <a href="enforcement.html">Enforcement</a>
-    <a href="network.html">Network</a>
-    <a href="trends.html">Trends</a>
-    <a href="settings.html">Settings</a>
+    <a href="index.html" data-page="command">Command Center</a>
+    <a href="network.html" data-page="network">Ecosystem Map</a>
+    <a href="publishers.html" data-page="publishers" class="active">Publishers</a>
+    <a href="titles.html" data-page="titles">Title Tracker</a>
+    <a href="enforcement.html" data-page="enforcement">Enforcement</a>
+    <a href="trends.html" data-page="trends">Trends</a>
+    <a href="regions.html" data-page="regions">Geo Intel</a>
   </div>
   <div class="nav-right">
     <div class="threat-badge"><span class="dot"></span> ELEVATED</div>
@@ -254,10 +258,7 @@ body { font-family: var(--sans); background: var(--bg-0); color: var(--text-1); 
 </div>
 
 <!-- ════════════════════ FOOTER ══════════════════════════ -->
-<footer class="footer">
-  ARIA Intelligence Platform &mdash; Publisher Intelligence Module &mdash; Data as of 2026-03-28<br>
-  <a href="index.html">Return to Overview</a>
-</footer>
+
 
 <!-- ════════════════════ DATA + LOGIC ═══════════════════ -->
 <script>
@@ -634,5 +635,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
   renderHeatmap();
 });
 </script>
+<footer style="text-align:center;padding:32px 24px;border-top:1px solid rgba(26,140,255,0.08);color:#3d5470;font-size:11px;margin-top:40px;max-width:1500px;margin-left:auto;margin-right:auto">
+  <p style="margin-bottom:8px"><strong style="color:#7a9bbf">Research Purpose Notice:</strong> This intelligence report was compiled for copyright enforcement research. Domain data represents sites identified as potentially infringing. Direct URLs to infringing content have been redacted.</p>
+  <p>ARIA v2.0 | Data as of 2026-03-28 | 7,225 domains analyzed | <a href="index.html" style="color:#1a8cff;text-decoration:none">Command Center</a> · <a href="network.html" style="color:#1a8cff;text-decoration:none">Ecosystem Map</a> · <a href="publishers.html" style="color:#1a8cff;text-decoration:none">Publishers</a> · <a href="titles.html" style="color:#1a8cff;text-decoration:none">Titles</a> · <a href="enforcement.html" style="color:#1a8cff;text-decoration:none">Enforcement</a> · <a href="trends.html" style="color:#1a8cff;text-decoration:none">Trends</a> · <a href="regions.html" style="color:#1a8cff;text-decoration:none">Geo Intel</a></p>
+</footer>
 </body>
 </html>
