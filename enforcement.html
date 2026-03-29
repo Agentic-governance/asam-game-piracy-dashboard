@@ -156,16 +156,16 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
   </div>
   <div class="nav-meta">
     <span class="badge-threat">THREAT: HIGH</span>
-    <span class="freshness">Updated 2026-03-28 09:00 JST</span>
+    <span class="freshness">Updated 2026-03-29 09:00 JST</span>
     <button class="btn-export" onclick="window.print()">Export</button>
   </div>
 </nav>
 <div class="global-cta">
   <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:#7a9bbf">
     <span class="cta-dot-g"></span>
-    <span><strong style="color:#dce8f8">694</strong> verified infringing URLs available. Win rate <strong style="color:#dce8f8">71-91%</strong> in court with this evidence.</span>
+    <span><strong style="color:#dce8f8">694</strong> documented unauthorized distribution URLs available. Win rate <strong style="color:#dce8f8">71-91%</strong> in court with this evidence.</span>
   </div>
-  <a href="contact.html" class="cta-btn">Request evidence package →</a>
+  <a href="contact.html" class="cta-btn">Request evidence package (PDF + CSV, 1 business day) →</a>
 </div>
 
 <div class="page-wrap">
@@ -267,7 +267,7 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
             <div style="font-size:.75rem;color:var(--text-2)">Other 8 hosts</div>
           </div>
         </div>
-        <div class="chart-insight">Priority: Rapidgator (247) + Nitroflare (189) = 62.8% of total verified URLs.</div>
+        <div class="chart-insight">Priority: Rapidgator (247) + Nitroflare (189) = 62.8% of total documented URLs.</div>
       </div>
     </div>
   </div>
@@ -348,7 +348,7 @@ new Chart(fhCtx, {
   data:{
     labels: fileHosts.map(d=>d.name),
     datasets:[{
-      label:'Verified URLs',
+      label:'Documented URLs',
       data: fileHosts.map(d=>d.urls),
       backgroundColor: fileHosts.map(d=> d.urls>100 ? '#ff3344' : d.urls>40 ? '#ffaa00' : '#1a8cff'),
       borderRadius:6,
@@ -513,7 +513,7 @@ generateTemplate();
 </script>
 <footer style="text-align:center;padding:32px 24px;border-top:1px solid rgba(26,140,255,0.08);color:#3d5470;font-size:11px;margin-top:40px;max-width:1500px;margin-left:auto;margin-right:auto">
   <p style="margin-bottom:8px"><strong style="color:#7a9bbf">Research Purpose Notice:</strong> This intelligence report was compiled for copyright enforcement research. Domain data represents sites identified as potentially infringing. Direct URLs to infringing content have been redacted.</p>
-  <p>ARIA v2.0 | Data as of 2026-03-28 | 7,225 domains analyzed | <a href="index.html" style="color:#1a8cff;text-decoration:none">Command Center</a> · <a href="network.html" style="color:#1a8cff;text-decoration:none">Ecosystem Map</a> · <a href="publishers/index.html" style="color:#1a8cff;text-decoration:none">Publishers</a> · <a href="titles.html" style="color:#1a8cff;text-decoration:none">Titles</a> · <a href="enforcement.html" style="color:#1a8cff;text-decoration:none">Enforcement</a> · <a href="trends.html" style="color:#1a8cff;text-decoration:none">Trends</a> · <a href="regions.html" style="color:#1a8cff;text-decoration:none">Geo Intel</a></p>
+  <p>ARIA v2.0 | Data as of 2026-03-29 | 7,225 domains analyzed | <a href="index.html" style="color:#1a8cff;text-decoration:none">Command Center</a> · <a href="network.html" style="color:#1a8cff;text-decoration:none">Ecosystem Map</a> · <a href="publishers/index.html" style="color:#1a8cff;text-decoration:none">Publishers</a> · <a href="titles.html" style="color:#1a8cff;text-decoration:none">Titles</a> · <a href="enforcement.html" style="color:#1a8cff;text-decoration:none">Enforcement</a> · <a href="trends.html" style="color:#1a8cff;text-decoration:none">Trends</a> · <a href="regions.html" style="color:#1a8cff;text-decoration:none">Geo Intel</a></p>
 </footer>
 </body>
 </html>

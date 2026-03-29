@@ -351,7 +351,7 @@ a:hover{text-decoration:underline}
   </div>
   <div class="nav-right">
     <div class="threat-badge"><span class="pulse-dot"></span>ELEVATED</div>
-    <span class="data-fresh">2026-03-28</span>
+    <span class="data-fresh">2026-03-29</span>
     <button class="btn-export" onclick="window.print()">Export PDF</button>
   </div>
 </nav>
@@ -362,7 +362,7 @@ a:hover{text-decoration:underline}
   <!-- WIZARD HEADER -->
   <div class="wizard-header">
     <h1>Request Evidence Package</h1>
-    <p class="subtitle">Court-ready evidence for copyright enforcement. Verified URLs, SHA-256 hashes, capture timestamps.</p>
+    <p class="subtitle">Court-ready evidence for copyright enforcement. Documented URLs, SHA-256 hashes, capture timestamps.</p>
   </div>
 
   <!-- ========== STEP 1: Publisher Selection ========== -->
@@ -381,14 +381,14 @@ a:hover{text-decoration:underline}
       <div class="summary-stats">
         <div class="summary-stat"><div class="val" id="sumSites">--</div><div class="lbl">Piracy Sites</div></div>
         <div class="summary-stat"><div class="val" id="sumWorks">--</div><div class="lbl">Work Entries</div></div>
-        <div class="summary-stat"><div class="val" id="sumUrls">--</div><div class="lbl">Verified URLs</div></div>
+        <div class="summary-stat"><div class="val" id="sumUrls">--</div><div class="lbl">Documented URLs</div></div>
       </div>
       <div class="caselaw-badge" id="caselawBadge"></div>
       <div class="url-preview">
         <div class="blur">rapidgator.net/file/a8f3e92d1b4c...</div>
         <div class="blur">nitroflare.com/view/7D2F4A9E1B3...</div>
         <div class="blur">mega.nz/file/X4hQiRaB#k9Lm2pV...</div>
-        <div class="more" id="moreUrls">+842 more verified URLs</div>
+        <div class="more" id="moreUrls">+842 more documented URLs</div>
       </div>
     </div>
   </div>
@@ -529,7 +529,7 @@ a:hover{text-decoration:underline}
       </div>
       <div class="pq-card" style="--pq-color:var(--aria-danger)">
         <div class="pq-num">03 / URGENCY</div>
-        <p>"Every day you wait, 47 new piracy domains are found. Evidence disappears when sites go dark."</p>
+        <p>"Every day you wait, 47 new domains hosting unauthorized content are found. Evidence disappears when sites go dark."</p>
       </div>
     </div>
   </div>
@@ -659,7 +659,7 @@ document.getElementById('publisherSelect').addEventListener('change', function()
   document.getElementById('sumSites').textContent = pub.sites.toLocaleString();
   document.getElementById('sumWorks').textContent = pub.works.toLocaleString();
   document.getElementById('sumUrls').textContent = pub.urls.toLocaleString();
-  document.getElementById('moreUrls').textContent = '+' + (pub.urls - 3).toLocaleString() + ' more verified URLs';
+  document.getElementById('moreUrls').textContent = '+' + (pub.urls - 3).toLocaleString() + ' more documented URLs';
 
   // Caselaw badge
   const badge = document.getElementById('caselawBadge');

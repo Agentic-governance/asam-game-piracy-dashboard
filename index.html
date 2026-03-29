@@ -259,7 +259,7 @@ a:hover{text-decoration:underline}
   .nav-links{display:none}
 }
 
-/* INTELLIGENCE FEED */
+/* INTELLIGENCE FEED <span style='font-size:8px;color:#3d5470;font-weight:400;letter-spacing:0'>(source links may redirect to feed index)</span> */
 .feed-section{width:100%;max-width:1500px;margin:0 auto 32px;padding:0 24px}
 .feed-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px}
 .feed-header-left{display:flex;align-items:center;gap:10px}
@@ -346,9 +346,9 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .preview-caselaw{margin-top:10px;font-size:12px;color:#7a9bbf;display:flex;align-items:center;gap:6px}
 </style>
 <script>
-// [LIVE DATA] Game piracy news — auto-fetched 2026-03-28 07:13 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-03-29 07:13 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-03-28T07:13:44.455497",
+  fetched_at: "2026-03-29T07:13:44.455497",
   item_count: 30,
   items: [
   {
@@ -734,7 +734,7 @@ From: TF, for the latest news on copyright battles, piracy and more.",
   </div>
   <div class="nav-right">
     <div class="threat-badge"><span class="pulse-dot"></span>ELEVATED</div>
-    <span class="data-fresh">2026-03-28</span>
+    <span class="data-fresh">2026-03-29</span>
     <button class="btn-export" onclick="window.print()">Export PDF</button>
   </div>
 </nav>
@@ -742,16 +742,16 @@ From: TF, for the latest news on copyright battles, piracy and more.",
 <div class="global-cta" id="global-cta">
   <div class="cta-left">
     <span class="cta-dot-g"></span>
-    <span>Your publisher has <strong id="cta-url-count">694</strong> verified infringing URLs available now. Companies with this evidence win <strong>71-91%</strong> of copyright cases.</span>
+    <span>Your publisher has <strong id="cta-url-count">694</strong> documented instances of unauthorized distribution available now. Companies with this evidence win <strong>71-91%</strong> of copyright cases.</span>
   </div>
   <div class="cta-right">
-    <a href="contact.html" class="cta-btn">Request evidence package →</a>
+    <a href="contact.html" class="cta-btn">Request evidence package (PDF + CSV, 1 business day) →</a><div style="font-size:8px;color:#3d5470;margin-top:4px"></div>
   </div>
 </div>
 
 <div class="hero-search-section">
-  <h2>Your games are being pirated. Right now.</h2>
-  <p>7,225 active piracy domains. 1.33M infringing titles. Search your publisher to see the damage.</p>
+  <h2>Unauthorized copies of your titles have been identified across multiple jurisdictions.</h2>
+  <p>7,225 active domains engaged in unauthorized distribution. 1.33M infringing titles. Search your publisher to see the damage.</p>
   <div class="pub-search-box">
     <input type="text" id="pub-search-input" placeholder="Search publisher: Nintendo, EA, Activision..." autocomplete="off" list="pub-list">
     <datalist id="pub-list"><option value="Activision"><option value="Nintendo"><option value="Sony"><option value="EA"><option value="Square Enix"><option value="Sega"><option value="Bandai Namco"><option value="Ubisoft"><option value="Capcom"><option value="Microsoft"><option value="Bethesda"><option value="Rockstar"><option value="Konami"><option value="2K Games"><option value="Warner Bros"></datalist>
@@ -762,7 +762,7 @@ From: TF, for the latest news on copyright battles, piracy and more.",
 
 <section id="intelligence-feed" class="feed-section">
 <div class="feed-header">
-<div class="feed-header-left"><span class="feed-live-dot"></span><span class="feed-label">INTELLIGENCE FEED</span><span class="feed-count" id="feed-count"></span></div>
+<div class="feed-header-left"><span class="feed-live-dot"></span><span class="feed-label">INTELLIGENCE FEED <span style='font-size:8px;color:#3d5470;font-weight:400;letter-spacing:0'>(source links may redirect to feed index)</span></span><span class="feed-count" id="feed-count"></span></div>
 <div class="feed-header-right">
 <span class="feed-updated" id="feed-updated"></span>
 <button class="feed-filter-btn active" data-filter="all">All</button>
@@ -921,7 +921,7 @@ From: TF, for the latest news on copyright battles, piracy and more.",
 
   <!-- MONETIZATION ANALYSIS BANNER -->
   <div class="loss-banner fade-in" style="background:linear-gradient(135deg,rgba(0,229,204,.06),rgba(26,140,255,.06));border:1px solid rgba(0,229,204,.12)">
-    <div class="loss-headline" style="font-size:1.3rem">99.2% of surveyed piracy sites are <span style="background:linear-gradient(135deg,var(--aria-accent),var(--aria-primary));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">commercially monetized</span></div>
+    <div class="loss-headline" style="font-size:1.3rem">99.2% of surveyed sites hosting unauthorized copies are <span style="background:linear-gradient(135deg,var(--aria-accent),var(--aria-primary));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">commercially monetized</span></div>
     <div class="loss-note" style="font-style:normal">Based on 389-site deep monetization analysis (ARIA investigation 2025&ndash;2026)</div>
     <div class="loss-boxes">
       <div class="loss-box active" style="border-color:rgba(0,229,204,.3);background:rgba(0,229,204,.06)">
@@ -1002,10 +1002,10 @@ const feedData=[
   {time:'8h ago',sev:'low',color:'var(--aria-success)',title:'Domain expired: manga-zip.is (Sev4, 12K monthly visits)',detail:'Registration lapsed. Domain now parked. Removed from active monitoring.',action:null},
   {time:'Yesterday',sev:'critical',color:'var(--aria-danger)',title:'Jujutsu Kaisen Vol.28 full scan uploaded to 4 aggregators',detail:'High-res retail scan, 189 pages. Detected within 6h of JP release.',action:'Publisher escalation initiated.'},
   {time:'Yesterday',sev:'high',color:'var(--aria-warning)',title:'AEZA Group: 12 new reader domains provisioned',detail:'All using shared /24 block 185.112.83.0/24. TLD rotation pattern: .org, .cc, .me.',action:'Registrar abuse reports queued.'},
-  {time:'Yesterday',sev:'medium',color:'var(--aria-primary)',title:'Ad network Exoclick serving on 34% of tracked piracy sites',detail:'Revenue interdiction opportunity. Exoclick compliance team contacted.',action:null},
+  {time:'Yesterday',sev:'medium',color:'var(--aria-primary)',title:'Ad network Exoclick serving on 34% of tracked sites distributing unauthorized copies',detail:'Revenue interdiction opportunity. Exoclick compliance team contacted.',action:null},
   {time:'2 days ago',sev:'medium',color:'var(--aria-primary)',title:'Viewer-type site animeflv.ws migrated to new IP range',detail:'Previous: Hetzner DE. New: M247 NL. Likely responding to abuse takedown.',action:null},
   {time:'3 days ago',sev:'low',color:'var(--aria-success)',title:'Enforcement success: 13genki.com suspended by registrar',detail:'Namecheap suspended domain after 3rd DMCA strike. 45K monthly visits eliminated.',action:null},
-  {time:'3 days ago',sev:'high',color:'var(--aria-warning)',title:'TLD analysis: .top and .buzz account for 31% of new piracy domains',detail:'90-day trend shows shift from .org/.net to cheap TLDs. Avg registration cost: $1.20.',action:'Policy brief for ICANN working group drafted.'}
+  {time:'3 days ago',sev:'high',color:'var(--aria-warning)',title:'TLD analysis: .top and .buzz account for 31% of new domains hosting unauthorized content',detail:'90-day trend shows shift from .org/.net to cheap TLDs. Avg registration cost: $1.20.',action:'Policy brief for ICANN working group drafted.'}
 ];
 const feedContainer=document.getElementById('threat-feed');
 feedData.forEach(item=>{
@@ -1219,8 +1219,8 @@ document.getElementById('feed-next').addEventListener('click',()=>rail.scrollBy(
 </section>
 
 <footer style="text-align:center;padding:32px 24px;border-top:1px solid rgba(26,140,255,0.08);color:#3d5470;font-size:11px;margin-top:40px;max-width:1500px;margin-left:auto;margin-right:auto">
-  <p style="margin-bottom:8px"><strong style="color:#7a9bbf">Research Purpose Notice:</strong> This intelligence report was compiled for copyright enforcement research. Domain data represents sites identified as potentially infringing. Direct URLs to infringing content have been redacted.</p>
-  <p>ARIA v2.0 | Data as of 2026-03-28 | 7,225 domains analyzed | <a href="index.html" style="color:#1a8cff;text-decoration:none">Command Center</a> · <a href="network.html" style="color:#1a8cff;text-decoration:none">Ecosystem Map</a> · <a href="publishers/index.html" style="color:#1a8cff;text-decoration:none">Publishers</a> · <a href="titles.html" style="color:#1a8cff;text-decoration:none">Titles</a> · <a href="enforcement.html" style="color:#1a8cff;text-decoration:none">Enforcement</a> · <a href="trends.html" style="color:#1a8cff;text-decoration:none">Trends</a> · <a href="regions.html" style="color:#1a8cff;text-decoration:none">Geo Intel</a></p>
+  <p style="margin-bottom:8px"><strong style="color:#7a9bbf">Research Purpose Notice:</strong> This intelligence report was compiled for copyright enforcement research. Domain data represents sites identified through automated and manual review as hosting unauthorized copies. Direct URLs to infringing content have been redacted.</p>
+  <p>ARIA v2.0 | Data as of 2026-03-29 | 7,225 domains analyzed | <a href="index.html" style="color:#1a8cff;text-decoration:none">Command Center</a> · <a href="network.html" style="color:#1a8cff;text-decoration:none">Ecosystem Map</a> · <a href="publishers/index.html" style="color:#1a8cff;text-decoration:none">Publishers</a> · <a href="titles.html" style="color:#1a8cff;text-decoration:none">Titles</a> · <a href="enforcement.html" style="color:#1a8cff;text-decoration:none">Enforcement</a> · <a href="trends.html" style="color:#1a8cff;text-decoration:none">Trends</a> · <a href="regions.html" style="color:#1a8cff;text-decoration:none">Geo Intel</a></p>
 </footer>
 
 <script>
@@ -1345,14 +1345,14 @@ function searchPub(){
   preview.innerHTML=`<div class="preview-card">
     <div class="preview-pub">${match}</div>
     <div class="preview-stats">
-      <span class="stat-red">${d.sites} piracy sites</span>
+      <span class="stat-red">${d.sites} sites distributing unauthorized copies</span>
       <span class="stat-amber">${d.works.toLocaleString()} infringing titles</span>
-      <span class="stat-red">${d.urls} verified URLs</span>
+      <span class="stat-red">${d.urls} documented URLs</span>
     </div>
     ${cl?`<div class="preview-caselaw">⚖ ${cl.relevant_cases} court wins. Avg damages: $${(cl.total_damages_usd/cl.relevant_cases/1000).toFixed(0)}K. Win rate: ${(cl.win_rate*100).toFixed(0)}%</div>`:''}
     <div class="preview-actions">
       <a href="publishers/index.html" class="btn-secondary">View full report</a>
-      <a href="contact.html?publisher=${encodeURIComponent(match)}" class="cta-btn">Request evidence package →</a>
+      <a href="contact.html?publisher=${encodeURIComponent(match)}" class="cta-btn">Request evidence package (PDF + CSV, 1 business day) →</a>
     </div>
   </div>`;
   localStorage.setItem('selected_publisher',match);
