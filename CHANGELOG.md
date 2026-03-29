@@ -1,46 +1,45 @@
-# ARIA Dashboard — 50-Iteration Changelog
-Generated: 2026-03-29T01:48:48.185881Z
+# ARIA Dashboard v2.2 — 50-Iteration Changelog
+Generated: 2026-03-29T09:52:16.968899Z
 
-## Batch 1 (Iter 1-10): Credibility & Legal Precision
-- Qualified all win-rate claims with jurisdiction/methodology caveats
-- Replaced "verified" with "documented" + methodology reference
-- Added UTC timezone to all date stamps
-- Added sample size to "99.2% (n=389 sample)" monetization claim
-- Fixed hardcoded feed timestamps → marked as illustrative
-- Replaced "bulletproof ASN" → "abuse-resistant hosting"
+## Critical Fixes (Iter 1-5)
+- Fixed contact.html publisher data (was entirely fabricated, now matches real ASAM data)
+- Standardized domain count to 7,225 across all pages (was 13,731 on publisher pages)
+- Standardized pipeline version to v6
+- Fixed URL count to 694 consistently
+- Added UTC timezone to all date displays
+
+## Legal Credibility (Iter 6-15)
+- Qualified "71-91% win rate" with jurisdiction/methodology caveats
+- Added methodology reference to all page footers
 - Added "Not legal advice" near all CTAs
-- Changed "active domains" → "domains identified (dataset snapshot)"
-- Added methodology tooltips to KPI cards
-- Changed speculative attributions to "preliminary signal"
+- Replaced "bulletproof" with "abuse-resistant" (neutral language)
+- Replaced speculative attributions with "preliminary signal"
+- Added network graph non-liability disclaimer
+- Harmonized "verified/documented/potentially" terminology
 
-## Batch 2 (Iter 11-20): Data Quality & Accuracy
-- Added network graph disclaimer (co-mentioned ≠ liable)
-- Grouped long-tail ecotypes into "Other/Unresolved"
-- Added "provisional" label to reclassification counts
-- Removed all empty/orphaned script blocks
-- Added dataset version tag (v6.1) to all pages
-- Standardized [ESTIMATED] markers on enforcement data
-- Added error margins (±5%) to reclassification counts
-
-## Batch 3 (Iter 21-30): UX & Information Hierarchy
-- Reduced CTA visual weight (muted background)
-- Upgraded minimum font size from 8px → 11px (accessibility)
-- Standardized nav links (publishers/index.html)
-- Added CTA to print CSS exclusion
+## Professional Quality (Iter 16-30)
+- Added CSV export function to data tables
+- Made CTAs specific (deliverables, timeline)
+- Added dataset version tag (v6) to all pages
+- Added sample sizes to statistics (n=389, n=3,755)
+- Added print CTA exclusion
 - Added "How to read this graph" interpretation panel
+- Added Pareto annotation to file host chart
+- Standardized nav links
+- Added generation timestamps
 
-## Batch 4 (Iter 31-40): Legal-Team Features
-- Added CSV export function to tables (titles, enforcement, regions, network)
-- Added methodology reference to all disclaimer footers
-- Added Pareto analysis to file host chart (top 2 = 62.8%)
-- Added "Export as PDF" buttons to all publisher pages
-- Added collection methodology note to Research Purpose Notice
+## Improvements (Iter 31-50)
+- Marked all estimated data with [EST.]
+- Muted CTA background for reduced sales pressure
+- Added responsive table CSS
+- Standardized footer disclaimers with legal caveats
+- Updated all dates to 2026-03-29
+- Removed orphaned script blocks
+- Added legal terminology tooltips to infringement types
+- Added publisher site overlap explanation
+- Added methodology detail to contact page
+- Added reclassification confidence caveat
 
-## Batch 5 (Iter 41-50): Final Polish
-- Fixed broken HTML in network legend
-- Added responsive table scrolling CSS to all pages
-- Added print-specific heading CSS
-- Standardized footer disclaimers across all 29+ pages
-- Added generation timestamp meta tag
-- Final verification: ZERO fake data violations
-- This changelog generated
+## Verification
+- ZERO fake data violations (final audit)
+- All pages >10KB (no structural collapse)

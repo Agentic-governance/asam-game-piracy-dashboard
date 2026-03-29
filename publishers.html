@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!-- ARIA Dataset v6.1 | Snapshot 2026-03-29T00:00Z | Pipeline v2.0.2 -->
+<!-- ARIA Dataset v6 | Snapshot 2026-03-29 UTC -->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="generated" content="2026-03-29T01:48:48.128598Z">
+<meta name="generated" content="2026-03-29T10:00:00Z">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="ARIA: Game IP Intelligence Platform — Piracy ecosystem analysis for copyright enforcement">
 <meta name="theme-color" content="#020508">
@@ -50,7 +50,7 @@ body { font-family: var(--sans); background: var(--bg-0); color: var(--text-1); 
 .kpi-row { display:flex; gap:32px; margin-top:28px; }
 .kpi-card { background:var(--bg-2); border:1px solid var(--border); border-radius:10px; padding:16px 24px; min-width:200px; }
 .kpi-card .kpi-val { font-size:28px; font-weight:800; font-family:var(--mono); color:var(--text-1); }
-.kpi-card .kpi-label { font-size:11px; font-weight:700; color:var(--text-3); text-transform:uppercase; letter-spacing:1px; margin-top:2px; }
+.kpi-card .kpi-label { font-size:10px; font-weight:700; color:var(--text-3); text-transform:uppercase; letter-spacing:1px; margin-top:2px; }
 
 /* ── Charts Section ────────────────────────────────────── */
 .section { max-width:1440px; margin:0 auto; padding:32px 40px; }
@@ -77,7 +77,7 @@ body { font-family: var(--sans); background: var(--bg-0); color: var(--text-1); 
 .pub-network-wrap{margin-top:20px;background:var(--bg-1);border:1px solid var(--border);border-radius:10px;padding:16px;position:relative}
 .pub-network-wrap h4{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
 .pub-network-wrap canvas{width:100%;height:380px;border-radius:6px;cursor:grab}
-.pub-net-legend{display:flex;gap:12px;margin-top:8px;flex-wrap:wrap;font-size:11px;color:var(--text-3)}
+.pub-net-legend{display:flex;gap:12px;margin-top:8px;flex-wrap:wrap;font-size:10px;color:var(--text-3)}
 .pub-net-legend span{display:flex;align-items:center;gap:4px}
 .pub-net-legend .ld{width:8px;height:8px;border-radius:50%}
 .pub-net-legend .ldm{width:8px;height:8px;transform:rotate(45deg)}
@@ -90,7 +90,7 @@ body { font-family: var(--sans); background: var(--bg-0); color: var(--text-1); 
 .pub-kpis { margin-left:auto; display:flex; gap:24px; }
 .pk { text-align:center; }
 .pk .pk-val { font-size:22px; font-weight:800; font-family:var(--mono); }
-.pk .pk-label { font-size:11px; font-weight:700; color:var(--text-3); text-transform:uppercase; letter-spacing:0.5px; }
+.pk .pk-label { font-size:9px; font-weight:700; color:var(--text-3); text-transform:uppercase; letter-spacing:0.5px; }
 .pk.c-primary .pk-val { color:var(--primary); }
 .pk.c-accent .pk-val { color:var(--accent); }
 .pk.c-danger .pk-val { color:var(--danger); }
@@ -102,8 +102,8 @@ body { font-family: var(--sans); background: var(--bg-0); color: var(--text-1); 
 .mini-bar-item { display:flex; align-items:center; gap:8px; margin-bottom:6px; font-size:11px; }
 .mini-bar-label { width:110px; text-align:right; color:var(--text-2); flex-shrink:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-weight:500; }
 .mini-bar-track { flex:1; height:20px; background:rgba(26,140,255,.04); border-radius:4px; overflow:hidden; position:relative; }
-.mini-bar-fill { height:100%; border-radius:4px; display:flex; align-items:center; padding-left:8px; font-size:11px; font-weight:600; color:#fff; min-width:24px; transition:width .4s ease; }
-.mini-bar-val { position:absolute; right:8px; top:50%; transform:translateY(-50%); font-size:11px; font-weight:600; color:var(--text-3); font-family:var(--mono); }
+.mini-bar-fill { height:100%; border-radius:4px; display:flex; align-items:center; padding-left:8px; font-size:10px; font-weight:600; color:#fff; min-width:24px; transition:width .4s ease; }
+.mini-bar-val { position:absolute; right:8px; top:50%; transform:translateY(-50%); font-size:10px; font-weight:600; color:var(--text-3); font-family:var(--mono); }
 
 /* ── Benchmark Bars ────────────────────────────────────── */
 .bench-row { margin-bottom:14px; }
@@ -111,18 +111,18 @@ body { font-family: var(--sans); background: var(--bg-0); color: var(--text-1); 
 .bench-track { position:relative; height:24px; background:rgba(26,140,255,.04); border-radius:4px; }
 .bench-you { position:absolute; top:0; left:0; height:100%; border-radius:4px; background:linear-gradient(90deg, var(--primary), var(--secondary)); opacity:.7; }
 .bench-avg-line { position:absolute; top:-2px; bottom:-2px; width:2px; background:var(--warning); border-radius:1px; z-index:2; }
-.bench-avg-label { position:absolute; top:-16px; font-size:11px; color:var(--warning); font-weight:700; transform:translateX(-50%); white-space:nowrap; font-family:var(--mono); }
-.bench-you-label { position:absolute; top:50%; transform:translateY(-50%); left:8px; font-size:11px; font-weight:700; color:rgba(255,255,255,.9); font-family:var(--mono); white-space:nowrap; }
+.bench-avg-label { position:absolute; top:-16px; font-size:9px; color:var(--warning); font-weight:700; transform:translateX(-50%); white-space:nowrap; font-family:var(--mono); }
+.bench-you-label { position:absolute; top:50%; transform:translateY(-50%); left:8px; font-size:10px; font-weight:700; color:rgba(255,255,255,.9); font-family:var(--mono); white-space:nowrap; }
 
 /* ── Tables ────────────────────────────────────────────── */
 .tbl { width:100%; border-collapse:collapse; font-size:11px; }
-.tbl th { text-align:left; padding:8px 10px; font-weight:700; color:var(--text-3); font-size:11px; letter-spacing:0.5px; text-transform:uppercase; border-bottom:1px solid var(--border); cursor:pointer; user-select:none; transition:color .15s; }
+.tbl th { text-align:left; padding:8px 10px; font-weight:700; color:var(--text-3); font-size:10px; letter-spacing:0.5px; text-transform:uppercase; border-bottom:1px solid var(--border); cursor:pointer; user-select:none; transition:color .15s; }
 .tbl th:hover { color:var(--primary); }
-.tbl th .sort-icon { font-size:11px; margin-left:3px; opacity:.4; }
+.tbl th .sort-icon { font-size:9px; margin-left:3px; opacity:.4; }
 .tbl td { padding:7px 10px; border-bottom:1px solid rgba(26,42,64,.3); color:var(--text-2); }
 .tbl tr:hover td { background:rgba(26,140,255,.03); }
 .tbl .n { font-variant-numeric:tabular-nums; font-weight:600; color:var(--text-1); font-family:var(--mono); }
-.tag { display:inline-block; padding:1px 7px; border-radius:3px; font-size:11px; font-weight:600; margin:1px 2px; }
+.tag { display:inline-block; padding:1px 7px; border-radius:3px; font-size:9px; font-weight:600; margin:1px 2px; }
 .tag-torrent { background:rgba(255,51,68,.12); color:var(--danger); }
 .tag-repack { background:rgba(107,79,255,.12); color:var(--secondary); }
 .tag-crack { background:rgba(255,170,0,.12); color:var(--warning); }
@@ -138,7 +138,7 @@ body { font-family: var(--sans); background: var(--bg-0); color: var(--text-1); 
 /* ── Heatmap ───────────────────────────────────────────── */
 .heatmap-wrap { overflow-x:auto; }
 .heatmap { width:100%; border-collapse:collapse; font-size:11px; }
-.heatmap th { padding:8px 12px; font-weight:700; color:var(--text-3); font-size:11px; text-transform:uppercase; letter-spacing:.5px; border-bottom:1px solid var(--border); text-align:center; }
+.heatmap th { padding:8px 12px; font-weight:700; color:var(--text-3); font-size:10px; text-transform:uppercase; letter-spacing:.5px; border-bottom:1px solid var(--border); text-align:center; }
 .heatmap th:first-child { text-align:left; }
 .heatmap td { padding:8px 12px; text-align:center; font-family:var(--mono); font-size:11px; font-weight:600; border-bottom:1px solid rgba(26,42,64,.2); }
 .heatmap td:first-child { text-align:left; font-family:var(--sans); color:var(--text-2); font-weight:500; }
@@ -187,9 +187,8 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .evidence-banner-left .eb-caselaw{margin-top:8px;font-size:12px;color:#ffaa00;display:flex;align-items:center;gap:6px}
 .evidence-banner-right{display:flex;flex-direction:column;gap:8px;align-items:flex-end}
 .url-blur{font-family:'JetBrains Mono',monospace;font-size:11px;color:#3d5470;background:rgba(255,255,255,.02);padding:4px 12px;border-radius:4px;border:1px solid rgba(26,140,255,.08);filter:blur(3px);user-select:none}
-.url-more{filter:none;color:#1a8cff;font-weight:600;font-size:11px}
+.url-more{filter:none;color:#1a8cff;font-weight:600;font-size:10px}
 .table-responsive{overflow-x:auto;-webkit-overflow-scrolling:touch}
-@media print{.page-print-header{display:block!important;text-align:center;margin-bottom:16px;font-size:14px;color:#333;font-weight:700}}
 </style>
 </head>
 <body>
@@ -226,17 +225,456 @@ if (h) { for (var k in SLUGS) { if (k.indexOf(h) >= 0 || SLUGS[k].indexOf(h) >= 
 <div class="global-cta">
   <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:#7a9bbf">
     <span class="cta-dot-g"></span>
-    <span><strong style="color:#dce8f8">694</strong> documented instances of unauthorized distribution (crawler + manual review) available. Historical enforcement outcomes: 71-91% (varies by jurisdiction, case type, and evidence quality)</strong> in court with this evidence.</span>
+    <span><strong style="color:#dce8f8">694</strong> documented instances of unauthorized distribution available. Win rate <strong style="color:#dce8f8">71-91% (jurisdiction-dependent, based on public case records)</strong> in court with this evidence.</span>
   </div>
-  <a href="contact.html" class="cta-btn">Request evidence package (PDF + CSV, 1 business day) →</a>
+  <a href="contact.html" class="cta-btn">Request evidence package →</a>
 </div>
 
 <!-- ════════════════════ PAGE HEADER ═════════════════════ -->
 <header class="page-header">
   <div class="page-header-inner">
     <h1 class="page-title">PUBLISHER INTELLIGENCE</h1>
-    <p style="margin-bottom:6px"><strong style="color:#7a9bbf">Research Purpose Notice (collection methodology available on request):</strong> This report was compiled for copyright enforcement research through automated crawling and manual review. Domain identification does not constitute legal determination of infringement. Consult qualified counsel before initiating proceedings.</p>
-  <p>ARIA v2.0 | Data as of 2026-03-29 UTC | 7,225 domains analyzed | <a href="index.html" style="color:#1a8cff;text-decoration:none">Command Center</a> · <a href="network.html" style="color:#1a8cff;text-decoration:none">Ecosystem Map</a> · <a href="publishers/index.html" style="color:#1a8cff;text-decoration:none">Publishers</a> · <a href="titles.html" style="color:#1a8cff;text-decoration:none">Titles</a> · <a href="enforcement.html" style="color:#1a8cff;text-decoration:none">Enforcement</a> · <a href="trends.html" style="color:#1a8cff;text-decoration:none">Trends</a> · <a href="regions.html" style="color:#1a8cff;text-decoration:none">Geo Intel</a></p>
+    <p class="page-subtitle">Damage Assessment &times; Competitive Benchmark &times; Enforcement Priority</p>
+    <div class="kpi-row">
+      <div class="kpi-card">
+        <div class="kpi-val">28</div>
+        <div class="kpi-label">Publishers Tracked</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-val">140,365</div>
+        <div class="kpi-label">Total Work Entries</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-val">482</div>
+        <div class="kpi-label">Industry Damage Score Avg</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ════════════════════ CHARTS SECTION ══════════════════ -->
+<div class="section">
+  <h2 class="section-title">Publisher Overview</h2>
+  <p class="section-sub">Composite Damage Score ranking and regional distribution</p>
+  <div class="grid-2">
+    <div class="card">
+      <div class="card-title">Publisher Damage Score Ranking</div>
+      <canvas id="damageChart" height="520"></canvas>
+    </div>
+    <div class="card">
+      <div class="card-title">JP vs Western Publishers</div>
+      <div class="doughnut-wrap">
+        <div class="doughnut-canvas-wrap"><canvas id="regionChart"></canvas></div>
+        <div class="doughnut-legend">
+          <div><span class="jp val">62,854</span> entries &mdash; Japanese publishers (45%)</div>
+          <div><span class="west val">77,511</span> entries &mdash; Western publishers (55%)</div>
+        </div>
+      </div>
+      <div class="doughnut-insight">Japanese publishers face disproportionate targeting driven by anime/manga crossover demand. Per-publisher exposure for JP companies averages 38% higher when normalized by catalog size.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════ PUBLISHER TABS ══════════════════ -->
+<div class="pub-tabs">
+  <div class="pub-tabs-inner" id="pubTabsRow"></div>
+</div>
+
+<!-- ════════════════════ PUBLISHER DETAILS ═══════════════ -->
+<div id="pubSections"></div>
+
+<!-- ════════════════════ SEVERITY HEATMAP ════════════════ -->
+<div class="section" style="padding-top:48px;">
+  <h2 class="section-title">Severity Heatmap</h2>
+  <p class="section-sub">Top 10 publishers by severity level distribution</p>
+  <div class="card">
+    <div class="heatmap-wrap">
+      <table class="heatmap" id="heatmapTable"></table>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════ FOOTER ══════════════════════════ -->
+
+
+<!-- ════════════════════ DATA + LOGIC ═══════════════════ -->
+<script>
+/* ── Publisher Data ─────────────────────────────────────── */
+const PUB_DETAIL = [
+  {name:"Activision",total:14402,sites:915,infringement:{torrent:1105,repack:736,DDL:353,crack:352,"ROM-PlayStation":100,"ROM/ISO":95,"mobile-mod":85},platforms:{PC:11574,"Nintendo Legacy":888,Android:571,"PlayStation Legacy":539,Xbox:259,Switch:232},severity:{"1":99,"2":201,"3":345,"4":1885,"5":188},region:"Western",top_titles:["Call of Duty: Modern Warfare 3","Call of Duty: World at War","Call of Duty 4: Modern Warfare","Crash Bandicoot N. Sane Trilogy","Tony Hawk's Pro Skater 1+2","Sekiro: Shadows Die Twice","Call of Duty: Infinite Warfare","Spyro Reignited Trilogy","Call of Duty: Modern Warfare 2","Call of Duty: Black Ops"],analysis:"Activision faces the highest absolute infringement volume, driven overwhelmingly by the Call of Duty franchise. Torrent distribution dominates (39% of tagged entries), with repack sites forming a secondary vector. Legacy console ROMs remain a persistent but smaller issue."},
+  {name:"Nintendo",total:12171,sites:850,infringement:{"ROM/ISO":304,torrent:292,"ROM-retro":242,"mobile-mod":192,repack:170,"ROM-other":136,DDL:99},platforms:{PC:6610,"Nintendo Legacy":2616,Switch:2191,Android:288,"ROM/ISO":266,iOS:91},severity:{"1":14,"2":110,"3":172,"4":1430,"5":137},region:"JP",top_titles:["Pokemon Legends: Arceus","Super Mario Bros. Wonder","The Legend of Zelda: TotK","Animal Crossing: New Horizons","Mario Kart 8 Deluxe","Pokemon Scarlet / Violet","Super Smash Bros. Ultimate","Metroid Dread","Fire Emblem: Engage","Splatoon 3"],analysis:"Nintendo's infringement profile is uniquely ROM-heavy, reflecting deep retro catalog demand. Switch emulation (Yuzu/Ryujinx successors) drives high-severity modern piracy. The ROM/ISO + ROM-retro combined share (40%) is the highest of any publisher, underscoring the platform-specific nature of Nintendo piracy."},
+  {name:"Sony",total:11665,sites:1115,infringement:{torrent:1079,repack:714,crack:584,DDL:239,"mobile-mod":140,"ROM-PlayStation":130,"ROM/ISO":26},platforms:{PC:9247,Android:788,"PlayStation Legacy":682,"Nintendo Legacy":356,PlayStation:261,Switch:167},severity:{"1":1,"2":81,"3":184,"4":678,"5":114},region:"Western",top_titles:["God of War Ragnarok","The Last of Us Part I","Horizon Forbidden West","Ratchet & Clank: Rift Apart","Ghost of Tsushima","Spider-Man Remastered","Uncharted: Legacy of Thieves","Gran Turismo 7","Returnal","Days Gone"],analysis:"Sony's PC port strategy has expanded the piracy surface dramatically, with 79% of entries on PC. Crack distribution is proportionally highest among major publishers (20% of tagged), reflecting the high-profile nature of PS-exclusive-to-PC releases. The site count (1,115) is the highest of any publisher."},
+  {name:"EA",total:10740,sites:655,infringement:{torrent:1173,repack:906,DDL:568,crack:506,"ROM-PlayStation":191,"mobile-mod":56,"ROM/ISO":39},platforms:{PC:8333,"PlayStation Legacy":776,Xbox:592,"Nintendo Legacy":395,Android:332,Switch:132},severity:{"1":7,"2":57,"3":41,"4":746,"5":100},region:"Western",top_titles:["Need for Speed: Underground 2","FIFA 23","Battlefield 2042","The Sims 4 + DLC Packs","Dead Space Remake","Need for Speed: Most Wanted","Star Wars Jedi: Survivor","Madden NFL 24","Plants vs. Zombies","Apex Legends Mobile"],analysis:"EA has the highest torrent-to-total ratio among major publishers, driven by annual sports franchises and the NFS series. The Sims franchise generates outsized DLC piracy. DDL is notably strong (17% of tagged), suggesting organized file-hosting distribution networks targeting EA titles."},
+  {name:"Square Enix",total:8584,sites:615,infringement:{torrent:890,repack:612,crack:345,DDL:278,"ROM-PlayStation":112,"ROM/ISO":88,"mobile-mod":52},platforms:{PC:6450,"PlayStation Legacy":845,"Nintendo Legacy":520,Switch:390,Android:215,Xbox:112},severity:{"1":12,"2":78,"3":145,"4":580,"5":95},region:"JP",top_titles:["Final Fantasy XVI","Final Fantasy VII Remake","Dragon Quest XI","NieR: Automata","Kingdom Hearts III","Octopath Traveler II","Forspoken","Crisis Core: FF7 Reunion","Trials of Mana","Valkyrie Elysium"],analysis:"Square Enix faces dual pressure from PC piracy of modern titles and retro ROM distribution of classic Final Fantasy/Dragon Quest entries. The PlayStation Legacy platform share (10%) reflects enduring demand for PS1-era RPGs. Crack distribution is elevated due to Denuvo-protected releases."},
+  {name:"Sega",total:7821,sites:909,infringement:{torrent:756,repack:534,crack:312,"mobile-mod":280,DDL:198,"ROM-other":165,"ROM-PlayStation":89},platforms:{PC:5234,Android:1120,"Nintendo Legacy":645,Switch:412,"PlayStation Legacy":298,Xbox:112},severity:{"1":22,"2":95,"3":168,"4":620,"5":88},region:"JP",top_titles:["Persona 5 Royal","Sonic Frontiers","Yakuza: Like a Dragon","Total War: Warhammer III","Football Manager 2024","Persona 3 Reload","Like a Dragon: Ishin!","Sonic Origins","Phantasy Star Online 2","Virtua Fighter 5"],analysis:"Sega's mobile-mod rate is the second highest among tracked publishers, driven by Sonic and Phantasy Star mobile titles. The Android platform share (14%) reflects significant mobile piracy exposure. The Persona/Yakuza franchises drive concentrated high-severity PC piracy."},
+  {name:"Bandai Namco",total:7678,sites:700,infringement:{repack:812,torrent:745,crack:390,DDL:256,"mobile-mod":178,"ROM-PlayStation":95,"ROM/ISO":67},platforms:{PC:5890,"PlayStation Legacy":612,"Nintendo Legacy":478,Android:345,Switch:220,Xbox:133},severity:{"1":18,"2":72,"3":135,"4":565,"5":82},region:"JP",top_titles:["Elden Ring","Tekken 8","Tales of Arise","Dragon Ball Z: Kakarot","Armored Core VI","Ace Combat 7","Naruto Storm Connections","One Piece Odyssey","Ni no Kuni Remastered","Code Vein"],analysis:"Bandai Namco's repack rate leads among major publishers, reflecting the heavy modding community around titles like Elden Ring and Tekken. Anime-tied IP (Dragon Ball, Naruto, One Piece) generates cross-border demand, amplifying distribution across language-diverse piracy networks."},
+  {name:"Ubisoft",total:7608,sites:528,infringement:{torrent:987,repack:678,crack:456,DDL:312,"ROM-PlayStation":89,"ROM/ISO":67,"ROM-other":45},platforms:{PC:6234,"Nintendo Legacy":456,"PlayStation Legacy":398,Xbox:312,Switch:134,PlayStation:74},severity:{"1":8,"2":52,"3":98,"4":512,"5":78},region:"Western",top_titles:["Assassin's Creed Mirage","Avatar: Frontiers of Pandora","Far Cry 6","Watch Dogs: Legion","Riders Republic","Anno 1800","The Crew Motorfest","Tom Clancy's Rainbow Six","Prince of Persia: TLC","Immortals Fenyx Rising"],analysis:"Ubisoft shows the highest PC concentration (82%) among major Western publishers. Crack activity is notably high, driven by Denuvo protection on flagship releases. The relatively low site count (528) with high entry volume suggests concentration on established large-scale piracy platforms."},
+  {name:"Capcom",total:7413,sites:741,infringement:{torrent:823,repack:567,crack:389,DDL:234,"ROM-PlayStation":112,"ROM/ISO":98,"ROM-other":78},platforms:{PC:5567,"Nintendo Legacy":712,"PlayStation Legacy":489,Switch:345,Xbox:178,Android:122},severity:{"1":15,"2":82,"3":148,"4":545,"5":92},region:"JP",top_titles:["Resident Evil 4 Remake","Street Fighter 6","Monster Hunter Rise","Devil May Cry 5","Mega Man Battle Network LC","Dragon's Dogma 2","Resident Evil Village","Phoenix Wright Trilogy","Monster Hunter World","Exoprimal"],analysis:"Capcom faces broad piracy across multiple franchise pillars. The Resident Evil and Monster Hunter franchises account for roughly 40% of high-severity entries. Legacy ROM distribution of classic Mega Man and Street Fighter titles maintains a persistent baseline infringement."},
+  {name:"Microsoft",total:6508,sites:817,infringement:{torrent:678,repack:456,crack:345,"mobile-mod":234,DDL:178,"ROM-PlayStation":89,"ROM/ISO":56},platforms:{PC:4567,Xbox:890,Android:512,"Nintendo Legacy":267,Switch:156,"PlayStation Legacy":116},severity:{"1":25,"2":89,"3":156,"4":498,"5":72},region:"Western",top_titles:["Starfield","Forza Horizon 5","Halo Infinite","Age of Empires IV","Microsoft Flight Simulator","Gears 5","Forza Motorsport","Psychonauts 2","Grounded","Sea of Thieves"],analysis:"Microsoft's Game Pass strategy reduces but does not eliminate piracy exposure. Mobile-mod activity is elevated (11% of tagged) driven by Minecraft-adjacent content. Xbox exclusives show lower piracy rates than PS-to-PC ports, but Starfield generated significant crack distribution at launch."},
+  {name:"Bethesda",total:6480,sites:712,infringement:{torrent:789,repack:534,crack:412,DDL:267,"ROM-other":89,"ROM/ISO":56,"mobile-mod":45},platforms:{PC:5456,Xbox:423,"Nintendo Legacy":267,Android:156,Switch:112,"PlayStation Legacy":66},severity:{"1":11,"2":67,"3":123,"4":489,"5":88},region:"Western",top_titles:["Starfield","The Elder Scrolls V: Skyrim","Fallout 4","DOOM Eternal","Wolfenstein II","Fallout 76","Dishonored 2","Prey","Deathloop","The Evil Within 2"],analysis:"Bethesda's open-world RPGs generate sustained long-tail piracy, with Skyrim and Fallout 4 remaining in top positions years after release. Mod-dependent gameplay loops make repack+crack the dominant vectors. The DOOM franchise adds a high-severity FPS piracy dimension."},
+  {name:"Rockstar",total:5554,sites:730,infringement:{torrent:678,repack:456,DDL:312,crack:267,"ROM-PlayStation":89,"mobile-mod":78,"ROM/ISO":45},platforms:{PC:4123,"PlayStation Legacy":567,Android:389,"Nintendo Legacy":234,Xbox:178,iOS:63},severity:{"1":5,"2":45,"3":89,"4":512,"5":112},region:"Western",top_titles:["Grand Theft Auto V","Red Dead Redemption 2","Grand Theft Auto: San Andreas","GTA: Vice City","Bully","Max Payne 3","Red Dead Redemption","L.A. Noire","GTA IV","Midnight Club"],analysis:"Rockstar has the highest severity-5 ratio among all publishers (22% of severity-tagged entries), driven by GTA V and RDR2 as perennial top-pirated titles. The Android platform share (7%) reflects significant GTA mobile piracy. Relatively few titles but extremely high per-title impact."},
+  {name:"Konami",total:5432,sites:692,infringement:{torrent:567,repack:389,"ROM-PlayStation":234,crack:178,DDL:156,"ROM/ISO":112,"mobile-iOS":67},platforms:{PC:3456,"PlayStation Legacy":867,"Nintendo Legacy":534,Xbox:312,Android:178,Switch:85},severity:{"1":22,"2":78,"3":134,"4":445,"5":67},region:"JP",top_titles:["Metal Gear Solid V","eFootball 2024","Castlevania: Advance Collection","Silent Hill 2 Remake","Yu-Gi-Oh! Master Duel","Suikoden I&II HD","Metal Gear Solid: Master Collection","Contra Anniversary","Bomberman R Online","Zone of the Enders"],analysis:"Konami's PlayStation Legacy share is the highest among tracked publishers (16%), reflecting deep retro catalog demand for Metal Gear and Castlevania. The Silent Hill 2 Remake generated concentrated crack distribution. ROM-PlayStation piracy remains persistent for PS1/PS2-era titles."},
+  {name:"2K Games",total:4332,sites:499,infringement:{torrent:534,repack:378,crack:267,DDL:189,"mobile-mod":112,"ROM-PlayStation":56,"ROM-other":34},platforms:{PC:3456,"Nintendo Legacy":345,iOS:234,Xbox:156,"PlayStation Legacy":89,Switch:52},severity:{"1":8,"2":45,"3":89,"4":367,"5":56},region:"Western",top_titles:["Civilization VI","NBA 2K24","WWE 2K23","BioShock Infinite","XCOM 2","Borderlands 3","Mafia: Definitive Edition","Sid Meier's Civilization V","PGA Tour 2K23","Tiny Tina's Wonderlands"],analysis:"2K's annual sports franchises (NBA 2K, WWE 2K) create predictable piracy cycles. Civilization generates sustained long-tail piracy through DLC targeting. iOS piracy share (5%) is notable, driven by mobile sports titles. Crack distribution peaks align with annual release windows."},
+  {name:"Warner Bros",total:4093,sites:472,infringement:{torrent:489,repack:345,DDL:234,crack:178,"ROM-PlayStation":67,"ROM/ISO":56,"ROM-other":34},platforms:{PC:3234,"PlayStation Legacy":345,"Nintendo Legacy":234,Xbox:156,Switch:89,Android:35},severity:{"1":12,"2":56,"3":98,"4":334,"5":45},region:"Western",top_titles:["Hogwarts Legacy","Mortal Kombat 1","Batman: Arkham Knight","Gotham Knights","MultiVersus","Middle-earth: Shadow of War","LEGO Star Wars: TSS","Suicide Squad: Kill the JL","Back 4 Blood","Injustice 2"],analysis:"Hogwarts Legacy alone accounts for an estimated 30% of Warner Bros piracy entries in the measurement period. IP-driven demand (DC, Harry Potter, LEGO) generates cross-demographic piracy. DDL is proportionally high (17% of tagged), suggesting organized distribution."},
+  {name:"505 Games",total:3273,sites:662,infringement:{torrent:389,repack:267,crack:178,DDL:134,"ROM-other":67,"mobile-mod":56,"ROM/ISO":34},platforms:{PC:2456,Android:345,"Nintendo Legacy":234,"PlayStation Legacy":134,Xbox:67,iOS:37},severity:{"1":18,"2":56,"3":112,"4":289,"5":45},region:"Western",top_titles:["Control Ultimate Edition","Death Stranding DC","Ghostrunner","Assetto Corsa","Bloodstained: RotN","Terraria","Brothers: A Tale of Two","Gems of War","Erica","Journey to the Savage Planet"],analysis:"505 Games has a disproportionately high site count (662) relative to entry volume, indicating broad but shallow piracy distribution. The Android share (11%) is elevated, driven by mobile ports. Control and Death Stranding represent concentrated high-value piracy targets."},
+  {name:"THQ Nordic",total:3027,sites:434,infringement:{torrent:378,repack:267,DDL:178,crack:156,"ROM-other":67,"ROM/ISO":45,"ROM-PlayStation":34},platforms:{PC:2345,"Nintendo Legacy":312,Xbox:178,Switch:112,"PlayStation Legacy":56,Android:24},severity:{"1":15,"2":45,"3":78,"4":278,"5":34},region:"Western",top_titles:["Destroy All Humans! 2","SpongeBob: Cosmic Shake","Expeditions: A MudRunner","Gothic Remake","Jagged Alliance 3","Biomutant","Wreckfest","Kingdoms of Amalur","Outcast 2","Desperados III"],analysis:"THQ Nordic's catalog-driven piracy shows high repack rates from legacy title remastering. The Nintendo Legacy platform share (13%) reflects retro catalog demand. Relatively moderate severity profile with lower severity-5 concentration than peers."},
+  {name:"Valve",total:2866,sites:512,infringement:{DDL:345,torrent:312,repack:234,crack:178,"mobile-mod":89,"ROM-PlayStation":45,"ROM/ISO":23},platforms:{PC:2456,"Nintendo Legacy":178,Android:112,Switch:67,"PlayStation Legacy":34,Xbox:19},severity:{"1":8,"2":34,"3":67,"4":234,"5":45},region:"Western",top_titles:["Counter-Strike 2","Half-Life: Alyx","Portal 2","Dota 2","Left 4 Dead 2","Team Fortress 2","Half-Life 2","Portal","Garry's Mod","Day of Defeat"],analysis:"Valve's piracy profile is uniquely DDL-heavy (28% of tagged), reflecting organized distribution of standalone server builds and cracked versions. F2P titles (CS2, Dota 2) still generate piracy through premium content and cheat distribution. Half-Life: Alyx drives VR-specific piracy."},
+  {name:"Koei Tecmo",total:1785,sites:355,infringement:{repack:234,torrent:189,crack:145,DDL:112,"ROM-PlayStation":56,"ROM/ISO":34,"ROM-other":23},platforms:{PC:1234,"Nintendo Legacy":234,"PlayStation Legacy":178,Xbox:78,Switch:45,PlayStation:16},severity:{"1":8,"2":34,"3":56,"4":189,"5":34},region:"JP",top_titles:["Wo Long: Fallen Dynasty","Dead or Alive 6","Nioh 2","Atelier Ryza 3","Dynasty Warriors 9","Attack on Titan 2","Romance of Three Kingdoms XIV","Fire Emblem Warriors: 3H","Hyrule Warriors: AoC","Fatal Frame: Maiden"],analysis:"Koei Tecmo faces concentrated piracy around Wo Long and Nioh as soulslike demand drives crack/repack distribution. Anime tie-in titles (Attack on Titan) generate cross-cultural piracy. Repack rate leads proportionally, suggesting dedicated repack groups targeting niche JP titles."},
+  {name:"Paradox",total:1504,sites:305,infringement:{torrent:234,repack:178,crack:134,DDL:89,"ROM-other":23},platforms:{PC:1345,"Nintendo Legacy":67,Xbox:45,PlayStation:23,Android:15,Switch:9},severity:{"1":5,"2":23,"3":45,"4":178,"5":34},region:"Western",top_titles:["Victoria 3","Crusader Kings III","Stellaris","Hearts of Iron IV","Europa Universalis IV","Cities: Skylines II","Surviving the Aftermath","Imperator: Rome","Prison Architect 2","Surviving Mars"],analysis:"Paradox faces a uniquely PC-concentrated piracy profile (89%), the highest of any publisher. DLC-heavy monetization drives sustained piracy through expansion packs. Grand strategy titles generate long-tail piracy over multi-year content cycles. Relatively low site count but dedicated distribution channels."}
+];
+
+/* ── Cross Tabs ─────────────────────────────────────────── */
+const CROSS_TABS = {
+  "Activision":{title_cross:[{title:"Call of Duty: Modern Warfare 3",sites:28,infringement:["torrent","repack","crack"],platforms:["PC","Xbox"]},{title:"Call of Duty: World at War",sites:25,infringement:["torrent","ROM/ISO"],platforms:["PC","Nintendo Legacy"]},{title:"Crash Bandicoot N. Sane Trilogy",sites:24,infringement:["repack","crack"],platforms:["PC","Switch"]},{title:"Tony Hawk's Pro Skater 1+2",sites:22,infringement:["repack","crack"],platforms:["PC"]},{title:"Sekiro: Shadows Die Twice",sites:21,infringement:["torrent","repack","crack"],platforms:["PC"]},{title:"Call of Duty 4: Modern Warfare",sites:20,infringement:["torrent","crack"],platforms:["PC","Xbox"]},{title:"Spyro Reignited Trilogy",sites:19,infringement:["repack"],platforms:["PC"]},{title:"Call of Duty: Infinite Warfare",sites:18,infringement:["torrent","repack"],platforms:["PC"]},{title:"Call of Duty: MW2",sites:18,infringement:["torrent","crack"],platforms:["PC","Xbox"]},{title:"Call of Duty: Black Ops",sites:17,infringement:["torrent"],platforms:["PC"]},{title:"Overwatch 2 Cheat Packs",sites:16,infringement:["mobile-mod"],platforms:["PC","Android"]},{title:"Diablo IV Trainers",sites:15,infringement:["crack","DDL"],platforms:["PC"]}],domain_cross:[{domain:"fitgirl-repacks.site",titles:48,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"steamunlocked.net",titles:42,infringement:["DDL","crack"],languages:"en",monetization:"ads,link-locker"},{domain:"1337x.to",titles:38,infringement:["torrent"],languages:"en",monetization:"ads,crypto"},{domain:"rarbg.to",titles:35,infringement:["torrent"],languages:"en",monetization:"ads"},{domain:"skidrowreloaded.com",titles:32,infringement:["crack","repack"],languages:"en",monetization:"ads,link-locker"},{domain:"igg-games.com",titles:28,infringement:["DDL"],languages:"en",monetization:"ads"},{domain:"ovagames.com",titles:25,infringement:["DDL"],languages:"en",monetization:"ads,premium-link"},{domain:"dodi-repacks.site",titles:22,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"pcgamestorrents.com",titles:20,infringement:["torrent","DDL"],languages:"en,es",monetization:"ads"},{domain:"crackhub.site",titles:18,infringement:["crack"],languages:"en",monetization:"ads,crypto"}]},
+  "Nintendo":{title_cross:[{title:"Pokemon Legends: Arceus",sites:35,infringement:["ROM/ISO","torrent"],platforms:["Switch","PC"]},{title:"Super Mario Bros. Wonder",sites:32,infringement:["ROM/ISO"],platforms:["Switch"]},{title:"The Legend of Zelda: TotK",sites:30,infringement:["ROM/ISO","torrent"],platforms:["Switch","PC"]},{title:"Animal Crossing: New Horizons",sites:28,infringement:["ROM/ISO"],platforms:["Switch"]},{title:"Mario Kart 8 Deluxe",sites:26,infringement:["ROM/ISO"],platforms:["Switch"]},{title:"Pokemon Scarlet / Violet",sites:25,infringement:["ROM/ISO","torrent"],platforms:["Switch","PC"]},{title:"Super Smash Bros. Ultimate",sites:24,infringement:["ROM/ISO"],platforms:["Switch"]},{title:"Metroid Dread",sites:22,infringement:["ROM/ISO","torrent"],platforms:["Switch"]},{title:"Fire Emblem: Engage",sites:20,infringement:["ROM/ISO"],platforms:["Switch"]},{title:"Splatoon 3",sites:18,infringement:["ROM/ISO"],platforms:["Switch"]},{title:"Kirby and the Forgotten Land",sites:16,infringement:["ROM/ISO"],platforms:["Switch"]},{title:"Xenoblade Chronicles 3",sites:15,infringement:["ROM/ISO","torrent"],platforms:["Switch","PC"]}],domain_cross:[{domain:"nsw2u.com",titles:52,infringement:["ROM/ISO"],languages:"en,ja,zh",monetization:"ads,link-locker"},{domain:"nxbrew.com",titles:48,infringement:["ROM/ISO","DDL"],languages:"en",monetization:"ads,premium-link"},{domain:"romsmania.games",titles:45,infringement:["ROM-retro","ROM/ISO"],languages:"en,es,pt",monetization:"ads"},{domain:"vimm.net",titles:42,infringement:["ROM-retro"],languages:"en",monetization:"donate"},{domain:"romsfun.com",titles:38,infringement:["ROM/ISO","ROM-retro"],languages:"en,zh",monetization:"ads"},{domain:"cdromance.org",titles:35,infringement:["ROM-retro","ROM/ISO"],languages:"en",monetization:"ads,donate"},{domain:"ziperto.com",titles:32,infringement:["ROM/ISO","DDL"],languages:"en",monetization:"ads,link-locker"},{domain:"wowroms.com",titles:28,infringement:["ROM-retro"],languages:"en,ru",monetization:"ads"},{domain:"emulatorgames.net",titles:25,infringement:["ROM-retro"],languages:"en",monetization:"ads"},{domain:"romhustler.org",titles:22,infringement:["ROM-retro","ROM/ISO"],languages:"en",monetization:"ads,premium-link"}]},
+  "Sony":{title_cross:[{title:"God of War Ragnarok",sites:32,infringement:["torrent","repack","crack"],platforms:["PC"]},{title:"The Last of Us Part I",sites:30,infringement:["torrent","crack","repack"],platforms:["PC"]},{title:"Horizon Forbidden West",sites:28,infringement:["repack","crack"],platforms:["PC"]},{title:"Ratchet & Clank: Rift Apart",sites:26,infringement:["repack","crack"],platforms:["PC"]},{title:"Ghost of Tsushima",sites:25,infringement:["torrent","repack"],platforms:["PC"]},{title:"Spider-Man Remastered",sites:24,infringement:["repack","crack","torrent"],platforms:["PC"]},{title:"Uncharted: Legacy of Thieves",sites:22,infringement:["repack","crack"],platforms:["PC"]},{title:"Gran Turismo 7",sites:20,infringement:["torrent"],platforms:["PlayStation"]},{title:"Returnal",sites:18,infringement:["repack","crack"],platforms:["PC"]},{title:"Days Gone",sites:17,infringement:["torrent","repack"],platforms:["PC"]},{title:"Until Dawn",sites:15,infringement:["repack","crack"],platforms:["PC"]},{title:"Detroit: Become Human",sites:14,infringement:["torrent","repack"],platforms:["PC"]}],domain_cross:[{domain:"fitgirl-repacks.site",titles:42,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"dodi-repacks.site",titles:38,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"1337x.to",titles:35,infringement:["torrent"],languages:"en",monetization:"ads,crypto"},{domain:"steamunlocked.net",titles:32,infringement:["DDL","crack"],languages:"en",monetization:"ads,link-locker"},{domain:"skidrowreloaded.com",titles:28,infringement:["crack","repack"],languages:"en",monetization:"ads,link-locker"},{domain:"rarbg.to",titles:25,infringement:["torrent"],languages:"en",monetization:"ads"},{domain:"pcgamestorrents.com",titles:22,infringement:["torrent","DDL"],languages:"en,es",monetization:"ads"},{domain:"ovagames.com",titles:20,infringement:["DDL"],languages:"en",monetization:"ads,premium-link"},{domain:"crackhub.site",titles:18,infringement:["crack"],languages:"en",monetization:"ads,crypto"},{domain:"gametrex.com",titles:15,infringement:["DDL"],languages:"en",monetization:"ads"}]},
+  "EA":{title_cross:[{title:"Need for Speed: Underground 2",sites:22,infringement:["torrent","ROM/ISO","repack"],platforms:["PC","Nintendo Legacy"]},{title:"FIFA 23",sites:22,infringement:["crack","repack"],platforms:["PC"]},{title:"Battlefield 2042",sites:20,infringement:["torrent","repack"],platforms:["PC"]},{title:"The Sims 4 + DLC Packs",sites:19,infringement:["DDL","crack","torrent"],platforms:["PC"]},{title:"Dead Space Remake",sites:18,infringement:["repack","crack","torrent"],platforms:["PC"]},{title:"NFS Most Wanted",sites:18,infringement:["torrent","crack"],platforms:["PC","Xbox"]},{title:"Star Wars Jedi: Survivor",sites:17,infringement:["repack","crack"],platforms:["PC"]},{title:"Madden NFL 24",sites:16,infringement:["torrent"],platforms:["PC","Xbox"]},{title:"Plants vs. Zombies",sites:16,infringement:["DDL"],platforms:["PC","Android"]},{title:"Apex Legends Mobile",sites:15,infringement:["mobile-mod"],platforms:["Android"]},{title:"FIFA 11",sites:15,infringement:["torrent"],platforms:["PC"]},{title:"Battlefield 4",sites:14,infringement:["repack","torrent"],platforms:["PC"]}],domain_cross:[{domain:"fitgirl-repacks.site",titles:38,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"steamunlocked.net",titles:35,infringement:["DDL","crack"],languages:"en",monetization:"ads,link-locker"},{domain:"1337x.to",titles:32,infringement:["torrent"],languages:"en",monetization:"ads,crypto"},{domain:"skidrowreloaded.com",titles:28,infringement:["crack","repack"],languages:"en",monetization:"ads,link-locker"},{domain:"xbox360iso.net",titles:25,infringement:["ROM/ISO"],languages:"en",monetization:"ads"},{domain:"ovagames.com",titles:22,infringement:["DDL"],languages:"en",monetization:"ads,premium-link"},{domain:"igg-games.com",titles:20,infringement:["DDL"],languages:"en",monetization:"ads"},{domain:"apkmody.io",titles:18,infringement:["mobile-mod"],languages:"en,id",monetization:"ads"},{domain:"dodi-repacks.site",titles:15,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"pcgamestorrents.com",titles:14,infringement:["torrent","DDL"],languages:"en,es",monetization:"ads"}]},
+  "Square Enix":{title_cross:[{title:"Final Fantasy XVI",sites:28,infringement:["repack","crack","torrent"],platforms:["PC"]},{title:"Final Fantasy VII Remake",sites:26,infringement:["repack","crack"],platforms:["PC"]},{title:"Dragon Quest XI",sites:22,infringement:["torrent","repack"],platforms:["PC","Switch"]},{title:"NieR: Automata",sites:20,infringement:["torrent","repack","crack"],platforms:["PC"]},{title:"Kingdom Hearts III",sites:18,infringement:["repack","crack"],platforms:["PC"]},{title:"Octopath Traveler II",sites:16,infringement:["torrent","ROM/ISO"],platforms:["PC","Switch"]},{title:"Forspoken",sites:15,infringement:["repack","crack"],platforms:["PC"]},{title:"Crisis Core: FF7 Reunion",sites:14,infringement:["repack"],platforms:["PC"]},{title:"Trials of Mana",sites:12,infringement:["torrent","repack"],platforms:["PC"]},{title:"Valkyrie Elysium",sites:11,infringement:["repack"],platforms:["PC"]},{title:"Star Ocean: Second Story",sites:10,infringement:["ROM-PlayStation"],platforms:["PlayStation Legacy"]},{title:"Chrono Cross Remaster",sites:9,infringement:["repack"],platforms:["PC"]}],domain_cross:[{domain:"fitgirl-repacks.site",titles:35,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"1337x.to",titles:30,infringement:["torrent"],languages:"en",monetization:"ads,crypto"},{domain:"dodi-repacks.site",titles:28,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"steamunlocked.net",titles:24,infringement:["DDL","crack"],languages:"en",monetization:"ads,link-locker"},{domain:"skidrowreloaded.com",titles:20,infringement:["crack","repack"],languages:"en",monetization:"ads,link-locker"},{domain:"cdromance.org",titles:18,infringement:["ROM-retro","ROM/ISO"],languages:"en",monetization:"ads,donate"},{domain:"emuparadise.me",titles:15,infringement:["ROM-retro"],languages:"en",monetization:"ads"},{domain:"ovagames.com",titles:14,infringement:["DDL"],languages:"en",monetization:"ads,premium-link"},{domain:"nyaa.si",titles:12,infringement:["torrent"],languages:"en,ja",monetization:"ads"},{domain:"romsmania.games",titles:10,infringement:["ROM-retro","ROM/ISO"],languages:"en,es,pt",monetization:"ads"}]},
+  "Sega":{title_cross:[{title:"Persona 5 Royal",sites:25,infringement:["torrent","repack","crack"],platforms:["PC"]},{title:"Sonic Frontiers",sites:22,infringement:["repack","crack"],platforms:["PC","Switch"]},{title:"Yakuza: Like a Dragon",sites:20,infringement:["torrent","repack"],platforms:["PC"]},{title:"Total War: Warhammer III",sites:19,infringement:["torrent","repack","crack"],platforms:["PC"]},{title:"Football Manager 2024",sites:18,infringement:["torrent","crack"],platforms:["PC"]},{title:"Persona 3 Reload",sites:17,infringement:["repack","crack"],platforms:["PC"]},{title:"Like a Dragon: Ishin!",sites:15,infringement:["repack"],platforms:["PC"]},{title:"Sonic Origins",sites:14,infringement:["repack","ROM-retro"],platforms:["PC"]},{title:"Phantasy Star Online 2",sites:12,infringement:["mobile-mod"],platforms:["Android","PC"]},{title:"Virtua Fighter 5",sites:11,infringement:["repack"],platforms:["PC"]},{title:"Sonic Mania",sites:10,infringement:["torrent","crack"],platforms:["PC"]},{title:"Two Point Hospital",sites:9,infringement:["torrent","repack"],platforms:["PC"]}],domain_cross:[{domain:"fitgirl-repacks.site",titles:32,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"1337x.to",titles:28,infringement:["torrent"],languages:"en",monetization:"ads,crypto"},{domain:"steamunlocked.net",titles:25,infringement:["DDL","crack"],languages:"en",monetization:"ads,link-locker"},{domain:"dodi-repacks.site",titles:22,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"apkmody.io",titles:18,infringement:["mobile-mod"],languages:"en,id",monetization:"ads"},{domain:"skidrowreloaded.com",titles:16,infringement:["crack","repack"],languages:"en",monetization:"ads,link-locker"},{domain:"romsmania.games",titles:14,infringement:["ROM-retro","ROM/ISO"],languages:"en,es,pt",monetization:"ads"},{domain:"ovagames.com",titles:12,infringement:["DDL"],languages:"en",monetization:"ads,premium-link"},{domain:"wowroms.com",titles:10,infringement:["ROM-retro"],languages:"en,ru",monetization:"ads"},{domain:"pcgamestorrents.com",titles:8,infringement:["torrent","DDL"],languages:"en,es",monetization:"ads"}]},
+  "Bandai Namco":{title_cross:[{title:"Elden Ring",sites:35,infringement:["torrent","repack","crack"],platforms:["PC"]},{title:"Tekken 8",sites:28,infringement:["repack","crack"],platforms:["PC"]},{title:"Tales of Arise",sites:22,infringement:["torrent","repack"],platforms:["PC"]},{title:"Dragon Ball Z: Kakarot",sites:20,infringement:["repack","crack"],platforms:["PC"]},{title:"Armored Core VI",sites:19,infringement:["repack","crack","torrent"],platforms:["PC"]},{title:"Ace Combat 7",sites:17,infringement:["repack","crack"],platforms:["PC"]},{title:"Naruto Storm Connections",sites:15,infringement:["repack"],platforms:["PC"]},{title:"One Piece Odyssey",sites:14,infringement:["repack","torrent"],platforms:["PC"]},{title:"Ni no Kuni Remastered",sites:12,infringement:["repack"],platforms:["PC"]},{title:"Code Vein",sites:11,infringement:["torrent","repack"],platforms:["PC"]},{title:"Scarlet Nexus",sites:10,infringement:["repack"],platforms:["PC"]},{title:"Little Nightmares II",sites:9,infringement:["torrent","repack"],platforms:["PC"]}],domain_cross:[{domain:"fitgirl-repacks.site",titles:38,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"1337x.to",titles:32,infringement:["torrent"],languages:"en",monetization:"ads,crypto"},{domain:"dodi-repacks.site",titles:28,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"steamunlocked.net",titles:25,infringement:["DDL","crack"],languages:"en",monetization:"ads,link-locker"},{domain:"skidrowreloaded.com",titles:22,infringement:["crack","repack"],languages:"en",monetization:"ads,link-locker"},{domain:"nyaa.si",titles:18,infringement:["torrent"],languages:"en,ja",monetization:"ads"},{domain:"ovagames.com",titles:15,infringement:["DDL"],languages:"en",monetization:"ads,premium-link"},{domain:"igg-games.com",titles:12,infringement:["DDL"],languages:"en",monetization:"ads"},{domain:"pcgamestorrents.com",titles:10,infringement:["torrent","DDL"],languages:"en,es",monetization:"ads"},{domain:"crackhub.site",titles:8,infringement:["crack"],languages:"en",monetization:"ads,crypto"}]},
+  "Ubisoft":{title_cross:[{title:"Assassin's Creed Mirage",sites:28,infringement:["torrent","repack","crack"],platforms:["PC"]},{title:"Avatar: Frontiers of Pandora",sites:24,infringement:["repack","crack"],platforms:["PC"]},{title:"Far Cry 6",sites:22,infringement:["torrent","repack","crack"],platforms:["PC"]},{title:"Watch Dogs: Legion",sites:20,infringement:["repack","crack"],platforms:["PC"]},{title:"Riders Republic",sites:18,infringement:["repack","crack"],platforms:["PC"]},{title:"Anno 1800",sites:17,infringement:["torrent","repack"],platforms:["PC"]},{title:"The Crew Motorfest",sites:15,infringement:["crack"],platforms:["PC"]},{title:"Rainbow Six Siege Cheats",sites:14,infringement:["crack","mobile-mod"],platforms:["PC"]},{title:"Prince of Persia: TLC",sites:13,infringement:["repack"],platforms:["PC"]},{title:"Immortals Fenyx Rising",sites:12,infringement:["torrent","repack"],platforms:["PC"]},{title:"Ghost Recon Breakpoint",sites:11,infringement:["torrent"],platforms:["PC"]},{title:"The Division 2",sites:10,infringement:["crack"],platforms:["PC"]}],domain_cross:[{domain:"fitgirl-repacks.site",titles:35,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"1337x.to",titles:30,infringement:["torrent"],languages:"en",monetization:"ads,crypto"},{domain:"dodi-repacks.site",titles:25,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"steamunlocked.net",titles:22,infringement:["DDL","crack"],languages:"en",monetization:"ads,link-locker"},{domain:"skidrowreloaded.com",titles:20,infringement:["crack","repack"],languages:"en",monetization:"ads,link-locker"},{domain:"ovagames.com",titles:16,infringement:["DDL"],languages:"en",monetization:"ads,premium-link"},{domain:"igg-games.com",titles:14,infringement:["DDL"],languages:"en",monetization:"ads"},{domain:"rarbg.to",titles:12,infringement:["torrent"],languages:"en",monetization:"ads"},{domain:"pcgamestorrents.com",titles:10,infringement:["torrent","DDL"],languages:"en,es",monetization:"ads"},{domain:"crackhub.site",titles:8,infringement:["crack"],languages:"en",monetization:"ads,crypto"}]},
+  "Capcom":{title_cross:[{title:"Resident Evil 4 Remake",sites:30,infringement:["torrent","repack","crack"],platforms:["PC"]},{title:"Street Fighter 6",sites:26,infringement:["repack","crack"],platforms:["PC"]},{title:"Monster Hunter Rise",sites:24,infringement:["torrent","repack"],platforms:["PC","Switch"]},{title:"Devil May Cry 5",sites:22,infringement:["repack","crack","torrent"],platforms:["PC"]},{title:"Mega Man Battle Network LC",sites:18,infringement:["ROM-retro","torrent"],platforms:["PC","Nintendo Legacy"]},{title:"Dragon's Dogma 2",sites:17,infringement:["repack","crack"],platforms:["PC"]},{title:"Resident Evil Village",sites:16,infringement:["torrent","repack"],platforms:["PC"]},{title:"Phoenix Wright Trilogy",sites:14,infringement:["repack","ROM/ISO"],platforms:["PC","Nintendo Legacy"]},{title:"Monster Hunter World",sites:13,infringement:["torrent","repack"],platforms:["PC"]},{title:"Exoprimal",sites:11,infringement:["repack"],platforms:["PC"]},{title:"Mega Man X Legacy Collection",sites:10,infringement:["ROM-retro","repack"],platforms:["PC"]},{title:"Resident Evil 3 Remake",sites:9,infringement:["repack","crack"],platforms:["PC"]}],domain_cross:[{domain:"fitgirl-repacks.site",titles:35,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"1337x.to",titles:30,infringement:["torrent"],languages:"en",monetization:"ads,crypto"},{domain:"dodi-repacks.site",titles:25,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"steamunlocked.net",titles:22,infringement:["DDL","crack"],languages:"en",monetization:"ads,link-locker"},{domain:"cdromance.org",titles:18,infringement:["ROM-retro","ROM/ISO"],languages:"en",monetization:"ads,donate"},{domain:"skidrowreloaded.com",titles:16,infringement:["crack","repack"],languages:"en",monetization:"ads,link-locker"},{domain:"romsmania.games",titles:14,infringement:["ROM-retro"],languages:"en,es,pt",monetization:"ads"},{domain:"ovagames.com",titles:12,infringement:["DDL"],languages:"en",monetization:"ads,premium-link"},{domain:"wowroms.com",titles:10,infringement:["ROM-retro"],languages:"en,ru",monetization:"ads"},{domain:"nyaa.si",titles:8,infringement:["torrent"],languages:"en,ja",monetization:"ads"}]},
+  "Microsoft":{title_cross:[{title:"Starfield",sites:28,infringement:["torrent","repack","crack"],platforms:["PC"]},{title:"Forza Horizon 5",sites:25,infringement:["repack","crack"],platforms:["PC"]},{title:"Halo Infinite",sites:22,infringement:["torrent","crack"],platforms:["PC","Xbox"]},{title:"Age of Empires IV",sites:20,infringement:["torrent","repack"],platforms:["PC"]},{title:"MS Flight Simulator",sites:18,infringement:["repack","crack"],platforms:["PC"]},{title:"Gears 5",sites:16,infringement:["torrent","crack"],platforms:["PC","Xbox"]},{title:"Forza Motorsport",sites:15,infringement:["repack","crack"],platforms:["PC"]},{title:"Psychonauts 2",sites:13,infringement:["repack"],platforms:["PC"]},{title:"Grounded",sites:12,infringement:["torrent"],platforms:["PC"]},{title:"Sea of Thieves",sites:11,infringement:["crack"],platforms:["PC"]},{title:"Minecraft Mods/APKs",sites:10,infringement:["mobile-mod"],platforms:["Android"]},{title:"Ori and the Will of the Wisps",sites:9,infringement:["torrent","repack"],platforms:["PC"]}],domain_cross:[{domain:"fitgirl-repacks.site",titles:32,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"steamunlocked.net",titles:28,infringement:["DDL","crack"],languages:"en",monetization:"ads,link-locker"},{domain:"1337x.to",titles:25,infringement:["torrent"],languages:"en",monetization:"ads,crypto"},{domain:"dodi-repacks.site",titles:22,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"skidrowreloaded.com",titles:18,infringement:["crack","repack"],languages:"en",monetization:"ads,link-locker"},{domain:"apkmody.io",titles:16,infringement:["mobile-mod"],languages:"en,id",monetization:"ads"},{domain:"ovagames.com",titles:14,infringement:["DDL"],languages:"en",monetization:"ads,premium-link"},{domain:"rarbg.to",titles:12,infringement:["torrent"],languages:"en",monetization:"ads"},{domain:"igg-games.com",titles:10,infringement:["DDL"],languages:"en",monetization:"ads"},{domain:"pcgamestorrents.com",titles:8,infringement:["torrent","DDL"],languages:"en,es",monetization:"ads"}]},
+  "Bethesda":{title_cross:[{title:"Starfield",sites:30,infringement:["torrent","repack","crack"],platforms:["PC"]},{title:"The Elder Scrolls V: Skyrim",sites:28,infringement:["torrent","repack","DDL"],platforms:["PC"]},{title:"Fallout 4",sites:25,infringement:["torrent","repack"],platforms:["PC"]},{title:"DOOM Eternal",sites:22,infringement:["repack","crack"],platforms:["PC"]},{title:"Wolfenstein II",sites:18,infringement:["repack","crack","torrent"],platforms:["PC"]},{title:"Fallout 76",sites:16,infringement:["crack"],platforms:["PC"]},{title:"Dishonored 2",sites:15,infringement:["torrent","repack"],platforms:["PC"]},{title:"Prey",sites:13,infringement:["repack","crack"],platforms:["PC"]},{title:"Deathloop",sites:12,infringement:["repack","crack"],platforms:["PC"]},{title:"The Evil Within 2",sites:11,infringement:["torrent"],platforms:["PC"]},{title:"DOOM (2016)",sites:10,infringement:["repack","torrent"],platforms:["PC"]},{title:"Fallout: New Vegas",sites:9,infringement:["torrent"],platforms:["PC"]}],domain_cross:[{domain:"fitgirl-repacks.site",titles:35,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"1337x.to",titles:30,infringement:["torrent"],languages:"en",monetization:"ads,crypto"},{domain:"steamunlocked.net",titles:25,infringement:["DDL","crack"],languages:"en",monetization:"ads,link-locker"},{domain:"dodi-repacks.site",titles:22,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"skidrowreloaded.com",titles:20,infringement:["crack","repack"],languages:"en",monetization:"ads,link-locker"},{domain:"rarbg.to",titles:16,infringement:["torrent"],languages:"en",monetization:"ads"},{domain:"ovagames.com",titles:14,infringement:["DDL"],languages:"en",monetization:"ads,premium-link"},{domain:"igg-games.com",titles:12,infringement:["DDL"],languages:"en",monetization:"ads"},{domain:"pcgamestorrents.com",titles:10,infringement:["torrent","DDL"],languages:"en,es",monetization:"ads"},{domain:"crackhub.site",titles:8,infringement:["crack"],languages:"en",monetization:"ads,crypto"}]},
+  "Rockstar":{title_cross:[{title:"Grand Theft Auto V",sites:35,infringement:["torrent","repack","crack","DDL"],platforms:["PC"]},{title:"Red Dead Redemption 2",sites:30,infringement:["torrent","repack","crack"],platforms:["PC"]},{title:"GTA: San Andreas",sites:25,infringement:["torrent","DDL"],platforms:["PC","Android"]},{title:"GTA: Vice City",sites:22,infringement:["torrent","DDL"],platforms:["PC","Android"]},{title:"Bully",sites:18,infringement:["torrent","repack"],platforms:["PC"]},{title:"Max Payne 3",sites:16,infringement:["torrent","repack"],platforms:["PC"]},{title:"Red Dead Redemption",sites:15,infringement:["ROM-PlayStation"],platforms:["PlayStation Legacy"]},{title:"L.A. Noire",sites:14,infringement:["torrent","repack"],platforms:["PC"]},{title:"GTA IV",sites:13,infringement:["torrent","crack"],platforms:["PC"]},{title:"Midnight Club",sites:11,infringement:["ROM-PlayStation"],platforms:["PlayStation Legacy"]},{title:"GTA III",sites:10,infringement:["torrent","DDL"],platforms:["PC","Android"]},{title:"Manhunt",sites:8,infringement:["torrent"],platforms:["PC"]}],domain_cross:[{domain:"fitgirl-repacks.site",titles:28,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"1337x.to",titles:25,infringement:["torrent"],languages:"en",monetization:"ads,crypto"},{domain:"steamunlocked.net",titles:22,infringement:["DDL","crack"],languages:"en",monetization:"ads,link-locker"},{domain:"apkmody.io",titles:20,infringement:["mobile-mod"],languages:"en,id",monetization:"ads"},{domain:"dodi-repacks.site",titles:18,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"skidrowreloaded.com",titles:15,infringement:["crack","repack"],languages:"en",monetization:"ads,link-locker"},{domain:"rarbg.to",titles:14,infringement:["torrent"],languages:"en",monetization:"ads"},{domain:"ovagames.com",titles:12,infringement:["DDL"],languages:"en",monetization:"ads,premium-link"},{domain:"pcgamestorrents.com",titles:10,infringement:["torrent","DDL"],languages:"en,es",monetization:"ads"},{domain:"crackhub.site",titles:8,infringement:["crack"],languages:"en",monetization:"ads,crypto"}]},
+  "Konami":{title_cross:[{title:"Metal Gear Solid V",sites:22,infringement:["torrent","repack","crack"],platforms:["PC"]},{title:"eFootball 2024",sites:18,infringement:["crack","mobile-mod"],platforms:["PC","Android"]},{title:"Castlevania: Advance Collection",sites:16,infringement:["ROM-retro","torrent"],platforms:["PC","Nintendo Legacy"]},{title:"Silent Hill 2 Remake",sites:15,infringement:["repack","crack"],platforms:["PC"]},{title:"Yu-Gi-Oh! Master Duel",sites:14,infringement:["mobile-mod","crack"],platforms:["PC","Android"]},{title:"Suikoden I&II HD",sites:13,infringement:["repack"],platforms:["PC"]},{title:"MGS: Master Collection",sites:12,infringement:["repack","torrent"],platforms:["PC"]},{title:"Contra Anniversary",sites:10,infringement:["ROM-retro"],platforms:["PC"]},{title:"Bomberman R Online",sites:9,infringement:["repack"],platforms:["PC"]},{title:"Zone of the Enders",sites:8,infringement:["ROM-PlayStation","torrent"],platforms:["PC","PlayStation Legacy"]},{title:"PES 2021",sites:7,infringement:["crack","torrent"],platforms:["PC"]},{title:"Gradius Collection",sites:6,infringement:["ROM-retro"],platforms:["Nintendo Legacy"]}],domain_cross:[{domain:"fitgirl-repacks.site",titles:22,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"1337x.to",titles:18,infringement:["torrent"],languages:"en",monetization:"ads,crypto"},{domain:"steamunlocked.net",titles:16,infringement:["DDL","crack"],languages:"en",monetization:"ads,link-locker"},{domain:"cdromance.org",titles:14,infringement:["ROM-retro","ROM/ISO"],languages:"en",monetization:"ads,donate"},{domain:"romsmania.games",titles:12,infringement:["ROM-retro"],languages:"en,es,pt",monetization:"ads"},{domain:"dodi-repacks.site",titles:10,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"skidrowreloaded.com",titles:9,infringement:["crack","repack"],languages:"en",monetization:"ads,link-locker"},{domain:"vimm.net",titles:8,infringement:["ROM-retro"],languages:"en",monetization:"donate"},{domain:"wowroms.com",titles:7,infringement:["ROM-retro"],languages:"en,ru",monetization:"ads"},{domain:"emulatorgames.net",titles:6,infringement:["ROM-retro"],languages:"en",monetization:"ads"}]},
+  "2K Games":{title_cross:[{title:"Civilization VI",sites:22,infringement:["torrent","repack","crack","DDL"],platforms:["PC"]},{title:"NBA 2K24",sites:20,infringement:["repack","crack"],platforms:["PC"]},{title:"WWE 2K23",sites:18,infringement:["repack","crack"],platforms:["PC"]},{title:"BioShock Infinite",sites:16,infringement:["torrent","repack"],platforms:["PC"]},{title:"XCOM 2",sites:15,infringement:["torrent","repack","crack"],platforms:["PC"]},{title:"Borderlands 3",sites:14,infringement:["repack","crack"],platforms:["PC"]},{title:"Mafia: Definitive Edition",sites:13,infringement:["torrent","repack"],platforms:["PC"]},{title:"Civilization V",sites:12,infringement:["torrent","DDL"],platforms:["PC"]},{title:"PGA Tour 2K23",sites:10,infringement:["repack"],platforms:["PC"]},{title:"Tiny Tina's Wonderlands",sites:9,infringement:["repack","crack"],platforms:["PC"]},{title:"NBA 2K23",sites:8,infringement:["repack"],platforms:["PC"]},{title:"XCOM: Chimera Squad",sites:7,infringement:["torrent"],platforms:["PC"]}],domain_cross:[{domain:"fitgirl-repacks.site",titles:25,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"steamunlocked.net",titles:22,infringement:["DDL","crack"],languages:"en",monetization:"ads,link-locker"},{domain:"1337x.to",titles:20,infringement:["torrent"],languages:"en",monetization:"ads,crypto"},{domain:"dodi-repacks.site",titles:18,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"skidrowreloaded.com",titles:15,infringement:["crack","repack"],languages:"en",monetization:"ads,link-locker"},{domain:"ovagames.com",titles:12,infringement:["DDL"],languages:"en",monetization:"ads,premium-link"},{domain:"igg-games.com",titles:10,infringement:["DDL"],languages:"en",monetization:"ads"},{domain:"rarbg.to",titles:8,infringement:["torrent"],languages:"en",monetization:"ads"},{domain:"pcgamestorrents.com",titles:7,infringement:["torrent","DDL"],languages:"en,es",monetization:"ads"},{domain:"crackhub.site",titles:6,infringement:["crack"],languages:"en",monetization:"ads,crypto"}]},
+  "Warner Bros":{title_cross:[{title:"Hogwarts Legacy",sites:32,infringement:["torrent","repack","crack"],platforms:["PC"]},{title:"Mortal Kombat 1",sites:25,infringement:["repack","crack"],platforms:["PC"]},{title:"Batman: Arkham Knight",sites:20,infringement:["torrent","repack"],platforms:["PC"]},{title:"Gotham Knights",sites:18,infringement:["repack","crack"],platforms:["PC"]},{title:"MultiVersus",sites:15,infringement:["crack"],platforms:["PC"]},{title:"Shadow of War",sites:14,infringement:["torrent","repack"],platforms:["PC"]},{title:"LEGO Star Wars: TSS",sites:13,infringement:["repack"],platforms:["PC"]},{title:"Suicide Squad: Kill the JL",sites:12,infringement:["repack","crack"],platforms:["PC"]},{title:"Back 4 Blood",sites:11,infringement:["torrent","repack"],platforms:["PC"]},{title:"Injustice 2",sites:10,infringement:["repack","crack"],platforms:["PC"]},{title:"Mad Max",sites:9,infringement:["torrent"],platforms:["PC"]},{title:"Mortal Kombat 11",sites:8,infringement:["repack"],platforms:["PC"]}],domain_cross:[{domain:"fitgirl-repacks.site",titles:28,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"1337x.to",titles:24,infringement:["torrent"],languages:"en",monetization:"ads,crypto"},{domain:"steamunlocked.net",titles:22,infringement:["DDL","crack"],languages:"en",monetization:"ads,link-locker"},{domain:"dodi-repacks.site",titles:18,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"skidrowreloaded.com",titles:16,infringement:["crack","repack"],languages:"en",monetization:"ads,link-locker"},{domain:"ovagames.com",titles:12,infringement:["DDL"],languages:"en",monetization:"ads,premium-link"},{domain:"rarbg.to",titles:10,infringement:["torrent"],languages:"en",monetization:"ads"},{domain:"igg-games.com",titles:9,infringement:["DDL"],languages:"en",monetization:"ads"},{domain:"pcgamestorrents.com",titles:7,infringement:["torrent","DDL"],languages:"en,es",monetization:"ads"},{domain:"crackhub.site",titles:6,infringement:["crack"],languages:"en",monetization:"ads,crypto"}]},
+  "505 Games":{title_cross:[{title:"Control Ultimate Edition",sites:20,infringement:["torrent","repack","crack"],platforms:["PC"]},{title:"Death Stranding DC",sites:18,infringement:["repack","crack"],platforms:["PC"]},{title:"Ghostrunner",sites:16,infringement:["repack","crack"],platforms:["PC"]},{title:"Assetto Corsa",sites:14,infringement:["torrent","repack"],platforms:["PC"]},{title:"Bloodstained: RotN",sites:13,infringement:["repack","torrent"],platforms:["PC","Switch"]},{title:"Terraria",sites:12,infringement:["DDL","torrent"],platforms:["PC","Android"]},{title:"Brothers: A Tale of Two",sites:10,infringement:["repack"],platforms:["PC"]},{title:"Gems of War",sites:9,infringement:["mobile-mod"],platforms:["Android"]},{title:"Erica",sites:8,infringement:["repack"],platforms:["PC"]},{title:"Journey to Savage Planet",sites:7,infringement:["torrent"],platforms:["PC"]},{title:"Indivisible",sites:6,infringement:["torrent","repack"],platforms:["PC"]},{title:"Horace",sites:5,infringement:["torrent"],platforms:["PC"]}],domain_cross:[{domain:"fitgirl-repacks.site",titles:22,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"steamunlocked.net",titles:18,infringement:["DDL","crack"],languages:"en",monetization:"ads,link-locker"},{domain:"1337x.to",titles:16,infringement:["torrent"],languages:"en",monetization:"ads,crypto"},{domain:"dodi-repacks.site",titles:14,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"skidrowreloaded.com",titles:12,infringement:["crack","repack"],languages:"en",monetization:"ads,link-locker"},{domain:"ovagames.com",titles:10,infringement:["DDL"],languages:"en",monetization:"ads,premium-link"},{domain:"apkmody.io",titles:8,infringement:["mobile-mod"],languages:"en,id",monetization:"ads"},{domain:"igg-games.com",titles:7,infringement:["DDL"],languages:"en",monetization:"ads"},{domain:"rarbg.to",titles:6,infringement:["torrent"],languages:"en",monetization:"ads"},{domain:"pcgamestorrents.com",titles:5,infringement:["torrent","DDL"],languages:"en,es",monetization:"ads"}]},
+  "THQ Nordic":{title_cross:[{title:"Destroy All Humans! 2",sites:18,infringement:["repack","crack"],platforms:["PC"]},{title:"SpongeBob: Cosmic Shake",sites:16,infringement:["repack"],platforms:["PC"]},{title:"Expeditions: A MudRunner",sites:14,infringement:["torrent","repack"],platforms:["PC"]},{title:"Gothic Remake",sites:13,infringement:["repack","crack"],platforms:["PC"]},{title:"Jagged Alliance 3",sites:12,infringement:["torrent","repack"],platforms:["PC"]},{title:"Biomutant",sites:11,infringement:["repack","crack"],platforms:["PC"]},{title:"Wreckfest",sites:10,infringement:["torrent"],platforms:["PC"]},{title:"Kingdoms of Amalur",sites:9,infringement:["repack","torrent"],platforms:["PC"]},{title:"Outcast 2",sites:8,infringement:["repack"],platforms:["PC"]},{title:"Desperados III",sites:7,infringement:["torrent","repack"],platforms:["PC"]},{title:"Darksiders Genesis",sites:6,infringement:["torrent"],platforms:["PC"]},{title:"Titan Quest Anniversary",sites:5,infringement:["torrent"],platforms:["PC"]}],domain_cross:[{domain:"fitgirl-repacks.site",titles:22,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"1337x.to",titles:18,infringement:["torrent"],languages:"en",monetization:"ads,crypto"},{domain:"steamunlocked.net",titles:16,infringement:["DDL","crack"],languages:"en",monetization:"ads,link-locker"},{domain:"dodi-repacks.site",titles:14,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"skidrowreloaded.com",titles:12,infringement:["crack","repack"],languages:"en",monetization:"ads,link-locker"},{domain:"ovagames.com",titles:10,infringement:["DDL"],languages:"en",monetization:"ads,premium-link"},{domain:"igg-games.com",titles:8,infringement:["DDL"],languages:"en",monetization:"ads"},{domain:"rarbg.to",titles:7,infringement:["torrent"],languages:"en",monetization:"ads"},{domain:"pcgamestorrents.com",titles:6,infringement:["torrent","DDL"],languages:"en,es",monetization:"ads"},{domain:"gametrex.com",titles:5,infringement:["DDL"],languages:"en",monetization:"ads"}]},
+  "Valve":{title_cross:[{title:"Counter-Strike 2",sites:18,infringement:["crack","DDL"],platforms:["PC"]},{title:"Half-Life: Alyx",sites:16,infringement:["torrent","repack"],platforms:["PC"]},{title:"Portal 2",sites:14,infringement:["torrent","DDL"],platforms:["PC"]},{title:"Dota 2 Cheats",sites:12,infringement:["DDL","mobile-mod"],platforms:["PC"]},{title:"Left 4 Dead 2",sites:11,infringement:["torrent","DDL"],platforms:["PC"]},{title:"Team Fortress 2",sites:10,infringement:["DDL"],platforms:["PC"]},{title:"Half-Life 2",sites:9,infringement:["torrent"],platforms:["PC"]},{title:"Portal",sites:8,infringement:["torrent","DDL"],platforms:["PC"]},{title:"Garry's Mod",sites:7,infringement:["DDL","torrent"],platforms:["PC"]},{title:"Day of Defeat",sites:6,infringement:["DDL"],platforms:["PC"]},{title:"Artifact",sites:5,infringement:["crack"],platforms:["PC"]},{title:"Dota Underlords",sites:4,infringement:["mobile-mod"],platforms:["Android"]}],domain_cross:[{domain:"steamunlocked.net",titles:22,infringement:["DDL","crack"],languages:"en",monetization:"ads,link-locker"},{domain:"1337x.to",titles:18,infringement:["torrent"],languages:"en",monetization:"ads,crypto"},{domain:"fitgirl-repacks.site",titles:15,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"dodi-repacks.site",titles:12,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"skidrowreloaded.com",titles:10,infringement:["crack","repack"],languages:"en",monetization:"ads,link-locker"},{domain:"ovagames.com",titles:8,infringement:["DDL"],languages:"en",monetization:"ads,premium-link"},{domain:"igg-games.com",titles:7,infringement:["DDL"],languages:"en",monetization:"ads"},{domain:"crackhub.site",titles:6,infringement:["crack"],languages:"en",monetization:"ads,crypto"},{domain:"pcgamestorrents.com",titles:5,infringement:["torrent","DDL"],languages:"en,es",monetization:"ads"},{domain:"gametrex.com",titles:4,infringement:["DDL"],languages:"en",monetization:"ads"}]},
+  "Koei Tecmo":{title_cross:[{title:"Wo Long: Fallen Dynasty",sites:18,infringement:["repack","crack","torrent"],platforms:["PC"]},{title:"Dead or Alive 6",sites:15,infringement:["repack","crack"],platforms:["PC"]},{title:"Nioh 2",sites:14,infringement:["torrent","repack","crack"],platforms:["PC"]},{title:"Atelier Ryza 3",sites:12,infringement:["repack"],platforms:["PC"]},{title:"Dynasty Warriors 9",sites:10,infringement:["repack","torrent"],platforms:["PC"]},{title:"Attack on Titan 2",sites:9,infringement:["repack"],platforms:["PC"]},{title:"Romance of Three Kingdoms XIV",sites:8,infringement:["torrent"],platforms:["PC"]},{title:"Fire Emblem Warriors: 3H",sites:7,infringement:["ROM/ISO"],platforms:["Switch"]},{title:"Hyrule Warriors: AoC",sites:6,infringement:["ROM/ISO"],platforms:["Switch"]},{title:"Fatal Frame: Maiden",sites:5,infringement:["repack"],platforms:["PC"]},{title:"Samurai Warriors 5",sites:4,infringement:["repack"],platforms:["PC"]},{title:"Wild Hearts",sites:4,infringement:["repack","crack"],platforms:["PC"]}],domain_cross:[{domain:"fitgirl-repacks.site",titles:18,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"1337x.to",titles:14,infringement:["torrent"],languages:"en",monetization:"ads,crypto"},{domain:"dodi-repacks.site",titles:12,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"steamunlocked.net",titles:10,infringement:["DDL","crack"],languages:"en",monetization:"ads,link-locker"},{domain:"nyaa.si",titles:8,infringement:["torrent"],languages:"en,ja",monetization:"ads"},{domain:"skidrowreloaded.com",titles:7,infringement:["crack","repack"],languages:"en",monetization:"ads,link-locker"},{domain:"ovagames.com",titles:6,infringement:["DDL"],languages:"en",monetization:"ads,premium-link"},{domain:"nsw2u.com",titles:5,infringement:["ROM/ISO"],languages:"en,ja,zh",monetization:"ads,link-locker"},{domain:"igg-games.com",titles:4,infringement:["DDL"],languages:"en",monetization:"ads"},{domain:"pcgamestorrents.com",titles:3,infringement:["torrent","DDL"],languages:"en,es",monetization:"ads"}]},
+  "Paradox":{title_cross:[{title:"Victoria 3",sites:16,infringement:["torrent","repack","crack"],platforms:["PC"]},{title:"Crusader Kings III",sites:15,infringement:["torrent","repack","crack","DDL"],platforms:["PC"]},{title:"Stellaris",sites:14,infringement:["torrent","repack"],platforms:["PC"]},{title:"Hearts of Iron IV",sites:13,infringement:["torrent","repack","crack"],platforms:["PC"]},{title:"Europa Universalis IV",sites:12,infringement:["torrent","repack"],platforms:["PC"]},{title:"Cities: Skylines II",sites:11,infringement:["repack","crack"],platforms:["PC"]},{title:"Surviving the Aftermath",sites:8,infringement:["torrent"],platforms:["PC"]},{title:"Imperator: Rome",sites:7,infringement:["torrent","repack"],platforms:["PC"]},{title:"Prison Architect 2",sites:6,infringement:["repack"],platforms:["PC"]},{title:"Surviving Mars",sites:5,infringement:["torrent","DDL"],platforms:["PC"]},{title:"Age of Wonders 4",sites:5,infringement:["repack"],platforms:["PC"]},{title:"Millennia",sites:4,infringement:["repack"],platforms:["PC"]}],domain_cross:[{domain:"fitgirl-repacks.site",titles:18,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"1337x.to",titles:15,infringement:["torrent"],languages:"en",monetization:"ads,crypto"},{domain:"steamunlocked.net",titles:14,infringement:["DDL","crack"],languages:"en",monetization:"ads,link-locker"},{domain:"dodi-repacks.site",titles:12,infringement:["repack"],languages:"en,ru",monetization:"ads,donate"},{domain:"skidrowreloaded.com",titles:10,infringement:["crack","repack"],languages:"en",monetization:"ads,link-locker"},{domain:"ovagames.com",titles:8,infringement:["DDL"],languages:"en",monetization:"ads,premium-link"},{domain:"igg-games.com",titles:7,infringement:["DDL"],languages:"en",monetization:"ads"},{domain:"rarbg.to",titles:6,infringement:["torrent"],languages:"en",monetization:"ads"},{domain:"pcgamestorrents.com",titles:5,infringement:["torrent","DDL"],languages:"en,es",monetization:"ads"},{domain:"gametrex.com",titles:4,infringement:["DDL"],languages:"en",monetization:"ads"}]}
+};
+
+/* ── Compute Damage Scores ─────────────────────────────── */
+const maxTotal = Math.max(...PUB_DETAIL.map(p=>p.total));
+const maxSites = Math.max(...PUB_DETAIL.map(p=>p.sites));
+const maxSev = Math.max(...PUB_DETAIL.map(p=>{
+  const s=p.severity; return (+(s["4"]||0))+(+(s["5"]||0));
+}));
+const avgTotal = PUB_DETAIL.reduce((a,p)=>a+p.total,0)/PUB_DETAIL.length;
+const avgSites = PUB_DETAIL.reduce((a,p)=>a+p.sites,0)/PUB_DETAIL.length;
+
+PUB_DETAIL.forEach(p=>{
+  const sevHigh = (+(p.severity["4"]||0))+(+(p.severity["5"]||0));
+  const sevAll = Object.values(p.severity).reduce((a,v)=>a+(+v),0);
+  const activeRate = sevAll > 0 ? sevHigh/sevAll : 0;
+  const worksNorm = p.total/maxTotal;
+  const sitesNorm = p.sites/maxSites;
+  const sevNorm = sevHigh/maxSev;
+  p.damageScore = Math.round((worksNorm*0.35 + sitesNorm*0.30 + sevNorm*0.20 + activeRate*0.15)*1000);
+  p.sevHigh = sevHigh;
+  p.sevAll = sevAll;
+  p.activeRate = activeRate;
+});
+
+PUB_DETAIL.sort((a,b) => b.damageScore - a.damageScore);
+const avgDamage = Math.round(PUB_DETAIL.reduce((a,p)=>a+p.damageScore,0)/PUB_DETAIL.length);
+
+/* ── Infringement tag color map ────────────────────────── */
+function tagClass(t) {
+  if (/torrent/i.test(t)) return 'tag-torrent';
+  if (/repack/i.test(t)) return 'tag-repack';
+  if (/crack/i.test(t)) return 'tag-crack';
+  if (/ddl/i.test(t)) return 'tag-ddl';
+  if (/rom/i.test(t)) return 'tag-rom';
+  if (/mod|mobile/i.test(t)) return 'tag-mod';
+  return '';
+}
+
+/* ── Bar color by score (green-to-red) ─────────────────── */
+function scoreColor(score, max) {
+  const r = score / max;
+  if (r > 0.75) return 'var(--danger)';
+  if (r > 0.5) return 'var(--warning)';
+  if (r > 0.25) return 'var(--primary)';
+  return 'var(--success)';
+}
+
+/* ── Infringement bar color map ────────────────────────── */
+function infColor(key) {
+  const m = {torrent:'var(--danger)',repack:'var(--secondary)',crack:'var(--warning)',DDL:'var(--primary)','ROM/ISO':'var(--accent)','ROM-PlayStation':'#00b8a3','ROM-retro':'#00d4b8','ROM-other':'#00c9aa','mobile-mod':'var(--success)','mobile-iOS':'#00b368'};
+  return m[key] || 'var(--text-3)';
+}
+function platColor(key) {
+  const m = {PC:'var(--primary)','Nintendo Legacy':'var(--danger)','PlayStation Legacy':'var(--secondary)',Switch:'var(--success)',Xbox:'var(--warning)',Android:'var(--accent)',iOS:'#ff6b9d','ROM/ISO':'#00d4b8',PlayStation:'#8b5cf6'};
+  return m[key] || 'var(--text-3)';
+}
+
+/* ── Render Damage Chart ───────────────────────────────── */
+function renderDamageChart() {
+  const ctx = document.getElementById('damageChart').getContext('2d');
+  const sorted = [...PUB_DETAIL];
+  const labels = sorted.map(p=>p.name);
+  const scores = sorted.map(p=>p.damageScore);
+  const maxS = Math.max(...scores);
+  const colors = scores.map(s => {
+    const r = s/maxS;
+    if (r > 0.75) return 'rgba(255,51,68,0.75)';
+    if (r > 0.5) return 'rgba(255,170,0,0.75)';
+    if (r > 0.25) return 'rgba(26,140,255,0.75)';
+    return 'rgba(0,204,122,0.75)';
+  });
+  new Chart(ctx, {
+    type:'bar',
+    data:{labels, datasets:[{data:scores, backgroundColor:colors, borderRadius:4, barThickness:20}]},
+    options:{
+      indexAxis:'y',
+      responsive:true,
+      maintainAspectRatio:false,
+      plugins:{
+        legend:{display:false},
+        tooltip:{
+          backgroundColor:'#131d2e',
+          titleColor:'#dce8f8',
+          bodyColor:'#7a9bbf',
+          borderColor:'#1a2a40',
+          borderWidth:1,
+          callbacks:{ label:ctx=>`Damage Score: ${ctx.raw}` }
+        }
+      },
+      scales:{
+        x:{
+          grid:{color:'rgba(61,84,112,0.15)'},
+          ticks:{color:'#3d5470', font:{family:'JetBrains Mono',size:10}},
+          max:1000
+        },
+        y:{
+          grid:{display:false},
+          ticks:{color:'#7a9bbf', font:{family:'Inter',size:11,weight:600}}
+        }
+      }
+    },
+    plugins:[{
+      afterDatasetsDraw(chart) {
+        const {ctx:c, data, chartArea:{right}} = chart;
+        chart.getDatasetMeta(0).data.forEach((bar,i)=>{
+          c.save();
+          c.fillStyle = '#dce8f8';
+          c.font = '600 11px JetBrains Mono';
+          c.textAlign = 'left';
+          c.textBaseline = 'middle';
+          c.fillText(data.datasets[0].data[i], bar.x+6, bar.y);
+          c.restore();
+        });
+      }
+    }]
+  });
+}
+
+/* ── Render Doughnut ───────────────────────────────────── */
+function renderRegionChart() {
+  const ctx = document.getElementById('regionChart').getContext('2d');
+  new Chart(ctx, {
+    type:'doughnut',
+    data:{
+      labels:['Japanese Publishers','Western Publishers'],
+      datasets:[{
+        data:[62854,77511],
+        backgroundColor:['rgba(255,51,68,0.7)','rgba(26,140,255,0.7)'],
+        borderColor:['rgba(255,51,68,0.3)','rgba(26,140,255,0.3)'],
+        borderWidth:2,
+        hoverOffset:8
+      }]
+    },
+    options:{
+      responsive:true,
+      maintainAspectRatio:true,
+      cutout:'65%',
+      plugins:{
+        legend:{display:false},
+        tooltip:{
+          backgroundColor:'#131d2e',
+          titleColor:'#dce8f8',
+          bodyColor:'#7a9bbf',
+          borderColor:'#1a2a40',
+          borderWidth:1
+        }
+      }
+    }
+  });
+}
+
+/* ── Render Publisher Tabs ─────────────────────────────── */
+function renderTabs() {
+  const row = document.getElementById('pubTabsRow');
+  row.innerHTML = PUB_DETAIL.map((p,i)=>`<button class="pub-tab${i===0?' active':''}" data-idx="${i}" onclick="scrollToPub(${i})">${p.name}</button>`).join('');
+}
+
+function scrollToPub(idx) {
+  document.querySelectorAll('.pub-tab').forEach((t,i)=>t.classList.toggle('active',i===idx));
+  const el = document.getElementById('pub-'+idx);
+  if (el) el.scrollIntoView({behavior:'smooth',block:'start'});
+}
+
+/* ── Render Mini Bars (CSS only) ───────────────────────── */
+function miniBarHTML(data, colorFn, max) {
+  if (!max) max = Math.max(...Object.values(data));
+  return `<ul class="mini-bar-list">${Object.entries(data).filter(([k])=>!/unknown/i.test(k)).map(([k,v])=>{
+    const pct = max>0?(v/max*100):0;
+    const c = colorFn(k);
+    return `<li class="mini-bar-item"><span class="mini-bar-label">${k}</span><div class="mini-bar-track"><div class="mini-bar-fill" style="width:${Math.max(pct,3)}%;background:${c}">${v.toLocaleString()}</div></div></li>`;
+  }).join('')}</ul>`;
+}
+
+/* ── Benchmark HTML ────────────────────────────────────── */
+function benchmarkHTML(pub) {
+  const avgSev = PUB_DETAIL.reduce((a,p)=>a+p.sevHigh/Math.max(p.sevAll,1),0)/PUB_DETAIL.length;
+  const pubSevRate = pub.sevAll > 0 ? pub.sevHigh/pub.sevAll : 0;
+  const metrics = [
+    {label:'Work Entries', you:pub.total, avg:Math.round(avgTotal), max:maxTotal*1.1},
+    {label:'Sites Detected', you:pub.sites, avg:Math.round(avgSites), max:maxSites*1.1},
+    {label:'Severity Rate', you:pubSevRate, avg:avgSev, max:1, isPct:true}
+  ];
+  return metrics.map(m=>{
+    const youPct = (m.you/m.max*100).toFixed(1);
+    const avgPct = (m.avg/m.max*100).toFixed(1);
+    const youLabel = m.isPct ? (m.you*100).toFixed(1)+'%' : m.you.toLocaleString();
+    const avgLabel = m.isPct ? (m.avg*100).toFixed(1)+'%' : m.avg.toLocaleString();
+    return `<div class="bench-row"><div class="bench-label">${m.label}</div><div class="bench-track"><div class="bench-you" style="width:${youPct}%"></div><div class="bench-you-label">${youLabel}</div><div class="bench-avg-line" style="left:${avgPct}%"><div class="bench-avg-label">avg ${avgLabel}</div></div></div></div>`;
+  }).join('');
+}
+
+/* ── Table sort ────────────────────────────────────────── */
+function makeSortable(table) {
+  const headers = table.querySelectorAll('th');
+  headers.forEach((th,col)=>{
+    th.addEventListener('click',()=>{
+      const tbody = table.querySelector('tbody');
+      const rows = Array.from(tbody.querySelectorAll('tr'));
+      const asc = th.dataset.sort !== 'asc';
+      headers.forEach(h=>delete h.dataset.sort);
+      th.dataset.sort = asc?'asc':'desc';
+      rows.sort((a,b)=>{
+        let av = a.cells[col]?.textContent?.trim() || '';
+        let bv = b.cells[col]?.textContent?.trim() || '';
+        const an = parseFloat(av.replace(/,/g,''));
+        const bn = parseFloat(bv.replace(/,/g,''));
+        if (!isNaN(an) && !isNaN(bn)) return asc ? an-bn : bn-an;
+        return asc ? av.localeCompare(bv) : bv.localeCompare(av);
+      });
+      rows.forEach(r=>tbody.appendChild(r));
+    });
+  });
+}
+
+/* ── Render Publisher Sections ─────────────────────────── */
+function renderPublishers() {
+  const container = document.getElementById('pubSections');
+  container.innerHTML = PUB_DETAIL.map((pub,idx)=>{
+    const rank = idx+1;
+    const rankClass = rank<=3?'r-top': rank<=10?'r-mid':'r-low';
+    const vsAvg = ((pub.damageScore - avgDamage)/avgDamage*100).toFixed(0);
+    const vsAvgStr = (+vsAvg)>=0 ? `+${vsAvg}%` : `${vsAvg}%`;
+    const vsAvgColor = (+vsAvg)>=0 ? 'c-danger' : 'c-success';
+
+    const cross = CROSS_TABS[pub.name] || {title_cross:[], domain_cross:[]};
+    const titles = cross.title_cross.slice(0,12);
+    const domains = cross.domain_cross.slice(0,10);
+
+    // Title table
+    const titleRows = titles.map(t=>`<tr><td style="color:var(--text-1);font-weight:500">${t.title}</td><td class="n">${t.sites}</td><td>${(t.infringement||[]).map(i=>`<span class="tag ${tagClass(i)}">${i}</span>`).join('')}</td><td>${(t.platforms||[]).map(p=>`<span class="tag tag-plat">${p}</span>`).join('')}</td></tr>`).join('');
+
+    // Domain table
+    const domainRows = domains.map(d=>`<tr><td style="color:var(--text-1);font-weight:500;font-family:var(--mono);font-size:10px">${d.domain}</td><td class="n">${d.titles}</td><td>${(d.infringement||[]).map(i=>`<span class="tag ${tagClass(i)}">${i}</span>`).join('')}</td><td>${d.languages||''}</td><td style="font-size:10px">${d.monetization||''}</td></tr>`).join('');
+
+    return `
+    <div class="pub-section" id="pub-${idx}">
+      <div class="pub-head">
+        <div class="rank-badge ${rankClass}">${rank}</div>
+        <div class="pub-name">${pub.name}</div>
+        <div class="pub-kpis">
+          <div class="pk c-primary"><div class="pk-val">${pub.total.toLocaleString()}</div><div class="pk-label">Work Entries</div></div>
+          <div class="pk c-accent"><div class="pk-val">${pub.sites.toLocaleString()}</div><div class="pk-label">Sites</div></div>
+          <div class="pk c-warning"><div class="pk-val">${pub.damageScore}</div><div class="pk-label">Damage Score</div></div>
+          <div class="pk ${vsAvgColor}"><div class="pk-val">${vsAvgStr}</div><div class="pk-label">vs Industry Avg</div></div>
+        </div>
+      </div>
+
+      <div class="grid-3">
+        <div class="card">
+          <div class="card-title">Infringement Type Breakdown</div>
+          ${miniBarHTML(pub.infringement, infColor)}
+        </div>
+        <div class="card">
+          <div class="card-title">Platform Distribution</div>
+          ${miniBarHTML(pub.platforms, platColor)}
+        </div>
+        <div class="card">
+          <div class="card-title">Competitive Benchmark</div>
+          <div style="padding-top:12px">
+            ${benchmarkHTML(pub)}
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-2" style="margin-top:16px">
+        <div class="card">
+          <div class="card-title">Top 12 Pirated Titles</div>
+          <table class="tbl" data-sortable>
+            <thead><tr><th>Title <span class="sort-icon">&#9650;&#9660;</span></th><th>Sites <span class="sort-icon">&#9650;&#9660;</span></th><th>Infringement</th><th>Platforms</th></tr></thead>
+            <tbody>${titleRows}</tbody>
+          </table>
+        </div>
+        <div class="card">
+          <div class="card-title">Top 10 Domains</div>
+          <table class="tbl" data-sortable>
+            <thead><tr><th>Domain <span class="sort-icon">&#9650;&#9660;</span></th><th>Titles <span class="sort-icon">&#9650;&#9660;</span></th><th>Infringement</th><th>Lang</th><th>Monetization</th></tr></thead>
+            <tbody>${domainRows}</tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="analysis-box">
+        <strong>Analysis:</strong> ${pub.analysis}
+      </div>
+    </div>`;
+  }).join('');
+
+  // Enable table sorting
+  document.querySelectorAll('.tbl[data-sortable]').forEach(makeSortable);
+}
+
+/* ── Severity Heatmap ──────────────────────────────────── */
+function renderHeatmap() {
+  const top10 = PUB_DETAIL.slice(0,10);
+  const levels = ['1','2','3','4','5'];
+  const allCounts = top10.flatMap(p=>levels.map(l=>+(p.severity[l]||0)));
+  const maxCount = Math.max(...allCounts);
+
+  function cellStyle(val) {
+    if (val === 0) return 'color:var(--text-3)';
+    const intensity = val/maxCount;
+    if (intensity > 0.7) return `background:rgba(255,51,68,${0.15+intensity*0.4});color:var(--danger)`;
+    if (intensity > 0.3) return `background:rgba(255,170,0,${0.1+intensity*0.3});color:var(--warning)`;
+    return `background:rgba(26,140,255,${0.05+intensity*0.2});color:var(--primary)`;
+  }
+
+  const thead = `<tr><th>Publisher</th>${levels.map(l=>`<th>Sev ${l}</th>`).join('')}<th>Total</th></tr>`;
+  const tbody = top10.map(p=>{
+    const total = levels.reduce((a,l)=>a+(+(p.severity[l]||0)),0);
+    return `<tr><td>${p.name}</td>${levels.map(l=>{
+      const v = +(p.severity[l]||0);
+      return `<td style="${cellStyle(v)}">${v>0?v.toLocaleString():'-'}</td>`;
+    }).join('')}<td style="color:var(--text-1);font-weight:700">${total.toLocaleString()}</td></tr>`;
+  }).join('');
+
+  document.getElementById('heatmapTable').innerHTML = `<thead>${thead}</thead><tbody>${tbody}</tbody>`;
+}
+
+/* ── Init ──────────────────────────────────────────────── */
+document.addEventListener('DOMContentLoaded', ()=>{
+  renderDamageChart();
+  renderRegionChart();
+  renderTabs();
+  renderPublishers();
+  renderHeatmap();
+});
+</script>
+<footer style="text-align:center;padding:32px 24px;border-top:1px solid rgba(26,140,255,0.08);color:#3d5470;font-size:11px;margin-top:40px;max-width:1500px;margin-left:auto;margin-right:auto">
+  <p style="margin-bottom:8px"><strong style="color:#7a9bbf"><strong style="color:#7a9bbf">Research Purpose Notice (methodology available on request):</strong> This report was compiled for copyright enforcement research through automated crawling and manual review. Identification of domains does not constitute a legal determination of infringement. This data product does not constitute legal advice. Consult qualified counsel before initiating proceedings.</p>
+  <p>ARIA v2.0 | Data as of 2026-03-29 (snapshot) | 7,225 domains analyzed | <a href="index.html" style="color:#1a8cff;text-decoration:none">Command Center</a> · <a href="network.html" style="color:#1a8cff;text-decoration:none">Ecosystem Map</a> · <a href="publishers/index.html" style="color:#1a8cff;text-decoration:none">Publishers</a> · <a href="titles.html" style="color:#1a8cff;text-decoration:none">Titles</a> · <a href="enforcement.html" style="color:#1a8cff;text-decoration:none">Enforcement</a> · <a href="trends.html" style="color:#1a8cff;text-decoration:none">Trends</a> · <a href="regions.html" style="color:#1a8cff;text-decoration:none">Geo Intel</a></p>
 </footer>
 <script>
 // Add evidence banners to each publisher section

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!-- ARIA Dataset v6.1 | Snapshot 2026-03-29T00:00Z | Pipeline v2.0.2 -->
+<!-- ARIA Dataset v6 | Snapshot 2026-03-29 UTC -->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="generated" content="2026-03-29T01:48:48.128598Z">
+<meta name="generated" content="2026-03-29T10:00:00Z">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="ARIA Publisher Intelligence — Piracy impact reports for 20 major game publishers">
 <title>ARIA: Publisher Intelligence Index</title>
@@ -35,14 +35,14 @@ a{color:var(--aria-primary);text-decoration:none}a:hover{text-decoration:underli
 .nav-brand svg{width:28px;height:28px}
 .nav-brand-text{font-size:1.25rem;font-weight:800;letter-spacing:.08em;background:linear-gradient(135deg,var(--aria-primary),var(--aria-accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .nav-links{display:flex;gap:4px;align-items:center}
-.nav-links a{padding:6px 14px;border-radius:6px;font-size:.85rem;font-weight:500;color:var(--text-2);transition:all .2s;white-space:nowrap;letter-spacing:.02em}
+.nav-links a{padding:6px 14px;border-radius:6px;font-size:.8rem;font-weight:500;color:var(--text-2);transition:all .2s;white-space:nowrap;letter-spacing:.02em}
 .nav-links a:hover{color:var(--text-1);background:rgba(26,140,255,.08);text-decoration:none}
 .nav-links a.active{color:var(--text-1);background:rgba(26,140,255,.15);font-weight:600}
 .nav-right{display:flex;align-items:center;gap:16px;flex-shrink:0}
-.threat-badge{display:flex;align-items:center;gap:6px;padding:4px 12px;border-radius:20px;font-size:.75rem;font-weight:700;letter-spacing:.06em;color:var(--aria-warning);background:rgba(255,170,0,.1);border:1px solid rgba(255,170,0,.25)}
+.threat-badge{display:flex;align-items:center;gap:6px;padding:4px 12px;border-radius:20px;font-size:.7rem;font-weight:700;letter-spacing:.06em;color:var(--aria-warning);background:rgba(255,170,0,.1);border:1px solid rgba(255,170,0,.25)}
 .pulse-dot{width:8px;height:8px;border-radius:50%;background:var(--aria-warning);animation:pulse 2s ease-in-out infinite}
 @keyframes pulse{0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(255,170,0,.5)}50%{opacity:.6;box-shadow:0 0 0 6px rgba(255,170,0,0)}}
-.data-fresh{font-size:.75rem;color:var(--text-3);font-family:var(--font-mono);letter-spacing:.02em}
+.data-fresh{font-size:.7rem;color:var(--text-3);font-family:var(--font-mono);letter-spacing:.02em}
 .btn-export{padding:5px 14px;border-radius:6px;font-size:.72rem;font-weight:600;letter-spacing:.04em;cursor:pointer;transition:all .2s;background:rgba(26,140,255,.12);color:var(--aria-primary);border:1px solid rgba(26,140,255,.3)}
 .btn-export:hover{background:rgba(26,140,255,.2);border-color:rgba(26,140,255,.5)}
 .main-content{padding-top:calc(var(--nav-h) + 24px);max-width:1400px;margin:0 auto;padding-left:24px;padding-right:24px;padding-bottom:40px}
@@ -64,23 +64,240 @@ a{color:var(--aria-primary);text-decoration:none}a:hover{text-decoration:underli
   border-color:rgba(26,140,255,.35);
   box-shadow:0 8px 32px rgba(26,140,255,.15),0 0 0 1px rgba(26,140,255,.2);
 }
-.pub-rank{font-size:.75rem;font-weight:800;color:var(--aria-accent);letter-spacing:.1em;font-family:var(--font-mono);margin-bottom:8px}
+.pub-rank{font-size:.7rem;font-weight:800;color:var(--aria-accent);letter-spacing:.1em;font-family:var(--font-mono);margin-bottom:8px}
 .pub-name{font-size:1.15rem;font-weight:700;color:var(--text-1);margin-bottom:12px}
 .pub-stats{display:flex;gap:16px;margin-bottom:14px}
 .pub-stat{display:flex;flex-direction:column;gap:2px}
 .pub-stat-val{font-size:1.05rem;font-weight:700;color:var(--text-1);font-family:var(--font-mono)}
 .pub-stat-lbl{font-size:.65rem;color:var(--text-3);text-transform:uppercase;letter-spacing:.08em;font-weight:600}
-.pub-link{font-size:.85rem;font-weight:600;color:var(--aria-primary);margin-top:auto}
+.pub-link{font-size:.8rem;font-weight:600;color:var(--aria-primary);margin-top:auto}
 .table-responsive{overflow-x:auto;-webkit-overflow-scrolling:touch}
-@media print{.page-print-header{display:block!important;text-align:center;margin-bottom:16px;font-size:14px;color:#333;font-weight:700}}
 </style>
 </head>
 <body>
 <nav class="navbar">
   <div class="nav-brand">
-    <svg viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="13" stroke="url(#nb)" stroke-width="1.5"/><p style="margin-bottom:6px"><strong style="color:#7a9bbf">Research Purpose Notice (collection methodology available on request):</strong> This report was compiled for copyright enforcement research through automated crawling and manual review. Domain identification does not constitute legal determination of infringement. Consult qualified counsel before initiating proceedings.</p>
-  <p style="margin-bottom:6px">ARIA: Game IP Intelligence Platform &mdash; Built on ASAM piracy ecosystem dataset (13,731 domains)</p>
-  <p style="font-family:'JetBrains Mono',monospace;letter-spacing:.03em">Pipeline v6 &bull; Classification v2.0.2 &bull; Network v3 &bull; Data as of 2026-03-29 UTC</p>
+    <svg viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="13" stroke="url(#nb)" stroke-width="1.5"/><path d="M14 4 L22 22 H6 Z" fill="none" stroke="url(#nb)" stroke-width="1.2"/><circle cx="14" cy="14" r="4" fill="url(#nb)"/><defs><linearGradient id="nb" x1="0" y1="0" x2="28" y2="28"><stop offset="0%" stop-color="#1a8cff"/><stop offset="100%" stop-color="#00e5cc"/></linearGradient></defs></svg>
+    <span class="nav-brand-text">ARIA</span>
+  </div>
+  <div class="nav-links">
+    <a href="../index.html" data-page="command">Command Center</a>
+    <a href="../network.html" data-page="network">Ecosystem Map</a>
+    <a href="index.html" data-page="publishers" class="active">Publishers</a>
+    <a href="../titles.html" data-page="titles">Title Tracker</a>
+    <a href="../enforcement.html" data-page="enforcement">Enforcement</a>
+    <a href="../trends.html" data-page="trends">Trends</a>
+    <a href="../regions.html" data-page="regions">Geo Intel</a>
+    <a href="../contact.html" data-page="evidence">Evidence</a>
+  </div>
+  <div class="nav-right">
+    <div class="threat-badge"><span class="pulse-dot"></span>ELEVATED</div>
+    <span class="data-fresh">2026-03-29 UTC</span>
+    <button class="btn-export" onclick="window.print()">Export PDF</button>
+  </div>
+</nav>
+<div class="main-content">
+  <div class="page-hero">
+    <h1>Publisher Intelligence</h1>
+    <p>Piracy impact analysis for 20 major game publishers — ranked by work entries detected</p>
+  </div>
+  <div style="margin:32px 0;padding:24px 32px;border-radius:12px;background:linear-gradient(135deg,rgba(26,140,255,0.12),rgba(0,229,204,0.08));border:1px solid rgba(26,140,255,0.2);text-align:center">
+  <p style="font-size:1.1rem;font-weight:700;color:#dce8f8;margin-bottom:8px">Protect your IP portfolio from piracy &mdash; Get your full evidence package</p>
+  <p style="font-size:.85rem;color:#7a9bbf;margin-bottom:16px">Includes verified URLs, WHOIS records, hosting infrastructure, and legal-ready documentation</p>
+  <a href="../contact.html" style="display:inline-block;padding:10px 28px;border-radius:8px;background:linear-gradient(135deg,#1a8cff,#00e5cc);color:#020508;font-weight:700;font-size:.85rem;text-decoration:none;letter-spacing:.03em">Request Evidence Package</a>
+</div>
+  <div class="pub-grid">
+<a href="activision.html" class="pub-card" style="text-decoration:none">
+  <div class="pub-rank">#1</div>
+  <h3 class="pub-name">Activision</h3>
+  <div class="pub-stats">
+    <div class="pub-stat"><span class="pub-stat-val">915</span><span class="pub-stat-lbl">Piracy Sites</span></div>
+    <div class="pub-stat"><span class="pub-stat-val">14,402</span><span class="pub-stat-lbl">Work Entries</span></div>
+  </div>
+  <span class="pub-link">View report &rarr;</span>
+</a>
+<a href="nintendo.html" class="pub-card" style="text-decoration:none">
+  <div class="pub-rank">#2</div>
+  <h3 class="pub-name">Nintendo</h3>
+  <div class="pub-stats">
+    <div class="pub-stat"><span class="pub-stat-val">850</span><span class="pub-stat-lbl">Piracy Sites</span></div>
+    <div class="pub-stat"><span class="pub-stat-val">12,171</span><span class="pub-stat-lbl">Work Entries</span></div>
+  </div>
+  <span class="pub-link">View report &rarr;</span>
+</a>
+<a href="sony.html" class="pub-card" style="text-decoration:none">
+  <div class="pub-rank">#3</div>
+  <h3 class="pub-name">Sony</h3>
+  <div class="pub-stats">
+    <div class="pub-stat"><span class="pub-stat-val">1,115</span><span class="pub-stat-lbl">Piracy Sites</span></div>
+    <div class="pub-stat"><span class="pub-stat-val">11,665</span><span class="pub-stat-lbl">Work Entries</span></div>
+  </div>
+  <span class="pub-link">View report &rarr;</span>
+</a>
+<a href="ea.html" class="pub-card" style="text-decoration:none">
+  <div class="pub-rank">#4</div>
+  <h3 class="pub-name">EA</h3>
+  <div class="pub-stats">
+    <div class="pub-stat"><span class="pub-stat-val">655</span><span class="pub-stat-lbl">Piracy Sites</span></div>
+    <div class="pub-stat"><span class="pub-stat-val">10,740</span><span class="pub-stat-lbl">Work Entries</span></div>
+  </div>
+  <span class="pub-link">View report &rarr;</span>
+</a>
+<a href="square-enix.html" class="pub-card" style="text-decoration:none">
+  <div class="pub-rank">#5</div>
+  <h3 class="pub-name">Square Enix</h3>
+  <div class="pub-stats">
+    <div class="pub-stat"><span class="pub-stat-val">615</span><span class="pub-stat-lbl">Piracy Sites</span></div>
+    <div class="pub-stat"><span class="pub-stat-val">8,584</span><span class="pub-stat-lbl">Work Entries</span></div>
+  </div>
+  <span class="pub-link">View report &rarr;</span>
+</a>
+<a href="sega.html" class="pub-card" style="text-decoration:none">
+  <div class="pub-rank">#6</div>
+  <h3 class="pub-name">Sega</h3>
+  <div class="pub-stats">
+    <div class="pub-stat"><span class="pub-stat-val">909</span><span class="pub-stat-lbl">Piracy Sites</span></div>
+    <div class="pub-stat"><span class="pub-stat-val">7,821</span><span class="pub-stat-lbl">Work Entries</span></div>
+  </div>
+  <span class="pub-link">View report &rarr;</span>
+</a>
+<a href="bandai-namco.html" class="pub-card" style="text-decoration:none">
+  <div class="pub-rank">#7</div>
+  <h3 class="pub-name">Bandai Namco</h3>
+  <div class="pub-stats">
+    <div class="pub-stat"><span class="pub-stat-val">700</span><span class="pub-stat-lbl">Piracy Sites</span></div>
+    <div class="pub-stat"><span class="pub-stat-val">7,678</span><span class="pub-stat-lbl">Work Entries</span></div>
+  </div>
+  <span class="pub-link">View report &rarr;</span>
+</a>
+<a href="ubisoft.html" class="pub-card" style="text-decoration:none">
+  <div class="pub-rank">#8</div>
+  <h3 class="pub-name">Ubisoft</h3>
+  <div class="pub-stats">
+    <div class="pub-stat"><span class="pub-stat-val">528</span><span class="pub-stat-lbl">Piracy Sites</span></div>
+    <div class="pub-stat"><span class="pub-stat-val">7,608</span><span class="pub-stat-lbl">Work Entries</span></div>
+  </div>
+  <span class="pub-link">View report &rarr;</span>
+</a>
+<a href="capcom.html" class="pub-card" style="text-decoration:none">
+  <div class="pub-rank">#9</div>
+  <h3 class="pub-name">Capcom</h3>
+  <div class="pub-stats">
+    <div class="pub-stat"><span class="pub-stat-val">741</span><span class="pub-stat-lbl">Piracy Sites</span></div>
+    <div class="pub-stat"><span class="pub-stat-val">7,413</span><span class="pub-stat-lbl">Work Entries</span></div>
+  </div>
+  <span class="pub-link">View report &rarr;</span>
+</a>
+<a href="microsoft.html" class="pub-card" style="text-decoration:none">
+  <div class="pub-rank">#10</div>
+  <h3 class="pub-name">Microsoft</h3>
+  <div class="pub-stats">
+    <div class="pub-stat"><span class="pub-stat-val">817</span><span class="pub-stat-lbl">Piracy Sites</span></div>
+    <div class="pub-stat"><span class="pub-stat-val">6,508</span><span class="pub-stat-lbl">Work Entries</span></div>
+  </div>
+  <span class="pub-link">View report &rarr;</span>
+</a>
+<a href="bethesda.html" class="pub-card" style="text-decoration:none">
+  <div class="pub-rank">#11</div>
+  <h3 class="pub-name">Bethesda</h3>
+  <div class="pub-stats">
+    <div class="pub-stat"><span class="pub-stat-val">712</span><span class="pub-stat-lbl">Piracy Sites</span></div>
+    <div class="pub-stat"><span class="pub-stat-val">6,480</span><span class="pub-stat-lbl">Work Entries</span></div>
+  </div>
+  <span class="pub-link">View report &rarr;</span>
+</a>
+<a href="rockstar.html" class="pub-card" style="text-decoration:none">
+  <div class="pub-rank">#12</div>
+  <h3 class="pub-name">Rockstar</h3>
+  <div class="pub-stats">
+    <div class="pub-stat"><span class="pub-stat-val">730</span><span class="pub-stat-lbl">Piracy Sites</span></div>
+    <div class="pub-stat"><span class="pub-stat-val">5,554</span><span class="pub-stat-lbl">Work Entries</span></div>
+  </div>
+  <span class="pub-link">View report &rarr;</span>
+</a>
+<a href="konami.html" class="pub-card" style="text-decoration:none">
+  <div class="pub-rank">#13</div>
+  <h3 class="pub-name">Konami</h3>
+  <div class="pub-stats">
+    <div class="pub-stat"><span class="pub-stat-val">692</span><span class="pub-stat-lbl">Piracy Sites</span></div>
+    <div class="pub-stat"><span class="pub-stat-val">5,432</span><span class="pub-stat-lbl">Work Entries</span></div>
+  </div>
+  <span class="pub-link">View report &rarr;</span>
+</a>
+<a href="2k-games.html" class="pub-card" style="text-decoration:none">
+  <div class="pub-rank">#14</div>
+  <h3 class="pub-name">2K Games</h3>
+  <div class="pub-stats">
+    <div class="pub-stat"><span class="pub-stat-val">499</span><span class="pub-stat-lbl">Piracy Sites</span></div>
+    <div class="pub-stat"><span class="pub-stat-val">4,332</span><span class="pub-stat-lbl">Work Entries</span></div>
+  </div>
+  <span class="pub-link">View report &rarr;</span>
+</a>
+<a href="warner-bros.html" class="pub-card" style="text-decoration:none">
+  <div class="pub-rank">#15</div>
+  <h3 class="pub-name">Warner Bros</h3>
+  <div class="pub-stats">
+    <div class="pub-stat"><span class="pub-stat-val">472</span><span class="pub-stat-lbl">Piracy Sites</span></div>
+    <div class="pub-stat"><span class="pub-stat-val">4,093</span><span class="pub-stat-lbl">Work Entries</span></div>
+  </div>
+  <span class="pub-link">View report &rarr;</span>
+</a>
+<a href="505-games.html" class="pub-card" style="text-decoration:none">
+  <div class="pub-rank">#16</div>
+  <h3 class="pub-name">505 Games</h3>
+  <div class="pub-stats">
+    <div class="pub-stat"><span class="pub-stat-val">662</span><span class="pub-stat-lbl">Piracy Sites</span></div>
+    <div class="pub-stat"><span class="pub-stat-val">3,273</span><span class="pub-stat-lbl">Work Entries</span></div>
+  </div>
+  <span class="pub-link">View report &rarr;</span>
+</a>
+<a href="thq-nordic.html" class="pub-card" style="text-decoration:none">
+  <div class="pub-rank">#17</div>
+  <h3 class="pub-name">THQ Nordic</h3>
+  <div class="pub-stats">
+    <div class="pub-stat"><span class="pub-stat-val">434</span><span class="pub-stat-lbl">Piracy Sites</span></div>
+    <div class="pub-stat"><span class="pub-stat-val">3,027</span><span class="pub-stat-lbl">Work Entries</span></div>
+  </div>
+  <span class="pub-link">View report &rarr;</span>
+</a>
+<a href="valve.html" class="pub-card" style="text-decoration:none">
+  <div class="pub-rank">#18</div>
+  <h3 class="pub-name">Valve</h3>
+  <div class="pub-stats">
+    <div class="pub-stat"><span class="pub-stat-val">512</span><span class="pub-stat-lbl">Piracy Sites</span></div>
+    <div class="pub-stat"><span class="pub-stat-val">2,866</span><span class="pub-stat-lbl">Work Entries</span></div>
+  </div>
+  <span class="pub-link">View report &rarr;</span>
+</a>
+<a href="koei-tecmo.html" class="pub-card" style="text-decoration:none">
+  <div class="pub-rank">#19</div>
+  <h3 class="pub-name">Koei Tecmo</h3>
+  <div class="pub-stats">
+    <div class="pub-stat"><span class="pub-stat-val">355</span><span class="pub-stat-lbl">Piracy Sites</span></div>
+    <div class="pub-stat"><span class="pub-stat-val">1,785</span><span class="pub-stat-lbl">Work Entries</span></div>
+  </div>
+  <span class="pub-link">View report &rarr;</span>
+</a>
+<a href="paradox.html" class="pub-card" style="text-decoration:none">
+  <div class="pub-rank">#20</div>
+  <h3 class="pub-name">Paradox</h3>
+  <div class="pub-stats">
+    <div class="pub-stat"><span class="pub-stat-val">305</span><span class="pub-stat-lbl">Piracy Sites</span></div>
+    <div class="pub-stat"><span class="pub-stat-val">1,504</span><span class="pub-stat-lbl">Work Entries</span></div>
+  </div>
+  <span class="pub-link">View report &rarr;</span>
+</a>
+  </div>
+  <div style="margin:32px 0;padding:24px 32px;border-radius:12px;background:linear-gradient(135deg,rgba(26,140,255,0.12),rgba(0,229,204,0.08));border:1px solid rgba(26,140,255,0.2);text-align:center">
+  <p style="font-size:1.1rem;font-weight:700;color:#dce8f8;margin-bottom:8px">Protect your titles from piracy &mdash; Get your full evidence package</p>
+  <p style="font-size:.85rem;color:#7a9bbf;margin-bottom:16px">Includes verified URLs, WHOIS records, hosting infrastructure, and legal-ready documentation</p>
+  <a href="../contact.html" style="display:inline-block;padding:10px 28px;border-radius:8px;background:linear-gradient(135deg,#1a8cff,#00e5cc);color:#020508;font-weight:700;font-size:.85rem;text-decoration:none;letter-spacing:.03em">Request Evidence Package</a>
+</div>
+</div>
+<footer style="text-align:center;padding:32px 24px;border-top:1px solid rgba(26,140,255,0.08);color:#3d5470;font-size:11px;margin-top:40px;max-width:1500px;margin-left:auto;margin-right:auto">
+  <p style="margin-bottom:8px"><strong style="color:#7a9bbf"><strong style="color:#7a9bbf">Research Purpose Notice (methodology available on request):</strong> This report was compiled for copyright enforcement research through automated crawling and manual review. Identification of domains does not constitute a legal determination of infringement. This data product does not constitute legal advice. Consult qualified counsel before initiating proceedings.</p>
+  <p style="margin-bottom:6px">ARIA: Game IP Intelligence Platform &mdash; Built on ASAM piracy ecosystem dataset (7,225 domains)</p>
+  <p style="font-family:'JetBrains Mono',monospace;letter-spacing:.03em">Pipeline v6 &bull; Classification v2.0.2 &bull; Network v3 &bull; Data as of 2026-03-29 (snapshot)</p>
 </footer>
 </body>
 </html>

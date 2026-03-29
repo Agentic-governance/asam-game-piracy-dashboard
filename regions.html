@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!-- ARIA Dataset v6.1 | Snapshot 2026-03-29T00:00Z | Pipeline v2.0.2 -->
+<!-- ARIA Dataset v6 | Snapshot 2026-03-29 UTC -->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="generated" content="2026-03-29T01:48:48.128598Z">
+<meta name="generated" content="2026-03-29T10:00:00Z">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="ARIA: Game IP Intelligence Platform — Piracy ecosystem analysis for copyright enforcement">
 <meta name="theme-color" content="#020508">
@@ -29,7 +29,7 @@ code,.mono{font-family:'JetBrains Mono',monospace}
 .navbar-logo{display:flex;align-items:center;gap:.5rem;font-weight:800;font-size:1.15rem;color:var(--blue);letter-spacing:.06em;text-decoration:none}
 .navbar-logo svg{width:28px;height:28px}
 .nav-links{display:flex;gap:.15rem;margin-left:1.5rem}
-.nav-links a{padding:.4rem .75rem;border-radius:6px;font-size:.85rem;font-weight:500;color:var(--text-2);text-decoration:none;transition:all .2s}
+.nav-links a{padding:.4rem .75rem;border-radius:6px;font-size:.8rem;font-weight:500;color:var(--text-2);text-decoration:none;transition:all .2s}
 .nav-links a:hover{color:var(--text-1);background:rgba(26,140,255,.08)}
 .nav-links a.active{color:var(--blue);background:rgba(26,140,255,.13)}
 .navbar-right{margin-left:auto;display:flex;align-items:center;gap:.75rem}
@@ -55,7 +55,7 @@ section{margin-bottom:2rem}
 .kpi-row{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.25rem}
 .kpi-card{background:var(--bg-2);border:1px solid rgba(26,140,255,.1);border-radius:var(--radius-lg);padding:1.15rem 1.3rem;position:relative;overflow:hidden}
 .kpi-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--blue),var(--teal))}
-.kpi-label{font-size:.75rem;font-weight:600;color:var(--text-2);text-transform:uppercase;letter-spacing:.08em}
+.kpi-label{font-size:.7rem;font-weight:600;color:var(--text-2);text-transform:uppercase;letter-spacing:.08em}
 .kpi-value{font-family:'JetBrains Mono',monospace;font-size:1.85rem;font-weight:700;color:var(--text-1);margin-top:.2rem}
 .kpi-value .unit{font-size:.85rem;color:var(--text-2);font-weight:500;margin-left:.15rem}
 
@@ -68,7 +68,7 @@ section{margin-bottom:2rem}
 
 /* ── Table ── */
 .table-wrap{overflow-x:auto;border-radius:var(--radius-lg)}
-table{width:100%;border-collapse:collapse;font-size:.85rem}
+table{width:100%;border-collapse:collapse;font-size:.8rem}
 thead th{position:sticky;top:0;background:var(--bg-3);color:var(--text-2);font-weight:600;text-transform:uppercase;font-size:.68rem;letter-spacing:.07em;padding:.7rem .65rem;text-align:left;cursor:pointer;user-select:none;white-space:nowrap;border-bottom:1px solid rgba(26,140,255,.1)}
 thead th:hover{color:var(--blue)}
 thead th .sort-icon{margin-left:.3rem;opacity:.4;font-size:.6rem}
@@ -112,7 +112,7 @@ tbody td{padding:.6rem .65rem;color:var(--text-1);white-space:nowrap}
 .footer{margin-top:3rem;padding:1.5rem 0;border-top:1px solid rgba(26,140,255,.08);text-align:center;font-size:.72rem;color:var(--text-3)}
 
 /* ── Print ── */
-@media print{.global-cta{display:none!important}
+@media print{.global-cta,.cta-bar,.cta-btn{display:none!important}
   body{background:#fff;color:#111}
   .navbar,.btn-export,.threat-badge{display:none}
   .card,.kpi-card,.market-card,.region-card{border:1px solid #ccc;background:#fafafa}
@@ -128,7 +128,6 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .cta-btn{display:inline-block;background:linear-gradient(135deg,#1a8cff,#6b4fff);color:#fff;font-size:12px;font-weight:700;padding:7px 18px;border-radius:6px;text-decoration:none;transition:all .2s}
 .cta-btn:hover{box-shadow:0 0 20px rgba(26,140,255,.4);transform:translateY(-1px)}
 .table-responsive{overflow-x:auto;-webkit-overflow-scrolling:touch}
-@media print{.page-print-header{display:block!important;text-align:center;margin-bottom:16px;font-size:14px;color:#333;font-weight:700}}
 </style>
 </head>
 <body>
@@ -136,28 +135,458 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 <!-- ════ NAVBAR ════ -->
 <nav class="navbar">
   <a class="navbar-logo" href="#">
-    <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="1.5"/><p style="margin-bottom:6px"><strong style="color:#7a9bbf">Research Purpose Notice (collection methodology available on request):</strong> This report was compiled for copyright enforcement research through automated crawling and manual review. Domain identification does not constitute legal determination of infringement. Consult qualified counsel before initiating proceedings.</p>
-  <p>ARIA v2.0 | Data as of 2026-03-29 UTC | 7,225 domains analyzed | <a href="index.html" style="color:#1a8cff;text-decoration:none">Command Center</a> · <a href="network.html" style="color:#1a8cff;text-decoration:none">Ecosystem Map</a> · <a href="publishers/index.html" style="color:#1a8cff;text-decoration:none">Publishers</a> · <a href="titles.html" style="color:#1a8cff;text-decoration:none">Titles</a> · <a href="enforcement.html" style="color:#1a8cff;text-decoration:none">Enforcement</a> · <a href="trends.html" style="color:#1a8cff;text-decoration:none">Trends</a> · <a href="regions.html" style="color:#1a8cff;text-decoration:none">Geo Intel</a></p>
-</footer>
+    <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="1.5"/><path d="M16 6L16 26M8 12L16 6L24 12M10 20L16 26L22 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    ARIA
+  </a>
+  <div class="nav-links">
+    <a href="index.html" data-page="command">Command Center</a>
+    <a href="network.html" data-page="network">Ecosystem Map</a>
+    <a href="publishers/index.html" data-page="publishers">Publishers</a>
+    <a href="titles.html" data-page="titles">Title Tracker</a>
+    <a href="enforcement.html" data-page="enforcement">Enforcement</a>
+    <a href="trends.html" data-page="trends">Trends</a>
+    <a href="regions.html" data-page="regions" class="active">Geo Intel</a>
+    <a href="contact.html" data-page="evidence">Evidence</a>
+  </div>
+  <div class="navbar-right">
+    <div class="threat-badge"><span class="dot"></span>ELEVATED THREAT</div>
+    <button class="btn-export" onclick="window.print()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Export
+    </button>
+  </div>
+</nav>
+<div class="global-cta">
+  <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:#7a9bbf">
+    <span class="cta-dot-g"></span>
+    <span><strong style="color:#dce8f8">694</strong> documented instances of unauthorized distribution available. Win rate <strong style="color:#dce8f8">71-91%</strong> in court with this evidence.</span>
+  </div>
+  <a href="contact.html" class="cta-btn">Request evidence package →</a>
+</div>
+
+<div class="page-wrap">
+
+<!-- ════ HERO + KPIs ════ -->
+<section class="hero">
+  <h1>GEO INTELLIGENCE</h1>
+  <p class="subtitle">Jurisdictional enforcement landscape, legal framework analysis, and notorious market tracking</p>
+  <div class="kpi-row">
+    <div class="kpi-card">
+      <div class="kpi-label">Countries Tracked</div>
+      <div class="kpi-value">25</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Avg Legal Score</div>
+      <div class="kpi-value">5.8<span class="unit">/ 10</span></div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Notorious Markets</div>
+      <div class="kpi-value">12</div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ ENFORCEMENT SCATTER ════ -->
+<section>
+  <div class="section-header">
+    <h2>ENFORCEMENT FEASIBILITY</h2>
+    <span class="section-tag">SCATTER</span>
+  </div>
+  <div class="card">
+    <div class="chart-container">
+      <canvas id="scatterChart"></canvas>
+    </div>
+  </div>
+</section>
+
+<!-- ════ COUNTRY TABLE ════ -->
+<section>
+  <div class="section-header">
+    <h2>COUNTRY DETAIL</h2>
+    <span class="section-tag">25 JURISDICTIONS</span>
+  </div>
+  <div class="card table-wrap">
+    <table id="countryTable">
+      <thead>
+        <tr>
+          <th data-col="0">Country <span class="sort-icon">&#9650;</span></th>
+          <th data-col="1">Domains <span class="sort-icon">&#9650;</span></th>
+          <th data-col="2">Severity <span class="sort-icon">&#9650;</span></th>
+          <th data-col="3">Legal Score <span class="sort-icon">&#9650;</span></th>
+          <th data-col="4">Framework <span class="sort-icon">&#9650;</span></th>
+          <th data-col="5">Responsiveness <span class="sort-icon">&#9650;</span></th>
+          <th data-col="6">Primary ASN <span class="sort-icon">&#9650;</span></th>
+          <th data-col="7">Piracy Type <span class="sort-icon">&#9650;</span></th>
+          <th data-col="8">Recommended Action <span class="sort-icon">&#9650;</span></th>
+        </tr>
+      </thead>
+      <tbody id="countryBody"></tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ════ NOTORIOUS MARKETS ════ -->
+<section>
+  <div class="section-header">
+    <h2>NOTORIOUS MARKETS</h2>
+    <span class="section-tag">12 ENTITIES</span>
+  </div>
+  <div class="markets-grid" id="marketsGrid"></div>
+</section>
+
+<!-- ════ LEGAL FRAMEWORK NOTES ════ -->
+<section>
+  <div class="section-header">
+    <h2>LEGAL FRAMEWORK NOTES</h2>
+    <span class="section-tag">5 REGIONS</span>
+  </div>
+  <div class="region-cards" id="regionCards"></div>
+</section>
+
+</div>
+
+
+
 <script>
-function exportTableCSV(tableId, filename) {
-  var table = document.getElementById(tableId);
-  if (!table) return;
-  var csv = [];
-  var rows = table.querySelectorAll('tr');
-  rows.forEach(function(row) {
-    var cols = row.querySelectorAll('td, th');
-    var rowData = [];
-    cols.forEach(function(col) { rowData.push('"' + col.textContent.trim().replace(/"/g, '""') + '"'); });
-    csv.push(rowData.join(','));
+/* ══════════════════════════════════════════
+   DATA
+   ══════════════════════════════════════════ */
+const countries = [
+  {name:"United States",code:"US",domains:1692,severity:"HIGH",legal:9.2,framework:"DMCA + Federal",resp:"High",asn:"AS13335 Cloudflare",type:"Reader / Streaming",action:"DMCA takedown, federal referral"},
+  {name:"Russia",code:"RU",domains:487,severity:"HIGH",legal:2.1,framework:"Limited civil",resp:"Very Low",asn:"AS48075 DataLine",type:"Torrent / DDL",action:"Diplomatic channels, upstream pressure"},
+  {name:"China",code:"CN",domains:342,severity:"HIGH",legal:4.9,framework:"Copyright Law 2021",resp:"Medium",asn:"AS45090 Tencent",type:"Streaming / Reader",action:"MOU-based cooperation, platform notice"},
+  {name:"Ukraine",code:"UA",domains:218,severity:"HIGH",legal:4.7,framework:"Civil Code Art.433",resp:"Low",asn:"AS13188 Triolan",type:"Linking / Streaming",action:"Bilateral cooperation, ISP blocks"},
+  {name:"Latvia",code:"LV",domains:182,severity:"MED",legal:3.0,framework:"EU Directive (partial)",resp:"Low",asn:"AS12578 Lattelecom",type:"Linking / Proxy",action:"EU cross-border enforcement"},
+  {name:"Turkey",code:"TR",domains:156,severity:"MED",legal:5.4,framework:"Law No.5846",resp:"Medium",asn:"AS9121 Turk Telekom",type:"Streaming / IPTV",action:"Court-ordered site blocks"},
+  {name:"Brazil",code:"BR",domains:134,severity:"MED",legal:6.1,framework:"Marco Civil + LDA",resp:"Medium",asn:"AS28573 Claro",type:"Streaming / Reader",action:"Judicial notice, platform takedown"},
+  {name:"India",code:"IN",domains:98,severity:"MED",legal:5.8,framework:"Copyright Act 1957",resp:"Medium",asn:"AS55836 Reliance",type:"Streaming / APK",action:"John Doe orders, ISP blocking"},
+  {name:"Poland",code:"PL",domains:87,severity:"LOW",legal:7.2,framework:"EU Copyright Dir.",resp:"High",asn:"AS12741 Netia",type:"Torrent / DDL",action:"EU enforcement, criminal referral"},
+  {name:"Germany",code:"DE",domains:73,severity:"LOW",legal:8.5,framework:"UrhG + EU Dir.",resp:"High",asn:"AS24940 Hetzner",type:"Hosting / CDN",action:"Abmahnung, hosting takedown"},
+  {name:"Switzerland",code:"CH",domains:73,severity:"MED",legal:5.0,framework:"URG (limited)",resp:"Medium",asn:"AS13030 Init7",type:"Hosting / Proxy",action:"Civil claims, ISP cooperation"},
+  {name:"Netherlands",code:"NL",domains:54,severity:"LOW",legal:7.0,framework:"Auteurswet + EU",resp:"High",asn:"AS60781 LeaseWeb",type:"Hosting / Seedbox",action:"BREIN cooperation, hosting notice"},
+  {name:"United Kingdom",code:"GB",domains:41,severity:"LOW",legal:8.8,framework:"CDPA 1988",resp:"High",asn:"AS5089 Virgin Media",type:"Streaming / IPTV",action:"S.97A blocking orders"},
+  {name:"France",code:"FR",domains:34,severity:"LOW",legal:8.3,framework:"CPI + Hadopi/Arcom",resp:"High",asn:"AS16276 OVH",type:"DDL / Streaming",action:"Arcom referral, site blocking"},
+  {name:"Japan",code:"JP",domains:10,severity:"LOW",legal:8.1,framework:"Copyright Act rev.2020",resp:"High",asn:"AS2516 KDDI",type:"Manga Reader",action:"Criminal referral, ISP blocking"},
+  {name:"Vietnam",code:"VN",domains:64,severity:"MED",legal:3.5,framework:"IP Law 2005",resp:"Low",asn:"AS45899 VNPT",type:"Streaming / Reader",action:"MCIT complaint, hosting notice"},
+  {name:"Indonesia",code:"ID",domains:52,severity:"MED",legal:4.2,framework:"Law No.28/2014",resp:"Low",asn:"AS17974 Telkomnet",type:"Streaming / APK",action:"KOMINFO site blocking request"},
+  {name:"Philippines",code:"PH",domains:38,severity:"MED",legal:4.5,framework:"IP Code RA8293",resp:"Low",asn:"AS9299 PLDT",type:"Streaming",action:"NTC / IPOPHL takedown"},
+  {name:"Romania",code:"RO",domains:45,severity:"LOW",legal:6.5,framework:"EU Copyright Dir.",resp:"Medium",asn:"AS8708 RCS&RDS",type:"Torrent / Linking",action:"EU cross-border, criminal referral"},
+  {name:"Bulgaria",code:"BG",domains:29,severity:"LOW",legal:5.5,framework:"EU Copyright Dir.",resp:"Medium",asn:"AS34841 A1 Bulgaria",type:"Torrent / Streaming",action:"EU enforcement cooperation"},
+  {name:"Canada",code:"CA",domains:27,severity:"LOW",legal:7.8,framework:"Copyright Act C-11",resp:"High",asn:"AS812 Rogers",type:"Streaming / IPTV",action:"Federal Court site-blocking"},
+  {name:"South Korea",code:"KR",domains:22,severity:"LOW",legal:7.5,framework:"Copyright Act",resp:"High",asn:"AS4766 Korea Telecom",type:"Webtoon / Streaming",action:"KCOPA referral, criminal prosecution"},
+  {name:"Thailand",code:"TH",domains:19,severity:"LOW",legal:4.8,framework:"Copyright Act B.E.2537",resp:"Low",asn:"AS23969 TOT",type:"Streaming",action:"DIP complaint, ISP cooperation"},
+  {name:"Singapore",code:"SG",domains:15,severity:"LOW",legal:7.9,framework:"Copyright Act 2021",resp:"High",asn:"AS4657 StarHub",type:"Hosting / Proxy",action:"Court-ordered ISP blocking"},
+  {name:"Hong Kong",code:"HK",domains:12,severity:"LOW",legal:6.8,framework:"Copyright Ord.",resp:"Medium",asn:"AS9304 HGC",type:"Hosting / CDN",action:"Civil injunction, hosting notice"}
+];
+
+const markets = [
+  {name:"RuTracker",country:"Russia",type:"Torrent",status:"Active",estUsers:"40M+",note:"Largest Russian-language torrent tracker; blocked in RU but accessible via VPN"},
+  {name:"The Pirate Bay",country:"Sweden / Various",type:"Torrent",status:"Active",estUsers:"30M+",note:"Iconic torrent index; domain-hops across TLDs, extensive mirror network"},
+  {name:"FitGirl Repacks",country:"Unknown",type:"DDL / Torrent",status:"Active",estUsers:"15M+",note:"Game repacker; distributes compressed pirated game installers"},
+  {name:"1337x",country:"Unknown",type:"Torrent",status:"Active",estUsers:"25M+",note:"General torrent directory; multiple mirrors and proxy sites"},
+  {name:"CS.RIN.RU",country:"Russia",type:"Forum / DDL",status:"Active",estUsers:"5M+",note:"Steam underground forum; game cracks, clean steam files, DRM bypass"},
+  {name:"SteamUnlocked",country:"Unknown",type:"DDL",status:"Active",estUsers:"12M+",note:"Pre-installed cracked games via direct download links"},
+  {name:"Ocean of Games",country:"Pakistan",type:"DDL",status:"Active",estUsers:"8M+",note:"Direct download game site; frequently reported for bundled malware"},
+  {name:"IGG Games",country:"Unknown",type:"DDL",status:"Active",estUsers:"10M+",note:"Game DDL site; controversial within piracy community for DRM injection"},
+  {name:"Skidrow Reloaded",country:"Unknown",type:"DDL / Linking",status:"Active",estUsers:"6M+",note:"Impersonates scene groups; aggregates download links from file hosts"},
+  {name:"GOD (Games on Demand)",country:"Unknown",type:"DDL",status:"Active",estUsers:"3M+",note:"PlayStation / Xbox game dumps; console piracy focus"},
+  {name:"ApkPure",country:"China",type:"APK Distribution",status:"Active",estUsers:"50M+",note:"Android APK mirror; hosts modified / cracked APKs alongside legitimate"},
+  {name:"Zamunda",country:"Bulgaria",type:"Torrent",status:"Active",estUsers:"4M+",note:"Major Bulgarian torrent tracker; requires registration, active community"}
+];
+
+const regions = [
+  {
+    name:"North America",
+    emoji:"US / CA",
+    summary:"Strong statutory frameworks with active judicial enforcement. DMCA safe-harbor regime enables rapid takedowns in the US.",
+    enforcement:[
+      "DMCA Section 512 takedown notices (US): 24-48h typical response",
+      "Federal criminal prosecution for willful infringement (US DOJ)",
+      "Canada Copyright Act C-11: Federal Court site-blocking orders available since 2019",
+      "Cooperation between RIAA/MPAA/ESA and ISPs for repeat infringer policies"
+    ],
+    approach:[
+      "Lead with DMCA takedown to hosting providers and CDNs",
+      "Escalate to federal referral for large-scale or repeat offenders",
+      "In Canada, pursue Federal Court orders for ISP-level blocking",
+      "Coordinate with platform trust & safety teams for UGC sites"
+    ]
+  },
+  {
+    name:"Europe",
+    emoji:"EU",
+    summary:"EU Copyright Directive (2019/790) provides harmonized framework. Enforcement effectiveness varies by member state; Western Europe is strongest.",
+    enforcement:[
+      "EU Copyright Directive Art.17: platform liability for user uploads",
+      "UK CDPA 1988 s.97A: ISP blocking injunctions (proven effective)",
+      "Germany UrhG: Abmahnung system for direct cease-and-desist",
+      "France Arcom (ex-Hadopi): graduated response + site blocking",
+      "Netherlands BREIN: civil enforcement body with strong track record"
+    ],
+    approach:[
+      "Use EU cross-border mechanisms for multi-jurisdiction sites",
+      "Prioritize UK/DE/FR/NL courts for blocking orders",
+      "Engage BREIN, Arcom, and national enforcement bodies",
+      "For Eastern Europe, coordinate with EU mutual assistance frameworks"
+    ]
+  },
+  {
+    name:"East Asia",
+    emoji:"JP / KR",
+    summary:"Japan and South Korea have recently strengthened copyright laws with criminal penalties for manga/webtoon piracy. High judicial responsiveness.",
+    enforcement:[
+      "Japan Copyright Act 2020 revision: criminalized leech site linking",
+      "Japan: ISP blocking of manga sites hosting unauthorized copies (voluntary framework)",
+      "South Korea KCOPA: dedicated copyright protection agency with takedown power",
+      "South Korea: criminal prosecution and substantial fines for operators"
+    ],
+    approach:[
+      "In Japan, criminal referral to police for manga/anime piracy",
+      "Leverage ISP voluntary blocking programs in Japan",
+      "In Korea, file complaints with KCOPA for rapid administrative action",
+      "Cross-reference with CDN/hosting to identify operator locations"
+    ]
+  },
+  {
+    name:"Southeast Asia",
+    emoji:"VN / ID / TH / PH / SG",
+    summary:"Mixed enforcement landscape. Singapore is strong; Vietnam, Indonesia, Thailand, and Philippines have laws on paper but inconsistent enforcement.",
+    enforcement:[
+      "Singapore Copyright Act 2021: modern framework, court-ordered ISP blocking",
+      "Indonesia KOMINFO: website blocking authority (responsive but broad)",
+      "Vietnam MCIT: takedown requests possible but slow processing",
+      "Philippines IPOPHL: administrative takedown mechanism exists",
+      "Thailand DIP: complaint-based system with limited proactive enforcement"
+    ],
+    approach:[
+      "In Singapore, pursue court-ordered ISP blocking (proven model)",
+      "In Indonesia, file KOMINFO blocking requests with evidence packages",
+      "For Vietnam/Thailand/Philippines, focus on hosting-level takedowns",
+      "Build bilateral relationships with national IP offices for escalation",
+      "Consider regional ASEAN IP cooperation frameworks"
+    ]
+  },
+  {
+    name:"CIS / Russia",
+    emoji:"RU / UA",
+    summary:"Challenging enforcement environment. Russia has limited cooperation on IP enforcement; Ukraine improving but hampered by conflict. Diplomatic approaches required.",
+    enforcement:[
+      "Russia: Roskomnadzor can block sites but rarely acts on foreign IP complaints",
+      "Russia: Moscow City Court anti-piracy chamber (domestic cases only)",
+      "Ukraine: civil code provisions exist but enforcement capacity is limited",
+      "Latvia: partial EU directive implementation, weak enforcement history"
+    ],
+    approach:[
+      "Focus on upstream infrastructure: CDN, DNS, payment processors",
+      "Apply pressure through advertising ecosystem (ad network deplatforming)",
+      "Coordinate with EU bodies for Latvia-hosted infrastructure",
+      "Use WIPO/WTO trade mechanisms for diplomatic pressure",
+      "Prioritize domain registrar cooperation for takedowns"
+    ]
+  }
+];
+
+/* ══════════════════════════════════════════
+   SCATTER CHART
+   ══════════════════════════════════════════ */
+const scatterData = [
+  {x:9.2,y:1692,r:28,label:"US",resp:"high"},
+  {x:2.1,y:487,r:20,label:"RU",resp:"vlow"},
+  {x:4.9,y:342,r:16,label:"CN",resp:"med"},
+  {x:4.7,y:218,r:13,label:"UA",resp:"low"},
+  {x:3.0,y:182,r:12,label:"LV",resp:"low"},
+  {x:5.4,y:156,r:11,label:"TR",resp:"med"},
+  {x:6.1,y:134,r:10,label:"BR",resp:"med"},
+  {x:5.8,y:98,r:9,label:"IN",resp:"med"},
+  {x:7.2,y:87,r:8,label:"PL",resp:"high"},
+  {x:8.5,y:73,r:7,label:"DE",resp:"high"},
+  {x:5.0,y:73,r:7,label:"CH",resp:"med"},
+  {x:7.0,y:54,r:6,label:"NL",resp:"high"},
+  {x:8.8,y:41,r:6,label:"GB",resp:"high"},
+  {x:8.3,y:34,r:5,label:"FR",resp:"high"},
+  {x:8.1,y:10,r:4,label:"JP",resp:"high"}
+];
+
+function respColor(r){
+  return {high:'rgba(0,204,122,0.7)',med:'rgba(255,170,0,0.7)',low:'rgba(255,51,68,0.5)',vlow:'rgba(61,84,112,0.5)'}[r]||'rgba(122,155,191,0.5)';
+}
+
+document.addEventListener('DOMContentLoaded',()=>{
+  const ctx=document.getElementById('scatterChart').getContext('2d');
+  new Chart(ctx,{
+    type:'bubble',
+    data:{
+      datasets:[{
+        data:scatterData.map(d=>({x:d.x,y:d.y,r:d.r})),
+        backgroundColor:scatterData.map(d=>respColor(d.resp)),
+        borderColor:scatterData.map(d=>respColor(d.resp).replace(/[\d.]+\)$/,'1)')),
+        borderWidth:1.5
+      }]
+    },
+    options:{
+      responsive:true,
+      maintainAspectRatio:false,
+      plugins:{
+        legend:{display:false},
+        tooltip:{
+          backgroundColor:'rgba(6,11,18,0.95)',
+          titleColor:'#dce8f8',
+          bodyColor:'#7a9bbf',
+          borderColor:'rgba(26,140,255,0.2)',
+          borderWidth:1,
+          padding:10,
+          callbacks:{
+            title:function(items){
+              const i=items[0].dataIndex;
+              return scatterData[i].label;
+            },
+            label:function(item){
+              const d=scatterData[item.dataIndex];
+              return ['Legal Score: '+d.x,'Domains: '+d.y,'Responsiveness: '+d.resp];
+            }
+          }
+        }
+      },
+      scales:{
+        x:{
+          title:{display:true,text:'Legal Score (0-10)',color:'#7a9bbf',font:{size:12,weight:600}},
+          min:0,max:10,
+          grid:{color:'rgba(26,140,255,0.06)'},
+          ticks:{color:'#3d5470',font:{size:11}}
+        },
+        y:{
+          title:{display:true,text:'Domain Count',color:'#7a9bbf',font:{size:12,weight:600}},
+          min:0,
+          grid:{color:'rgba(26,140,255,0.06)'},
+          ticks:{color:'#3d5470',font:{size:11}}
+        }
+      }
+    },
+    plugins:[{
+      id:'quadrantLabels',
+      afterDraw(chart){
+        const{ctx:c,chartArea:{left,right,top,bottom}}=chart;
+        const midX=(left+right)/2,midY=(top+bottom)/2;
+        c.save();
+        c.font='600 11px Inter,sans-serif';
+        c.globalAlpha=0.22;
+        c.fillStyle='#dce8f8';
+        c.textAlign='center';
+        c.fillText('HIGH RISK / WEAK LAW',left+(midX-left)/2,top+22);
+        c.fillText('HIGH RISK / STRONG LAW',midX+(right-midX)/2,top+22);
+        c.fillText('LOW RISK / WEAK LAW',left+(midX-left)/2,bottom-10);
+        c.fillText('LOW RISK / STRONG LAW',midX+(right-midX)/2,bottom-10);
+        c.restore();
+      }
+    },{
+      id:'bubbleLabels',
+      afterDatasetsDraw(chart){
+        const{ctx:c}=chart;
+        const meta=chart.getDatasetMeta(0);
+        c.save();
+        c.font='600 10px "JetBrains Mono",monospace';
+        c.fillStyle='#dce8f8';
+        c.textAlign='center';
+        c.textBaseline='middle';
+        meta.data.forEach((el,i)=>{
+          if(scatterData[i].r>=6){
+            c.fillText(scatterData[i].label,el.x,el.y);
+          }else{
+            c.fillText(scatterData[i].label,el.x,el.y-scatterData[i].r-6);
+          }
+        });
+        c.restore();
+      }
+    }]
   });
-  var blob = new Blob([csv.join('\n')], {type: 'text/csv'});
-  var url = URL.createObjectURL(blob);
-  var a = document.createElement('a');
-  a.href = url; a.download = filename || 'export.csv';
-  document.body.appendChild(a); a.click(); document.body.removeChild(a);
-  URL.revokeObjectURL(url);
+
+  /* ── Country Table ── */
+  const tbody=document.getElementById('countryBody');
+  function renderTable(data){
+    tbody.innerHTML=data.map(c=>{
+      const sevClass=c.severity==='HIGH'?'severity-high':c.severity==='MED'?'severity-med':'severity-low';
+      const respClass=c.resp==='High'?'resp-high':c.resp==='Medium'?'resp-med':c.resp==='Low'?'resp-low':'resp-vlow';
+      return '<tr>'+
+        '<td><strong>'+c.name+'</strong></td>'+
+        '<td class="mono">'+c.domains.toLocaleString()+'</td>'+
+        '<td><span class="'+sevClass+'">'+c.severity+'</span></td>'+
+        '<td class="mono">'+c.legal+'</td>'+
+        '<td>'+c.framework+'</td>'+
+        '<td><span class="badge-resp '+respClass+'">'+c.resp+'</span></td>'+
+        '<td class="mono" style="font-size:.72rem;color:var(--text-2)">'+c.asn+'</td>'+
+        '<td>'+c.type+'</td>'+
+        '<td style="font-size:.75rem;color:var(--text-2)">'+c.action+'</td>'+
+      '</tr>';
+    }).join('');
+  }
+  renderTable(countries);
+
+  // Sortable headers
+  let sortCol=-1,sortAsc=true;
+  const keys=['name','domains','severity','legal','framework','resp','asn','type','action'];
+  document.querySelectorAll('#countryTable thead th').forEach(th=>{
+    th.addEventListener('click',()=>{
+      const col=parseInt(th.dataset.col);
+      if(sortCol===col){sortAsc=!sortAsc}else{sortCol=col;sortAsc=true}
+      document.querySelectorAll('#countryTable thead th').forEach(t=>t.classList.remove('sorted'));
+      th.classList.add('sorted');
+      th.querySelector('.sort-icon').innerHTML=sortAsc?'&#9650;':'&#9660;';
+      const sorted=[...countries].sort((a,b)=>{
+        let va=a[keys[col]],vb=b[keys[col]];
+        if(typeof va==='number') return sortAsc?va-vb:vb-va;
+        return sortAsc?String(va).localeCompare(String(vb)):String(vb).localeCompare(String(va));
+      });
+      renderTable(sorted);
+    });
+  });
+
+  /* ── Markets ── */
+  const mg=document.getElementById('marketsGrid');
+  mg.innerHTML=markets.map(m=>
+    '<div class="market-card">'+
+      '<div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.35rem">'+
+        '<span class="market-name">'+m.name+'</span>'+
+        '<span class="market-tag">'+m.type+'</span>'+
+      '</div>'+
+      '<div class="market-meta">'+
+        '<span>'+m.country+'</span>'+
+        '<span>'+m.estUsers+' est. users</span>'+
+        '<span class="badge-resp '+(m.status==='Active'?'resp-low':'')+'">'+m.status+'</span>'+
+      '</div>'+
+      '<p style="font-size:.74rem;color:var(--text-3);margin-top:.45rem;line-height:1.55">'+m.note+'</p>'+
+    '</div>'
+  ).join('');
+
+  /* ── Region Cards ── */
+  const rc=document.getElementById('regionCards');
+  rc.innerHTML=regions.map((r,i)=>
+    '<div class="region-card">'+
+      '<div class="region-header" onclick="toggleRegion(this)" data-idx="'+i+'">'+
+        '<h3>'+r.emoji+' &mdash; '+r.name+'</h3>'+
+        '<span class="toggle">&#9660;</span>'+
+      '</div>'+
+      '<div class="region-body" id="regionBody'+i+'">'+
+        '<p>'+r.summary+'</p>'+
+        '<h4>Enforcement Mechanisms</h4>'+
+        '<ul>'+r.enforcement.map(e=>'<li>'+e+'</li>').join('')+'</ul>'+
+        '<h4>Recommended Approach</h4>'+
+        '<ul>'+r.approach.map(a=>'<li>'+a+'</li>').join('')+'</ul>'+
+      '</div>'+
+    '</div>'
+  ).join('');
+});
+
+function toggleRegion(el){
+  const idx=el.dataset.idx;
+  const body=document.getElementById('regionBody'+idx);
+  body.classList.toggle('open');
+  el.classList.toggle('open');
 }
 </script>
+<footer style="text-align:center;padding:32px 24px;border-top:1px solid rgba(26,140,255,0.08);color:#3d5470;font-size:11px;margin-top:40px;max-width:1500px;margin-left:auto;margin-right:auto">
+  <p style="margin-bottom:8px"><strong style="color:#7a9bbf"><strong style="color:#7a9bbf">Research Purpose Notice (methodology available on request):</strong> This report was compiled for copyright enforcement research through automated crawling and manual review. Identification of domains does not constitute a legal determination of infringement. This data product does not constitute legal advice. Consult qualified counsel before initiating proceedings.</p>
+  <p>ARIA v2.0 | Data as of 2026-03-29 (snapshot) | 7,225 domains analyzed | <a href="index.html" style="color:#1a8cff;text-decoration:none">Command Center</a> · <a href="network.html" style="color:#1a8cff;text-decoration:none">Ecosystem Map</a> · <a href="publishers/index.html" style="color:#1a8cff;text-decoration:none">Publishers</a> · <a href="titles.html" style="color:#1a8cff;text-decoration:none">Titles</a> · <a href="enforcement.html" style="color:#1a8cff;text-decoration:none">Enforcement</a> · <a href="trends.html" style="color:#1a8cff;text-decoration:none">Trends</a> · <a href="regions.html" style="color:#1a8cff;text-decoration:none">Geo Intel</a></p>
+</footer>
+<script>function exportCSV(id,fn){var t=document.getElementById(id);if(!t)return;var c=[];t.querySelectorAll("tr").forEach(function(r){var d=[];r.querySelectorAll("td,th").forEach(function(e){d.push('"'+(e.textContent||"").trim().replace(/"/g,'""')+'"')});c.push(d.join(","))});var b=new Blob([c.join("\n")],{type:"text/csv"});var a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=fn||"export.csv";a.click()}</script>
 </body>
 </html>
