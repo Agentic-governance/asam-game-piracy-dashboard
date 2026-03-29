@@ -1,7 +1,9 @@
 <!DOCTYPE html>
+<!-- ARIA Dataset v6.1 | Snapshot 2026-03-29T00:00Z | Pipeline v2.0.2 -->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="generated" content="2026-03-29T01:48:48.128598Z">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="ARIA: Request Court-Ready Evidence Packages for Copyright Enforcement">
 <meta name="theme-color" content="#020508">
@@ -56,7 +58,7 @@ a:hover{text-decoration:underline}
 }
 .nav-links{display:flex;gap:4px;align-items:center}
 .nav-links a{
-  padding:6px 14px;border-radius:6px;font-size:.8rem;font-weight:500;
+  padding:6px 14px;border-radius:6px;font-size:.85rem;font-weight:500;
   color:var(--text-2);transition:all .2s;white-space:nowrap;letter-spacing:.02em;
 }
 .nav-links a:hover{color:var(--text-1);background:rgba(26,140,255,.08);text-decoration:none}
@@ -64,7 +66,7 @@ a:hover{text-decoration:underline}
 .nav-right{display:flex;align-items:center;gap:16px;flex-shrink:0}
 .threat-badge{
   display:flex;align-items:center;gap:6px;
-  padding:4px 12px;border-radius:20px;font-size:.7rem;font-weight:700;
+  padding:4px 12px;border-radius:20px;font-size:.75rem;font-weight:700;
   letter-spacing:.06em;color:var(--aria-warning);
   background:rgba(255,170,0,.1);border:1px solid rgba(255,170,0,.25);
 }
@@ -73,7 +75,7 @@ a:hover{text-decoration:underline}
   animation:pulse 2s ease-in-out infinite;
 }
 @keyframes pulse{0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(255,170,0,.5)}50%{opacity:.6;box-shadow:0 0 0 6px rgba(255,170,0,0)}}
-.data-fresh{font-size:.7rem;color:var(--text-3);font-family:var(--font-mono);letter-spacing:.02em}
+.data-fresh{font-size:.75rem;color:var(--text-3);font-family:var(--font-mono);letter-spacing:.02em}
 .btn-export{
   padding:5px 14px;border-radius:6px;font-size:.72rem;font-weight:600;
   letter-spacing:.04em;cursor:pointer;transition:all .2s;
@@ -113,7 +115,7 @@ a:hover{text-decoration:underline}
 .step.completed .step-number{background:var(--aria-success);color:#020508;border-color:var(--aria-success)}
 .step-label{font-size:1.1rem;font-weight:700;color:var(--text-1);display:inline;vertical-align:middle}
 .step-head{margin-bottom:20px;display:flex;align-items:center}
-.check-icon{display:none;margin-left:auto;color:var(--aria-success);font-size:.8rem;font-weight:600}
+.check-icon{display:none;margin-left:auto;color:var(--aria-success);font-size:.85rem;font-weight:600}
 .step.completed .check-icon{display:inline}
 
 /* ========== STEP 1: Publisher ========== */
@@ -141,7 +143,7 @@ a:hover{text-decoration:underline}
 .caselaw-badge{
   display:flex;align-items:center;gap:8px;padding:10px 14px;border-radius:6px;
   background:rgba(107,79,255,.08);border:1px solid rgba(107,79,255,.2);
-  font-size:.8rem;color:var(--text-2);margin-bottom:16px;
+  font-size:.85rem;color:var(--text-2);margin-bottom:16px;
 }
 .caselaw-badge strong{color:var(--aria-secondary)}
 .url-preview{
@@ -163,7 +165,7 @@ a:hover{text-decoration:underline}
 .jur-card.selected{border-color:var(--aria-primary);background:rgba(26,140,255,.06)}
 .jur-flag{font-size:2rem;margin-bottom:8px}
 .jur-name{font-size:.9rem;font-weight:700;color:var(--text-1);margin-bottom:8px}
-.jur-stat{font-size:.7rem;color:var(--text-2);margin-bottom:4px}
+.jur-stat{font-size:.75rem;color:var(--text-2);margin-bottom:4px}
 .jur-stat strong{color:var(--aria-accent);font-family:var(--font-mono)}
 .jur-evidence{font-size:.62rem;color:var(--text-3);margin-top:8px;line-height:1.4;font-style:italic}
 
@@ -241,7 +243,7 @@ a:hover{text-decoration:underline}
 .submit-btn:active{transform:translateY(0)}
 .submit-btn:disabled{opacity:.4;cursor:not-allowed;transform:none;box-shadow:none}
 
-.form-note{font-size:.7rem;color:var(--text-3);text-align:center;margin-top:10px}
+.form-note{font-size:.75rem;color:var(--text-3);text-align:center;margin-top:10px}
 
 /* ========== SUCCESS MESSAGE ========== */
 .success-overlay{
@@ -315,6 +317,8 @@ a:hover{text-decoration:underline}
   a{color:#1a8cff}
   .wizard-header h1{-webkit-text-fill-color:#111;color:#111}
 }
+.table-responsive{overflow-x:auto;-webkit-overflow-scrolling:touch}
+@media print{.page-print-header{display:block!important;text-align:center;margin-bottom:16px;font-size:14px;color:#333;font-weight:700}}
 </style>
 </head>
 <body>
@@ -351,7 +355,7 @@ a:hover{text-decoration:underline}
   </div>
   <div class="nav-right">
     <div class="threat-badge"><span class="pulse-dot"></span>ELEVATED</div>
-    <span class="data-fresh">2026-03-29</span>
+    <span class="data-fresh">2026-03-29 UTC</span>
     <button class="btn-export" onclick="window.print()">Export PDF</button>
   </div>
 </nav>
@@ -362,7 +366,7 @@ a:hover{text-decoration:underline}
   <!-- WIZARD HEADER -->
   <div class="wizard-header">
     <h1>Request Evidence Package</h1>
-    <p class="subtitle">Court-ready evidence for copyright enforcement. Documented URLs, SHA-256 hashes, capture timestamps.</p>
+    <p class="subtitle">Court-ready evidence for copyright enforcement. Documented Instances, SHA-256 hashes, capture timestamps.</p>
   </div>
 
   <!-- ========== STEP 1: Publisher Selection ========== -->
@@ -381,7 +385,7 @@ a:hover{text-decoration:underline}
       <div class="summary-stats">
         <div class="summary-stat"><div class="val" id="sumSites">--</div><div class="lbl">Piracy Sites</div></div>
         <div class="summary-stat"><div class="val" id="sumWorks">--</div><div class="lbl">Work Entries</div></div>
-        <div class="summary-stat"><div class="val" id="sumUrls">--</div><div class="lbl">Documented URLs</div></div>
+        <div class="summary-stat"><div class="val" id="sumUrls">--</div><div class="lbl">Documented Instances</div></div>
       </div>
       <div class="caselaw-badge" id="caselawBadge"></div>
       <div class="url-preview">

@@ -1,7 +1,9 @@
 <!DOCTYPE html>
+<!-- ARIA Dataset v6.1 | Snapshot 2026-03-29T00:00Z | Pipeline v2.0.2 -->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="generated" content="2026-03-29T01:48:48.128598Z">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="ARIA: Game IP Intelligence Platform — Piracy ecosystem analysis for copyright enforcement">
 <meta name="theme-color" content="#020508">
@@ -47,7 +49,7 @@ code,.mono{font-family:'JetBrains Mono',monospace}
 .card{background:var(--bg-2);border:1px solid rgba(26,140,255,.08);border-radius:var(--radius);padding:28px;margin-bottom:28px;position:relative;overflow:hidden}
 .card::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(26,140,255,.2),transparent)}
 .card-title{font-size:16px;font-weight:700;color:var(--text-1);margin-bottom:4px;display:flex;align-items:center;gap:8px}
-.card-title .tag{font-size:10px;font-weight:600;padding:2px 8px;border-radius:10px;letter-spacing:.5px}
+.card-title .tag{font-size:11px;font-weight:600;padding:2px 8px;border-radius:10px;letter-spacing:.5px}
 .tag-live{background:rgba(0,229,204,.12);color:var(--teal)}
 .tag-data{background:rgba(0,229,204,.12);color:var(--teal)}
 .card-sub{font-size:12px;color:var(--text-3);margin-bottom:20px}
@@ -66,7 +68,7 @@ code,.mono{font-family:'JetBrains Mono',monospace}
 .footer{margin-top:48px;padding:24px 0;border-top:1px solid rgba(26,140,255,.08);text-align:center;font-size:11px;color:var(--text-3)}
 
 /* PRINT */
-@media print{
+@media print{.global-cta{display:none!important}
   .navbar,.btn-export,.threat-badge{display:none!important}
   .page{padding-top:20px}
   body{background:#fff;color:#111}
@@ -82,6 +84,8 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .cta-dot-g{width:6px;height:6px;border-radius:50%;background:#00e5cc;animation:pulse 2s infinite;flex-shrink:0}
 .cta-btn{display:inline-block;background:linear-gradient(135deg,#1a8cff,#6b4fff);color:#fff;font-size:12px;font-weight:700;padding:7px 18px;border-radius:6px;text-decoration:none;transition:all .2s}
 .cta-btn:hover{box-shadow:0 0 20px rgba(26,140,255,.4);transform:translateY(-1px)}
+.table-responsive{overflow-x:auto;-webkit-overflow-scrolling:touch}
+@media print{.page-print-header{display:block!important;text-align:center;margin-bottom:16px;font-size:14px;color:#333;font-weight:700}}
 </style>
 </head>
 <body>
@@ -90,220 +94,8 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 <nav class="navbar">
   <a href="index.html" class="nav-logo">
     <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M15 2L4 8v7c0 7.2 4.7 13.9 11 16 6.3-2.1 11-8.8 11-16V8L15 2z" stroke="#1a8cff" stroke-width="1.8" fill="rgba(26,140,255,.08)"/>
-      <circle cx="15" cy="14" r="6" stroke="#00e5cc" stroke-width="1.2" fill="none"/>
-      <circle cx="15" cy="14" r="2" fill="#1a8cff"/>
-      <line x1="15" y1="14" x2="20" y2="10" stroke="#1a8cff" stroke-width="1" stroke-linecap="round"/>
-      <line x1="15" y1="14" x2="12" y2="9" stroke="rgba(26,140,255,.4)" stroke-width="0.8" stroke-linecap="round"/>
-      <line x1="15" y1="14" x2="19" y2="17" stroke="rgba(26,140,255,.4)" stroke-width="0.8" stroke-linecap="round"/>
-    </svg>
-    ARIA
-  </a>
-  <div class="nav-links">
-    <a href="index.html" data-page="command">Command Center</a>
-    <a href="network.html" data-page="network">Ecosystem Map</a>
-    <a href="publishers/index.html" data-page="publishers">Publishers</a>
-    <a href="titles.html" data-page="titles">Title Tracker</a>
-    <a href="enforcement.html" data-page="enforcement">Enforcement</a>
-    <a href="trends.html" data-page="trends" class="active">Trends</a>
-    <a href="regions.html" data-page="regions">Geo Intel</a>
-    <a href="contact.html" data-page="evidence">Evidence</a>
-  </div>
-  <div class="nav-right">
-    <div class="threat-badge"><span class="threat-dot"></span>ELEVATED</div>
-    <button class="btn-export" onclick="window.print()">EXPORT PDF</button>
-  </div>
-</nav>
-<div class="global-cta">
-  <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:#7a9bbf">
-    <span class="cta-dot-g"></span>
-    <span><strong style="color:#dce8f8">694</strong> documented unauthorized distribution URLs available. Win rate <strong style="color:#dce8f8">71-91%</strong> in court with this evidence.</span>
-  </div>
-  <a href="contact.html" class="cta-btn">Request evidence package (PDF + CSV, 1 business day) →</a>
-</div>
-
-<!-- PAGE -->
-<main class="page">
-
-  <!-- HEADER -->
-  <div class="page-header">
-    <h1>TREND ANALYSIS</h1>
-    <p class="subtitle">14-Phase Discovery Progression &amp; Ecosystem Composition</p>
-  </div>
-
-  <!-- DOMAIN GROWTH TREND -->
-  <div class="card">
-    <div class="card-title">Domain Growth Trend <span class="tag tag-live">INVESTIGATION DATA</span></div>
-    <div class="card-sub">Cumulative domains discovered across 14 investigation phases &middot; 7,225 total</div>
-    <div class="chart-wrap"><canvas id="chartGrowth"></canvas></div>
-  </div>
-
-  <div class="grid-2">
-    <!-- ECOTYPE DISTRIBUTION -->
-    <div class="card">
-      <div class="card-title">Site Classification (reclassified)</div>
-      <div style="font-size:10px;color:#3d5470;margin-bottom:8px">2,936 previously unclassified → 76% reclassified via domain pattern + infringement analysis</div>
-      <div class="card-sub">Site archetype breakdown across investigated domains</div>
-      <div class="chart-wrap" style="height:280px"><canvas id="chartEcotype"></canvas></div>
-    </div>
-
-    <!-- SEVERITY DISTRIBUTION -->
-    <div class="card">
-      <div class="card-title">Severity Distribution</div>
-      <div class="card-sub">Domains by severity score (0 = lowest, 5 = highest)</div>
-      <div class="chart-wrap" style="height:280px"><canvas id="chartSeverity"></canvas></div>
-    </div>
-  </div>
-
-  <!-- LANGUAGE DISTRIBUTION -->
-  <div class="card">
-    <div class="card-title">Language Distribution</div>
-    <div class="card-sub">Top 10 primary languages across investigated domains</div>
-    <div class="chart-wrap" style="height:300px"><canvas id="chartLanguage"></canvas></div>
-  </div>
-
-  <!-- DISCOVERY INSIGHTS -->
-  <div class="card">
-    <div class="card-title">Discovery Insights</div>
-    <div class="card-sub">Key findings from the 14-phase investigation</div>
-
-    <div class="insight">
-      <strong>Phase 2 (Title&times;Language search) and Phase 6 (Full Classify) yielded <span class="highlight">44.7%</span> of all domains.</strong> These two phases alone accounted for 3,230 of the 7,225 total domains discovered, demonstrating the effectiveness of combining title-based search with comprehensive classification.
-    </div>
-    <div class="insight">
-      <strong>Diminishing returns after Phase 11.</strong> The final three phases (12&ndash;14) contributed only <span class="highlight">772 domains (10.7%)</span>, suggesting the investigation has achieved &gt;90% coverage of surface-web game piracy infrastructure.
-    </div>
-    <div class="insight">
-      <strong>Severity 4 dominates.</strong> Over half of all domains (<span class="highlight">52.4%</span>) carry a severity score of 4, indicating widespread high-impact infringement across the ecosystem.
-    </div>
-    <div class="insight">
-      <strong>English-language sites represent the majority.</strong> <span class="highlight">3,586 domains (82.5%)</span> primarily serve English-language content, followed by Russian (375) and Japanese (155), reflecting global distribution patterns.
-    </div>
-  </div>
-
-  <!-- FOOTER -->
-  <div class="footer">
-    ARIA Intelligence Platform &middot; Investigation data from 14-phase domain discovery<br>
-    This analysis is generated for research and anti-piracy operations. All data subject to the ARIA data governance policy.
-  </div>
-
-</main>
-
-<script>
-(function(){
-  var COLORS = {brand:'#1a8cff',purple:'#6b4fff',teal:'#00e5cc',red:'#ff3344',amber:'#ffaa00',green:'#00cc7a'};
-  var txtMuted = '#7a9bbf';
-  var gridColor = 'rgba(26,140,255,.07)';
-
-  Chart.defaults.color = txtMuted;
-  Chart.defaults.font.family = "'Inter', sans-serif";
-  Chart.defaults.font.size = 11;
-
-  /* ---------- DOMAIN GROWTH (14-Phase Discovery) ---------- */
-  var phaseLabels = ['P1','P2','P3','P4','P5','P6','P7','P8','P9','P10','P11','P12','P13','P14'];
-  var perPhase = [258,1653,415,37,113,1577,1007,713,478,104,98,347,279,146];
-  var cumulative = [258,1911,2326,2363,2476,4053,5060,5773,6251,6355,6453,6800,7079,7225];
-
-  new Chart(document.getElementById('chartGrowth'),{
-    type:'bar',
-    data:{
-      labels: phaseLabels,
-      datasets:[
-        {type:'line',label:'Cumulative Domains',data:cumulative,borderColor:COLORS.brand,backgroundColor:'rgba(26,140,255,.08)',borderWidth:2.5,pointRadius:4,pointBackgroundColor:COLORS.brand,tension:.3,yAxisID:'y',order:1,fill:true},
-        {label:'Per-Phase Discovered',data:perPhase,backgroundColor:'rgba(0,229,204,.5)',borderColor:COLORS.teal,borderWidth:1,borderRadius:4,barPercentage:.6,yAxisID:'y2',order:2}
-      ]
-    },
-    options:{
-      responsive:true,maintainAspectRatio:false,
-      interaction:{mode:'index',intersect:false},
-      plugins:{legend:{labels:{boxWidth:12,padding:14,usePointStyle:true}},tooltip:{callbacks:{label:function(ctx){return ctx.dataset.label+': '+ctx.parsed.y.toLocaleString();}}}},
-      scales:{
-        x:{grid:{color:gridColor},title:{display:true,text:'Investigation Phase'}},
-        y:{position:'left',grid:{color:gridColor},title:{display:true,text:'Cumulative Domains'},min:0},
-        y2:{position:'right',grid:{drawOnChartArea:false},title:{display:true,text:'Domains per Phase'},min:0}
-      }
-    }
-  });
-
-  /* ---------- ECOTYPE DISTRIBUTION (after reclassification of 2,936 unclassified) ---------- */
-  var ecoLabels = ['Mobile','Torrent','DDL','ROM','Aggregator','Crack','News/Review','Repack','Inactive','Software','Storefront','Forum','Unclassified'];
-  var ecoData = [546,453,433,303,263,152,140,81,533,60,28,24,712];
-  var ecoColors = ['#ffc800','#ff3344','#00e5cc','#ffaa00','#6b4fff','#8b5cf6','#3d5470','#ff6b81','#2d3b50','#7a9bbf','#1a8cff','#4a6080','#1e293b'];
-
-  new Chart(document.getElementById('chartEcotype'),{
-    type:'bar',
-    data:{
-      labels:ecoLabels,
-      datasets:[{label:'Domains',data:ecoData,backgroundColor:ecoColors.map(function(c){return c+'99';}),borderColor:ecoColors,borderWidth:1.5,borderRadius:4,barPercentage:.65}]
-    },
-    options:{
-      responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return ctx.parsed.y.toLocaleString()+' domains';}}}},
-      scales:{
-        x:{grid:{color:gridColor}},
-        y:{grid:{color:gridColor},title:{display:true,text:'Domain Count'},min:0}
-      }
-    }
-  });
-
-  /* ---------- SEVERITY DISTRIBUTION ---------- */
-  var sevLabels = ['Sev 0','Sev 1','Sev 2','Sev 3','Sev 4','Sev 5'];
-  var sevData = [403,400,274,506,1968,204];
-  var sevPct = ['10.7%','10.6%','7.3%','13.5%','52.4%','5.4%'];
-  var sevColors = ['#00cc7a','#00e5cc','#1a8cff','#ffaa00','#ff3344','#6b4fff'];
-
-  new Chart(document.getElementById('chartSeverity'),{
-    type:'bar',
-    data:{
-      labels:sevLabels,
-      datasets:[{label:'Domains',data:sevData,backgroundColor:sevColors.map(function(c){return c+'99';}),borderColor:sevColors,borderWidth:1.5,borderRadius:4,barPercentage:.65}]
-    },
-    options:{
-      responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return ctx.parsed.y.toLocaleString()+' domains ('+sevPct[ctx.dataIndex]+')';}}}},
-      scales:{
-        x:{grid:{color:gridColor}},
-        y:{grid:{color:gridColor},title:{display:true,text:'Domain Count'},min:0}
-      }
-    }
-  });
-
-  /* ---------- LANGUAGE DISTRIBUTION ---------- */
-  var langLabels = ['English','Russian','Japanese','Chinese','Arabic','Hindi','Spanish','Thai','Korean','Italian'];
-  var langData = [3586,375,155,104,62,37,33,26,24,22];
-  var langColors = ['#1a8cff','#ff3344','#00e5cc','#ffaa00','#6b4fff','#00cc7a','#3d5470','#ff6b8a','#7a9bbf','#cc7a00'];
-
-  new Chart(document.getElementById('chartLanguage'),{
-    type:'bar',
-    data:{
-      labels:langLabels,
-      datasets:[{
-        label:'Domains',
-        data:langData,
-        backgroundColor: langColors.map(function(c){return c+'88';}),
-        borderColor: langColors,
-        borderWidth:1.5,
-        borderRadius:6,
-        barPercentage:.55
-      }]
-    },
-    options:{
-      indexAxis:'y',
-      responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return ctx.parsed.x.toLocaleString()+' domains';}}}},
-      scales:{
-        x:{grid:{color:gridColor},title:{display:true,text:'Domain Count'},min:0},
-        y:{grid:{color:gridColor}}
-      }
-    }
-  });
-
-})();
-</script>
-
-<footer style="text-align:center;padding:32px 24px;border-top:1px solid rgba(26,140,255,0.08);color:#3d5470;font-size:11px;margin-top:40px;max-width:1500px;margin-left:auto;margin-right:auto">
-  <p style="margin-bottom:8px"><strong style="color:#7a9bbf">Research Purpose Notice:</strong> This intelligence report was compiled for copyright enforcement research. Domain data represents sites identified as potentially infringing. Direct URLs to infringing content have been redacted.</p>
-  <p>ARIA v2.0 | Data as of 2026-03-29 | 7,225 domains analyzed | <a href="index.html" style="color:#1a8cff;text-decoration:none">Command Center</a> · <a href="network.html" style="color:#1a8cff;text-decoration:none">Ecosystem Map</a> · <a href="publishers/index.html" style="color:#1a8cff;text-decoration:none">Publishers</a> · <a href="titles.html" style="color:#1a8cff;text-decoration:none">Titles</a> · <a href="enforcement.html" style="color:#1a8cff;text-decoration:none">Enforcement</a> · <a href="trends.html" style="color:#1a8cff;text-decoration:none">Trends</a> · <a href="regions.html" style="color:#1a8cff;text-decoration:none">Geo Intel</a></p>
+      <p style="margin-bottom:6px"><strong style="color:#7a9bbf">Research Purpose Notice (collection methodology available on request):</strong> This report was compiled for copyright enforcement research through automated crawling and manual review. Domain identification does not constitute legal determination of infringement. Consult qualified counsel before initiating proceedings.</p>
+  <p>ARIA v2.0 | Data as of 2026-03-29 UTC | 7,225 domains analyzed | <a href="index.html" style="color:#1a8cff;text-decoration:none">Command Center</a> · <a href="network.html" style="color:#1a8cff;text-decoration:none">Ecosystem Map</a> · <a href="publishers/index.html" style="color:#1a8cff;text-decoration:none">Publishers</a> · <a href="titles.html" style="color:#1a8cff;text-decoration:none">Titles</a> · <a href="enforcement.html" style="color:#1a8cff;text-decoration:none">Enforcement</a> · <a href="trends.html" style="color:#1a8cff;text-decoration:none">Trends</a> · <a href="regions.html" style="color:#1a8cff;text-decoration:none">Geo Intel</a></p>
 </footer>
 </body>
 </html>

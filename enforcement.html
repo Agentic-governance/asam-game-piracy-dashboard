@@ -1,7 +1,9 @@
 <!DOCTYPE html>
+<!-- ARIA Dataset v6.1 | Snapshot 2026-03-29T00:00Z | Pipeline v2.0.2 -->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="generated" content="2026-03-29T01:48:48.128598Z">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="ARIA: Game IP Intelligence Platform — Piracy ecosystem analysis for copyright enforcement">
 <meta name="theme-color" content="#020508">
@@ -116,7 +118,7 @@ tr:hover td{background:rgba(26,140,255,.04)}
 @media(max-width:900px){.two-col{grid-template-columns:1fr}.matrix-grid{grid-template-columns:1fr}.gen-form{grid-template-columns:1fr}}
 
 /* PRINT */
-@media print{
+@media print{.global-cta{display:none!important}
   body{background:#fff;color:#000}
   .top-nav{position:static;background:#fff;border-bottom:2px solid #000}
   .nav-links a{color:#333}.nav-meta .badge-threat{background:#c00}
@@ -125,7 +127,7 @@ tr:hover td{background:rgba(26,140,255,.04)}
   .matrix-quadrant{border:1px solid #999!important;background:#f9f9f9!important}
   .matrix-quadrant h3{color:#000!important}
   .template-output{background:#f5f5f5;color:#000;border:1px solid #ccc}
-  table{font-size:10px}th{border-bottom:2px solid #000}td{border-bottom:1px solid #ccc}
+  table{font-size:11px}th{border-bottom:2px solid #000}td{border-bottom:1px solid #ccc}
   .status-badge{border:1px solid #999}
   .chart-container{max-height:300px}
 }
@@ -134,6 +136,8 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .cta-dot-g{width:6px;height:6px;border-radius:50%;background:#00e5cc;animation:pulse 2s infinite;flex-shrink:0}
 .cta-btn{display:inline-block;background:linear-gradient(135deg,#1a8cff,#6b4fff);color:#fff;font-size:12px;font-weight:700;padding:7px 18px;border-radius:6px;text-decoration:none;transition:all .2s}
 .cta-btn:hover{box-shadow:0 0 20px rgba(26,140,255,.4);transform:translateY(-1px)}
+.table-responsive{overflow-x:auto;-webkit-overflow-scrolling:touch}
+@media print{.page-print-header{display:block!important;text-align:center;margin-bottom:16px;font-size:14px;color:#333;font-weight:700}}
 </style>
 </head>
 <body>
@@ -141,379 +145,28 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 <!-- NAV -->
 <nav class="top-nav">
   <div class="nav-logo">
-    <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="var(--primary)" stroke-width="2"/><path d="M10 22l6-14 6 14" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><line x1="12" y1="18" x2="20" y2="18" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/></svg>
-    ARIA
-  </div>
-  <div class="nav-links">
-    <a href="index.html" data-page="command">Command Center</a>
-    <a href="network.html" data-page="network">Ecosystem Map</a>
-    <a href="publishers/index.html" data-page="publishers">Publishers</a>
-    <a href="titles.html" data-page="titles">Title Tracker</a>
-    <a href="enforcement.html" data-page="enforcement" class="active">Enforcement</a>
-    <a href="trends.html" data-page="trends">Trends</a>
-    <a href="regions.html" data-page="regions">Geo Intel</a>
-    <a href="contact.html" data-page="evidence">Evidence</a>
-  </div>
-  <div class="nav-meta">
-    <span class="badge-threat">THREAT: HIGH</span>
-    <span class="freshness">Updated 2026-03-29 09:00 JST</span>
-    <button class="btn-export" onclick="window.print()">Export</button>
-  </div>
-</nav>
-<div class="global-cta">
-  <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:#7a9bbf">
-    <span class="cta-dot-g"></span>
-    <span><strong style="color:#dce8f8">694</strong> documented unauthorized distribution URLs available. Win rate <strong style="color:#dce8f8">71-91%</strong> in court with this evidence.</span>
-  </div>
-  <a href="contact.html" class="cta-btn">Request evidence package (PDF + CSV, 1 business day) →</a>
-</div>
-
-<div class="page-wrap">
-  <!-- HEADER -->
-  <div class="page-header">
-    <h1>ENFORCEMENT CENTER</h1>
-    <p>Priority Matrix &times; Workflow &times; Templates</p>
-  </div>
-
-  <!-- KPIs -->
-  <div class="kpi-row">
-    <div class="kpi-card"><div class="label">DMCA Submitted [ESTIMATED]</div><div class="value blue">4,117</div></div>
-    <div class="kpi-card"><div class="label">Removed [ESTIMATED]</div><div class="value green">2,950</div></div>
-    <div class="kpi-card"><div class="label">Success Rate [ESTIMATED]</div><div class="value amber">71.7%</div></div>
-    <div class="kpi-card"><div class="label">Active Targets</div><div class="value red">10</div></div>
-  </div>
-
-  <!-- PRIORITY MATRIX -->
-  <div class="card">
-    <div class="card-title">
-      <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M3 3h6v6H3V3zm8 0h6v6h-6V3zM3 11h6v6H3v-6zm8 0h6v6h-6v-6z"/></svg>
-      Priority Matrix
-    </div>
-    <div style="display:flex;justify-content:space-between;margin-bottom:0.5rem">
-      <span class="matrix-axis" style="flex:1;text-align:center">LOW EFFORT</span>
-      <span class="matrix-axis" style="flex:1;text-align:center">HIGH EFFORT</span>
-    </div>
-    <div class="matrix-grid">
-      <div class="matrix-quadrant q-donow">
-        <h3>DO NOW &mdash; High Impact + Low Effort</h3>
-        <ul>
-          <li>MEGA DMCA &mdash; 127 URLs queued</li>
-          <li>Cloudflare Abuse &mdash; 204 severity-5 reports</li>
-          <li>Google Delisting &mdash; Top 50 infringing URLs</li>
-          <li>Rapidgator DMCA &mdash; 247 URLs queued</li>
-        </ul>
-      </div>
-      <div class="matrix-quadrant q-plan">
-        <h3>PLAN &mdash; High Impact + High Effort</h3>
-        <ul>
-          <li>Court Injunction &mdash; $80K, covers 520 domains</li>
-          <li>ISP Blocking &mdash; Requires legal process</li>
-        </ul>
-      </div>
-      <div class="matrix-quadrant q-quick">
-        <h3>QUICK WINS &mdash; Low Impact + Low Effort</h3>
-        <ul>
-          <li>WHOIS Lookup &mdash; 340 domains pending</li>
-          <li>Nitroflare DMCA &mdash; 189 URLs</li>
-          <li>1fichier DMCA &mdash; 28 URLs</li>
-        </ul>
-      </div>
-      <div class="matrix-quadrant q-depri">
-        <h3>DEPRIORITIZE &mdash; Low Impact + High Effort</h3>
-        <ul>
-          <li>Individual Site DMCA &mdash; Low coverage</li>
-          <li>Social Media Complaints &mdash; Minimal effect</li>
-        </ul>
-      </div>
-    </div>
-    <div style="display:flex;justify-content:space-between;margin-top:0.5rem">
-      <span class="matrix-axis" style="flex:1">&uarr; HIGH IMPACT</span>
-      <span class="matrix-axis" style="flex:1;text-align:right">&darr; LOW IMPACT</span>
-    </div>
-  </div>
-
-  <!-- FILE HOST DISTRIBUTION + DMCA SUMMARY (two col) -->
-  <div class="two-col">
-    <!-- FILE HOST DISTRIBUTION -->
-    <div class="card">
-      <div class="card-title">
-        <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M2 17V3h2v14H2zm4-4v4h2v-4H6zm4-6v10h2V7h-2zm4-4v14h2V3h-2z"/></svg>
-        File Host Distribution <span style="font-size:.7rem;color:var(--accent);font-weight:600;margin-left:8px">[VERIFIED DATA]</span>
-      </div>
-      <div class="chart-container"><canvas id="fileHostChart"></canvas></div>
-      <div class="chart-insight">694 verified infringing file URLs identified across 10 file hosting services. Source: verified_urls dataset.</div>
-    </div>
-
-    <!-- DMCA SUMMARY -->
-    <div class="card">
-      <div class="card-title">
-        <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M2 2v16h16v-2H4V2H2zm3 12l4-5 3 3 5-6v2l-5 5.5-3-3L5 16v-2z"/></svg>
-        Infringing URL Summary <span style="font-size:.7rem;color:var(--accent);font-weight:600;margin-left:8px">[VERIFIED DATA]</span>
-      </div>
-      <div style="padding:16px 0">
-        <div style="font-size:2.4rem;font-weight:800;font-family:'JetBrains Mono',monospace;color:var(--primary);margin-bottom:8px">694</div>
-        <div style="font-size:.9rem;color:var(--text-1);margin-bottom:16px">Verified infringing file URLs identified across 10 file hosting services</div>
-        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:16px">
-          <div style="background:var(--bg-3);border-radius:var(--radius);padding:12px 16px;flex:1;min-width:140px;text-align:center">
-            <div style="font-size:1.4rem;font-weight:800;font-family:'JetBrains Mono',monospace;color:var(--danger)">247</div>
-            <div style="font-size:.75rem;color:var(--text-2)">Rapidgator</div>
-          </div>
-          <div style="background:var(--bg-3);border-radius:var(--radius);padding:12px 16px;flex:1;min-width:140px;text-align:center">
-            <div style="font-size:1.4rem;font-weight:800;font-family:'JetBrains Mono',monospace;color:var(--warning)">189</div>
-            <div style="font-size:.75rem;color:var(--text-2)">Nitroflare</div>
-          </div>
-          <div style="background:var(--bg-3);border-radius:var(--radius);padding:12px 16px;flex:1;min-width:140px;text-align:center">
-            <div style="font-size:1.4rem;font-weight:800;font-family:'JetBrains Mono',monospace;color:var(--success)">258</div>
-            <div style="font-size:.75rem;color:var(--text-2)">Other 8 hosts</div>
-          </div>
-        </div>
-        <div class="chart-insight">Priority: Rapidgator (247) + Nitroflare (189) = 62.8% of total documented URLs.</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- TARGET TABLE -->
-  <div class="card">
-    <div class="card-title">
-      <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1a9 9 0 100 18A9 9 0 0010 1zm0 16a7 7 0 110-14 7 7 0 010 14zm0-12a5 5 0 100 10 5 5 0 000-10zm0 8a3 3 0 110-6 3 3 0 010 6z"/></svg>
-      Target Status
-    </div>
-    <div class="table-wrap">
-      <table id="targetTable">
-        <thead>
-          <tr>
-            <th>Pri</th><th>Target</th><th>Category</th><th>Status</th><th>Submitted</th><th>Removed</th><th>Pending</th><th>Success%</th><th>Last Action</th><th>Next Action</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
-  </div>
-
-  <!-- TEMPLATE GENERATOR -->
-  <div class="card">
-    <div class="card-title">
-      <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M4 2a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V4a2 2 0 00-2-2H4zm1 3h10v2H5V5zm0 4h10v2H5V9zm0 4h7v2H5v-2z"/></svg>
-      DMCA Template Generator
-    </div>
-    <div class="gen-form" id="genForm">
-      <div>
-        <label>Target Type</label>
-        <select id="tmplType">
-          <option value="filehost">Filehost</option>
-          <option value="cdn">CDN Abuse</option>
-          <option value="search">Search Delisting</option>
-        </select>
-      </div>
-      <div>
-        <label>Company Name</label>
-        <input type="text" id="tmplCompany" value="MEGA Limited" placeholder="e.g. MEGA Limited">
-      </div>
-      <div class="full">
-        <label>Title of Copyrighted Work</label>
-        <input type="text" id="tmplTitle" value="One Piece Chapter 1145" placeholder="e.g. One Piece Chapter 1145">
-      </div>
-      <div class="full">
-        <label>Infringing URLs (one per line)</label>
-        <textarea id="tmplUrls" placeholder="https://mega.nz/file/abc123&#10;https://mega.nz/file/def456">https://mega.nz/file/abc123
-https://mega.nz/file/def456
-https://mega.nz/file/ghi789</textarea>
-      </div>
-    </div>
-    <div class="btn-row">
-      <button class="btn btn-primary" onclick="generateTemplate()">Generate</button>
-      <button class="btn btn-secondary" onclick="copyTemplate()">Copy to Clipboard</button>
-    </div>
-    <div class="template-output" id="templateOutput"></div>
-  </div>
-</div>
-
-<script>
-/* ── FILE HOST DISTRIBUTION CHART ── */
-const fhCtx = document.getElementById('fileHostChart').getContext('2d');
-const fileHosts = [
-  {name:'Rapidgator', urls:247},
-  {name:'Nitroflare', urls:189},
-  {name:'Filecrypt', urls:55},
-  {name:'MediaFire', urls:44},
-  {name:'MEGA', urls:38},
-  {name:'1fichier', urls:28},
-  {name:'Katfile', urls:26},
-  {name:'Uptobox', urls:21},
-  {name:'Google Drive', urls:18},
-  {name:'Turbobit', urls:10}
-];
-new Chart(fhCtx, {
-  type:'bar',
-  data:{
-    labels: fileHosts.map(d=>d.name),
-    datasets:[{
-      label:'Documented URLs',
-      data: fileHosts.map(d=>d.urls),
-      backgroundColor: fileHosts.map(d=> d.urls>100 ? '#ff3344' : d.urls>40 ? '#ffaa00' : '#1a8cff'),
-      borderRadius:6,
-      barPercentage:0.65
-    }]
-  },
-  options:{
-    indexAxis:'y',
-    responsive:true, maintainAspectRatio:false,
-    plugins:{
-      legend:{display:false},
-      tooltip:{
-        callbacks:{
-          label: function(ctx){
-            const d = fileHosts[ctx.dataIndex];
-            return d.name+': '+d.urls+' URLs ('+(d.urls/694*100).toFixed(1)+'%)';
-          }
-        }
-      }
-    },
-    scales:{
-      x:{ticks:{color:'#3d5470',font:{size:11}},grid:{color:'rgba(61,84,112,.15)'},title:{display:true,text:'Verified Infringing URLs',color:'#3d5470'}},
-      y:{ticks:{color:'#7a9bbf',font:{size:11}},grid:{display:false}}
-    }
-  }
-});
-
-/* ── TARGET TABLE ── */
-const targets = [
-  {pri:1, name:'MEGA.NZ', cat:'Filehost', status:'IN_PROGRESS', sub:487, rem:341, pend:146, suc:70.0, last:'2026-03-26 DMCA batch #47', next:'Follow-up batch #48'},
-  {pri:1, name:'Rapidgator', cat:'Filehost', status:'IN_PROGRESS', sub:612, rem:389, pend:223, suc:63.6, last:'2026-03-25 DMCA batch #31', next:'Escalate non-response'},
-  {pri:2, name:'Nitroflare', cat:'Filehost', status:'IN_PROGRESS', sub:389, rem:298, pend:91, suc:76.6, last:'2026-03-24 DMCA batch #19', next:'Batch #20 (189 URLs)'},
-  {pri:1, name:'Cloudflare', cat:'CDN/Proxy', status:'ONGOING', sub:834, rem:612, pend:222, suc:73.4, last:'2026-03-27 Abuse batch #52', next:'204 sev-5 reports'},
-  {pri:1, name:'Google Search', cat:'Search Engine', status:'ONGOING', sub:1245, rem:987, pend:258, suc:79.3, last:'2026-03-27 Delisting #84', next:'Top 50 infringing URLs'},
-  {pri:3, name:'3NT Solutions', cat:'Hosting', status:'PLANNED', sub:45, rem:12, pend:33, suc:26.7, last:'2026-03-10 Initial notice', next:'Upstream provider contact'},
-  {pri:3, name:'AEZA Group', cat:'Hosting', status:'PLANNED', sub:28, rem:4, pend:24, suc:14.3, last:'2026-03-08 Initial notice', next:'RIR abuse complaint'},
-  {pri:2, name:'Namecheap', cat:'Registrar', status:'IN_PROGRESS', sub:156, rem:112, pend:44, suc:71.8, last:'2026-03-22 Abuse batch #11', next:'Domain suspension request'},
-  {pri:2, name:'Filecrypt.cc', cat:'Link Protector', status:'IN_PROGRESS', sub:234, rem:156, pend:78, suc:66.7, last:'2026-03-20 Abuse report', next:'CDN provider escalation'},
-  {pri:3, name:'1fichier', cat:'Filehost', status:'COMPLETED', sub:87, rem:39, pend:0, suc:44.8, last:'2026-03-15 Final batch', next:'28 new URLs queued'}
-];
-const tbody = document.querySelector('#targetTable tbody');
-targets.forEach(t=>{
-  const tr = document.createElement('tr');
-  tr.innerHTML = `
-    <td><span class="priority-badge p-${t.pri}">${t.pri}</span></td>
-    <td style="font-weight:600">${t.name}</td>
-    <td>${t.cat}</td>
-    <td><span class="status-badge status-${t.status}">${t.status.replace('_',' ')}</span></td>
-    <td>${t.sub.toLocaleString()}</td>
-    <td>${t.rem.toLocaleString()}</td>
-    <td>${t.pend.toLocaleString()}</td>
-    <td style="color:${t.suc>=70?'var(--success)':t.suc>=50?'var(--warning)':'var(--danger)'}">${t.suc}%</td>
-    <td class="mono" style="font-size:.72rem">${t.last}</td>
-    <td style="font-size:.8rem">${t.next}</td>`;
-  tbody.appendChild(tr);
-});
-
-/* sortable headers */
-document.querySelectorAll('#targetTable th').forEach((th,i)=>{
-  let asc=true;
-  th.addEventListener('click',()=>{
-    const rows=[...tbody.querySelectorAll('tr')];
-    rows.sort((a,b)=>{
-      let va=a.children[i].textContent.trim(), vb=b.children[i].textContent.trim();
-      const na=parseFloat(va.replace(/[^0-9.\-]/g,'')), nb=parseFloat(vb.replace(/[^0-9.\-]/g,''));
-      if(!isNaN(na)&&!isNaN(nb)) return asc?na-nb:nb-na;
-      return asc?va.localeCompare(vb):vb.localeCompare(va);
-    });
-    asc=!asc;
-    rows.forEach(r=>tbody.appendChild(r));
-  });
-});
-
-/* ── TEMPLATE GENERATOR ── */
-function generateTemplate(){
-  const type = document.getElementById('tmplType').value;
-  const company = document.getElementById('tmplCompany').value || '[Company Name]';
-  const title = document.getElementById('tmplTitle').value || '[Title]';
-  const urls = document.getElementById('tmplUrls').value.trim().split('\n').filter(u=>u.trim()).map(u=>'  '+u.trim()).join('\n');
-  const today = new Date().toISOString().split('T')[0];
-
-  let recipient = company;
-  let address = '';
-  if(type==='filehost'){
-    address = `To: ${company} — Abuse / DMCA Department`;
-  } else if(type==='cdn'){
-    address = `To: ${company} — Trust & Safety / Abuse Department`;
-  } else {
-    address = `To: ${company} — Content Removal / Legal Department`;
-  }
-
-  const template =
-`${address}
-Date: ${today}
-Subject: DMCA Takedown Notice — ${title}
-
-Dear ${company} Trust & Safety Team,
-
-I am writing to notify you, pursuant to the Digital Millennium Copyright Act
-(17 U.S.C. § 512), of infringing material hosted on / accessible through
-your service.
-
-1. COPYRIGHTED WORK
-   Title: ${title}
-   Copyright Owner: [Rights Holder Name]
-   Registration: [Registration # if applicable]
-
-2. INFRINGING MATERIAL
-   The following URLs contain unauthorized copies of the above work:
-
-${urls}
-
-3. GOOD FAITH STATEMENT
-   I have a good faith belief that use of the material in the manner
-   complained of is not authorized by the copyright owner, its agent, or
-   the law.
-
-4. ACCURACY STATEMENT
-   The information in this notification is accurate, and under penalty of
-   perjury, I am authorized to act on behalf of the owner of an exclusive
-   right that is allegedly infringed.
-
-5. CONTACT INFORMATION
-   Name:    [Your Full Name]
-   Title:   [Your Title]
-   Company: [Your Company]
-   Email:   [Your Email]
-   Phone:   [Your Phone]
-   Address: [Your Address]
-
-${type==='search'?`6. SPECIFIC REQUEST
-   Please remove or disable access to the above URLs from your search
-   index pursuant to 17 U.S.C. § 512(d).
-
-`:''}Signature: ____________________________
-Date: ${today}
-
----
-This notice is sent in compliance with the Digital Millennium Copyright Act
-(17 U.S.C. § 512). Failure to respond may result in further legal action.`;
-
-  const out = document.getElementById('templateOutput');
-  out.textContent = template;
-  out.classList.add('visible');
-}
-
-function copyTemplate(){
-  const out = document.getElementById('templateOutput');
-  if(!out.textContent){generateTemplate();}
-  navigator.clipboard.writeText(out.textContent).then(()=>{
-    const btn = document.querySelector('.btn-secondary');
-    const orig = btn.textContent;
-    btn.textContent = 'Copied!';
-    btn.style.borderColor = 'var(--success)';
-    btn.style.color = 'var(--success)';
-    setTimeout(()=>{btn.textContent=orig;btn.style.borderColor='';btn.style.color='';},2000);
-  });
-}
-
-// Pre-fill template on load
-generateTemplate();
-</script>
-<footer style="text-align:center;padding:32px 24px;border-top:1px solid rgba(26,140,255,0.08);color:#3d5470;font-size:11px;margin-top:40px;max-width:1500px;margin-left:auto;margin-right:auto">
-  <p style="margin-bottom:8px"><strong style="color:#7a9bbf">Research Purpose Notice:</strong> This intelligence report was compiled for copyright enforcement research. Domain data represents sites identified as potentially infringing. Direct URLs to infringing content have been redacted.</p>
-  <p>ARIA v2.0 | Data as of 2026-03-29 | 7,225 domains analyzed | <a href="index.html" style="color:#1a8cff;text-decoration:none">Command Center</a> · <a href="network.html" style="color:#1a8cff;text-decoration:none">Ecosystem Map</a> · <a href="publishers/index.html" style="color:#1a8cff;text-decoration:none">Publishers</a> · <a href="titles.html" style="color:#1a8cff;text-decoration:none">Titles</a> · <a href="enforcement.html" style="color:#1a8cff;text-decoration:none">Enforcement</a> · <a href="trends.html" style="color:#1a8cff;text-decoration:none">Trends</a> · <a href="regions.html" style="color:#1a8cff;text-decoration:none">Geo Intel</a></p>
+    <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="var(--primary)" stroke-width="2"/><p style="margin-bottom:6px"><strong style="color:#7a9bbf">Research Purpose Notice (collection methodology available on request):</strong> This report was compiled for copyright enforcement research through automated crawling and manual review. Domain identification does not constitute legal determination of infringement. Consult qualified counsel before initiating proceedings.</p>
+  <p>ARIA v2.0 | Data as of 2026-03-29 UTC | 7,225 domains analyzed | <a href="index.html" style="color:#1a8cff;text-decoration:none">Command Center</a> · <a href="network.html" style="color:#1a8cff;text-decoration:none">Ecosystem Map</a> · <a href="publishers/index.html" style="color:#1a8cff;text-decoration:none">Publishers</a> · <a href="titles.html" style="color:#1a8cff;text-decoration:none">Titles</a> · <a href="enforcement.html" style="color:#1a8cff;text-decoration:none">Enforcement</a> · <a href="trends.html" style="color:#1a8cff;text-decoration:none">Trends</a> · <a href="regions.html" style="color:#1a8cff;text-decoration:none">Geo Intel</a></p>
 </footer>
+<script>
+function exportTableCSV(tableId, filename) {
+  var table = document.getElementById(tableId);
+  if (!table) return;
+  var csv = [];
+  var rows = table.querySelectorAll('tr');
+  rows.forEach(function(row) {
+    var cols = row.querySelectorAll('td, th');
+    var rowData = [];
+    cols.forEach(function(col) { rowData.push('"' + col.textContent.trim().replace(/"/g, '""') + '"'); });
+    csv.push(rowData.join(','));
+  });
+  var blob = new Blob([csv.join('\n')], {type: 'text/csv'});
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement('a');
+  a.href = url; a.download = filename || 'export.csv';
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+</script>
 </body>
 </html>

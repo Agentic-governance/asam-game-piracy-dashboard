@@ -1,7 +1,9 @@
 <!DOCTYPE html>
+<!-- ARIA Dataset v6.1 | Snapshot 2026-03-29T00:00Z | Pipeline v2.0.2 -->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="generated" content="2026-03-29T01:48:48.128598Z">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="ARIA: Game IP Intelligence Platform — Piracy ecosystem analysis for copyright enforcement">
 <meta name="theme-color" content="#020508">
@@ -55,7 +57,7 @@ a:hover{text-decoration:underline}
 }
 .nav-links{display:flex;gap:4px;align-items:center}
 .nav-links a{
-  padding:6px 14px;border-radius:6px;font-size:.8rem;font-weight:500;
+  padding:6px 14px;border-radius:6px;font-size:.85rem;font-weight:500;
   color:var(--text-2);transition:all .2s;white-space:nowrap;letter-spacing:.02em;
 }
 .nav-links a:hover{color:var(--text-1);background:rgba(26,140,255,.08);text-decoration:none}
@@ -63,7 +65,7 @@ a:hover{text-decoration:underline}
 .nav-right{display:flex;align-items:center;gap:16px;flex-shrink:0}
 .threat-badge{
   display:flex;align-items:center;gap:6px;
-  padding:4px 12px;border-radius:20px;font-size:.7rem;font-weight:700;
+  padding:4px 12px;border-radius:20px;font-size:.75rem;font-weight:700;
   letter-spacing:.06em;color:var(--aria-warning);
   background:rgba(255,170,0,.1);border:1px solid rgba(255,170,0,.25);
 }
@@ -72,7 +74,7 @@ a:hover{text-decoration:underline}
   animation:pulse 2s ease-in-out infinite;
 }
 @keyframes pulse{0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(255,170,0,.5)}50%{opacity:.6;box-shadow:0 0 0 6px rgba(255,170,0,0)}}
-.data-fresh{font-size:.7rem;color:var(--text-3);font-family:var(--font-mono);letter-spacing:.02em}
+.data-fresh{font-size:.75rem;color:var(--text-3);font-family:var(--font-mono);letter-spacing:.02em}
 .btn-export{
   padding:5px 14px;border-radius:6px;font-size:.72rem;font-weight:600;
   letter-spacing:.04em;cursor:pointer;transition:all .2s;
@@ -92,7 +94,7 @@ a:hover{text-decoration:underline}
   border-left:3px solid var(--aria-warning);
   border:1px solid rgba(255,170,0,.12);border-left:3px solid var(--aria-warning);
 }
-.threat-banner-text{font-size:.8rem;color:var(--text-2);line-height:1.5}
+.threat-banner-text{font-size:.85rem;color:var(--text-2);line-height:1.5}
 .threat-banner-text strong{color:var(--aria-warning);font-weight:700;letter-spacing:.04em}
 .threat-banner-range{font-size:.72rem;color:var(--text-3);font-family:var(--font-mono);white-space:nowrap;margin-left:24px}
 
@@ -234,7 +236,7 @@ a:hover{text-decoration:underline}
 .fade-in.visible{opacity:1;transform:translateY(0)}
 
 /* ========== PRINT ========== */
-@media print{
+@media print{.global-cta{display:none!important}
   body{background:#fff!important;color:#111!important;background-image:none!important}
   .navbar,.btn-export,.pulse-dot,.dot-live{display:none!important}
   .main-content{padding-top:0!important}
@@ -259,16 +261,16 @@ a:hover{text-decoration:underline}
   .nav-links{display:none}
 }
 
-/* INTELLIGENCE FEED <span style='font-size:8px;color:#3d5470;font-weight:400;letter-spacing:0'>(source links may redirect to feed index)</span> */
+/* INTELLIGENCE FEED <span style='font-size:11px;color:#3d5470;font-weight:400;letter-spacing:0'>(source links may redirect to feed index)</span> */
 .feed-section{width:100%;max-width:1500px;margin:0 auto 32px;padding:0 24px}
 .feed-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px}
 .feed-header-left{display:flex;align-items:center;gap:10px}
 .feed-live-dot{width:8px;height:8px;border-radius:50%;background:#00e5cc;animation:pulse 2s infinite;flex-shrink:0}
 @keyframes fpulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(1.3)}}
-.feed-label{font-size:10px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:#00e5cc}
-.feed-count{font-size:10px;color:#3d5470;font-family:'JetBrains Mono',monospace}
-.feed-updated{font-size:10px;color:#3d5470}
-.feed-filter-btn{background:none;border:1px solid rgba(26,140,255,.1);color:#3d5470;font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:3px 10px;border-radius:3px;cursor:pointer;transition:all .15s}
+.feed-label{font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:#00e5cc}
+.feed-count{font-size:11px;color:#3d5470;font-family:'JetBrains Mono',monospace}
+.feed-updated{font-size:11px;color:#3d5470}
+.feed-filter-btn{background:none;border:1px solid rgba(26,140,255,.1);color:#3d5470;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:3px 10px;border-radius:3px;cursor:pointer;transition:all .15s}
 .feed-filter-btn:hover,.feed-filter-btn.active{border-color:#00e5cc;color:#00e5cc;background:rgba(0,229,204,.08)}
 .feed-rail-wrapper{position:relative;display:flex;align-items:center;gap:8px}
 .feed-rail{display:flex;gap:12px;overflow-x:auto;scroll-behavior:smooth;scrollbar-width:none;padding:4px 2px 8px;flex:1}
@@ -280,12 +282,12 @@ a:hover{text-decoration:underline}
 .feed-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.3);border-color:rgba(26,140,255,.22)}
 .feed-card[data-score="high"]{--card-accent:#ff3344}.feed-card[data-score="medium"]{--card-accent:#ffaa00}.feed-card[data-score="low"]{--card-accent:#1a8cff}
 .feed-card-meta{display:flex;align-items:center;justify-content:space-between;gap:6px}
-.feed-card-source{font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#00e5cc}
-.feed-card-date{font-size:9px;color:#3d5470;font-family:'JetBrains Mono',monospace}
+.feed-card-source{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#00e5cc}
+.feed-card-date{font-size:11px;color:#3d5470;font-family:'JetBrains Mono',monospace}
 .feed-card-title{font-size:12px;font-weight:700;color:#dce8f8;line-height:1.4;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .feed-card-desc{font-size:11px;color:#3d5470;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .feed-card-tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:auto}
-.feed-tag{font-size:8px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:2px 6px;border-radius:2px;background:rgba(26,140,255,.1);color:#1a8cff;border:1px solid rgba(26,140,255,.2)}
+.feed-tag{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:2px 6px;border-radius:2px;background:rgba(26,140,255,.1);color:#1a8cff;border:1px solid rgba(26,140,255,.2)}
 .feed-tag.tag-enforcement{background:rgba(255,51,68,.1);color:#ff3344;border-color:rgba(255,51,68,.25)}
 .feed-tag.tag-drm{background:rgba(107,79,255,.1);color:#6b4fff;border-color:rgba(107,79,255,.25)}
 .feed-tag.tag-legal{background:rgba(255,170,0,.1);color:#ffaa00;border-color:rgba(255,170,0,.25)}
@@ -294,8 +296,8 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 
 /* ━━━━ DIFF ALERTS (Layer 2) ━━━━ */
 .diff-banner{display:flex;align-items:center;gap:12px;padding:8px 16px;background:rgba(0,229,204,0.05);border:1px solid rgba(0,229,204,0.15);border-radius:6px;margin-bottom:10px;flex-wrap:wrap}
-.diff-banner-label{font-size:9px;font-weight:800;letter-spacing:.15em;text-transform:uppercase;color:#00e5cc}
-.diff-banner-date{font-family:'JetBrains Mono',monospace;font-size:10px;color:#3d5470}
+.diff-banner-label{font-size:11px;font-weight:800;letter-spacing:.15em;text-transform:uppercase;color:#00e5cc}
+.diff-banner-date{font-family:'JetBrains Mono',monospace;font-size:11px;color:#3d5470}
 .diff-stat{font-size:11px;font-weight:700;color:#7a9bbf;font-family:'JetBrains Mono',monospace}
 .diff-stat.up{color:#ff3344}.diff-stat.down{color:#00cc7a}.diff-stat.critical{color:#ff3344;animation:pulse 2s infinite}
 .diff-card{border-color:rgba(0,229,204,0.2)!important}
@@ -303,7 +305,7 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .diff-source{color:#00e5cc!important;display:flex;align-items:center;gap:4px}
 .diff-dot{width:6px;height:6px;border-radius:50%;background:#00e5cc;animation:pulse 1.5s infinite}
 .diff-samples{display:flex;flex-wrap:wrap;gap:4px}
-.diff-sample{font-family:'JetBrains Mono',monospace;font-size:9px;color:#3d5470;background:rgba(255,255,255,.03);padding:2px 6px;border-radius:2px;border:1px solid rgba(26,140,255,.1);max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.diff-sample{font-family:'JetBrains Mono',monospace;font-size:11px;color:#3d5470;background:rgba(255,255,255,.03);padding:2px 6px;border-radius:2px;border:1px solid rgba(26,140,255,.1);max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .feed-tag.tag-layer2{background:rgba(0,229,204,.1);color:#00e5cc;border-color:rgba(0,229,204,.25)}
 .diff-modal{position:fixed;inset:0;background:rgba(2,5,8,.85);backdrop-filter:blur(8px);z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px}
 .diff-modal-content{background:#0c1420;border:1px solid rgba(26,140,255,.22);border-radius:12px;padding:28px;max-width:560px;width:100%;max-height:80vh;overflow-y:auto}
@@ -312,16 +314,16 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .diff-modal-close{background:none;border:none;color:#3d5470;font-size:16px;cursor:pointer;padding:4px}
 .diff-modal-close:hover{color:#dce8f8}
 .diff-modal-detail{font-size:13px;color:#7a9bbf;margin-bottom:20px;line-height:1.6}
-.diff-modal-label{font-size:9px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#3d5470;margin-bottom:10px}
+.diff-modal-label{font-size:11px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#3d5470;margin-bottom:10px}
 .diff-domain-row{display:flex;align-items:center;gap:10px;padding:7px 0;border-bottom:1px solid rgba(255,255,255,.04);flex-wrap:wrap}
 .diff-domain-row .mono{font-family:'JetBrains Mono',monospace;font-size:11px;color:#dce8f8}
-.diff-domain-meta{font-size:10px;color:#3d5470;margin-left:auto}
-.severity-badge{display:inline-flex;align-items:center;gap:4px;padding:2px 8px;border-radius:3px;font-size:10px;font-weight:700;letter-spacing:.08em}
+.diff-domain-meta{font-size:11px;color:#3d5470;margin-left:auto}
+.severity-badge{display:inline-flex;align-items:center;gap:4px;padding:2px 8px;border-radius:3px;font-size:11px;font-weight:700;letter-spacing:.08em}
 .severity-badge.critical{background:rgba(255,51,68,.15);color:#ff3344;border:1px solid rgba(255,51,68,.3)}
 .severity-badge.high{background:rgba(255,170,0,.15);color:#ffaa00;border:1px solid rgba(255,170,0,.3)}
 .severity-badge.medium{background:rgba(26,140,255,.1);color:#1a8cff;border:1px solid rgba(26,140,255,.25)}
 .severity-badge.low{background:rgba(0,204,122,.1);color:#00cc7a;border:1px solid rgba(0,204,122,.25)}
-.global-cta{position:sticky;top:56px;z-index:90;background:linear-gradient(90deg,rgba(0,229,204,0.08),rgba(26,140,255,0.08));border-bottom:1px solid rgba(0,229,204,0.15);padding:10px 24px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;max-width:100%}
+.global-cta{position:sticky;top:56px;z-index:90;background:rgba(6,11,18,0.6);border-bottom:1px solid rgba(0,229,204,0.15);padding:10px 24px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;max-width:100%}
 .cta-left{display:flex;align-items:center;gap:10px;font-size:13px;color:#7a9bbf}
 .cta-left strong{color:#dce8f8}
 .cta-dot-g{width:6px;height:6px;border-radius:50%;background:#00e5cc;animation:pulse 2s infinite;flex-shrink:0}
@@ -344,6 +346,8 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .preview-actions{display:flex;gap:8px;margin-top:12px}
 .btn-secondary{padding:7px 14px;border:1px solid rgba(26,140,255,.3);border-radius:6px;color:#1a8cff;font-size:12px;font-weight:600;text-decoration:none}
 .preview-caselaw{margin-top:10px;font-size:12px;color:#7a9bbf;display:flex;align-items:center;gap:6px}
+.table-responsive{overflow-x:auto;-webkit-overflow-scrolling:touch}
+@media print{.page-print-header{display:block!important;text-align:center;margin-bottom:16px;font-size:14px;color:#333;font-weight:700}}
 </style>
 <script>
 // [LIVE DATA] Game piracy news — auto-fetched 2026-03-29 07:13 UTC
@@ -712,515 +716,8 @@ From: TF, for the latest news on copyright battles, piracy and more.",
           <stop offset="100%" stop-color="#00e5cc"/>
         </linearGradient>
       </defs>
-      <path d="M16 2L4 8v8c0 7.2 5.1 13.9 12 16 6.9-2.1 12-8.8 12-16V8L16 2z" stroke="url(#shield-grad)" stroke-width="1.8" fill="none"/>
-      <path d="M16 7L8 11v5.5c0 5 3.5 9.7 8 11 4.5-1.3 8-6 8-11V11L16 7z" fill="url(#shield-grad)" opacity=".12"/>
-      <circle cx="16" cy="15" r="3.5" stroke="url(#shield-grad)" stroke-width="1.2" fill="none"/>
-      <line x1="16" y1="11" x2="16" y2="8" stroke="url(#shield-grad)" stroke-width="1" opacity=".6"/>
-      <line x1="16" y1="19" x2="16" y2="22" stroke="url(#shield-grad)" stroke-width="1" opacity=".6"/>
-      <line x1="12" y1="15" x2="9" y2="15" stroke="url(#shield-grad)" stroke-width="1" opacity=".6"/>
-      <line x1="20" y1="15" x2="23" y2="15" stroke="url(#shield-grad)" stroke-width="1" opacity=".6"/>
-    </svg>
-    <span class="nav-brand-text">ARIA</span>
-  </div>
-  <div class="nav-links">
-    <a href="index.html" data-page="command" class="active">Command Center</a>
-    <a href="network.html" data-page="network">Ecosystem Map</a>
-    <a href="publishers/index.html" data-page="publishers">Publishers</a>
-    <a href="titles.html" data-page="titles">Title Tracker</a>
-    <a href="enforcement.html" data-page="enforcement">Enforcement</a>
-    <a href="trends.html" data-page="trends">Trends</a>
-    <a href="regions.html" data-page="regions">Geo Intel</a>
-    <a href="contact.html" data-page="evidence">Evidence</a>
-  </div>
-  <div class="nav-right">
-    <div class="threat-badge"><span class="pulse-dot"></span>ELEVATED</div>
-    <span class="data-fresh">2026-03-29</span>
-    <button class="btn-export" onclick="window.print()">Export PDF</button>
-  </div>
-</nav>
-
-<div class="global-cta" id="global-cta">
-  <div class="cta-left">
-    <span class="cta-dot-g"></span>
-    <span>Your publisher has <strong id="cta-url-count">694</strong> documented instances of unauthorized distribution available now. Companies with this evidence win <strong>71-91%</strong> of copyright cases.</span>
-  </div>
-  <div class="cta-right">
-    <a href="contact.html" class="cta-btn">Request evidence package (PDF + CSV, 1 business day) →</a><div style="font-size:8px;color:#3d5470;margin-top:4px"></div>
-  </div>
-</div>
-
-<div class="hero-search-section">
-  <h2>Unauthorized copies of your titles have been identified across multiple jurisdictions.</h2>
-  <p>7,225 active domains engaged in unauthorized distribution. 1.33M infringing titles. Search your publisher to see the damage.</p>
-  <div class="pub-search-box">
-    <input type="text" id="pub-search-input" placeholder="Search publisher: Nintendo, EA, Activision..." autocomplete="off" list="pub-list">
-    <datalist id="pub-list"><option value="Activision"><option value="Nintendo"><option value="Sony"><option value="EA"><option value="Square Enix"><option value="Sega"><option value="Bandai Namco"><option value="Ubisoft"><option value="Capcom"><option value="Microsoft"><option value="Bethesda"><option value="Rockstar"><option value="Konami"><option value="2K Games"><option value="Warner Bros"></datalist>
-    <button onclick="searchPub()">See exposure →</button>
-  </div>
-  <div id="search-preview" class="search-preview" style="display:none"></div>
-</div>
-
-<section id="intelligence-feed" class="feed-section">
-<div class="feed-header">
-<div class="feed-header-left"><span class="feed-live-dot"></span><span class="feed-label">INTELLIGENCE FEED <span style='font-size:8px;color:#3d5470;font-weight:400;letter-spacing:0'>(source links may redirect to feed index)</span></span><span class="feed-count" id="feed-count"></span></div>
-<div class="feed-header-right">
-<span class="feed-updated" id="feed-updated"></span>
-<button class="feed-filter-btn active" data-filter="all">All</button>
-<button class="feed-filter-btn" data-filter="enforcement">Enforcement</button>
-<button class="feed-filter-btn" data-filter="drm">DRM</button>
-<button class="feed-filter-btn" data-filter="legal">Legal</button>
-</div></div>
-<div class="feed-rail-wrapper">
-<button class="feed-nav" id="feed-prev" aria-label="Previous">&#8249;</button>
-<div class="feed-rail" id="feed-rail"></div>
-<button class="feed-nav" id="feed-next" aria-label="Next">&#8250;</button>
-</div></section>
-
-
-<!-- ========== MAIN CONTENT ========== -->
-<div class="main-content">
-
-  <!-- THREAT BRIEFING BANNER -->
-  <div class="threat-banner fade-in">
-    <div class="threat-banner-text">
-      <strong>THREAT LEVEL: ELEVATED</strong> &mdash; Active domains up 8.2% MTD. 3 new bulletproof ASN clusters detected. 2 AAA titles cracked in &lt;24h.
-    </div>
-    <div class="threat-banner-range">Reporting: 2025-04 &rarr; 2026-03</div>
-  </div>
-
-  <!-- KPI ROW -->
-  <div class="kpi-row">
-    <div class="kpi-card fade-in" style="--kpi-color:var(--aria-danger)">
-      <div class="kpi-label">Piracy Domains</div>
-      <div class="kpi-value" data-target="7225" data-prefix="" data-suffix="">0</div>
-      <div class="kpi-sub"><span class="up">&blacktriangle; 8.2%</span> vs last month</div>
-    </div>
-    <div class="kpi-card fade-in" style="--kpi-color:var(--aria-secondary)">
-      <div class="kpi-label">Infringing Works</div>
-      <div class="kpi-value" data-target="1.33" data-prefix="" data-suffix="M" data-decimal="2">0</div>
-      <div class="kpi-sub">140K publisher-attributed</div>
-    </div>
-    <div class="kpi-card fade-in" style="--kpi-color:var(--aria-warning)">
-      <div class="kpi-label">Publishers Affected</div>
-      <div class="kpi-value" data-target="28" data-prefix="" data-suffix="">0</div>
-      <div class="kpi-sub">JP: 62,854 / West: 77,511</div>
-    </div>
-    <div class="kpi-card fade-in" style="--kpi-color:var(--aria-danger)">
-      <div class="kpi-label">Active Threats</div>
-      <div class="kpi-value" data-target="2680" data-prefix="" data-suffix="">0</div>
-      <div class="kpi-sub">37.1% of total</div>
-    </div>
-    <div class="kpi-card fade-in" style="--kpi-color:var(--aria-danger)">
-      <div class="kpi-label">Severity 4-5</div>
-      <div class="kpi-value" data-target="2172" data-prefix="" data-suffix="">0</div>
-      <div class="kpi-sub">57.8% of surveyed domains</div>
-    </div>
-    <div class="kpi-card fade-in" style="--kpi-color:var(--aria-accent)">
-      <div class="kpi-label">Monetization Rate</div>
-      <div class="kpi-value" data-target="99.2" data-prefix="" data-suffix="%" data-decimal="1">0</div>
-      <div class="kpi-sub">389 sites deep-analyzed</div>
-    </div>
-  </div>
-
-  <!-- TWO COLUMN: MAP + FEED -->
-  <div class="two-col">
-    <!-- WORLD THREAT MAP -->
-    <div class="panel fade-in map-container" id="map-panel">
-      <div class="section-title">Global Threat Distribution</div>
-      <div id="world-map"></div>
-      <div class="map-tooltip" id="map-tooltip">
-        <div class="tt-country"></div>
-        <div class="tt-count"></div>
-        <div class="tt-sev"></div>
-      </div>
-      <div class="map-legend">
-        <span>Low</span>
-        <div class="map-legend-bar"></div>
-        <span>High</span>
-      </div>
-    </div>
-
-    <!-- THREAT FEED -->
-    <div class="panel fade-in">
-      <div class="section-title"><span class="dot-live"></span>Live Threat Feed</div>
-      <div class="feed-container" id="threat-feed"></div>
-    </div>
-  </div>
-
-  <!-- DAMAGE SCORECARD -->
-  <div class="three-col">
-    <!-- SEVERITY BREAKDOWN -->
-    <div class="panel fade-in">
-      <div class="section-title">Severity Breakdown</div>
-      <div class="severity-bar-container">
-        <div class="severity-bar">
-          <div style="width:5.4%;background:#ff3344;color:#fff">S5</div>
-          <div style="width:52.4%;background:#ff6633;color:#fff">S4</div>
-          <div style="width:13.5%;background:#ffaa00;color:#111">S3</div>
-          <div style="width:7.3%;background:#1a8cff;color:#fff">S2</div>
-          <div style="width:10.6%;background:#6b4fff;color:#fff">S1</div>
-          <div style="width:10.7%;background:#3d5470;color:#dce8f8">S0</div>
-        </div>
-        <div class="severity-legend">
-          <div class="severity-legend-item"><span class="swatch" style="background:#ff3344"></span>Sev5: 204 (5.4%)</div>
-          <div class="severity-legend-item"><span class="swatch" style="background:#ff6633"></span>Sev4: 1,968 (52.4%)</div>
-          <div class="severity-legend-item"><span class="swatch" style="background:#ffaa00"></span>Sev3: 506 (13.5%)</div>
-          <div class="severity-legend-item"><span class="swatch" style="background:#1a8cff"></span>Sev2: 274 (7.3%)</div>
-          <div class="severity-legend-item"><span class="swatch" style="background:#6b4fff"></span>Sev1: 400 (10.6%)</div>
-          <div class="severity-legend-item"><span class="swatch" style="background:#3d5470"></span>Sev0: 403 (10.7%)</div>
-        </div>
-      </div>
-      <div style="font-size:.7rem;color:var(--text-3);margin-top:8px">Total classified: 3,755 domains (Sev 3+ = 71.3%)</div>
-    </div>
-
-    <!-- ECOTYPE DISTRIBUTION -->
-    <div class="panel fade-in">
-      <div class="section-title">Site Classification (Reclassified)</div>
-      <div class="chart-container">
-        <canvas id="ecotype-chart"></canvas>
-      </div>
-      <div style="font-size:.66rem;color:var(--text-3);margin-top:4px">N=3,755 domains. 2,936 previously unclassified → 76% reclassified via domain/infringement analysis.</div>
-    </div>
-
-    <!-- INFRINGEMENT TYPE DISTRIBUTION -->
-    <div class="panel fade-in">
-      <div class="section-title">Infringement Type Distribution (Reclassified)</div>
-      <div class="chart-container">
-        <canvas id="inf-chart"></canvas>
-      </div>
-      <div style="font-size:.66rem;color:var(--text-3);margin-top:4px">695,999 "unknown" entries reclassified → unknown reduced from 77.8% to 25.3%</div>
-    </div>
-
-    <!-- PRIORITY ACTIONS -->
-    <div class="panel fade-in">
-      <div class="section-title">Top 5 Priority Actions</div>
-      <ol class="priority-list">
-        <li>
-          <span class="priority-num">1</span>
-          <div><span class="feed-sev sev-critical">CRITICAL</span> Rapidgator DMCA batch &mdash; 247 URLs across 12 publisher titles. Host has 72h SLA.</div>
-        </li>
-        <li>
-          <span class="priority-num">2</span>
-          <div><span class="feed-sev sev-critical">CRITICAL</span> 3NT Solutions IP cluster &mdash; 184 domains, single /24 block. Upstream: Cogent.</div>
-        </li>
-        <li>
-          <span class="priority-num">3</span>
-          <div><span class="feed-sev sev-high">HIGH</span> AEZA Group abuse report &mdash; 69 domains, RU-based bulletproof host. Escalate to registrar.</div>
-        </li>
-        <li>
-          <span class="priority-num">4</span>
-          <div><span class="feed-sev sev-high">HIGH</span> Google Search delisting &mdash; top 50 pirate domains by organic traffic. Avg rank: #3.2.</div>
-        </li>
-        <li>
-          <span class="priority-num">5</span>
-          <div><span class="feed-sev sev-medium">MEDIUM</span> Cloudflare abuse &mdash; 204 Sev-5 domains proxied via CF. Batch abuse report ready.</div>
-        </li>
-      </ol>
-    </div>
-  </div>
-
-  <!-- MONETIZATION ANALYSIS BANNER -->
-  <div class="loss-banner fade-in" style="background:linear-gradient(135deg,rgba(0,229,204,.06),rgba(26,140,255,.06));border:1px solid rgba(0,229,204,.12)">
-    <div class="loss-headline" style="font-size:1.3rem">99.2% of surveyed sites hosting unauthorized copies are <span style="background:linear-gradient(135deg,var(--aria-accent),var(--aria-primary));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">commercially monetized</span></div>
-    <div class="loss-note" style="font-style:normal">Based on 389-site deep monetization analysis (ARIA investigation 2025&ndash;2026)</div>
-    <div class="loss-boxes">
-      <div class="loss-box active" style="border-color:rgba(0,229,204,.3);background:rgba(0,229,204,.06)">
-        <div class="loss-box-label">VPN Affiliate</div>
-        <div class="loss-box-val" style="color:var(--aria-accent)">81%</div>
-      </div>
-      <div class="loss-box active" style="border-color:rgba(107,79,255,.3);background:rgba(107,79,255,.06)">
-        <div class="loss-box-label">Crypto Donation</div>
-        <div class="loss-box-val" style="color:var(--aria-secondary)">73%</div>
-      </div>
-      <div class="loss-box active" style="border-color:rgba(255,170,0,.3);background:rgba(255,170,0,.06)">
-        <div class="loss-box-label">Redirect Chains</div>
-        <div class="loss-box-val" style="color:var(--aria-warning)">55%</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- FOOTER -->
-  
-
-</div><!-- /main-content -->
-
-<!-- ========== EXTERNAL SCRIPTS ========== -->
-<script src="assets/d3.min.js"></script>
-<script src="assets/topojson.min.js"></script>
-<script src="assets/chart.min.js"></script>
-
-<!-- ========== INLINE SCRIPTS ========== -->
-<script>
-(function(){
-'use strict';
-
-/* ===== INTERSECTION OBSERVER FOR FADE-IN ===== */
-const fadeEls = document.querySelectorAll('.fade-in');
-const fadeObs = new IntersectionObserver((entries)=>{
-  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');fadeObs.unobserve(e.target)}});
-},{threshold:0.08,rootMargin:'0px 0px -40px 0px'});
-fadeEls.forEach(el=>fadeObs.observe(el));
-
-/* ===== COUNT-UP ANIMATION ===== */
-function easeOutCubic(t){return 1-Math.pow(1-t,3)}
-function countUp(el){
-  const target=parseFloat(el.dataset.target);
-  const prefix=el.dataset.prefix||'';
-  const suffix=el.dataset.suffix||'';
-  const decimal=parseInt(el.dataset.decimal)||0;
-  const duration=800;
-  const start=performance.now();
-  function tick(now){
-    const t=Math.min((now-start)/duration,1);
-    const val=easeOutCubic(t)*target;
-    if(decimal>0){
-      el.textContent = prefix + val.toFixed(decimal) + suffix;
-    } else {
-      el.textContent=prefix+Math.round(val).toLocaleString()+suffix;
-    }
-    if(t<1) requestAnimationFrame(tick);
-  }
-  requestAnimationFrame(tick);
-}
-// Observe KPI values
-const kpiEls=document.querySelectorAll('.kpi-value[data-target]');
-const kpiObs=new IntersectionObserver((entries)=>{
-  entries.forEach(e=>{if(e.isIntersecting){countUp(e.target);kpiObs.unobserve(e.target)}});
-},{threshold:0.3});
-kpiEls.forEach(el=>kpiObs.observe(el));
-
-/* ===== THREAT FEED ===== */
-const feedData=[
-  {time:'12m ago',sev:'critical',color:'var(--aria-danger)',title:'New MangaDex mirror detected on Cloudflare',detail:'Domain: mangadex.buzz — cloned UI with ad injection. 14K daily visits estimated.',action:'DMCA notice queued. Cloudflare abuse ticket #CF-289441.'},
-  {time:'47m ago',sev:'critical',color:'var(--aria-danger)',title:'One Piece Ch.1145 leaked 22h pre-release',detail:'Source: rawkuma.org → 6 aggregators within 4h. Shueisha notified.',action:'Takedown requests sent to 6 hosts.'},
-  {time:'1h ago',sev:'high',color:'var(--aria-warning)',title:'Bulletproof ASN AS399629 hosting 38 new domains',detail:'3NT Solutions cluster expansion. All domains registered via Nicenic.net (HK).',action:'Upstream abuse report to Cogent Communications.'},
-  {time:'2h ago',sev:'critical',color:'var(--aria-danger)',title:'Dragon Ball Daima S02E01 HQ rip on nyaa.si',detail:'1080p WEB-DL, 4.2GB. 2,800 seeders in first 2 hours. Toei Animation title.',action:null},
-  {time:'3h ago',sev:'high',color:'var(--aria-warning)',title:'Google SERP: manga1001.top ranking #2 for "ワンピース 無料"',detail:'Organic traffic est. 89K/mo. Previously delisted domain re-indexed under new TLD.',action:'Search delisting request filed.'},
-  {time:'4h ago',sev:'medium',color:'var(--aria-primary)',title:'SSL certificate rotation detected on klmanga cluster',detail:'47 domains shifted to Let\'s Encrypt wildcard certs. Possible infrastructure migration.',action:null},
-  {time:'5h ago',sev:'high',color:'var(--aria-warning)',title:'Rapidgator batch: 247 infringing URLs identified',detail:'12 publisher titles affected. Kodansha (89), Shueisha (72), Shogakukan (44), other (42).',action:'DMCA batch prepared. 72h host SLA.'},
-  {time:'6h ago',sev:'medium',color:'var(--aria-primary)',title:'New Cloudflare-proxied reader site: rawmanga.one',detail:'Reader-type, Japanese manga focus. ~200 titles indexed. Server: likely AEZA Group (RU).',action:null},
-  {time:'8h ago',sev:'low',color:'var(--aria-success)',title:'Domain expired: manga-zip.is (Sev4, 12K monthly visits)',detail:'Registration lapsed. Domain now parked. Removed from active monitoring.',action:null},
-  {time:'Yesterday',sev:'critical',color:'var(--aria-danger)',title:'Jujutsu Kaisen Vol.28 full scan uploaded to 4 aggregators',detail:'High-res retail scan, 189 pages. Detected within 6h of JP release.',action:'Publisher escalation initiated.'},
-  {time:'Yesterday',sev:'high',color:'var(--aria-warning)',title:'AEZA Group: 12 new reader domains provisioned',detail:'All using shared /24 block 185.112.83.0/24. TLD rotation pattern: .org, .cc, .me.',action:'Registrar abuse reports queued.'},
-  {time:'Yesterday',sev:'medium',color:'var(--aria-primary)',title:'Ad network Exoclick serving on 34% of tracked sites distributing unauthorized copies',detail:'Revenue interdiction opportunity. Exoclick compliance team contacted.',action:null},
-  {time:'2 days ago',sev:'medium',color:'var(--aria-primary)',title:'Viewer-type site animeflv.ws migrated to new IP range',detail:'Previous: Hetzner DE. New: M247 NL. Likely responding to abuse takedown.',action:null},
-  {time:'3 days ago',sev:'low',color:'var(--aria-success)',title:'Enforcement success: 13genki.com suspended by registrar',detail:'Namecheap suspended domain after 3rd DMCA strike. 45K monthly visits eliminated.',action:null},
-  {time:'3 days ago',sev:'high',color:'var(--aria-warning)',title:'TLD analysis: .top and .buzz account for 31% of new domains hosting unauthorized content',detail:'90-day trend shows shift from .org/.net to cheap TLDs. Avg registration cost: $1.20.',action:'Policy brief for ICANN working group drafted.'}
-];
-const feedContainer=document.getElementById('threat-feed');
-feedData.forEach(item=>{
-  const el=document.createElement('div');
-  el.className='feed-item';
-  el.style.setProperty('--feed-color',item.color);
-  let html=`<div class="feed-header"><span class="feed-time">${item.time}</span><span class="feed-sev sev-${item.sev}">${item.sev.toUpperCase()}</span></div>`;
-  html+=`<div class="feed-title">${item.title}</div>`;
-  html+=`<div class="feed-detail">${item.detail}</div>`;
-  if(item.action) html+=`<div class="feed-action">&raquo; ${item.action}</div>`;
-  el.innerHTML=html;
-  feedContainer.appendChild(el);
-});
-
-/* ===== D3 WORLD MAP ===== */
-const countryData={
-  'United States':1692,'Russia':487,'China':342,'Latvia':182,
-  'Germany':73,'Netherlands':54,'United Kingdom':41,'France':38,
-  'Japan':35,'Canada':31,'Ukraine':28,'Romania':24,
-  'India':22,'Brazil':19,'Singapore':17,'Hong Kong':16,
-  'Lithuania':14,'Bulgaria':12,'Moldova':11,'Vietnam':10,
-  'Indonesia':9,'Turkey':8,'South Korea':7,'Thailand':6,
-  'Czech Republic':5,'Poland':5,'Finland':4,'Sweden':4,
-  'Australia':3,'South Africa':2,'Mexico':2,'Argentina':1
-};
-const nameMap={
-  'United States of America':'United States','Russian Federation':'Russia',
-  'United Kingdom of Great Britain and Northern Ireland':'United Kingdom',
-  'Korea, Republic of':'South Korea','Viet Nam':'Vietnam',
-  'Czechia':'Czech Republic','Czech Republic':'Czech Republic'
-};
-const maxCount=Math.max(...Object.values(countryData));
-
-function initMap(){
-  const container=document.getElementById('world-map');
-  if(!container) return;
-  const w=container.parentElement.clientWidth-40;
-  const h=Math.max(360, w*0.48);
-
-  const svg=d3.select('#world-map').append('svg')
-    .attr('width',w).attr('height',h)
-    .style('display','block');
-
-  const g=svg.append('g');
-
-  const projection=d3.geoNaturalEarth1()
-    .scale(w/5.8)
-    .translate([w/2,h/2]);
-  const path=d3.geoPath().projection(projection);
-
-  const colorScale=d3.scaleSequentialLog(d3.interpolateRgbBasis([
-    'rgba(26,140,255,0.05)','#1a8cff','#6b4fff','#ff3344'
-  ])).domain([1,maxCount]);
-
-  const tooltip=document.getElementById('map-tooltip');
-
-  d3.json('assets/world-110m.json').then(world=>{
-    const countries=topojson.feature(world,world.objects.countries);
-
-    g.selectAll('path').data(countries.features).join('path')
-      .attr('d',path)
-      .attr('fill',d=>{
-        const name=d.properties.name;
-        const resolved=nameMap[name]||name;
-        const count=countryData[resolved];
-        return count?colorScale(count):'rgba(26,140,255,0.04)';
-      })
-      .attr('stroke','rgba(26,140,255,0.12)')
-      .attr('stroke-width',0.4)
-      .style('cursor','pointer')
-      .on('mouseover',function(event,d){
-        const name=d.properties.name;
-        const resolved=nameMap[name]||name;
-        const count=countryData[resolved]||0;
-        d3.select(this).attr('stroke','var(--aria-primary)').attr('stroke-width',1.2);
-        if(count>0){
-          const sev=count>200?'CRITICAL':count>50?'HIGH':count>10?'MEDIUM':'LOW';
-          const sevColor=count>200?'#ff3344':count>50?'#ffaa00':count>10?'#1a8cff':'#00cc7a';
-          tooltip.querySelector('.tt-country').textContent=resolved;
-          tooltip.querySelector('.tt-count').textContent=count.toLocaleString()+' domains';
-          tooltip.querySelector('.tt-sev').textContent='Severity: '+sev;
-          tooltip.querySelector('.tt-sev').style.color=sevColor;
-          tooltip.classList.add('visible');
-        }
-      })
-      .on('mousemove',function(event){
-        const rect=document.getElementById('map-panel').getBoundingClientRect();
-        tooltip.style.left=(event.clientX-rect.left+12)+'px';
-        tooltip.style.top=(event.clientY-rect.top-10)+'px';
-      })
-      .on('mouseout',function(){
-        d3.select(this).attr('stroke','rgba(26,140,255,0.12)').attr('stroke-width',0.4);
-        tooltip.classList.remove('visible');
-      });
-
-    // Zoom/pan
-    const zoom=d3.zoom().scaleExtent([1,8]).on('zoom',e=>g.attr('transform',e.transform));
-    svg.call(zoom);
-  }).catch(()=>{
-    // Fallback if JSON not available
-    document.getElementById('world-map').innerHTML='<div style="display:flex;align-items:center;justify-content:center;height:300px;color:var(--text-3);font-size:.8rem">Map data loading... Place world-110m.json in assets/</div>';
-  });
-}
-
-/* ===== ECOTYPE CHART (Chart.js) ===== */
-function initEcotypeChart(){
-  const ctx=document.getElementById('ecotype-chart');
-  if(!ctx||typeof Chart==='undefined') return;
-  new Chart(ctx,{
-    type:'doughnut',
-    data:{
-      labels:['Mobile (546)','Torrent (453)','DDL (433)','ROM (303)','Aggregator (263)','Crack (152)','News/Review (140)','Repack (81)','Inactive (533)','Unclassified (712)'],
-      datasets:[{
-        data:[546,453,433,303,263,152,140,81,533,712],
-        backgroundColor:['#ffc800','#ff3344','#00e5cc','#ffaa00','#6b4fff','#8b5cf6','#3d5470','#ff6b81','#2d3b50','#1e293b'],
-        borderColor:'#0c1420',borderWidth:2,hoverOffset:6
-      }]
-    },
-    options:{
-      responsive:true,maintainAspectRatio:false,
-      cutout:'55%',
-      plugins:{
-        legend:{display:true,position:'bottom',labels:{
-          color:'#7a9bbf',font:{size:9,family:'Inter'},boxWidth:10,padding:6,usePointStyle:true
-        }},
-        tooltip:{callbacks:{label:function(c){const v=c.raw;const pct=(v/3755*100).toFixed(1);return c.label+': '+v.toLocaleString()+' ('+pct+'%)'}}}
-      }
-    }
-  });
-}
-
-function initInfChart(){
-  const ctx=document.getElementById('inf-chart');
-  if(!ctx||typeof Chart==='undefined') return;
-  new Chart(ctx,{
-    type:'bar',
-    data:{
-      labels:['Torrent','Unknown','DDL','Crack','ROM/ISO','Mobile Mod','Repack'],
-      datasets:[{
-        label:'Work entries',
-        data:[319194,336232,198355,165175,143177,85004,71563],
-        backgroundColor:['#ff334499','#1e293b99','#00e5cc99','#8b5cf699','#ffaa0099','#ffc80099','#ff6b8199'],
-        borderColor:['#ff3344','#3d5470','#00e5cc','#8b5cf6','#ffaa00','#ffc800','#ff6b81'],
-        borderWidth:1.5,borderRadius:4,barPercentage:.7
-      }]
-    },
-    options:{
-      responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.parsed.y.toLocaleString()+' entries'}}}},
-      scales:{x:{grid:{color:'rgba(26,140,255,.04)'}},y:{grid:{color:'rgba(26,140,255,.04)'},title:{display:true,text:'Work Entries',color:'#3d5470'}}}
-    }
-  });
-}
-
-/* ===== INIT ===== */
-function init(){
-  initMap();
-  initEcotypeChart();
-  initInfChart();
-}
-if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',init)}else{init()}
-
-})();
-</script>
-<script>
-
-(function(){
-const news = (typeof ARIA_NEWS!=='undefined'&&ARIA_NEWS.items&&ARIA_NEWS.items.length>=3)?ARIA_NEWS:{fetched_at:new Date().toISOString(),items:[]};
-const rail=document.getElementById('feed-rail'),counter=document.getElementById('feed-count'),updated=document.getElementById('feed-updated');
-if(!rail||!news.items.length)return;
-const h=Math.floor((Date.now()-new Date(news.fetched_at))/36e5);
-updated.textContent=h<1?'Updated just now':h<24?`Updated ${h}h ago`:`Updated ${Math.floor(h/24)}d ago`;
-function cat(item){const k=(item.matched_keywords||[]).join(' ');if(/seized|arrested|lawsuit|injunction/.test(k))return'enforcement';if(/denuvo|drm|crack/.test(k))return'drm';if(/dmca|copyright|infringement/.test(k))return'legal';return'general'}
-function lvl(s){return s>=10?'high':s>=5?'medium':'low'}
-function fmt(d){if(!d)return'';const x=new Date(d);return isNaN(x)?d.slice(0,10):x.toLocaleDateString('en-US',{month:'short',day:'numeric'})}
-function mkCard(item){
-const c=cat(item),l=lvl(item.relevance_score||0),tags=(item.matched_keywords||[]).slice(0,3);
-const a=document.createElement('a');a.className='feed-card';a.href=item.link||'#';a.target='_blank';a.rel='noopener';a.dataset.score=l;a.dataset.category=c;
-a.innerHTML=`<div class="feed-card-meta"><span class="feed-card-source">${item.source||''}</span><span class="feed-card-date">${fmt(item.date)}</span></div><div class="feed-card-title">${item.title}</div>${item.description?`<div class="feed-card-desc">${item.description}</div>`:''}<div class="feed-card-tags">${tags.map(t=>{const cls=/dmca|copyright/.test(t)?'tag-legal':/seized|arrested|lawsuit/.test(t)?'tag-enforcement':/denuvo|drm|crack/.test(t)?'tag-drm':'';return`<span class="feed-tag ${cls}">${t}</span>`}).join('')}</div>`;
-return a}
-let cur=news.items;
-function render(items){rail.innerHTML='';items.forEach(i=>rail.appendChild(mkCard(i)));counter.textContent=`— ${items.length} articles`}
-render(cur);
-document.querySelectorAll('.feed-filter-btn').forEach(b=>{b.addEventListener('click',()=>{document.querySelectorAll('.feed-filter-btn').forEach(x=>x.classList.remove('active'));b.classList.add('active');const f=b.dataset.filter;cur=f==='all'?news.items:news.items.filter(i=>cat(i)===f);render(cur)})});
-document.getElementById('feed-prev').addEventListener('click',()=>rail.scrollBy({left:-600,behavior:'smooth'}));
-document.getElementById('feed-next').addEventListener('click',()=>rail.scrollBy({left:600,behavior:'smooth'}));
-})();
-
-</script>
-<!-- MCP Callout -->
-<section style="max-width:1200px;margin:40px auto 0;padding:0 24px">
-<div style="background:linear-gradient(135deg,rgba(26,140,255,0.06),rgba(107,79,255,0.06));border:1px solid rgba(26,140,255,0.15);border-radius:12px;padding:28px 32px;display:flex;align-items:center;gap:24px;flex-wrap:wrap">
-  <div style="flex-shrink:0">
-    <span style="background:linear-gradient(135deg,#1a8cff,#6b4fff);color:#fff;font-size:10px;font-weight:800;letter-spacing:1px;padding:3px 10px;border-radius:3px">NEW</span>
-  </div>
-  <div style="flex:1;min-width:250px">
-    <div style="font-size:18px;font-weight:800;color:#dce8f8;margin-bottom:6px">ARIA DMCA Enforcement MCP</div>
-    <div style="font-size:13px;color:#7a9bbf;line-height:1.6">Connect to Claude Desktop and automate your entire enforcement workflow.<br>Strategy → Evidence → DMCA → Tracking. All from natural language.</div>
-    <div style="display:flex;gap:12px;margin-top:10px;flex-wrap:wrap;font-size:11px;color:#3d5470">
-      <span style="background:rgba(26,140,255,0.08);border:1px solid rgba(26,140,255,0.15);padding:2px 8px;border-radius:3px">17 tools</span>
-      <span style="background:rgba(26,140,255,0.08);border:1px solid rgba(26,140,255,0.15);padding:2px 8px;border-radius:3px">6 jurisdictions</span>
-      <span style="background:rgba(26,140,255,0.08);border:1px solid rgba(26,140,255,0.15);padding:2px 8px;border-radius:3px">10 file hosts</span>
-      <span style="background:rgba(26,140,255,0.08);border:1px solid rgba(26,140,255,0.15);padding:2px 8px;border-radius:3px">Caselaw-powered</span>
-    </div>
-  </div>
-  <div style="text-align:right;flex-shrink:0">
-    <div style="font-size:12px;color:#3d5470;margin-bottom:8px">from <span style="font-size:20px;font-weight:800;color:#dce8f8;font-family:'JetBrains Mono',monospace">$299</span>/month</div>
-    <a href="contact.html?product=mcp" style="display:inline-block;background:linear-gradient(135deg,#1a8cff,#6b4fff);color:#fff;font-size:12px;font-weight:700;padding:10px 24px;border-radius:6px;text-decoration:none;letter-spacing:.3px">Get MCP access →</a>
-  </div>
-</div>
-</section>
-
-<footer style="text-align:center;padding:32px 24px;border-top:1px solid rgba(26,140,255,0.08);color:#3d5470;font-size:11px;margin-top:40px;max-width:1500px;margin-left:auto;margin-right:auto">
-  <p style="margin-bottom:8px"><strong style="color:#7a9bbf">Research Purpose Notice:</strong> This intelligence report was compiled for copyright enforcement research. Domain data represents sites identified through automated and manual review as hosting unauthorized copies. Direct URLs to infringing content have been redacted.</p>
-  <p>ARIA v2.0 | Data as of 2026-03-29 | 7,225 domains analyzed | <a href="index.html" style="color:#1a8cff;text-decoration:none">Command Center</a> · <a href="network.html" style="color:#1a8cff;text-decoration:none">Ecosystem Map</a> · <a href="publishers/index.html" style="color:#1a8cff;text-decoration:none">Publishers</a> · <a href="titles.html" style="color:#1a8cff;text-decoration:none">Titles</a> · <a href="enforcement.html" style="color:#1a8cff;text-decoration:none">Enforcement</a> · <a href="trends.html" style="color:#1a8cff;text-decoration:none">Trends</a> · <a href="regions.html" style="color:#1a8cff;text-decoration:none">Geo Intel</a></p>
+      <p style="margin-bottom:6px"><strong style="color:#7a9bbf">Research Purpose Notice (collection methodology available on request):</strong> This report was compiled for copyright enforcement research through automated crawling and manual review. Domain identification does not constitute legal determination of infringement. Consult qualified counsel before initiating proceedings.</p>
+  <p>ARIA v2.0 | Data as of 2026-03-29 UTC | 7,225 domains analyzed | <a href="index.html" style="color:#1a8cff;text-decoration:none">Command Center</a> · <a href="network.html" style="color:#1a8cff;text-decoration:none">Ecosystem Map</a> · <a href="publishers/index.html" style="color:#1a8cff;text-decoration:none">Publishers</a> · <a href="titles.html" style="color:#1a8cff;text-decoration:none">Titles</a> · <a href="enforcement.html" style="color:#1a8cff;text-decoration:none">Enforcement</a> · <a href="trends.html" style="color:#1a8cff;text-decoration:none">Trends</a> · <a href="regions.html" style="color:#1a8cff;text-decoration:none">Geo Intel</a></p>
 </footer>
 
 <script>
