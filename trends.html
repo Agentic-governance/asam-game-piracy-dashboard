@@ -141,7 +141,8 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
   <div class="grid-2">
     <!-- ECOTYPE DISTRIBUTION -->
     <div class="card">
-      <div class="card-title">Ecotype Distribution</div>
+      <div class="card-title">Site Classification (reclassified)</div>
+      <div style="font-size:10px;color:#3d5470;margin-bottom:8px">2,936 previously unclassified → 76% reclassified via domain pattern + infringement analysis</div>
       <div class="card-sub">Site archetype breakdown across investigated domains</div>
       <div class="chart-wrap" style="height:280px"><canvas id="chartEcotype"></canvas></div>
     </div>
@@ -224,10 +225,10 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
     }
   });
 
-  /* ---------- ECOTYPE DISTRIBUTION ---------- */
-  var ecoLabels = ['Unclassified','Mobile','Torrent','ROM','Repack','DDL','Crack'];
-  var ecoData = [2936,278,224,214,43,32,28];
-  var ecoColors = ['#3d5470','#1a8cff','#ff3344','#6b4fff','#ffaa00','#00e5cc','#00cc7a'];
+  /* ---------- ECOTYPE DISTRIBUTION (after reclassification of 2,936 unclassified) ---------- */
+  var ecoLabels = ['Mobile','Torrent','DDL','ROM','Aggregator','Crack','News/Review','Repack','Inactive','Software','Storefront','Forum','Unclassified'];
+  var ecoData = [546,453,433,303,263,152,140,81,533,60,28,24,712];
+  var ecoColors = ['#ffc800','#ff3344','#00e5cc','#ffaa00','#6b4fff','#8b5cf6','#3d5470','#ff6b81','#2d3b50','#7a9bbf','#1a8cff','#4a6080','#1e293b'];
 
   new Chart(document.getElementById('chartEcotype'),{
     type:'bar',

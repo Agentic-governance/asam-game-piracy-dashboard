@@ -875,11 +875,11 @@ From: TF, for the latest news on copyright battles, piracy and more.",
 
     <!-- ECOTYPE DISTRIBUTION -->
     <div class="panel fade-in">
-      <div class="section-title">Site Ecotype Distribution</div>
+      <div class="section-title">Site Classification (Reclassified)</div>
       <div class="chart-container">
         <canvas id="ecotype-chart"></canvas>
       </div>
-      <div style="font-size:.66rem;color:var(--text-3);margin-top:4px">N=3,755 classified domains. 78.2% remain unclassified by ecotype sub-category.</div>
+      <div style="font-size:.66rem;color:var(--text-3);margin-top:4px">N=3,755 domains. 2,936 previously unclassified → 76% reclassified via domain/infringement analysis.</div>
     </div>
 
     <!-- PRIORITY ACTIONS -->
@@ -1108,10 +1108,10 @@ function initEcotypeChart(){
   new Chart(ctx,{
     type:'doughnut',
     data:{
-      labels:['Unclassified (2,936)','Mobile (278)','Torrent (224)','ROM (214)','Repack (43)','DDL (32)','Crack (28)'],
+      labels:['Mobile (546)','Torrent (453)','DDL (433)','ROM (303)','Aggregator (263)','Crack (152)','News/Review (140)','Repack (81)','Inactive (533)','Unclassified (712)'],
       datasets:[{
-        data:[2936,278,224,214,43,32,28],
-        backgroundColor:['#3d5470','#1a8cff','#ffaa00','#6b4fff','#00e5cc','#ff3344','#ff6633'],
+        data:[546,453,433,303,263,152,140,81,533,712],
+        backgroundColor:['#ffc800','#ff3344','#00e5cc','#ffaa00','#6b4fff','#8b5cf6','#3d5470','#ff6b81','#2d3b50','#1e293b'],
         borderColor:'#0c1420',borderWidth:2,hoverOffset:6
       }]
     },
