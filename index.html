@@ -882,6 +882,15 @@ From: TF, for the latest news on copyright battles, piracy and more.",
       <div style="font-size:.66rem;color:var(--text-3);margin-top:4px">N=3,755 domains. 2,936 previously unclassified → 76% reclassified via domain/infringement analysis.</div>
     </div>
 
+    <!-- INFRINGEMENT TYPE DISTRIBUTION -->
+    <div class="panel fade-in">
+      <div class="section-title">Infringement Type Distribution (Reclassified)</div>
+      <div class="chart-container">
+        <canvas id="inf-chart"></canvas>
+      </div>
+      <div style="font-size:.66rem;color:var(--text-3);margin-top:4px">695,999 "unknown" entries reclassified → unknown reduced from 77.8% to 25.3%</div>
+    </div>
+
     <!-- PRIORITY ACTIONS -->
     <div class="panel fade-in">
       <div class="section-title">Top 5 Priority Actions</div>
@@ -1128,10 +1137,34 @@ function initEcotypeChart(){
   });
 }
 
+function initInfChart(){
+  const ctx=document.getElementById('inf-chart');
+  if(!ctx||typeof Chart==='undefined') return;
+  new Chart(ctx,{
+    type:'bar',
+    data:{
+      labels:['Torrent','Unknown','DDL','Crack','ROM/ISO','Mobile Mod','Repack'],
+      datasets:[{
+        label:'Work entries',
+        data:[319194,336232,198355,165175,143177,85004,71563],
+        backgroundColor:['#ff334499','#1e293b99','#00e5cc99','#8b5cf699','#ffaa0099','#ffc80099','#ff6b8199'],
+        borderColor:['#ff3344','#3d5470','#00e5cc','#8b5cf6','#ffaa00','#ffc800','#ff6b81'],
+        borderWidth:1.5,borderRadius:4,barPercentage:.7
+      }]
+    },
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.parsed.y.toLocaleString()+' entries'}}}},
+      scales:{x:{grid:{color:'rgba(26,140,255,.04)'}},y:{grid:{color:'rgba(26,140,255,.04)'},title:{display:true,text:'Work Entries',color:'#3d5470'}}}
+    }
+  });
+}
+
 /* ===== INIT ===== */
 function init(){
   initMap();
   initEcotypeChart();
+  initInfChart();
 }
 if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',init)}else{init()}
 
