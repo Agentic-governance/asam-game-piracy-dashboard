@@ -228,36 +228,36 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 /* Top 30 Titles Table */
 (function(){
   var titles=[
-    {rank:1,  title:'Pokemon Legends: Z-A',        publisher:'Nintendo',           sites:190, infringement:'ROM/Emulation',    platform:'Switch',      severity:'CRITICAL'},
-    {rank:2,  title:'Pokemon Scarlet/Violet',       publisher:'Nintendo',           sites:174, infringement:'ROM/Emulation',    platform:'Switch',      severity:'CRITICAL'},
-    {rank:3,  title:'Zelda: Echoes of Wisdom',      publisher:'Nintendo',           sites:162, infringement:'ROM/Emulation',    platform:'Switch',      severity:'CRITICAL'},
-    {rank:4,  title:'Mario Kart 9',                 publisher:'Nintendo',           sites:148, infringement:'ROM/Emulation',    platform:'Switch 2',    severity:'CRITICAL'},
-    {rank:5,  title:'Super Mario Bros. Wonder',     publisher:'Nintendo',           sites:135, infringement:'ROM/Emulation',    platform:'Switch',      severity:'CRITICAL'},
-    {rank:6,  title:'FIFA 27',                      publisher:'EA Sports',          sites:89,  infringement:'Crack/Keygen',     platform:'PC/Console',  severity:'CRITICAL'},
-    {rank:7,  title:'Elden Ring: Nightreign',       publisher:'Bandai Namco',       sites:82,  infringement:'Crack/Repack',     platform:'PC',          severity:'HIGH'},
-    {rank:8,  title:'GTA VI',                       publisher:'Rockstar Games',     sites:76,  infringement:'Leak/Pre-release', platform:'PC/Console',  severity:'CRITICAL'},
-    {rank:9,  title:'Hogwarts Legacy 2',            publisher:'Warner Bros.',       sites:68,  infringement:'Crack/Repack',     platform:'PC',          severity:'HIGH'},
-    {rank:10, title:'Starfield: Shattered Space',   publisher:'Bethesda',           sites:61,  infringement:'Crack/Repack',     platform:'PC',          severity:'HIGH'},
-    {rank:11, title:'Call of Duty: Black Ops 7',    publisher:'Activision',         sites:57,  infringement:'Crack/Keygen',     platform:'PC',          severity:'HIGH'},
-    {rank:12, title:'Spider-Man 2',                 publisher:'Sony/Insomniac',     sites:52,  infringement:'Crack/Repack',     platform:'PC',          severity:'HIGH'},
-    {rank:13, title:'God of War: Ragnarok',         publisher:'Sony/Santa Monica',  sites:48,  infringement:'Crack/Repack',     platform:'PC',          severity:'HIGH'},
-    {rank:14, title:'Cyberpunk 2077: Orion',        publisher:'CD Projekt',         sites:45,  infringement:'Crack/Repack',     platform:'PC',          severity:'HIGH'},
-    {rank:15, title:'Final Fantasy VII Rebirth',    publisher:'Square Enix',        sites:42,  infringement:'Crack/Repack',     platform:'PC',          severity:'HIGH'},
-    {rank:16, title:'Monster Hunter Wilds',         publisher:'Capcom',             sites:39,  infringement:'Crack/Repack',     platform:'PC',          severity:'HIGH'},
-    {rank:17, title:"Assassin's Creed Shadows",     publisher:'Ubisoft',            sites:37,  infringement:'Crack/Repack',     platform:'PC',          severity:'MEDIUM'},
-    {rank:18, title:'Resident Evil 9',              publisher:'Capcom',             sites:34,  infringement:'Crack/Repack',     platform:'PC',          severity:'MEDIUM'},
-    {rank:19, title:'Metroid Prime 4',              publisher:'Nintendo',           sites:32,  infringement:'ROM/Emulation',    platform:'Switch 2',    severity:'MEDIUM'},
-    {rank:20, title:'Dragon Age: The Veilguard',    publisher:'EA/BioWare',         sites:30,  infringement:'Crack/Repack',     platform:'PC',          severity:'MEDIUM'},
-    {rank:21, title:'The Witcher 4',                publisher:'CD Projekt',         sites:28,  infringement:'Pre-release Leak', platform:'PC',          severity:'MEDIUM'},
-    {rank:22, title:'GTA V (Legacy)',               publisher:'Rockstar Games',     sites:25,  infringement:'Crack/Mod',        platform:'PC',          severity:'MEDIUM'},
-    {rank:23, title:'Fable',                        publisher:'Xbox Game Studios',  sites:24,  infringement:'Crack/Repack',     platform:'PC',          severity:'MEDIUM'},
-    {rank:24, title:'Death Stranding 2',            publisher:'Sony/Kojima',        sites:22,  infringement:'Crack/Repack',     platform:'PC',          severity:'MEDIUM'},
-    {rank:25, title:'Hollow Knight: Silksong',      publisher:'Team Cherry',        sites:21,  infringement:'Crack/Repack',     platform:'PC',          severity:'LOW'},
-    {rank:26, title:'Doom: The Dark Ages',          publisher:'Bethesda',           sites:19,  infringement:'Crack/Repack',     platform:'PC',          severity:'LOW'},
-    {rank:27, title:'Tekken 8 S2',                  publisher:'Bandai Namco',       sites:18,  infringement:'Crack/Keygen',     platform:'PC',          severity:'LOW'},
-    {rank:28, title:'Like a Dragon: Pirate Yakuza', publisher:'Sega',               sites:16,  infringement:'Crack/Repack',     platform:'PC',          severity:'LOW'},
-    {rank:29, title:'Persona 6',                    publisher:'Atlus/Sega',         sites:15,  infringement:'Crack/Repack',     platform:'PC',          severity:'LOW'},
-    {rank:30, title:'Silent Hill 2 Remake',         publisher:'Konami',             sites:14,  infringement:'Crack/Repack',     platform:'PC',          severity:'LOW'}
+    {rank:1,  title:'Minecraft',                     publisher:'Microsoft',          sites:233, infringement:'mobile-mod',  platform:'Android',     severity:'CRITICAL'},
+    {rank:2,  title:'Sonic',                         publisher:'Sega',               sites:190, infringement:'mobile-mod',  platform:'Android',     severity:'CRITICAL'},
+    {rank:3,  title:'Pokemon',                       publisher:'Nintendo',           sites:190, infringement:'mobile-mod',  platform:'Android',     severity:'CRITICAL'},
+    {rank:4,  title:'Naruto',                        publisher:'Bandai Namco',       sites:107, infringement:'mobile-mod',  platform:'Android',     severity:'CRITICAL'},
+    {rank:5,  title:'Pac-Man',                       publisher:'Bandai Namco',       sites:106, infringement:'mobile-mod',  platform:'Android',     severity:'CRITICAL'},
+    {rank:6,  title:'Ratchet & Clank: Ranger Rumble',publisher:'Sony',               sites:88,  infringement:'DDL',         platform:'Android',     severity:'CRITICAL'},
+    {rank:7,  title:'DOOM',                          publisher:'Bethesda',           sites:48,  infringement:'ROM/ISO',     platform:'PC',          severity:'CRITICAL'},
+    {rank:8,  title:'Prince of Persia',              publisher:'Ubisoft',            sites:36,  infringement:'ROM/ISO',     platform:'PC',          severity:'HIGH'},
+    {rank:9,  title:'Mortal Kombat',                 publisher:'Warner Bros',        sites:36,  infringement:'ROM/ISO',     platform:'PC',          severity:'HIGH'},
+    {rank:10, title:'Terraria',                      publisher:'505 Games',          sites:34,  infringement:'DDL',         platform:'PC',          severity:'HIGH'},
+    {rank:11, title:'Little Nightmares',             publisher:'Bandai Namco',       sites:33,  infringement:'torrent',     platform:'PC',          severity:'HIGH'},
+    {rank:12, title:'Bayonetta',                     publisher:'Sega',               sites:27,  infringement:'ROM/ISO',     platform:'PC',          severity:'HIGH'},
+    {rank:13, title:'Left 4 Dead 2',                 publisher:'Valve',              sites:27,  infringement:'ROM/ISO',     platform:'PC',          severity:'HIGH'},
+    {rank:14, title:'Call of Duty',                  publisher:'Activision',         sites:27,  infringement:'torrent',     platform:'PC',          severity:'HIGH'},
+    {rank:15, title:'The Evil Within',               publisher:'Bethesda',           sites:26,  infringement:'ROM/ISO',     platform:'PC',          severity:'HIGH'},
+    {rank:16, title:'Red Dead Redemption',           publisher:'Rockstar',           sites:26,  infringement:'ROM/ISO',     platform:'PC',          severity:'HIGH'},
+    {rank:17, title:'Hotline Miami 2: Wrong Number', publisher:'Devolver Digital',   sites:25,  infringement:'DDL',         platform:'PC',          severity:'MEDIUM'},
+    {rank:18, title:'God of War',                    publisher:'Sony',               sites:25,  infringement:'ROM/ISO',     platform:'PC',          severity:'MEDIUM'},
+    {rank:19, title:'Half-Life 2',                   publisher:'Valve',              sites:25,  infringement:'DDL',         platform:'PC',          severity:'MEDIUM'},
+    {rank:20, title:'Tomb Raider',                   publisher:'Square Enix',        sites:25,  infringement:'ROM/ISO',     platform:'PC',          severity:'MEDIUM'},
+    {rank:21, title:'GTA: San Andreas',              publisher:'Rockstar',           sites:25,  infringement:'ROM/ISO',     platform:'PC',          severity:'MEDIUM'},
+    {rank:22, title:'Hitman: Absolution',            publisher:'Square Enix',        sites:25,  infringement:'DDL',         platform:'PC',          severity:'MEDIUM'},
+    {rank:23, title:'Saints Row 2',                  publisher:'THQ Nordic',         sites:25,  infringement:'DDL',         platform:'PC',          severity:'MEDIUM'},
+    {rank:24, title:'Fallout',                       publisher:'Bethesda',           sites:25,  infringement:'torrent',     platform:'PC',          severity:'MEDIUM'},
+    {rank:25, title:'Forza Horizon 5',               publisher:'Microsoft',          sites:24,  infringement:'DDL',         platform:'PC',          severity:'MEDIUM'},
+    {rank:26, title:'SnowRunner',                    publisher:'Focus Ent.',         sites:24,  infringement:'DDL',         platform:'PC',          severity:'MEDIUM'},
+    {rank:27, title:'Grand Theft Auto',              publisher:'Rockstar',           sites:24,  infringement:'torrent',     platform:'PC',          severity:'MEDIUM'},
+    {rank:28, title:'Borderlands 2',                 publisher:'2K Games',           sites:23,  infringement:'DDL',         platform:'PC',          severity:'LOW'},
+    {rank:29, title:'Worms',                         publisher:'Team17',             sites:23,  infringement:'torrent',     platform:'PC',          severity:'LOW'},
+    {rank:30, title:'Need for Speed Underground 2',  publisher:'EA',                 sites:22,  infringement:'torrent',     platform:'PC',          severity:'LOW'}
   ];
 
   var tbody=document.getElementById('titlesBody');
@@ -288,7 +288,7 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
       for(var j=0;j<headers.length;j++){headers[j].classList.remove('sorted');}
       this.classList.add('sorted');
       this.querySelector('.sort-icon').textContent=sortAsc?'\u25B2':'\u25BC';
-      var sorted=titles.slice().sort(function(a,b){
+      var sorted=TITLE_DATA.slice().sort(function(a,b){
         var va=a[col],vb=b[col];
         if(typeof va==='number') return sortAsc? va-vb : vb-va;
         va=String(va).toLowerCase(); vb=String(vb).toLowerCase();
