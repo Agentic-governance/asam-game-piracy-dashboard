@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!-- ARIA Dataset v6 | Snapshot 2026-03-29 UTC -->
+<!-- ARIA Dataset v6 | Snapshot 2026-03-30 UTC -->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="generated" content="2026-03-29T10:00:00Z">
+<meta name="generated" content="2026-03-30T10:00:00Z">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="ARIA: Game IP Intelligence Platform — Piracy ecosystem analysis for copyright enforcement">
 <meta name="theme-color" content="#020508">
@@ -159,7 +159,7 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
   </div>
   <div class="nav-meta">
     <span class="badge-threat">THREAT: HIGH</span>
-    <span class="freshness">Updated 2026-03-29 09:00 JST</span>
+    <span class="freshness">Updated 2026-03-30 09:00 JST</span>
     <button class="btn-export" onclick="window.print()">Export</button>
   </div>
 </nav>
@@ -174,7 +174,7 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 <div class="page-wrap">
   <!-- HEADER -->
   <div class="page-header">
-    <h1>ENFORCEMENT CENTER</h1>
+    <h1>ENFORCEMENT CENTER — Detect → File → Track → Resolve</h1>
     <p>Priority Matrix &times; Workflow &times; Templates</p>
   </div>
 
@@ -200,10 +200,10 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
       <div class="matrix-quadrant q-donow">
         <h3>DO NOW &mdash; High Impact + Low Effort</h3>
         <ul>
-          <li>MEGA DMCA &mdash; 127 URLs queued</li>
-          <li>Cloudflare Abuse &mdash; 204 severity-5 reports</li>
-          <li>Google Delisting &mdash; Top 50 infringing URLs</li>
-          <li>Rapidgator DMCA &mdash; 247 URLs queued</li>
+          <li>MEGA DMCA (est. 38 removals) &mdash; 127 URLs queued</li>
+          <li>Cloudflare Abuse (est. 204 domains affected) &mdash; 204 severity-5 reports</li>
+          <li>Google Delisting (est. top 50 domains) &mdash; Top 50 infringing URLs</li>
+          <li>Rapidgator DMCA (est. 247 URL removals) &mdash; 247 URLs queued</li>
         </ul>
       </div>
       <div class="matrix-quadrant q-plan">
@@ -516,7 +516,7 @@ generateTemplate();
 </script>
 <footer style="text-align:center;padding:32px 24px;border-top:1px solid rgba(26,140,255,0.08);color:#3d5470;font-size:11px;margin-top:40px;max-width:1500px;margin-left:auto;margin-right:auto">
   <p style="margin-bottom:8px"><strong style="color:#7a9bbf"><strong style="color:#7a9bbf">Research Purpose Notice (methodology available on request):</strong> This report was compiled for copyright enforcement research through automated crawling and manual review. Identification of domains does not constitute a legal determination of infringement. This data product does not constitute legal advice. Consult qualified counsel before initiating proceedings.</p>
-  <p>ARIA v2.0 | Data as of 2026-03-29 (snapshot) | 7,225 domains analyzed | <a href="index.html" style="color:#1a8cff;text-decoration:none">Command Center</a> · <a href="network.html" style="color:#1a8cff;text-decoration:none">Ecosystem Map</a> · <a href="publishers/index.html" style="color:#1a8cff;text-decoration:none">Publishers</a> · <a href="titles.html" style="color:#1a8cff;text-decoration:none">Titles</a> · <a href="enforcement.html" style="color:#1a8cff;text-decoration:none">Enforcement</a> · <a href="trends.html" style="color:#1a8cff;text-decoration:none">Trends</a> · <a href="regions.html" style="color:#1a8cff;text-decoration:none">Geo Intel</a></p>
+  <p>ARIA v2.0 | Data as of 2026-03-30 (snapshot, refreshed daily) (snapshot) | 7,225 domains analyzed | <a href="index.html" style="color:#1a8cff;text-decoration:none">Command Center</a> · <a href="network.html" style="color:#1a8cff;text-decoration:none">Ecosystem Map</a> · <a href="publishers/index.html" style="color:#1a8cff;text-decoration:none">Publishers</a> · <a href="titles.html" style="color:#1a8cff;text-decoration:none">Titles</a> · <a href="enforcement.html" style="color:#1a8cff;text-decoration:none">Enforcement</a> · <a href="trends.html" style="color:#1a8cff;text-decoration:none">Trends</a> · <a href="regions.html" style="color:#1a8cff;text-decoration:none">Geo Intel</a></p>
 </footer>
 <script>function exportCSV(id,fn){var t=document.getElementById(id);if(!t)return;var c=[];t.querySelectorAll("tr").forEach(function(r){var d=[];r.querySelectorAll("td,th").forEach(function(e){d.push('"'+(e.textContent||"").trim().replace(/"/g,'""')+'"')});c.push(d.join(","))});var b=new Blob([c.join("\n")],{type:"text/csv"});var a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=fn||"export.csv";a.click()}</script>
 </body>

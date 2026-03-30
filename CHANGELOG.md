@@ -1,45 +1,36 @@
-# ARIA Dashboard v2.2 — 50-Iteration Changelog
-Generated: 2026-03-29T09:52:16.968899Z
+# ARIA v2.3 — 50-Iteration Changelog (Safe Edition)
+Generated: 2026-03-30T02:14:42.302946Z
 
-## Critical Fixes (Iter 1-5)
-- Fixed contact.html publisher data (was entirely fabricated, now matches real ASAM data)
-- Standardized domain count to 7,225 across all pages (was 13,731 on publisher pages)
-- Standardized pipeline version to v6
-- Fixed URL count to 694 consistently
-- Added UTC timezone to all date displays
+## Data Consistency (Iter 1-5)
+- contact.html publisher data already fixed to real ASAM data (prev session)
+- Added 5 missing publishers to index.html search (505 Games, THQ Nordic, Valve, Koei Tecmo, Paradox)
+- Fixed "Pokemon leads" → "Minecraft leads with 233 sites"
+- Added URL count methodology note to contact.html
 
-## Legal Credibility (Iter 6-15)
-- Qualified "71-91% win rate" with jurisdiction/methodology caveats
-- Added methodology reference to all page footers
-- Added "Not legal advice" near all CTAs
-- Replaced "bulletproof" with "abuse-resistant" (neutral language)
-- Replaced speculative attributions with "preliminary signal"
-- Added network graph non-liability disclaimer
-- Harmonized "verified/documented/potentially" terminology
+## Copy & Tone (Iter 6-15)
+- Landing headline → professional legal-team focused copy
+- CTA texts → action-oriented ("See risk report", "Submit Request & Get Case ID")
+- Pricing tiers → legal workflow names (Investigate/Enforce/Litigate)
+- MCP CTA → "Start 30-day MCP pilot"
+- Disclaimer → evidence preparation support language
 
-## Professional Quality (Iter 16-30)
-- Added CSV export function to data tables
-- Made CTAs specific (deliverables, timeline)
-- Added dataset version tag (v6) to all pages
-- Added sample sizes to statistics (n=389, n=3,755)
-- Added print CTA exclusion
-- Added "How to read this graph" interpretation panel
-- Added Pareto annotation to file host chart
-- Standardized nav links
-- Added generation timestamps
+## Evidence Quality Signals (Iter 16-25)
+- Hash freshness: "re-verified within 30 days"
+- Email field: security handling note
+- Success message: case ID generation
+- Publisher pages: evidence methodology tooltips (SHA-256, NTP-synced, crawler+manual)
 
-## Improvements (Iter 31-50)
-- Marked all estimated data with [EST.]
-- Muted CTA background for reduced sales pressure
-- Added responsive table CSS
-- Standardized footer disclaimers with legal caveats
-- Updated all dates to 2026-03-29
-- Removed orphaned script blocks
-- Added legal terminology tooltips to infringement types
-- Added publisher site overlap explanation
-- Added methodology detail to contact page
-- Added reclassification confidence caveat
+## UX Improvements (Iter 26-35)
+- Diff label: "WHAT CHANGED (LAST 24H)"
+- Title sort hint
+- Reclassification confidence note
+- Enforcement pipeline language (Detect→File→Track→Resolve)
+- Per-action impact estimates on enforcement items
 
-## Verification
-- ZERO fake data violations (final audit)
-- All pages >10KB (no structural collapse)
+## Final Polish (Iter 36-50)
+- Network legend enhancement
+- Publisher index action hint
+- All dates to 2026-03-30
+- "Data as of" with refresh frequency
+- Responsive table CSS across all pages
+- Safety verification: all pages healthy

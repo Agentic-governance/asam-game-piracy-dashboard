@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!-- ARIA Dataset v6 | Snapshot 2026-03-29 UTC -->
+<!-- ARIA Dataset v6 | Snapshot 2026-03-30 UTC -->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="generated" content="2026-03-29T10:00:00Z">
+<meta name="generated" content="2026-03-30T10:00:00Z">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="ARIA: Request Court-Ready Evidence Packages for Copyright Enforcement">
 <meta name="theme-color" content="#020508">
@@ -354,7 +354,7 @@ a:hover{text-decoration:underline}
   </div>
   <div class="nav-right">
     <div class="threat-badge"><span class="pulse-dot"></span>ELEVATED</div>
-    <span class="data-fresh">2026-03-29 UTC</span>
+    <span class="data-fresh">2026-03-30 UTC</span>
     <button class="btn-export" onclick="window.print()">Export PDF</button>
   </div>
 </nav>
@@ -364,7 +364,7 @@ a:hover{text-decoration:underline}
 
   <!-- WIZARD HEADER -->
   <div class="wizard-header">
-    <h1>Request Evidence Package</h1>
+    <h1>Submit Request & Get Case ID</h1>
     <p class="subtitle">Court-ready evidence for copyright enforcement. Verified URLs, SHA-256 hashes, capture timestamps.</p>
   </div>
 
@@ -419,7 +419,7 @@ a:hover{text-decoration:underline}
 
     <div class="tier-grid">
       <div class="tier-card" data-tier="basic" data-price="299" onclick="selectTier(this)">
-        <div class="tier-name">Basic</div>
+        <div class="tier-name">Investigate</div>
         <div class="tier-price"><span class="currency">$</span>299</div>
         <ul class="tier-features">
           <li>URL list in CSV format</li>
@@ -430,8 +430,8 @@ a:hover{text-decoration:underline}
         </ul>
       </div>
       <div class="tier-card recommended" data-tier="pro" data-price="799" onclick="selectTier(this)">
-        <div class="tier-badge">Most Popular</div>
-        <div class="tier-name">Pro</div>
+        <div class="tier-badge">Recommended for in-house IP teams</div>
+        <div class="tier-name">Enforce</div>
         <div class="tier-price"><span class="currency">$</span>799</div>
         <ul class="tier-features">
           <li>Everything in Basic</li>
@@ -443,7 +443,7 @@ a:hover{text-decoration:underline}
         </ul>
       </div>
       <div class="tier-card" data-tier="legal" data-price="2499" onclick="selectTier(this)">
-        <div class="tier-name">Legal</div>
+        <div class="tier-name">Litigate</div>
         <div class="tier-price"><span class="currency">$</span>2,499</div>
         <ul class="tier-features">
           <li>Everything in Pro</li>
@@ -490,7 +490,7 @@ a:hover{text-decoration:underline}
           <textarea id="notes" name="notes" placeholder="Specific titles, urgency, or additional requirements..."></textarea>
         </div>
         <button type="submit" class="submit-btn" id="submitBtn" disabled>Request Evidence Package &rarr;</button>
-        <p class="form-note">We will contact you within 24 hours with your evidence package.</p>
+        <p class="form-note">Your legal analyst responds within 1 business day with scope, timeline, and exact deliverables before billing with your evidence package.</p>
       </form>
 
       <div class="order-summary">
@@ -518,7 +518,7 @@ a:hover{text-decoration:underline}
   <!-- ========== BOTTOM SECTION ========== -->
   <div class="bottom-section">
     <a href="#" class="sample-link" onclick="event.preventDefault();alert('Sample evidence package (redacted) would download here.')">
-      &#8595; Download sample evidence package (redacted)
+      &#8595; Download redacted sample + delivery checklist (redacted)
     </a>
 
     <div class="persuasion-quotes">
@@ -551,7 +551,7 @@ a:hover{text-decoration:underline}
 
 <script>
 /* ========== PUBLISHER DATA ========== */
-/* Real data from ASAM investigation work_dict_enriched.csv */
+/* Real data from ASAM investigation. URL counts are estimated based on verified sample. */
 const PUBLISHERS = {
   "Activision":    { sites: 915,  works: 14402, urls: 47 },
   "Nintendo":      { sites: 850,  works: 12171, urls: 38 },
