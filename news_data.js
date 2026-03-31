@@ -1,8 +1,36 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-03-30 10:44 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-03-31 09:46 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-03-30T10:44:35.887871",
+  fetched_at: "2026-03-31T09:46:44.689348",
   item_count: 30,
   items: [
+  {
+    "title": "Judge Allows BitTorrent Seeding Claims Against Meta, Despite Lawyers &#8216;Lame Excuses&#8217;",
+    "link": "https://torrentfreak.com/game-pirates-beat-denuvo-with-hypervisor-bypasses-irdeto-promises-countermeasure/",
+    "description": "A new breed of hypervisor-based bypasses can 'crack' Denuvo-protected games on the day of release, marking a fundamental shift in the piracy landscape. Denuvo parent company Irdeto informs TorrentFreak that it is working on a countermeasure while warning that the new cracks are a security concern. P",
+    "date": "Mon, 30 Mar 2026 07:30:48 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 12,
+    "matched_keywords": [
+      "denuvo",
+      "crack",
+      "piracy",
+      "torrent"
+    ]
+  },
+  {
+    "title": "Game Pirates Beat Denuvo with Hypervisor Bypasses — Irdeto Promises Countermeasure",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Tue, 31 Mar 2026 07:33:15 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 10,
+    "matched_keywords": [
+      "denuvo",
+      "pirate",
+      "rom",
+      "copyright"
+    ]
+  },
   {
     "title": "Cloudflare Reports Surge in Geo-Blocked Pirate Site Domains",
     "link": "https://torrentfreak.com/github-nukes-900-anime-piracy-repos-and-forks-but-rejects-circumvention-claims/",
@@ -11,24 +39,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "piracy",
       "takedown",
       "pirate",
-      "rom"
-    ]
-  },
-  {
-    "title": "Internet Archive Faces Copyright Lawsuit Over &#8216;Myspace Dragon Hoard&#8217;",
-    "link": "https://torrentfreak.com/court-dismisses-dishs-25-million-iptv-piracy-lawsuit-against-uk-hosting-provider/",
-    "description": "A California federal court dismissed the copyright infringement lawsuit DISH Network filed against hosting provider Innetra, finding it lacked personal jurisdiction over the UK company. DISH accused the company of providing infrastructure to pirate IPTV operations while ignoring DMCA takedown reques",
-    "date": "Tue, 10 Mar 2026 13:31:20 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 10,
-    "matched_keywords": [
-      "dmca",
-      "takedown",
-      "pirate",
-      "copyright"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -40,10 +54,10 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "pirate",
-      "rom",
       "copyright",
-      "torrent",
-      "piracy"
+      "piracy",
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -54,9 +68,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
+      "copyright",
       "pirate",
-      "copyright"
+      "piracy"
     ]
   },
   {
@@ -67,9 +81,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
+      "pirate",
       "piracy",
-      "pirate"
+      "torrent"
     ]
   },
   {
@@ -80,9 +94,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
+      "copyright",
       "pirate",
-      "copyright"
+      "piracy"
     ]
   },
   {
@@ -93,8 +107,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -105,8 +119,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -117,8 +131,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -129,8 +143,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -141,9 +155,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
       "pirate",
-      "rom"
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -154,9 +168,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
       "pirate",
-      "rom"
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -167,8 +181,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -194,10 +208,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "The list of people hit by recent Epic layoffs has been turned into a dedicated portal for recruiters",
+    "title": "Eidos-Montréal announces 124 job cuts; studio head David Anfossi departs after 19 years at developer",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 30 Mar 2026 10:06:35 +0000",
+    "date": "Tue, 31 Mar 2026 07:58:11 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -207,7 +221,7 @@ const ARIA_NEWS = {
   {
     "title": "Sony announces global price rises for PS5 consoles from April 2, 2026",
     "link": "https://www.gamesindustry.biz/it-turns-out-fortnite-isnt-the-forever-game-after-all-opinion",
-    "description": "After several years in which almost weekly reports of drastic, sweeping layoffs at one company or another have become the depressing norm, we're all fairly accustomed to the pattern in the response. There's a measure of shock &ndash; not surprise any more, but still somehow shock because, really, th",
+    "description": "Sony has announced global price rises for its PlayStation 5 consoles from April 2, 2026, due to \"continued pressures in the global economic landscape.\" Read more",
     "date": "Fri, 27 Mar 2026 14:40:26 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -218,7 +232,7 @@ const ARIA_NEWS = {
   {
     "title": "\"We were there in the 80s for the crash, and this is definitely crashier.\" John and Brenda Romero reflect on the industry crisis",
     "link": "https://www.gamesindustry.biz/sony-announces-global-price-rises-for-ps5-consoles-from-april-2-2026",
-    "description": "Sony has announced global price rises for its PlayStation 5 consoles from April 2, 2026, due to \"continued pressures in the global economic landscape.\" Read more",
+    "description": "Last year was something of an annus horribilis for Romero Games. Faced with a sudden funding rug pull, the studio has had to downsize dramatically. But it's still hanging in there. Read more",
     "date": "Fri, 27 Mar 2026 14:21:48 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -227,21 +241,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Meta reportedly lays off around 700 workers, Reality Labs division affected",
-    "link": "https://www.gamesindustry.biz/we-were-there-in-the-80s-for-the-crash-and-this-is-definitely-crashier-john-and-brenda-romero-reflect-on-the-industry-crisis",
-    "description": "Last year was something of an annus horribilis for Romero Games. Faced with a sudden funding rug pull, the studio has had to downsize dramatically. But it's still hanging in there. Read more",
-    "date": "Fri, 27 Mar 2026 11:45:22 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Meta Quest usage reaches \"all-time high\" in 2025 despite studio closures and layoffs",
-    "link": "https://www.gamesindustry.biz/ziff-davis-announces-new-ign-france-partnership-as-part-of-international-licencing-expansion",
+    "title": "Ziff Davis announces new IGN France partnership, as part of international licencing expansion",
+    "link": "https://www.gamesindustry.biz/why-microsofts-pc-focused-project-helix-could-offer-a-level-playing-field-for-indies-opinion",
     "description": "Ziff Davis, the owner of GamesIndustry.biz parent IGN Entertainment, has agreed a new partnership with European media group eMense to operate IGN France. The firm already operates IGN Benelux, IGN Nordic and IGN Germany under licence from Ziff Davis. Read more",
-    "date": "Thu, 26 Mar 2026 10:51:20 +0000",
+    "date": "Thu, 26 Mar 2026 12:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -249,32 +252,54 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"They wouldn't look at any game that was less than £50 million\" Why Tencent's all-in strategy didn't suit Bulkhead",
-    "link": "https://www.gamesindustry.biz/reforged-studios-acquires-super-meat-boy-3d-publisher-headup-games",
-    "description": "The team at Bulkhead has come a long way from its humble beginnings. Initially working on indie budgets, the studio eventually found millions being thrown its way under Tencent. But ultimately, it was more money than they could spend. Read more",
-    "date": "Wed, 25 Mar 2026 14:00:00 +0000",
+    "title": "Ken Kutaragi announced as first keynote speaker at Game Republic New Horizons 2026",
+    "link": "https://www.gamesindustry.biz/eidos-montreal-announces-124-job-cuts-studio-head-david-anfossi-departs-after-19-years-at-developer",
+    "description": "Eidos-Montr&eacute;al, developer of Marvel's Guardians of the Galaxy, has announced a workforce reduction impacting 124 employees. Studio head David Anfossi has also left the Embracer-owned company. Read more",
+    "date": "Tue, 31 Mar 2026 07:03:48 +0000",
     "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Judge Allows BitTorrent Seeding Claims Against Meta, Despite Lawyers &#8216;Lame Excuses&#8217;",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Mon, 30 Mar 2026 07:30:48 +0000",
-    "source": "TorrentFreak",
     "relevance_score": 2,
-    "matched_keywords": [
-      "torrent",
-      "copyright"
-    ]
+    "matched_keywords": []
+  },
+  {
+    "title": "Choices developer Pixelberry Studios lays off staff",
+    "link": "https://www.gamesindustry.biz/ken-kutaragi-announced-as-first-keynote-speaker-at-game-republic-new-horizons-2026",
+    "description": "Ken Kutaragi has been announced as the first keynote speaker for Game Republic New Horizons 2026. Read more",
+    "date": "Mon, 30 Mar 2026 20:04:50 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Death Stranding 2: On the Beach sales top 2 million | News-in-brief",
+    "link": "https://www.gamesindustry.biz/raiding-like-its-1999-why-daybreak-thinks-new-players-will-try-a-27-year-old-mmo",
+    "description": "The Everquest franchise is one of the industry's true survivors. Launched all the way back in 1999, it was the first MMORPG to enjoy widespread commercial success, and was the defining example of the form until the arrival of World of Warcraft in 2003. The original game and its sequel, both of which",
+    "date": "Mon, 30 Mar 2026 16:00:50 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Krafton shutters free-to-play PUBG spin-off after two months, in line with policy of using Early Access to \"quickly validate a game’s potential\"",
+    "link": "https://www.gamesindustry.biz/death-stranding-2-on-the-beach-sales-top-2-million-news-in-brief",
+    "description": "Krafton is shutting down PUBG Blindspot, a free-to-play PC spinoff of its hit PUBG Battlegrounds, after only two months in Early Access. The news comes despite the PUBG franchise powering the firm's best-ever annual revenue, but is in line with its previously stated policy of using Early Access rele",
+    "date": "Mon, 30 Mar 2026 11:00:08 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Unity sees growth in engine revenue, shuts down IronSource ad network in favour of Vector AI user-acquisition platform",
+    "link": "https://www.gamesindustry.biz/the-list-of-people-hit-by-recent-epic-layoffs-has-been-turned-into-a-dedicated-portal-for-recruiters",
+    "description": "Unity has announced that it is shutting down its IronSource advertising/user-acquisition network and planning to divest Supersonic, publisher of mobile games including Bridge Race, Going Balls and Build A Queen. The firm said the process would \"simplify the business\" and enable it to focus on higher",
+    "date": "Mon, 30 Mar 2026 09:34:43 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "It turns out Fortnite isn't the forever game after all | Opinion",
     "link": "https://www.gamesindustry.biz/unity-sees-growth-in-engine-revenue-shuts-down-ironsource-ad-network-in-favour-of-vector-ai-user-acquisition-platform",
-    "description": "Unity has announced that it is shutting down its IronSource advertising/user-acquisition network and planning to divest Supersonic, publisher of mobile games including Bridge Race, Going Balls and Build A Queen. The firm said the process would \"simplify the business\" and enable it to focus on higher",
+    "description": "After several years in which almost weekly reports of drastic, sweeping layoffs at one company or another have become the depressing norm, we're all fairly accustomed to the pattern in the response. There's a measure of shock &ndash; not surprise any more, but still somehow shock because, really, th",
     "date": "Fri, 27 Mar 2026 16:08:36 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
@@ -283,7 +308,7 @@ const ARIA_NEWS = {
   {
     "title": "German games market rose 4% in 2025 to €9.4bn, driven by hardware sales",
     "link": "https://www.gamesindustry.biz/meta-reportedly-lays-off-around-700-workers-reality-labs-division-affected",
-    "description": "Meta has reportedly cut around 700 roles across several divisions, including its Reality Labs unit. Read more",
+    "description": "The German games market grew 4% in 2025 to &euro;9.4 billion, driven by higher console hardware sales, particularly the launch of the Nintendo Switch 2. Read more",
     "date": "Fri, 27 Mar 2026 10:41:27 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
@@ -292,17 +317,8 @@ const ARIA_NEWS = {
   {
     "title": "Why Microsoft's PC-focused Project Helix could offer a level playing field for indies | Opinion",
     "link": "https://www.gamesindustry.biz/german-games-market-rose-4-in-2025-to-94bn-driven-by-hardware-sales",
-    "description": "The German games market grew 4% in 2025 to &euro;9.4 billion, driven by higher console hardware sales, particularly the launch of the Nintendo Switch 2. Read more",
-    "date": "Thu, 26 Mar 2026 16:12:28 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Ziff Davis announces new IGN France partnership, as part of international licencing expansion",
-    "link": "https://www.gamesindustry.biz/why-microsofts-pc-focused-project-helix-could-offer-a-level-playing-field-for-indies-opinion",
     "description": "Russell Kay is the head of GameMaker (and was a programmer on Lemmings long ago). Read more",
-    "date": "Thu, 26 Mar 2026 12:00:00 +0000",
+    "date": "Thu, 26 Mar 2026 16:12:28 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
@@ -310,7 +326,7 @@ const ARIA_NEWS = {
   {
     "title": "Nintendo Switch 2 digital games to cost less than physical versions in US",
     "link": "https://www.gamesindustry.biz/meta-quest-usage-reaches-all-time-high-in-2025-despite-studio-closures-and-layoffs",
-    "description": "Meta Quest usage hit \"an all-time high\" in 2025, with more than 100 titles generating over $1 million in gross revenue. Read more",
+    "description": "Nintendo has announced price changes to Switch 2 titles in the US, with digital versions costing less than their physical counterparts. Read more",
     "date": "Thu, 26 Mar 2026 08:36:43 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
@@ -319,26 +335,8 @@ const ARIA_NEWS = {
   {
     "title": "Crimson Desert studio Pearl Abyss's share prices stabilize as sales top 3 million",
     "link": "https://www.gamesindustry.biz/nintendo-switch-2-digital-games-to-cost-less-than-physical-versions-in-us",
-    "description": "Nintendo has announced price changes to Switch 2 titles in the US, with digital versions costing less than their physical counterparts. Read more",
-    "date": "Wed, 25 Mar 2026 20:43:20 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Marathon sells 1.2 million copies across Steam, PS5, and Xbox | News-in-brief",
-    "link": "https://www.gamesindustry.biz/crimson-desert-studio-pearl-abysss-share-prices-stabilize-as-sales-top-3-million",
     "description": "Crimson Desert developer Pearl Abyss has seen its share price stabilize after confirming the new action-adventure game has sold three million copies. Read more",
-    "date": "Wed, 25 Mar 2026 20:17:42 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Newly revealed Nordic Game speaker line-up to include Planet of Lana devs",
-    "link": "https://www.gamesindustry.biz/marathon-sells-12-million-copies-across-steam-ps5-and-xbox-news-in-brief",
-    "description": "Nordic Game, which will take place on 26&ndash;29 May at Slagthuset in Malm&ouml;, has exclusively revealed its latest speakers to GamesIndustry.biz, along with the conference's inaugural AI Track. GamesIndustry.biz will be an official media partner of the event. Read more",
-    "date": "Wed, 25 Mar 2026 16:00:00 +0000",
+    "date": "Wed, 25 Mar 2026 20:43:20 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
