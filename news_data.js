@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-03-31 09:46 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-01 09:54 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-03-31T09:46:44.689348",
+  fetched_at: "2026-04-01T09:54:54.794031",
   item_count: 30,
   items: [
   {
@@ -11,8 +11,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "denuvo",
       "crack",
+      "denuvo",
       "piracy",
       "torrent"
     ]
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "relevance_score": 10,
     "matched_keywords": [
       "denuvo",
-      "pirate",
+      "copyright",
       "rom",
-      "copyright"
+      "pirate"
     ]
   },
   {
@@ -39,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
+      "rom",
       "takedown",
       "pirate",
-      "rom",
       "piracy"
     ]
   },
@@ -53,10 +53,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
+      "rom",
       "copyright",
       "piracy",
-      "rom",
+      "pirate",
       "torrent"
     ]
   },
@@ -155,8 +155,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
       "rom",
+      "pirate",
       "torrent"
     ]
   },
@@ -168,8 +168,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
       "rom",
+      "pirate",
       "torrent"
     ]
   },
@@ -208,10 +208,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Eidos-Montréal announces 124 job cuts; studio head David Anfossi departs after 19 years at developer",
+    "title": "Build a Rocket Boy CEO responds to end of publishing agreement with IOI Partners",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 31 Mar 2026 07:58:11 +0000",
+    "date": "Wed, 01 Apr 2026 09:11:15 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -250,6 +250,33 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "rom"
     ]
+  },
+  {
+    "title": "ProbablyMonsters is betting on an Xbox 360-esque bonanza of single-player AA kookiness",
+    "link": "https://www.gamesindustry.biz/build-a-rocket-boy-ceo-responds-to-end-of-publishing-agreement-with-ioi-partners",
+    "description": "Build a Rocket Boy CEO Mark Gerhard has addressed  the end of the developer's publishing agreement with IOI Partners, stating that it \"likes being able to control [its] own destiny as an independent studio.\" Read more",
+    "date": "Tue, 31 Mar 2026 16:31:54 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "VR developer Polyarc Games facing layoffs",
+    "link": "https://www.gamesindustry.biz/probablymonsters-is-betting-on-an-xbox-360-esque-bonanza-of-single-player-aa-kookiness",
+    "description": "Remember the Xbox 360 era? Back in the 2000s, publishers tended to have heaving release slates, mixing oddball ideas with more established formats. But as development budgets have spiralled in the decades since, with games taking longer and longer to produce, the big publishers' release slates have ",
+    "date": "Tue, 31 Mar 2026 13:51:23 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Eidos-Montréal announces 124 job cuts; studio head David Anfossi departs after 19 years at developer",
+    "link": "https://www.gamesindustry.biz/vr-developer-polyarc-games-facing-layoffs-unspecified-number-of-employees-affected",
+    "description": "Update, April 1, 2026: Polyarc Games has confirmed to GamesIndustry.biz that 30 employees were affected by layoffs. Read more",
+    "date": "Tue, 31 Mar 2026 07:58:11 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Ken Kutaragi announced as first keynote speaker at Game Republic New Horizons 2026",
@@ -310,33 +337,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/meta-reportedly-lays-off-around-700-workers-reality-labs-division-affected",
     "description": "The German games market grew 4% in 2025 to &euro;9.4 billion, driven by higher console hardware sales, particularly the launch of the Nintendo Switch 2. Read more",
     "date": "Fri, 27 Mar 2026 10:41:27 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Why Microsoft's PC-focused Project Helix could offer a level playing field for indies | Opinion",
-    "link": "https://www.gamesindustry.biz/german-games-market-rose-4-in-2025-to-94bn-driven-by-hardware-sales",
-    "description": "Russell Kay is the head of GameMaker (and was a programmer on Lemmings long ago). Read more",
-    "date": "Thu, 26 Mar 2026 16:12:28 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Nintendo Switch 2 digital games to cost less than physical versions in US",
-    "link": "https://www.gamesindustry.biz/meta-quest-usage-reaches-all-time-high-in-2025-despite-studio-closures-and-layoffs",
-    "description": "Nintendo has announced price changes to Switch 2 titles in the US, with digital versions costing less than their physical counterparts. Read more",
-    "date": "Thu, 26 Mar 2026 08:36:43 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Crimson Desert studio Pearl Abyss's share prices stabilize as sales top 3 million",
-    "link": "https://www.gamesindustry.biz/nintendo-switch-2-digital-games-to-cost-less-than-physical-versions-in-us",
-    "description": "Crimson Desert developer Pearl Abyss has seen its share price stabilize after confirming the new action-adventure game has sold three million copies. Read more",
-    "date": "Wed, 25 Mar 2026 20:43:20 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
