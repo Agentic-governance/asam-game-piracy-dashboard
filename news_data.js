@@ -1,8 +1,22 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-01 09:54 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-02 09:43 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-01T09:54:54.794031",
+  fetched_at: "2026-04-02T09:43:09.154763",
   item_count: 30,
   items: [
+  {
+    "title": "Game Pirates Beat Denuvo with Hypervisor Bypasses — Irdeto Promises Countermeasure",
+    "link": "https://torrentfreak.com/google-cloudflare-cisco-lose-pirate-site-dns-blocking-appeal-in-france/",
+    "description": "The Paris Court of Appeal has confirmed that third-party DNS providers can be legally compelled to block access to domain names to stop piracy. The DNS providers countered that such measures are technically burdensome and easily bypassed. However, the court ruled that the intermediaries must act non",
+    "date": "Tue, 31 Mar 2026 07:33:15 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 12,
+    "matched_keywords": [
+      "denuvo",
+      "piracy",
+      "rom",
+      "pirate"
+    ]
+  },
   {
     "title": "Judge Allows BitTorrent Seeding Claims Against Meta, Despite Lawyers &#8216;Lame Excuses&#8217;",
     "link": "https://torrentfreak.com/game-pirates-beat-denuvo-with-hypervisor-bypasses-irdeto-promises-countermeasure/",
@@ -11,24 +25,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "crack",
       "denuvo",
+      "crack",
       "piracy",
       "torrent"
-    ]
-  },
-  {
-    "title": "Game Pirates Beat Denuvo with Hypervisor Bypasses — Irdeto Promises Countermeasure",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 31 Mar 2026 07:33:15 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 10,
-    "matched_keywords": [
-      "denuvo",
-      "copyright",
-      "rom",
-      "pirate"
     ]
   },
   {
@@ -39,10 +39,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "rom",
       "takedown",
-      "pirate",
-      "piracy"
+      "piracy",
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -53,11 +53,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
-      "copyright",
       "piracy",
+      "torrent",
+      "copyright",
       "pirate",
-      "torrent"
+      "rom"
     ]
   },
   {
@@ -68,9 +68,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "piracy",
       "copyright",
-      "pirate",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -81,22 +81,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "piracy",
-      "torrent"
-    ]
-  },
-  {
-    "title": "Court Dismisses DISH&#8217;s $25 Million IPTV Piracy Lawsuit Against UK Hosting Provider",
-    "link": "https://torrentfreak.com/court-officially-orders-u-s-based-iptv-operator-to-pay-amazon-netflix-18-75-million/",
-    "description": "A federal judge in Texas has signed a default judgment ordering Dallas IPTV operator William Freemon to pay $18,750,000 in copyright damages to Amazon, Netflix, and several major Hollywood studios. The eight domains associated with his pirate streaming network must now be transferred to the movie co",
-    "date": "Thu, 12 Mar 2026 07:32:57 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "copyright",
-      "pirate",
-      "piracy"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -107,8 +94,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -119,8 +106,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -131,8 +118,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -148,6 +135,19 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Google, Cloudflare, Cisco Lose Pirate Site DNS Blocking Appeal in France",
+    "link": "https://torrentfreak.com/x-asks-court-to-dismiss-music-piracy-lawsuit-after-supreme-courts-cox-ruling/",
+    "description": "Elon Musk’s X is moving for a total dismissal of the high-profile copyright lawsuit filed by major music publishers, claiming that the Supreme Court just pulled the rug out from under the labels’ case. Citing the recent Cox v. Sony decision, the social media platform argues that the \"contributory in",
+    "date": "Wed, 01 Apr 2026 12:43:12 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 5,
+    "matched_keywords": [
+      "copyright",
+      "rom",
+      "pirate"
+    ]
+  },
+  {
     "title": "Top 10 Most Pirated Movies of The Week – 03/30/2026",
     "link": "https://torrentfreak.com/judge-allows-bittorrent-seeding-claims-against-meta-despite-lawyers-lame-excuses/",
     "description": "In an effort to gather material for its LLM training, Meta used BitTorrent to download pirated books from Anna’s Archive and other shadow libraries. According to several authors, Meta facilitated the infringement of others by \"seeding\" these torrents. This week, the court granted the authors permiss",
@@ -156,8 +156,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "rom",
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -169,8 +169,20 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "rom",
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
+    ]
+  },
+  {
+    "title": "X Asks Court to Dismiss Music Piracy Lawsuit After Supreme Court&#8217;s Cox Ruling",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Thu, 02 Apr 2026 07:30:08 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -181,8 +193,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -208,48 +220,71 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Build a Rocket Boy CEO responds to end of publishing agreement with IOI Partners",
+    "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Thu, 02 Apr 2026 08:46:38 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Tickets go on sale for consumer event IGN Live 2026, returning to LA on 6 June",
+    "link": "https://www.gamesindustry.biz/theres-always-work-to-be-done-limit-breaks-mentorship-program-for-under-represented-groups-returns-for-2026",
+    "description": "The 2026 Limit Break mentorship program has opened applications to participants from the UK and Irish games industry. Read more",
+    "date": "Wed, 01 Apr 2026 16:02:56 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"There’s always work to be done\": Limit Break's mentorship program for under-represented groups returns for 2026",
+    "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
+    "description": "The United States Patent and Trademark Office (USPTO) has rejected Nintendo's patent that involves an in-game character summoning a sub-character to aid it in battle. Read more",
+    "date": "Thu, 02 Apr 2026 08:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "VR platform Rec Room to shut down in June 2026",
+    "link": "https://www.gamesindustry.biz/tickets-go-on-sale-for-consumer-event-ign-live-2026-returning-to-la-on-6-june",
+    "description": "IGN Entertainment, the parent company of GamesIndustry.biz, has put tickets on sale for consumer event IGN Live, which returns to Los Angeles on 6-7 June. Read more",
+    "date": "Wed, 01 Apr 2026 13:35:09 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Ustwo Games to keynote Develop:Brighton 2026",
+    "link": "https://www.gamesindustry.biz/vr-platform-rec-room-to-shut-down-in-june-2026",
+    "description": "Social VR gaming platform Rec Room has announced its closure on June 1, 2026. Read more",
+    "date": "Wed, 01 Apr 2026 12:59:44 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Stellar Blade developer Shift Up acquires Shinji Mikami's new studio",
+    "link": "https://www.gamesindustry.biz/ustwo-games-to-keynote-developbrighton-2026",
+    "description": "Organisers of this year's Develop:Brighton conference have announced Ustwo Games as its first keynote speaker. Read more",
+    "date": "Wed, 01 Apr 2026 10:39:39 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Build a Rocket Boy CEO responds to end of publishing agreement with IOI Partners",
+    "link": "https://www.gamesindustry.biz/we-arent-just-still-going-we-are-growing-how-the-division-2-has-attracted-more-players-than-ever-seven-years-on-from-release",
+    "description": "Back in 2016, Ubisoft released its new Tom Clancy shooter, The Division. It was part of a new wave of titles, like Destiny, that combined the online persistence of an MMO with more conventional gameplay: in this case, the tactical cover shooter. Read more",
     "date": "Wed, 01 Apr 2026 09:11:15 +0000",
     "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Sony announces global price rises for PS5 consoles from April 2, 2026",
-    "link": "https://www.gamesindustry.biz/it-turns-out-fortnite-isnt-the-forever-game-after-all-opinion",
-    "description": "Sony has announced global price rises for its PlayStation 5 consoles from April 2, 2026, due to \"continued pressures in the global economic landscape.\" Read more",
-    "date": "Fri, 27 Mar 2026 14:40:26 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "\"We were there in the 80s for the crash, and this is definitely crashier.\" John and Brenda Romero reflect on the industry crisis",
-    "link": "https://www.gamesindustry.biz/sony-announces-global-price-rises-for-ps5-consoles-from-april-2-2026",
-    "description": "Last year was something of an annus horribilis for Romero Games. Faced with a sudden funding rug pull, the studio has had to downsize dramatically. But it's still hanging in there. Read more",
-    "date": "Fri, 27 Mar 2026 14:21:48 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Ziff Davis announces new IGN France partnership, as part of international licencing expansion",
-    "link": "https://www.gamesindustry.biz/why-microsofts-pc-focused-project-helix-could-offer-a-level-playing-field-for-indies-opinion",
-    "description": "Ziff Davis, the owner of GamesIndustry.biz parent IGN Entertainment, has agreed a new partnership with European media group eMense to operate IGN France. The firm already operates IGN Benelux, IGN Nordic and IGN Germany under licence from Ziff Davis. Read more",
-    "date": "Thu, 26 Mar 2026 12:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "ProbablyMonsters is betting on an Xbox 360-esque bonanza of single-player AA kookiness",
@@ -301,42 +336,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/raiding-like-its-1999-why-daybreak-thinks-new-players-will-try-a-27-year-old-mmo",
     "description": "The Everquest franchise is one of the industry's true survivors. Launched all the way back in 1999, it was the first MMORPG to enjoy widespread commercial success, and was the defining example of the form until the arrival of World of Warcraft in 2003. The original game and its sequel, both of which",
     "date": "Mon, 30 Mar 2026 16:00:50 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Krafton shutters free-to-play PUBG spin-off after two months, in line with policy of using Early Access to \"quickly validate a game’s potential\"",
-    "link": "https://www.gamesindustry.biz/death-stranding-2-on-the-beach-sales-top-2-million-news-in-brief",
-    "description": "Krafton is shutting down PUBG Blindspot, a free-to-play PC spinoff of its hit PUBG Battlegrounds, after only two months in Early Access. The news comes despite the PUBG franchise powering the firm's best-ever annual revenue, but is in line with its previously stated policy of using Early Access rele",
-    "date": "Mon, 30 Mar 2026 11:00:08 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Unity sees growth in engine revenue, shuts down IronSource ad network in favour of Vector AI user-acquisition platform",
-    "link": "https://www.gamesindustry.biz/the-list-of-people-hit-by-recent-epic-layoffs-has-been-turned-into-a-dedicated-portal-for-recruiters",
-    "description": "Unity has announced that it is shutting down its IronSource advertising/user-acquisition network and planning to divest Supersonic, publisher of mobile games including Bridge Race, Going Balls and Build A Queen. The firm said the process would \"simplify the business\" and enable it to focus on higher",
-    "date": "Mon, 30 Mar 2026 09:34:43 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "It turns out Fortnite isn't the forever game after all | Opinion",
-    "link": "https://www.gamesindustry.biz/unity-sees-growth-in-engine-revenue-shuts-down-ironsource-ad-network-in-favour-of-vector-ai-user-acquisition-platform",
-    "description": "After several years in which almost weekly reports of drastic, sweeping layoffs at one company or another have become the depressing norm, we're all fairly accustomed to the pattern in the response. There's a measure of shock &ndash; not surprise any more, but still somehow shock because, really, th",
-    "date": "Fri, 27 Mar 2026 16:08:36 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "German games market rose 4% in 2025 to €9.4bn, driven by hardware sales",
-    "link": "https://www.gamesindustry.biz/meta-reportedly-lays-off-around-700-workers-reality-labs-division-affected",
-    "description": "The German games market grew 4% in 2025 to &euro;9.4 billion, driven by higher console hardware sales, particularly the launch of the Nintendo Switch 2. Read more",
-    "date": "Fri, 27 Mar 2026 10:41:27 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
