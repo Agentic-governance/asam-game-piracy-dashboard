@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-02 09:43 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-03 08:37 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-02T09:43:09.154763",
+  fetched_at: "2026-04-03T08:37:21.811131",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "denuvo",
-      "piracy",
       "rom",
-      "pirate"
+      "piracy",
+      "pirate",
+      "denuvo"
     ]
   },
   {
@@ -25,10 +25,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "torrent",
       "denuvo",
-      "crack",
       "piracy",
-      "torrent"
+      "crack"
     ]
   },
   {
@@ -41,8 +41,8 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "takedown",
       "piracy",
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -81,8 +81,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "torrent",
+      "piracy",
       "pirate"
     ]
   },
@@ -130,8 +130,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -143,8 +143,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "copyright",
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -155,9 +155,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "rom",
       "torrent",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -168,9 +168,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "rom",
       "torrent",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -220,10 +220,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
+    "title": "A Game Pass for indie games: meet Indie Pass, a $6.99-a-month subscription launching with 70 titles",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 02 Apr 2026 08:46:38 +0000",
+    "date": "Thu, 02 Apr 2026 14:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -240,6 +240,33 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "rom"
     ]
+  },
+  {
+    "title": "Mobile-focused studio Coffee Stain Malmö shuts down",
+    "link": "https://www.gamesindustry.biz/a-game-pass-for-indie-games-meet-indie-pass-a-7-a-month-subscription-that-brings-new-titles-every-month",
+    "description": "Independent game publisher Indie.io is launching a subscription service called Indie Pass, which will offer access to a revolving catalogue of indie games for $6.99 a month. Read more",
+    "date": "Thu, 02 Apr 2026 13:54:37 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "MechWarrior dev Piranha Games reportedly affected by redundancies",
+    "link": "https://www.gamesindustry.biz/mobile-focused-studio-coffee-stain-malmo-shuts-down",
+    "description": "Goat Simulator developer Coffee Stain has closed its mobile-focused Malm&ouml; studio. Read more",
+    "date": "Thu, 02 Apr 2026 10:04:24 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
+    "link": "https://www.gamesindustry.biz/mechwarrior-dev-piranha-games-reportedly-affected-by-redundancies",
+    "description": "MechWarrior 5: Clans developer Piranha Games has reportedly conducted a round of layoffs. Read more",
+    "date": "Thu, 02 Apr 2026 08:46:38 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "\"There’s always work to be done\": Limit Break's mentorship program for under-represented groups returns for 2026",
@@ -309,33 +336,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/vr-developer-polyarc-games-facing-layoffs-unspecified-number-of-employees-affected",
     "description": "Update, April 1, 2026: Polyarc Games has confirmed to GamesIndustry.biz that 30 employees were affected by layoffs. Read more",
     "date": "Tue, 31 Mar 2026 07:58:11 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Ken Kutaragi announced as first keynote speaker at Game Republic New Horizons 2026",
-    "link": "https://www.gamesindustry.biz/eidos-montreal-announces-124-job-cuts-studio-head-david-anfossi-departs-after-19-years-at-developer",
-    "description": "Eidos-Montr&eacute;al, developer of Marvel's Guardians of the Galaxy, has announced a workforce reduction impacting 124 employees. Studio head David Anfossi has also left the Embracer-owned company. Read more",
-    "date": "Tue, 31 Mar 2026 07:03:48 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Choices developer Pixelberry Studios lays off staff",
-    "link": "https://www.gamesindustry.biz/ken-kutaragi-announced-as-first-keynote-speaker-at-game-republic-new-horizons-2026",
-    "description": "Ken Kutaragi has been announced as the first keynote speaker for Game Republic New Horizons 2026. Read more",
-    "date": "Mon, 30 Mar 2026 20:04:50 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Death Stranding 2: On the Beach sales top 2 million | News-in-brief",
-    "link": "https://www.gamesindustry.biz/raiding-like-its-1999-why-daybreak-thinks-new-players-will-try-a-27-year-old-mmo",
-    "description": "The Everquest franchise is one of the industry's true survivors. Launched all the way back in 1999, it was the first MMORPG to enjoy widespread commercial success, and was the defining example of the form until the arrival of World of Warcraft in 2003. The original game and its sequel, both of which",
-    "date": "Mon, 30 Mar 2026 16:00:50 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
