@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-03 08:37 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-04 08:01 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-03T08:37:21.811131",
+  fetched_at: "2026-04-04T08:01:40.640096",
   item_count: 30,
   items: [
   {
@@ -11,9 +11,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "rom",
-      "piracy",
       "pirate",
+      "piracy",
+      "rom",
       "denuvo"
     ]
   },
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "torrent",
-      "denuvo",
       "piracy",
-      "crack"
+      "crack",
+      "denuvo"
     ]
   },
   {
@@ -39,10 +39,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "takedown",
-      "piracy",
       "pirate",
-      "rom"
+      "piracy",
+      "rom",
+      "takedown"
     ]
   },
   {
@@ -53,11 +53,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
-      "torrent",
       "copyright",
-      "pirate",
-      "rom"
+      "rom",
+      "torrent",
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -68,9 +68,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "pirate",
       "piracy",
-      "copyright",
-      "pirate"
+      "copyright"
     ]
   },
   {
@@ -81,9 +81,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
+      "pirate",
       "piracy",
-      "pirate"
+      "torrent"
     ]
   },
   {
@@ -94,8 +94,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -106,8 +106,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -118,8 +118,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -142,9 +142,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "copyright",
       "pirate",
-      "rom"
+      "rom",
+      "copyright"
     ]
   },
   {
@@ -174,18 +174,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "X Asks Court to Dismiss Music Piracy Lawsuit After Supreme Court&#8217;s Cox Ruling",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Thu, 02 Apr 2026 07:30:08 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "piracy",
-      "copyright"
-    ]
-  },
-  {
     "title": "Bankruptcy Court Clears Path for $100 Million Sale of Redbox&#8217;s Piracy Lawsuit Rights",
     "link": "https://torrentfreak.com/court-dismisses-musis-apple-lawsuit-sanctions-law-firm-for-baseless-claims/",
     "description": "Apple has won its legal battle against music streaming app Musi. A California federal court dismissed the case with prejudice, ruling that Apple had a clear contractual right to remove the app from the App Store. In a separate order, the court also sanctioned Musi's lawyers for a factually baseless ",
@@ -195,6 +183,17 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy",
       "rom"
+    ]
+  },
+  {
+    "title": "X Asks Court to Dismiss Music Piracy Lawsuit After Supreme Court&#8217;s Cox Ruling",
+    "link": "https://torrentfreak.com/yout-com-hopes-supreme-courts-cox-ruling-helps-its-case-riaa-disagrees/",
+    "description": "The Supreme Court’s recent reversal of the billion-dollar Cox Communications verdict also makes an appearance in the long-running legal battle between Yout.com and the RIAA. The streamripper's counsel argues that  the ruling's treatment of noninfringing uses is relevant to its case against the RIAA.",
+    "date": "Thu, 02 Apr 2026 07:30:08 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "piracy"
     ]
   },
   {
@@ -209,21 +208,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Piracy Giant HiAnime.to Announces Mysterious &#8216;Goodbye&#8217;",
-    "link": "https://torrentfreak.com/rightsholders-crowdsource-piracy-link-reporting-with-online-hunter-game/",
-    "description": "Online piracy continues to be a major problem for rightsholders, especially those who rely on exclusive live streaming content. This challenge is worsened by dedicated sharing communities on Telegram, Discord, and elsewhere, which can be harder to spot. To tackle this, the Czech anti-piracy company ",
-    "date": "Fri, 13 Mar 2026 10:57:19 +0000",
-    "source": "TorrentFreak",
+    "title": "Schrödinger's Switch 2: Is it failing or soaring? | Opinion",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Fri, 03 Apr 2026 11:00:00 +0000",
+    "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
-      "piracy"
+      "rom"
     ]
   },
   {
-    "title": "A Game Pass for indie games: meet Indie Pass, a $6.99-a-month subscription launching with 70 titles",
-    "link": "https://www.gamesindustry.biz/feed",
-    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 02 Apr 2026 14:00:00 +0000",
+    "title": "Reddit posts can be more important than data, and other lessons from maintaining Candy Crush as a forever game",
+    "link": "https://www.gamesindustry.biz/schrodingers-switch-2-is-it-failing-or-soaring-opinion",
+    "description": "Nintendo has been on a bit of a rollercoaster ride for the past few weeks. First, we learned that holiday sales of Switch 2 had disappointed, potentially leading to the company dropping its targets and slowing manufacturing of the console. Then, mere days later, Pok&eacute;mon Pokopia turned out to ",
+    "date": "Fri, 03 Apr 2026 09:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -240,6 +239,15 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "rom"
     ]
+  },
+  {
+    "title": "A Game Pass for indie games: meet Indie Pass, a $6.99-a-month subscription launching with 70 titles",
+    "link": "https://www.gamesindustry.biz/reddit-posts-can-be-more-important-than-data-and-other-lessons-from-maintaining-candy-crush-as-a-forever-game",
+    "description": "Since its launch in 2012, Candy Crush Saga has grown into one of the most successful tile-matching games in history, surpassing $20 billion in lifetime revenue by September 2023. Read more",
+    "date": "Thu, 02 Apr 2026 14:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Mobile-focused studio Coffee Stain Malmö shuts down",
@@ -327,15 +335,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/probablymonsters-is-betting-on-an-xbox-360-esque-bonanza-of-single-player-aa-kookiness",
     "description": "Remember the Xbox 360 era? Back in the 2000s, publishers tended to have heaving release slates, mixing oddball ideas with more established formats. But as development budgets have spiralled in the decades since, with games taking longer and longer to produce, the big publishers' release slates have ",
     "date": "Tue, 31 Mar 2026 13:51:23 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Eidos-Montréal announces 124 job cuts; studio head David Anfossi departs after 19 years at developer",
-    "link": "https://www.gamesindustry.biz/vr-developer-polyarc-games-facing-layoffs-unspecified-number-of-employees-affected",
-    "description": "Update, April 1, 2026: Polyarc Games has confirmed to GamesIndustry.biz that 30 employees were affected by layoffs. Read more",
-    "date": "Tue, 31 Mar 2026 07:58:11 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
