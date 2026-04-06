@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-05 08:05 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-06 09:55 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-05T08:05:20.884830",
+  fetched_at: "2026-04-06T09:55:55.837365",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "piracy",
       "denuvo",
-      "pirate",
       "rom",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -25,10 +25,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "denuvo",
-      "crack",
       "piracy",
-      "torrent"
+      "crack",
+      "torrent",
+      "denuvo"
     ]
   },
   {
@@ -39,23 +39,23 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "pirate",
-      "takedown",
       "piracy",
-      "rom"
+      "takedown",
+      "rom",
+      "pirate"
     ]
   },
   {
     "title": "The Pirate Bay’s Oldest Torrent Turned 22&#8230;.",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Hoppers' tops the chart, followed by 'Crime 101.' 'Peaky Blinders: The Immortal Man' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Hoppers' tops the chart, followed by 'Peaky Blinders: The Immortal Man.' 'Crime 101' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
     "date": "Sun, 29 Mar 2026 17:46:49 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "copyright",
       "rom",
+      "pirate",
       "piracy",
       "torrent"
     ]
@@ -68,9 +68,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "piracy",
       "copyright",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -81,9 +81,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "piracy",
       "torrent",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -94,8 +94,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -106,8 +106,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -118,20 +118,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Rightsholders Crowdsource Piracy Link Reporting With &#8216;Online Hunter&#8217; Game",
-    "link": "https://torrentfreak.com/bankruptcy-court-clears-path-for-100-million-sale-of-redboxs-piracy-lawsuit-rights/",
-    "description": "A Delaware bankruptcy court approved the legal framework for a $100 million+ sale of Redbox' piracy litigation rights. While a final deal is still being negotiated, the intended buyer of these rights plans to use them to sue Internet providers for failing to disconnect accounts of alleged BitTorrent",
-    "date": "Sun, 15 Mar 2026 13:04:57 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -142,22 +130,22 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
       "copyright",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 03/30/2026",
+    "title": "Top 10 Most Pirated Movies of The Week – 04/06/2026",
     "link": "https://torrentfreak.com/judge-allows-bittorrent-seeding-claims-against-meta-despite-lawyers-lame-excuses/",
     "description": "In an effort to gather material for its LLM training, Meta used BitTorrent to download pirated books from Anna’s Archive and other shadow libraries. According to several authors, Meta facilitated the infringement of others by \"seeding\" these torrents. This week, the court granted the authors permiss",
     "date": "Sun, 29 Mar 2026 23:09:40 +0000",
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
       "torrent",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -168,9 +156,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
       "torrent",
-      "rom"
+      "rom",
+      "pirate"
+    ]
+  },
+  {
+    "title": "U.S. Lawmakers Work on Unified Site-Blocking Bill to Counter Online Piracy",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Sun, 05 Apr 2026 16:25:15 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -181,7 +181,18 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
+      "piracy",
+      "rom"
+    ]
+  },
+  {
+    "title": "Yout.com Hopes Supreme Court&#8217;s Cox Ruling Helps Its Case; RIAA Disagrees",
+    "link": "https://torrentfreak.com/u-s-lawmakers-work-on-unified-site-blocking-bill-to-counter-online-piracy/",
+    "description": "Last week's Supreme Court decision in Cox Communications reshaped the piracy liability landscape, creating new urgency for site-blocking legislation in Congress. This could be addressed by Senator Thom Tillis and Representative Zoe Lofgren, who have been working on bicameral legislation that would r",
+    "date": "Fri, 03 Apr 2026 14:31:49 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
       "piracy"
     ]
   },
@@ -326,15 +337,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/build-a-rocket-boy-ceo-responds-to-end-of-publishing-agreement-with-ioi-partners",
     "description": "Build a Rocket Boy CEO Mark Gerhard has addressed  the end of the developer's publishing agreement with IOI Partners, stating that it \"likes being able to control [its] own destiny as an independent studio.\" Read more",
     "date": "Tue, 31 Mar 2026 16:31:54 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "VR developer Polyarc Games facing layoffs",
-    "link": "https://www.gamesindustry.biz/probablymonsters-is-betting-on-an-xbox-360-esque-bonanza-of-single-player-aa-kookiness",
-    "description": "Remember the Xbox 360 era? Back in the 2000s, publishers tended to have heaving release slates, mixing oddball ideas with more established formats. But as development budgets have spiralled in the decades since, with games taking longer and longer to produce, the big publishers' release slates have ",
-    "date": "Tue, 31 Mar 2026 13:51:23 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
