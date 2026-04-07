@@ -1,8 +1,22 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-06 09:55 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-07 09:53 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-06T09:55:55.837365",
+  fetched_at: "2026-04-07T09:53:42.172402",
   item_count: 30,
   items: [
+  {
+    "title": "Top 10 Most Pirated Movies of The Week – 04/06/2026",
+    "link": "https://torrentfreak.com/music-publishers-ask-court-to-dismiss-xs-weaponized-dmca-antitrust-suit/",
+    "description": "Major music publishers and the NMPA are asking a Texas federal court to throw out X's antitrust lawsuit, calling it a baseless attempt at retaliation. The music companies argue that X’s conspiracy theory rests on a single word in an email, while adding that their massive DMCA takedown campaign was n",
+    "date": "Sun, 05 Apr 2026 23:09:40 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 12,
+    "matched_keywords": [
+      "piracy",
+      "pirate",
+      "takedown",
+      "dmca"
+    ]
+  },
   {
     "title": "Game Pirates Beat Denuvo with Hypervisor Bypasses — Irdeto Promises Countermeasure",
     "link": "https://torrentfreak.com/google-cloudflare-cisco-lose-pirate-site-dns-blocking-appeal-in-france/",
@@ -11,8 +25,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "piracy",
       "denuvo",
+      "piracy",
       "rom",
       "pirate"
     ]
@@ -25,8 +39,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "piracy",
       "crack",
+      "piracy",
       "torrent",
       "denuvo"
     ]
@@ -40,24 +54,24 @@ const ARIA_NEWS = {
     "relevance_score": 10,
     "matched_keywords": [
       "piracy",
-      "takedown",
       "rom",
-      "pirate"
+      "pirate",
+      "takedown"
     ]
   },
   {
-    "title": "The Pirate Bay’s Oldest Torrent Turned 22&#8230;.",
+    "title": "U.S. Lawmakers Work on Unified Site-Blocking Bill to Counter Online Piracy",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
     "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Hoppers' tops the chart, followed by 'Peaky Blinders: The Immortal Man.' 'Crime 101' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sun, 29 Mar 2026 17:46:49 +0000",
+    "date": "Sun, 05 Apr 2026 16:25:15 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
       "rom",
-      "pirate",
+      "torrent",
+      "copyright",
       "piracy",
-      "torrent"
+      "pirate"
     ]
   },
   {
@@ -68,8 +82,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "copyright",
+      "piracy",
       "pirate"
     ]
   },
@@ -82,8 +96,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -111,18 +125,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Court Dismisses Musi’s Apple Lawsuit, Sanctions Law Firm for &#8220;Baseless&#8221; Claims",
-    "link": "https://torrentfreak.com/cloudflare-challenges-legality-of-italys-piracy-shield-appeals-e14-million-fine/",
-    "description": "Italy’s \"Piracy Shield\" was designed to stop pirated live sports streams in 30 minutes, but Cloudflare says the \"black box\" system also puts the open Internet at risk. The American company was fined €14 million by Italian regulator AGCOM in january, for refusing to filter through its 1.1.1.1 DNS res",
-    "date": "Tue, 17 Mar 2026 09:02:35 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "piracy",
-      "pirate"
-    ]
-  },
-  {
     "title": "Google, Cloudflare, Cisco Lose Pirate Site DNS Blocking Appeal in France",
     "link": "https://torrentfreak.com/x-asks-court-to-dismiss-music-piracy-lawsuit-after-supreme-courts-cox-ruling/",
     "description": "Elon Musk’s X is moving for a total dismissal of the high-profile copyright lawsuit filed by major music publishers, claiming that the Supreme Court just pulled the rug out from under the labels’ case. Citing the recent Cox v. Sony decision, the social media platform argues that the \"contributory in",
@@ -136,16 +138,16 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 04/06/2026",
+    "title": "The Pirate Bay’s Oldest Torrent Turned 22&#8230;.",
     "link": "https://torrentfreak.com/judge-allows-bittorrent-seeding-claims-against-meta-despite-lawyers-lame-excuses/",
     "description": "In an effort to gather material for its LLM training, Meta used BitTorrent to download pirated books from Anna’s Archive and other shadow libraries. According to several authors, Meta facilitated the infringement of others by \"seeding\" these torrents. This week, the court granted the authors permiss",
-    "date": "Sun, 29 Mar 2026 23:09:40 +0000",
+    "date": "Sun, 29 Mar 2026 17:46:49 +0000",
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
       "rom",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -156,16 +158,16 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
       "rom",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
-    "title": "U.S. Lawmakers Work on Unified Site-Blocking Bill to Counter Online Piracy",
+    "title": "Supreme Court Wipes Piracy Liability Verdict Against Grande Communications",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sun, 05 Apr 2026 16:25:15 +0000",
+    "date": "Tue, 07 Apr 2026 08:49:16 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
@@ -174,15 +176,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Bankruptcy Court Clears Path for $100 Million Sale of Redbox&#8217;s Piracy Lawsuit Rights",
-    "link": "https://torrentfreak.com/court-dismisses-musis-apple-lawsuit-sanctions-law-firm-for-baseless-claims/",
-    "description": "Apple has won its legal battle against music streaming app Musi. A California federal court dismissed the case with prejudice, ruling that Apple had a clear contractual right to remove the app from the App Store. In a separate order, the court also sanctioned Musi's lawyers for a factually baseless ",
-    "date": "Mon, 16 Mar 2026 07:39:58 +0000",
+    "title": "Music Publishers Ask Court to Dismiss X&#8217;s &#8216;Weaponized DMCA&#8217; Antitrust Suit",
+    "link": "https://torrentfreak.com/supreme-court-wipes-piracy-liability-verdict-against-grande-communications/",
+    "description": "Following on the heels of the landmark Cox v. Sony ruling, the Supreme Court has vacated the contributory copyright infringement verdict against ISP Grande Communications, ordering the Fifth Circuit to reconsider its decision in light of the new precedent. The order is the latest setback for the rec",
+    "date": "Mon, 06 Apr 2026 14:41:29 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "copyright",
+      "dmca"
     ]
   },
   {
@@ -219,10 +221,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Schrödinger's Switch 2: Is it failing or soaring? | Opinion",
+    "title": "Raven Software co-founder Brian Raffel retires",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 03 Apr 2026 11:00:00 +0000",
+    "date": "Tue, 07 Apr 2026 09:18:02 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -250,6 +252,15 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "rom"
     ]
+  },
+  {
+    "title": "Take-Two Interactive reportedly lays off AI team",
+    "link": "https://www.gamesindustry.biz/raven-software-co-founder-brian-raffel-retires",
+    "description": "Brian Raffel, co-founder of Call of Duty developer Raven Software, has retired after 36 years in the games industry. Read more",
+    "date": "Tue, 07 Apr 2026 07:30:57 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "A Game Pass for indie games: meet Indie Pass, a $6.99-a-month subscription launching with 70 titles",
@@ -328,15 +339,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/we-arent-just-still-going-we-are-growing-how-the-division-2-has-attracted-more-players-than-ever-seven-years-on-from-release",
     "description": "Back in 2016, Ubisoft released its new Tom Clancy shooter, The Division. It was part of a new wave of titles, like Destiny, that combined the online persistence of an MMO with more conventional gameplay: in this case, the tactical cover shooter. Read more",
     "date": "Wed, 01 Apr 2026 09:11:15 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "ProbablyMonsters is betting on an Xbox 360-esque bonanza of single-player AA kookiness",
-    "link": "https://www.gamesindustry.biz/build-a-rocket-boy-ceo-responds-to-end-of-publishing-agreement-with-ioi-partners",
-    "description": "Build a Rocket Boy CEO Mark Gerhard has addressed  the end of the developer's publishing agreement with IOI Partners, stating that it \"likes being able to control [its] own destiny as an independent studio.\" Read more",
-    "date": "Tue, 31 Mar 2026 16:31:54 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
