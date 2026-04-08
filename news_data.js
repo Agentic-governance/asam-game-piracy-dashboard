@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-07 09:53 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-08 09:52 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-07T09:53:42.172402",
+  fetched_at: "2026-04-08T09:52:57.893140",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "piracy",
-      "pirate",
+      "dmca",
       "takedown",
-      "dmca"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -25,10 +25,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "denuvo",
-      "piracy",
       "rom",
-      "pirate"
+      "denuvo",
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -39,10 +39,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "crack",
-      "piracy",
+      "denuvo",
       "torrent",
-      "denuvo"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -53,10 +53,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "piracy",
       "rom",
+      "takedown",
       "pirate",
-      "takedown"
+      "piracy"
     ]
   },
   {
@@ -67,11 +67,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
       "torrent",
-      "copyright",
+      "rom",
+      "pirate",
       "piracy",
-      "pirate"
+      "copyright"
     ]
   },
   {
@@ -83,8 +83,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "copyright",
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -95,9 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
+      "torrent",
       "pirate",
-      "torrent"
+      "piracy"
     ]
   },
   {
@@ -108,8 +108,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -120,8 +120,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -145,9 +145,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
+      "torrent",
       "rom",
-      "pirate",
-      "torrent"
+      "pirate"
     ]
   },
   {
@@ -158,9 +158,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
+      "torrent",
       "rom",
-      "pirate",
-      "torrent"
+      "pirate"
     ]
   },
   {
@@ -171,8 +171,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -183,8 +183,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "dmca"
+      "dmca",
+      "copyright"
     ]
   },
   {
@@ -221,10 +221,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Raven Software co-founder Brian Raffel retires",
+    "title": "Super Mario Galaxy Movie becomes highest grossing debut of 2026 in the US",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 07 Apr 2026 09:18:02 +0000",
+    "date": "Wed, 08 Apr 2026 09:04:15 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "IGN Entertainment and Dentsu Gaming announce Women in Gaming UK event",
+    "link": "https://www.gamesindustry.biz/the-rise-fall-and-resurgence-of-australian-game-development",
+    "description": "The Australian games industry has been on a real roller-coaster ride over the past couple of decades. The country had built up some big studios like Pandemic, Krome, Blue Tongue, 2K Australia, and Team Bondi, but after the 2008 global financial crash, around 60% of Australia's game development secto",
+    "date": "Tue, 07 Apr 2026 11:03:17 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -252,6 +263,51 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "rom"
     ]
+  },
+  {
+    "title": "New matchmaking platform Sail.game launches to combat \"discovery fatigue\" between developers and publishers",
+    "link": "https://www.gamesindustry.biz/super-mario-galaxy-movie-becomes-highest-grossing-debut-of-2026-in-the-us",
+    "description": "The Super Mario Galaxy Movie has achieved the highest-grossing US debut of 2026. Read more",
+    "date": "Wed, 08 Apr 2026 08:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Netflix launches dedicated app for kids games",
+    "link": "https://www.gamesindustry.biz/new-matchmaking-platform-sailgame-launches-to-combat-discovery-fatigue-between-developers-and-publishers",
+    "description": "Two industry veterans have launched a matchmaking platform called Sail.game to connect developers seeking funding to publishers looking for new titles. Read more",
+    "date": "Wed, 08 Apr 2026 07:39:42 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Sony to acquire AI and computer vision company Cinemersive Labs",
+    "link": "https://www.gamesindustry.biz/netflix-launches-dedicated-app-for-kids-games",
+    "description": "Netflix has introduced a dedicated app for kids games as part of an updated strategy for its games division. Read more",
+    "date": "Tue, 07 Apr 2026 13:22:38 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "The rise, fall, and resurgence of Australian game development",
+    "link": "https://www.gamesindustry.biz/sony-to-acquire-ai-and-computer-vision-company-cinemersive-labs",
+    "description": "Sony has entered an agreement to acquire machine learning and computer vision company Cinemersive Labs. Read more",
+    "date": "Tue, 07 Apr 2026 11:33:32 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Raven Software co-founder Brian Raffel retires",
+    "link": "https://www.gamesindustry.biz/ign-entertainment-and-dentsu-gaming-announce-women-in-gaming-uk-event",
+    "description": "IGN Entertainment and Dentsu Gaming will host a Women in Gaming UK event on Friday, April 17 in partnership with Meta. Read more",
+    "date": "Tue, 07 Apr 2026 09:18:02 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Take-Two Interactive reportedly lays off AI team",
@@ -285,60 +341,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/mobile-focused-studio-coffee-stain-malmo-shuts-down",
     "description": "Goat Simulator developer Coffee Stain has closed its mobile-focused Malm&ouml; studio. Read more",
     "date": "Thu, 02 Apr 2026 10:04:24 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
-    "link": "https://www.gamesindustry.biz/mechwarrior-dev-piranha-games-reportedly-affected-by-redundancies",
-    "description": "MechWarrior 5: Clans developer Piranha Games has reportedly conducted a round of layoffs. Read more",
-    "date": "Thu, 02 Apr 2026 08:46:38 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"There’s always work to be done\": Limit Break's mentorship program for under-represented groups returns for 2026",
-    "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
-    "description": "The United States Patent and Trademark Office (USPTO) has rejected Nintendo's patent that involves an in-game character summoning a sub-character to aid it in battle. Read more",
-    "date": "Thu, 02 Apr 2026 08:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "VR platform Rec Room to shut down in June 2026",
-    "link": "https://www.gamesindustry.biz/tickets-go-on-sale-for-consumer-event-ign-live-2026-returning-to-la-on-6-june",
-    "description": "IGN Entertainment, the parent company of GamesIndustry.biz, has put tickets on sale for consumer event IGN Live, which returns to Los Angeles on 6-7 June. Read more",
-    "date": "Wed, 01 Apr 2026 13:35:09 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Ustwo Games to keynote Develop:Brighton 2026",
-    "link": "https://www.gamesindustry.biz/vr-platform-rec-room-to-shut-down-in-june-2026",
-    "description": "Social VR gaming platform Rec Room has announced its closure on June 1, 2026. Read more",
-    "date": "Wed, 01 Apr 2026 12:59:44 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Stellar Blade developer Shift Up acquires Shinji Mikami's new studio",
-    "link": "https://www.gamesindustry.biz/ustwo-games-to-keynote-developbrighton-2026",
-    "description": "Organisers of this year's Develop:Brighton conference have announced Ustwo Games as its first keynote speaker. Read more",
-    "date": "Wed, 01 Apr 2026 10:39:39 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Build a Rocket Boy CEO responds to end of publishing agreement with IOI Partners",
-    "link": "https://www.gamesindustry.biz/we-arent-just-still-going-we-are-growing-how-the-division-2-has-attracted-more-players-than-ever-seven-years-on-from-release",
-    "description": "Back in 2016, Ubisoft released its new Tom Clancy shooter, The Division. It was part of a new wave of titles, like Destiny, that combined the online persistence of an MMO with more conventional gameplay: in this case, the tactical cover shooter. Read more",
-    "date": "Wed, 01 Apr 2026 09:11:15 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
