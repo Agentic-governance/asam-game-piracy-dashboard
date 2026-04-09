@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-08 09:52 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-09 10:20 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-08T09:52:57.893140",
+  fetched_at: "2026-04-09T10:20:26.743147",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "dmca",
-      "takedown",
       "pirate",
-      "piracy"
+      "piracy",
+      "dmca",
+      "takedown"
     ]
   },
   {
@@ -25,10 +25,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "rom",
-      "denuvo",
       "pirate",
-      "piracy"
+      "piracy",
+      "denuvo",
+      "rom"
     ]
   },
   {
@@ -39,10 +39,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "denuvo",
-      "torrent",
       "crack",
-      "piracy"
+      "piracy",
+      "torrent",
+      "denuvo"
     ]
   },
   {
@@ -53,10 +53,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "rom",
-      "takedown",
       "pirate",
-      "piracy"
+      "piracy",
+      "takedown",
+      "rom"
     ]
   },
   {
@@ -67,10 +67,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
-      "rom",
       "pirate",
       "piracy",
+      "torrent",
+      "rom",
       "copyright"
     ]
   },
@@ -82,22 +82,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "copyright",
       "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Cloudflare Challenges Legality of Italy&#8217;s &#8220;Piracy Shield&#8221;, Appeals €14 Million Fine",
-    "link": "https://torrentfreak.com/oscar-winner-one-battle-after-another-sees-piracy-surge-while-sinners-stays-flat/",
-    "description": "Winning the Best Picture Oscar is usually a reliable piracy trigger, and this year is no exception.  The estimated pirated downloads of 'One Battle After Another' tripled on torrent sites, leaving all other contenders behind. Surprisingly, 'Sinners' saw no piracy boost post-ceremony despite four Osc",
-    "date": "Wed, 18 Mar 2026 07:18:24 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "torrent",
-      "pirate",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -132,9 +119,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "copyright",
+      "pirate",
       "rom",
-      "pirate"
+      "copyright"
     ]
   },
   {
@@ -145,9 +132,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
+      "pirate",
       "torrent",
-      "rom",
-      "pirate"
+      "rom"
     ]
   },
   {
@@ -158,21 +145,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
+      "pirate",
       "torrent",
-      "rom",
-      "pirate"
+      "rom"
     ]
   },
   {
-    "title": "Supreme Court Wipes Piracy Liability Verdict Against Grande Communications",
+    "title": "Kocowa Secures Win Against Dramacool Pirates, U.S. Court Grants Domain Takeovers",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 07 Apr 2026 08:49:16 +0000",
+    "date": "Thu, 09 Apr 2026 06:25:56 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -185,6 +172,17 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "dmca",
       "copyright"
+    ]
+  },
+  {
+    "title": "Supreme Court Wipes Piracy Liability Verdict Against Grande Communications",
+    "link": "https://torrentfreak.com/kocowa-secures-win-against-dramacool-pirates-u-s-court-grants-domain-takeovers/",
+    "description": "Legal streaming service Kocowa hopes to have dealt the final blow to the Dramacool piracy network. The company obtained a default judgment in a U.S. federal court, which granted the transfer of 16 domain names, including dramacool.bg and dramacool.ba, which remain online. While the court noted that ",
+    "date": "Tue, 07 Apr 2026 08:49:16 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "piracy"
     ]
   },
   {
@@ -221,10 +219,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Super Mario Galaxy Movie becomes highest grossing debut of 2026 in the US",
+    "title": "Games London reveals Ensemble 2026 cohort",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 08 Apr 2026 09:04:15 +0000",
+    "date": "Thu, 09 Apr 2026 09:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -232,10 +230,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "IGN Entertainment and Dentsu Gaming announce Women in Gaming UK event",
-    "link": "https://www.gamesindustry.biz/the-rise-fall-and-resurgence-of-australian-game-development",
+    "title": "Papers, Please, Return of the Obra Dinn dev Lucas Pope won't talk about current game in case it \"gets slurped up by AI\"",
+    "link": "https://www.gamesindustry.biz/rockfish-games-lands-8m-grant-as-germany-boosts-game-industry-support",
+    "description": "Rocketfish Games has been awarded &euro;8 million from the German government's newly-expanded &euro;125 million games fund to support the development of the next game in the Everspace shooter franchise. Launched in 2020, the Federal Ministry of Research, Technology, and Space (BMFTR) funding program",
+    "date": "Wed, 08 Apr 2026 18:44:20 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "The rise, fall, and resurgence of Australian game development",
+    "link": "https://www.gamesindustry.biz/sony-to-acquire-ai-and-computer-vision-company-cinemersive-labs",
     "description": "The Australian games industry has been on a real roller-coaster ride over the past couple of decades. The country had built up some big studios like Pandemic, Krome, Blue Tongue, 2K Australia, and Team Bondi, but after the 2008 global financial crash, around 60% of Australia's game development secto",
-    "date": "Tue, 07 Apr 2026 11:03:17 +0000",
+    "date": "Tue, 07 Apr 2026 11:33:32 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -245,7 +254,7 @@ const ARIA_NEWS = {
   {
     "title": "Reddit posts can be more important than data, and other lessons from maintaining Candy Crush as a forever game",
     "link": "https://www.gamesindustry.biz/schrodingers-switch-2-is-it-failing-or-soaring-opinion",
-    "description": "Nintendo has been on a bit of a rollercoaster ride for the past few weeks. First, we learned that holiday sales of Switch 2 had disappointed, potentially leading to the company dropping its targets and slowing manufacturing of the console. Then, mere days later, Pok&eacute;mon Pokopia turned out to ",
+    "description": "Since its launch in 2012, Candy Crush Saga has grown into one of the most successful tile-matching games in history, surpassing $20 billion in lifetime revenue by September 2023. Read more",
     "date": "Fri, 03 Apr 2026 09:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -254,20 +263,36 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Tickets go on sale for consumer event IGN Live 2026, returning to LA on 6 June",
-    "link": "https://www.gamesindustry.biz/theres-always-work-to-be-done-limit-breaks-mentorship-program-for-under-represented-groups-returns-for-2026",
-    "description": "The 2026 Limit Break mentorship program has opened applications to participants from the UK and Irish games industry. Read more",
-    "date": "Wed, 01 Apr 2026 16:02:56 +0000",
+    "title": "Rockfish Games lands €8m grant as Germany boosts game industry support",
+    "link": "https://www.gamesindustry.biz/games-london-reveals-ensemble-2026-cohort",
+    "description": "London Games Festival organisers have announced this year's Ensemble exhibition cohort, spotlighting Black, Asian, and other underrepresented ethnic creatives in the UK games industry. Read more",
+    "date": "Thu, 09 Apr 2026 08:00:00 +0000",
     "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "It Takes Two, Split Fiction studio tops 50 million sales | News-in-brief",
+    "link": "https://www.gamesindustry.biz/papers-please-return-of-the-obra-dinn-dev-lucas-pope-wont-talk-about-current-game-in-case-it-gets-slurped-up-by-ai",
+    "description": "Papers, Please and Return of the Obra Dinn developer Lucas Pope is reluctant to talk about his current game for fear it'll \"get slurped up by AI.\" Read more",
+    "date": "Wed, 08 Apr 2026 16:31:16 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "BAFTA to honour Supercell CEO with fellowship",
+    "link": "https://www.gamesindustry.biz/evil-landfall-is-the-latest-publishing-label-from-an-indie-developer",
+    "description": "Supercell CEO and co-founder Ilkka Paananen will receive a BAFTA Fellowship at this year's BAFTA Game Awards. Read more",
+    "date": "Wed, 08 Apr 2026 10:02:11 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "New matchmaking platform Sail.game launches to combat \"discovery fatigue\" between developers and publishers",
     "link": "https://www.gamesindustry.biz/super-mario-galaxy-movie-becomes-highest-grossing-debut-of-2026-in-the-us",
-    "description": "The Super Mario Galaxy Movie has achieved the highest-grossing US debut of 2026. Read more",
+    "description": "Two industry veterans have launched a matchmaking platform called Sail.game to connect developers seeking funding to publishers looking for new titles. Read more",
     "date": "Wed, 08 Apr 2026 08:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
@@ -276,26 +301,17 @@ const ARIA_NEWS = {
   {
     "title": "Netflix launches dedicated app for kids games",
     "link": "https://www.gamesindustry.biz/new-matchmaking-platform-sailgame-launches-to-combat-discovery-fatigue-between-developers-and-publishers",
-    "description": "Two industry veterans have launched a matchmaking platform called Sail.game to connect developers seeking funding to publishers looking for new titles. Read more",
+    "description": "Netflix has introduced a dedicated app for kids games as part of an updated strategy for its games division. Read more",
     "date": "Wed, 08 Apr 2026 07:39:42 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Sony to acquire AI and computer vision company Cinemersive Labs",
-    "link": "https://www.gamesindustry.biz/netflix-launches-dedicated-app-for-kids-games",
-    "description": "Netflix has introduced a dedicated app for kids games as part of an updated strategy for its games division. Read more",
-    "date": "Tue, 07 Apr 2026 13:22:38 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "The rise, fall, and resurgence of Australian game development",
-    "link": "https://www.gamesindustry.biz/sony-to-acquire-ai-and-computer-vision-company-cinemersive-labs",
-    "description": "Sony has entered an agreement to acquire machine learning and computer vision company Cinemersive Labs. Read more",
-    "date": "Tue, 07 Apr 2026 11:33:32 +0000",
+    "title": "IGN Entertainment and Dentsu Gaming announce Women in Gaming UK event",
+    "link": "https://www.gamesindustry.biz/the-rise-fall-and-resurgence-of-australian-game-development",
+    "description": "IGN Entertainment and Dentsu Gaming will host a Women in Gaming UK event on Friday, April 17 in partnership with Meta. Read more",
+    "date": "Tue, 07 Apr 2026 11:03:17 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
@@ -303,17 +319,17 @@ const ARIA_NEWS = {
   {
     "title": "Raven Software co-founder Brian Raffel retires",
     "link": "https://www.gamesindustry.biz/ign-entertainment-and-dentsu-gaming-announce-women-in-gaming-uk-event",
-    "description": "IGN Entertainment and Dentsu Gaming will host a Women in Gaming UK event on Friday, April 17 in partnership with Meta. Read more",
+    "description": "Brian Raffel, co-founder of Call of Duty developer Raven Software, has retired after 36 years in the games industry. Read more",
     "date": "Tue, 07 Apr 2026 09:18:02 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Take-Two Interactive reportedly lays off AI team",
-    "link": "https://www.gamesindustry.biz/raven-software-co-founder-brian-raffel-retires",
-    "description": "Brian Raffel, co-founder of Call of Duty developer Raven Software, has retired after 36 years in the games industry. Read more",
-    "date": "Tue, 07 Apr 2026 07:30:57 +0000",
+    "title": "Schrödinger's Switch 2: Is it failing or soaring? | Opinion",
+    "link": "https://www.gamesindustry.biz/take-two-interactive-reportedly-lays-off-ai-team",
+    "description": "Nintendo has been on a bit of a rollercoaster ride for the past few weeks. First, we learned that holiday sales of Switch 2 had disappointed, potentially leading to the company dropping its targets and slowing manufacturing of the console. Then, mere days later, Pok&eacute;mon Pokopia turned out to ",
+    "date": "Fri, 03 Apr 2026 11:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
@@ -321,26 +337,8 @@ const ARIA_NEWS = {
   {
     "title": "A Game Pass for indie games: meet Indie Pass, a $6.99-a-month subscription launching with 70 titles",
     "link": "https://www.gamesindustry.biz/reddit-posts-can-be-more-important-than-data-and-other-lessons-from-maintaining-candy-crush-as-a-forever-game",
-    "description": "Since its launch in 2012, Candy Crush Saga has grown into one of the most successful tile-matching games in history, surpassing $20 billion in lifetime revenue by September 2023. Read more",
-    "date": "Thu, 02 Apr 2026 14:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Mobile-focused studio Coffee Stain Malmö shuts down",
-    "link": "https://www.gamesindustry.biz/a-game-pass-for-indie-games-meet-indie-pass-a-7-a-month-subscription-that-brings-new-titles-every-month",
     "description": "Independent game publisher Indie.io is launching a subscription service called Indie Pass, which will offer access to a revolving catalogue of indie games for $6.99 a month. Read more",
-    "date": "Thu, 02 Apr 2026 13:54:37 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "MechWarrior dev Piranha Games reportedly affected by redundancies",
-    "link": "https://www.gamesindustry.biz/mobile-focused-studio-coffee-stain-malmo-shuts-down",
-    "description": "Goat Simulator developer Coffee Stain has closed its mobile-focused Malm&ouml; studio. Read more",
-    "date": "Thu, 02 Apr 2026 10:04:24 +0000",
+    "date": "Thu, 02 Apr 2026 14:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
