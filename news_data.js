@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-09 10:20 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-10 09:56 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-09T10:20:26.743147",
+  fetched_at: "2026-04-10T09:56:24.152105",
   item_count: 30,
   items: [
   {
@@ -12,9 +12,9 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "pirate",
-      "piracy",
       "dmca",
-      "takedown"
+      "takedown",
+      "piracy"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "pirate",
-      "piracy",
       "denuvo",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -39,10 +39,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "crack",
-      "piracy",
+      "denuvo",
       "torrent",
-      "denuvo"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -54,9 +54,9 @@ const ARIA_NEWS = {
     "relevance_score": 10,
     "matched_keywords": [
       "pirate",
-      "piracy",
+      "rom",
       "takedown",
-      "rom"
+      "piracy"
     ]
   },
   {
@@ -67,11 +67,24 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
-      "piracy",
-      "torrent",
       "rom",
-      "copyright"
+      "copyright",
+      "pirate",
+      "torrent",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Kocowa Secures Win Against Dramacool Pirates, U.S. Court Grants Domain Takeovers",
+    "link": "https://torrentfreak.com/hbo-obtains-dmca-subpoena-to-unmask-euphoria-spoiler-account-on-x/",
+    "description": "HBO has obtained a DMCA subpoena, ordering X Corp. to identify the person behind a Euphoria fan account that allegedly posted spoilers from unaired episodes of Season 3. The action comes just days before the show's long-awaited premiere this weekend, but it remains unclear what the company plans to ",
+    "date": "Thu, 09 Apr 2026 06:25:56 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "pirate",
+      "dmca",
+      "rom"
     ]
   },
   {
@@ -83,8 +96,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -92,18 +105,6 @@ const ARIA_NEWS = {
     "link": "https://torrentfreak.com/france-fines-first-batch-of-pirate-iptv-subscribers-following-reseller-bust/",
     "description": "For years, French pirate IPTV users were not targeted, as rightsholders and the authorities only went after operators and resellers. That changed last week, as the Arras Public Prosecutor's Office fined 19 IPTV subscribers between €300 and €400 after their identities were exposed through a reseller ",
     "date": "Tue, 24 Mar 2026 09:56:38 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Oscar Winner &#8216;One Battle After Another&#8217; Sees Piracy Surge, While &#8216;Sinners&#8217; Stays Flat",
-    "link": "https://torrentfreak.com/dish-seeks-28-65-million-default-judgment-in-lemo-kemo-iptv-lawsuit/",
-    "description": "DISH Network is doubling down on its legal offensive against pirate IPTV services. Despite a setback earlier this month, the pay TV provider is asking a Florida federal court for a $28.65 million default judgment against the operators of Kemo IPTV and Lemo TV, and one of their U.S.-based resellers. ",
-    "date": "Fri, 20 Mar 2026 07:18:09 +0000",
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
@@ -133,8 +134,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "pirate",
-      "torrent",
-      "rom"
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -146,19 +147,19 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "pirate",
-      "torrent",
-      "rom"
+      "rom",
+      "torrent"
     ]
   },
   {
-    "title": "Kocowa Secures Win Against Dramacool Pirates, U.S. Court Grants Domain Takeovers",
+    "title": "HBO Obtains DMCA Subpoena to Unmask &#8216;Euphoria&#8217; Spoiler Account on X",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Thu, 09 Apr 2026 06:25:56 +0000",
+    "date": "Fri, 10 Apr 2026 06:48:42 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
+      "dmca",
       "copyright"
     ]
   },
@@ -219,10 +220,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Games London reveals Ensemble 2026 cohort",
+    "title": "Google removes Doki Doki Literature Club from Play Store",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 09 Apr 2026 09:00:00 +0000",
+    "date": "Fri, 10 Apr 2026 09:26:36 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Off the Grid maker and Game Informer owner Gunzilla Games accused of missing staff salary payments",
+    "link": "https://www.gamesindustry.biz/the-first-berserker-khazan-studio-neople-announces-restructure-of-dev-teams",
+    "description": "Nexon subsidiary Neople has \"reorganised its teams\" as The First Berserker: Khazan \"enters its final stage.\" No layoffs resulted from this restructuring. Read more",
+    "date": "Thu, 09 Apr 2026 15:33:04 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -232,7 +244,7 @@ const ARIA_NEWS = {
   {
     "title": "Papers, Please, Return of the Obra Dinn dev Lucas Pope won't talk about current game in case it \"gets slurped up by AI\"",
     "link": "https://www.gamesindustry.biz/rockfish-games-lands-8m-grant-as-germany-boosts-game-industry-support",
-    "description": "Rocketfish Games has been awarded &euro;8 million from the German government's newly-expanded &euro;125 million games fund to support the development of the next game in the Everspace shooter franchise. Launched in 2020, the Federal Ministry of Research, Technology, and Space (BMFTR) funding program",
+    "description": "Rockfish Games has been awarded &euro;8 million from the German government's newly-expanded &euro;125 million games fund to support the development of the next game in the Everspace shooter franchise. Launched in 2020, the Federal Ministry of Research, Technology, and Space (BMFTR) funding program o",
     "date": "Wed, 08 Apr 2026 18:44:20 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -261,6 +273,24 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "rom"
     ]
+  },
+  {
+    "title": "Five studios form developer-led holding Nova Assembly",
+    "link": "https://www.gamesindustry.biz/off-the-grid-maker-and-game-informer-owner-gunzilla-games-accused-of-missing-staff-salary-payments",
+    "description": "Former and current staff at Gunzilla Games, publisher/developer of blockchain game Off The Grid and owner of US games publication Game Informer, say that the company has not been paying salaries for months. Read more",
+    "date": "Thu, 09 Apr 2026 13:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Games London reveals Ensemble 2026 cohort",
+    "link": "https://www.gamesindustry.biz/five-studios-form-developer-led-holding-nova-assembly",
+    "description": "A group of five independent studios have established Nova Assembly, a developer-led alliance focused on sharing resources and expertise. Read more",
+    "date": "Thu, 09 Apr 2026 09:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Rockfish Games lands €8m grant as Germany boosts game industry support",
@@ -312,33 +342,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/the-rise-fall-and-resurgence-of-australian-game-development",
     "description": "IGN Entertainment and Dentsu Gaming will host a Women in Gaming UK event on Friday, April 17 in partnership with Meta. Read more",
     "date": "Tue, 07 Apr 2026 11:03:17 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Raven Software co-founder Brian Raffel retires",
-    "link": "https://www.gamesindustry.biz/ign-entertainment-and-dentsu-gaming-announce-women-in-gaming-uk-event",
-    "description": "Brian Raffel, co-founder of Call of Duty developer Raven Software, has retired after 36 years in the games industry. Read more",
-    "date": "Tue, 07 Apr 2026 09:18:02 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Schrödinger's Switch 2: Is it failing or soaring? | Opinion",
-    "link": "https://www.gamesindustry.biz/take-two-interactive-reportedly-lays-off-ai-team",
-    "description": "Nintendo has been on a bit of a rollercoaster ride for the past few weeks. First, we learned that holiday sales of Switch 2 had disappointed, potentially leading to the company dropping its targets and slowing manufacturing of the console. Then, mere days later, Pok&eacute;mon Pokopia turned out to ",
-    "date": "Fri, 03 Apr 2026 11:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "A Game Pass for indie games: meet Indie Pass, a $6.99-a-month subscription launching with 70 titles",
-    "link": "https://www.gamesindustry.biz/reddit-posts-can-be-more-important-than-data-and-other-lessons-from-maintaining-candy-crush-as-a-forever-game",
-    "description": "Independent game publisher Indie.io is launching a subscription service called Indie Pass, which will offer access to a revolving catalogue of indie games for $6.99 a month. Read more",
-    "date": "Thu, 02 Apr 2026 14:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
