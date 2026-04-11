@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-10 09:56 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-11 08:02 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-10T09:56:24.152105",
+  fetched_at: "2026-04-11T08:02:14.420137",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "pirate",
       "dmca",
-      "takedown",
-      "piracy"
+      "piracy",
+      "pirate",
+      "takedown"
     ]
   },
   {
@@ -25,10 +25,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "pirate",
-      "denuvo",
       "rom",
-      "piracy"
+      "denuvo",
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -39,10 +39,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "denuvo",
-      "torrent",
+      "piracy",
       "crack",
-      "piracy"
+      "denuvo",
+      "torrent"
     ]
   },
   {
@@ -53,10 +53,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "pirate",
-      "rom",
       "takedown",
-      "piracy"
+      "piracy",
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -67,11 +67,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "piracy",
       "rom",
-      "copyright",
       "pirate",
       "torrent",
-      "piracy"
+      "copyright"
     ]
   },
   {
@@ -82,8 +82,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "dmca",
+      "pirate",
       "rom"
     ]
   },
@@ -95,9 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "piracy",
       "pirate",
-      "copyright",
-      "piracy"
+      "copyright"
     ]
   },
   {
@@ -108,8 +108,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -120,8 +120,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
       "rom",
+      "pirate",
       "copyright"
     ]
   },
@@ -133,8 +133,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
       "rom",
+      "pirate",
       "torrent"
     ]
   },
@@ -146,8 +146,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
       "rom",
+      "pirate",
       "torrent"
     ]
   },
@@ -220,10 +220,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Google removes Doki Doki Literature Club from Play Store",
+    "title": "Devs aren't \"lazy\" and game updates aren't guaranteed | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 10 Apr 2026 09:26:36 +0000",
+    "date": "Fri, 10 Apr 2026 16:16:17 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -264,15 +264,13 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Reddit posts can be more important than data, and other lessons from maintaining Candy Crush as a forever game",
-    "link": "https://www.gamesindustry.biz/schrodingers-switch-2-is-it-failing-or-soaring-opinion",
-    "description": "Since its launch in 2012, Candy Crush Saga has grown into one of the most successful tile-matching games in history, surpassing $20 billion in lifetime revenue by September 2023. Read more",
-    "date": "Fri, 03 Apr 2026 09:00:00 +0000",
+    "title": "Metal Gear Solid movie adaptation finds new directors",
+    "link": "https://www.gamesindustry.biz/devs-arent-lazy-and-game-updates-arent-guaranteed-opinion",
+    "description": "If there were one trope of online discussion about video games I could cast into the depths of the ocean never to be seen again, well, it would be the various forms of casual bigotry, obviously. If I got to pick another one to join it, though, it would be the \"lazy devs\" genre of comment. Read more",
+    "date": "Fri, 10 Apr 2026 10:41:43 +0000",
     "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Five studios form developer-led holding Nova Assembly",
