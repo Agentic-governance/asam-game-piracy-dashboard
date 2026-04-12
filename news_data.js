@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-11 08:02 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-12 08:32 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-11T08:02:14.420137",
+  fetched_at: "2026-04-12T08:32:24.506193",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "dmca",
       "piracy",
-      "pirate",
-      "takedown"
+      "dmca",
+      "takedown",
+      "pirate"
     ]
   },
   {
@@ -25,9 +25,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "piracy",
       "rom",
       "denuvo",
-      "piracy",
       "pirate"
     ]
   },
@@ -40,9 +40,9 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "piracy",
+      "torrent",
       "crack",
-      "denuvo",
-      "torrent"
+      "denuvo"
     ]
   },
   {
@@ -53,10 +53,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "takedown",
       "piracy",
-      "pirate",
-      "rom"
+      "takedown",
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -68,9 +68,9 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "piracy",
+      "torrent",
       "rom",
       "pirate",
-      "torrent",
       "copyright"
     ]
   },
@@ -83,8 +83,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "dmca",
-      "pirate",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -96,8 +96,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -121,8 +121,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "rom",
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -133,9 +133,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
+      "torrent",
       "rom",
-      "pirate",
-      "torrent"
+      "pirate"
     ]
   },
   {
@@ -146,21 +146,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
+      "torrent",
       "rom",
-      "pirate",
-      "torrent"
-    ]
-  },
-  {
-    "title": "HBO Obtains DMCA Subpoena to Unmask &#8216;Euphoria&#8217; Spoiler Account on X",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Fri, 10 Apr 2026 06:48:42 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "dmca",
-      "copyright"
+      "pirate"
     ]
   },
   {
@@ -173,6 +161,17 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "dmca",
       "copyright"
+    ]
+  },
+  {
+    "title": "HBO Obtains DMCA Subpoena to Unmask &#8216;Euphoria&#8217; Spoiler Account on X",
+    "link": "https://torrentfreak.com/rapidiptv-kingpin-dash-the-iranian-gets-two-years-prison-under-spanish-plea-deal/",
+    "description": "Six years after international police units searched houses and server farms across Europe, the alleged mastermind had his day in court. Amir Z., known to colleagues as \"Dash the Iranian,\" faced 22.5 years in prison alongside four co-defendants. However, after they all pleaded guilty, the ringleader ",
+    "date": "Fri, 10 Apr 2026 06:48:42 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "dmca"
     ]
   },
   {
