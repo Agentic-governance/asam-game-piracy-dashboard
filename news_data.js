@@ -1,22 +1,8 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-12 08:32 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-13 11:04 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-12T08:32:24.506193",
+  fetched_at: "2026-04-13T11:04:57.660077",
   item_count: 30,
   items: [
-  {
-    "title": "Top 10 Most Pirated Movies of The Week – 04/06/2026",
-    "link": "https://torrentfreak.com/music-publishers-ask-court-to-dismiss-xs-weaponized-dmca-antitrust-suit/",
-    "description": "Major music publishers and the NMPA are asking a Texas federal court to throw out X's antitrust lawsuit, calling it a baseless attempt at retaliation. The music companies argue that X’s conspiracy theory rests on a single word in an email, while adding that their massive DMCA takedown campaign was n",
-    "date": "Sun, 05 Apr 2026 23:09:40 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 12,
-    "matched_keywords": [
-      "piracy",
-      "dmca",
-      "takedown",
-      "pirate"
-    ]
-  },
   {
     "title": "Game Pirates Beat Denuvo with Hypervisor Bypasses — Irdeto Promises Countermeasure",
     "link": "https://torrentfreak.com/google-cloudflare-cisco-lose-pirate-site-dns-blocking-appeal-in-france/",
@@ -25,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "piracy",
       "rom",
-      "denuvo",
-      "pirate"
+      "piracy",
+      "pirate",
+      "denuvo"
     ]
   },
   {
@@ -39,39 +25,38 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "piracy",
       "torrent",
+      "piracy",
       "crack",
       "denuvo"
     ]
   },
   {
-    "title": "Cloudflare Reports Surge in Geo-Blocked Pirate Site Domains",
-    "link": "https://torrentfreak.com/github-nukes-900-anime-piracy-repos-and-forks-but-rejects-circumvention-claims/",
-    "description": "GitHub has removed more than 900 repositories and forks linked to anime streaming tools following a takedown notice from Remove Your Media LLC. Representing rightsholders including Crunchyroll and VIZ Media, the anti-piracy firm claims the repositories \"traffic\" in circumvention technology by scrapi",
-    "date": "Mon, 23 Mar 2026 08:25:23 +0000",
+    "title": "RapidIPTV Kingpin &#8216;Dash the Iranian&#8217; Gets Two Years Prison Under Spanish Plea Deal",
+    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Project Hail Mary' tops the chart, followed by 'Hoppers.' 'Avatar: Fire and Ash' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sat, 11 Apr 2026 16:55:06 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 10,
+    "relevance_score": 9,
     "matched_keywords": [
+      "copyright",
       "piracy",
-      "takedown",
+      "pirate",
       "rom",
-      "pirate"
+      "torrent"
     ]
   },
   {
     "title": "U.S. Lawmakers Work on Unified Site-Blocking Bill to Counter Online Piracy",
-    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Hoppers' tops the chart, followed by 'Peaky Blinders: The Immortal Man.' 'Crime 101' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "link": "https://torrentfreak.com/music-publishers-ask-court-to-dismiss-xs-weaponized-dmca-antitrust-suit/",
+    "description": "Major music publishers and the NMPA are asking a Texas federal court to throw out X's antitrust lawsuit, calling it a baseless attempt at retaliation. The music companies argue that X’s conspiracy theory rests on a single word in an email, while adding that their massive DMCA takedown campaign was n",
     "date": "Sun, 05 Apr 2026 16:25:15 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
       "piracy",
-      "torrent",
-      "rom",
-      "pirate",
-      "copyright"
+      "takedown",
+      "dmca"
     ]
   },
   {
@@ -82,9 +67,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "dmca",
       "rom",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -96,7 +81,19 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "copyright",
+      "pirate",
+      "copyright"
+    ]
+  },
+  {
+    "title": "Top 10 Most Pirated Movies of The Week – 04/13/2026",
+    "link": "https://torrentfreak.com/paris-court-issued-simultaneous-site-blocking-orders-against-isps-dns-resolvers-and-vpns/",
+    "description": "In a series of simultaneous rulings, the Paris Judicial Court ordered ISPs, VPN providers, and DNS resolvers to block access to 35 sports piracy sites. The orders were requested by Spanish football league LaLiga, which lacked standing as a foreign entity under French law. LaLiga licensee beIN Sports",
+    "date": "Sun, 12 Apr 2026 23:09:40 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "piracy",
       "pirate"
     ]
   },
@@ -121,8 +118,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "rom",
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -133,9 +130,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
       "rom",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -146,9 +143,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
       "rom",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -159,8 +156,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "dmca",
-      "copyright"
+      "copyright",
+      "dmca"
     ]
   },
   {
@@ -219,10 +216,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Devs aren't \"lazy\" and game updates aren't guaranteed | Opinion",
+    "title": "UKIE: UK games market reaches £8.7bn in 2025",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 10 Apr 2026 16:16:17 +0000",
+    "date": "Mon, 13 Apr 2026 11:02:20 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -261,6 +258,33 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "rom"
     ]
+  },
+  {
+    "title": "Rockstar Games affected by data breach, \"limited amount of non-material information\" accessed",
+    "link": "https://www.gamesindustry.biz/ukie-uk-games-market-reaches-87bn-in-2025",
+    "description": "The UK games market reached &pound;8.7 billion in 2025, according to UKIE's annual consumer games market valuation. Read more",
+    "date": "Mon, 13 Apr 2026 09:50:42 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Liquid Swords CEO Christofer Sundberg announced as speaker at Nordic Game 2026",
+    "link": "https://www.gamesindustry.biz/rockstar-games-affected-by-data-breach-limited-amount-of-non-material-information-accessed",
+    "description": "Rockstar Games has confirmed it was affected by a data breach. Read more",
+    "date": "Mon, 13 Apr 2026 07:06:58 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Devs aren't \"lazy\" and game updates aren't guaranteed | Opinion",
+    "link": "https://www.gamesindustry.biz/liquid-swords-ceo-christofer-sundberg-announced-as-speaker-at-nordic-game-2026",
+    "description": "Nordic Game 2026 has announced additional speakers, including Liquid Swords CEO Christofer Sundberg. Read more",
+    "date": "Fri, 10 Apr 2026 16:16:17 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Metal Gear Solid movie adaptation finds new directors",
@@ -312,33 +336,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/evil-landfall-is-the-latest-publishing-label-from-an-indie-developer",
     "description": "Supercell CEO and co-founder Ilkka Paananen will receive a BAFTA Fellowship at this year's BAFTA Game Awards. Read more",
     "date": "Wed, 08 Apr 2026 10:02:11 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "New matchmaking platform Sail.game launches to combat \"discovery fatigue\" between developers and publishers",
-    "link": "https://www.gamesindustry.biz/super-mario-galaxy-movie-becomes-highest-grossing-debut-of-2026-in-the-us",
-    "description": "Two industry veterans have launched a matchmaking platform called Sail.game to connect developers seeking funding to publishers looking for new titles. Read more",
-    "date": "Wed, 08 Apr 2026 08:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Netflix launches dedicated app for kids games",
-    "link": "https://www.gamesindustry.biz/new-matchmaking-platform-sailgame-launches-to-combat-discovery-fatigue-between-developers-and-publishers",
-    "description": "Netflix has introduced a dedicated app for kids games as part of an updated strategy for its games division. Read more",
-    "date": "Wed, 08 Apr 2026 07:39:42 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "IGN Entertainment and Dentsu Gaming announce Women in Gaming UK event",
-    "link": "https://www.gamesindustry.biz/the-rise-fall-and-resurgence-of-australian-game-development",
-    "description": "IGN Entertainment and Dentsu Gaming will host a Women in Gaming UK event on Friday, April 17 in partnership with Meta. Read more",
-    "date": "Tue, 07 Apr 2026 11:03:17 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
