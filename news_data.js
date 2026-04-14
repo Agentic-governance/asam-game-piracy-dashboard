@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-13 11:04 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-14 10:45 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-13T11:04:57.660077",
+  fetched_at: "2026-04-14T10:45:00.924272",
   item_count: 30,
   items: [
   {
@@ -11,9 +11,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "rom",
       "piracy",
       "pirate",
+      "rom",
       "denuvo"
     ]
   },
@@ -25,10 +25,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "torrent",
       "piracy",
       "crack",
-      "denuvo"
+      "denuvo",
+      "torrent"
     ]
   },
   {
@@ -39,11 +39,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
-      "piracy",
-      "pirate",
       "rom",
-      "torrent"
+      "torrent",
+      "pirate",
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -54,8 +54,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "takedown",
+      "piracy",
       "dmca"
     ]
   },
@@ -67,9 +67,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
+      "dmca",
       "pirate",
-      "dmca"
+      "rom"
     ]
   },
   {
@@ -156,8 +156,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "dmca"
+      "dmca",
+      "copyright"
     ]
   },
   {
@@ -216,10 +216,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "UKIE: UK games market reaches £8.7bn in 2025",
+    "title": "Bloober Team expands leadership, as studio steps up to seven horror titles in active development",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 13 Apr 2026 11:02:20 +0000",
+    "date": "Tue, 14 Apr 2026 10:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Roblox launches new age-based accounts and expanded parental controls \"to build age-appropriate experiences for all\"",
+    "link": "https://www.gamesindustry.biz/esas-iicon-conference-expands-speaker-lineup-with-eas-andrew-wilson-joining-ceos-of-ubisoft-take-two-riot-savvy-games-and-more",
+    "description": "Iicon, the new conference from US trade body the Entertainment Software Association, has announced EA Sports CEO Andrew Wilson as a headline speaker, joining other executives including Take Two's Strauss Zelnick, Ubisoft's Yves Guillemot, RIot's Dylan Jadeja and Savvy Games Group's Brian Ward. Read ",
+    "date": "Mon, 13 Apr 2026 19:49:01 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Sara Veal's framework for a more sustainable and supportive games industry",
+    "link": "https://www.gamesindustry.biz/follow-a-games-rules-not-its-story-exit-8-director-genki-kawamura-on-the-secret-to-a-successful-movie-adaptation",
+    "description": "Exit 8 hit cinemas last weekend, a new movie based on the cult 2023 indie game from Kotake Create. Flying in the face of the convention set by many video game to film adaptations of the past, it's actually rather good, currently sitting at a 95% rating on Rotten Tomatoes. Read more",
+    "date": "Mon, 13 Apr 2026 15:26:58 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -238,26 +260,58 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Papers, Please, Return of the Obra Dinn dev Lucas Pope won't talk about current game in case it \"gets slurped up by AI\"",
-    "link": "https://www.gamesindustry.biz/rockfish-games-lands-8m-grant-as-germany-boosts-game-industry-support",
-    "description": "Rockfish Games has been awarded &euro;8 million from the German government's newly-expanded &euro;125 million games fund to support the development of the next game in the Everspace shooter franchise. Launched in 2020, the Federal Ministry of Research, Technology, and Space (BMFTR) funding program o",
-    "date": "Wed, 08 Apr 2026 18:44:20 +0000",
+    "title": "Xbox boss reportedly says Game Pass \"has become too expensive for players\"",
+    "link": "https://www.gamesindustry.biz/bloober-team-expands-leadership-as-studio-steps-up-to-seven-horror-titles-in-active-development",
+    "description": "Silent Hill 2 remake developer Bloober Team has expanded its leadership as it transitions to a multi-project structure, with the studio currently working on two single-player horror games plus five more in co-development. Read more",
+    "date": "Tue, 14 Apr 2026 08:34:14 +0000",
     "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
-    "title": "The rise, fall, and resurgence of Australian game development",
-    "link": "https://www.gamesindustry.biz/sony-to-acquire-ai-and-computer-vision-company-cinemersive-labs",
-    "description": "The Australian games industry has been on a real roller-coaster ride over the past couple of decades. The country had built up some big studios like Pandemic, Krome, Blue Tongue, 2K Australia, and Team Bondi, but after the 2008 global financial crash, around 60% of Australia's game development secto",
-    "date": "Tue, 07 Apr 2026 11:33:32 +0000",
+    "title": "ESA's iicon conference expands speaker lineup, with EA's Andrew Wilson joining CEOs of Ubisoft, Take Two, Riot, Savvy Games and more",
+    "link": "https://www.gamesindustry.biz/xbox-boss-reportedly-says-game-pass-has-become-too-expensive-for-players",
+    "description": "Microsoft Gaming CEO Asha Sharma has reportedly stated that Xbox Game Pass pricing will change, noting it has \"become too expensive for players.\" Read more",
+    "date": "Mon, 13 Apr 2026 22:26:43 +0000",
     "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Epic Games is working on an Arc Raiders-like Disney extraction shooter slated to release by the end of the year",
+    "link": "https://www.gamesindustry.biz/roblox-unveils-new-subscription-service-roblox-plus",
+    "description": "Roblox has unveiled plans for a new monthly subscription service, Roblox Plus. Read more",
+    "date": "Mon, 13 Apr 2026 16:32:41 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Follow a game's rules, not its story: Exit 8 director Genki Kawamura on the secret to a successful movie adaptation",
+    "link": "https://www.gamesindustry.biz/epic-games-is-working-on-an-arc-raiders-like-disney-extraction-shooter-slated-to-release-by-the-end-of-the-year",
+    "description": "Epic Games is reportedly working on an Arc Raiders-like extraction shooter in partnership with Disney. Read more",
+    "date": "Mon, 13 Apr 2026 15:41:26 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Amazon Luna to phase out support for third-party subscriptions and game stores",
+    "link": "https://www.gamesindustry.biz/sara-veals-framework-for-a-more-sustainable-and-supportive-games-industry",
+    "description": "Last week, Games London revealed this year's cohort for its Ensemble initiative. Now in its eighth year, the exhibition features underrepresented games creatives in the UK, showcasing their achievements and personal journeys. Read more",
+    "date": "Mon, 13 Apr 2026 13:39:56 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "UKIE: UK games market reaches £8.7bn in 2025",
+    "link": "https://www.gamesindustry.biz/amazon-luna-to-phase-out-support-for-third-party-subscriptions-and-game-stores",
+    "description": "Amazon will discontinue support for third-party game stores, individual purchases, and external subscriptions on Luna starting June 10, 2026. Read more",
+    "date": "Mon, 13 Apr 2026 11:02:20 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Rockstar Games affected by data breach, \"limited amount of non-material information\" accessed",
@@ -282,60 +336,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/liquid-swords-ceo-christofer-sundberg-announced-as-speaker-at-nordic-game-2026",
     "description": "Nordic Game 2026 has announced additional speakers, including Liquid Swords CEO Christofer Sundberg. Read more",
     "date": "Fri, 10 Apr 2026 16:16:17 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Metal Gear Solid movie adaptation finds new directors",
-    "link": "https://www.gamesindustry.biz/devs-arent-lazy-and-game-updates-arent-guaranteed-opinion",
-    "description": "If there were one trope of online discussion about video games I could cast into the depths of the ocean never to be seen again, well, it would be the various forms of casual bigotry, obviously. If I got to pick another one to join it, though, it would be the \"lazy devs\" genre of comment. Read more",
-    "date": "Fri, 10 Apr 2026 10:41:43 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Five studios form developer-led holding Nova Assembly",
-    "link": "https://www.gamesindustry.biz/off-the-grid-maker-and-game-informer-owner-gunzilla-games-accused-of-missing-staff-salary-payments",
-    "description": "Former and current staff at Gunzilla Games, publisher/developer of blockchain game Off The Grid and owner of US games publication Game Informer, say that the company has not been paying salaries for months. Read more",
-    "date": "Thu, 09 Apr 2026 13:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Games London reveals Ensemble 2026 cohort",
-    "link": "https://www.gamesindustry.biz/five-studios-form-developer-led-holding-nova-assembly",
-    "description": "A group of five independent studios have established Nova Assembly, a developer-led alliance focused on sharing resources and expertise. Read more",
-    "date": "Thu, 09 Apr 2026 09:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Rockfish Games lands €8m grant as Germany boosts game industry support",
-    "link": "https://www.gamesindustry.biz/games-london-reveals-ensemble-2026-cohort",
-    "description": "London Games Festival organisers have announced this year's Ensemble exhibition cohort, spotlighting Black, Asian, and other underrepresented ethnic creatives in the UK games industry. Read more",
-    "date": "Thu, 09 Apr 2026 08:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "It Takes Two, Split Fiction studio tops 50 million sales | News-in-brief",
-    "link": "https://www.gamesindustry.biz/papers-please-return-of-the-obra-dinn-dev-lucas-pope-wont-talk-about-current-game-in-case-it-gets-slurped-up-by-ai",
-    "description": "Papers, Please and Return of the Obra Dinn developer Lucas Pope is reluctant to talk about his current game for fear it'll \"get slurped up by AI.\" Read more",
-    "date": "Wed, 08 Apr 2026 16:31:16 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "BAFTA to honour Supercell CEO with fellowship",
-    "link": "https://www.gamesindustry.biz/evil-landfall-is-the-latest-publishing-label-from-an-indie-developer",
-    "description": "Supercell CEO and co-founder Ilkka Paananen will receive a BAFTA Fellowship at this year's BAFTA Game Awards. Read more",
-    "date": "Wed, 08 Apr 2026 10:02:11 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
