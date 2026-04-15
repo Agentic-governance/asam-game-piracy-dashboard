@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-14 10:45 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-15 10:40 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-14T10:45:00.924272",
+  fetched_at: "2026-04-15T10:40:23.026557",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "piracy",
       "pirate",
+      "denuvo",
       "rom",
-      "denuvo"
+      "piracy"
     ]
   },
   {
@@ -25,9 +25,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "piracy",
       "crack",
       "denuvo",
+      "piracy",
       "torrent"
     ]
   },
@@ -39,11 +39,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
-      "torrent",
       "pirate",
+      "rom",
+      "piracy",
       "copyright",
-      "piracy"
+      "torrent"
     ]
   },
   {
@@ -54,9 +54,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "dmca",
       "takedown",
-      "piracy",
-      "dmca"
+      "piracy"
     ]
   },
   {
@@ -73,19 +73,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "France Fines First Batch of Pirate IPTV Subscribers Following Reseller Bust",
-    "link": "https://torrentfreak.com/supreme-court-wipes-out-record-labels-1-billion-piracy-judgment-against-cox/",
-    "description": "The Supreme Court has reversed the billion-dollar copyright verdict against Cox Communications, concluding that an Internet service provider cannot be held contributorily liable for infringement merely because it kept providing service to subscribers it knew had been flagged for piracy. The landmark",
-    "date": "Wed, 25 Mar 2026 08:43:15 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "piracy",
-      "pirate",
-      "copyright"
-    ]
-  },
-  {
     "title": "Top 10 Most Pirated Movies of The Week – 04/13/2026",
     "link": "https://torrentfreak.com/paris-court-issued-simultaneous-site-blocking-orders-against-isps-dns-resolvers-and-vpns/",
     "description": "In a series of simultaneous rulings, the Paris Judicial Court ordered ISPs, VPN providers, and DNS resolvers to block access to 35 sports piracy sites. The orders were requested by Spanish football league LaLiga, which lacked standing as a foreign entity under French law. LaLiga licensee beIN Sports",
@@ -93,20 +80,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
-    "title": "GitHub Nukes 900+ Anime Piracy Repos and Forks, But Rejects &#8216;Circumvention&#8217; Claims",
-    "link": "https://torrentfreak.com/france-fines-first-batch-of-pirate-iptv-subscribers-following-reseller-bust/",
-    "description": "For years, French pirate IPTV users were not targeted, as rightsholders and the authorities only went after operators and resellers. That changed last week, as the Arras Public Prosecutor's Office fined 19 IPTV subscribers between €300 and €400 after their identities were exposed through a reseller ",
-    "date": "Tue, 24 Mar 2026 09:56:38 +0000",
+    "title": "EU Pirate Site-Blocking Is Broken: Report Calls for IP Blocking Ban and Rightsholder Liability",
+    "link": "https://torrentfreak.com/annas-archive-loses-322-million-spotify-piracy-case-without-a-fight/",
+    "description": "Spotify and several major record labels, including UMG, Sony, and Warner, secured a $322 million default judgment against the unknown operators of Anna's Archive. The shadow library failed to appear in court and briefly released millions of tracks that were scraped from Spotify via BitTorrent. In ad",
+    "date": "Tue, 14 Apr 2026 17:35:36 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 6,
+    "relevance_score": 5,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -117,9 +105,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "rom",
+      "copyright",
       "pirate",
-      "copyright"
+      "rom"
     ]
   },
   {
@@ -130,9 +118,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "rom",
       "pirate",
-      "torrent"
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -143,9 +131,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "rom",
       "pirate",
-      "torrent"
+      "torrent",
+      "rom"
+    ]
+  },
+  {
+    "title": "Anna&#8217;s Archive Loses $322 Million Spotify Piracy Case Without a Fight",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Wed, 15 Apr 2026 07:55:37 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -216,9 +216,20 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Bloober Team expands leadership, as studio steps up to seven horror titles in active development",
+    "title": "Newzoo: More than half of PC revenue comes from games outside the Top 20",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Wed, 15 Apr 2026 08:20:41 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Bloober Team expands leadership, as studio steps up to seven horror titles in active development",
+    "link": "https://www.gamesindustry.biz/tiga-pc-and-console-continue-to-drive-uk-games-development",
+    "description": "New data from trade body TIGA reveals that UK games studios are focusing on PC development, while deprioritising mobile platforms. Read more",
     "date": "Tue, 14 Apr 2026 10:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -249,15 +260,31 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Off the Grid maker and Game Informer owner Gunzilla Games accused of missing staff salary payments",
-    "link": "https://www.gamesindustry.biz/the-first-berserker-khazan-studio-neople-announces-restructure-of-dev-teams",
-    "description": "Nexon subsidiary Neople has \"reorganised its teams\" as The First Berserker: Khazan \"enters its final stage.\" No layoffs resulted from this restructuring. Read more",
-    "date": "Thu, 09 Apr 2026 15:33:04 +0000",
+    "title": "How China came to dominate mobile games – and how Western companies can compete | Opinion",
+    "link": "https://www.gamesindustry.biz/newzoo-more-than-half-of-pc-revenue-comes-from-games-outside-the-top-20",
+    "description": "Games ranked outside the Top 20 are capturing an increasing share of revenue and playtime in Western markets, according to Newzoo data. Read more",
+    "date": "Tue, 14 Apr 2026 16:19:48 +0000",
     "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "UK government begins rollout of £30m Games Growth Package",
+    "link": "https://www.gamesindustry.biz/how-china-came-to-dominate-mobile-games-and-how-western-companies-can-compete-opinion-1",
+    "description": "Tanja Loktionova is the founder of Values Value and co-founder of InGame Job. Read more",
+    "date": "Tue, 14 Apr 2026 13:45:55 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "TIGA: PC and console continue to drive UK games development",
+    "link": "https://www.gamesindustry.biz/uk-government-begins-rollout-of-30m-games-growth-package",
+    "description": "The UK government has launched the latest phase of its  Games Growth Package, allocating &pound;28.5 million  through the UK Games Fund to support early-stage developers and studio growth. Read more",
+    "date": "Tue, 14 Apr 2026 11:05:56 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Xbox boss reportedly says Game Pass \"has become too expensive for players\"",
@@ -309,33 +336,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/amazon-luna-to-phase-out-support-for-third-party-subscriptions-and-game-stores",
     "description": "Amazon will discontinue support for third-party game stores, individual purchases, and external subscriptions on Luna starting June 10, 2026. Read more",
     "date": "Mon, 13 Apr 2026 11:02:20 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Rockstar Games affected by data breach, \"limited amount of non-material information\" accessed",
-    "link": "https://www.gamesindustry.biz/ukie-uk-games-market-reaches-87bn-in-2025",
-    "description": "The UK games market reached &pound;8.7 billion in 2025, according to UKIE's annual consumer games market valuation. Read more",
-    "date": "Mon, 13 Apr 2026 09:50:42 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Liquid Swords CEO Christofer Sundberg announced as speaker at Nordic Game 2026",
-    "link": "https://www.gamesindustry.biz/rockstar-games-affected-by-data-breach-limited-amount-of-non-material-information-accessed",
-    "description": "Rockstar Games has confirmed it was affected by a data breach. Read more",
-    "date": "Mon, 13 Apr 2026 07:06:58 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Devs aren't \"lazy\" and game updates aren't guaranteed | Opinion",
-    "link": "https://www.gamesindustry.biz/liquid-swords-ceo-christofer-sundberg-announced-as-speaker-at-nordic-game-2026",
-    "description": "Nordic Game 2026 has announced additional speakers, including Liquid Swords CEO Christofer Sundberg. Read more",
-    "date": "Fri, 10 Apr 2026 16:16:17 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
