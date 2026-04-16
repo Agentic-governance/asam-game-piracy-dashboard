@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-15 10:40 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-16 10:44 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-15T10:40:23.026557",
+  fetched_at: "2026-04-16T10:44:21.146921",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "pirate",
-      "denuvo",
+      "piracy",
       "rom",
-      "piracy"
+      "denuvo",
+      "pirate"
     ]
   },
   {
@@ -25,10 +25,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "crack",
-      "denuvo",
+      "torrent",
       "piracy",
-      "torrent"
+      "denuvo",
+      "crack"
     ]
   },
   {
@@ -39,11 +39,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "torrent",
+      "piracy",
       "pirate",
       "rom",
-      "piracy",
-      "copyright",
-      "torrent"
+      "copyright"
     ]
   },
   {
@@ -54,9 +54,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "dmca",
+      "piracy",
       "takedown",
-      "piracy"
+      "dmca"
     ]
   },
   {
@@ -68,8 +68,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "dmca",
-      "pirate",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -80,8 +80,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -92,9 +92,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
       "torrent",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -105,9 +105,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
+      "rom",
       "copyright",
-      "pirate",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -118,9 +118,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
       "torrent",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -131,21 +131,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
       "torrent",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
-    "title": "Anna&#8217;s Archive Loses $322 Million Spotify Piracy Case Without a Fight",
+    "title": "Warner Bros. Files Criminal Complaint Against Chilean IPTV Operator Over &#8220;Alarming&#8221; Piracy Growth",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Wed, 15 Apr 2026 07:55:37 +0000",
+    "date": "Thu, 16 Apr 2026 09:08:42 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -156,8 +156,19 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "dmca",
-      "copyright"
+      "copyright",
+      "dmca"
+    ]
+  },
+  {
+    "title": "Anna&#8217;s Archive Loses $322 Million Spotify Piracy Case Without a Fight",
+    "link": "https://torrentfreak.com/warner-bros-files-criminal-complaint-against-chilean-iptv-operator-over-alarming-piracy-growth/",
+    "description": "Hollywood giant Warner Bros. Entertainment is concerned about the \"alarming\" growth of IPTV piracy in Chile. After securing a dynamic site blocking order in February, targeting brands like MagisTV and FlujoTV, the studio is now raising the stakes with a criminal complaint targeting Streaming Chile S",
+    "date": "Wed, 15 Apr 2026 07:55:37 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "piracy"
     ]
   },
   {
@@ -205,20 +216,20 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Supreme Court Wipes Out Record Labels’ $1 Billion Piracy Judgment Against Cox",
-    "link": "https://torrentfreak.com/spotify-and-labels-seek-322-million-default-judgment-against-annas-archive/",
-    "description": "Spotify and several major record labels, including UMG, Sony, and Warner, seek a $322 million default judgment against the unknown operators of Anna's Archive. They argue that the shadow library failed to appear in court and ignored the preliminary injunction by releasing millions of tracks that wer",
-    "date": "Wed, 25 Mar 2026 15:57:32 +0000",
-    "source": "TorrentFreak",
+    "title": "Jagex to expand RuneScape: Dragonwilds into Asia-Pacific region",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Thu, 16 Apr 2026 10:07:50 +0000",
+    "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
-      "piracy"
+      "rom"
     ]
   },
   {
     "title": "Newzoo: More than half of PC revenue comes from games outside the Top 20",
-    "link": "https://www.gamesindustry.biz/feed",
-    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "link": "https://www.gamesindustry.biz/infinity-nikki-and-love-and-deepspace-dev-ai-lacks-the-soul-to-replace-human-creators",
+    "description": "Games ranked outside the Top 20 are capturing an increasing share of revenue and playtime in Western markets, according to Newzoo data. Read more",
     "date": "Wed, 15 Apr 2026 08:20:41 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -227,10 +238,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Bloober Team expands leadership, as studio steps up to seven horror titles in active development",
-    "link": "https://www.gamesindustry.biz/tiga-pc-and-console-continue-to-drive-uk-games-development",
+    "title": "TIGA: PC and console continue to drive UK games development",
+    "link": "https://www.gamesindustry.biz/uk-government-begins-rollout-of-30m-games-growth-package",
     "description": "New data from trade body TIGA reveals that UK games studios are focusing on PC development, while deprioritising mobile platforms. Read more",
-    "date": "Tue, 14 Apr 2026 10:00:00 +0000",
+    "date": "Tue, 14 Apr 2026 11:05:56 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -238,10 +249,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Roblox launches new age-based accounts and expanded parental controls \"to build age-appropriate experiences for all\"",
-    "link": "https://www.gamesindustry.biz/esas-iicon-conference-expands-speaker-lineup-with-eas-andrew-wilson-joining-ceos-of-ubisoft-take-two-riot-savvy-games-and-more",
+    "title": "ESA's iicon conference expands speaker lineup, with EA's Andrew Wilson joining CEOs of Ubisoft, Take Two, Riot, Savvy Games and more",
+    "link": "https://www.gamesindustry.biz/xbox-boss-reportedly-says-game-pass-has-become-too-expensive-for-players",
     "description": "Iicon, the new conference from US trade body the Entertainment Software Association, has announced EA Sports CEO Andrew Wilson as a headline speaker, joining other executives including Take Two's Strauss Zelnick, Ubisoft's Yves Guillemot, RIot's Dylan Jadeja and Savvy Games Group's Brian Ward. Read ",
-    "date": "Mon, 13 Apr 2026 19:49:01 +0000",
+    "date": "Mon, 13 Apr 2026 22:26:43 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -249,20 +260,74 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Sara Veal's framework for a more sustainable and supportive games industry",
-    "link": "https://www.gamesindustry.biz/follow-a-games-rules-not-its-story-exit-8-director-genki-kawamura-on-the-secret-to-a-successful-movie-adaptation",
+    "title": "Follow a game's rules, not its story: Exit 8 director Genki Kawamura on the secret to a successful movie adaptation",
+    "link": "https://www.gamesindustry.biz/epic-games-is-working-on-an-arc-raiders-like-disney-extraction-shooter-slated-to-release-by-the-end-of-the-year",
     "description": "Exit 8 hit cinemas last weekend, a new movie based on the cult 2023 indie game from Kotake Create. Flying in the face of the convention set by many video game to film adaptations of the past, it's actually rather good, currently sitting at a 95% rating on Rotten Tomatoes. Read more",
-    "date": "Mon, 13 Apr 2026 15:26:58 +0000",
+    "date": "Mon, 13 Apr 2026 15:41:26 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
       "rom"
     ]
+  },
+  {
+    "title": "Xbox CCO details unified approach for next-gen Project Helix console",
+    "link": "https://www.gamesindustry.biz/jagex-to-expand-runescape-dragonwilds-into-asia-pacific-region",
+    "description": "RuneScape developer Jagex has announced it will be launching RuneScape: Dragonwilds in the Asia-Pacific (APAC) region later this year. Read more",
+    "date": "Thu, 16 Apr 2026 08:19:18 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Starfield estimated to have sold 140K copies on PS5 in debut week | News-in-brief",
+    "link": "https://www.gamesindustry.biz/xbox-cco-details-unified-approach-for-next-gen-project-helix-console",
+    "description": "Xbox's first-party studios will collaborate closely with its hardware team as the company develops its next-generation console. Read more",
+    "date": "Wed, 15 Apr 2026 19:51:18 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "PS5 sales spike as players raced to beat global price rises",
+    "link": "https://www.gamesindustry.biz/pc-rental-company-accused-of-scamming-customers-settles-class-action-lawsuit-for-34m",
+    "description": "US weekly unit and dollar sales of PlayStation 5 hardware spiked last week, even as Sony announced global price rises for its PlayStation 5 consoles due to \"continued pressures in the global economic landscape.\" Read more",
+    "date": "Wed, 15 Apr 2026 18:04:52 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"Be creative 99% of the time\" – Glen Schofield on how creativity can help fix AAA industry woes",
+    "link": "https://www.gamesindustry.biz/ps5-sales-spike-as-players-raced-to-beat-global-price-rises",
+    "description": "The relentless grind of studio layoffs has not paused in 2026, and opinion pieces on the demise of AAA games are a dime a dozen. Proclamations on how to turn things round routinely call for embracing smaller AA and indie games. However, much of the discourse has offered little more than the demoniza",
+    "date": "Wed, 15 Apr 2026 13:58:29 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Jobs Roundup: April 2026 | CodeDev appoints Andy Norman as COO",
+    "link": "https://www.gamesindustry.biz/be-creative-99-of-the-time-glen-schofield-on-how-creativity-can-help-fix-aaa-industry-woes",
+    "description": "It can be difficult keeping track of the various comings and goings in the games industry, which is why we compile them in semi-regular round-ups. Read more",
+    "date": "Wed, 15 Apr 2026 13:13:26 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Infinity Nikki and Love and Deepspace dev: \"AI lacks the soul to replace human creators\"",
+    "link": "https://www.gamesindustry.biz/jobs-roundup-april-2026-codedev-appoints-andy-norman-as-coo",
+    "description": "Infold Games, the developer behind Infinity Nikki and Love and Deepspace, has committed to keeping human creators at the centre of game development. Read more",
+    "date": "Wed, 15 Apr 2026 10:41:58 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "How China came to dominate mobile games – and how Western companies can compete | Opinion",
     "link": "https://www.gamesindustry.biz/newzoo-more-than-half-of-pc-revenue-comes-from-games-outside-the-top-20",
-    "description": "Games ranked outside the Top 20 are capturing an increasing share of revenue and playtime in Western markets, according to Newzoo data. Read more",
+    "description": "Tanja Loktionova is the founder of Values Value and co-founder of InGame Job. Read more",
     "date": "Tue, 14 Apr 2026 16:19:48 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
@@ -271,71 +336,8 @@ const ARIA_NEWS = {
   {
     "title": "UK government begins rollout of £30m Games Growth Package",
     "link": "https://www.gamesindustry.biz/how-china-came-to-dominate-mobile-games-and-how-western-companies-can-compete-opinion-1",
-    "description": "Tanja Loktionova is the founder of Values Value and co-founder of InGame Job. Read more",
-    "date": "Tue, 14 Apr 2026 13:45:55 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "TIGA: PC and console continue to drive UK games development",
-    "link": "https://www.gamesindustry.biz/uk-government-begins-rollout-of-30m-games-growth-package",
     "description": "The UK government has launched the latest phase of its  Games Growth Package, allocating &pound;28.5 million  through the UK Games Fund to support early-stage developers and studio growth. Read more",
-    "date": "Tue, 14 Apr 2026 11:05:56 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Xbox boss reportedly says Game Pass \"has become too expensive for players\"",
-    "link": "https://www.gamesindustry.biz/bloober-team-expands-leadership-as-studio-steps-up-to-seven-horror-titles-in-active-development",
-    "description": "Silent Hill 2 remake developer Bloober Team has expanded its leadership as it transitions to a multi-project structure, with the studio currently working on two single-player horror games plus five more in co-development. Read more",
-    "date": "Tue, 14 Apr 2026 08:34:14 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "ESA's iicon conference expands speaker lineup, with EA's Andrew Wilson joining CEOs of Ubisoft, Take Two, Riot, Savvy Games and more",
-    "link": "https://www.gamesindustry.biz/xbox-boss-reportedly-says-game-pass-has-become-too-expensive-for-players",
-    "description": "Microsoft Gaming CEO Asha Sharma has reportedly stated that Xbox Game Pass pricing will change, noting it has \"become too expensive for players.\" Read more",
-    "date": "Mon, 13 Apr 2026 22:26:43 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Epic Games is working on an Arc Raiders-like Disney extraction shooter slated to release by the end of the year",
-    "link": "https://www.gamesindustry.biz/roblox-unveils-new-subscription-service-roblox-plus",
-    "description": "Roblox has unveiled plans for a new monthly subscription service, Roblox Plus. Read more",
-    "date": "Mon, 13 Apr 2026 16:32:41 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Follow a game's rules, not its story: Exit 8 director Genki Kawamura on the secret to a successful movie adaptation",
-    "link": "https://www.gamesindustry.biz/epic-games-is-working-on-an-arc-raiders-like-disney-extraction-shooter-slated-to-release-by-the-end-of-the-year",
-    "description": "Epic Games is reportedly working on an Arc Raiders-like extraction shooter in partnership with Disney. Read more",
-    "date": "Mon, 13 Apr 2026 15:41:26 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Amazon Luna to phase out support for third-party subscriptions and game stores",
-    "link": "https://www.gamesindustry.biz/sara-veals-framework-for-a-more-sustainable-and-supportive-games-industry",
-    "description": "Last week, Games London revealed this year's cohort for its Ensemble initiative. Now in its eighth year, the exhibition features underrepresented games creatives in the UK, showcasing their achievements and personal journeys. Read more",
-    "date": "Mon, 13 Apr 2026 13:39:56 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "UKIE: UK games market reaches £8.7bn in 2025",
-    "link": "https://www.gamesindustry.biz/amazon-luna-to-phase-out-support-for-third-party-subscriptions-and-game-stores",
-    "description": "Amazon will discontinue support for third-party game stores, individual purchases, and external subscriptions on Luna starting June 10, 2026. Read more",
-    "date": "Mon, 13 Apr 2026 11:02:20 +0000",
+    "date": "Tue, 14 Apr 2026 13:45:55 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
