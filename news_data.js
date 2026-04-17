@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-16 10:44 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-17 10:36 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-16T10:44:21.146921",
+  fetched_at: "2026-04-17T10:36:24.221269",
   item_count: 30,
   items: [
   {
@@ -13,8 +13,8 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy",
       "rom",
-      "denuvo",
-      "pirate"
+      "pirate",
+      "denuvo"
     ]
   },
   {
@@ -25,10 +25,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "torrent",
       "piracy",
-      "denuvo",
-      "crack"
+      "torrent",
+      "crack",
+      "denuvo"
     ]
   },
   {
@@ -39,11 +39,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
-      "piracy",
-      "pirate",
       "rom",
-      "copyright"
+      "piracy",
+      "torrent",
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -60,6 +60,19 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Korean Rights Holders Behind Takedown of Manga Piracy Giant TuMangaOnline",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Fri, 17 Apr 2026 07:33:25 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "piracy",
+      "copyright",
+      "takedown"
+    ]
+  },
+  {
     "title": "Kocowa Secures Win Against Dramacool Pirates, U.S. Court Grants Domain Takeovers",
     "link": "https://torrentfreak.com/hbo-obtains-dmca-subpoena-to-unmask-euphoria-spoiler-account-on-x/",
     "description": "HBO has obtained a DMCA subpoena, ordering X Corp. to identify the person behind a Euphoria fan account that allegedly posted spoilers from unaired episodes of Season 3. The action comes just days before the show's long-awaited premiere this weekend, but it remains unclear what the company plans to ",
@@ -67,9 +80,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "dmca",
       "rom",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -93,8 +106,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "torrent",
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -105,9 +118,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "rom",
+      "pirate",
       "copyright",
-      "pirate"
+      "rom"
     ]
   },
   {
@@ -119,8 +132,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "torrent",
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -132,14 +145,27 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "torrent",
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
+    ]
+  },
+  {
+    "title": "Consumer, Patient Groups Push for Fast Markup of ETHIC Act",
+    "link": "https://ipwatchdog.com/2026/04/16/schedule-litigation-strategies-best-practices-online-enforcement/",
+    "description": "In 2025, trademark cases filed in United States District Courts increased 25% from 2024 (up 848 cases to 4,211). Many of those cases were “Schedule A” lawsuits, a niche form of intellectual property litigation that joins multiple foreign-based ecommerce stores selling counterfeit, pirated, or other ",
+    "date": "Wed, 15 Apr 2026 21:47:16 +0000",
+    "source": "IPWatchdog",
+    "relevance_score": 5,
+    "matched_keywords": [
+      "intellectual property",
+      "pirate",
+      "rom"
     ]
   },
   {
     "title": "Warner Bros. Files Criminal Complaint Against Chilean IPTV Operator Over &#8220;Alarming&#8221; Piracy Growth",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/korean-rights-holders-behind-takedown-of-manga-piracy-giant-tumangaonline/",
+    "description": "The Spanish-speaking manga community was in disarray last month when TuMangaOnline, also known as ZonaTMO, suddenly disappeared. When the site's main domain was put on clienthold by its registrar, it was clear that legal pressure was mounting. Today, Korean copyright enforcement organization COA and",
     "date": "Thu, 16 Apr 2026 09:08:42 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
@@ -216,10 +242,43 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Jagex to expand RuneScape: Dragonwilds into Asia-Pacific region",
+    "title": "Roblox releases agentic AI tools for creators, promising ability to \"build a game with a single prompt\"",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 16 Apr 2026 10:07:50 +0000",
+    "date": "Fri, 17 Apr 2026 08:01:48 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Alternative app store Aptoide files antitrust lawsuit against Google, alleges \"anticompetitive chokehold\"",
+    "link": "https://www.gamesindustry.biz/roblox-releases-agentic-ai-tools-for-creators-promising-ability-to-build-a-game-with-a-single-prompt",
+    "description": "Roblox has released an agentic AI feature for its Roblox Studio tool for game creators, which it claims will turn text prompts into a game design document which the tool can then implement and test. \"Creators can just describe what they want and Planning Mode will break down every step to make it, t",
+    "date": "Fri, 17 Apr 2026 07:56:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "44% of games industry professionals have considered leaving the industry as a result of redundancies",
+    "link": "https://www.gamesindustry.biz/games-and-movies-are-rushing-to-jump-into-bed-while-theyre-still-getting-to-know-each-other-opinion",
+    "description": "I have just returned from a whirlwind two days flitting around the London Games Festival, which is rumbling on until the end of this week, with events like New Game Plus and the BAFTA Games Awards still to come. Read more",
+    "date": "Thu, 16 Apr 2026 13:50:17 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Roblox to pay over $12m to state of Nevada in child safety settlement",
+    "link": "https://www.gamesindustry.biz/44-of-games-industry-professionals-have-considered-leaving-the-industry-as-a-result-of-redundancies",
+    "description": "A survey from games recruitment firm Skillsearch has found that overall, 44% of respondents have considered leaving the industry due to redundancies. In the UK, 76% said they will be or are considering job hunting outside of the industry in 2026. Read more",
+    "date": "Thu, 16 Apr 2026 13:18:16 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -260,15 +319,13 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Follow a game's rules, not its story: Exit 8 director Genki Kawamura on the secret to a successful movie adaptation",
-    "link": "https://www.gamesindustry.biz/epic-games-is-working-on-an-arc-raiders-like-disney-extraction-shooter-slated-to-release-by-the-end-of-the-year",
-    "description": "Exit 8 hit cinemas last weekend, a new movie based on the cult 2023 indie game from Kotake Create. Flying in the face of the convention set by many video game to film adaptations of the past, it's actually rather good, currently sitting at a 95% rating on Rotten Tomatoes. Read more",
-    "date": "Mon, 13 Apr 2026 15:41:26 +0000",
+    "title": "Games and movies are rushing to jump into bed while they're still getting to know each other | Opinion",
+    "link": "https://www.gamesindustry.biz/alternative-app-store-aptoide-files-antitrust-lawsuit-against-google-alleges-anticompetitive-chokehold",
+    "description": "Alternative app store Aptoide has filed an antitrust lawsuit against Google, alleging that it maintains an \"anticompetitive chokehold\" over third-party app stores. Read more",
+    "date": "Thu, 16 Apr 2026 15:38:28 +0000",
     "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Xbox CCO details unified approach for next-gen Project Helix console",
@@ -293,51 +350,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/pc-rental-company-accused-of-scamming-customers-settles-class-action-lawsuit-for-34m",
     "description": "US weekly unit and dollar sales of PlayStation 5 hardware spiked last week, even as Sony announced global price rises for its PlayStation 5 consoles due to \"continued pressures in the global economic landscape.\" Read more",
     "date": "Wed, 15 Apr 2026 18:04:52 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"Be creative 99% of the time\" – Glen Schofield on how creativity can help fix AAA industry woes",
-    "link": "https://www.gamesindustry.biz/ps5-sales-spike-as-players-raced-to-beat-global-price-rises",
-    "description": "The relentless grind of studio layoffs has not paused in 2026, and opinion pieces on the demise of AAA games are a dime a dozen. Proclamations on how to turn things round routinely call for embracing smaller AA and indie games. However, much of the discourse has offered little more than the demoniza",
-    "date": "Wed, 15 Apr 2026 13:58:29 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Jobs Roundup: April 2026 | CodeDev appoints Andy Norman as COO",
-    "link": "https://www.gamesindustry.biz/be-creative-99-of-the-time-glen-schofield-on-how-creativity-can-help-fix-aaa-industry-woes",
-    "description": "It can be difficult keeping track of the various comings and goings in the games industry, which is why we compile them in semi-regular round-ups. Read more",
-    "date": "Wed, 15 Apr 2026 13:13:26 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Infinity Nikki and Love and Deepspace dev: \"AI lacks the soul to replace human creators\"",
-    "link": "https://www.gamesindustry.biz/jobs-roundup-april-2026-codedev-appoints-andy-norman-as-coo",
-    "description": "Infold Games, the developer behind Infinity Nikki and Love and Deepspace, has committed to keeping human creators at the centre of game development. Read more",
-    "date": "Wed, 15 Apr 2026 10:41:58 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "How China came to dominate mobile games – and how Western companies can compete | Opinion",
-    "link": "https://www.gamesindustry.biz/newzoo-more-than-half-of-pc-revenue-comes-from-games-outside-the-top-20",
-    "description": "Tanja Loktionova is the founder of Values Value and co-founder of InGame Job. Read more",
-    "date": "Tue, 14 Apr 2026 16:19:48 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "UK government begins rollout of £30m Games Growth Package",
-    "link": "https://www.gamesindustry.biz/how-china-came-to-dominate-mobile-games-and-how-western-companies-can-compete-opinion-1",
-    "description": "The UK government has launched the latest phase of its  Games Growth Package, allocating &pound;28.5 million  through the UK Games Fund to support early-stage developers and studio growth. Read more",
-    "date": "Tue, 14 Apr 2026 13:45:55 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
