@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-17 10:36 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-18 08:09 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-17T10:36:24.221269",
+  fetched_at: "2026-04-18T08:09:35.680195",
   item_count: 30,
   items: [
   {
@@ -11,9 +11,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "pirate",
       "piracy",
       "rom",
-      "pirate",
       "denuvo"
     ]
   },
@@ -25,10 +25,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "piracy",
-      "torrent",
       "crack",
-      "denuvo"
+      "piracy",
+      "denuvo",
+      "torrent"
     ]
   },
   {
@@ -39,11 +39,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
-      "piracy",
+      "pirate",
       "torrent",
-      "copyright",
-      "pirate"
+      "piracy",
+      "rom",
+      "copyright"
     ]
   },
   {
@@ -54,9 +54,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "dmca",
       "piracy",
-      "takedown",
-      "dmca"
+      "takedown"
     ]
   },
   {
@@ -80,8 +80,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "pirate",
+      "rom",
       "dmca"
     ]
   },
@@ -93,8 +93,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -105,9 +105,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
       "pirate",
-      "rom"
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -119,8 +119,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "pirate",
-      "copyright",
-      "rom"
+      "rom",
+      "copyright"
     ]
   },
   {
@@ -131,9 +131,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
       "pirate",
-      "rom"
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -144,9 +144,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
       "pirate",
-      "rom"
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -157,9 +157,9 @@ const ARIA_NEWS = {
     "source": "IPWatchdog",
     "relevance_score": 5,
     "matched_keywords": [
-      "intellectual property",
       "pirate",
-      "rom"
+      "rom",
+      "intellectual property"
     ]
   },
   {
@@ -182,8 +182,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "dmca"
+      "dmca",
+      "copyright"
     ]
   },
   {
@@ -242,9 +242,31 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Roblox releases agentic AI tools for creators, promising ability to \"build a game with a single prompt\"",
+    "title": "Podcast: Roblox, Hollywood, and London Games Week",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Fri, 17 Apr 2026 18:33:19 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"You can't buy a BAFTA.\" Why commercial influence is a red line for the BAFTA Games Awards",
+    "link": "https://www.gamesindustry.biz/weak-job-security-risks-an-industry-brain-drain-opinion",
+    "description": "We talk a lot about the major challenges that the games business currently faces due to external economic factors, from fears of a consumer-spending-led recession through to price rises driven by component scarcity. That focus can sometimes overshadow other looming challenges &ndash; none of which, ",
+    "date": "Fri, 17 Apr 2026 12:07:32 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Roblox releases agentic AI tools for creators, promising ability to \"build a game with a single prompt\"",
+    "link": "https://www.gamesindustry.biz/you-cant-buy-a-bafta-why-commercial-influence-is-a-red-line-for-the-bafta-games-awards",
+    "description": "Ahead of today's BAFTA Games Awards, GamesIndustry.biz sat down with BAFTA CEO Jane Millichip to discuss what's new this year and what might change in the future. Read more",
     "date": "Fri, 17 Apr 2026 08:01:48 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -308,15 +330,13 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "ESA's iicon conference expands speaker lineup, with EA's Andrew Wilson joining CEOs of Ubisoft, Take Two, Riot, Savvy Games and more",
-    "link": "https://www.gamesindustry.biz/xbox-boss-reportedly-says-game-pass-has-become-too-expensive-for-players",
-    "description": "Iicon, the new conference from US trade body the Entertainment Software Association, has announced EA Sports CEO Andrew Wilson as a headline speaker, joining other executives including Take Two's Strauss Zelnick, Ubisoft's Yves Guillemot, RIot's Dylan Jadeja and Savvy Games Group's Brian Ward. Read ",
-    "date": "Mon, 13 Apr 2026 22:26:43 +0000",
+    "title": "Weak job security risks an industry brain drain | Opinion",
+    "link": "https://www.gamesindustry.biz/podcast-roblox-hollywood-and-london-games-week",
+    "description": "I am delighted to announce the return of the GamesIndustry.biz podcast, in response to popular demand. The previous incarnation of the show, anchored by James Batchelor and Chris Dring, became an industry staple, and we've had many, many requests for its return. Read more",
+    "date": "Fri, 17 Apr 2026 15:03:44 +0000",
     "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Games and movies are rushing to jump into bed while they're still getting to know each other | Opinion",
@@ -332,24 +352,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/jagex-to-expand-runescape-dragonwilds-into-asia-pacific-region",
     "description": "RuneScape developer Jagex has announced it will be launching RuneScape: Dragonwilds in the Asia-Pacific (APAC) region later this year. Read more",
     "date": "Thu, 16 Apr 2026 08:19:18 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Starfield estimated to have sold 140K copies on PS5 in debut week | News-in-brief",
-    "link": "https://www.gamesindustry.biz/xbox-cco-details-unified-approach-for-next-gen-project-helix-console",
-    "description": "Xbox's first-party studios will collaborate closely with its hardware team as the company develops its next-generation console. Read more",
-    "date": "Wed, 15 Apr 2026 19:51:18 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "PS5 sales spike as players raced to beat global price rises",
-    "link": "https://www.gamesindustry.biz/pc-rental-company-accused-of-scamming-customers-settles-class-action-lawsuit-for-34m",
-    "description": "US weekly unit and dollar sales of PlayStation 5 hardware spiked last week, even as Sony announced global price rises for its PlayStation 5 consoles due to \"continued pressures in the global economic landscape.\" Read more",
-    "date": "Wed, 15 Apr 2026 18:04:52 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
