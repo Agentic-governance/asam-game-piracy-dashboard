@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-18 08:09 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-19 09:07 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-18T08:09:35.680195",
+  fetched_at: "2026-04-19T09:07:54.264040",
   item_count: 30,
   items: [
   {
@@ -27,8 +27,8 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "crack",
       "piracy",
-      "denuvo",
-      "torrent"
+      "torrent",
+      "denuvo"
     ]
   },
   {
@@ -40,10 +40,10 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "pirate",
-      "torrent",
       "piracy",
-      "rom",
-      "copyright"
+      "copyright",
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -67,9 +67,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "takedown",
       "piracy",
-      "copyright",
-      "takedown"
+      "copyright"
     ]
   },
   {
@@ -80,9 +80,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "dmca",
       "pirate",
-      "rom",
-      "dmca"
+      "rom"
     ]
   },
   {
@@ -106,8 +106,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "pirate",
-      "rom",
-      "torrent"
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -132,8 +132,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "pirate",
-      "rom",
-      "torrent"
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -145,8 +145,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "pirate",
-      "rom",
-      "torrent"
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -157,9 +157,9 @@ const ARIA_NEWS = {
     "source": "IPWatchdog",
     "relevance_score": 5,
     "matched_keywords": [
+      "intellectual property",
       "pirate",
-      "rom",
-      "intellectual property"
+      "rom"
     ]
   },
   {
