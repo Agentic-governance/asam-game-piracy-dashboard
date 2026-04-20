@@ -1,8 +1,25 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-19 09:07 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-20 11:07 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-19T09:07:54.264040",
+  fetched_at: "2026-04-20T11:07:25.696198",
   item_count: 30,
   items: [
+  {
+    "title": "GitHub Reports DMCA Takedown Record and Surging Anti-Circumvention Claims",
+    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Project Hail Mary' tops the chart, followed by 'Hoppers.' 'Avatar: Fire and Ash' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sun, 19 Apr 2026 10:47:48 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 15,
+    "matched_keywords": [
+      "copyright",
+      "piracy",
+      "dmca",
+      "torrent",
+      "rom",
+      "takedown",
+      "pirate"
+    ]
+  },
   {
     "title": "Game Pirates Beat Denuvo with Hypervisor Bypasses — Irdeto Promises Countermeasure",
     "link": "https://torrentfreak.com/google-cloudflare-cisco-lose-pirate-site-dns-blocking-appeal-in-france/",
@@ -13,8 +30,8 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "pirate",
       "piracy",
-      "rom",
-      "denuvo"
+      "denuvo",
+      "rom"
     ]
   },
   {
@@ -25,25 +42,23 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "crack",
-      "piracy",
       "torrent",
+      "piracy",
+      "crack",
       "denuvo"
     ]
   },
   {
-    "title": "RapidIPTV Kingpin &#8216;Dash the Iranian&#8217; Gets Two Years Prison Under Spanish Plea Deal",
-    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Project Hail Mary' tops the chart, followed by 'Hoppers.' 'Avatar: Fire and Ash' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sat, 11 Apr 2026 16:55:06 +0000",
+    "title": "Korean Rights Holders Behind Takedown of Manga Piracy Giant TuMangaOnline",
+    "link": "https://torrentfreak.com/github-reports-dmca-takedown-record-and-surging-anti-circumvention-claims/",
+    "description": "GitHub has published its 2025 transparency report, revealing record levels of DMCA takedown activity across two separate metrics. The total number of removed projects increased to 47,228, while the number of circumvention claims jumped by more than 40% to 645. GitHub also highlights the U.S. Supreme",
+    "date": "Fri, 17 Apr 2026 07:33:25 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "piracy",
-      "copyright",
-      "torrent",
-      "rom"
+      "takedown",
+      "dmca"
     ]
   },
   {
@@ -54,22 +69,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "dmca",
       "piracy",
-      "takedown"
-    ]
-  },
-  {
-    "title": "Korean Rights Holders Behind Takedown of Manga Piracy Giant TuMangaOnline",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Fri, 17 Apr 2026 07:33:25 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
       "takedown",
-      "piracy",
-      "copyright"
+      "dmca"
     ]
   },
   {
@@ -80,21 +82,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "pirate",
       "dmca",
-      "pirate",
       "rom"
-    ]
-  },
-  {
-    "title": "Top 10 Most Pirated Movies of The Week – 04/13/2026",
-    "link": "https://torrentfreak.com/paris-court-issued-simultaneous-site-blocking-orders-against-isps-dns-resolvers-and-vpns/",
-    "description": "In a series of simultaneous rulings, the Paris Judicial Court ordered ISPs, VPN providers, and DNS resolvers to block access to 35 sports piracy sites. The orders were requested by Spanish football league LaLiga, which lacked standing as a foreign entity under French law. LaLiga licensee beIN Sports",
-    "date": "Sun, 12 Apr 2026 23:09:40 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "pirate",
-      "piracy"
     ]
   },
   {
@@ -119,33 +109,7 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "pirate",
-      "rom",
-      "copyright"
-    ]
-  },
-  {
-    "title": "The Pirate Bay’s Oldest Torrent Turned 22&#8230;.",
-    "link": "https://torrentfreak.com/judge-allows-bittorrent-seeding-claims-against-meta-despite-lawyers-lame-excuses/",
-    "description": "In an effort to gather material for its LLM training, Meta used BitTorrent to download pirated books from Anna’s Archive and other shadow libraries. According to several authors, Meta facilitated the infringement of others by \"seeding\" these torrents. This week, the court granted the authors permiss",
-    "date": "Sun, 29 Mar 2026 17:46:49 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 5,
-    "matched_keywords": [
-      "pirate",
-      "torrent",
-      "rom"
-    ]
-  },
-  {
-    "title": "Sky Wins Irish Court Order to Unmask 300+ Pirate IPTV Users via Revolut Bank",
-    "link": "https://torrentfreak.com/the-pirate-bays-oldest-torrent-turned-22/",
-    "description": "In an era of instant streaming and expendable pirate sites, The Pirate Bay is somewhat of a relic. The site has weathered more than two decades of legal pressure, and while traffic is a fraction of its peak,  it remains online. Even more remarkable, several torrents from March 2004 remain active tod",
-    "date": "Fri, 27 Mar 2026 08:56:07 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 5,
-    "matched_keywords": [
-      "pirate",
-      "torrent",
+      "copyright",
       "rom"
     ]
   },
@@ -157,8 +121,8 @@ const ARIA_NEWS = {
     "source": "IPWatchdog",
     "relevance_score": 5,
     "matched_keywords": [
-      "intellectual property",
       "pirate",
+      "intellectual property",
       "rom"
     ]
   },
@@ -170,8 +134,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -182,8 +146,19 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "dmca",
-      "copyright"
+      "copyright",
+      "dmca"
+    ]
+  },
+  {
+    "title": "Top 10 Most Pirated Movies of The Week – 04/20/2026",
+    "link": "https://torrentfreak.com/indias-expanding-site-blocking-orders-hit-legal-wall-at-delhi-high-court/",
+    "description": "Justices at India's Delhi High Court disagree on the future of India's world-leading site-blocking regime. The same court that pioneered \"Dynamic+\" injunctions to target pirate sites, issued a new ruling that sees these post-judgment expansions as fundamentally incompatible with the law. According t",
+    "date": "Sun, 19 Apr 2026 23:09:40 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "pirate"
     ]
   },
   {
@@ -191,6 +166,17 @@ const ARIA_NEWS = {
     "link": "https://torrentfreak.com/warner-bros-files-criminal-complaint-against-chilean-iptv-operator-over-alarming-piracy-growth/",
     "description": "Hollywood giant Warner Bros. Entertainment is concerned about the \"alarming\" growth of IPTV piracy in Chile. After securing a dynamic site blocking order in February, targeting brands like MagisTV and FlujoTV, the studio is now raising the stakes with a criminal complaint targeting Streaming Chile S",
     "date": "Wed, 15 Apr 2026 07:55:37 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "piracy"
+    ]
+  },
+  {
+    "title": "RapidIPTV Kingpin &#8216;Dash the Iranian&#8217; Gets Two Years Prison Under Spanish Plea Deal",
+    "link": "https://torrentfreak.com/paris-court-issued-simultaneous-site-blocking-orders-against-isps-dns-resolvers-and-vpns/",
+    "description": "In a series of simultaneous rulings, the Paris Judicial Court ordered ISPs, VPN providers, and DNS resolvers to block access to 35 sports piracy sites. The orders were requested by Spanish football league LaLiga, which lacked standing as a foreign entity under French law. LaLiga licensee beIN Sports",
+    "date": "Sat, 11 Apr 2026 16:55:06 +0000",
     "source": "TorrentFreak",
     "relevance_score": 3,
     "matched_keywords": [
@@ -242,10 +228,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Podcast: Roblox, Hollywood, and London Games Week",
+    "title": "GamesIndustry.biz to host The Games Investment Panel at MCM Comic Con's Indie Game Summit",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 17 Apr 2026 18:33:19 +0000",
+    "date": "Mon, 20 Apr 2026 09:57:09 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -319,15 +305,22 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "TIGA: PC and console continue to drive UK games development",
-    "link": "https://www.gamesindustry.biz/uk-government-begins-rollout-of-30m-games-growth-package",
-    "description": "New data from trade body TIGA reveals that UK games studios are focusing on PC development, while deprioritising mobile platforms. Read more",
-    "date": "Tue, 14 Apr 2026 11:05:56 +0000",
+    "title": "Iron Galaxy Studios announces further layoffs, unknown number of staff affected",
+    "link": "https://www.gamesindustry.biz/gamesindustrybiz-to-host-the-games-investment-panel-at-mcm-comic-cons-indie-game-summit",
+    "description": "GamesIndustry.biz will host The Games Investment Panel at Game Republic's Indie Games Summit during MCM London Comic Con next month. Read more",
+    "date": "Mon, 20 Apr 2026 07:42:32 +0000",
     "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Podcast: Roblox, Hollywood, and London Games Week",
+    "link": "https://www.gamesindustry.biz/clair-obscur-expedition-33-and-dispatch-lead-at-bafta-awards-2026",
+    "description": "Clair Obscur: Expedition 33 and Dispatch were the standout titles at last week's BAFTA Awards, with both taking home three awards. Read more",
+    "date": "Fri, 17 Apr 2026 18:33:19 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Weak job security risks an industry brain drain | Opinion",
