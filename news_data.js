@@ -1,23 +1,22 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-20 11:07 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-21 10:51 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-20T11:07:25.696198",
+  fetched_at: "2026-04-21T10:51:15.434618",
   item_count: 30,
   items: [
   {
     "title": "GitHub Reports DMCA Takedown Record and Surging Anti-Circumvention Claims",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Project Hail Mary' tops the chart, followed by 'Hoppers.' 'Avatar: Fire and Ash' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Project Hail Mary' tops the chart, followed by 'The Legend of Aang: The Last Airbender.' 'Avatar: Fire and Ash' completes the top three.\nFrom: TF, for the latest news on copyright battles, pir",
     "date": "Sun, 19 Apr 2026 10:47:48 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 15,
+    "relevance_score": 12,
     "matched_keywords": [
       "copyright",
-      "piracy",
-      "dmca",
+      "pirate",
       "torrent",
-      "rom",
+      "dmca",
       "takedown",
-      "pirate"
+      "rom"
     ]
   },
   {
@@ -28,10 +27,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "pirate",
-      "piracy",
       "denuvo",
-      "rom"
+      "rom",
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -42,10 +41,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "torrent",
-      "piracy",
+      "denuvo",
       "crack",
-      "denuvo"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -56,9 +55,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
+      "dmca",
       "takedown",
-      "dmca"
+      "piracy"
     ]
   },
   {
@@ -69,9 +68,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
+      "dmca",
       "takedown",
-      "dmca"
+      "piracy"
     ]
   },
   {
@@ -82,9 +81,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "dmca",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -95,9 +94,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
+      "rom",
       "torrent",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -108,9 +107,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
+      "rom",
       "copyright",
-      "rom"
+      "pirate"
+    ]
+  },
+  {
+    "title": "Pirate adventure Windrose tops 1 million copies sold in 6 days | News-in-brief",
+    "link": "https://www.gamesindustry.biz/kotaku-hires-rebekah-valentine-as-senior-reporter-as-site-expands-under-new-ownership",
+    "description": "Organisers for Nordic Game 2026 have revealed the speakers for this year's Masterclass Friday programme. Read more",
+    "date": "Mon, 20 Apr 2026 16:54:28 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 5,
+    "matched_keywords": [
+      "pirate"
     ]
   },
   {
@@ -121,9 +131,9 @@ const ARIA_NEWS = {
     "source": "IPWatchdog",
     "relevance_score": 5,
     "matched_keywords": [
+      "rom",
       "pirate",
-      "intellectual property",
-      "rom"
+      "intellectual property"
     ]
   },
   {
@@ -146,8 +156,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "dmca"
+      "dmca",
+      "copyright"
     ]
   },
   {
@@ -228,10 +238,43 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "GamesIndustry.biz to host The Games Investment Panel at MCM Comic Con's Indie Game Summit",
+    "title": "Sanrio establishes in-house gaming brand Sanrio Games",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 20 Apr 2026 09:57:09 +0000",
+    "date": "Tue, 21 Apr 2026 09:51:24 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "BAFTA calls last-minute decision to pull indie trailer from 2026 BAFTA Games Awards \"a compliance decision\"",
+    "link": "https://www.gamesindustry.biz/forza-horizon-6-has-reportedly-pre-sold-500000-copies-on-steam-a-month-before-launch-news-in-brief",
+    "description": "BAFTA said the reason it pulled an indie game trailer from last weekend's 2026 BAFTA Games Awards was a \"compliance decision.\" Read more",
+    "date": "Mon, 20 Apr 2026 19:25:10 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Kotaku hires Rebekah Valentine as Senior Reporter as site expands under new ownership",
+    "link": "https://www.gamesindustry.biz/bafta-calls-last-minute-decision-to-pull-indie-trailer-from-2026-bafta-games-awards-a-compliance-decision",
+    "description": "Venerable games media site Kotaku has announced the appointment of Rebekah Valentine as Senior Reporter, the brand's first significant hire since it was purchased from G/O Media by French firm Keleops Media in July 2025. Valentine's arrival is the first of several planned by the site, which Keleops ",
+    "date": "Mon, 20 Apr 2026 18:22:03 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Podcast: Roblox, Hollywood, and London Games Week",
+    "link": "https://www.gamesindustry.biz/clair-obscur-expedition-33-and-dispatch-lead-at-bafta-awards-2026",
+    "description": "We talk a lot about the major challenges that the games business currently faces due to external economic factors, from fears of a consumer-spending-led recession through to price rises driven by component scarcity. That focus can sometimes overshadow other looming challenges &ndash; none of which, ",
+    "date": "Fri, 17 Apr 2026 18:33:19 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -241,7 +284,7 @@ const ARIA_NEWS = {
   {
     "title": "\"You can't buy a BAFTA.\" Why commercial influence is a red line for the BAFTA Games Awards",
     "link": "https://www.gamesindustry.biz/weak-job-security-risks-an-industry-brain-drain-opinion",
-    "description": "We talk a lot about the major challenges that the games business currently faces due to external economic factors, from fears of a consumer-spending-led recession through to price rises driven by component scarcity. That focus can sometimes overshadow other looming challenges &ndash; none of which, ",
+    "description": "Roblox has released an agentic AI feature for its Roblox Studio tool for game creators, which it claims will turn text prompts into a game design document which the tool can then implement and test. \"Creators can just describe what they want and Planning Mode will break down every step to make it, t",
     "date": "Fri, 17 Apr 2026 12:07:32 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -252,7 +295,7 @@ const ARIA_NEWS = {
   {
     "title": "Roblox releases agentic AI tools for creators, promising ability to \"build a game with a single prompt\"",
     "link": "https://www.gamesindustry.biz/you-cant-buy-a-bafta-why-commercial-influence-is-a-red-line-for-the-bafta-games-awards",
-    "description": "Ahead of today's BAFTA Games Awards, GamesIndustry.biz sat down with BAFTA CEO Jane Millichip to discuss what's new this year and what might change in the future. Read more",
+    "description": "Alternative app store Aptoide has filed an antitrust lawsuit against Google, alleging that it maintains an \"anticompetitive chokehold\" over third-party app stores. Read more",
     "date": "Fri, 17 Apr 2026 08:01:48 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -263,7 +306,7 @@ const ARIA_NEWS = {
   {
     "title": "Alternative app store Aptoide files antitrust lawsuit against Google, alleges \"anticompetitive chokehold\"",
     "link": "https://www.gamesindustry.biz/roblox-releases-agentic-ai-tools-for-creators-promising-ability-to-build-a-game-with-a-single-prompt",
-    "description": "Roblox has released an agentic AI feature for its Roblox Studio tool for game creators, which it claims will turn text prompts into a game design document which the tool can then implement and test. \"Creators can just describe what they want and Planning Mode will break down every step to make it, t",
+    "description": "I have just returned from a whirlwind two days flitting around the London Games Festival, which is rumbling on until the end of this week, with events like New Game Plus and the BAFTA Games Awards still to come. Read more",
     "date": "Fri, 17 Apr 2026 07:56:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -272,79 +315,39 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "44% of games industry professionals have considered leaving the industry as a result of redundancies",
-    "link": "https://www.gamesindustry.biz/games-and-movies-are-rushing-to-jump-into-bed-while-theyre-still-getting-to-know-each-other-opinion",
-    "description": "I have just returned from a whirlwind two days flitting around the London Games Festival, which is rumbling on until the end of this week, with events like New Game Plus and the BAFTA Games Awards still to come. Read more",
-    "date": "Thu, 16 Apr 2026 13:50:17 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Roblox to pay over $12m to state of Nevada in child safety settlement",
-    "link": "https://www.gamesindustry.biz/44-of-games-industry-professionals-have-considered-leaving-the-industry-as-a-result-of-redundancies",
-    "description": "A survey from games recruitment firm Skillsearch has found that overall, 44% of respondents have considered leaving the industry due to redundancies. In the UK, 76% said they will be or are considering job hunting outside of the industry in 2026. Read more",
-    "date": "Thu, 16 Apr 2026 13:18:16 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Newzoo: More than half of PC revenue comes from games outside the Top 20",
-    "link": "https://www.gamesindustry.biz/infinity-nikki-and-love-and-deepspace-dev-ai-lacks-the-soul-to-replace-human-creators",
-    "description": "Games ranked outside the Top 20 are capturing an increasing share of revenue and playtime in Western markets, according to Newzoo data. Read more",
-    "date": "Wed, 15 Apr 2026 08:20:41 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Iron Galaxy Studios announces further layoffs, unknown number of staff affected",
-    "link": "https://www.gamesindustry.biz/gamesindustrybiz-to-host-the-games-investment-panel-at-mcm-comic-cons-indie-game-summit",
-    "description": "GamesIndustry.biz will host The Games Investment Panel at Game Republic's Indie Games Summit during MCM London Comic Con next month. Read more",
-    "date": "Mon, 20 Apr 2026 07:42:32 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Podcast: Roblox, Hollywood, and London Games Week",
-    "link": "https://www.gamesindustry.biz/clair-obscur-expedition-33-and-dispatch-lead-at-bafta-awards-2026",
-    "description": "Clair Obscur: Expedition 33 and Dispatch were the standout titles at last week's BAFTA Awards, with both taking home three awards. Read more",
-    "date": "Fri, 17 Apr 2026 18:33:19 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Weak job security risks an industry brain drain | Opinion",
-    "link": "https://www.gamesindustry.biz/podcast-roblox-hollywood-and-london-games-week",
-    "description": "I am delighted to announce the return of the GamesIndustry.biz podcast, in response to popular demand. The previous incarnation of the show, anchored by James Batchelor and Chris Dring, became an industry staple, and we've had many, many requests for its return. Read more",
-    "date": "Fri, 17 Apr 2026 15:03:44 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
     "title": "Games and movies are rushing to jump into bed while they're still getting to know each other | Opinion",
     "link": "https://www.gamesindustry.biz/alternative-app-store-aptoide-files-antitrust-lawsuit-against-google-alleges-anticompetitive-chokehold",
-    "description": "Alternative app store Aptoide has filed an antitrust lawsuit against Google, alleging that it maintains an \"anticompetitive chokehold\" over third-party app stores. Read more",
+    "description": "A survey from games recruitment firm Skillsearch has found that overall, 44% of respondents have considered leaving the industry due to redundancies. In the UK, 76% said they will be or are considering job hunting outside of the industry in 2026. Read more",
     "date": "Thu, 16 Apr 2026 15:38:28 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Toei Company launches publishing label Toei Games",
+    "link": "https://www.gamesindustry.biz/sanrio-establishes-in-house-gaming-brand-sanrio-games",
+    "description": "Hello Kitty creator Sanrio has launched its self-published game brand, Sanrio Games. Read more",
+    "date": "Tue, 21 Apr 2026 07:57:19 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Xbox CCO details unified approach for next-gen Project Helix console",
-    "link": "https://www.gamesindustry.biz/jagex-to-expand-runescape-dragonwilds-into-asia-pacific-region",
-    "description": "RuneScape developer Jagex has announced it will be launching RuneScape: Dragonwilds in the Asia-Pacific (APAC) region later this year. Read more",
-    "date": "Thu, 16 Apr 2026 08:19:18 +0000",
+    "title": "Sony begins rolling out age verification for PlayStation in UK and Ireland",
+    "link": "https://www.gamesindustry.biz/toei-company-launches-publishing-label-toei-games",
+    "description": "Japanese entertainment company Toei has established Toei Games, an in-house publishing label. Read more",
+    "date": "Tue, 21 Apr 2026 07:02:39 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Forza Horizon 6 has reportedly pre-sold 500,000 copies on Steam a month before launch | News-in-brief",
+    "link": "https://www.gamesindustry.biz/sony-begins-rolling-out-age-verification-for-playstation-in-uk-and-ireland",
+    "description": "Sony is starting to introduce age verification for PlayStation users in the UK and Ireland to meet the requirements of the UK's Online Safety Act (OSA). Read more",
+    "date": "Mon, 20 Apr 2026 19:50:03 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
