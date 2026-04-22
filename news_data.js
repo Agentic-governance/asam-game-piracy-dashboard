@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-21 10:51 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-22 08:01 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-21T10:51:15.434618",
+  fetched_at: "2026-04-22T08:01:36.036445",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "takedown",
+      "dmca",
+      "torrent",
       "copyright",
       "pirate",
-      "torrent",
-      "dmca",
-      "takedown",
       "rom"
     ]
   },
@@ -28,23 +28,9 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "denuvo",
-      "rom",
+      "piracy",
       "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Judge Allows BitTorrent Seeding Claims Against Meta, Despite Lawyers &#8216;Lame Excuses&#8217;",
-    "link": "https://torrentfreak.com/game-pirates-beat-denuvo-with-hypervisor-bypasses-irdeto-promises-countermeasure/",
-    "description": "A new breed of hypervisor-based bypasses can 'crack' Denuvo-protected games on the day of release, marking a fundamental shift in the piracy landscape. Denuvo parent company Irdeto informs TorrentFreak that it is working on a countermeasure while warning that the new cracks are a security concern. P",
-    "date": "Mon, 30 Mar 2026 07:30:48 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 12,
-    "matched_keywords": [
-      "denuvo",
-      "crack",
-      "torrent",
-      "piracy"
+      "rom"
     ]
   },
   {
@@ -55,9 +41,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "dmca",
       "takedown",
-      "piracy"
+      "piracy",
+      "dmca"
     ]
   },
   {
@@ -68,9 +54,34 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "dmca",
+      "takedown",
+      "piracy",
+      "dmca"
+    ]
+  },
+  {
+    "title": "India&#8217;s Expanding Site Blocking Orders Hit Legal Wall at Delhi High Court",
+    "link": "https://torrentfreak.com/paramount-faces-dmca-whack-a-mole-as-leaked-avatar-aang-movie-thrives-on-pirate-sites/",
+    "description": "Paramount’s attempt to contain the leaked 'Avatar: Aang, The Last Airbender' has transformed into a digital game of whack-a-mole. Despite sending numerous takedown notices, the film is now firmly embedded in the piracy landscape, highlighting the limitations of traditional anti-piracy measures once ",
+    "date": "Mon, 20 Apr 2026 07:00:30 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 8,
+    "matched_keywords": [
       "takedown",
       "piracy"
+    ]
+  },
+  {
+    "title": "Paramount Faces DMCA Whack-a-Mole as Leaked Avatar: Aang Movie Thrives on Pirate Sites",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Tue, 21 Apr 2026 14:05:46 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "copyright",
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -81,9 +92,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "dmca",
+      "pirate",
       "rom",
-      "pirate"
+      "dmca"
     ]
   },
   {
@@ -95,8 +106,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "rom",
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -107,9 +118,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "rom",
       "copyright",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -131,8 +142,8 @@ const ARIA_NEWS = {
     "source": "IPWatchdog",
     "relevance_score": 5,
     "matched_keywords": [
-      "rom",
       "pirate",
+      "rom",
       "intellectual property"
     ]
   },
@@ -156,8 +167,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "dmca",
-      "copyright"
+      "copyright",
+      "dmca"
     ]
   },
   {
@@ -238,10 +249,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Sanrio establishes in-house gaming brand Sanrio Games",
+    "title": "Firstpoint VC launches with €50m fund to invest in AI-driven games and entertainment startups",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 21 Apr 2026 09:51:24 +0000",
+    "date": "Wed, 22 Apr 2026 07:54:52 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"This is not a sustainable business model\" – Why Google Cloud's Jack Buser thinks AI can save the games industry",
+    "link": "https://www.gamesindustry.biz/microsoft-cuts-game-pass-pricing-and-removes-call-of-duty-as-day-one-launch-title-in-response-to-a-lot-of-feedback",
+    "description": "Xbox has confirmed it is reducing the price of its top-end Game Pass subscription and will no longer include new Call of Duty releases on day of release, following internal communication from Microsoft Gaming CEO Asha Sharma stating that the service had \"become too expensive for players\". Sharma rep",
+    "date": "Tue, 21 Apr 2026 14:54:37 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -262,7 +284,7 @@ const ARIA_NEWS = {
   {
     "title": "Kotaku hires Rebekah Valentine as Senior Reporter as site expands under new ownership",
     "link": "https://www.gamesindustry.biz/bafta-calls-last-minute-decision-to-pull-indie-trailer-from-2026-bafta-games-awards-a-compliance-decision",
-    "description": "Venerable games media site Kotaku has announced the appointment of Rebekah Valentine as Senior Reporter, the brand's first significant hire since it was purchased from G/O Media by French firm Keleops Media in July 2025. Valentine's arrival is the first of several planned by the site, which Keleops ",
+    "description": "Venerable games media site Kotaku has announced the appointment of Rebekah Valentine as Senior Reporter, the brand's first significant hire since it was purchased from G/O Media by Swiss firm Keleops Media in July 2025. Valentine's arrival is the first of several planned by the site, which Keleops s",
     "date": "Mon, 20 Apr 2026 18:22:03 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -315,39 +337,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Games and movies are rushing to jump into bed while they're still getting to know each other | Opinion",
-    "link": "https://www.gamesindustry.biz/alternative-app-store-aptoide-files-antitrust-lawsuit-against-google-alleges-anticompetitive-chokehold",
-    "description": "A survey from games recruitment firm Skillsearch has found that overall, 44% of respondents have considered leaving the industry due to redundancies. In the UK, 76% said they will be or are considering job hunting outside of the industry in 2026. Read more",
-    "date": "Thu, 16 Apr 2026 15:38:28 +0000",
-    "source": "GamesIndustry",
+    "title": "Patch Tuesday, April 2026 Edition",
+    "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
+    "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to ",
+    "date": "Tue, 14 Apr 2026 21:47:59 +0000",
+    "source": "KrebsOnSecurity",
     "relevance_score": 3,
     "matched_keywords": [
-      "rom"
+      "piracy"
     ]
   },
   {
-    "title": "Toei Company launches publishing label Toei Games",
-    "link": "https://www.gamesindustry.biz/sanrio-establishes-in-house-gaming-brand-sanrio-games",
-    "description": "Hello Kitty creator Sanrio has launched its self-published game brand, Sanrio Games. Read more",
-    "date": "Tue, 21 Apr 2026 07:57:19 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Sony begins rolling out age verification for PlayStation in UK and Ireland",
-    "link": "https://www.gamesindustry.biz/toei-company-launches-publishing-label-toei-games",
-    "description": "Japanese entertainment company Toei has established Toei Games, an in-house publishing label. Read more",
-    "date": "Tue, 21 Apr 2026 07:02:39 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Forza Horizon 6 has reportedly pre-sold 500,000 copies on Steam a month before launch | News-in-brief",
-    "link": "https://www.gamesindustry.biz/sony-begins-rolling-out-age-verification-for-playstation-in-uk-and-ireland",
-    "description": "Sony is starting to introduce age verification for PlayStation users in the UK and Ireland to meet the requirements of the UK's Online Safety Act (OSA). Read more",
-    "date": "Mon, 20 Apr 2026 19:50:03 +0000",
+    "title": "Microsoft cuts Game Pass pricing and removes Call of Duty as day-one launch title in response to \"a lot of feedback\"",
+    "link": "https://www.gamesindustry.biz/firstpoint-vc-launches-with-50m-fund-to-invest-in-ai-driven-games-and-entertainment-startups",
+    "description": "New venture capital firm Firstpoint VC has launched with a &euro;50 million fund to invest in AI-driven gaming and entertainment startups. Read more",
+    "date": "Tue, 21 Apr 2026 16:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
