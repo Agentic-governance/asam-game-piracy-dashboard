@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-22 08:01 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-23 08:06 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-22T08:01:36.036445",
+  fetched_at: "2026-04-23T08:06:57.269138",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "pirate",
+      "rom",
       "takedown",
       "dmca",
       "torrent",
-      "copyright",
-      "pirate",
-      "rom"
+      "copyright"
     ]
   },
   {
@@ -27,10 +27,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "denuvo",
-      "piracy",
       "pirate",
-      "rom"
+      "rom",
+      "piracy",
+      "denuvo"
     ]
   },
   {
@@ -41,8 +41,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
       "piracy",
+      "takedown",
       "dmca"
     ]
   },
@@ -54,33 +54,33 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
       "piracy",
+      "takedown",
       "dmca"
     ]
   },
   {
     "title": "India&#8217;s Expanding Site Blocking Orders Hit Legal Wall at Delhi High Court",
-    "link": "https://torrentfreak.com/paramount-faces-dmca-whack-a-mole-as-leaked-avatar-aang-movie-thrives-on-pirate-sites/",
-    "description": "Paramount’s attempt to contain the leaked 'Avatar: Aang, The Last Airbender' has transformed into a digital game of whack-a-mole. Despite sending numerous takedown notices, the film is now firmly embedded in the piracy landscape, highlighting the limitations of traditional anti-piracy measures once ",
+    "link": "https://torrentfreak.com/paramount-faces-dmca-whac-a-mole-as-leaked-avatar-aang-movie-thrives-on-pirate-sites/",
+    "description": "Paramount’s attempt to contain the leaked 'Avatar: Aang, The Last Airbender' has transformed into a digital game of whac-a-mole. Despite sending numerous takedown notices, the film is now firmly embedded in the piracy landscape, highlighting the limitations of traditional anti-piracy measures once a",
     "date": "Mon, 20 Apr 2026 07:00:30 +0000",
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "takedown",
-      "piracy"
+      "piracy",
+      "takedown"
     ]
   },
   {
-    "title": "Paramount Faces DMCA Whack-a-Mole as Leaked Avatar: Aang Movie Thrives on Pirate Sites",
+    "title": "Paramount Faces DMCA Whac-a-Mole as Leaked Avatar: Aang Movie Thrives on Pirate Sites",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
     "date": "Tue, 21 Apr 2026 14:05:46 +0000",
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "copyright",
       "pirate",
+      "copyright",
       "dmca"
     ]
   },
@@ -105,9 +105,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "rom",
       "pirate",
-      "torrent"
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -118,8 +118,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "copyright",
       "pirate",
+      "copyright",
       "rom"
     ]
   },
@@ -132,19 +132,6 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "pirate"
-    ]
-  },
-  {
-    "title": "Consumer, Patient Groups Push for Fast Markup of ETHIC Act",
-    "link": "https://ipwatchdog.com/2026/04/16/schedule-litigation-strategies-best-practices-online-enforcement/",
-    "description": "In 2025, trademark cases filed in United States District Courts increased 25% from 2024 (up 848 cases to 4,211). Many of those cases were “Schedule A” lawsuits, a niche form of intellectual property litigation that joins multiple foreign-based ecommerce stores selling counterfeit, pirated, or other ",
-    "date": "Wed, 15 Apr 2026 21:47:16 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 5,
-    "matched_keywords": [
-      "pirate",
-      "rom",
-      "intellectual property"
     ]
   },
   {
@@ -207,7 +194,7 @@ const ARIA_NEWS = {
   {
     "title": "HBO Obtains DMCA Subpoena to Unmask &#8216;Euphoria&#8217; Spoiler Account on X",
     "link": "https://torrentfreak.com/rapidiptv-kingpin-dash-the-iranian-gets-two-years-prison-under-spanish-plea-deal/",
-    "description": "Six years after international police units searched houses and server farms across Europe, the alleged mastermind had his day in court. Amir Z., known to colleagues as \"Dash the Iranian,\" faced 22.5 years in prison alongside four co-defendants. However, after they all pleaded guilty, the ringleader ",
+    "description": "Six years after international police units searched houses and server farms across Europe, the alleged mastermind had his day in court. A.Z., known to colleagues as \"Dash the Iranian,\" faced 22.5 years in prison alongside four co-defendants. However, after they all pleaded guilty, the ringleader was",
     "date": "Fri, 10 Apr 2026 06:48:42 +0000",
     "source": "TorrentFreak",
     "relevance_score": 3,
@@ -249,9 +236,42 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Firstpoint VC launches with €50m fund to invest in AI-driven games and entertainment startups",
+    "title": "Super Mario Galaxy Movie surpasses $755m globally, becomes highest-grossing film of 2026",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Thu, 23 Apr 2026 07:01:18 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Dead by Daylight studio Behaviour Interactive confirms redundancies",
+    "link": "https://www.gamesindustry.biz/gamers-sue-nintendo-over-tariff-refunds",
+    "description": "Two Nintendo customers have filed a class-action lawsuit against Nintendo, alleging the firm intends to benefit by both raising prices for consumers whilst seeking compensation from the US government. Read more",
+    "date": "Wed, 22 Apr 2026 21:04:36 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Ubisoft reportedly cancels life-simulator project Alterra",
+    "link": "https://www.gamesindustry.biz/gamesindustrybiz-will-once-again-head-to-brazil-to-report-on-gamescom-latam",
+    "description": "GamesIndustry.biz will be boarding the long flight to Brazil next week to cover the happenings at Gamescom Latam in S&atilde;o Paulo, which is running from April 29 to May 3. Read more",
+    "date": "Wed, 22 Apr 2026 11:04:16 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Firstpoint VC launches with €50m fund to invest in AI-driven games and entertainment startups",
+    "link": "https://www.gamesindustry.biz/koei-tecmo-revises-fy26-results-following-success-of-pokemon-pokopia-and-nioh-3",
+    "description": "Koei Tecmo has updated its financial forecast for the fiscal year ending March 2026, citing strong fourth quarter performance from titles such as Pok&eacute;mon Pokopia and Nioh 3. Read more",
     "date": "Wed, 22 Apr 2026 07:54:52 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -293,50 +313,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Podcast: Roblox, Hollywood, and London Games Week",
-    "link": "https://www.gamesindustry.biz/clair-obscur-expedition-33-and-dispatch-lead-at-bafta-awards-2026",
-    "description": "We talk a lot about the major challenges that the games business currently faces due to external economic factors, from fears of a consumer-spending-led recession through to price rises driven by component scarcity. That focus can sometimes overshadow other looming challenges &ndash; none of which, ",
-    "date": "Fri, 17 Apr 2026 18:33:19 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "\"You can't buy a BAFTA.\" Why commercial influence is a red line for the BAFTA Games Awards",
-    "link": "https://www.gamesindustry.biz/weak-job-security-risks-an-industry-brain-drain-opinion",
-    "description": "Roblox has released an agentic AI feature for its Roblox Studio tool for game creators, which it claims will turn text prompts into a game design document which the tool can then implement and test. \"Creators can just describe what they want and Planning Mode will break down every step to make it, t",
-    "date": "Fri, 17 Apr 2026 12:07:32 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Roblox releases agentic AI tools for creators, promising ability to \"build a game with a single prompt\"",
-    "link": "https://www.gamesindustry.biz/you-cant-buy-a-bafta-why-commercial-influence-is-a-red-line-for-the-bafta-games-awards",
-    "description": "Alternative app store Aptoide has filed an antitrust lawsuit against Google, alleging that it maintains an \"anticompetitive chokehold\" over third-party app stores. Read more",
-    "date": "Fri, 17 Apr 2026 08:01:48 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Alternative app store Aptoide files antitrust lawsuit against Google, alleges \"anticompetitive chokehold\"",
-    "link": "https://www.gamesindustry.biz/roblox-releases-agentic-ai-tools-for-creators-promising-ability-to-build-a-game-with-a-single-prompt",
-    "description": "I have just returned from a whirlwind two days flitting around the London Games Festival, which is rumbling on until the end of this week, with events like New Game Plus and the BAFTA Games Awards still to come. Read more",
-    "date": "Fri, 17 Apr 2026 07:56:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Patch Tuesday, April 2026 Edition",
     "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
     "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to ",
@@ -348,10 +324,28 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Microsoft cuts Game Pass pricing and removes Call of Duty as day-one launch title in response to \"a lot of feedback\"",
-    "link": "https://www.gamesindustry.biz/firstpoint-vc-launches-with-50m-fund-to-invest-in-ai-driven-games-and-entertainment-startups",
-    "description": "New venture capital firm Firstpoint VC has launched with a &euro;50 million fund to invest in AI-driven gaming and entertainment startups. Read more",
-    "date": "Tue, 21 Apr 2026 16:00:00 +0000",
+    "title": "Gamers sue Nintendo over tariff refunds",
+    "link": "https://www.gamesindustry.biz/super-mario-galaxy-movie-surpasses-755m-globally-becomes-highest-grossing-film-of-2026",
+    "description": "The Super Mario Galaxy Movie has surpassed $755 million globally, making it the top film of 2026. Read more",
+    "date": "Wed, 22 Apr 2026 21:21:29 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "GamesIndustry.biz will once again head to Brazil to report on Gamescom Latam",
+    "link": "https://www.gamesindustry.biz/us-hardware-sales-rose-69-in-march-2026-following-strong-switch-2-performance-us-monthly-charts",
+    "description": "Total US consumer spending on video games jumped 12% to $5.3 billion in March 2026, while first quarter spending rose by 5% year-on-year to $14.6 billion. Read more",
+    "date": "Wed, 22 Apr 2026 13:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"Not surprising at all\" – analysts see Xbox Game Pass price cut as inevitable shift that will drive subscription growth in 2026",
+    "link": "https://www.gamesindustry.biz/ubisoft-reportedly-cancels-life-simulator-project-alterra",
+    "description": "Ubisoft has reportedly cancelled its life simulator project, codenamed Alterra. Read more",
+    "date": "Wed, 22 Apr 2026 09:47:27 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
