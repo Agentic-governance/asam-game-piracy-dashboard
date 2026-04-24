@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-23 08:06 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-24 08:15 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-23T08:06:57.269138",
+  fetched_at: "2026-04-24T08:15:59.867571",
   item_count: 30,
   items: [
   {
@@ -11,26 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "dmca",
+      "takedown",
       "pirate",
       "rom",
-      "takedown",
-      "dmca",
       "torrent",
       "copyright"
-    ]
-  },
-  {
-    "title": "Game Pirates Beat Denuvo with Hypervisor Bypasses — Irdeto Promises Countermeasure",
-    "link": "https://torrentfreak.com/google-cloudflare-cisco-lose-pirate-site-dns-blocking-appeal-in-france/",
-    "description": "The Paris Court of Appeal has confirmed that third-party DNS providers can be legally compelled to block access to domain names to stop piracy. The DNS providers countered that such measures are technically burdensome and easily bypassed. However, the court ruled that the intermediaries must act non",
-    "date": "Tue, 31 Mar 2026 07:33:15 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 12,
-    "matched_keywords": [
-      "pirate",
-      "rom",
-      "piracy",
-      "denuvo"
     ]
   },
   {
@@ -72,16 +58,16 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Paramount Faces DMCA Whac-a-Mole as Leaked Avatar: Aang Movie Thrives on Pirate Sites",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 21 Apr 2026 14:05:46 +0000",
+    "title": "Sflix, Myflixerz, HDtoday, and other Pirate Sites Go Dark as Backend Infrastructure Fails",
+    "link": "https://torrentfreak.com/record-labels-drop-piracy-lawsuits-against-altice-and-verizon-in-wake-of-cox-ruling/",
+    "description": "The major record labels have walked away from two of the largest remaining ISP piracy liability cases. They filed joint stipulations this week, dismissing both lawsuits where billions of dollars were at stake. The action follows less than a month after the Supreme Court's ruling in favor of Cox Comm",
+    "date": "Thu, 23 Apr 2026 08:51:54 +0000",
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "piracy",
       "pirate",
-      "copyright",
-      "dmca"
+      "rom"
     ]
   },
   {
@@ -92,9 +78,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "dmca",
       "pirate",
-      "rom",
-      "dmca"
+      "rom"
+    ]
+  },
+  {
+    "title": "Paramount Faces DMCA Whac-a-Mole as Leaked Avatar: Aang Movie Thrives on Pirate Sites",
+    "link": "https://torrentfreak.com/sflix-myflixerz-hdtoday-and-other-pirate-sites-go-dark-as-backend-infrastructure-fails/",
+    "description": "Dozens of pirate sites using popular brands such as Sflix, Watchseries, HDtoday, and Fmovies have become unreachable this week. The targeted domains all return a Cloudflare 521 error message, suggesting that the origin server refused the connection. Many of the sites in question are linked to a popu",
+    "date": "Tue, 21 Apr 2026 14:05:46 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "dmca",
+      "pirate"
     ]
   },
   {
@@ -106,32 +104,20 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "pirate",
-      "torrent",
-      "rom"
+      "rom",
+      "torrent"
     ]
   },
   {
-    "title": "Google, Cloudflare, Cisco Lose Pirate Site DNS Blocking Appeal in France",
-    "link": "https://torrentfreak.com/x-asks-court-to-dismiss-music-piracy-lawsuit-after-supreme-courts-cox-ruling/",
-    "description": "Elon Musk’s X is moving for a total dismissal of the high-profile copyright lawsuit filed by major music publishers, claiming that the Supreme Court just pulled the rug out from under the labels’ case. Citing the recent Cox v. Sony decision, the social media platform argues that the \"contributory in",
-    "date": "Wed, 01 Apr 2026 12:43:12 +0000",
+    "title": "Record Labels Drop Piracy Lawsuits Against Altice and Verizon in Wake of Cox Ruling",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Fri, 24 Apr 2026 06:05:06 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 5,
+    "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright",
-      "rom"
-    ]
-  },
-  {
-    "title": "Pirate adventure Windrose tops 1 million copies sold in 6 days | News-in-brief",
-    "link": "https://www.gamesindustry.biz/kotaku-hires-rebekah-valentine-as-senior-reporter-as-site-expands-under-new-ownership",
-    "description": "Organisers for Nordic Game 2026 have revealed the speakers for this year's Masterclass Friday programme. Read more",
-    "date": "Mon, 20 Apr 2026 16:54:28 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 5,
-    "matched_keywords": [
-      "pirate"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -142,8 +128,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -154,8 +140,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "dmca"
+      "dmca",
+      "copyright"
     ]
   },
   {
@@ -236,10 +222,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Super Mario Galaxy Movie surpasses $755m globally, becomes highest-grossing film of 2026",
+    "title": "Meta reportedly cuts 10% of workforce affecting 8,000 employees",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 23 Apr 2026 07:01:18 +0000",
+    "date": "Fri, 24 Apr 2026 08:07:14 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "How have things been going at Rovio since it was bought by Sega?",
+    "link": "https://www.gamesindustry.biz/german-game-industry-employment-drops-3-marking-second-year-of-decline",
+    "description": "The German games industry is slowly recovering from the effects of international consolidation and funding uncertainty, aided by substantial backing from the government. Read more",
+    "date": "Thu, 23 Apr 2026 14:54:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -291,28 +288,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "BAFTA calls last-minute decision to pull indie trailer from 2026 BAFTA Games Awards \"a compliance decision\"",
-    "link": "https://www.gamesindustry.biz/forza-horizon-6-has-reportedly-pre-sold-500000-copies-on-steam-a-month-before-launch-news-in-brief",
-    "description": "BAFTA said the reason it pulled an indie game trailer from last weekend's 2026 BAFTA Games Awards was a \"compliance decision.\" Read more",
-    "date": "Mon, 20 Apr 2026 19:25:10 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Kotaku hires Rebekah Valentine as Senior Reporter as site expands under new ownership",
-    "link": "https://www.gamesindustry.biz/bafta-calls-last-minute-decision-to-pull-indie-trailer-from-2026-bafta-games-awards-a-compliance-decision",
-    "description": "Venerable games media site Kotaku has announced the appointment of Rebekah Valentine as Senior Reporter, the brand's first significant hire since it was purchased from G/O Media by Swiss firm Keleops Media in July 2025. Valentine's arrival is the first of several planned by the site, which Keleops s",
-    "date": "Mon, 20 Apr 2026 18:22:03 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Patch Tuesday, April 2026 Edition",
     "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
     "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to ",
@@ -324,28 +299,46 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "German game industry employment drops 3%, marking second year of decline",
+    "link": "https://www.gamesindustry.biz/warner-bros-shareholders-overwhelmingly-back-paramounts-111bn-acquisition",
+    "description": "Warner Bros. Discovery (WBD) shareholders have \"overwhelmingly\" approved Paramount&rsquo;s $111 billion acquisition. Read more",
+    "date": "Thu, 23 Apr 2026 14:59:28 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Gamescom Dev 2026 announces first speakers and sessions",
+    "link": "https://www.gamesindustry.biz/how-have-things-been-going-at-rovio-since-it-was-bought-by-sega",
+    "description": "One of the privileges of being a journalist is that you get to indulge your nosiness. So after wondering how things have been going at Rovio since the Finnish Angry Birds firm was bought by Sega in 2023 for a cool $776 million, we decided to pick up the phone and ask them (or rather schedule a video",
+    "date": "Thu, 23 Apr 2026 14:01:13 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "The Ivors Academy launches Ivors Composer Awards, video game music to be among categories",
+    "link": "https://www.gamesindustry.biz/gamescom-dev-2026-announces-first-speakers-and-sessions",
+    "description": "Organisers of Gamescom Dev have announced the initial speakers and sessions for the upcoming conference in August. Read more",
+    "date": "Thu, 23 Apr 2026 12:27:54 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Super Mario Galaxy Movie surpasses $755m globally, becomes highest-grossing film of 2026",
+    "link": "https://www.gamesindustry.biz/the-ivors-academy-launches-ivors-composer-awards-video-game-music-to-be-among-categories",
+    "description": "The Ivors Academy is introducing a new ceremony to spotlight composers, including those working in the games sector. Read more",
+    "date": "Thu, 23 Apr 2026 07:01:18 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Gamers sue Nintendo over tariff refunds",
     "link": "https://www.gamesindustry.biz/super-mario-galaxy-movie-surpasses-755m-globally-becomes-highest-grossing-film-of-2026",
     "description": "The Super Mario Galaxy Movie has surpassed $755 million globally, making it the top film of 2026. Read more",
     "date": "Wed, 22 Apr 2026 21:21:29 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "GamesIndustry.biz will once again head to Brazil to report on Gamescom Latam",
-    "link": "https://www.gamesindustry.biz/us-hardware-sales-rose-69-in-march-2026-following-strong-switch-2-performance-us-monthly-charts",
-    "description": "Total US consumer spending on video games jumped 12% to $5.3 billion in March 2026, while first quarter spending rose by 5% year-on-year to $14.6 billion. Read more",
-    "date": "Wed, 22 Apr 2026 13:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"Not surprising at all\" – analysts see Xbox Game Pass price cut as inevitable shift that will drive subscription growth in 2026",
-    "link": "https://www.gamesindustry.biz/ubisoft-reportedly-cancels-life-simulator-project-alterra",
-    "description": "Ubisoft has reportedly cancelled its life simulator project, codenamed Alterra. Read more",
-    "date": "Wed, 22 Apr 2026 09:47:27 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
