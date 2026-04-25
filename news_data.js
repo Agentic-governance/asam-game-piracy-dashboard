@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-24 08:15 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-25 07:40 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-24T08:15:59.867571",
+  fetched_at: "2026-04-25T07:40:47.838222",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "dmca",
       "takedown",
-      "pirate",
-      "rom",
+      "dmca",
+      "copyright",
       "torrent",
-      "copyright"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -66,8 +66,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "pirate",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -78,9 +78,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "rom",
       "dmca",
-      "pirate",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -103,21 +103,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
+      "torrent",
       "rom",
-      "torrent"
-    ]
-  },
-  {
-    "title": "Record Labels Drop Piracy Lawsuits Against Altice and Verizon in Wake of Cox Ruling",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Fri, 24 Apr 2026 06:05:06 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "piracy",
-      "copyright"
+      "pirate"
     ]
   },
   {
@@ -142,6 +130,17 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "dmca",
       "copyright"
+    ]
+  },
+  {
+    "title": "Record Labels Drop Piracy Lawsuits Against Altice and Verizon in Wake of Cox Ruling",
+    "link": "https://torrentfreak.com/spanish-film-archivist-faces-prison-and-e870000-fine-over-non-commercial-movie-site/",
+    "description": "A Spanish content creator who ran a film preservation website together with more than a dozen others, is now the sole defendant in a prosecution where he faces a two-and-a-half-year prison sentence and €870,000 in damages. \"El Feo,\" as the defendant is known online, fought back at trial. Among other",
+    "date": "Fri, 24 Apr 2026 06:05:06 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "piracy"
     ]
   },
   {
@@ -211,21 +210,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "X Asks Court to Dismiss Music Piracy Lawsuit After Supreme Court&#8217;s Cox Ruling",
-    "link": "https://torrentfreak.com/yout-com-hopes-supreme-courts-cox-ruling-helps-its-case-riaa-disagrees/",
-    "description": "The Supreme Court’s recent reversal of the billion-dollar Cox Communications verdict also makes an appearance in the long-running legal battle between Yout.com and the RIAA. The streamripper's counsel argues that  the ruling's treatment of noninfringing uses is relevant to its case against the RIAA.",
-    "date": "Thu, 02 Apr 2026 07:30:08 +0000",
-    "source": "TorrentFreak",
+    "title": "Podcast: Call of Duty, Game Pass, and the Mario movie",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Fri, 24 Apr 2026 17:19:48 +0000",
+    "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
-      "piracy"
+      "rom"
     ]
   },
   {
-    "title": "Meta reportedly cuts 10% of workforce affecting 8,000 employees",
-    "link": "https://www.gamesindustry.biz/feed",
-    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 24 Apr 2026 08:07:14 +0000",
+    "title": "Microsoft CEO sees Xbox as \"critical audience and category\" that's \"really important to the company’s future\" says Asha Sharma",
+    "link": "https://www.gamesindustry.biz/tools-to-tell-if-your-game-is-broken",
+    "description": "Matthew Tighe's company Do Games has spent the best part of the last decade porting games to consoles, including titles like Cult of the Lamb and Art of Rally. His new venture, Gameworks, aims to take all of the knowledge gleaned from that effort and apply it to making developers' lives a little eas",
+    "date": "Fri, 24 Apr 2026 16:19:19 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Microsoft Gaming reverts to Xbox branding as part of new mission statement",
+    "link": "https://www.gamesindustry.biz/why-xbox-took-call-of-duty-out-of-game-pass",
+    "description": "This week, Xbox announced that Call of Duty will no longer be added to Game Pass Ultimate at launch, instead being added around a year later. This was paired with a reduction in the cost of the service, from $29.99 down to $22.99 on Xbox and from $16.49 to $13.99 a month for PC Game Pass. Read more",
+    "date": "Fri, 24 Apr 2026 09:14:30 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -266,28 +276,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Firstpoint VC launches with €50m fund to invest in AI-driven games and entertainment startups",
-    "link": "https://www.gamesindustry.biz/koei-tecmo-revises-fy26-results-following-success-of-pokemon-pokopia-and-nioh-3",
-    "description": "Koei Tecmo has updated its financial forecast for the fiscal year ending March 2026, citing strong fourth quarter performance from titles such as Pok&eacute;mon Pokopia and Nioh 3. Read more",
-    "date": "Wed, 22 Apr 2026 07:54:52 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "\"This is not a sustainable business model\" – Why Google Cloud's Jack Buser thinks AI can save the games industry",
-    "link": "https://www.gamesindustry.biz/microsoft-cuts-game-pass-pricing-and-removes-call-of-duty-as-day-one-launch-title-in-response-to-a-lot-of-feedback",
-    "description": "Xbox has confirmed it is reducing the price of its top-end Game Pass subscription and will no longer include new Call of Duty releases on day of release, following internal communication from Microsoft Gaming CEO Asha Sharma stating that the service had \"become too expensive for players\". Sharma rep",
-    "date": "Tue, 21 Apr 2026 14:54:37 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Patch Tuesday, April 2026 Edition",
     "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
     "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to ",
@@ -297,6 +285,42 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
+  },
+  {
+    "title": "Tools to tell if your game is broken",
+    "link": "https://www.gamesindustry.biz/podcast-call-of-duty-game-pass-and-the-mario-movie",
+    "description": "It's Friday, so we have another episode of the pre-alpha GamesIndustry.biz Podcast. Once again I'm joined by Lewis Packwood to discuss the main issues of the week, which is to say Xbox: specifically, the decision to pull Call of Duty out of Game Pass and cut its price. It's a big decision, and we ha",
+    "date": "Fri, 24 Apr 2026 16:59:30 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Atari acquires emulation studio Implicit Conversions",
+    "link": "https://www.gamesindustry.biz/microsoft-ceo-sees-xbox-as-critical-audience-and-category-thats-really-important-to-the-companys-future-says-asha-sharma",
+    "description": "Xbox CEO Asha Sharma has described Microsoft CEO Satya Nadella as having a ten-year vision that sees Xbox as critical audience for the company, as part of a wide-ranging interview with Game File that emphasised the firm's commitment to driving Game Pass subscription revenues and investing in feature",
+    "date": "Fri, 24 Apr 2026 14:37:05 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Why Xbox took Call of Duty out of Game Pass",
+    "link": "https://www.gamesindustry.biz/microsoft-reportedly-offers-voluntary-retirement-program-for-7-of-us-workforce",
+    "description": "Microsoft is reportedly introducing a one-time voluntary retirement program for US employees, potentially impacting up to 7% of its workforce. Read more",
+    "date": "Fri, 24 Apr 2026 12:17:35 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Meta reportedly cuts 10% of workforce affecting 8,000 employees",
+    "link": "https://www.gamesindustry.biz/microsoft-gaming-reverts-to-xbox-branding",
+    "description": "Microsoft Gaming is reverting to Xbox under its new leadership, it has announced, as part of a sweeping new mission statement shared with staff. Read more",
+    "date": "Fri, 24 Apr 2026 08:07:14 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "German game industry employment drops 3%, marking second year of decline",
@@ -312,33 +336,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/how-have-things-been-going-at-rovio-since-it-was-bought-by-sega",
     "description": "One of the privileges of being a journalist is that you get to indulge your nosiness. So after wondering how things have been going at Rovio since the Finnish Angry Birds firm was bought by Sega in 2023 for a cool $776 million, we decided to pick up the phone and ask them (or rather schedule a video",
     "date": "Thu, 23 Apr 2026 14:01:13 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "The Ivors Academy launches Ivors Composer Awards, video game music to be among categories",
-    "link": "https://www.gamesindustry.biz/gamescom-dev-2026-announces-first-speakers-and-sessions",
-    "description": "Organisers of Gamescom Dev have announced the initial speakers and sessions for the upcoming conference in August. Read more",
-    "date": "Thu, 23 Apr 2026 12:27:54 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Super Mario Galaxy Movie surpasses $755m globally, becomes highest-grossing film of 2026",
-    "link": "https://www.gamesindustry.biz/the-ivors-academy-launches-ivors-composer-awards-video-game-music-to-be-among-categories",
-    "description": "The Ivors Academy is introducing a new ceremony to spotlight composers, including those working in the games sector. Read more",
-    "date": "Thu, 23 Apr 2026 07:01:18 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Gamers sue Nintendo over tariff refunds",
-    "link": "https://www.gamesindustry.biz/super-mario-galaxy-movie-surpasses-755m-globally-becomes-highest-grossing-film-of-2026",
-    "description": "The Super Mario Galaxy Movie has surpassed $755 million globally, making it the top film of 2026. Read more",
-    "date": "Wed, 22 Apr 2026 21:21:29 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
