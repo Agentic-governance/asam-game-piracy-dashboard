@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-25 07:40 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-26 07:49 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-25T07:40:47.838222",
+  fetched_at: "2026-04-26T07:49:35.677550",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "takedown",
-      "dmca",
-      "copyright",
-      "torrent",
+      "pirate",
       "rom",
-      "pirate"
+      "dmca",
+      "torrent",
+      "copyright",
+      "takedown"
     ]
   },
   {
@@ -27,9 +27,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "takedown",
-      "dmca"
+      "dmca",
+      "piracy"
     ]
   },
   {
@@ -40,9 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "takedown",
-      "dmca"
+      "dmca",
+      "piracy"
     ]
   },
   {
@@ -53,8 +53,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "piracy",
-      "takedown"
+      "takedown",
+      "piracy"
     ]
   },
   {
@@ -65,9 +65,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
+      "pirate",
       "rom",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -78,9 +78,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "pirate",
       "rom",
-      "dmca",
-      "pirate"
+      "dmca"
     ]
   },
   {
@@ -91,8 +91,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "dmca",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -103,9 +103,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
+      "pirate",
       "rom",
-      "pirate"
+      "torrent"
     ]
   },
   {
