@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-26 07:49 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-27 08:38 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-26T07:49:35.677550",
+  fetched_at: "2026-04-27T08:38:26.661109",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "takedown",
       "pirate",
+      "copyright",
       "rom",
       "dmca",
-      "torrent",
-      "copyright",
-      "takedown"
+      "torrent"
     ]
   },
   {
@@ -27,9 +27,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
       "dmca",
-      "piracy"
+      "piracy",
+      "takedown"
     ]
   },
   {
@@ -40,9 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
       "dmca",
-      "piracy"
+      "piracy",
+      "takedown"
     ]
   },
   {
@@ -53,8 +53,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "takedown",
-      "piracy"
+      "piracy",
+      "takedown"
     ]
   },
   {
@@ -65,9 +65,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "piracy",
       "pirate",
-      "rom",
-      "piracy"
+      "rom"
     ]
   },
   {
@@ -78,9 +78,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "dmca",
       "pirate",
-      "rom",
-      "dmca"
+      "rom"
     ]
   },
   {
@@ -91,8 +91,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "dmca"
+      "dmca",
+      "pirate"
     ]
   },
   {
@@ -106,6 +106,30 @@ const ARIA_NEWS = {
       "pirate",
       "rom",
       "torrent"
+    ]
+  },
+  {
+    "title": "Google Uses Cox Ruling to Kill Last Copyright Claim in Textbook Piracy Lawsuit",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Sun, 26 Apr 2026 18:39:26 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "piracy",
+      "copyright"
+    ]
+  },
+  {
+    "title": "Spanish Film Archivist Faces Prison and €870,000 Fine Over &#8216;Non-Commercial&#8217; Movie Site",
+    "link": "https://torrentfreak.com/google-uses-cox-ruling-to-kill-last-copyright-claim-in-textbook-piracy-lawsuit/",
+    "description": "Google is trying to put an end to the copyright liability claim in its textbook piracy battle with several academic publishers. In a motion for partial judgment filed in a New York federal court, Google argues that the recent Supreme Court ruling in Cox v. Sony has effectively killed the copyright l",
+    "date": "Fri, 24 Apr 2026 14:16:32 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -144,7 +168,7 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 04/20/2026",
+    "title": "Top 10 Most Pirated Movies of The Week – 04/27/2026",
     "link": "https://torrentfreak.com/indias-expanding-site-blocking-orders-hit-legal-wall-at-delhi-high-court/",
     "description": "Justices at India's Delhi High Court disagree on the future of India's world-leading site-blocking regime. The same court that pioneered \"Dynamic+\" injunctions to target pirate sites, issued a new ruling that sees these post-judgment expansions as fundamentally incompatible with the law. According t",
     "date": "Sun, 19 Apr 2026 23:09:40 +0000",
@@ -199,21 +223,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Yout.com Hopes Supreme Court&#8217;s Cox Ruling Helps Its Case; RIAA Disagrees",
-    "link": "https://torrentfreak.com/u-s-lawmakers-work-on-unified-site-blocking-bill-to-counter-online-piracy/",
-    "description": "Last week's Supreme Court decision in Cox Communications reshaped the piracy liability landscape, creating new urgency for site-blocking legislation in Congress. This could be addressed by Senator Thom Tillis and Representative Zoe Lofgren, who have been working on bicameral legislation that would r",
-    "date": "Fri, 03 Apr 2026 14:31:49 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "piracy"
-    ]
-  },
-  {
-    "title": "Podcast: Call of Duty, Game Pass, and the Mario movie",
+    "title": "Bulletstorm dev People Can Fly acquires Cooldown Games",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 24 Apr 2026 17:19:48 +0000",
+    "date": "Mon, 27 Apr 2026 07:46:59 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -265,17 +278,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Ubisoft reportedly cancels life-simulator project Alterra",
-    "link": "https://www.gamesindustry.biz/gamesindustrybiz-will-once-again-head-to-brazil-to-report-on-gamescom-latam",
-    "description": "GamesIndustry.biz will be boarding the long flight to Brazil next week to cover the happenings at Gamescom Latam in S&atilde;o Paulo, which is running from April 29 to May 3. Read more",
-    "date": "Wed, 22 Apr 2026 11:04:16 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Patch Tuesday, April 2026 Edition",
     "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
     "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to ",
@@ -285,6 +287,24 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
+  },
+  {
+    "title": "\"More charities than ever are looking at games\": Meet Cause+Select, the platform linking the games industry to top charities",
+    "link": "https://www.gamesindustry.biz/bulletstorm-dev-people-can-fly-acquires-cooldown-games",
+    "description": "Warsaw-based developer People Can Fly has acquired Cooldown Games for an undisclosed amount. Read more",
+    "date": "Sun, 26 Apr 2026 23:47:01 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Podcast: Call of Duty, Game Pass, and the Mario movie",
+    "link": "https://www.gamesindustry.biz/more-charities-than-ever-are-looking-at-games-meet-causeselect-the-platform-linking-the-games-industry-to-top-charities",
+    "description": "The video games sector is no stranger to charity. Industry organisations like GamesAid and SpecialEffect are long-established, in addition to the speedrunning event Games Done Quick, Yogscast's Jingle Jam and Humble Bundle (owned by GamesIndustry.biz parent IGN Entertainment) that have seen develope",
+    "date": "Fri, 24 Apr 2026 17:19:48 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Tools to tell if your game is broken",
@@ -318,24 +338,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/microsoft-gaming-reverts-to-xbox-branding",
     "description": "Microsoft Gaming is reverting to Xbox under its new leadership, it has announced, as part of a sweeping new mission statement shared with staff. Read more",
     "date": "Fri, 24 Apr 2026 08:07:14 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "German game industry employment drops 3%, marking second year of decline",
-    "link": "https://www.gamesindustry.biz/warner-bros-shareholders-overwhelmingly-back-paramounts-111bn-acquisition",
-    "description": "Warner Bros. Discovery (WBD) shareholders have \"overwhelmingly\" approved Paramount&rsquo;s $111 billion acquisition. Read more",
-    "date": "Thu, 23 Apr 2026 14:59:28 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Gamescom Dev 2026 announces first speakers and sessions",
-    "link": "https://www.gamesindustry.biz/how-have-things-been-going-at-rovio-since-it-was-bought-by-sega",
-    "description": "One of the privileges of being a journalist is that you get to indulge your nosiness. So after wondering how things have been going at Rovio since the Finnish Angry Birds firm was bought by Sega in 2023 for a cool $776 million, we decided to pick up the phone and ask them (or rather schedule a video",
-    "date": "Thu, 23 Apr 2026 14:01:13 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
