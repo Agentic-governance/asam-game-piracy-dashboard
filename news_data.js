@@ -1,22 +1,34 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-27 08:38 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-28 08:36 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-27T08:38:26.661109",
+  fetched_at: "2026-04-28T08:36:52.952971",
   item_count: 30,
   items: [
   {
-    "title": "GitHub Reports DMCA Takedown Record and Surging Anti-Circumvention Claims",
+    "title": "Google Uses Cox Ruling to Kill Last Copyright Claim in Textbook Piracy Lawsuit",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
     "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Project Hail Mary' tops the chart, followed by 'The Legend of Aang: The Last Airbender.' 'Avatar: Fire and Ash' completes the top three.\nFrom: TF, for the latest news on copyright battles, pir",
+    "date": "Sun, 26 Apr 2026 18:39:26 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 9,
+    "matched_keywords": [
+      "pirate",
+      "torrent",
+      "copyright",
+      "piracy",
+      "rom"
+    ]
+  },
+  {
+    "title": "GitHub Reports DMCA Takedown Record and Surging Anti-Circumvention Claims",
+    "link": "https://torrentfreak.com/indias-expanding-site-blocking-orders-hit-legal-wall-at-delhi-high-court/",
+    "description": "Justices at India's Delhi High Court disagree on the future of India's world-leading site-blocking regime. The same court that pioneered \"Dynamic+\" injunctions to target pirate sites, issued a new ruling that sees these post-judgment expansions as fundamentally incompatible with the law. According t",
     "date": "Sun, 19 Apr 2026 10:47:48 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 12,
+    "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
       "pirate",
-      "copyright",
-      "rom",
-      "dmca",
-      "torrent"
+      "takedown",
+      "dmca"
     ]
   },
   {
@@ -27,22 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "dmca",
       "piracy",
-      "takedown"
-    ]
-  },
-  {
-    "title": "U.S. Lawmakers Work on Unified Site-Blocking Bill to Counter Online Piracy",
-    "link": "https://torrentfreak.com/music-publishers-ask-court-to-dismiss-xs-weaponized-dmca-antitrust-suit/",
-    "description": "Major music publishers and the NMPA are asking a Texas federal court to throw out X's antitrust lawsuit, calling it a baseless attempt at retaliation. The music companies argue that X’s conspiracy theory rests on a single word in an email, while adding that their massive DMCA takedown campaign was n",
-    "date": "Sun, 05 Apr 2026 16:25:15 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 9,
-    "matched_keywords": [
-      "dmca",
-      "piracy",
-      "takedown"
+      "takedown",
+      "dmca"
     ]
   },
   {
@@ -65,8 +64,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "pirate",
+      "piracy",
       "rom"
     ]
   },
@@ -78,9 +77,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "dmca",
       "pirate",
-      "rom"
+      "rom",
+      "dmca"
+    ]
+  },
+  {
+    "title": "Top 10 Most Pirated Movies of The Week – 04/27/2026",
+    "link": "https://torrentfreak.com/filmmakers-drop-piracy-liability-lawsuit-against-isp-rcn/",
+    "description": "A group of independent film companies has dropped its long-running piracy liability lawsuit against U.S. Internet provider RCN. The joint stipulation, filed in a New Jersey federal court, follows the Cox Supreme Court ruling. In addition to dropping a multi-million-dollar damages claim, the requeste",
+    "date": "Sun, 26 Apr 2026 23:09:40 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -91,8 +102,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "dmca",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -109,10 +120,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Google Uses Cox Ruling to Kill Last Copyright Claim in Textbook Piracy Lawsuit",
+    "title": "Filmmakers Drop Piracy Liability Lawsuit Against ISP RCN",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sun, 26 Apr 2026 18:39:26 +0000",
+    "date": "Tue, 28 Apr 2026 06:19:24 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
@@ -152,8 +163,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "dmca",
-      "copyright"
+      "copyright",
+      "dmca"
     ]
   },
   {
@@ -165,17 +176,6 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "piracy"
-    ]
-  },
-  {
-    "title": "Top 10 Most Pirated Movies of The Week – 04/27/2026",
-    "link": "https://torrentfreak.com/indias-expanding-site-blocking-orders-hit-legal-wall-at-delhi-high-court/",
-    "description": "Justices at India's Delhi High Court disagree on the future of India's world-leading site-blocking regime. The same court that pioneered \"Dynamic+\" injunctions to target pirate sites, issued a new ruling that sees these post-judgment expansions as fundamentally incompatible with the law. According t",
-    "date": "Sun, 19 Apr 2026 23:09:40 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "pirate"
     ]
   },
   {
@@ -223,10 +223,54 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Bulletstorm dev People Can Fly acquires Cooldown Games",
+    "title": "Landfall's Rebecca Lautner announced as speaker at Game Republic New Horizons 2026",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 27 Apr 2026 07:46:59 +0000",
+    "date": "Tue, 28 Apr 2026 08:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Into Games' IG50 program to support new devs from working-class backgrounds opens again next month",
+    "link": "https://www.gamesindustry.biz/landfalls-rebecca-lautner-announced-as-speaker-at-game-republic-new-horizons-2026",
+    "description": "The organisers of this year's Game Republic New Horizons conference have announced their second speaker: Rebecca Lautner, chief business officer at Landfall. Read more",
+    "date": "Mon, 27 Apr 2026 20:15:20 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Xbox boss warns \"memory costs will impact pricing, will impact availability\" when it comes to Project Helix",
+    "link": "https://www.gamesindustry.biz/into-games-ig50-program-to-support-new-devs-from-working-class-backgrounds-opens-again-next-month",
+    "description": "Into Games has opened its applications for IG50, the annual program that recognizes \"50 of the most talented yet-to-be-hired people in UK games from working-class and low-income backgrounds.\" Read more",
+    "date": "Mon, 27 Apr 2026 19:46:07 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Call of Duty was never the right fit for Game Pass | Opinion",
+    "link": "https://www.gamesindustry.biz/why-publishers-and-investors-are-increasingly-backing-user-generated-games-over-conventional-ones",
+    "description": "The runaway success of hit games created on user-generation platforms, chiefly Roblox, is increasingly attracting investment from venture capital and publishers who previously backed PC and console games, says investment firm Double Black Capital, who say that major publishers won't be far behind. R",
+    "date": "Mon, 27 Apr 2026 11:46:47 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Benoit Richer, Assassin's Creed Codename Hexe game director, leaves Ubisoft",
+    "link": "https://www.gamesindustry.biz/call-of-duty-was-never-the-right-fit-for-game-pass-opinion",
+    "description": "Call it a strategic retreat. A couple of years after the gung-ho announcement that Call of Duty would be avaliable to Game Pass subscribers on launch day, Microsoft has climbed down from that commitment. Read more",
+    "date": "Mon, 27 Apr 2026 09:42:23 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -267,17 +311,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Dead by Daylight studio Behaviour Interactive confirms redundancies",
-    "link": "https://www.gamesindustry.biz/gamers-sue-nintendo-over-tariff-refunds",
-    "description": "Two Nintendo customers have filed a class-action lawsuit against Nintendo, alleging the firm intends to benefit by both raising prices for consumers whilst seeking compensation from the US government. Read more",
-    "date": "Wed, 22 Apr 2026 21:04:36 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Patch Tuesday, April 2026 Edition",
     "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
     "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to ",
@@ -289,55 +322,28 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"More charities than ever are looking at games\": Meet Cause+Select, the platform linking the games industry to top charities",
-    "link": "https://www.gamesindustry.biz/bulletstorm-dev-people-can-fly-acquires-cooldown-games",
-    "description": "Warsaw-based developer People Can Fly has acquired Cooldown Games for an undisclosed amount. Read more",
-    "date": "Sun, 26 Apr 2026 23:47:01 +0000",
+    "title": "Epic Games commits to \"immediate self-service refunds\" for D4vd cosmetics after murder charge, but not to removing them entirely",
+    "link": "https://www.gamesindustry.biz/xbox-boss-warns-memory-costs-will-impact-pricing-will-impact-availability-when-it-comes-to-project-helix",
+    "description": "Xbox boss Asha Sharma has admitted that the ongoing memory shortage crisis will likely impact the price point of its next hardware iteration. Read more",
+    "date": "Mon, 27 Apr 2026 19:26:57 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Podcast: Call of Duty, Game Pass, and the Mario movie",
-    "link": "https://www.gamesindustry.biz/more-charities-than-ever-are-looking-at-games-meet-causeselect-the-platform-linking-the-games-industry-to-top-charities",
-    "description": "The video games sector is no stranger to charity. Industry organisations like GamesAid and SpecialEffect are long-established, in addition to the speedrunning event Games Done Quick, Yogscast's Jingle Jam and Humble Bundle (owned by GamesIndustry.biz parent IGN Entertainment) that have seen develope",
-    "date": "Fri, 24 Apr 2026 17:19:48 +0000",
+    "title": "Why publishers and investors are increasingly backing user-generated games over conventional ones",
+    "link": "https://www.gamesindustry.biz/epic-games-commits-to-immediate-self-service-refunds-for-d4vd-cosmetics-after-murder-charge-but-not-to-removing-them-entirely",
+    "description": "Fortnite has agreed to refund any player who purchased an item connected to alleged child abuser and murderer, D4vd. Read more",
+    "date": "Mon, 27 Apr 2026 13:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Tools to tell if your game is broken",
-    "link": "https://www.gamesindustry.biz/podcast-call-of-duty-game-pass-and-the-mario-movie",
-    "description": "It's Friday, so we have another episode of the pre-alpha GamesIndustry.biz Podcast. Once again I'm joined by Lewis Packwood to discuss the main issues of the week, which is to say Xbox: specifically, the decision to pull Call of Duty out of Game Pass and cut its price. It's a big decision, and we ha",
-    "date": "Fri, 24 Apr 2026 16:59:30 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Atari acquires emulation studio Implicit Conversions",
-    "link": "https://www.gamesindustry.biz/microsoft-ceo-sees-xbox-as-critical-audience-and-category-thats-really-important-to-the-companys-future-says-asha-sharma",
-    "description": "Xbox CEO Asha Sharma has described Microsoft CEO Satya Nadella as having a ten-year vision that sees Xbox as critical audience for the company, as part of a wide-ranging interview with Game File that emphasised the firm's commitment to driving Game Pass subscription revenues and investing in feature",
-    "date": "Fri, 24 Apr 2026 14:37:05 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Why Xbox took Call of Duty out of Game Pass",
-    "link": "https://www.gamesindustry.biz/microsoft-reportedly-offers-voluntary-retirement-program-for-7-of-us-workforce",
-    "description": "Microsoft is reportedly introducing a one-time voluntary retirement program for US employees, potentially impacting up to 7% of its workforce. Read more",
-    "date": "Fri, 24 Apr 2026 12:17:35 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Meta reportedly cuts 10% of workforce affecting 8,000 employees",
-    "link": "https://www.gamesindustry.biz/microsoft-gaming-reverts-to-xbox-branding",
-    "description": "Microsoft Gaming is reverting to Xbox under its new leadership, it has announced, as part of a sweeping new mission statement shared with staff. Read more",
-    "date": "Fri, 24 Apr 2026 08:07:14 +0000",
+    "title": "Bulletstorm dev People Can Fly acquires Cooldown Games",
+    "link": "https://www.gamesindustry.biz/benoit-richer-assassins-creed-codename-hexe-game-director-leaves-ubisoft",
+    "description": "Benoit Richer has left Ubisoft to co-found Servo Games, a new independent studio based in Quebec. Read more",
+    "date": "Mon, 27 Apr 2026 07:46:59 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
