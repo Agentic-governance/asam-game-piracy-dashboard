@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-28 08:36 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-29 08:29 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-28T08:36:52.952971",
+  fetched_at: "2026-04-29T08:29:39.901932",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "torrent",
-      "copyright",
+      "pirate",
+      "rom",
       "piracy",
-      "rom"
+      "copyright"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "dmca",
       "pirate",
-      "takedown",
-      "dmca"
+      "takedown"
     ]
   },
   {
@@ -40,8 +40,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "piracy",
-      "takedown",
-      "dmca"
+      "dmca",
+      "takedown"
     ]
   },
   {
@@ -64,8 +64,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "piracy",
+      "pirate",
       "rom"
     ]
   },
@@ -77,9 +77,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "dmca",
       "pirate",
-      "rom",
-      "dmca"
+      "rom"
+    ]
+  },
+  {
+    "title": "Filmmakers Drop Piracy Liability Lawsuit Against ISP RCN",
+    "link": "https://torrentfreak.com/eu-funded-dns-provider-must-block-pirate-sites-french-court-rules/",
+    "description": "DNS4EU, an EU-funded initiative that aims to offer a secure and privacy-focused DNS resolver for Europeans, is the latest intermediary to get caught up in the French anti-piracy crackdown. In a series of orders in favor of Canal+, the Paris court ordered search engines, ISPs, DNS providers, VPNs, an",
+    "date": "Tue, 28 Apr 2026 06:19:24 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -90,8 +102,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -102,8 +114,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "dmca"
+      "dmca",
+      "pirate"
     ]
   },
   {
@@ -114,21 +126,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
+      "torrent",
       "pirate",
-      "rom",
-      "torrent"
+      "rom"
     ]
   },
   {
-    "title": "Filmmakers Drop Piracy Liability Lawsuit Against ISP RCN",
+    "title": "EU-Funded DNS Provider Must Block Pirate Sites, French Court Rules",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 28 Apr 2026 06:19:24 +0000",
+    "date": "Wed, 29 Apr 2026 06:41:06 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -153,18 +165,6 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy",
       "copyright"
-    ]
-  },
-  {
-    "title": "Music Publishers Ask Court to Dismiss X&#8217;s &#8216;Weaponized DMCA&#8217; Antitrust Suit",
-    "link": "https://torrentfreak.com/supreme-court-wipes-piracy-liability-verdict-against-grande-communications/",
-    "description": "Following on the heels of the landmark Cox v. Sony ruling, the Supreme Court has vacated the contributory copyright infringement verdict against ISP Grande Communications, ordering the Fifth Circuit to reconsider its decision in light of the new precedent. The order is the latest setback for the rec",
-    "date": "Mon, 06 Apr 2026 14:41:29 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "copyright",
-      "dmca"
     ]
   },
   {
@@ -223,9 +223,20 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Landfall's Rebecca Lautner announced as speaker at Game Republic New Horizons 2026",
+    "title": "Amazon pilots playable game demos on Twitch",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Wed, 29 Apr 2026 07:38:44 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Landfall's Rebecca Lautner announced as speaker at Game Republic New Horizons 2026",
+    "link": "https://www.gamesindustry.biz/capcom-raises-fy25-outlook-following-boost-from-resident-evil-requiem",
+    "description": "Capcom has revised its FY25 earnings forecast, citing stronger-than-expected performance from Resident Evil: Requiem. Read more",
     "date": "Tue, 28 Apr 2026 08:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -300,17 +311,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "How have things been going at Rovio since it was bought by Sega?",
-    "link": "https://www.gamesindustry.biz/german-game-industry-employment-drops-3-marking-second-year-of-decline",
-    "description": "The German games industry is slowly recovering from the effects of international consolidation and funding uncertainty, aided by substantial backing from the government. Read more",
-    "date": "Thu, 23 Apr 2026 14:54:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Patch Tuesday, April 2026 Edition",
     "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
     "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to ",
@@ -322,28 +322,28 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "\"There was that period in time, pre-Sonic, where it was, 'You're so lucky that Hollywood is even looking at you'\"",
+    "link": "https://www.gamesindustry.biz/amazon-pilots-playable-game-demos-on-twitch",
+    "description": "Amazon is testing the ability to play game demos through Twitch. Read more",
+    "date": "Tue, 28 Apr 2026 16:14:15 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Magic: The Gathering Arena devs announce plans to unionise",
+    "link": "https://www.gamesindustry.biz/there-was-that-period-in-time-pre-sonic-where-it-was-youre-so-lucky-that-hollywood-is-even-looking-at-you",
+    "description": "You might not have heard of the name Story Kitchen, but you've definitely heard of the movies and TV shows it's been involved with. The production company specialises in adaptations of video games, and its list of projects includes the Sonic the Hedgehog movies and both the live-action and animated ",
+    "date": "Tue, 28 Apr 2026 13:39:24 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Epic Games commits to \"immediate self-service refunds\" for D4vd cosmetics after murder charge, but not to removing them entirely",
     "link": "https://www.gamesindustry.biz/xbox-boss-warns-memory-costs-will-impact-pricing-will-impact-availability-when-it-comes-to-project-helix",
     "description": "Xbox boss Asha Sharma has admitted that the ongoing memory shortage crisis will likely impact the price point of its next hardware iteration. Read more",
     "date": "Mon, 27 Apr 2026 19:26:57 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Why publishers and investors are increasingly backing user-generated games over conventional ones",
-    "link": "https://www.gamesindustry.biz/epic-games-commits-to-immediate-self-service-refunds-for-d4vd-cosmetics-after-murder-charge-but-not-to-removing-them-entirely",
-    "description": "Fortnite has agreed to refund any player who purchased an item connected to alleged child abuser and murderer, D4vd. Read more",
-    "date": "Mon, 27 Apr 2026 13:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Bulletstorm dev People Can Fly acquires Cooldown Games",
-    "link": "https://www.gamesindustry.biz/benoit-richer-assassins-creed-codename-hexe-game-director-leaves-ubisoft",
-    "description": "Benoit Richer has left Ubisoft to co-found Servo Games, a new independent studio based in Quebec. Read more",
-    "date": "Mon, 27 Apr 2026 07:46:59 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
