@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-29 08:29 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-04-30 08:32 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-29T08:29:39.901932",
+  fetched_at: "2026-04-30T08:32:50.262683",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
       "pirate",
       "rom",
-      "piracy",
-      "copyright"
+      "torrent",
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -39,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "dmca",
-      "takedown"
+      "takedown",
+      "piracy"
     ]
   },
   {
@@ -52,8 +52,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "piracy",
-      "takedown"
+      "takedown",
+      "piracy"
     ]
   },
   {
@@ -64,9 +64,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "pirate",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -90,8 +90,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -102,8 +102,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -126,9 +126,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
       "pirate",
-      "rom"
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -139,8 +139,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -151,8 +151,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -163,8 +163,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -223,10 +223,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Amazon pilots playable game demos on Twitch",
+    "title": "Xbox hardware revenue drops 33% year-on-year during Q3",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 29 Apr 2026 07:38:44 +0000",
+    "date": "Thu, 30 Apr 2026 07:42:01 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "TIGA: 29% of UK games studios continue to face skill shortages",
+    "link": "https://www.gamesindustry.biz/how-evil-empire-makes-one-of-the-most-effect-indie-showcase-events-while-juggling-castlevania-live-ops-and-building-its-own-ip",
+    "description": "Digital showcases have become a cornerstone of the modern publishing landscape. From State of Play to Wholesome Direct to Indie Fan Fest, among many others, there's one for every segment &ndash; and the Triple-I Initiative has become one of the most effectivel for indies. It was set up by French stu",
+    "date": "Wed, 29 Apr 2026 09:36:50 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -289,28 +300,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Microsoft CEO sees Xbox as \"critical audience and category\" that's \"really important to the company’s future\" says Asha Sharma",
-    "link": "https://www.gamesindustry.biz/tools-to-tell-if-your-game-is-broken",
-    "description": "Matthew Tighe's company Do Games has spent the best part of the last decade porting games to consoles, including titles like Cult of the Lamb and Art of Rally. His new venture, Gameworks, aims to take all of the knowledge gleaned from that effort and apply it to making developers' lives a little eas",
-    "date": "Fri, 24 Apr 2026 16:19:19 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Microsoft Gaming reverts to Xbox branding as part of new mission statement",
-    "link": "https://www.gamesindustry.biz/why-xbox-took-call-of-duty-out-of-game-pass",
-    "description": "This week, Xbox announced that Call of Duty will no longer be added to Game Pass Ultimate at launch, instead being added around a year later. This was paired with a reduction in the cost of the service, from $29.99 down to $22.99 on Xbox and from $16.49 to $13.99 a month for PC Game Pass. Read more",
-    "date": "Fri, 24 Apr 2026 09:14:30 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Patch Tuesday, April 2026 Edition",
     "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
     "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to ",
@@ -322,28 +311,37 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"There was that period in time, pre-Sonic, where it was, 'You're so lucky that Hollywood is even looking at you'\"",
-    "link": "https://www.gamesindustry.biz/amazon-pilots-playable-game-demos-on-twitch",
-    "description": "Amazon is testing the ability to play game demos through Twitch. Read more",
-    "date": "Tue, 28 Apr 2026 16:14:15 +0000",
+    "title": "Starbreeze to capitalize on Roblox success with second game",
+    "link": "https://www.gamesindustry.biz/xbox-hardware-revenue-drops-33-year-on-year-during-q3",
+    "description": "Microsoft has published its third-quarter results, reporting a 5% decrease in Xbox content and services and a significant 33% drop in hardware revenues. Read more",
+    "date": "Wed, 29 Apr 2026 19:50:17 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Magic: The Gathering Arena devs announce plans to unionise",
-    "link": "https://www.gamesindustry.biz/there-was-that-period-in-time-pre-sonic-where-it-was-youre-so-lucky-that-hollywood-is-even-looking-at-you",
-    "description": "You might not have heard of the name Story Kitchen, but you've definitely heard of the movies and TV shows it's been involved with. The production company specialises in adaptations of video games, and its list of projects includes the Sonic the Hedgehog movies and both the live-action and animated ",
-    "date": "Tue, 28 Apr 2026 13:39:24 +0000",
+    "title": "Digital Bros. acquires Wuchang: Fallen Feathers IP for $4.6m",
+    "link": "https://www.gamesindustry.biz/starbreeze-to-capitalize-on-roblox-success-with-second-game",
+    "description": "Starbreeze is releasing a second game on Roblox. Read more",
+    "date": "Wed, 29 Apr 2026 18:35:02 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Epic Games commits to \"immediate self-service refunds\" for D4vd cosmetics after murder charge, but not to removing them entirely",
-    "link": "https://www.gamesindustry.biz/xbox-boss-warns-memory-costs-will-impact-pricing-will-impact-availability-when-it-comes-to-project-helix",
-    "description": "Xbox boss Asha Sharma has admitted that the ongoing memory shortage crisis will likely impact the price point of its next hardware iteration. Read more",
-    "date": "Mon, 27 Apr 2026 19:26:57 +0000",
+    "title": "Housemarque to host session at Nordic Game 2026",
+    "link": "https://www.gamesindustry.biz/greedfall-developer-spiders-reportedly-set-to-close",
+    "description": "Greedfall: The Dying World developer Spiders is set to close. Read more",
+    "date": "Wed, 29 Apr 2026 11:06:24 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "How Evil Empire makes one of the most effective indie showcase events – while juggling Castlevania, live ops, and building its own IP",
+    "link": "https://www.gamesindustry.biz/housemarque-to-host-session-at-nordic-game-2026",
+    "description": "Finnish developer Housemarque will present a talk at this year's Nordic Game conference, focusing on the development of its latest title Saros. Read more",
+    "date": "Wed, 29 Apr 2026 10:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
