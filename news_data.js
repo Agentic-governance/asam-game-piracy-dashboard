@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-04-30 08:32 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-01 08:22 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-04-30T08:32:50.262683",
+  fetched_at: "2026-05-01T08:22:33.680183",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
-      "rom",
+      "piracy",
       "torrent",
       "copyright",
-      "piracy"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -40,8 +40,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "dmca",
-      "takedown",
-      "piracy"
+      "piracy",
+      "takedown"
     ]
   },
   {
@@ -52,8 +52,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "takedown",
-      "piracy"
+      "piracy",
+      "takedown"
     ]
   },
   {
@@ -64,8 +64,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "rom",
+      "pirate",
       "piracy"
     ]
   },
@@ -77,9 +77,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "rom",
       "dmca",
+      "pirate"
+    ]
+  },
+  {
+    "title": "EU-Funded DNS Provider Must Block Pirate Sites, French Court Rules",
+    "link": "https://torrentfreak.com/mpa-renews-push-for-u-s-site-blocking-legislation-citing-live-sports-piracy/",
+    "description": "As lawmakers in U.S. Congress advance their pirate site blocking plans, the Motion Picture Association is publicly reiterating the need for such legislation. In a World IP Day post, MPA Global General Counsel Karyn Temple frames live sports piracy as an urgent threat. She argues that a U.S. site blo",
+    "date": "Wed, 29 Apr 2026 06:41:06 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
       "pirate",
-      "rom"
+      "piracy"
     ]
   },
   {
@@ -126,21 +138,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
+      "torrent",
       "rom",
-      "torrent"
+      "pirate"
     ]
   },
   {
-    "title": "EU-Funded DNS Provider Must Block Pirate Sites, French Court Rules",
+    "title": "MPA Renews Push for U.S. Site-Blocking Legislation, Citing Live Sports Piracy",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Wed, 29 Apr 2026 06:41:06 +0000",
+    "date": "Thu, 30 Apr 2026 12:39:34 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -212,25 +224,36 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Supreme Court Wipes Piracy Liability Verdict Against Grande Communications",
-    "link": "https://torrentfreak.com/kocowa-secures-win-against-dramacool-pirates-u-s-court-grants-domain-takeovers/",
-    "description": "Legal streaming service Kocowa hopes to have dealt the final blow to the Dramacool piracy network. The company obtained a default judgment in a U.S. federal court, which granted the transfer of 16 domain names, including dramacool.bg and dramacool.ba, which remain online. While the court noted that ",
-    "date": "Tue, 07 Apr 2026 08:49:16 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "piracy"
-    ]
-  },
-  {
-    "title": "Xbox hardware revenue drops 33% year-on-year during Q3",
+    "title": "Epic Games Store launches on iPhone in Japan",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 30 Apr 2026 07:42:01 +0000",
+    "date": "Fri, 01 May 2026 07:05:26 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
       "rom"
+    ]
+  },
+  {
+    "title": "Sony confirms DRM policy on PS4 and PS5 is a \"one-time check\"",
+    "link": "https://www.gamesindustry.biz/epic-games-store-launches-on-iphone-in-japan",
+    "description": "The Epic Games Store is now available on iPhone in Japan, following the enactment of the Mobile Software Competition Act (MSCA) in December 2025. Read more",
+    "date": "Thu, 30 Apr 2026 13:45:26 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "drm"
+    ]
+  },
+  {
+    "title": "Inkle's Jon Ingold on why self-publishing is where it's at",
+    "link": "https://www.gamesindustry.biz/sony-confirms-drm-policy-on-ps4-and-ps5-is-a-one-time-check",
+    "description": "Sony has clarified that the DRM check for newly-bought digital games on PlayStation 4 and 5 is required only once after purchase. Read more",
+    "date": "Thu, 30 Apr 2026 11:49:31 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "drm"
     ]
   },
   {
@@ -278,28 +301,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Call of Duty was never the right fit for Game Pass | Opinion",
-    "link": "https://www.gamesindustry.biz/why-publishers-and-investors-are-increasingly-backing-user-generated-games-over-conventional-ones",
-    "description": "The runaway success of hit games created on user-generation platforms, chiefly Roblox, is increasingly attracting investment from venture capital and publishers who previously backed PC and console games, says investment firm Double Black Capital, who say that major publishers won't be far behind. R",
-    "date": "Mon, 27 Apr 2026 11:46:47 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Benoit Richer, Assassin's Creed Codename Hexe game director, leaves Ubisoft",
-    "link": "https://www.gamesindustry.biz/call-of-duty-was-never-the-right-fit-for-game-pass-opinion",
-    "description": "Call it a strategic retreat. A couple of years after the gung-ho announcement that Call of Duty would be avaliable to Game Pass subscribers on launch day, Microsoft has climbed down from that commitment. Read more",
-    "date": "Mon, 27 Apr 2026 09:42:23 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Patch Tuesday, April 2026 Edition",
     "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
     "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to ",
@@ -311,37 +312,37 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Ustwo Games to consider hiring more contractors to reduce development costs",
+    "link": "https://www.gamesindustry.biz/inkles-jon-ingold-on-why-self-publishing-is-where-its-at",
+    "description": "In a talk at the Self-Publishing Toolkit event at the London Games Festival in April, Inkle co-founder Jon Ingold laid out in black and white why the studio has been doing very well all these years without a publisher, thank you very much. Read more",
+    "date": "Thu, 30 Apr 2026 11:22:10 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Blue Prince and The Darkest Files win top prizes at German Computer Game Awards 2026",
+    "link": "https://www.gamesindustry.biz/ustwo-games-to-consider-hiring-more-contractors-to-reduce-development-costs",
+    "description": "Following its shift to a PC-first strategy, Ustwo Games CEO Maria Sayans said the studio must dramatically reduce development budgets by relying more on contractors. Read more",
+    "date": "Thu, 30 Apr 2026 09:05:25 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Xbox hardware revenue drops 33% year-on-year during Q3",
+    "link": "https://www.gamesindustry.biz/blue-prince-and-the-darkest-files-win-top-prizes-at-german-computer-game-awards-2026",
+    "description": "Blue Prince won Best International Game at the German Computer Game Awards 2026, with The Darkest Files receiving awards for Best German Game and Best Serious Game. Read more",
+    "date": "Thu, 30 Apr 2026 07:42:01 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Starbreeze to capitalize on Roblox success with second game",
     "link": "https://www.gamesindustry.biz/xbox-hardware-revenue-drops-33-year-on-year-during-q3",
     "description": "Microsoft has published its third-quarter results, reporting a 5% decrease in Xbox content and services and a significant 33% drop in hardware revenues. Read more",
     "date": "Wed, 29 Apr 2026 19:50:17 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Digital Bros. acquires Wuchang: Fallen Feathers IP for $4.6m",
-    "link": "https://www.gamesindustry.biz/starbreeze-to-capitalize-on-roblox-success-with-second-game",
-    "description": "Starbreeze is releasing a second game on Roblox. Read more",
-    "date": "Wed, 29 Apr 2026 18:35:02 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Housemarque to host session at Nordic Game 2026",
-    "link": "https://www.gamesindustry.biz/greedfall-developer-spiders-reportedly-set-to-close",
-    "description": "Greedfall: The Dying World developer Spiders is set to close. Read more",
-    "date": "Wed, 29 Apr 2026 11:06:24 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "How Evil Empire makes one of the most effective indie showcase events – while juggling Castlevania, live ops, and building its own IP",
-    "link": "https://www.gamesindustry.biz/housemarque-to-host-session-at-nordic-game-2026",
-    "description": "Finnish developer Housemarque will present a talk at this year's Nordic Game conference, focusing on the development of its latest title Saros. Read more",
-    "date": "Wed, 29 Apr 2026 10:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
