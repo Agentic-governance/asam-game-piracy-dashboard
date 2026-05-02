@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-01 08:22 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-02 07:54 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-01T08:22:33.680183",
+  fetched_at: "2026-05-02T07:54:46.959151",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
-      "torrent",
-      "copyright",
       "pirate",
-      "rom"
+      "torrent",
+      "rom",
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "takedown",
       "dmca",
-      "pirate",
-      "takedown"
+      "pirate"
     ]
   },
   {
@@ -39,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "dmca",
+      "takedown",
       "piracy",
-      "takedown"
+      "dmca"
     ]
   },
   {
@@ -52,8 +52,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "piracy",
-      "takedown"
+      "takedown",
+      "piracy"
     ]
   },
   {
@@ -64,21 +64,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "piracy",
       "rom",
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Kocowa Secures Win Against Dramacool Pirates, U.S. Court Grants Domain Takeovers",
-    "link": "https://torrentfreak.com/hbo-obtains-dmca-subpoena-to-unmask-euphoria-spoiler-account-on-x/",
-    "description": "HBO has obtained a DMCA subpoena, ordering X Corp. to identify the person behind a Euphoria fan account that allegedly posted spoilers from unaired episodes of Season 3. The action comes just days before the show's long-awaited premiere this weekend, but it remains unclear what the company plans to ",
-    "date": "Thu, 09 Apr 2026 06:25:56 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "rom",
-      "dmca",
       "pirate"
     ]
   },
@@ -90,8 +77,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -102,8 +89,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -114,8 +101,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -144,15 +131,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "MPA Renews Push for U.S. Site-Blocking Legislation, Citing Live Sports Piracy",
+    "title": "Report Links Piracy to Drugs, Weapons, and the Mafia; Calls for U.S. Site-Blocking",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Thu, 30 Apr 2026 12:39:34 +0000",
+    "date": "Fri, 01 May 2026 11:11:49 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -163,8 +150,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -175,7 +162,18 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
+      "piracy",
+      "copyright"
+    ]
+  },
+  {
+    "title": "MPA Renews Push for U.S. Site-Blocking Legislation, Citing Live Sports Piracy",
+    "link": "https://torrentfreak.com/report-links-piracy-to-drugs-weapons-and-the-mafia-calls-for-u-s-site-blocking/",
+    "description": "A new report by the Digital Citizens Alliance and IP House argues that piracy has become more organized and sophisticated over the years. In some cases, it has been linked to other criminal elements, including drugs, weapons, and the mafia. The report calls for site-blocking legislation and urges Co",
+    "date": "Thu, 30 Apr 2026 12:39:34 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
       "piracy"
     ]
   },
@@ -224,10 +222,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Epic Games Store launches on iPhone in Japan",
+    "title": "Podcast: iicon, Gamescom Latam, and Roblox financials",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 01 May 2026 07:05:26 +0000",
+    "date": "Fri, 01 May 2026 17:27:57 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Clair Obscur: Expedition 33 wins Best Game at the BIG Festival Awards at Gamescom Latam",
+    "link": "https://www.gamesindustry.biz/podcast-iicon-gamescom-latam-and-roblox-financials",
+    "description": "This week's GamesIndustry.biz podcast is now live, once again recapping the main stories of the last seven days. This week, Lewis called in from GamesCom Latam to share the view from the Brazilian development scene, and I shared my thoughts on two days with some very high-level executives at the ESA",
+    "date": "Fri, 01 May 2026 16:14:54 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -268,39 +277,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Landfall's Rebecca Lautner announced as speaker at Game Republic New Horizons 2026",
-    "link": "https://www.gamesindustry.biz/capcom-raises-fy25-outlook-following-boost-from-resident-evil-requiem",
-    "description": "Capcom has revised its FY25 earnings forecast, citing stronger-than-expected performance from Resident Evil: Requiem. Read more",
-    "date": "Tue, 28 Apr 2026 08:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Into Games' IG50 program to support new devs from working-class backgrounds opens again next month",
-    "link": "https://www.gamesindustry.biz/landfalls-rebecca-lautner-announced-as-speaker-at-game-republic-new-horizons-2026",
-    "description": "The organisers of this year's Game Republic New Horizons conference have announced their second speaker: Rebecca Lautner, chief business officer at Landfall. Read more",
-    "date": "Mon, 27 Apr 2026 20:15:20 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Xbox boss warns \"memory costs will impact pricing, will impact availability\" when it comes to Project Helix",
-    "link": "https://www.gamesindustry.biz/into-games-ig50-program-to-support-new-devs-from-working-class-backgrounds-opens-again-next-month",
-    "description": "Into Games has opened its applications for IG50, the annual program that recognizes \"50 of the most talented yet-to-be-hired people in UK games from working-class and low-income backgrounds.\" Read more",
-    "date": "Mon, 27 Apr 2026 19:46:07 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Patch Tuesday, April 2026 Edition",
     "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
     "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to ",
@@ -310,6 +286,33 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
+  },
+  {
+    "title": "Gamescom Latam shows Brazil's dev scene has huge potential, but it's waiting for a spark | Opinion",
+    "link": "https://www.gamesindustry.biz/clair-obscur-expedition-33-wins-best-game-at-the-big-festival-awards-at-gamescom-latam",
+    "description": "Clair Obscur: Expedition 33 has continued its victory lap around the industry's award ceremonies by scooping Best Game at the BIG Festival Awards. Read more",
+    "date": "Fri, 01 May 2026 14:53:41 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Roblox announces AI-driven upscaler, which it claims will convert Roblox titles to photorealistic graphics",
+    "link": "https://www.gamesindustry.biz/gamescom-latam-shows-brazils-dev-scene-has-huge-potential-but-its-waiting-for-a-spark-opinion",
+    "description": "Eliana Russi, head of B2B at Gamescom Latam, gives an emphatic answer when I ask what Brazil's game development scene needs to take it to the next level. \"Money!\" she cries, hands in the air. Read more",
+    "date": "Fri, 01 May 2026 14:16:22 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Epic Games Store launches on iPhone in Japan",
+    "link": "https://www.gamesindustry.biz/roblox-reports-strong-q1-growth-revises-full-year-forecast-due-to-new-saftey-measures",
+    "description": "Roblox reported strong first-quarter revenue and bookings growth in its latest financial results. However, the company lowered its annual growth outlook due to mandatory age checks and new safety measures. Read more",
+    "date": "Fri, 01 May 2026 07:05:26 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Ustwo Games to consider hiring more contractors to reduce development costs",
@@ -334,15 +337,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/blue-prince-and-the-darkest-files-win-top-prizes-at-german-computer-game-awards-2026",
     "description": "Blue Prince won Best International Game at the German Computer Game Awards 2026, with The Darkest Files receiving awards for Best German Game and Best Serious Game. Read more",
     "date": "Thu, 30 Apr 2026 07:42:01 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Starbreeze to capitalize on Roblox success with second game",
-    "link": "https://www.gamesindustry.biz/xbox-hardware-revenue-drops-33-year-on-year-during-q3",
-    "description": "Microsoft has published its third-quarter results, reporting a 5% decrease in Xbox content and services and a significant 33% drop in hardware revenues. Read more",
-    "date": "Wed, 29 Apr 2026 19:50:17 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
