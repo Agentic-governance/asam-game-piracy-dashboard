@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-02 07:54 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-03 08:09 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-02T07:54:46.959151",
+  fetched_at: "2026-05-03T08:09:35.282658",
   item_count: 30,
   items: [
   {
@@ -13,9 +13,9 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "pirate",
       "torrent",
-      "rom",
       "piracy",
-      "copyright"
+      "copyright",
+      "rom"
     ]
   },
   {
@@ -26,8 +26,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
       "dmca",
+      "takedown",
       "pirate"
     ]
   },
@@ -39,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
+      "dmca",
       "piracy",
-      "dmca"
+      "takedown"
     ]
   },
   {
@@ -52,8 +52,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "takedown",
-      "piracy"
+      "piracy",
+      "takedown"
     ]
   },
   {
