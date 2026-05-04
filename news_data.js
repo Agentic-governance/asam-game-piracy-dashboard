@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-03 08:09 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-04 08:40 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-03T08:09:35.282658",
+  fetched_at: "2026-05-04T08:40:01.258950",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
-      "torrent",
+      "rom",
       "piracy",
       "copyright",
-      "rom"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "dmca",
+      "pirate",
       "takedown",
-      "pirate"
+      "dmca"
     ]
   },
   {
@@ -40,8 +40,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "dmca",
-      "piracy",
-      "takedown"
+      "takedown",
+      "piracy"
     ]
   },
   {
@@ -52,8 +52,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "piracy",
-      "takedown"
+      "takedown",
+      "piracy"
     ]
   },
   {
@@ -64,9 +64,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
+      "pirate",
       "rom",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -77,8 +77,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -89,8 +89,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -101,8 +101,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -113,8 +113,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "dmca",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -125,21 +125,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
+      "pirate",
       "rom",
-      "pirate"
+      "torrent"
     ]
   },
   {
     "title": "Report Links Piracy to Drugs, Weapons, and the Mafia; Calls for U.S. Site-Blocking",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/flavaworks-sues-operator-and-325-users-of-private-torrent-tracker-gay-torrents/",
+    "description": "Adult entertainment company FlavaWorks has launched one of its largest legal campaigns this week. The company filed a detailed complaint centered around the long-running private torrent tracker Gay-torrents.org. The lawsuit targeted hundreds of users, the site's alleged operator, a French uploader, ",
     "date": "Fri, 01 May 2026 11:11:49 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -150,8 +150,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -162,8 +162,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -208,17 +208,6 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "piracy"
-    ]
-  },
-  {
-    "title": "HBO Obtains DMCA Subpoena to Unmask &#8216;Euphoria&#8217; Spoiler Account on X",
-    "link": "https://torrentfreak.com/rapidiptv-kingpin-dash-the-iranian-gets-two-years-prison-under-spanish-plea-deal/",
-    "description": "Six years after international police units searched houses and server farms across Europe, the alleged mastermind had his day in court. A.Z., known to colleagues as \"Dash the Iranian,\" faced 22.5 years in prison alongside four co-defendants. However, after they all pleaded guilty, the ringleader was",
-    "date": "Fri, 10 Apr 2026 06:48:42 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "dmca"
     ]
   },
   {
@@ -285,6 +274,18 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "piracy"
+    ]
+  },
+  {
+    "title": "FlavaWorks Sues Operator and 325 Users of Private Torrent Tracker Gay-Torrents",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Sun, 03 May 2026 08:14:35 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 2,
+    "matched_keywords": [
+      "torrent",
+      "copyright"
     ]
   },
   {
