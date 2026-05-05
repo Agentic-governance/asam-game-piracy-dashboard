@@ -1,21 +1,21 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-04 08:40 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-05 08:22 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-04T08:40:01.258950",
+  fetched_at: "2026-05-05T08:22:01.462444",
   item_count: 30,
   items: [
   {
-    "title": "Google Uses Cox Ruling to Kill Last Copyright Claim in Textbook Piracy Lawsuit",
+    "title": "FlavaWorks Sues Operator and 325 Users of Private Torrent Tracker Gay-Torrents",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Project Hail Mary' tops the chart, followed by 'The Legend of Aang: The Last Airbender.' 'Avatar: Fire and Ash' completes the top three.\nFrom: TF, for the latest news on copyright battles, pir",
-    "date": "Sun, 26 Apr 2026 18:39:26 +0000",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Project Hail Mary' tops the chart, followed by 'Apex.' 'The Legend of Aang: The Last Airbender' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sun, 03 May 2026 08:14:35 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
       "rom",
-      "piracy",
       "copyright",
       "pirate",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -94,18 +94,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 04/27/2026",
-    "link": "https://torrentfreak.com/filmmakers-drop-piracy-liability-lawsuit-against-isp-rcn/",
-    "description": "A group of independent film companies has dropped its long-running piracy liability lawsuit against U.S. Internet provider RCN. The joint stipulation, filed in a New Jersey federal court, follows the Cox Supreme Court ruling. In addition to dropping a multi-million-dollar damages claim, the requeste",
-    "date": "Sun, 26 Apr 2026 23:09:40 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
     "title": "Paramount Faces DMCA Whac-a-Mole as Leaked Avatar: Aang Movie Thrives on Pirate Sites",
     "link": "https://torrentfreak.com/sflix-myflixerz-hdtoday-and-other-pirate-sites-go-dark-as-backend-infrastructure-fails/",
     "description": "Dozens of pirate sites using popular brands such as Sflix, Watchseries, HDtoday, and Fmovies have become unreachable this week. The targeted domains all return a Cloudflare 521 error message, suggesting that the origin server refused the connection. Many of the sites in question are linked to a popu",
@@ -131,6 +119,30 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "U.S. Brands Vietnam as a Rare &#8216;Priority Foreign Country&#8217; Over Online Piracy Concerns",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Mon, 04 May 2026 08:50:27 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Top 10 Most Pirated Movies of The Week – 05/04/2026",
+    "link": "https://torrentfreak.com/u-s-brands-vietnam-as-a-rare-priority-foreign-country-over-online-piracy-concerns/",
+    "description": "For the first time in thirteen years, the U.S. government has placed a trading partner in its most serious category for intellectual property concerns. The USTR's latest Special 301 Report classifies Vietnam as a \"Priority Foreign Country,\" opening the door to potential trade sanctions. The country'",
+    "date": "Sun, 03 May 2026 23:09:40 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "pirate",
+      "intellectual property"
+    ]
+  },
+  {
     "title": "Report Links Piracy to Drugs, Weapons, and the Mafia; Calls for U.S. Site-Blocking",
     "link": "https://torrentfreak.com/flavaworks-sues-operator-and-325-users-of-private-torrent-tracker-gay-torrents/",
     "description": "Adult entertainment company FlavaWorks has launched one of its largest legal campaigns this week. The company filed a detailed complaint centered around the long-running private torrent tracker Gay-torrents.org. The lawsuit targeted hundreds of users, the site's alleged operator, a French uploader, ",
@@ -139,6 +151,18 @@ const ARIA_NEWS = {
     "relevance_score": 4,
     "matched_keywords": [
       "torrent",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Google Uses Cox Ruling to Kill Last Copyright Claim in Textbook Piracy Lawsuit",
+    "link": "https://torrentfreak.com/filmmakers-drop-piracy-liability-lawsuit-against-isp-rcn/",
+    "description": "A group of independent film companies has dropped its long-running piracy liability lawsuit against U.S. Internet provider RCN. The joint stipulation, filed in a New Jersey federal court, follows the Cox Supreme Court ruling. In addition to dropping a multi-million-dollar damages claim, the requeste",
+    "date": "Sun, 26 Apr 2026 18:39:26 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
       "piracy"
     ]
   },
@@ -200,20 +224,20 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "RapidIPTV Kingpin &#8216;Dash the Iranian&#8217; Gets Two Years Prison Under Spanish Plea Deal",
-    "link": "https://torrentfreak.com/paris-court-issued-simultaneous-site-blocking-orders-against-isps-dns-resolvers-and-vpns/",
-    "description": "In a series of simultaneous rulings, the Paris Judicial Court ordered ISPs, VPN providers, and DNS resolvers to block access to 35 sports piracy sites. The orders were requested by Spanish football league LaLiga, which lacked standing as a foreign entity under French law. LaLiga licensee beIN Sports",
-    "date": "Sat, 11 Apr 2026 16:55:06 +0000",
-    "source": "TorrentFreak",
+    "title": "Remedy reports \"stable\" Q1 performance despite decreases in revenue and operating profit",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Tue, 05 May 2026 07:49:38 +0000",
+    "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
-      "piracy"
+      "rom"
     ]
   },
   {
     "title": "Podcast: iicon, Gamescom Latam, and Roblox financials",
-    "link": "https://www.gamesindustry.biz/feed",
-    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "link": "https://www.gamesindustry.biz/valves-hardware-graduates-from-side-quest-to-full-blown-ambition",
+    "description": "2026 is meant to be a key year for Valve's ambitions in the hardware space, and next week, the first piece of the puzzle falls into place. Reviews for the Steam Controller &ndash; the compan's redesigned gamepad, a decade on from the original's troubled debut &ndash; are in, and they're good. Remark",
     "date": "Fri, 01 May 2026 17:27:57 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -255,17 +279,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "TIGA: 29% of UK games studios continue to face skill shortages",
-    "link": "https://www.gamesindustry.biz/how-evil-empire-makes-one-of-the-most-effect-indie-showcase-events-while-juggling-castlevania-live-ops-and-building-its-own-ip",
-    "description": "Digital showcases have become a cornerstone of the modern publishing landscape. From State of Play to Wholesome Direct to Indie Fan Fest, among many others, there's one for every segment &ndash; and the Triple-I Initiative has become one of the most effectivel for indies. It was set up by French stu",
-    "date": "Wed, 29 Apr 2026 09:36:50 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Patch Tuesday, April 2026 Edition",
     "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
     "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to ",
@@ -274,18 +287,6 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "piracy"
-    ]
-  },
-  {
-    "title": "FlavaWorks Sues Operator and 325 Users of Private Torrent Tracker Gay-Torrents",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sun, 03 May 2026 08:14:35 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 2,
-    "matched_keywords": [
-      "torrent",
-      "copyright"
     ]
   },
   {
