@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-05 08:22 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-06 08:38 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-05T08:22:01.462444",
+  fetched_at: "2026-05-06T08:38:03.953705",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
-      "copyright",
-      "pirate",
+      "piracy",
       "torrent",
-      "piracy"
+      "pirate",
+      "copyright",
+      "rom"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "dmca",
       "pirate",
-      "takedown",
-      "dmca"
+      "takedown"
     ]
   },
   {
@@ -39,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "piracy",
       "dmca",
-      "takedown",
-      "piracy"
+      "takedown"
     ]
   },
   {
@@ -52,8 +52,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "takedown",
-      "piracy"
+      "piracy",
+      "takedown"
     ]
   },
   {
@@ -64,9 +64,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "piracy",
       "rom",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -77,8 +77,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -89,8 +89,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -101,8 +101,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "dmca"
+      "dmca",
+      "pirate"
     ]
   },
   {
@@ -113,21 +113,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
       "rom",
+      "pirate",
       "torrent"
     ]
   },
   {
     "title": "U.S. Brands Vietnam as a Rare &#8216;Priority Foreign Country&#8217; Over Online Piracy Concerns",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/reddit-reports-resurgence-in-user-bans-over-copyright-infringement/",
+    "description": "Reddit's latest transparency report shows a sharp jump in account bans for repeat copyright infringement, while the number of banned subreddits dropped significantly. The data, covering the latter half of 2025, also shows rightsholders reported 425,471 pieces of allegedly infringing content, of whic",
     "date": "Mon, 04 May 2026 08:50:27 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -150,8 +150,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -162,8 +162,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -174,8 +174,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -186,8 +186,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -224,10 +224,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Remedy reports \"stable\" Q1 performance despite decreases in revenue and operating profit",
+    "title": "Build a Rocket Boy reportedly hit with more layoffs",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 05 May 2026 07:49:38 +0000",
+    "date": "Wed, 06 May 2026 07:25:47 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -290,55 +290,55 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "\"It's a totally crazy market\" – The seismic impact of the AI boom on video game hardware",
+    "link": "https://www.gamesindustry.biz/ign-entertainment-releases-internal-data-as-public-report-developed-by-kantar-and-uc-berkeley",
+    "description": "IGN Entertainment (IGNE), the parent organization of GamesIndustry.biz, has released a new report developed in association with Kantar and UC Berkeley analysing entertainment consumption. The data, based on detailed polling of thousands of highly-committed content consumers in the US, UK and Austral",
+    "date": "Tue, 05 May 2026 15:52:20 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Wizards of the Coast and Hasbro miss deadline to voluntarily recognise workers' union",
+    "link": "https://www.gamesindustry.biz/pearl-abyss-sells-ccp-back-to-its-ceo-for-less-than-half-what-it-paid-plus-20-million-in-crypto",
+    "description": "Pearl Abyss, the Korean developer of hit MMO Crimson Desert, has sold Eve Online developer CCP Games back to its CEO Hilmar Veigar P&eacute;tursson for $100 million in cash and $20 million in \"token acquisition rights\", eight years after buying it for $225 million in cash plus $200 million in perfor",
+    "date": "Tue, 05 May 2026 13:49:21 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Epic and Disney launch largest IP toolset to date, allowing creators to build Star Wars games in Fortnite",
+    "link": "https://www.gamesindustry.biz/wizards-of-the-coast-and-hasbro-miss-deadline-to-voluntarily-recognise-workers-union",
+    "description": "Wizards of the Coast and Hasbro have missed the deadline to voluntarily recognise a union formed by  Magic: The Gathering Arena developers. Read more",
+    "date": "Tue, 05 May 2026 13:09:51 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Sony expected to pay US customers $7.8m in PlayStation Store settlement",
+    "link": "https://www.gamesindustry.biz/epic-and-disney-launch-largest-ip-toolset-to-date-allowing-devs-to-create-star-wars-games-in-fortnite",
+    "description": "Epic Games and Disney have launched creation tools that allow fans to develop their own Star Wars games within Fortnite. Read more",
+    "date": "Tue, 05 May 2026 10:33:02 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Remedy reports \"stable\" Q1 performance despite decreases in revenue and operating profit",
+    "link": "https://www.gamesindustry.biz/sony-expected-to-pay-us-customers-78m-in-playstation-store-settlement",
+    "description": "Sony Interactive Entertainment is expected to pay $7.8 million in refunds to US customers after a lawsuit alleging antitrust practices on the PlayStation Store. Read more",
+    "date": "Tue, 05 May 2026 07:49:38 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Gamescom Latam shows Brazil's dev scene has huge potential, but it's waiting for a spark | Opinion",
     "link": "https://www.gamesindustry.biz/clair-obscur-expedition-33-wins-best-game-at-the-big-festival-awards-at-gamescom-latam",
     "description": "Clair Obscur: Expedition 33 has continued its victory lap around the industry's award ceremonies by scooping Best Game at the BIG Festival Awards. Read more",
     "date": "Fri, 01 May 2026 14:53:41 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Roblox announces AI-driven upscaler, which it claims will convert Roblox titles to photorealistic graphics",
-    "link": "https://www.gamesindustry.biz/gamescom-latam-shows-brazils-dev-scene-has-huge-potential-but-its-waiting-for-a-spark-opinion",
-    "description": "Eliana Russi, head of B2B at Gamescom Latam, gives an emphatic answer when I ask what Brazil's game development scene needs to take it to the next level. \"Money!\" she cries, hands in the air. Read more",
-    "date": "Fri, 01 May 2026 14:16:22 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Epic Games Store launches on iPhone in Japan",
-    "link": "https://www.gamesindustry.biz/roblox-reports-strong-q1-growth-revises-full-year-forecast-due-to-new-saftey-measures",
-    "description": "Roblox reported strong first-quarter revenue and bookings growth in its latest financial results. However, the company lowered its annual growth outlook due to mandatory age checks and new safety measures. Read more",
-    "date": "Fri, 01 May 2026 07:05:26 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Ustwo Games to consider hiring more contractors to reduce development costs",
-    "link": "https://www.gamesindustry.biz/inkles-jon-ingold-on-why-self-publishing-is-where-its-at",
-    "description": "In a talk at the Self-Publishing Toolkit event at the London Games Festival in April, Inkle co-founder Jon Ingold laid out in black and white why the studio has been doing very well all these years without a publisher, thank you very much. Read more",
-    "date": "Thu, 30 Apr 2026 11:22:10 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Blue Prince and The Darkest Files win top prizes at German Computer Game Awards 2026",
-    "link": "https://www.gamesindustry.biz/ustwo-games-to-consider-hiring-more-contractors-to-reduce-development-costs",
-    "description": "Following its shift to a PC-first strategy, Ustwo Games CEO Maria Sayans said the studio must dramatically reduce development budgets by relying more on contractors. Read more",
-    "date": "Thu, 30 Apr 2026 09:05:25 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Xbox hardware revenue drops 33% year-on-year during Q3",
-    "link": "https://www.gamesindustry.biz/blue-prince-and-the-darkest-files-win-top-prizes-at-german-computer-game-awards-2026",
-    "description": "Blue Prince won Best International Game at the German Computer Game Awards 2026, with The Darkest Files receiving awards for Best German Game and Best Serious Game. Read more",
-    "date": "Thu, 30 Apr 2026 07:42:01 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
