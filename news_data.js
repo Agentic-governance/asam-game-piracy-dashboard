@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-06 08:38 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-07 08:45 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-06T08:38:03.953705",
+  fetched_at: "2026-05-07T08:45:12.107773",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
-      "torrent",
       "pirate",
-      "copyright",
-      "rom"
+      "piracy",
+      "rom",
+      "torrent",
+      "copyright"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "dmca",
+      "takedown",
       "pirate",
-      "takedown"
+      "dmca"
     ]
   },
   {
@@ -39,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "takedown",
       "piracy",
-      "dmca",
-      "takedown"
+      "dmca"
     ]
   },
   {
@@ -52,8 +52,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "piracy",
-      "takedown"
+      "takedown",
+      "piracy"
     ]
   },
   {
@@ -64,8 +64,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "rom",
+      "piracy",
       "pirate"
     ]
   },
@@ -101,21 +101,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "dmca",
-      "pirate"
-    ]
-  },
-  {
-    "title": "EU Pirate Site-Blocking Is Broken: Report Calls for IP Blocking Ban and Rightsholder Liability",
-    "link": "https://torrentfreak.com/annas-archive-loses-322-million-spotify-piracy-case-without-a-fight/",
-    "description": "Spotify and several major record labels, including UMG, Sony, and Warner, secured a $322 million default judgment against the unknown operators of Anna's Archive. The shadow library failed to appear in court and briefly released millions of tracks that were scraped from Spotify via BitTorrent. In ad",
-    "date": "Tue, 14 Apr 2026 17:35:36 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 5,
-    "matched_keywords": [
-      "rom",
       "pirate",
-      "torrent"
+      "dmca"
     ]
   },
   {
@@ -138,8 +125,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "intellectual property"
+      "intellectual property",
+      "pirate"
     ]
   },
   {
@@ -150,8 +137,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -191,6 +178,18 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "CAFC Affirms PTAB Ruling That DraftKings Failed to Prove Unpatentability of Gaming Patent Claim",
+    "link": "https://ipwatchdog.com/",
+    "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
+    "date": "Wed, 06 May 2026 18:15:32 +0000",
+    "source": "IPWatchdog",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "intellectual property",
+      "copyright"
+    ]
+  },
+  {
     "title": "MPA Renews Push for U.S. Site-Blocking Legislation, Citing Live Sports Piracy",
     "link": "https://torrentfreak.com/report-links-piracy-to-drugs-weapons-and-the-mafia-calls-for-u-s-site-blocking/",
     "description": "A new report by the Digital Citizens Alliance and IP House argues that piracy has become more organized and sophisticated over the years. In some cases, it has been linked to other criminal elements, including drugs, weapons, and the mafia. The report calls for site-blocking legislation and urges Co",
@@ -224,10 +223,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Build a Rocket Boy reportedly hit with more layoffs",
+    "title": "Unity launches suite of AI tools to help creators accelerate game development",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 06 May 2026 07:25:47 +0000",
+    "date": "Thu, 07 May 2026 08:31:20 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Valve’s hardware graduates from side-quest to full-blown ambition | Opinion",
+    "link": "https://www.gamesindustry.biz/remedy-reports-stable-q1-performance-despite-decreases-in-revenue-and-operating-profit",
+    "description": "2026 is meant to be a key year for Valve's ambitions in the hardware space, and next week, the first piece of the puzzle falls into place. Reviews for the Steam Controller &ndash; the compan's redesigned gamepad, a decade on from the original's troubled debut &ndash; are in, and they're good. Remark",
+    "date": "Mon, 04 May 2026 09:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -237,45 +247,12 @@ const ARIA_NEWS = {
   {
     "title": "Podcast: iicon, Gamescom Latam, and Roblox financials",
     "link": "https://www.gamesindustry.biz/valves-hardware-graduates-from-side-quest-to-full-blown-ambition",
-    "description": "2026 is meant to be a key year for Valve's ambitions in the hardware space, and next week, the first piece of the puzzle falls into place. Reviews for the Steam Controller &ndash; the compan's redesigned gamepad, a decade on from the original's troubled debut &ndash; are in, and they're good. Remark",
+    "description": "This week's GamesIndustry.biz podcast is now live, once again recapping the main stories of the last seven days. This week, Lewis called in from GamesCom Latam to share the view from the Brazilian development scene, and I shared my thoughts on two days with some very high-level executives at the ESA",
     "date": "Fri, 01 May 2026 17:27:57 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
       "rom"
-    ]
-  },
-  {
-    "title": "Clair Obscur: Expedition 33 wins Best Game at the BIG Festival Awards at Gamescom Latam",
-    "link": "https://www.gamesindustry.biz/podcast-iicon-gamescom-latam-and-roblox-financials",
-    "description": "This week's GamesIndustry.biz podcast is now live, once again recapping the main stories of the last seven days. This week, Lewis called in from GamesCom Latam to share the view from the Brazilian development scene, and I shared my thoughts on two days with some very high-level executives at the ESA",
-    "date": "Fri, 01 May 2026 16:14:54 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Sony confirms DRM policy on PS4 and PS5 is a \"one-time check\"",
-    "link": "https://www.gamesindustry.biz/epic-games-store-launches-on-iphone-in-japan",
-    "description": "The Epic Games Store is now available on iPhone in Japan, following the enactment of the Mobile Software Competition Act (MSCA) in December 2025. Read more",
-    "date": "Thu, 30 Apr 2026 13:45:26 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "drm"
-    ]
-  },
-  {
-    "title": "Inkle's Jon Ingold on why self-publishing is where it's at",
-    "link": "https://www.gamesindustry.biz/sony-confirms-drm-policy-on-ps4-and-ps5-is-a-one-time-check",
-    "description": "Sony has clarified that the DRM check for newly-bought digital games on PlayStation 4 and 5 is required only once after purchase. Read more",
-    "date": "Thu, 30 Apr 2026 11:49:31 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "drm"
     ]
   },
   {
@@ -290,55 +267,73 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Founders of Gearbox Quebec announce new studio to \"create original, premium  games on our own terms\"",
+    "link": "https://www.gamesindustry.biz/unity-launches-suite-of-ai-tools-to-help-creators-accelerate-game-development",
+    "description": "Unity has launched a suite of AI tools in open beta for all developers on Unity 6 or above. Read more",
+    "date": "Thu, 07 May 2026 04:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Valve commits to restocking its Steam Controller after it \"ran out faster than we anticipated\" | News-in-brief",
+    "link": "https://www.gamesindustry.biz/founders-of-gearbox-quebec-announce-new-studio-to-create-original-premium-games-on-our-own-terms",
+    "description": "The founders of Gearbox Quebec, which contributed to multiple Borderlands titles, have announced a new Canadian studio containing a number of other Canadian AAA developers. Studio Ricochet has a goal of creating \"original, premium games on their own terms\" while \"taking the opposite approach\" to oth",
+    "date": "Wed, 06 May 2026 20:47:46 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Supercell acquires Metacore to add Merge Mansion to its \"live games portfolio\"",
+    "link": "https://www.gamesindustry.biz/valve-commits-to-restocking-its-steam-controller-after-it-ran-out-faster-than-we-anticipated-news-in-brief",
+    "description": "Supercell is set to acquire Metacore, pulling Merge Mansion \"into its live games portfolio.\" Read more",
+    "date": "Wed, 06 May 2026 20:42:40 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Griffin Gaming Partners launches $100m indie dev fund, led by Hooded Horse CEO Tim Bender",
+    "link": "https://www.gamesindustry.biz/ea-closes-fy26-with-record-performance-thanks-to-battlefield-6-and-apex-legends",
+    "description": "Venture capital firm Griffin Gaming Partners has launched a new $100 million fund to support indie games. Read more",
+    "date": "Wed, 06 May 2026 16:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Gamescom Latam attendance up by 17.5% in 2026",
+    "link": "https://www.gamesindustry.biz/rebellion-has-its-fingers-in-all-the-pies",
+    "description": "The third edition of Gamescom Latam drew 154,000 visitors, up 17.5% on 2025. Last year the show attracted 130,000 attendees, up 30% on the first edition of the event in 2024. Read more",
+    "date": "Wed, 06 May 2026 10:19:06 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Xbox announces leadership changes as it stops development of Gaming Copilot for console",
+    "link": "https://www.gamesindustry.biz/gamescom-latam-attendance-up-by-175-in-2026",
+    "description": "Xbox CEO Asha Sharma has announced major leadership changes as it ends development of Gaming Copilot for consoles and begins phasing out the feature on mobile. Read more",
+    "date": "Wed, 06 May 2026 10:13:51 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "IGN Entertainment releases internal data as public report, developed by Kantar and UC Berkeley",
+    "link": "https://www.gamesindustry.biz/build-a-rocket-boy-reportedly-hit-with-more-layoffs",
+    "description": "IGN Entertainment (IGNE), the parent organization of GamesIndustry.biz, has released a new report developed in association with Kantar and UC Berkeley analysing entertainment consumption. The data, based on detailed polling of thousands of highly-committed content consumers in the US, UK and Austral",
+    "date": "Tue, 05 May 2026 18:53:26 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "\"It's a totally crazy market\" – The seismic impact of the AI boom on video game hardware",
     "link": "https://www.gamesindustry.biz/ign-entertainment-releases-internal-data-as-public-report-developed-by-kantar-and-uc-berkeley",
-    "description": "IGN Entertainment (IGNE), the parent organization of GamesIndustry.biz, has released a new report developed in association with Kantar and UC Berkeley analysing entertainment consumption. The data, based on detailed polling of thousands of highly-committed content consumers in the US, UK and Austral",
+    "description": "Generative AI has had a seismic impact on the price and availability of computer hardware. Major chip producers like Samsung, Hynix, and Micron have focused on furnishing the rapidly rising number of AI data centres around the world, and as a result, components for consumer hardware are in short sup",
     "date": "Tue, 05 May 2026 15:52:20 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Wizards of the Coast and Hasbro miss deadline to voluntarily recognise workers' union",
-    "link": "https://www.gamesindustry.biz/pearl-abyss-sells-ccp-back-to-its-ceo-for-less-than-half-what-it-paid-plus-20-million-in-crypto",
-    "description": "Pearl Abyss, the Korean developer of hit MMO Crimson Desert, has sold Eve Online developer CCP Games back to its CEO Hilmar Veigar P&eacute;tursson for $100 million in cash and $20 million in \"token acquisition rights\", eight years after buying it for $225 million in cash plus $200 million in perfor",
-    "date": "Tue, 05 May 2026 13:49:21 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Epic and Disney launch largest IP toolset to date, allowing creators to build Star Wars games in Fortnite",
-    "link": "https://www.gamesindustry.biz/wizards-of-the-coast-and-hasbro-miss-deadline-to-voluntarily-recognise-workers-union",
-    "description": "Wizards of the Coast and Hasbro have missed the deadline to voluntarily recognise a union formed by  Magic: The Gathering Arena developers. Read more",
-    "date": "Tue, 05 May 2026 13:09:51 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Sony expected to pay US customers $7.8m in PlayStation Store settlement",
-    "link": "https://www.gamesindustry.biz/epic-and-disney-launch-largest-ip-toolset-to-date-allowing-devs-to-create-star-wars-games-in-fortnite",
-    "description": "Epic Games and Disney have launched creation tools that allow fans to develop their own Star Wars games within Fortnite. Read more",
-    "date": "Tue, 05 May 2026 10:33:02 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Remedy reports \"stable\" Q1 performance despite decreases in revenue and operating profit",
-    "link": "https://www.gamesindustry.biz/sony-expected-to-pay-us-customers-78m-in-playstation-store-settlement",
-    "description": "Sony Interactive Entertainment is expected to pay $7.8 million in refunds to US customers after a lawsuit alleging antitrust practices on the PlayStation Store. Read more",
-    "date": "Tue, 05 May 2026 07:49:38 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Gamescom Latam shows Brazil's dev scene has huge potential, but it's waiting for a spark | Opinion",
-    "link": "https://www.gamesindustry.biz/clair-obscur-expedition-33-wins-best-game-at-the-big-festival-awards-at-gamescom-latam",
-    "description": "Clair Obscur: Expedition 33 has continued its victory lap around the industry's award ceremonies by scooping Best Game at the BIG Festival Awards. Read more",
-    "date": "Fri, 01 May 2026 14:53:41 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
