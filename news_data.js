@@ -1,8 +1,23 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-07 08:45 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-08 07:51 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-07T08:45:12.107773",
+  fetched_at: "2026-05-08T07:51:15.469192",
   item_count: 30,
   items: [
+  {
+    "title": "U.S. Removes Bulgaria from Piracy Watch List After Torrent Tracker Crackdown",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Fri, 08 May 2026 06:12:31 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 9,
+    "matched_keywords": [
+      "torrent",
+      "copyright",
+      "piracy",
+      "crack",
+      "rom"
+    ]
+  },
   {
     "title": "FlavaWorks Sues Operator and 325 Users of Private Torrent Tracker Gay-Torrents",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
@@ -11,11 +26,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "torrent",
+      "copyright",
       "pirate",
       "piracy",
-      "rom",
-      "torrent",
-      "copyright"
+      "rom"
     ]
   },
   {
@@ -26,8 +41,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
       "pirate",
+      "takedown",
       "dmca"
     ]
   },
@@ -39,8 +54,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
       "piracy",
+      "takedown",
       "dmca"
     ]
   },
@@ -52,8 +67,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "takedown",
-      "piracy"
+      "piracy",
+      "takedown"
     ]
   },
   {
@@ -64,9 +79,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
+      "pirate",
       "piracy",
-      "pirate"
+      "rom"
     ]
   },
   {
@@ -77,8 +92,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -106,6 +121,18 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "NVIDIA&#8217;s Shadow Library Scripts &#8216;Have No Other Purpose&#8217; Than Infringement, Judge Rules",
+    "link": "https://torrentfreak.com/u-s-removes-bulgaria-from-piracy-watch-list-after-torrent-tracker-crackdown/",
+    "description": "Bulgaria has proven that the right legislative update can go a long way in Washington. The USTR credits the country's removal from the Watch List to a 2023 amendment of the Criminal Code, which makes piracy enforcement easier. This new legislation resulted in the shutdown of three long-running torre",
+    "date": "Wed, 06 May 2026 13:18:32 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "piracy",
+      "rom"
+    ]
+  },
+  {
     "title": "U.S. Brands Vietnam as a Rare &#8216;Priority Foreign Country&#8217; Over Online Piracy Concerns",
     "link": "https://torrentfreak.com/reddit-reports-resurgence-in-user-bans-over-copyright-infringement/",
     "description": "Reddit's latest transparency report shows a sharp jump in account bans for repeat copyright infringement, while the number of banned subreddits dropped significantly. The data, covering the latter half of 2025, also shows rightsholders reported 425,471 pieces of allegedly infringing content, of whic",
@@ -125,8 +152,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "intellectual property",
-      "pirate"
+      "pirate",
+      "intellectual property"
     ]
   },
   {
@@ -137,8 +164,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -178,18 +205,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "CAFC Affirms PTAB Ruling That DraftKings Failed to Prove Unpatentability of Gaming Patent Claim",
-    "link": "https://ipwatchdog.com/",
-    "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
-    "date": "Wed, 06 May 2026 18:15:32 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "intellectual property",
-      "copyright"
-    ]
-  },
-  {
     "title": "MPA Renews Push for U.S. Site-Blocking Legislation, Citing Live Sports Piracy",
     "link": "https://torrentfreak.com/report-links-piracy-to-drugs-weapons-and-the-mafia-calls-for-u-s-site-blocking/",
     "description": "A new report by the Digital Citizens Alliance and IP House argues that piracy has become more organized and sophisticated over the years. In some cases, it has been linked to other criminal elements, including drugs, weapons, and the mafia. The report calls for site-blocking legislation and urges Co",
@@ -212,43 +227,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Anna&#8217;s Archive Loses $322 Million Spotify Piracy Case Without a Fight",
-    "link": "https://torrentfreak.com/warner-bros-files-criminal-complaint-against-chilean-iptv-operator-over-alarming-piracy-growth/",
-    "description": "Hollywood giant Warner Bros. Entertainment is concerned about the \"alarming\" growth of IPTV piracy in Chile. After securing a dynamic site blocking order in February, targeting brands like MagisTV and FlujoTV, the studio is now raising the stakes with a criminal complaint targeting Streaming Chile S",
-    "date": "Wed, 15 Apr 2026 07:55:37 +0000",
-    "source": "TorrentFreak",
+    "title": "2K lays off staff working on free-to-play shooter Project Ethos, while hinting at \"new direction and focus\"",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Thu, 07 May 2026 18:28:30 +0000",
+    "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
-      "piracy"
+      "rom"
+    ]
+  },
+  {
+    "title": "CCP Games rebrands as Fenris Creations following sale from Pearl Abyss",
+    "link": "https://www.gamesindustry.biz/unity-q1-revenue-rises-17-posts-347m-loss-following-ironsource-closure",
+    "description": "Unity has published its financial results for the first quarter ended March 31, 2026, with overall revenue rising 17% to $508 million, up from $435 million during the same quarter last year. Read more",
+    "date": "Thu, 07 May 2026 10:38:23 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
     ]
   },
   {
     "title": "Unity launches suite of AI tools to help creators accelerate game development",
-    "link": "https://www.gamesindustry.biz/feed",
-    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "link": "https://www.gamesindustry.biz/ccp-games-rebrands-as-fenris-creations-following-sale-from-pearl-abyss",
+    "description": "CCP Games, the developer of Eve Online, is now operating independently as Fenris Creations after its  $120 million sale from Pearl Abyss earlier this week. Read more",
     "date": "Thu, 07 May 2026 08:31:20 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Valve’s hardware graduates from side-quest to full-blown ambition | Opinion",
-    "link": "https://www.gamesindustry.biz/remedy-reports-stable-q1-performance-despite-decreases-in-revenue-and-operating-profit",
-    "description": "2026 is meant to be a key year for Valve's ambitions in the hardware space, and next week, the first piece of the puzzle falls into place. Reviews for the Steam Controller &ndash; the compan's redesigned gamepad, a decade on from the original's troubled debut &ndash; are in, and they're good. Remark",
-    "date": "Mon, 04 May 2026 09:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Podcast: iicon, Gamescom Latam, and Roblox financials",
-    "link": "https://www.gamesindustry.biz/valves-hardware-graduates-from-side-quest-to-full-blown-ambition",
-    "description": "This week's GamesIndustry.biz podcast is now live, once again recapping the main stories of the last seven days. This week, Lewis called in from GamesCom Latam to share the view from the Brazilian development scene, and I shared my thoughts on two days with some very high-level executives at the ESA",
-    "date": "Fri, 01 May 2026 17:27:57 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -265,6 +269,15 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
+  },
+  {
+    "title": "\"These guys are really nice\" – Why the developer of PlateUp has joined forces with Yogscast Games",
+    "link": "https://www.gamesindustry.biz/2k-lays-off-staff-working-on-free-to-play-shooter-project-ethos-while-hinting-at-new-direction-and-focus",
+    "description": "2K has laid off staff at 31st Union, the studio working on free-to-play shooter Project Ethos. The news was announced in an internal memo sent by studio head Ben Brinkman, which 2K subsequently shared with GamesIndustry.biz. Read more",
+    "date": "Thu, 07 May 2026 14:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Founders of Gearbox Quebec announce new studio to \"create original, premium  games on our own terms\"",
@@ -325,15 +338,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/build-a-rocket-boy-reportedly-hit-with-more-layoffs",
     "description": "IGN Entertainment (IGNE), the parent organization of GamesIndustry.biz, has released a new report developed in association with Kantar and UC Berkeley analysing entertainment consumption. The data, based on detailed polling of thousands of highly-committed content consumers in the US, UK and Austral",
     "date": "Tue, 05 May 2026 18:53:26 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"It's a totally crazy market\" – The seismic impact of the AI boom on video game hardware",
-    "link": "https://www.gamesindustry.biz/ign-entertainment-releases-internal-data-as-public-report-developed-by-kantar-and-uc-berkeley",
-    "description": "Generative AI has had a seismic impact on the price and availability of computer hardware. Major chip producers like Samsung, Hynix, and Micron have focused on furnishing the rapidly rising number of AI data centres around the world, and as a result, components for consumer hardware are in short sup",
-    "date": "Tue, 05 May 2026 15:52:20 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
