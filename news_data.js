@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-08 07:51 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-09 08:05 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-08T07:51:15.469192",
+  fetched_at: "2026-05-09T08:05:22.818264",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
       "copyright",
       "piracy",
-      "crack",
-      "rom"
+      "rom",
+      "torrent",
+      "crack"
     ]
   },
   {
@@ -26,11 +26,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
       "copyright",
-      "pirate",
       "piracy",
-      "rom"
+      "pirate",
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -41,9 +41,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "takedown",
-      "dmca"
+      "dmca",
+      "pirate"
     ]
   },
   {
@@ -54,9 +54,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "takedown",
-      "dmca"
+      "dmca",
+      "piracy"
     ]
   },
   {
@@ -67,8 +67,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "piracy",
-      "takedown"
+      "takedown",
+      "piracy"
     ]
   },
   {
@@ -79,9 +79,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "rom",
       "piracy",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -92,8 +92,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -116,8 +116,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "dmca"
+      "dmca",
+      "pirate"
     ]
   },
   {
@@ -128,8 +128,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -140,8 +140,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -164,8 +164,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -176,8 +176,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -188,8 +188,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -200,8 +200,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -227,10 +227,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "2K lays off staff working on free-to-play shooter Project Ethos, while hinting at \"new direction and focus\"",
+    "title": "Indie games have built a thriving economy in territory traditional publishers abandoned or ignored | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 07 May 2026 18:28:30 +0000",
+    "date": "Fri, 08 May 2026 16:39:12 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "PlayStation records $765m impairment loss from Bungie as operating income falls 41.6% in Q4",
+    "link": "https://www.gamesindustry.biz/indie-games-have-built-a-thriving-economy-in-territory-traditional-publishers-abandoned-or-ignored-opinion",
+    "description": "It's easy to be drawn in by the drama of a revolution &ndash; a monumental game or technology that transforms an entire genre or industry segment, or even invents an entirely new one from whole cloth. The hype around those moments and the permanent anticipation for the Next Big Thing can, however, b",
+    "date": "Fri, 08 May 2026 13:44:57 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Nintendo FY sales soar 98.6% to $14.6bn following launch of Switch 2",
+    "link": "https://www.gamesindustry.biz/im-not-going-to-fight-the-chinese-communist-party-why-eve-online-firm-ccp-games-rebranded-to-fenris-creations",
+    "description": "It's been a pretty busy news week for Eve Online maker CCP Games. It started with the company breaking away from its Korean owner Pearl Abyss, which acquired the firm in 2018. Then, CCP announced it was rebranding as Fenris Creations. Read more",
+    "date": "Fri, 08 May 2026 10:11:17 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -260,6 +282,19 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Other Barks &#038; Bites for Friday, May 8: Eleventh Circuit Revives Annie Leibovitz Photograph Case; Split Ninth Circuit Panel Nixes False Representation Claims; Report Says Tencent Removed 250K AI Songs From Streams in 2025",
+    "link": "https://ipwatchdog.com/",
+    "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
+    "date": "Fri, 08 May 2026 18:24:37 +0000",
+    "source": "IPWatchdog",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom",
+      "copyright",
+      "intellectual property"
+    ]
+  },
+  {
     "title": "Patch Tuesday, April 2026 Edition",
     "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
     "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to ",
@@ -269,6 +304,33 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
+  },
+  {
+    "title": "\"I'm not going to fight the Chinese Communist Party\" – Why Eve Online firm CCP Games rebranded to Fenris Creations",
+    "link": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4",
+    "description": "Sony has released its full-year financial results, reporting stable sales and a modest increase in operating income for its Games & Network Services segment (G&NS). Read more",
+    "date": "Fri, 08 May 2026 13:18:18 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Nintendo hikes Switch 2 prices, revises console costs in Japan, US, Canada, and Europe",
+    "link": "https://www.gamesindustry.biz/nintendo-fy-sales-soar-986-to-146bn-following-launch-of-switch-2",
+    "description": "Nintendo has published its full year financial results, reporting substantial growth in net sales and profits following the first fiscal year of the Switch 2. Read more",
+    "date": "Fri, 08 May 2026 07:51:19 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "2K lays off staff working on free-to-play shooter Project Ethos, while hinting at \"new direction and focus\"",
+    "link": "https://www.gamesindustry.biz/nintendo-hikes-switch-2-prices-revises-console-costs-in-japan-us-canada-and-europe",
+    "description": "Nintendo has announced price increases for both the Switch and Switch 2 in Japan. In the US, Canada, and Europe, only the Switch 2 will be affected. Read more",
+    "date": "Thu, 07 May 2026 18:28:30 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "\"These guys are really nice\" – Why the developer of PlateUp has joined forces with Yogscast Games",
@@ -284,60 +346,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/unity-launches-suite-of-ai-tools-to-help-creators-accelerate-game-development",
     "description": "Unity has launched a suite of AI tools in open beta for all developers on Unity 6 or above. Read more",
     "date": "Thu, 07 May 2026 04:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Valve commits to restocking its Steam Controller after it \"ran out faster than we anticipated\" | News-in-brief",
-    "link": "https://www.gamesindustry.biz/founders-of-gearbox-quebec-announce-new-studio-to-create-original-premium-games-on-our-own-terms",
-    "description": "The founders of Gearbox Quebec, which contributed to multiple Borderlands titles, have announced a new Canadian studio containing a number of other Canadian AAA developers. Studio Ricochet has a goal of creating \"original, premium games on their own terms\" while \"taking the opposite approach\" to oth",
-    "date": "Wed, 06 May 2026 20:47:46 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Supercell acquires Metacore to add Merge Mansion to its \"live games portfolio\"",
-    "link": "https://www.gamesindustry.biz/valve-commits-to-restocking-its-steam-controller-after-it-ran-out-faster-than-we-anticipated-news-in-brief",
-    "description": "Supercell is set to acquire Metacore, pulling Merge Mansion \"into its live games portfolio.\" Read more",
-    "date": "Wed, 06 May 2026 20:42:40 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Griffin Gaming Partners launches $100m indie dev fund, led by Hooded Horse CEO Tim Bender",
-    "link": "https://www.gamesindustry.biz/ea-closes-fy26-with-record-performance-thanks-to-battlefield-6-and-apex-legends",
-    "description": "Venture capital firm Griffin Gaming Partners has launched a new $100 million fund to support indie games. Read more",
-    "date": "Wed, 06 May 2026 16:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Gamescom Latam attendance up by 17.5% in 2026",
-    "link": "https://www.gamesindustry.biz/rebellion-has-its-fingers-in-all-the-pies",
-    "description": "The third edition of Gamescom Latam drew 154,000 visitors, up 17.5% on 2025. Last year the show attracted 130,000 attendees, up 30% on the first edition of the event in 2024. Read more",
-    "date": "Wed, 06 May 2026 10:19:06 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Xbox announces leadership changes as it stops development of Gaming Copilot for console",
-    "link": "https://www.gamesindustry.biz/gamescom-latam-attendance-up-by-175-in-2026",
-    "description": "Xbox CEO Asha Sharma has announced major leadership changes as it ends development of Gaming Copilot for consoles and begins phasing out the feature on mobile. Read more",
-    "date": "Wed, 06 May 2026 10:13:51 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "IGN Entertainment releases internal data as public report, developed by Kantar and UC Berkeley",
-    "link": "https://www.gamesindustry.biz/build-a-rocket-boy-reportedly-hit-with-more-layoffs",
-    "description": "IGN Entertainment (IGNE), the parent organization of GamesIndustry.biz, has released a new report developed in association with Kantar and UC Berkeley analysing entertainment consumption. The data, based on detailed polling of thousands of highly-committed content consumers in the US, UK and Austral",
-    "date": "Tue, 05 May 2026 18:53:26 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
