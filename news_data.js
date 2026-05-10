@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-09 08:05 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-10 08:19 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-09T08:05:22.818264",
+  fetched_at: "2026-05-10T08:19:26.932930",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
-      "piracy",
       "rom",
       "torrent",
+      "copyright",
+      "piracy",
       "crack"
     ]
   },
@@ -26,11 +26,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "rom",
+      "torrent",
       "copyright",
       "piracy",
-      "pirate",
-      "rom",
-      "torrent"
+      "pirate"
     ]
   },
   {
@@ -42,8 +42,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "takedown",
-      "dmca",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -80,8 +80,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "rom",
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -92,8 +92,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -104,8 +104,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -116,8 +116,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "dmca",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -152,8 +152,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "intellectual property"
+      "intellectual property",
+      "pirate"
     ]
   },
   {
@@ -282,19 +282,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Other Barks &#038; Bites for Friday, May 8: Eleventh Circuit Revives Annie Leibovitz Photograph Case; Split Ninth Circuit Panel Nixes False Representation Claims; Report Says Tencent Removed 250K AI Songs From Streams in 2025",
-    "link": "https://ipwatchdog.com/",
-    "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
-    "date": "Fri, 08 May 2026 18:24:37 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom",
-      "copyright",
-      "intellectual property"
-    ]
-  },
-  {
     "title": "Patch Tuesday, April 2026 Edition",
     "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
     "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to ",
@@ -346,6 +333,15 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/unity-launches-suite-of-ai-tools-to-help-creators-accelerate-game-development",
     "description": "Unity has launched a suite of AI tools in open beta for all developers on Unity 6 or above. Read more",
     "date": "Thu, 07 May 2026 04:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Valve commits to restocking its Steam Controller after it \"ran out faster than we anticipated\" | News-in-brief",
+    "link": "https://www.gamesindustry.biz/founders-of-gearbox-quebec-announce-new-studio-to-create-original-premium-games-on-our-own-terms",
+    "description": "The founders of Gearbox Quebec, which contributed to multiple Borderlands titles, have announced a new Canadian studio containing a number of other Canadian AAA developers. Studio Ricochet has a goal of creating \"original, premium games on their own terms\" while \"taking the opposite approach\" to oth",
+    "date": "Wed, 06 May 2026 20:47:46 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
