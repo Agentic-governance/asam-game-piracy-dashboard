@@ -1,21 +1,21 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-10 08:19 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-11 09:56 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-10T08:19:26.932930",
+  fetched_at: "2026-05-11T09:56:12.811180",
   item_count: 30,
   items: [
   {
     "title": "U.S. Removes Bulgaria from Piracy Watch List After Torrent Tracker Crackdown",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/court-awards-aylo-4-2-million-not-84-million-in-pornhits-piracy-case/",
+    "description": "Aylo asked a Washington federal court for an $84 million default judgment against the operator of pirate site Pornhits, citing the same $15,000-per-work formula the court had previously approved in similar cases. This time, Judge Benjamin Settle denied the request, awarding the statutory minimum ins",
     "date": "Fri, 08 May 2026 06:12:31 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 9,
+    "relevance_score": 11,
     "matched_keywords": [
-      "rom",
-      "torrent",
-      "copyright",
       "piracy",
-      "crack"
+      "pirate",
+      "crack",
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -26,11 +26,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
-      "torrent",
       "copyright",
       "piracy",
-      "pirate"
+      "pirate",
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -41,22 +41,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
       "pirate",
-      "dmca"
-    ]
-  },
-  {
-    "title": "Korean Rights Holders Behind Takedown of Manga Piracy Giant TuMangaOnline",
-    "link": "https://torrentfreak.com/github-reports-dmca-takedown-record-and-surging-anti-circumvention-claims/",
-    "description": "GitHub has published its 2025 transparency report, revealing record levels of DMCA takedown activity across two separate metrics. The total number of removed projects increased to 47,228, while the number of circumvention claims jumped by more than 40% to 645. GitHub also highlights the U.S. Supreme",
-    "date": "Fri, 17 Apr 2026 07:33:25 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 9,
-    "matched_keywords": [
-      "takedown",
       "dmca",
-      "piracy"
+      "takedown"
     ]
   },
   {
@@ -67,8 +54,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "takedown",
-      "piracy"
+      "piracy",
+      "takedown"
     ]
   },
   {
@@ -79,9 +66,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
+      "piracy",
       "pirate",
-      "piracy"
+      "rom"
     ]
   },
   {
@@ -92,8 +79,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -104,8 +91,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -121,6 +108,18 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Publishers Seek $19.5 Million and Domain Takedown Order Against Anna&#8217;s Archive",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Mon, 11 May 2026 08:56:55 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "takedown",
+      "copyright"
+    ]
+  },
+  {
     "title": "NVIDIA&#8217;s Shadow Library Scripts &#8216;Have No Other Purpose&#8217; Than Infringement, Judge Rules",
     "link": "https://torrentfreak.com/u-s-removes-bulgaria-from-piracy-watch-list-after-torrent-tracker-crackdown/",
     "description": "Bulgaria has proven that the right legislative update can go a long way in Washington. The USTR credits the country's removal from the Watch List to a 2023 amendment of the Criminal Code, which makes piracy enforcement easier. This new legislation resulted in the shutdown of three long-running torre",
@@ -128,8 +127,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -140,8 +139,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -152,8 +151,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "intellectual property",
-      "pirate"
+      "pirate",
+      "intellectual property"
     ]
   },
   {
@@ -164,8 +163,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -176,8 +175,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -188,19 +187,30 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
-    "title": "Warner Bros. Files Criminal Complaint Against Chilean IPTV Operator Over &#8220;Alarming&#8221; Piracy Growth",
-    "link": "https://torrentfreak.com/korean-rights-holders-behind-takedown-of-manga-piracy-giant-tumangaonline/",
-    "description": "The Spanish-speaking manga community was in disarray last month when TuMangaOnline, also known as ZonaTMO, suddenly disappeared. When the site's main domain was put on clienthold by its registrar, it was clear that legal pressure was mounting. Today, Korean copyright enforcement organization COA and",
-    "date": "Thu, 16 Apr 2026 09:08:42 +0000",
-    "source": "TorrentFreak",
+    "title": "Indie games have built a thriving economy in territory traditional publishers abandoned or ignored | Opinion",
+    "link": "https://www.gamesindustry.biz/atari-acquires-rights-to-first-five-wizardry-rpgs",
+    "description": "Atari has acquired the \"complete and exclusive rights\" to the first five games in the original Wizardry RPG series, including related intellectual property from the original rights holder. Read more",
+    "date": "Fri, 08 May 2026 16:39:12 +0000",
+    "source": "GamesIndustry",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
+      "intellectual property",
+      "rom"
+    ]
+  },
+  {
+    "title": "Court Awards Aylo $4.2 Million, Not $84 Million, in Pornhits Piracy Case",
+    "link": "https://torrentfreak.com/publishers-seek-19-5-million-and-domain-takedown-order-against-annas-archive/",
+    "description": "A group of high-profile publishing companies is seeking a $19.5 million default judgment against shadow library Anna's Archive. The proposed order comes with an injunction that would compel more than twenty named international domain registries, hosts, and service providers, including Cloudflare and",
+    "date": "Sun, 10 May 2026 10:38:53 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
       "piracy"
     ]
   },
@@ -227,10 +237,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Indie games have built a thriving economy in territory traditional publishers abandoned or ignored | Opinion",
+    "title": "Double Fine Productions is the latest Microsoft subsidiary to unionise",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 08 May 2026 16:39:12 +0000",
+    "date": "Mon, 11 May 2026 09:54:09 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -333,15 +343,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/unity-launches-suite-of-ai-tools-to-help-creators-accelerate-game-development",
     "description": "Unity has launched a suite of AI tools in open beta for all developers on Unity 6 or above. Read more",
     "date": "Thu, 07 May 2026 04:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Valve commits to restocking its Steam Controller after it \"ran out faster than we anticipated\" | News-in-brief",
-    "link": "https://www.gamesindustry.biz/founders-of-gearbox-quebec-announce-new-studio-to-create-original-premium-games-on-our-own-terms",
-    "description": "The founders of Gearbox Quebec, which contributed to multiple Borderlands titles, have announced a new Canadian studio containing a number of other Canadian AAA developers. Studio Ricochet has a goal of creating \"original, premium games on their own terms\" while \"taking the opposite approach\" to oth",
-    "date": "Wed, 06 May 2026 20:47:46 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
