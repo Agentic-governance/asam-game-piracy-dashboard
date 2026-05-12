@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-11 09:56 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-12 08:50 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-11T09:56:12.811180",
+  fetched_at: "2026-05-12T08:50:14.372160",
   item_count: 30,
   items: [
   {
@@ -11,26 +11,26 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
+      "torrent",
       "piracy",
-      "pirate",
       "crack",
       "rom",
-      "torrent"
+      "pirate"
     ]
   },
   {
     "title": "FlavaWorks Sues Operator and 325 Users of Private Torrent Tracker Gay-Torrents",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Project Hail Mary' tops the chart, followed by 'Apex.' 'The Legend of Aang: The Last Airbender' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Project Hail Mary' tops the chart, followed by 'The Super Mario Galaxy Movie.' 'Apex' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
     "date": "Sun, 03 May 2026 08:14:35 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
+      "torrent",
       "piracy",
-      "pirate",
+      "copyright",
       "rom",
-      "torrent"
+      "pirate"
     ]
   },
   {
@@ -41,9 +41,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "dmca",
-      "takedown"
+      "takedown",
+      "pirate"
     ]
   },
   {
@@ -66,9 +66,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "rom",
       "piracy",
-      "pirate",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -91,8 +91,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -103,8 +103,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "dmca"
+      "dmca",
+      "pirate"
     ]
   },
   {
@@ -115,8 +115,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "takedown",
-      "copyright"
+      "copyright",
+      "takedown"
     ]
   },
   {
@@ -127,8 +127,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -144,15 +144,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 05/04/2026",
+    "title": "Top 10 Most Pirated Movies of The Week – 05/11/2026",
     "link": "https://torrentfreak.com/u-s-brands-vietnam-as-a-rare-priority-foreign-country-over-online-piracy-concerns/",
     "description": "For the first time in thirteen years, the U.S. government has placed a trading partner in its most serious category for intellectual property concerns. The USTR's latest Special 301 Report classifies Vietnam as a \"Priority Foreign Country,\" opening the door to potential trade sanctions. The country'",
     "date": "Sun, 03 May 2026 23:09:40 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "intellectual property"
+      "intellectual property",
+      "pirate"
     ]
   },
   {
@@ -163,8 +163,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -199,8 +199,8 @@ const ARIA_NEWS = {
     "source": "GamesIndustry",
     "relevance_score": 4,
     "matched_keywords": [
-      "intellectual property",
-      "rom"
+      "rom",
+      "intellectual property"
     ]
   },
   {
@@ -237,10 +237,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Double Fine Productions is the latest Microsoft subsidiary to unionise",
+    "title": "Stellar Blade studio Shift Up breaks from publishing partner Sony for \"high-quality self-publishing\"",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 11 May 2026 09:54:09 +0000",
+    "date": "Mon, 11 May 2026 20:17:19 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -303,46 +303,46 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"I'm not going to fight the Chinese Communist Party\" – Why Eve Online firm CCP Games rebranded to Fenris Creations",
-    "link": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4",
-    "description": "Sony has released its full-year financial results, reporting stable sales and a modest increase in operating income for its Games & Network Services segment (G&NS). Read more",
-    "date": "Fri, 08 May 2026 13:18:18 +0000",
+    "title": "Nintendo share value falls as president admits increased prices will \"raise the barrier to purchase\"",
+    "link": "https://www.gamesindustry.biz/stellar-blade-studio-shift-up-breaks-from-publishing-partner-sony-for-high-quality-self-publishing",
+    "description": "South Korean developer Shift Up has outlined plans to self-publish Stellar Blade 2. Read more",
+    "date": "Mon, 11 May 2026 19:49:39 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Nintendo hikes Switch 2 prices, revises console costs in Japan, US, Canada, and Europe",
-    "link": "https://www.gamesindustry.biz/nintendo-fy-sales-soar-986-to-146bn-following-launch-of-switch-2",
-    "description": "Nintendo has published its full year financial results, reporting substantial growth in net sales and profits following the first fiscal year of the Switch 2. Read more",
-    "date": "Fri, 08 May 2026 07:51:19 +0000",
+    "title": "Sony maps out how first-party PlayStation studios are utilising AI tools during development",
+    "link": "https://www.gamesindustry.biz/nintendo-share-value-falls-as-president-admits-increased-prices-will-raise-the-barrier-to-purchase",
+    "description": "Nintendo shares have dropped after president Shuntaro Furukawa acknowledged that raising the prices on its hardware \"will raise the barrier to purchase.\" Read more",
+    "date": "Mon, 11 May 2026 13:36:22 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "2K lays off staff working on free-to-play shooter Project Ethos, while hinting at \"new direction and focus\"",
-    "link": "https://www.gamesindustry.biz/nintendo-hikes-switch-2-prices-revises-console-costs-in-japan-us-canada-and-europe",
-    "description": "Nintendo has announced price increases for both the Switch and Switch 2 in Japan. In the US, Canada, and Europe, only the Switch 2 will be affected. Read more",
-    "date": "Thu, 07 May 2026 18:28:30 +0000",
+    "title": "Why the founder of Kongregate believes that Roblox is its successor",
+    "link": "https://www.gamesindustry.biz/sony-maps-out-how-first-party-playstation-studios-are-utilising-ai-tools-during-development",
+    "description": "Sony has detailed its plans to expand AI integration throughout its organisation, including game development. Read more",
+    "date": "Mon, 11 May 2026 12:14:52 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "\"These guys are really nice\" – Why the developer of PlateUp has joined forces with Yogscast Games",
-    "link": "https://www.gamesindustry.biz/2k-lays-off-staff-working-on-free-to-play-shooter-project-ethos-while-hinting-at-new-direction-and-focus",
-    "description": "2K has laid off staff at 31st Union, the studio working on free-to-play shooter Project Ethos. The news was announced in an internal memo sent by studio head Ben Brinkman, which 2K subsequently shared with GamesIndustry.biz. Read more",
-    "date": "Thu, 07 May 2026 14:00:00 +0000",
+    "title": "Guerrilla Games co-founder Arjan Brussee announces plans to build European-based games engine",
+    "link": "https://www.gamesindustry.biz/why-the-founder-of-kongregate-believes-that-roblox-is-its-successor",
+    "description": "User-generated content (UGC) in the gaming space is a buzzy topic, with platforms like Roblox, Fortnite, Minecraft and even GTA Online serving as a platform for thousands of creators to build their own games and in some cases their own fortunes &ndash; but it's not a new one. Read more",
+    "date": "Mon, 11 May 2026 11:05:26 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Founders of Gearbox Quebec announce new studio to \"create original, premium  games on our own terms\"",
-    "link": "https://www.gamesindustry.biz/unity-launches-suite-of-ai-tools-to-help-creators-accelerate-game-development",
-    "description": "Unity has launched a suite of AI tools in open beta for all developers on Unity 6 or above. Read more",
-    "date": "Thu, 07 May 2026 04:00:00 +0000",
+    "title": "Double Fine Productions is the latest Microsoft subsidiary to unionise",
+    "link": "https://www.gamesindustry.biz/industry-veteran-arjan-brussee-announces-plans-to-build-european-based-games-engine",
+    "description": "Guerrilla Games co-founder Arjan Brussee has announced plans to develop a game engine positioned as \"a European alternative\" to competitors such as Unreal and Unity. Read more",
+    "date": "Mon, 11 May 2026 09:54:09 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
