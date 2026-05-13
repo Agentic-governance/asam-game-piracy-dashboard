@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-12 08:50 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-13 08:54 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-12T08:50:14.372160",
+  fetched_at: "2026-05-13T08:54:25.839739",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,24 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "torrent",
       "piracy",
+      "torrent",
       "crack",
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
+    ]
+  },
+  {
+    "title": "Publishers Seek $19.5 Million and Domain Takedown Order Against Anna&#8217;s Archive",
+    "link": "https://torrentfreak.com/broadcaster-loses-fifa-world-cup-rights-after-20-years-citing-rampant-piracy/",
+    "description": "After more than two decades broadcasting the FIFA World Cup in Malaysia, pay-TV operator Astro has lost the rights to the tournament. The company says that \"rampant piracy\" reduced the value of the rights, noting that the 2018 and 2022 tournaments were \"extensively pirated\" in the country. The admis",
+    "date": "Mon, 11 May 2026 08:56:55 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 9,
+    "matched_keywords": [
+      "pirate",
+      "piracy",
+      "takedown"
     ]
   },
   {
@@ -26,24 +39,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
       "piracy",
+      "torrent",
       "copyright",
-      "rom",
-      "pirate"
-    ]
-  },
-  {
-    "title": "GitHub Reports DMCA Takedown Record and Surging Anti-Circumvention Claims",
-    "link": "https://torrentfreak.com/indias-expanding-site-blocking-orders-hit-legal-wall-at-delhi-high-court/",
-    "description": "Justices at India's Delhi High Court disagree on the future of India's world-leading site-blocking regime. The same court that pioneered \"Dynamic+\" injunctions to target pirate sites, issued a new ruling that sees these post-judgment expansions as fundamentally incompatible with the law. According t",
-    "date": "Sun, 19 Apr 2026 10:47:48 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 9,
-    "matched_keywords": [
-      "dmca",
-      "takedown",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -66,9 +66,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
+      "pirate",
       "piracy",
-      "pirate"
+      "rom"
     ]
   },
   {
@@ -79,8 +79,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -91,8 +91,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -103,20 +103,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "dmca",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
-    "title": "Publishers Seek $19.5 Million and Domain Takedown Order Against Anna&#8217;s Archive",
+    "title": "Broadcaster Loses FIFA World Cup Rights After 20 Years, Citing “Rampant Piracy”",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Mon, 11 May 2026 08:56:55 +0000",
+    "date": "Tue, 12 May 2026 09:12:15 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
       "copyright",
-      "takedown"
+      "piracy"
     ]
   },
   {
@@ -127,8 +127,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -139,8 +139,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -151,8 +151,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "intellectual property",
-      "pirate"
+      "pirate",
+      "intellectual property"
     ]
   },
   {
@@ -163,8 +163,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -175,8 +175,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -187,8 +187,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -199,8 +199,8 @@ const ARIA_NEWS = {
     "source": "GamesIndustry",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "intellectual property"
+      "intellectual property",
+      "rom"
     ]
   },
   {
@@ -237,9 +237,20 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Stellar Blade studio Shift Up breaks from publishing partner Sony for \"high-quality self-publishing\"",
+    "title": "Indika dev Odd Meter raises $5m to fund next project",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Wed, 13 May 2026 08:05:25 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Stellar Blade studio Shift Up breaks from publishing partner Sony for \"high-quality self-publishing\"",
+    "link": "https://www.gamesindustry.biz/sega-reports-316m-net-loss-during-fy26-cancels-super-game-project-amid-strategic-pivot",
+    "description": "Sega Sammy has released its financial results for the year ending March 31, 2026. While net sales increased by 13.6%, operating income from its entertainment contents, including the video games division, declined from &yen;40.8 billion ($259 million) to &yen;32.4 billion ($205.5 million). Read more",
     "date": "Mon, 11 May 2026 20:17:19 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -270,28 +281,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "CCP Games rebrands as Fenris Creations following sale from Pearl Abyss",
-    "link": "https://www.gamesindustry.biz/unity-q1-revenue-rises-17-posts-347m-loss-following-ironsource-closure",
-    "description": "Unity has published its financial results for the first quarter ended March 31, 2026, with overall revenue rising 17% to $508 million, up from $435 million during the same quarter last year. Read more",
-    "date": "Thu, 07 May 2026 10:38:23 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Unity launches suite of AI tools to help creators accelerate game development",
-    "link": "https://www.gamesindustry.biz/ccp-games-rebrands-as-fenris-creations-following-sale-from-pearl-abyss",
-    "description": "CCP Games, the developer of Eve Online, is now operating independently as Fenris Creations after its  $120 million sale from Pearl Abyss earlier this week. Read more",
-    "date": "Thu, 07 May 2026 08:31:20 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Patch Tuesday, April 2026 Edition",
     "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
     "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to ",
@@ -301,6 +290,42 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
+  },
+  {
+    "title": "Crimson Desert increases Pearl Abyss Q1 earnings more than fivefold to $220.6m",
+    "link": "https://www.gamesindustry.biz/snk-announces-new-studio-lead-by-tekken-veteran-katsuhiro-harada",
+    "description": "SNK has announced it is investing in a new studio founded by Katsuhiro Harada, the veteran Bandai Namco producer and long-term perma-sunglasses-wearing face of the Tekken franchise. VS Studio and SNK will \"collaborate on game software development to further strengthen their development capabilities\"",
+    "date": "Tue, 12 May 2026 13:46:17 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Discord Nitro subscribers to receive \"starter edition\" of Xbox Game Pass through new partnership",
+    "link": "https://www.gamesindustry.biz/crimson-desert-increases-pearl-abyss-q1-earnings-more-than-fivefold-to-2206m",
+    "description": "South Korean developer Pearl Abyss's Q1 operating revenue surged 419.8% year-over-year to ₩328.5 billion ($220.6 million), driven by the March 19 launch of Crimson Desert. Read more",
+    "date": "Tue, 12 May 2026 11:16:44 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Jobs roundup: May 2026 | Two Point Studios appoints Jo Koehler as COO",
+    "link": "https://www.gamesindustry.biz/discord-nitro-subscribers-to-receive-starter-edition-of-xbox-game-pass-through-new-partnership",
+    "description": "Xbox and Discord have announced a partnership offering a \"starter edition\" of Game Pass to Nitro subscribers. Read more",
+    "date": "Tue, 12 May 2026 10:08:07 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Sega reports $31.6m net loss during FY26, cancels 'Super Game' project amid strategic pivot",
+    "link": "https://www.gamesindustry.biz/jobs-roundup-may-2026-two-point-studios-appoints-jo-koehler-as-coo",
+    "description": "It can be difficult keeping track of the various comings and goings in the games industry, which is why we compile them in semi-regular round-ups. Read more",
+    "date": "Tue, 12 May 2026 09:41:40 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Nintendo share value falls as president admits increased prices will \"raise the barrier to purchase\"",
@@ -316,33 +341,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/nintendo-share-value-falls-as-president-admits-increased-prices-will-raise-the-barrier-to-purchase",
     "description": "Nintendo shares have dropped after president Shuntaro Furukawa acknowledged that raising the prices on its hardware \"will raise the barrier to purchase.\" Read more",
     "date": "Mon, 11 May 2026 13:36:22 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Why the founder of Kongregate believes that Roblox is its successor",
-    "link": "https://www.gamesindustry.biz/sony-maps-out-how-first-party-playstation-studios-are-utilising-ai-tools-during-development",
-    "description": "Sony has detailed its plans to expand AI integration throughout its organisation, including game development. Read more",
-    "date": "Mon, 11 May 2026 12:14:52 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Guerrilla Games co-founder Arjan Brussee announces plans to build European-based games engine",
-    "link": "https://www.gamesindustry.biz/why-the-founder-of-kongregate-believes-that-roblox-is-its-successor",
-    "description": "User-generated content (UGC) in the gaming space is a buzzy topic, with platforms like Roblox, Fortnite, Minecraft and even GTA Online serving as a platform for thousands of creators to build their own games and in some cases their own fortunes &ndash; but it's not a new one. Read more",
-    "date": "Mon, 11 May 2026 11:05:26 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Double Fine Productions is the latest Microsoft subsidiary to unionise",
-    "link": "https://www.gamesindustry.biz/industry-veteran-arjan-brussee-announces-plans-to-build-european-based-games-engine",
-    "description": "Guerrilla Games co-founder Arjan Brussee has announced plans to develop a game engine positioned as \"a European alternative\" to competitors such as Unreal and Unity. Read more",
-    "date": "Mon, 11 May 2026 09:54:09 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
