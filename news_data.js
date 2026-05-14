@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-13 08:54 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-14 08:47 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-13T08:54:25.839739",
+  fetched_at: "2026-05-14T08:47:29.182896",
   item_count: 30,
   items: [
   {
@@ -12,10 +12,10 @@ const ARIA_NEWS = {
     "relevance_score": 11,
     "matched_keywords": [
       "piracy",
+      "rom",
       "torrent",
-      "crack",
       "pirate",
-      "rom"
+      "crack"
     ]
   },
   {
@@ -26,8 +26,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "piracy",
+      "pirate",
       "takedown"
     ]
   },
@@ -40,22 +40,23 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "piracy",
-      "torrent",
+      "rom",
       "copyright",
-      "pirate",
-      "rom"
+      "torrent",
+      "pirate"
     ]
   },
   {
-    "title": "India&#8217;s Expanding Site Blocking Orders Hit Legal Wall at Delhi High Court",
-    "link": "https://torrentfreak.com/paramount-faces-dmca-whac-a-mole-as-leaked-avatar-aang-movie-thrives-on-pirate-sites/",
-    "description": "Paramount’s attempt to contain the leaked 'Avatar: Aang, The Last Airbender' has transformed into a digital game of whac-a-mole. Despite sending numerous takedown notices, the film is now firmly embedded in the piracy landscape, highlighting the limitations of traditional anti-piracy measures once a",
-    "date": "Mon, 20 Apr 2026 07:00:30 +0000",
+    "title": "Broadcaster Loses FIFA World Cup Rights After 20 Years, Citing “Rampant Piracy”",
+    "link": "https://torrentfreak.com/publishers-googles-ebook-ad-ban-blocked-legitimate-sellers-not-pirates/",
+    "description": "The textbook publishers that sued Google over pirated ebook ads have responded to the company's effort to dismiss their case. The publishers argue that Google's specific ads for pirate books qualify as contributory copyright infringement under the Supreme Court's Cox ruling. Google's ban on ebook ad",
+    "date": "Tue, 12 May 2026 09:12:15 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 8,
+    "relevance_score": 7,
     "matched_keywords": [
+      "copyright",
       "piracy",
-      "takedown"
+      "pirate"
     ]
   },
   {
@@ -66,8 +67,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "piracy",
+      "pirate",
       "rom"
     ]
   },
@@ -79,8 +80,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -103,20 +104,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "dmca"
+      "dmca",
+      "pirate"
     ]
   },
   {
-    "title": "Broadcaster Loses FIFA World Cup Rights After 20 Years, Citing “Rampant Piracy”",
+    "title": "Publishers: Google&#8217;s Ebook Ad &#8220;Ban&#8221; Blocked Legitimate Sellers, Not Pirates",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 12 May 2026 09:12:15 +0000",
+    "date": "Wed, 13 May 2026 12:00:25 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
       "copyright",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -163,8 +164,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -189,18 +190,6 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "copyright",
       "piracy"
-    ]
-  },
-  {
-    "title": "Indie games have built a thriving economy in territory traditional publishers abandoned or ignored | Opinion",
-    "link": "https://www.gamesindustry.biz/atari-acquires-rights-to-first-five-wizardry-rpgs",
-    "description": "Atari has acquired the \"complete and exclusive rights\" to the first five games in the original Wizardry RPG series, including related intellectual property from the original rights holder. Read more",
-    "date": "Fri, 08 May 2026 16:39:12 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "intellectual property",
-      "rom"
     ]
   },
   {
@@ -237,10 +226,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Indika dev Odd Meter raises $5m to fund next project",
+    "title": "UK games industry \"fundamentally misunderstood\", new report calls for unified research framework",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 13 May 2026 08:05:25 +0000",
+    "date": "Thu, 14 May 2026 08:00:52 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "New AAA collective to publish Star Wars: Fate of the Old Republic plus games from CoD and Yu-Gi-Oh! veterans",
+    "link": "https://www.gamesindustry.biz/sensor-tower-acquires-appmagic",
+    "description": "Sensor Tower has acquired mobile app intelligence firm AppMagic for an undisclosed amount. Read more",
+    "date": "Wed, 13 May 2026 13:23:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -259,28 +259,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "PlayStation records $765m impairment loss from Bungie as operating income falls 41.6% in Q4",
-    "link": "https://www.gamesindustry.biz/indie-games-have-built-a-thriving-economy-in-territory-traditional-publishers-abandoned-or-ignored-opinion",
-    "description": "It's easy to be drawn in by the drama of a revolution &ndash; a monumental game or technology that transforms an entire genre or industry segment, or even invents an entirely new one from whole cloth. The hype around those moments and the permanent anticipation for the Next Big Thing can, however, b",
-    "date": "Fri, 08 May 2026 13:44:57 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Nintendo FY sales soar 98.6% to $14.6bn following launch of Switch 2",
-    "link": "https://www.gamesindustry.biz/im-not-going-to-fight-the-chinese-communist-party-why-eve-online-firm-ccp-games-rebranded-to-fenris-creations",
-    "description": "It's been a pretty busy news week for Eve Online maker CCP Games. It started with the company breaking away from its Korean owner Pearl Abyss, which acquired the firm in 2018. Then, CCP announced it was rebranding as Fenris Creations. Read more",
-    "date": "Fri, 08 May 2026 10:11:17 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Patch Tuesday, April 2026 Edition",
     "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
     "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to ",
@@ -290,6 +268,60 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
+  },
+  {
+    "title": "MercurySteam \"initiates a workforce adjustment process\"",
+    "link": "https://www.gamesindustry.biz/uk-games-industry-fundamentally-misunderstood-new-report-calls-for-unified-research-framework",
+    "description": "UKIE and entertainment charity OKRE have developed a framework to help the UK games industry maximise its economic and social value. Read more",
+    "date": "Wed, 13 May 2026 21:32:40 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Night Street Games cuts jobs after Last Flag fails to \"achieve the financial success we anticipated\"",
+    "link": "https://www.gamesindustry.biz/mercurysteam-initiates-a-workforce-adjustment-process",
+    "description": "Spanish studio MercurySteam has \"initiated a workforce adjustment process.\" Read more",
+    "date": "Wed, 13 May 2026 21:11:39 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Mouse: P.I. For Hire publisher PlaySide recoups all expenses since April launch",
+    "link": "https://www.gamesindustry.biz/night-street-games-cuts-jobs-after-last-flag-fails-to-achieve-the-financial-success-we-anticipated",
+    "description": "Just days after telling players that it wasn't \"going anywhere\" after pausing production on its hero shooter that launched just a few weeks ago, Night Street Games has made a \"reduction\" to its team. Read more",
+    "date": "Wed, 13 May 2026 20:53:39 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Warner Bros. Discovery once again glosses over gaming business in Q1 2026 financials",
+    "link": "https://www.gamesindustry.biz/mouse-pi-for-hire-publisher-playside-recoups-all-expenses-since-april-launch",
+    "description": "The publisher for Mouse: P.I. For Hire, the 1930s cartoon-styled shooter, has already recouped its expenses since its debut last month. Read more",
+    "date": "Wed, 13 May 2026 20:29:11 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"The old school publishing model is dead\" – Silver Lining Interactive joins the new wave of pick and mix publishers",
+    "link": "https://www.gamesindustry.biz/warner-bros-discovery-once-again-glosses-over-gaming-business-in-q1-2026-financials",
+    "description": "Warner Bros. Discovery (WBD) said it was \"preparing for its next chapter,\" but once again made no reference to its games business in a letter to shareholders after games revenue slumped 30%. Read more",
+    "date": "Wed, 13 May 2026 17:28:53 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Bit Bot scales leadership team with AAA veteran Frank O'Connor as creative director",
+    "link": "https://www.gamesindustry.biz/the-old-school-publishing-model-is-dead-silver-lining-interactive-joins-the-new-wave-of-pick-and-mix-publishers",
+    "description": "Silver Lining Interactive wants you to know that everything is going swimmingly. \"We couldn&rsquo;t have hoped for a better first year,\" is how founder Luke Keighran framed it in a celebratory press statement released this week to coincide with the launch of Outbound, a game which has racked up 1.5 ",
+    "date": "Wed, 13 May 2026 14:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Crimson Desert increases Pearl Abyss Q1 earnings more than fivefold to $220.6m",
@@ -305,42 +337,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/crimson-desert-increases-pearl-abyss-q1-earnings-more-than-fivefold-to-2206m",
     "description": "South Korean developer Pearl Abyss's Q1 operating revenue surged 419.8% year-over-year to ₩328.5 billion ($220.6 million), driven by the March 19 launch of Crimson Desert. Read more",
     "date": "Tue, 12 May 2026 11:16:44 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Jobs roundup: May 2026 | Two Point Studios appoints Jo Koehler as COO",
-    "link": "https://www.gamesindustry.biz/discord-nitro-subscribers-to-receive-starter-edition-of-xbox-game-pass-through-new-partnership",
-    "description": "Xbox and Discord have announced a partnership offering a \"starter edition\" of Game Pass to Nitro subscribers. Read more",
-    "date": "Tue, 12 May 2026 10:08:07 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Sega reports $31.6m net loss during FY26, cancels 'Super Game' project amid strategic pivot",
-    "link": "https://www.gamesindustry.biz/jobs-roundup-may-2026-two-point-studios-appoints-jo-koehler-as-coo",
-    "description": "It can be difficult keeping track of the various comings and goings in the games industry, which is why we compile them in semi-regular round-ups. Read more",
-    "date": "Tue, 12 May 2026 09:41:40 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Nintendo share value falls as president admits increased prices will \"raise the barrier to purchase\"",
-    "link": "https://www.gamesindustry.biz/stellar-blade-studio-shift-up-breaks-from-publishing-partner-sony-for-high-quality-self-publishing",
-    "description": "South Korean developer Shift Up has outlined plans to self-publish Stellar Blade 2. Read more",
-    "date": "Mon, 11 May 2026 19:49:39 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Sony maps out how first-party PlayStation studios are utilising AI tools during development",
-    "link": "https://www.gamesindustry.biz/nintendo-share-value-falls-as-president-admits-increased-prices-will-raise-the-barrier-to-purchase",
-    "description": "Nintendo shares have dropped after president Shuntaro Furukawa acknowledged that raising the prices on its hardware \"will raise the barrier to purchase.\" Read more",
-    "date": "Mon, 11 May 2026 13:36:22 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
