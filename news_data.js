@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-15 09:20 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-16 08:14 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-15T09:20:11.017319",
+  fetched_at: "2026-05-16T08:14:25.851778",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,25 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "torrent",
+      "crack",
+      "rom",
       "pirate",
       "piracy",
-      "rom",
-      "crack"
+      "torrent"
+    ]
+  },
+  {
+    "title": "Real-Debrid&#8217;s Renewed Piracy Crackdown Follows Corporate Restructuring (Updated)",
+    "link": "https://torrentfreak.com/universal-wins-delhi-court-order-against-imdb-themed-pirate-streaming-site/",
+    "description": "A new ruling from the Delhi High Court targets various sites that exploit IMDb's website to streamline access to pirated content. This includes PlayIMDb, which redirects users to a pirated stream by adding the word \"play\" to an IMDb link. The order, requested by Universal, requires registrars and IS",
+    "date": "Thu, 14 May 2026 17:48:31 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 10,
+    "matched_keywords": [
+      "piracy",
+      "crack",
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -26,9 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "piracy",
-      "takedown"
+      "takedown",
+      "pirate"
     ]
   },
   {
@@ -39,11 +53,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
+      "copyright",
+      "rom",
       "pirate",
       "piracy",
-      "copyright",
-      "rom"
+      "torrent"
     ]
   },
   {
@@ -54,23 +68,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
+      "copyright",
+      "crack",
       "torrent",
-      "pirate",
-      "copyright",
-      "crack"
-    ]
-  },
-  {
-    "title": "Real-Debrid&#8217;s Renewed Piracy Crackdown Follows Corporate Restructuring (Updated)",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Thu, 14 May 2026 17:48:31 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "piracy",
-      "copyright",
-      "crack"
+      "pirate"
     ]
   },
   {
@@ -81,22 +82,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "piracy",
-      "copyright"
-    ]
-  },
-  {
-    "title": "Sflix, Myflixerz, HDtoday, and other Pirate Sites Go Dark as Backend Infrastructure Fails",
-    "link": "https://torrentfreak.com/record-labels-drop-piracy-lawsuits-against-altice-and-verizon-in-wake-of-cox-ruling/",
-    "description": "The major record labels have walked away from two of the largest remaining ISP piracy liability cases. They filed joint stipulations this week, dismissing both lawsuits where billions of dollars were at stake. The action follows less than a month after the Supreme Court's ruling in favor of Cox Comm",
-    "date": "Thu, 23 Apr 2026 08:51:54 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "pirate",
-      "piracy",
-      "rom"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -107,8 +95,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -121,6 +109,18 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy",
       "crack"
+    ]
+  },
+  {
+    "title": "Universal Wins Indian Court Order Against IMDb-Themed Pirate Streaming Sites",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Fri, 15 May 2026 17:33:33 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -217,10 +217,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Square Enix FY26 operating income surges 34.9% despite net sales decline",
+    "title": "The hangover kicks in after a decade of games-as-a-service obsession | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 15 May 2026 08:31:26 +0000",
+    "date": "Fri, 15 May 2026 15:29:19 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -271,6 +271,15 @@ const ARIA_NEWS = {
       "intellectual property",
       "torrent"
     ]
+  },
+  {
+    "title": "Nexon Q1 net income rises 118% to $360.7m",
+    "link": "https://www.gamesindustry.biz/advocating-for-godot-a-report-from-a-maze-berlin-opinion",
+    "description": "And so to Berlin, where the A Maze indie games festival is celebrating its 15th year, and time continues to make fools of all of us. Read more",
+    "date": "Fri, 15 May 2026 10:43:36 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Nintendo clarifies hardware price rises were due to sustained component and market costs",
@@ -331,15 +340,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/warner-bros-discovery-once-again-glosses-over-gaming-business-in-q1-2026-financials",
     "description": "Warner Bros. Discovery (WBD) said it was \"preparing for its next chapter,\" but once again made no reference to its games business in a letter to shareholders after games revenue slumped 30%. Read more",
     "date": "Wed, 13 May 2026 17:28:53 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Bit Bot scales leadership team with AAA veteran Frank O'Connor as creative director",
-    "link": "https://www.gamesindustry.biz/the-old-school-publishing-model-is-dead-silver-lining-interactive-joins-the-new-wave-of-pick-and-mix-publishers",
-    "description": "Silver Lining Interactive wants you to know that everything is going swimmingly. \"We couldn&rsquo;t have hoped for a better first year,\" is how founder Luke Keighran framed it in a celebratory press statement released this week to coincide with the launch of Outbound, a game which has racked up 1.5 ",
-    "date": "Wed, 13 May 2026 14:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
