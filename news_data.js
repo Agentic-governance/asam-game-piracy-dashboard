@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-16 08:14 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-17 08:30 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-16T08:14:25.851778",
+  fetched_at: "2026-05-17T08:30:04.750439",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "crack",
       "rom",
-      "pirate",
+      "crack",
+      "torrent",
       "piracy",
-      "torrent"
+      "pirate"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "piracy",
+      "rom",
       "crack",
       "pirate",
-      "rom"
+      "piracy"
     ]
   },
   {
@@ -40,9 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "takedown",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -55,9 +55,9 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "copyright",
       "rom",
-      "pirate",
+      "torrent",
       "piracy",
-      "torrent"
+      "pirate"
     ]
   },
   {
@@ -70,8 +70,8 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "copyright",
       "crack",
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -82,9 +82,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "copyright",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -95,8 +95,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -107,8 +107,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -131,8 +131,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -143,8 +143,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -155,8 +155,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -167,8 +167,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -179,8 +179,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -268,8 +268,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "intellectual property",
-      "torrent"
+      "torrent",
+      "intellectual property"
     ]
   },
   {
