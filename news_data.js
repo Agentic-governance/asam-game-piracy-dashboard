@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-17 08:30 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-18 10:20 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-17T08:30:04.750439",
+  fetched_at: "2026-05-18T10:20:50.493853",
   item_count: 30,
   items: [
   {
@@ -12,10 +12,10 @@ const ARIA_NEWS = {
     "relevance_score": 11,
     "matched_keywords": [
       "rom",
+      "pirate",
       "crack",
       "torrent",
-      "piracy",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -48,16 +48,16 @@ const ARIA_NEWS = {
   {
     "title": "Court Awards Aylo $4.2 Million, Not $84 Million, in Pornhits Piracy Case",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Project Hail Mary' tops the chart, followed by 'The Super Mario Galaxy Movie.' 'Apex' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Project Hail Mary' tops the chart, followed by 'The Punisher: One Last Kill.' 'The Drama' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
     "date": "Sun, 10 May 2026 10:38:53 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
       "copyright",
       "rom",
+      "pirate",
       "torrent",
-      "piracy",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -68,10 +68,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "copyright",
+      "torrent",
       "crack",
       "pirate",
-      "torrent"
+      "copyright"
     ]
   },
   {
@@ -82,7 +82,19 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "copyright",
+      "pirate",
+      "piracy",
+      "copyright"
+    ]
+  },
+  {
+    "title": "Universal Wins Indian Court Order Against IMDb-Themed Pirate Streaming Sites",
+    "link": "https://torrentfreak.com/lithuania-pitches-pirate-site-blocking-as-defense-against-hybrid-warfare-including-russian-disinformation/",
+    "description": "Lithuania’s media watchdog LRTK will present an overview of its strategic anti-piracy enforcement at an upcoming WIPO meeting in Geneva. The organization notes that combining pirate site blocking measures with OSINT tools has been helpful in countering hybrid pirate site threats, including the distr",
+    "date": "Fri, 15 May 2026 17:33:33 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
       "pirate",
       "piracy"
     ]
@@ -112,15 +124,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Universal Wins Indian Court Order Against IMDb-Themed Pirate Streaming Sites",
+    "title": "Lithuania Pitches Pirate Site Blocking as Defense Against &#8220;Hybrid Warfare,&#8221; Including Russian Disinformation",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Fri, 15 May 2026 17:33:33 +0000",
+    "date": "Sun, 17 May 2026 11:15:02 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -184,7 +196,7 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 05/11/2026",
+    "title": "Top 10 Most Pirated Movies of The Week – 05/18/2026",
     "link": "https://torrentfreak.com/publishers-seek-19-5-million-and-domain-takedown-order-against-annas-archive/",
     "description": "A group of high-profile publishing companies is seeking a $19.5 million default judgment against shadow library Anna's Archive. The proposed order comes with an injunction that would compel more than twenty named international domain registries, hosts, and service providers, including Cloudflare and",
     "date": "Sun, 10 May 2026 23:09:40 +0000",
@@ -206,21 +218,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Record Labels Drop Piracy Lawsuits Against Altice and Verizon in Wake of Cox Ruling",
-    "link": "https://torrentfreak.com/spanish-film-archivist-faces-prison-and-e870000-fine-over-non-commercial-movie-site/",
-    "description": "A Spanish content creator who ran a film preservation website together with more than a dozen others, is now the sole defendant in a prosecution where he faces a two-and-a-half-year prison sentence and €870,000 in damages. \"El Feo,\" as the defendant is known online, fought back at trial. Among other",
-    "date": "Fri, 24 Apr 2026 06:05:06 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "piracy"
-    ]
-  },
-  {
-    "title": "The hangover kicks in after a decade of games-as-a-service obsession | Opinion",
+    "title": "Nex Playground available for pre-order in UK and Ireland at £269",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 15 May 2026 15:29:19 +0000",
+    "date": "Mon, 18 May 2026 08:36:06 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -271,6 +272,15 @@ const ARIA_NEWS = {
       "torrent",
       "intellectual property"
     ]
+  },
+  {
+    "title": "The hangover kicks in after a decade of games-as-a-service obsession | Opinion",
+    "link": "https://www.gamesindustry.biz/nex-playground-available-for-pre-order-in-uk-and-ireland-at-269",
+    "description": "Nex Playground is now available for pre-order in the UK and Ireland. Read more",
+    "date": "Fri, 15 May 2026 15:29:19 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Nexon Q1 net income rises 118% to $360.7m",
@@ -331,15 +341,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/mouse-pi-for-hire-publisher-playside-recoups-all-expenses-since-april-launch",
     "description": "The publisher for Mouse: P.I. For Hire, the 1930s cartoon-styled shooter, has already recouped its expenses since its debut last month. Read more",
     "date": "Wed, 13 May 2026 20:29:11 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"The old school publishing model is dead\" – Silver Lining Interactive joins the new wave of pick and mix publishers",
-    "link": "https://www.gamesindustry.biz/warner-bros-discovery-once-again-glosses-over-gaming-business-in-q1-2026-financials",
-    "description": "Warner Bros. Discovery (WBD) said it was \"preparing for its next chapter,\" but once again made no reference to its games business in a letter to shareholders after games revenue slumped 30%. Read more",
-    "date": "Wed, 13 May 2026 17:28:53 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
