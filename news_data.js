@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-18 10:20 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-19 10:00 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-18T10:20:50.493853",
+  fetched_at: "2026-05-19T10:00:08.002111",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "rom",
       "pirate",
-      "crack",
+      "piracy",
       "torrent",
-      "piracy"
+      "rom",
+      "crack"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "rom",
-      "crack",
       "pirate",
-      "piracy"
+      "piracy",
+      "crack",
+      "rom"
     ]
   },
   {
@@ -40,9 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
       "pirate",
-      "piracy"
+      "piracy",
+      "takedown"
     ]
   },
   {
@@ -53,11 +53,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
-      "rom",
       "pirate",
+      "piracy",
       "torrent",
-      "piracy"
+      "copyright",
+      "rom"
     ]
   },
   {
@@ -68,10 +68,23 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "torrent",
-      "crack",
       "pirate",
-      "copyright"
+      "crack",
+      "copyright",
+      "torrent"
+    ]
+  },
+  {
+    "title": "Lithuania Pitches Pirate Site Blocking as Defense Against &#8220;Hybrid Warfare,&#8221; Including Russian Disinformation",
+    "link": "https://torrentfreak.com/ace-subpoena-targets-french-private-tracker-chinese-pirate-forum-and-vietnamese-apis/",
+    "description": "A new DMCA subpoena, requested by ACE, directs Cloudflare to help identify the operators of a geographically diverse list of pirate sites. In addition to the standard streaming portals, the legal paperwork mentions the French torrent tracker La Cale, the long-running Chinese BT Home forum, as well a",
+    "date": "Sun, 17 May 2026 11:15:02 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "pirate",
+      "dmca",
+      "torrent"
     ]
   },
   {
@@ -119,15 +132,15 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
-    "title": "Lithuania Pitches Pirate Site Blocking as Defense Against &#8220;Hybrid Warfare,&#8221; Including Russian Disinformation",
+    "title": "ACE Subpoena Targets French Private Tracker, Chinese Pirate Forum, and Vietnamese APIs",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sun, 17 May 2026 11:15:02 +0000",
+    "date": "Tue, 19 May 2026 06:13:13 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
@@ -143,8 +156,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -155,8 +168,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -179,20 +192,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Spanish Film Archivist Faces Prison and €870,000 Fine Over &#8216;Non-Commercial&#8217; Movie Site",
-    "link": "https://torrentfreak.com/google-uses-cox-ruling-to-kill-last-copyright-claim-in-textbook-piracy-lawsuit/",
-    "description": "Google is trying to put an end to the copyright liability claim in its textbook piracy battle with several academic publishers. In a motion for partial judgment filed in a New York federal court, Google argues that the recent Supreme Court ruling in Cox v. Sony has effectively killed the copyright l",
-    "date": "Fri, 24 Apr 2026 14:16:32 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -218,10 +219,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Nex Playground available for pre-order in UK and Ireland at £269",
+    "title": "Gamecity Hamburg awards up to €80,000 to five games in latest Prototype Funding Round",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 18 May 2026 08:36:06 +0000",
+    "date": "Tue, 19 May 2026 09:58:41 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Original Doom soundtrack to be inducted into US National Recording Registry",
+    "link": "https://www.gamesindustry.biz/gamecity-hamburg-awards-up-to-80000-to-five-games-in-latest-prototype-funding-round",
+    "description": "Gamecity Hamburg has selected five digital games to receive up to &euro;80,000 each in non-repayable grants from its latest Prototype Funding Round. Read more",
+    "date": "Tue, 19 May 2026 07:23:26 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Meet Seed, the planet-sized society simulator",
+    "link": "https://www.gamesindustry.biz/sony-wont-be-bringing-any-more-single-player-games-to-pc-says-playstation-studios-boss",
+    "description": "Following rumors earlier this year that Sony had decided to pull back from releasing PlayStation 5 exclusives on PC, PlayStation Studios boss Hermen Hulst has now reportedly told staff that PlayStation's single-player games will remain exclusive to its own consoles. Read more",
+    "date": "Mon, 18 May 2026 13:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -233,17 +256,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/square-enix-fy26-operating-income-surges-349-despite-net-sales-decline",
     "description": "Square Enix has reported financial results for the year ending March 31, 2026, noting a decline in net sales due to reduced revenues from MMOs and games for smart devices and PC browsers. Read more",
     "date": "Thu, 14 May 2026 15:41:22 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "New AAA collective to publish Star Wars: Fate of the Old Republic plus games from CoD and Yu-Gi-Oh! veterans",
-    "link": "https://www.gamesindustry.biz/sensor-tower-acquires-appmagic",
-    "description": "Sensor Tower has acquired mobile app intelligence firm AppMagic for an undisclosed amount. Read more",
-    "date": "Wed, 13 May 2026 13:23:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -272,6 +284,33 @@ const ARIA_NEWS = {
       "torrent",
       "intellectual property"
     ]
+  },
+  {
+    "title": "Sony announces PlayStation Plus price rises \"due to ongoing market conditions\"",
+    "link": "https://www.gamesindustry.biz/original-doom-soundtrack-to-be-inducted-into-us-national-recording-registry",
+    "description": "The original Doom soundtrack will be added to the US National Recording Registry. Read more",
+    "date": "Mon, 18 May 2026 23:31:57 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Sony won't be bringing any more single-player games to PC, says PlayStation Studios boss",
+    "link": "https://www.gamesindustry.biz/sony-announces-playstation-plus-price-rises-due-to-ongoing-market-conditions",
+    "description": "Sony has confirmed price rises for its PlayStation Plus (PS+) subscription service. Read more",
+    "date": "Mon, 18 May 2026 19:12:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"Hydra is polished and battle-tested\" – Why Saber Interactive is opening up its live-ops tool all developers",
+    "link": "https://www.gamesindustry.biz/meet-seed-the-planet-sized-society-simulator",
+    "description": "Seed is one of those games that has the potential to either dominate the world, or collapse spectacularly under the weight of its own lofty ambitions. Read more",
+    "date": "Mon, 18 May 2026 12:16:33 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "The hangover kicks in after a decade of games-as-a-service obsession | Opinion",
@@ -305,42 +344,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/nintendo-clarifies-hardware-price-rises-were-due-to-sustained-component-and-market-costs",
     "description": "Nintendo president Shuntaro Furukawa explained the company's decision to  raise hardware prices, attributing it to current market conditions rather than a single factor. Read more",
     "date": "Thu, 14 May 2026 08:00:52 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "MercurySteam \"initiates a workforce adjustment process\"",
-    "link": "https://www.gamesindustry.biz/uk-games-industry-fundamentally-misunderstood-new-report-calls-for-unified-research-framework",
-    "description": "UKIE and entertainment charity OKRE have developed a framework to help the UK games industry maximise its economic and social value. Read more",
-    "date": "Wed, 13 May 2026 21:32:40 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Night Street Games cuts jobs after Last Flag fails to \"achieve the financial success we anticipated\"",
-    "link": "https://www.gamesindustry.biz/mercurysteam-initiates-a-workforce-adjustment-process",
-    "description": "Spanish studio MercurySteam has \"initiated a workforce adjustment process.\" Read more",
-    "date": "Wed, 13 May 2026 21:11:39 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Mouse: P.I. For Hire publisher PlaySide recoups all expenses since April launch",
-    "link": "https://www.gamesindustry.biz/night-street-games-cuts-jobs-after-last-flag-fails-to-achieve-the-financial-success-we-anticipated",
-    "description": "Just days after telling players that it wasn't \"going anywhere\" after pausing production on its hero shooter that launched just a few weeks ago, Night Street Games has made a \"reduction\" to its team. Read more",
-    "date": "Wed, 13 May 2026 20:53:39 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Warner Bros. Discovery once again glosses over gaming business in Q1 2026 financials",
-    "link": "https://www.gamesindustry.biz/mouse-pi-for-hire-publisher-playside-recoups-all-expenses-since-april-launch",
-    "description": "The publisher for Mouse: P.I. For Hire, the 1930s cartoon-styled shooter, has already recouped its expenses since its debut last month. Read more",
-    "date": "Wed, 13 May 2026 20:29:11 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
