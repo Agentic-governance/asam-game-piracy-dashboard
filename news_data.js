@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-19 10:00 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-20 09:49 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-19T10:00:08.002111",
+  fetched_at: "2026-05-20T09:49:59.819959",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "pirate",
-      "piracy",
       "torrent",
+      "pirate",
       "rom",
+      "piracy",
       "crack"
     ]
   },
@@ -26,10 +26,25 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "pirate",
-      "piracy",
       "crack",
+      "piracy",
+      "pirate",
       "rom"
+    ]
+  },
+  {
+    "title": "Lithuania Pitches Pirate Site Blocking as Defense Against &#8220;Hybrid Warfare,&#8221; Including Russian Disinformation",
+    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Project Hail Mary' tops the chart, followed by 'The Punisher: One Last Kill.' 'The Drama' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sun, 17 May 2026 11:15:02 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 9,
+    "matched_keywords": [
+      "torrent",
+      "pirate",
+      "rom",
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -40,24 +55,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
+      "takedown",
       "piracy",
-      "takedown"
-    ]
-  },
-  {
-    "title": "Court Awards Aylo $4.2 Million, Not $84 Million, in Pornhits Piracy Case",
-    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Project Hail Mary' tops the chart, followed by 'The Punisher: One Last Kill.' 'The Drama' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sun, 10 May 2026 10:38:53 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 9,
-    "matched_keywords": [
-      "pirate",
-      "piracy",
-      "torrent",
-      "copyright",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -68,23 +68,23 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
+      "torrent",
       "crack",
       "copyright",
-      "torrent"
+      "pirate"
     ]
   },
   {
-    "title": "Lithuania Pitches Pirate Site Blocking as Defense Against &#8220;Hybrid Warfare,&#8221; Including Russian Disinformation",
+    "title": "Top 10 Most Pirated Movies of The Week – 05/18/2026",
     "link": "https://torrentfreak.com/ace-subpoena-targets-french-private-tracker-chinese-pirate-forum-and-vietnamese-apis/",
     "description": "A new DMCA subpoena, requested by ACE, directs Cloudflare to help identify the operators of a geographically diverse list of pirate sites. In addition to the standard streaming portals, the legal paperwork mentions the French torrent tracker La Cale, the long-running Chinese BT Home forum, as well a",
-    "date": "Sun, 17 May 2026 11:15:02 +0000",
+    "date": "Sun, 17 May 2026 23:09:40 +0000",
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "dmca",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -95,9 +95,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "piracy",
-      "copyright"
+      "copyright",
+      "pirate"
+    ]
+  },
+  {
+    "title": "ACE Subpoena Targets French Private Tracker, Chinese Pirate Forum, and Vietnamese APIs",
+    "link": "https://torrentfreak.com/sky-sends-cease-and-desist-letters-to-200-irish-iptv-subscribers-exposed-via-revolut/",
+    "description": "Sky Ireland has sent more than 200 cease-and-desist letters to IPTV subscribers, who were uncovered as part of an earlier crackdown on a 'dodgy box' operator, where Revolut was ordered to cooperate. The media company asks the suspected pirates to immediately cancel all IPTV subscriptions, and to nev",
+    "date": "Tue, 19 May 2026 06:13:13 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "crack",
+      "pirate"
     ]
   },
   {
@@ -108,8 +120,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -120,8 +132,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -132,20 +144,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
-    ]
-  },
-  {
-    "title": "ACE Subpoena Targets French Private Tracker, Chinese Pirate Forum, and Vietnamese APIs",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 19 May 2026 06:13:13 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "pirate",
-      "copyright"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -180,31 +180,19 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Google Uses Cox Ruling to Kill Last Copyright Claim in Textbook Piracy Lawsuit",
-    "link": "https://torrentfreak.com/filmmakers-drop-piracy-liability-lawsuit-against-isp-rcn/",
-    "description": "A group of independent film companies has dropped its long-running piracy liability lawsuit against U.S. Internet provider RCN. The joint stipulation, filed in a New Jersey federal court, follows the Cox Supreme Court ruling. In addition to dropping a multi-million-dollar damages claim, the requeste",
-    "date": "Sun, 26 Apr 2026 18:39:26 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
       "piracy",
-      "copyright"
+      "torrent"
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 05/18/2026",
+    "title": "Court Awards Aylo $4.2 Million, Not $84 Million, in Pornhits Piracy Case",
     "link": "https://torrentfreak.com/publishers-seek-19-5-million-and-domain-takedown-order-against-annas-archive/",
     "description": "A group of high-profile publishing companies is seeking a $19.5 million default judgment against shadow library Anna's Archive. The proposed order comes with an injunction that would compel more than twenty named international domain registries, hosts, and service providers, including Cloudflare and",
-    "date": "Sun, 10 May 2026 23:09:40 +0000",
+    "date": "Sun, 10 May 2026 10:38:53 +0000",
     "source": "TorrentFreak",
     "relevance_score": 3,
     "matched_keywords": [
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -219,10 +207,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Gamecity Hamburg awards up to €80,000 to five games in latest Prototype Funding Round",
+    "title": "Wizards of the Coast ends partnership with Giant Skull",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 19 May 2026 09:58:41 +0000",
+    "date": "Wed, 20 May 2026 07:58:54 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Far Far West publisher says \"We don't work with partners that are relying on generative AI\"",
+    "link": "https://www.gamesindustry.biz/how-fireshine-games-backed-a-winner-with-far-far-west",
+    "description": "UK publisher Fireshine Games has scored a smash hit with the chaotic cyberpunk cowboy romp Far Far West, developed by French studio Evil Raptor. The game shifted 250,000 units in 48 hours after launching in Steam Early Access on April 28, going on to surpass the one million mark over the next two we",
+    "date": "Tue, 19 May 2026 12:26:12 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -281,9 +280,45 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "torrent",
-      "intellectual property"
+      "intellectual property",
+      "torrent"
     ]
+  },
+  {
+    "title": "Valve overhauls tag system on Steam to improve game discoverability",
+    "link": "https://www.gamesindustry.biz/wizards-of-the-coast-ends-partnership-with-giant-skull",
+    "description": "Wizards of the Coast has ended its publishing agreement with Giant Skull, leading to the cancellation of an action-adventure game set in the Dungeons & Dragons universe. Read more",
+    "date": "Tue, 19 May 2026 14:01:03 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Fortnite returns to iOS worldwide, excluding Australia, as Epic prepares for \"final battle\" over App Store fees",
+    "link": "https://www.gamesindustry.biz/valve-overhauls-tag-system-on-steam-to-improve-game-discoverability",
+    "description": "Valve has updated its tagging system on Steam, introducing 17 new classifications, eliminating 28, and consolidating or renaming several others. Read more",
+    "date": "Tue, 19 May 2026 12:59:09 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "How Fireshine Games backed a winner with Far Far West",
+    "link": "https://www.gamesindustry.biz/fortnite-returns-to-ios-worldwide-excluding-australia-as-epic-prepares-for-final-battle-over-app-store-fees",
+    "description": "Fortnite has returned to Apple's App Store worldwide, except in Australia, amid expectations that US federal courts will require Apple to disclose its fee structure. Read more",
+    "date": "Tue, 19 May 2026 12:51:12 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Gamecity Hamburg awards up to €80,000 to five games in latest Prototype Funding Round",
+    "link": "https://www.gamesindustry.biz/far-far-west-publisher-says-we-dont-work-with-partners-that-are-relying-on-generative-ai",
+    "description": "Fireshine Games, the publisher behind Steam hit Far Far West, has said it won't work with developers that use generative AI art. Read more",
+    "date": "Tue, 19 May 2026 09:58:41 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Sony announces PlayStation Plus price rises \"due to ongoing market conditions\"",
@@ -308,42 +343,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/meet-seed-the-planet-sized-society-simulator",
     "description": "Seed is one of those games that has the potential to either dominate the world, or collapse spectacularly under the weight of its own lofty ambitions. Read more",
     "date": "Mon, 18 May 2026 12:16:33 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "The hangover kicks in after a decade of games-as-a-service obsession | Opinion",
-    "link": "https://www.gamesindustry.biz/nex-playground-available-for-pre-order-in-uk-and-ireland-at-269",
-    "description": "Nex Playground is now available for pre-order in the UK and Ireland. Read more",
-    "date": "Fri, 15 May 2026 15:29:19 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Nexon Q1 net income rises 118% to $360.7m",
-    "link": "https://www.gamesindustry.biz/advocating-for-godot-a-report-from-a-maze-berlin-opinion",
-    "description": "And so to Berlin, where the A Maze indie games festival is celebrating its 15th year, and time continues to make fools of all of us. Read more",
-    "date": "Fri, 15 May 2026 10:43:36 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Nintendo clarifies hardware price rises were due to sustained component and market costs",
-    "link": "https://www.gamesindustry.biz/bfi-announces-recipients-of-ibd-awards-launches-new-funding-stream-for-uk-devs",
-    "description": "The BFI has announced the recipients of its International Business Development (IBD) awards and introduced a new funding stream to support video game marketing efforts. Read more",
-    "date": "Thu, 14 May 2026 10:15:18 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "UK games industry fundamentally misunderstood, new report calls for unified research framework",
-    "link": "https://www.gamesindustry.biz/nintendo-clarifies-hardware-price-rises-were-due-to-sustained-component-and-market-costs",
-    "description": "Nintendo president Shuntaro Furukawa explained the company's decision to  raise hardware prices, attributing it to current market conditions rather than a single factor. Read more",
-    "date": "Thu, 14 May 2026 08:00:52 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
