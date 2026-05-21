@@ -1,7 +1,7 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-20 09:49 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-21 09:57 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-20T09:49:59.819959",
-  item_count: 30,
+  fetched_at: "2026-05-21T09:57:13.940808",
+  item_count: 19,
   items: [
   {
     "title": "U.S. Removes Bulgaria from Piracy Watch List After Torrent Tracker Crackdown",
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "torrent",
-      "pirate",
+      "crack",
       "rom",
       "piracy",
-      "crack"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -40,11 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
-      "pirate",
-      "rom",
       "copyright",
-      "piracy"
+      "rom",
+      "piracy",
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -55,8 +55,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
       "piracy",
+      "takedown",
       "pirate"
     ]
   },
@@ -68,8 +68,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "torrent",
       "crack",
+      "torrent",
       "copyright",
       "pirate"
     ]
@@ -101,6 +101,18 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Anna&#8217;s Archive Hit With $19.5m Default Judgment and Global Domain Takedown Order",
+    "link": "https://torrentfreak.com/hollywood-secures-broad-omnibus-pirate-site-blocking-order-in-uk-high-court/",
+    "description": "A recent UK High Court \"omnibus\" order reportedly grants Hollywood studios the power to block rotating networks of pirate sites, without the need to link them to known pirate brands. The order is a response to rapid domain-hopping and other evasion tactics of pirate site operators. However, aside fr",
+    "date": "Wed, 20 May 2026 11:39:50 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "takedown",
+      "pirate"
+    ]
+  },
+  {
     "title": "ACE Subpoena Targets French Private Tracker, Chinese Pirate Forum, and Vietnamese APIs",
     "link": "https://torrentfreak.com/sky-sends-cease-and-desist-letters-to-200-irish-iptv-subscribers-exposed-via-revolut/",
     "description": "Sky Ireland has sent more than 200 cease-and-desist letters to IPTV subscribers, who were uncovered as part of an earlier crackdown on a 'dodgy box' operator, where Revolut was ordered to cooperate. The media company asks the suspected pirates to immediately cancel all IPTV subscriptions, and to nev",
@@ -125,27 +137,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "EU-Funded DNS Provider Must Block Pirate Sites, French Court Rules",
-    "link": "https://torrentfreak.com/mpa-renews-push-for-u-s-site-blocking-legislation-citing-live-sports-piracy/",
-    "description": "As lawmakers in U.S. Congress advance their pirate site blocking plans, the Motion Picture Association is publicly reiterating the need for such legislation. In a World IP Day post, MPA Global General Counsel Karyn Temple frames live sports piracy as an urgent threat. She argues that a U.S. site blo",
-    "date": "Wed, 29 Apr 2026 06:41:06 +0000",
+    "title": "Hollywood Secures Broad &#8220;Omnibus&#8221; Pirate Site Blocking Order in UK High Court",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Thu, 21 May 2026 08:09:52 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 6,
+    "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
+      "copyright",
       "pirate"
-    ]
-  },
-  {
-    "title": "Filmmakers Drop Piracy Liability Lawsuit Against ISP RCN",
-    "link": "https://torrentfreak.com/eu-funded-dns-provider-must-block-pirate-sites-french-court-rules/",
-    "description": "DNS4EU, an EU-funded initiative that aims to offer a secure and privacy-focused DNS resolver for Europeans, is the latest intermediary to get caught up in the French anti-piracy crackdown. In a series of orders in favor of Canal+, the Paris court ordered search engines, ISPs, DNS providers, VPNs, an",
-    "date": "Tue, 28 Apr 2026 06:19:24 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "crack",
-      "piracy"
     ]
   },
   {
@@ -207,61 +207,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Wizards of the Coast ends partnership with Giant Skull",
-    "link": "https://www.gamesindustry.biz/feed",
-    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 20 May 2026 07:58:54 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Far Far West publisher says \"We don't work with partners that are relying on generative AI\"",
-    "link": "https://www.gamesindustry.biz/how-fireshine-games-backed-a-winner-with-far-far-west",
-    "description": "UK publisher Fireshine Games has scored a smash hit with the chaotic cyberpunk cowboy romp Far Far West, developed by French studio Evil Raptor. The game shifted 250,000 units in 48 hours after launching in Steam Early Access on April 28, going on to surpass the one million mark over the next two we",
-    "date": "Tue, 19 May 2026 12:26:12 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Original Doom soundtrack to be inducted into US National Recording Registry",
-    "link": "https://www.gamesindustry.biz/gamecity-hamburg-awards-up-to-80000-to-five-games-in-latest-prototype-funding-round",
-    "description": "Gamecity Hamburg has selected five digital games to receive up to &euro;80,000 each in non-repayable grants from its latest Prototype Funding Round. Read more",
-    "date": "Tue, 19 May 2026 07:23:26 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Meet Seed, the planet-sized society simulator",
-    "link": "https://www.gamesindustry.biz/sony-wont-be-bringing-any-more-single-player-games-to-pc-says-playstation-studios-boss",
-    "description": "Following rumors earlier this year that Sony had decided to pull back from releasing PlayStation 5 exclusives on PC, PlayStation Studios boss Hermen Hulst has now reportedly told staff that PlayStation's single-player games will remain exclusive to its own consoles. Read more",
-    "date": "Mon, 18 May 2026 13:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Mobile gaming has a new, and growing, measurement problem | Opinion",
-    "link": "https://www.gamesindustry.biz/square-enix-fy26-operating-income-surges-349-despite-net-sales-decline",
-    "description": "Square Enix has reported financial results for the year ending March 31, 2026, noting a decline in net sales due to reduced revenues from MMOs and games for smart devices and PC browsers. Read more",
-    "date": "Thu, 14 May 2026 15:41:22 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Patch Tuesday, April 2026 Edition",
     "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
     "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to ",
@@ -280,72 +225,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "intellectual property",
-      "torrent"
+      "torrent",
+      "intellectual property"
     ]
   },
   {
-    "title": "Valve overhauls tag system on Steam to improve game discoverability",
-    "link": "https://www.gamesindustry.biz/wizards-of-the-coast-ends-partnership-with-giant-skull",
-    "description": "Wizards of the Coast has ended its publishing agreement with Giant Skull, leading to the cancellation of an action-adventure game set in the Dungeons & Dragons universe. Read more",
-    "date": "Tue, 19 May 2026 14:01:03 +0000",
-    "source": "GamesIndustry",
+    "title": "Patents, Property Rights, and What Patent Policy Keeps Getting Wrong &#124; IPWatchdog Unleashed",
+    "link": "https://ipwatchdog.com/",
+    "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
+    "date": "Wed, 20 May 2026 17:21:21 +0000",
+    "source": "IPWatchdog",
     "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Fortnite returns to iOS worldwide, excluding Australia, as Epic prepares for \"final battle\" over App Store fees",
-    "link": "https://www.gamesindustry.biz/valve-overhauls-tag-system-on-steam-to-improve-game-discoverability",
-    "description": "Valve has updated its tagging system on Steam, introducing 17 new classifications, eliminating 28, and consolidating or renaming several others. Read more",
-    "date": "Tue, 19 May 2026 12:59:09 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "How Fireshine Games backed a winner with Far Far West",
-    "link": "https://www.gamesindustry.biz/fortnite-returns-to-ios-worldwide-excluding-australia-as-epic-prepares-for-final-battle-over-app-store-fees",
-    "description": "Fortnite has returned to Apple's App Store worldwide, except in Australia, amid expectations that US federal courts will require Apple to disclose its fee structure. Read more",
-    "date": "Tue, 19 May 2026 12:51:12 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Gamecity Hamburg awards up to €80,000 to five games in latest Prototype Funding Round",
-    "link": "https://www.gamesindustry.biz/far-far-west-publisher-says-we-dont-work-with-partners-that-are-relying-on-generative-ai",
-    "description": "Fireshine Games, the publisher behind Steam hit Far Far West, has said it won't work with developers that use generative AI art. Read more",
-    "date": "Tue, 19 May 2026 09:58:41 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Sony announces PlayStation Plus price rises \"due to ongoing market conditions\"",
-    "link": "https://www.gamesindustry.biz/original-doom-soundtrack-to-be-inducted-into-us-national-recording-registry",
-    "description": "The original Doom soundtrack will be added to the US National Recording Registry. Read more",
-    "date": "Mon, 18 May 2026 23:31:57 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Sony won't be bringing any more single-player games to PC, says PlayStation Studios boss",
-    "link": "https://www.gamesindustry.biz/sony-announces-playstation-plus-price-rises-due-to-ongoing-market-conditions",
-    "description": "Sony has confirmed price rises for its PlayStation Plus (PS+) subscription service. Read more",
-    "date": "Mon, 18 May 2026 19:12:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"Hydra is polished and battle-tested\" – Why Saber Interactive is opening up its live-ops tool all developers",
-    "link": "https://www.gamesindustry.biz/meet-seed-the-planet-sized-society-simulator",
-    "description": "Seed is one of those games that has the potential to either dominate the world, or collapse spectacularly under the weight of its own lofty ambitions. Read more",
-    "date": "Mon, 18 May 2026 12:16:33 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
+    "matched_keywords": [
+      "copyright",
+      "intellectual property"
+    ]
   }
 ]
 };
