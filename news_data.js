@@ -1,7 +1,7 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-21 09:57 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-22 09:42 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-21T09:57:13.940808",
-  item_count: 19,
+  fetched_at: "2026-05-22T09:42:21.245807",
+  item_count: 21,
   items: [
   {
     "title": "U.S. Removes Bulgaria from Piracy Watch List After Torrent Tracker Crackdown",
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "crack",
-      "rom",
-      "piracy",
+      "pirate",
       "torrent",
-      "pirate"
+      "crack",
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "crack",
       "piracy",
+      "rom",
       "pirate",
-      "rom"
+      "crack"
     ]
   },
   {
@@ -40,11 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
-      "rom",
-      "piracy",
+      "pirate",
       "torrent",
-      "pirate"
+      "copyright",
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -56,8 +56,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "piracy",
-      "takedown",
-      "pirate"
+      "pirate",
+      "takedown"
     ]
   },
   {
@@ -68,10 +68,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "crack",
-      "torrent",
       "copyright",
-      "pirate"
+      "pirate",
+      "crack",
+      "torrent"
     ]
   },
   {
@@ -82,9 +82,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "dmca",
+      "pirate",
       "torrent",
-      "pirate"
+      "dmca"
     ]
   },
   {
@@ -96,8 +96,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -108,8 +108,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "takedown",
-      "pirate"
+      "pirate",
+      "takedown"
     ]
   },
   {
@@ -120,8 +120,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "pirate"
+      "pirate",
+      "crack"
     ]
   },
   {
@@ -144,8 +144,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -207,6 +207,28 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Alleged Kimwolf Botmaster &#8216;Dort&#8217; Arrested, Charged in U.S. and Canada",
+    "link": "https://krebsonsecurity.com",
+    "description": "In-depth security news and investigation",
+    "date": "Thu, 21 May 2026 21:50:25 +0000",
+    "source": "KrebsOnSecurity",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "arrested"
+    ]
+  },
+  {
+    "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
+    "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
+    "description": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for use in a series of massive distributed denial-of-service (DDoS) attacks over the past six months. Krebs",
+    "date": "Mon, 18 May 2026 20:48:21 +0000",
+    "source": "KrebsOnSecurity",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "arrested"
+    ]
+  },
+  {
     "title": "Patch Tuesday, April 2026 Edition",
     "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
     "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to ",
@@ -225,20 +247,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "torrent",
-      "intellectual property"
+      "intellectual property",
+      "torrent"
     ]
   },
   {
-    "title": "Patents, Property Rights, and What Patent Policy Keeps Getting Wrong &#124; IPWatchdog Unleashed",
+    "title": "Federal Circuit Affirms PTAB Ruling That Samesurf’s Shared Browsing Patent Claims Are Unpatentable",
     "link": "https://ipwatchdog.com/",
     "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
-    "date": "Wed, 20 May 2026 17:21:21 +0000",
+    "date": "Thu, 21 May 2026 19:40:46 +0000",
     "source": "IPWatchdog",
     "relevance_score": 2,
     "matched_keywords": [
-      "copyright",
-      "intellectual property"
+      "intellectual property",
+      "copyright"
     ]
   }
 ]
