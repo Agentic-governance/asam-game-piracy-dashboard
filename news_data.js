@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-22 09:42 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-23 08:28 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-22T09:42:21.245807",
+  fetched_at: "2026-05-23T08:28:13.517551",
   item_count: 21,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "pirate",
-      "torrent",
-      "crack",
       "piracy",
-      "rom"
+      "rom",
+      "torrent",
+      "pirate",
+      "crack"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "piracy",
-      "rom",
+      "crack",
       "pirate",
-      "crack"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -40,11 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
+      "piracy",
+      "rom",
       "torrent",
       "copyright",
-      "piracy",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -55,9 +55,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
+      "takedown",
       "pirate",
-      "takedown"
+      "piracy"
     ]
   },
   {
@@ -68,9 +68,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
+      "crack",
       "copyright",
       "pirate",
-      "crack",
       "torrent"
     ]
   },
@@ -82,9 +82,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "dmca",
       "pirate",
-      "torrent",
-      "dmca"
+      "torrent"
     ]
   },
   {
@@ -95,9 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
+      "copyright",
       "pirate",
-      "copyright"
+      "piracy"
     ]
   },
   {
@@ -108,8 +108,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "takedown"
+      "takedown",
+      "pirate"
     ]
   },
   {
@@ -120,8 +120,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "crack"
+      "crack",
+      "pirate"
     ]
   },
   {
@@ -132,20 +132,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
-    "title": "Hollywood Secures Broad &#8220;Omnibus&#8221; Pirate Site Blocking Order in UK High Court",
+    "title": "Spanish Court Declines to Fine NordVPN Over LaLiga Piracy Blocking Order",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Thu, 21 May 2026 08:09:52 +0000",
+    "date": "Fri, 22 May 2026 13:59:52 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -156,8 +156,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -168,8 +168,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -180,8 +180,31 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Alleged Kimwolf Botmaster &#8216;Dort&#8217; Arrested, Charged in U.S. and Canada",
+    "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+    "description": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub ac",
+    "date": "Thu, 21 May 2026 21:50:25 +0000",
+    "source": "KrebsOnSecurity",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "arrested",
+      "rom"
+    ]
+  },
+  {
+    "title": "Hollywood Secures Broad &#8220;Omnibus&#8221; Pirate Site Blocking Order in UK High Court",
+    "link": "https://torrentfreak.com/spanish-court-declines-to-fine-nordvpn-over-laliga-piracy-blocking-order/",
+    "description": "Three months after a Spanish court ordered NordVPN and ProtonVPN to block pirate football streams, NordVPN says the same court has refused to punish the provider for non-compliance. The VPN company says the Commercial Court of Córdoba rejected LaLiga's request for coercive fines, accepting that ther",
+    "date": "Thu, 21 May 2026 08:09:52 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "pirate"
     ]
   },
   {
@@ -193,28 +216,6 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "piracy"
-    ]
-  },
-  {
-    "title": "MPA Renews Push for U.S. Site-Blocking Legislation, Citing Live Sports Piracy",
-    "link": "https://torrentfreak.com/report-links-piracy-to-drugs-weapons-and-the-mafia-calls-for-u-s-site-blocking/",
-    "description": "A new report by the Digital Citizens Alliance and IP House argues that piracy has become more organized and sophisticated over the years. In some cases, it has been linked to other criminal elements, including drugs, weapons, and the mafia. The report calls for site-blocking legislation and urges Co",
-    "date": "Thu, 30 Apr 2026 12:39:34 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "piracy"
-    ]
-  },
-  {
-    "title": "Alleged Kimwolf Botmaster &#8216;Dort&#8217; Arrested, Charged in U.S. and Canada",
-    "link": "https://krebsonsecurity.com",
-    "description": "In-depth security news and investigation",
-    "date": "Thu, 21 May 2026 21:50:25 +0000",
-    "source": "KrebsOnSecurity",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "arrested"
     ]
   },
   {
@@ -252,15 +253,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Federal Circuit Affirms PTAB Ruling That Samesurf’s Shared Browsing Patent Claims Are Unpatentable",
+    "title": "Other Barks &#038; Bites for Friday, May 22: CAFC Vacates Improper Rejection of Unjust Enrichment in Trade Secret Case; EU Call for Evidence Targets Generative AI’s Impact on Copyright; and Director Squires Argues CAFC’s Lack of Jurisdiction to Hear InComm Appeal",
     "link": "https://ipwatchdog.com/",
     "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
-    "date": "Thu, 21 May 2026 19:40:46 +0000",
+    "date": "Fri, 22 May 2026 17:05:10 +0000",
     "source": "IPWatchdog",
     "relevance_score": 2,
     "matched_keywords": [
-      "intellectual property",
-      "copyright"
+      "copyright",
+      "intellectual property"
     ]
   }
 ]
