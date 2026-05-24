@@ -1,7 +1,7 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-23 08:28 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-24 08:40 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-23T08:28:13.517551",
-  item_count: 21,
+  fetched_at: "2026-05-24T08:40:56.876933",
+  item_count: 29,
   items: [
   {
     "title": "U.S. Removes Bulgaria from Piracy Watch List After Torrent Tracker Crackdown",
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "piracy",
       "rom",
+      "crack",
       "torrent",
-      "pirate",
-      "crack"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "crack",
-      "pirate",
+      "piracy",
       "rom",
-      "piracy"
+      "crack",
+      "pirate"
     ]
   },
   {
@@ -40,10 +40,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
+      "copyright",
       "rom",
       "torrent",
-      "copyright",
+      "piracy",
       "pirate"
     ]
   },
@@ -55,9 +55,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
+      "piracy",
       "pirate",
-      "piracy"
+      "takedown"
     ]
   },
   {
@@ -69,9 +69,9 @@ const ARIA_NEWS = {
     "relevance_score": 8,
     "matched_keywords": [
       "crack",
-      "copyright",
       "pirate",
-      "torrent"
+      "torrent",
+      "copyright"
     ]
   },
   {
@@ -95,9 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "copyright",
+      "piracy",
       "pirate",
-      "piracy"
+      "copyright"
     ]
   },
   {
@@ -108,8 +108,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "takedown",
-      "pirate"
+      "pirate",
+      "takedown"
     ]
   },
   {
@@ -132,8 +132,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -144,8 +144,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -156,8 +156,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -168,8 +168,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -180,8 +180,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -192,8 +192,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
     ]
   },
   {
@@ -216,6 +216,39 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "piracy"
+    ]
+  },
+  {
+    "title": "The future of European publishing is diversity, not concentration | Opinion",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Fri, 22 May 2026 13:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"People want MMOs, and the sales of New World proved it\" – Cryptic Studios head Jack Emmert on why MMOs are ripe for reinvention",
+    "link": "https://www.gamesindustry.biz/the-future-of-european-publishing-is-diversity-not-concentration-opinion",
+    "description": "It would be easy to look at this week's headlines and conclude that Europe's game publishing sector is in terminal decline. Results from Ubisoft and Embracer, released within hours of each other on Wednesday, both looked bleak in different ways. Ubisoft's revenue slumped again, while Embracer beat i",
+    "date": "Fri, 22 May 2026 11:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Quantic Dream cancels first multiplayer title Spellcasters Chronicles",
+    "link": "https://www.gamesindustry.biz/dont-build-a-studio-that-requires-a-massive-hit-to-survive-veteran-bioware-devs-form-studio-reset",
+    "description": "Studio Reset, a new Canadian indie studio, has been founded by veteran developers from BioWare, Inflexion Games, and Timbre Games. Read more",
+    "date": "Thu, 21 May 2026 07:07:49 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
     ]
   },
   {
@@ -248,9 +281,54 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "intellectual property",
-      "torrent"
+      "torrent",
+      "intellectual property"
     ]
+  },
+  {
+    "title": "Former Housemarque game director launches Cosmic Division",
+    "link": "https://www.gamesindustry.biz/fortyseven-communications-to-open-uk-branch-sister-agency-indigo-pearl-joins-the-fold",
+    "description": "US-based games PR firm Fortyseven Communications will open a London office and integrate its sister agency, Indigo Pearl. Read more",
+    "date": "Thu, 21 May 2026 10:55:12 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"Don't build a studio that requires a massive hit to survive\" – Veteran BioWare devs form Studio Reset",
+    "link": "https://www.gamesindustry.biz/former-housemarque-game-director-launches-cosmic-division",
+    "description": "Returnal game director Harry Krueger has founded a new game studio, Cosmic Division. Read more",
+    "date": "Thu, 21 May 2026 09:37:58 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Xbox announces hire of veteran analyst Matthew Ball as chief strategy officer, and AI and Amazon veteran as CTO",
+    "link": "https://www.gamesindustry.biz/ubisofts-full-fy26-financials-report-shows-a-sharp-decline-in-revenue-and-net-bookings",
+    "description": "Ubisoft has released its financial results for the full 25-26 fiscal year, reporting a sharp decline in revenue and net bookings, down 21.8% and 17.4% year-over-year (YoY), respectively, due to the \"softer new release schedule\" and new operating model. Read more",
+    "date": "Wed, 20 May 2026 18:00:44 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Clair Obscur: Expedition 33 and Ghost of Yōtei lead Develop:Star Awards 2026",
+    "link": "https://www.gamesindustry.biz/xbox-announces-hire-of-veteran-analyst-matthew-ball-as-chief-strategy-officer-and-ai-and-amazon-veteran-as-cto",
+    "description": "Xbox CEO Asha Sharma has made further changes to the brand's leadership team, appointing industry analyst Matthew Ball as chief strategy officer and Scott Van Vliet as chief technology officer. Ball is a venture partner, advisor and investor who has become well-known for his annual industry reports ",
+    "date": "Wed, 20 May 2026 17:29:28 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Valve overhauls tag system on Steam to improve game discoverability",
+    "link": "https://www.gamesindustry.biz/wizards-of-the-coast-ends-partnership-with-giant-skull",
+    "description": "Wizards of the Coast has ended its publishing agreement with Giant Skull, leading to the cancellation of an action-adventure game set in the Dungeons & Dragons universe. Read more",
+    "date": "Tue, 19 May 2026 14:01:03 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Other Barks &#038; Bites for Friday, May 22: CAFC Vacates Improper Rejection of Unjust Enrichment in Trade Secret Case; EU Call for Evidence Targets Generative AI’s Impact on Copyright; and Director Squires Argues CAFC’s Lack of Jurisdiction to Hear InComm Appeal",
@@ -260,8 +338,8 @@ const ARIA_NEWS = {
     "source": "IPWatchdog",
     "relevance_score": 2,
     "matched_keywords": [
-      "copyright",
-      "intellectual property"
+      "intellectual property",
+      "copyright"
     ]
   }
 ]
