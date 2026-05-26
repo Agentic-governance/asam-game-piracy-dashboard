@@ -1,7 +1,7 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-25 10:24 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-26 10:12 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-25T10:24:45.249020",
-  item_count: 21,
+  fetched_at: "2026-05-26T10:12:39.450757",
+  item_count: 30,
   items: [
   {
     "title": "U.S. Removes Bulgaria from Piracy Watch List After Torrent Tracker Crackdown",
@@ -12,10 +12,10 @@ const ARIA_NEWS = {
     "relevance_score": 11,
     "matched_keywords": [
       "crack",
-      "rom",
-      "pirate",
+      "torrent",
       "piracy",
-      "torrent"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -27,8 +27,23 @@ const ARIA_NEWS = {
     "relevance_score": 10,
     "matched_keywords": [
       "crack",
-      "rom",
       "piracy",
+      "rom",
+      "pirate"
+    ]
+  },
+  {
+    "title": "Premier League Wants Domain Registrar Tucows to Unmask Sports Streaming Pirates",
+    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Mortal Kombat II' tops the chart, followed by 'Project Hail Mary.' 'The Devil Wears Prada 2' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sun, 24 May 2026 12:56:02 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 9,
+    "matched_keywords": [
+      "torrent",
+      "copyright",
+      "piracy",
+      "rom",
       "pirate"
     ]
   },
@@ -43,21 +58,6 @@ const ARIA_NEWS = {
       "dmca",
       "piracy",
       "pirate"
-    ]
-  },
-  {
-    "title": "Lithuania Pitches Pirate Site Blocking as Defense Against &#8220;Hybrid Warfare,&#8221; Including Russian Disinformation",
-    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Project Hail Mary' tops the chart, followed by 'The Punisher: One Last Kill.' 'The Drama' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sun, 17 May 2026 11:15:02 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 9,
-    "matched_keywords": [
-      "rom",
-      "torrent",
-      "pirate",
-      "piracy",
-      "copyright"
     ]
   },
   {
@@ -82,21 +82,21 @@ const ARIA_NEWS = {
     "relevance_score": 8,
     "matched_keywords": [
       "crack",
-      "copyright",
       "torrent",
+      "copyright",
       "pirate"
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 05/18/2026",
+    "title": "Lithuania Pitches Pirate Site Blocking as Defense Against &#8220;Hybrid Warfare,&#8221; Including Russian Disinformation",
     "link": "https://torrentfreak.com/ace-subpoena-targets-french-private-tracker-chinese-pirate-forum-and-vietnamese-apis/",
     "description": "A new DMCA subpoena, requested by ACE, directs Cloudflare to help identify the operators of a geographically diverse list of pirate sites. In addition to the standard streaming portals, the legal paperwork mentions the French torrent tracker La Cale, the long-running Chinese BT Home forum, as well a",
-    "date": "Sun, 17 May 2026 23:09:40 +0000",
+    "date": "Sun, 17 May 2026 11:15:02 +0000",
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "dmca",
       "torrent",
+      "dmca",
       "pirate"
     ]
   },
@@ -114,10 +114,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Premier League Wants Domain Registrar Tucows to Unmask Sports Streaming Pirates",
+    "title": "Top 10 Most Pirated Movies of The Week – 05/25/2026",
     "link": "https://torrentfreak.com/italian-police-target-previously-unseen-streaming-piracy-tech-that-looks-familiar/",
     "description": "Italy's Guardia di Finanza dismantled a piracy system it says it had never seen until now, carrying out more than 100 searches and seizures. The system relied on an app called CinemaGoal that constantly passed on the access codes of legitimate Sky, DAZN, Netflix, Spotify and Disney+ accounts to its ",
-    "date": "Sun, 24 May 2026 12:56:02 +0000",
+    "date": "Sun, 24 May 2026 23:09:40 +0000",
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
@@ -169,8 +169,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -181,8 +181,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -193,8 +193,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -205,8 +205,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
     ]
   },
   {
@@ -232,6 +232,61 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Nintendo reportedly planning 20% production increase for Switch 2",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Tue, 26 May 2026 09:51:47 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Microsoft agrees to pay $250m to settle lawsuit over Activision Blizzard deal",
+    "link": "https://www.gamesindustry.biz/nintendo-reportedly-planning-20-production-increase-for-switch-2",
+    "description": "Nintendo reportedly plans to increase Switch 2 hardware production to 20 million units, a 20% rise, despite previously  forecasting a sales decline from 16.9% to 16.5 million units for the next fiscal year. Read more",
+    "date": "Tue, 26 May 2026 08:46:24 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"People want MMOs, and the sales of New World proved it\" – Cryptic Studios head Jack Emmert on why MMOs are ripe for reinvention",
+    "link": "https://www.gamesindustry.biz/the-future-of-european-publishing-is-diversity-not-concentration-opinion",
+    "description": "It would be easy to look at this week's headlines and conclude that Europe's game publishing sector is in terminal decline. Results from Ubisoft and Embracer, released within hours of each other on Wednesday, both looked bleak in different ways. Ubisoft's revenue slumped again, while Embracer beat i",
+    "date": "Fri, 22 May 2026 11:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Quantic Dream cancels first multiplayer title Spellcasters Chronicles",
+    "link": "https://www.gamesindustry.biz/dont-build-a-studio-that-requires-a-massive-hit-to-survive-veteran-bioware-devs-form-studio-reset",
+    "description": "Studio Reset, a new Canadian indie studio, has been founded by veteran developers from BioWare, Inflexion Games, and Timbre Games. Read more",
+    "date": "Thu, 21 May 2026 07:07:49 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
+    "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
+    "description": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecu",
+    "date": "Fri, 22 May 2026 16:34:24 +0000",
+    "source": "KrebsOnSecurity",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "arrested"
+    ]
+  },
+  {
     "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
     "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
     "description": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for use in a series of massive distributed denial-of-service (DDoS) attacks over the past six months. Krebs",
@@ -254,15 +309,51 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Aurora Patents is Seeking a Software and Medical Device Patent Agent (Remote)",
+    "title": "Former Housemarque game director launches Cosmic Division",
+    "link": "https://www.gamesindustry.biz/fortyseven-communications-to-open-uk-branch-sister-agency-indigo-pearl-joins-the-fold",
+    "description": "US-based games PR firm Fortyseven Communications will open a London office and integrate its sister agency, Indigo Pearl. Read more",
+    "date": "Thu, 21 May 2026 10:55:12 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"Don't build a studio that requires a massive hit to survive\" – Veteran BioWare devs form Studio Reset",
+    "link": "https://www.gamesindustry.biz/former-housemarque-game-director-launches-cosmic-division",
+    "description": "Returnal game director Harry Krueger has founded a new game studio, Cosmic Division. Read more",
+    "date": "Thu, 21 May 2026 09:37:58 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Xbox announces hire of veteran analyst Matthew Ball as chief strategy officer, and AI and Amazon veteran as CTO",
+    "link": "https://www.gamesindustry.biz/ubisofts-full-fy26-financials-report-shows-a-sharp-decline-in-revenue-and-net-bookings",
+    "description": "Ubisoft has released its financial results for the full 25-26 fiscal year, reporting a sharp decline in revenue and net bookings, down 21.8% and 17.4% year-over-year (YoY), respectively, due to the \"softer new release schedule\" and new operating model. Read more",
+    "date": "Wed, 20 May 2026 18:00:44 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Clair Obscur: Expedition 33 and Ghost of Yōtei lead Develop:Star Awards 2026",
+    "link": "https://www.gamesindustry.biz/xbox-announces-hire-of-veteran-analyst-matthew-ball-as-chief-strategy-officer-and-ai-and-amazon-veteran-as-cto",
+    "description": "Xbox CEO Asha Sharma has made further changes to the brand's leadership team, appointing industry analyst Matthew Ball as chief strategy officer and Scott Van Vliet as chief technology officer. Ball is a venture partner, advisor and investor who has become well-known for his annual industry reports ",
+    "date": "Wed, 20 May 2026 17:29:28 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "CAFC Finds District Court Erred in Precluding Unjust Enrichment Damages in Trade Secret Case",
     "link": "https://ipwatchdog.com/",
     "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
-    "date": "Mon, 25 May 2026 09:15:10 +0000",
+    "date": "Mon, 25 May 2026 16:15:27 +0000",
     "source": "IPWatchdog",
     "relevance_score": 2,
     "matched_keywords": [
-      "copyright",
-      "intellectual property"
+      "intellectual property",
+      "copyright"
     ]
   }
 ]
