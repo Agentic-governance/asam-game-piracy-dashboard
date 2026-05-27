@@ -1,7 +1,7 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-26 10:12 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-27 10:10 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-26T10:12:39.450757",
-  item_count: 30,
+  fetched_at: "2026-05-27T10:10:56.173368",
+  item_count: 21,
   items: [
   {
     "title": "U.S. Removes Bulgaria from Piracy Watch List After Torrent Tracker Crackdown",
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "crack",
-      "torrent",
       "piracy",
+      "crack",
       "rom",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "crack",
+      "pirate",
       "piracy",
-      "rom",
-      "pirate"
+      "crack",
+      "rom"
     ]
   },
   {
@@ -40,11 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
-      "copyright",
       "piracy",
+      "copyright",
       "rom",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -55,9 +55,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "pirate",
       "dmca",
-      "piracy",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -68,9 +68,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "pirate",
       "takedown",
-      "piracy",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -81,10 +81,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "crack",
-      "torrent",
+      "pirate",
       "copyright",
-      "pirate"
+      "crack",
+      "torrent"
     ]
   },
   {
@@ -95,9 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
+      "pirate",
       "dmca",
-      "pirate"
+      "torrent"
     ]
   },
   {
@@ -108,9 +108,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "pirate",
       "copyright",
-      "piracy",
-      "pirate"
+      "piracy"
+    ]
+  },
+  {
+    "title": "Italian Police Target &#8220;Previously Unseen&#8221; Streaming Piracy Tech That Looks Familiar",
+    "link": "https://torrentfreak.com/mexican-president-responds-to-world-cup-piracy-concerns-prefers-open-broadcasts/",
+    "description": "With the FIFA World Cup coming up soon, the organizers of one of Mexico's host cities have asked the country's consumer watchdog to warn the public off pirate streaming services, including KaelusTV, ThunderTV, and Sunset TV. The government is not eager to step in to protect the commercial broadcast ",
+    "date": "Mon, 25 May 2026 09:00:33 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -121,8 +133,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -133,8 +145,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "takedown",
-      "pirate"
+      "pirate",
+      "takedown"
     ]
   },
   {
@@ -145,8 +157,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "pirate"
+      "pirate",
+      "crack"
     ]
   },
   {
@@ -157,20 +169,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
-    "title": "Italian Police Target &#8220;Previously Unseen&#8221; Streaming Piracy Tech That Looks Familiar",
+    "title": "Mexican President Responds to World Cup Piracy Concerns, Prefers &#8216;Open&#8217; Broadcasts",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Mon, 25 May 2026 09:00:33 +0000",
+    "date": "Wed, 27 May 2026 07:13:56 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -183,18 +195,6 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy",
       "rom"
-    ]
-  },
-  {
-    "title": "U.S. Brands Vietnam as a Rare &#8216;Priority Foreign Country&#8217; Over Online Piracy Concerns",
-    "link": "https://torrentfreak.com/reddit-reports-resurgence-in-user-bans-over-copyright-infringement/",
-    "description": "Reddit's latest transparency report shows a sharp jump in account bans for repeat copyright infringement, while the number of banned subreddits dropped significantly. The data, covering the latter half of 2025, also shows rightsholders reported 425,471 pieces of allegedly infringing content, of whic",
-    "date": "Mon, 04 May 2026 08:50:27 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "piracy",
-      "copyright"
     ]
   },
   {
@@ -232,50 +232,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Nintendo reportedly planning 20% production increase for Switch 2",
-    "link": "https://www.gamesindustry.biz/feed",
-    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 26 May 2026 09:51:47 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Microsoft agrees to pay $250m to settle lawsuit over Activision Blizzard deal",
-    "link": "https://www.gamesindustry.biz/nintendo-reportedly-planning-20-production-increase-for-switch-2",
-    "description": "Nintendo reportedly plans to increase Switch 2 hardware production to 20 million units, a 20% rise, despite previously  forecasting a sales decline from 16.9% to 16.5 million units for the next fiscal year. Read more",
-    "date": "Tue, 26 May 2026 08:46:24 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "\"People want MMOs, and the sales of New World proved it\" – Cryptic Studios head Jack Emmert on why MMOs are ripe for reinvention",
-    "link": "https://www.gamesindustry.biz/the-future-of-european-publishing-is-diversity-not-concentration-opinion",
-    "description": "It would be easy to look at this week's headlines and conclude that Europe's game publishing sector is in terminal decline. Results from Ubisoft and Embracer, released within hours of each other on Wednesday, both looked bleak in different ways. Ubisoft's revenue slumped again, while Embracer beat i",
-    "date": "Fri, 22 May 2026 11:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Quantic Dream cancels first multiplayer title Spellcasters Chronicles",
-    "link": "https://www.gamesindustry.biz/dont-build-a-studio-that-requires-a-massive-hit-to-survive-veteran-bioware-devs-form-studio-reset",
-    "description": "Studio Reset, a new Canadian indie studio, has been founded by veteran developers from BioWare, Inflexion Games, and Timbre Games. Read more",
-    "date": "Thu, 21 May 2026 07:07:49 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
     "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
     "description": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecu",
@@ -306,54 +262,6 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "piracy"
-    ]
-  },
-  {
-    "title": "Former Housemarque game director launches Cosmic Division",
-    "link": "https://www.gamesindustry.biz/fortyseven-communications-to-open-uk-branch-sister-agency-indigo-pearl-joins-the-fold",
-    "description": "US-based games PR firm Fortyseven Communications will open a London office and integrate its sister agency, Indigo Pearl. Read more",
-    "date": "Thu, 21 May 2026 10:55:12 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"Don't build a studio that requires a massive hit to survive\" – Veteran BioWare devs form Studio Reset",
-    "link": "https://www.gamesindustry.biz/former-housemarque-game-director-launches-cosmic-division",
-    "description": "Returnal game director Harry Krueger has founded a new game studio, Cosmic Division. Read more",
-    "date": "Thu, 21 May 2026 09:37:58 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Xbox announces hire of veteran analyst Matthew Ball as chief strategy officer, and AI and Amazon veteran as CTO",
-    "link": "https://www.gamesindustry.biz/ubisofts-full-fy26-financials-report-shows-a-sharp-decline-in-revenue-and-net-bookings",
-    "description": "Ubisoft has released its financial results for the full 25-26 fiscal year, reporting a sharp decline in revenue and net bookings, down 21.8% and 17.4% year-over-year (YoY), respectively, due to the \"softer new release schedule\" and new operating model. Read more",
-    "date": "Wed, 20 May 2026 18:00:44 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Clair Obscur: Expedition 33 and Ghost of Yōtei lead Develop:Star Awards 2026",
-    "link": "https://www.gamesindustry.biz/xbox-announces-hire-of-veteran-analyst-matthew-ball-as-chief-strategy-officer-and-ai-and-amazon-veteran-as-cto",
-    "description": "Xbox CEO Asha Sharma has made further changes to the brand's leadership team, appointing industry analyst Matthew Ball as chief strategy officer and Scott Van Vliet as chief technology officer. Ball is a venture partner, advisor and investor who has become well-known for his annual industry reports ",
-    "date": "Wed, 20 May 2026 17:29:28 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "CAFC Finds District Court Erred in Precluding Unjust Enrichment Damages in Trade Secret Case",
-    "link": "https://ipwatchdog.com/",
-    "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
-    "date": "Mon, 25 May 2026 16:15:27 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 2,
-    "matched_keywords": [
-      "intellectual property",
-      "copyright"
     ]
   }
 ]
