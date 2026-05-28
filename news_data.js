@@ -1,7 +1,7 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-27 10:10 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-28 10:18 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-27T10:10:56.173368",
-  item_count: 21,
+  fetched_at: "2026-05-28T10:18:49.627477",
+  item_count: 30,
   items: [
   {
     "title": "U.S. Removes Bulgaria from Piracy Watch List After Torrent Tracker Crackdown",
@@ -12,8 +12,8 @@ const ARIA_NEWS = {
     "relevance_score": 11,
     "matched_keywords": [
       "piracy",
-      "crack",
       "rom",
+      "crack",
       "pirate",
       "torrent"
     ]
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "pirate",
       "piracy",
       "crack",
+      "pirate",
       "rom"
     ]
   },
@@ -41,9 +41,9 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "piracy",
-      "copyright",
       "rom",
       "pirate",
+      "copyright",
       "torrent"
     ]
   },
@@ -55,9 +55,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "piracy",
       "pirate",
-      "dmca",
-      "piracy"
+      "dmca"
     ]
   },
   {
@@ -68,9 +68,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
+      "piracy",
       "takedown",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -81,10 +81,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
+      "torrent",
       "copyright",
       "crack",
-      "torrent"
+      "pirate"
     ]
   },
   {
@@ -95,9 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "dmca",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -108,9 +108,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "piracy",
       "copyright",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -121,8 +121,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -133,8 +133,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -145,8 +145,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "takedown"
+      "takedown",
+      "pirate"
     ]
   },
   {
@@ -157,8 +157,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "crack"
+      "crack",
+      "pirate"
     ]
   },
   {
@@ -169,8 +169,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -181,8 +181,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -205,8 +205,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
     ]
   },
   {
@@ -229,6 +229,72 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "piracy"
+    ]
+  },
+  {
+    "title": "Fortnite's global iOS return reportedly reaches 3.4m downloads, marking an eight-year high",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Thu, 28 May 2026 08:57:10 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "New Remedy CEO discusses prioritising own IP and learning from its mistakes",
+    "link": "https://www.gamesindustry.biz/it-has-done-something-useful-for-the-world-how-ubisoft-uses-its-games-to-create-content-for-museums-and-tv",
+    "description": "For some time now, Ubisoft has been involved in the creation of educational content via its video games. Read more",
+    "date": "Wed, 27 May 2026 11:00:30 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Destruction AllStars delisted from PS Store, servers to shutdown in November 2026",
+    "link": "https://www.gamesindustry.biz/game-makers-sketchbook-announces-selections-for-2026-showcase",
+    "description": "The Game Maker's Sketchbook has announced the selections for its fifth annual showcase. Read more",
+    "date": "Wed, 27 May 2026 07:30:17 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "BitSummit 2026 attendance breaks records, increases 17% to 68,208",
+    "link": "https://www.gamesindustry.biz/destruction-allstars-delisted-from-ps-store-servers-to-shutdown-in-november-2026",
+    "description": "Lucid Games' Sony-published multiplayer title Destruction AllStars is set to be taken offline as it is delisted from the PlayStation Store. Read more",
+    "date": "Tue, 26 May 2026 12:41:48 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Microsoft agrees to pay $250m to settle lawsuit over Activision Blizzard deal",
+    "link": "https://www.gamesindustry.biz/nintendo-reportedly-planning-20-production-increase-for-switch-2",
+    "description": "Nintendo reportedly plans to increase Switch 2 hardware production to 20 million units, a 20% rise, despite previously  forecasting a sales decline from 16.9% to 16.5 million units for the next fiscal year. Read more",
+    "date": "Tue, 26 May 2026 08:46:24 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"People want MMOs, and the sales of New World proved it\" – Cryptic Studios head Jack Emmert on why MMOs are ripe for reinvention",
+    "link": "https://www.gamesindustry.biz/the-future-of-european-publishing-is-diversity-not-concentration-opinion",
+    "description": "It would be easy to look at this week's headlines and conclude that Europe's game publishing sector is in terminal decline. Results from Ubisoft and Embracer, released within hours of each other on Wednesday, both looked bleak in different ways. Ubisoft's revenue slumped again, while Embracer beat i",
+    "date": "Fri, 22 May 2026 11:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
     ]
   },
   {
@@ -263,6 +329,33 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
+  },
+  {
+    "title": "Valve raises Steam Deck OLED prices by over 40%",
+    "link": "https://www.gamesindustry.biz/fortnites-global-ios-return-reportedly-reaches-34m-downloads-marking-an-eight-year-high",
+    "description": "Fortnite's  global return to iOS last week generated an estimated 3.4 million downloads, marking an eight-year high. Read more",
+    "date": "Thu, 28 May 2026 07:41:47 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Wizards of the Coast writes to staff to explain \"how union representation works\" as studio prepares to vote to unionize",
+    "link": "https://www.gamesindustry.biz/valve-raises-steam-deck-oled-prices-by-over-40",
+    "description": "Valve has announced price increases of over 40% for its Steam Deck OLED models. Read more",
+    "date": "Wed, 27 May 2026 20:02:54 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Epic Games unveils Unreal Engine 6 in new Rocket League teaser",
+    "link": "https://www.gamesindustry.biz/wizards-of-the-coast-writes-to-staff-to-explain-how-union-representation-works-as-studio-prepares-to-vote-to-unionize",
+    "description": "Wizards of the Coast has written to its employees to warn that unionizing could mean staff \"end up with more, the same or less than [they] have now,\" and suggested that \"your voice is strongest when it is heard directly.\" Read more",
+    "date": "Wed, 27 May 2026 19:35:51 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   }
 ]
 };
