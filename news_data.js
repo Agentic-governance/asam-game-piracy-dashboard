@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-28 10:18 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-29 10:08 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-28T10:18:49.627477",
+  fetched_at: "2026-05-29T10:08:18.491395",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "piracy",
-      "rom",
       "crack",
+      "torrent",
       "pirate",
-      "torrent"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -27,9 +27,9 @@ const ARIA_NEWS = {
     "relevance_score": 10,
     "matched_keywords": [
       "piracy",
-      "crack",
+      "rom",
       "pirate",
-      "rom"
+      "crack"
     ]
   },
   {
@@ -40,11 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
-      "rom",
-      "pirate",
+      "torrent",
       "copyright",
-      "torrent"
+      "pirate",
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -69,8 +69,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "piracy",
-      "takedown",
-      "pirate"
+      "pirate",
+      "takedown"
     ]
   },
   {
@@ -81,10 +81,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "torrent",
       "copyright",
-      "crack",
-      "pirate"
+      "torrent",
+      "pirate",
+      "crack"
     ]
   },
   {
@@ -95,9 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "dmca",
       "torrent",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -109,8 +109,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -145,8 +145,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "takedown",
-      "pirate"
+      "pirate",
+      "takedown"
     ]
   },
   {
@@ -157,8 +157,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "pirate"
+      "pirate",
+      "crack"
     ]
   },
   {
@@ -175,14 +175,14 @@ const ARIA_NEWS = {
   },
   {
     "title": "Mexican President Responds to World Cup Piracy Concerns, Prefers &#8216;Open&#8217; Broadcasts",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/gay-torrents-vanishes-after-lawsuit-flavaworks-narrows-case-from-325-to-39-users/",
+    "description": "Adult entertainment company FlavaWorks filed an amended complaint against private torrent tracker Gay-Torrents, alleging that the operators suddenly disappeared, leaving users and staff in the dark. In a tactical shift, Flava significantly reduced the targeted users to a core group of 39, who allege",
     "date": "Wed, 27 May 2026 07:13:56 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
       "piracy",
-      "copyright"
+      "torrent"
     ]
   },
   {
@@ -205,8 +205,21 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
+    ]
+  },
+  {
+    "title": "Gay-Torrents Vanishes After Lawsuit, FlavaWorks Narrows Case from 325 to 39 Users",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Fri, 29 May 2026 07:54:12 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "copyright",
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -232,10 +245,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Fortnite's global iOS return reportedly reaches 3.4m downloads, marking an eight-year high",
+    "title": "Witcher 3 surpasses 65m lifetime sales as CD Projekt announces third expansion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 28 May 2026 08:57:10 +0000",
+    "date": "Fri, 29 May 2026 09:25:29 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "FIFA announces new \"Digital Football\" vision, an ecosystem of games from multiple publishers and developers",
+    "link": "https://www.gamesindustry.biz/arc-raiders-wins-nordic-game-of-the-year-at-the-nordic-game-awards",
+    "description": "Arc Raiders has won Nordic Game of the Year at the Nordic Game Awards, which took place on May 28 at the Nordic Game conference in Malm&ouml;, Sweden. Read more",
+    "date": "Thu, 28 May 2026 16:24:55 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -287,17 +311,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"People want MMOs, and the sales of New World proved it\" – Cryptic Studios head Jack Emmert on why MMOs are ripe for reinvention",
-    "link": "https://www.gamesindustry.biz/the-future-of-european-publishing-is-diversity-not-concentration-opinion",
-    "description": "It would be easy to look at this week's headlines and conclude that Europe's game publishing sector is in terminal decline. Results from Ubisoft and Embracer, released within hours of each other on Wednesday, both looked bleak in different ways. Ubisoft's revenue slumped again, while Embracer beat i",
-    "date": "Fri, 22 May 2026 11:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
     "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
     "description": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecu",
@@ -331,28 +344,19 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Valve raises Steam Deck OLED prices by over 40%",
-    "link": "https://www.gamesindustry.biz/fortnites-global-ios-return-reportedly-reaches-34m-downloads-marking-an-eight-year-high",
-    "description": "Fortnite's  global return to iOS last week generated an estimated 3.4 million downloads, marking an eight-year high. Read more",
-    "date": "Thu, 28 May 2026 07:41:47 +0000",
+    "title": "Xbox CEO says it's already seeing positive impacts following Game Pass price cuts",
+    "link": "https://www.gamesindustry.biz/witcher-3-surpasses-65m-lifetime-sales-as-cd-projekt-announces-third-expansion",
+    "description": "As CD Projekt announced the third expansion for 2015's The Witcher 3, the developer reported a slight 6% increase in overall revenue to PLN 191 million ($52.5 million) during its first quarter. Read more",
+    "date": "Fri, 29 May 2026 08:17:22 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Wizards of the Coast writes to staff to explain \"how union representation works\" as studio prepares to vote to unionize",
-    "link": "https://www.gamesindustry.biz/valve-raises-steam-deck-oled-prices-by-over-40",
-    "description": "Valve has announced price increases of over 40% for its Steam Deck OLED models. Read more",
-    "date": "Wed, 27 May 2026 20:02:54 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Epic Games unveils Unreal Engine 6 in new Rocket League teaser",
-    "link": "https://www.gamesindustry.biz/wizards-of-the-coast-writes-to-staff-to-explain-how-union-representation-works-as-studio-prepares-to-vote-to-unionize",
-    "description": "Wizards of the Coast has written to its employees to warn that unionizing could mean staff \"end up with more, the same or less than [they] have now,\" and suggested that \"your voice is strongest when it is heard directly.\" Read more",
-    "date": "Wed, 27 May 2026 19:35:51 +0000",
+    "title": "Arc Raiders wins Nordic Game of the Year at the Nordic Game Awards",
+    "link": "https://www.gamesindustry.biz/xbox-ceo-says-its-already-seeing-positive-impacts-following-game-pass-price-cuts",
+    "description": "Xbox CEO Asha Sharma says that  recent price cuts to Game Pass are already delivering positive results. Read more",
+    "date": "Thu, 28 May 2026 18:23:51 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
