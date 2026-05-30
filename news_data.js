@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-29 10:08 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-30 08:36 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-29T10:08:18.491395",
+  fetched_at: "2026-05-30T08:36:33.766428",
   item_count: 30,
   items: [
   {
@@ -12,10 +12,10 @@ const ARIA_NEWS = {
     "relevance_score": 11,
     "matched_keywords": [
       "crack",
-      "torrent",
-      "pirate",
+      "rom",
       "piracy",
-      "rom"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "piracy",
       "rom",
-      "pirate",
-      "crack"
+      "crack",
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -40,11 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
+      "rom",
       "copyright",
-      "pirate",
       "piracy",
-      "rom"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -55,9 +55,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "dmca",
       "piracy",
-      "pirate",
-      "dmca"
+      "pirate"
     ]
   },
   {
@@ -68,9 +68,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "takedown",
       "piracy",
-      "pirate",
-      "takedown"
+      "pirate"
     ]
   },
   {
@@ -81,10 +81,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
+      "crack",
       "copyright",
-      "torrent",
       "pirate",
-      "crack"
+      "torrent"
     ]
   },
   {
@@ -95,9 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "dmca",
       "torrent",
-      "pirate",
-      "dmca"
+      "pirate"
     ]
   },
   {
@@ -108,9 +108,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "copyright",
       "piracy",
-      "pirate",
-      "copyright"
+      "pirate"
     ]
   },
   {
@@ -145,8 +145,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "takedown"
+      "takedown",
+      "pirate"
     ]
   },
   {
@@ -157,8 +157,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "crack"
+      "crack",
+      "pirate"
     ]
   },
   {
@@ -181,8 +181,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -193,8 +193,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -205,8 +205,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
     ]
   },
   {
@@ -217,9 +217,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 3,
     "matched_keywords": [
-      "copyright",
+      "rom",
       "torrent",
-      "rom"
+      "copyright"
     ]
   },
   {
@@ -245,10 +245,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Witcher 3 surpasses 65m lifetime sales as CD Projekt announces third expansion",
+    "title": "Nordic Game 2026 was full of smiles, but they hid a very tough reality | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 29 May 2026 09:25:29 +0000",
+    "date": "Fri, 29 May 2026 16:57:17 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -271,39 +271,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/it-has-done-something-useful-for-the-world-how-ubisoft-uses-its-games-to-create-content-for-museums-and-tv",
     "description": "For some time now, Ubisoft has been involved in the creation of educational content via its video games. Read more",
     "date": "Wed, 27 May 2026 11:00:30 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Destruction AllStars delisted from PS Store, servers to shutdown in November 2026",
-    "link": "https://www.gamesindustry.biz/game-makers-sketchbook-announces-selections-for-2026-showcase",
-    "description": "The Game Maker's Sketchbook has announced the selections for its fifth annual showcase. Read more",
-    "date": "Wed, 27 May 2026 07:30:17 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "BitSummit 2026 attendance breaks records, increases 17% to 68,208",
-    "link": "https://www.gamesindustry.biz/destruction-allstars-delisted-from-ps-store-servers-to-shutdown-in-november-2026",
-    "description": "Lucid Games' Sony-published multiplayer title Destruction AllStars is set to be taken offline as it is delisted from the PlayStation Store. Read more",
-    "date": "Tue, 26 May 2026 12:41:48 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Microsoft agrees to pay $250m to settle lawsuit over Activision Blizzard deal",
-    "link": "https://www.gamesindustry.biz/nintendo-reportedly-planning-20-production-increase-for-switch-2",
-    "description": "Nintendo reportedly plans to increase Switch 2 hardware production to 20 million units, a 20% rise, despite previously  forecasting a sales decline from 16.9% to 16.5 million units for the next fiscal year. Read more",
-    "date": "Tue, 26 May 2026 08:46:24 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -344,19 +311,46 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Xbox CEO says it's already seeing positive impacts following Game Pass price cuts",
-    "link": "https://www.gamesindustry.biz/witcher-3-surpasses-65m-lifetime-sales-as-cd-projekt-announces-third-expansion",
-    "description": "As CD Projekt announced the third expansion for 2015's The Witcher 3, the developer reported a slight 6% increase in overall revenue to PLN 191 million ($52.5 million) during its first quarter. Read more",
-    "date": "Fri, 29 May 2026 08:17:22 +0000",
+    "title": "Fandom and GameSpot owner set to buy Balatro publisher Playstack",
+    "link": "https://www.gamesindustry.biz/nordic-game-2026-was-full-of-smiles-but-they-hid-a-very-tough-reality-opinion",
+    "description": "The indie conference Nordic Game returned to Malm&ouml; this week, and although the event naturally has a big focus on Scandinavian developers, there was a multinational flavour to the event booths. Germany, Ukraine, and Moldova were among the countries represented on the show floor, and in fact the",
+    "date": "Fri, 29 May 2026 16:55:52 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Arc Raiders wins Nordic Game of the Year at the Nordic Game Awards",
-    "link": "https://www.gamesindustry.biz/xbox-ceo-says-its-already-seeing-positive-impacts-following-game-pass-price-cuts",
-    "description": "Xbox CEO Asha Sharma says that  recent price cuts to Game Pass are already delivering positive results. Read more",
-    "date": "Thu, 28 May 2026 18:23:51 +0000",
+    "title": "The RAMageddon hits home | Opinion",
+    "link": "https://www.gamesindustry.biz/fandom-and-gamespot-owner-set-to-buy-balatro-publisher-playstack",
+    "description": "Playstack, the publisher behind games including Balatro, Abiotic Factor, and The Rise of the Golden Idol, is set to be purchased by Integrated Media Company (IMC), the owner of Fandom and Gamespot, among numerous other brands. The news was initially reported by Game Developer. Read more",
+    "date": "Fri, 29 May 2026 15:35:38 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "TIGA appoints Elaine Green as chair",
+    "link": "https://www.gamesindustry.biz/the-ramageddon-hits-home",
+    "description": "The extent to which the ongoing crisis in cost and supply of digital storage &ndash; primarily meaning RAM and SSDs &ndash; is going to impact the games business can be hard to grasp. It's been the subject of headlines for months, but it can feel quite abstract. It's one thing to read about the enti",
+    "date": "Fri, 29 May 2026 13:43:33 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "NetEase reports 6.9% increase in games revenue to $3.7bn during Q1",
+    "link": "https://www.gamesindustry.biz/tiga-appoints-elaine-green-as-chair",
+    "description": "UK trade body TIGA has appointed Elaine Green as its chair. Read more",
+    "date": "Fri, 29 May 2026 13:13:17 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Tomodachi Life: Living the Dream is 2026's top new release by revenue to date | Newzoo charts",
+    "link": "https://www.gamesindustry.biz/netease-reports-69-increase-in-games-revenue-to-37bn-during-q1",
+    "description": "NetEase published its first quarter financial results, reporting a 6.9% rise in gaming revenue to RMB 25.7 billion ($3.7 billion), while overall revenue increased 6.1% to RMB 30.6 billion ($4.4 billion). Read more",
+    "date": "Fri, 29 May 2026 11:16:05 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
