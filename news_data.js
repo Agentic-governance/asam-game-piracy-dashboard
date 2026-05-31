@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-30 08:36 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-05-31 09:15 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-30T08:36:33.766428",
+  fetched_at: "2026-05-31T09:15:13.717954",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "crack",
       "rom",
       "piracy",
-      "torrent",
-      "pirate"
+      "pirate",
+      "crack",
+      "torrent"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
+      "pirate",
       "rom",
       "crack",
-      "piracy",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -41,10 +41,10 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "rom",
-      "copyright",
       "piracy",
-      "torrent",
-      "pirate"
+      "copyright",
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -55,9 +55,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "pirate",
       "dmca",
-      "piracy",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -68,9 +68,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "pirate",
       "takedown",
-      "piracy",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -81,9 +81,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "crack",
-      "copyright",
       "pirate",
+      "copyright",
+      "crack",
       "torrent"
     ]
   },
@@ -95,9 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "pirate",
       "dmca",
-      "torrent",
-      "pirate"
+      "torrent"
     ]
   },
   {
@@ -108,9 +108,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "pirate",
       "copyright",
-      "piracy",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -121,8 +121,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -133,8 +133,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -145,8 +145,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "takedown",
-      "pirate"
+      "pirate",
+      "takedown"
     ]
   },
   {
@@ -157,8 +157,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "pirate"
+      "pirate",
+      "crack"
     ]
   },
   {
@@ -169,8 +169,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -186,18 +186,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "NVIDIA&#8217;s Shadow Library Scripts &#8216;Have No Other Purpose&#8217; Than Infringement, Judge Rules",
-    "link": "https://torrentfreak.com/u-s-removes-bulgaria-from-piracy-watch-list-after-torrent-tracker-crackdown/",
-    "description": "Bulgaria has proven that the right legislative update can go a long way in Washington. The USTR credits the country's removal from the Watch List to a 2023 amendment of the Criminal Code, which makes piracy enforcement easier. This new legislation resulted in the shutdown of three long-running torre",
-    "date": "Wed, 06 May 2026 13:18:32 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "rom",
-      "piracy"
-    ]
-  },
-  {
     "title": "Alleged Kimwolf Botmaster &#8216;Dort&#8217; Arrested, Charged in U.S. and Canada",
     "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
     "description": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub ac",
@@ -205,21 +193,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
-    ]
-  },
-  {
-    "title": "Gay-Torrents Vanishes After Lawsuit, FlavaWorks Narrows Case from 325 to 39 Users",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Fri, 29 May 2026 07:54:12 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom",
-      "torrent",
-      "copyright"
+      "arrested",
+      "rom"
     ]
   },
   {
@@ -308,6 +283,30 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "piracy"
+    ]
+  },
+  {
+    "title": "Torrent Giant YTS Suffers Extended Downtime",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Sat, 30 May 2026 21:22:25 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 2,
+    "matched_keywords": [
+      "copyright",
+      "torrent"
+    ]
+  },
+  {
+    "title": "Gay-Torrents Vanishes After Lawsuit, FlavaWorks Narrows Case from 325 to 39 Users",
+    "link": "https://torrentfreak.com/torrent-giant-yts-suffers-extended-downtime/",
+    "description": "The popular torrent site YTS has been unreachable for more than a day, leaving millions of its users in the dark. The site's domain names point to a Cloudflare error, suggesting its servers are offline, but there is no official update from the operators to explain the current downtime.\nFrom: TF, for",
+    "date": "Fri, 29 May 2026 07:54:12 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 2,
+    "matched_keywords": [
+      "rom",
+      "torrent"
     ]
   },
   {
