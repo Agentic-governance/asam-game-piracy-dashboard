@@ -1,23 +1,8 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-05-31 09:15 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-01 11:50 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-05-31T09:15:13.717954",
+  fetched_at: "2026-06-01T11:50:53.410876",
   item_count: 30,
   items: [
-  {
-    "title": "U.S. Removes Bulgaria from Piracy Watch List After Torrent Tracker Crackdown",
-    "link": "https://torrentfreak.com/court-awards-aylo-4-2-million-not-84-million-in-pornhits-piracy-case/",
-    "description": "Aylo asked a Washington federal court for an $84 million default judgment against the operator of pirate site Pornhits, citing the same $15,000-per-work formula the court had previously approved in similar cases. This time, Judge Benjamin Settle denied the request, awarding the statutory minimum ins",
-    "date": "Fri, 08 May 2026 06:12:31 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 11,
-    "matched_keywords": [
-      "rom",
-      "piracy",
-      "pirate",
-      "crack",
-      "torrent"
-    ]
-  },
   {
     "title": "Real-Debrid&#8217;s Renewed Piracy Crackdown Follows Corporate Restructuring (Updated)",
     "link": "https://torrentfreak.com/universal-wins-delhi-court-order-against-imdb-themed-pirate-streaming-site/",
@@ -27,9 +12,9 @@ const ARIA_NEWS = {
     "relevance_score": 10,
     "matched_keywords": [
       "pirate",
-      "rom",
       "crack",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -40,10 +25,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
-      "piracy",
       "copyright",
       "pirate",
+      "piracy",
+      "rom",
       "torrent"
     ]
   },
@@ -82,8 +67,8 @@ const ARIA_NEWS = {
     "relevance_score": 8,
     "matched_keywords": [
       "pirate",
-      "copyright",
       "crack",
+      "copyright",
       "torrent"
     ]
   },
@@ -174,6 +159,30 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "The Pirate Bay Remains Resilient, 20 Years After The Raid",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Sun, 31 May 2026 20:56:38 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "pirate",
+      "copyright"
+    ]
+  },
+  {
+    "title": "Torrent Giant YTS Suffers Extended Downtime (Updated)",
+    "link": "https://torrentfreak.com/the-pirate-bay-remains-resilient-20-years-after-the-raid/",
+    "description": "Twenty years ago today, dozens of Swedish police officers stormed a Stockholm data center, seizing The Pirate Bay's servers. The entertainment industry hoped the raid would finish the site for good. Instead, the police action inadvertently helped to create one of the most resilient and iconic websit",
+    "date": "Sat, 30 May 2026 21:22:25 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "pirate",
+      "torrent"
+    ]
+  },
+  {
     "title": "Mexican President Responds to World Cup Piracy Concerns, Prefers &#8216;Open&#8217; Broadcasts",
     "link": "https://torrentfreak.com/gay-torrents-vanishes-after-lawsuit-flavaworks-narrows-case-from-325-to-39-users/",
     "description": "Adult entertainment company FlavaWorks filed an amended complaint against private torrent tracker Gay-Torrents, alleging that the operators suddenly disappeared, leaving users and staff in the dark. In a tactical shift, Flava significantly reduced the targeted users to a core group of 39, who allege",
@@ -181,8 +190,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -220,10 +229,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Nordic Game 2026 was full of smiles, but they hid a very tough reality | Opinion",
+    "title": "Rockstar employees form union amid ongoing legal claims",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 29 May 2026 16:57:17 +0000",
+    "date": "Mon, 01 Jun 2026 10:54:21 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -235,17 +244,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/arc-raiders-wins-nordic-game-of-the-year-at-the-nordic-game-awards",
     "description": "Arc Raiders has won Nordic Game of the Year at the Nordic Game Awards, which took place on May 28 at the Nordic Game conference in Malm&ouml;, Sweden. Read more",
     "date": "Thu, 28 May 2026 16:24:55 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "New Remedy CEO discusses prioritising own IP and learning from its mistakes",
-    "link": "https://www.gamesindustry.biz/it-has-done-something-useful-for-the-world-how-ubisoft-uses-its-games-to-create-content-for-museums-and-tv",
-    "description": "For some time now, Ubisoft has been involved in the creation of educational content via its video games. Read more",
-    "date": "Wed, 27 May 2026 11:00:30 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -286,18 +284,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Torrent Giant YTS Suffers Extended Downtime",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sat, 30 May 2026 21:22:25 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 2,
-    "matched_keywords": [
-      "copyright",
-      "torrent"
-    ]
-  },
-  {
     "title": "Gay-Torrents Vanishes After Lawsuit, FlavaWorks Narrows Case from 325 to 39 Users",
     "link": "https://torrentfreak.com/torrent-giant-yts-suffers-extended-downtime/",
     "description": "The popular torrent site YTS has been unreachable for more than a day, leaving millions of its users in the dark. The site's domain names point to a Cloudflare error, suggesting its servers are offline, but there is no official update from the operators to explain the current downtime.\nFrom: TF, for",
@@ -305,9 +291,27 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "rom",
-      "torrent"
+      "torrent",
+      "rom"
     ]
+  },
+  {
+    "title": "CD Projekt begins \"most intensive phase\" of Witcher 4, expands team to over 500 devs",
+    "link": "https://www.gamesindustry.biz/rockstar-employees-form-union-amid-ongoing-legal-claims",
+    "description": "Rockstar employees have formed the Rockstar Game Workers Union (RGWU), which operates as a subsidiary of the Independent Workers' Union of Great Britain (IWGB). Read more",
+    "date": "Mon, 01 Jun 2026 09:56:51 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Nordic Game 2026 was full of smiles, but they hid a very tough reality | Opinion",
+    "link": "https://www.gamesindustry.biz/fable-delayed-to-february-2027",
+    "description": "Xbox has delayed Playground Games' Fable to February 2027. Read more",
+    "date": "Fri, 29 May 2026 16:57:17 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Fandom and GameSpot owner set to buy Balatro publisher Playstack",
@@ -341,15 +345,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/tiga-appoints-elaine-green-as-chair",
     "description": "UK trade body TIGA has appointed Elaine Green as its chair. Read more",
     "date": "Fri, 29 May 2026 13:13:17 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Tomodachi Life: Living the Dream is 2026's top new release by revenue to date | Newzoo charts",
-    "link": "https://www.gamesindustry.biz/netease-reports-69-increase-in-games-revenue-to-37bn-during-q1",
-    "description": "NetEase published its first quarter financial results, reporting a 6.9% rise in gaming revenue to RMB 25.7 billion ($3.7 billion), while overall revenue increased 6.1% to RMB 30.6 billion ($4.4 billion). Read more",
-    "date": "Fri, 29 May 2026 11:16:05 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
