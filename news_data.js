@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-01 11:50 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-02 10:49 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-01T11:50:53.410876",
+  fetched_at: "2026-06-02T10:49:58.532633",
   item_count: 30,
   items: [
   {
@@ -11,25 +11,38 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "pirate",
-      "crack",
+      "rom",
       "piracy",
-      "rom"
+      "crack",
+      "pirate"
     ]
   },
   {
-    "title": "Premier League Wants Domain Registrar Tucows to Unmask Sports Streaming Pirates",
-    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Mortal Kombat II' tops the chart, followed by 'Project Hail Mary.' 'The Devil Wears Prada 2' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sun, 24 May 2026 12:56:02 +0000",
+    "title": "The Pirate Bay Remains Resilient, 20 Years After The Raid",
+    "link": "https://torrentfreak.com/googles-top-dmca-sender-plateaus-at-70-million-takedowns-per-week/",
+    "description": "Google has processed billions of DMCA takedown requests during the first months of the year. Reporting agency Link-Busters remains the top sender. While its dominance remains, the company appears to have hit a takedown ceiling of roughly 70 million URLs per week. Google won't confirm whether there's",
+    "date": "Sun, 31 May 2026 20:56:38 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
+      "takedown",
       "pirate",
-      "piracy",
+      "dmca"
+    ]
+  },
+  {
+    "title": "Torrent Giant YTS Suffers Extended Downtime (Updated)",
+    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Mortal Kombat II' tops the chart, followed by 'The Devil Wears Prada 2.' 'Project Hail Mary' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sat, 30 May 2026 21:22:25 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 9,
+    "matched_keywords": [
+      "pirate",
       "rom",
-      "torrent"
+      "torrent",
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -40,9 +53,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "piracy",
       "pirate",
-      "dmca",
-      "piracy"
+      "dmca"
     ]
   },
   {
@@ -53,9 +66,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "takedown",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -66,10 +79,23 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
+      "torrent",
       "crack",
+      "pirate",
+      "copyright"
+    ]
+  },
+  {
+    "title": "Google&#8217;s Top DMCA Sender Plateaus at 70 Million Takedowns Per Week",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Tue, 02 Jun 2026 08:00:49 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "takedown",
       "copyright",
-      "torrent"
+      "dmca"
     ]
   },
   {
@@ -80,9 +106,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "torrent",
       "pirate",
-      "dmca",
-      "torrent"
+      "dmca"
     ]
   },
   {
@@ -93,9 +119,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "piracy",
       "pirate",
-      "copyright",
-      "piracy"
+      "copyright"
     ]
   },
   {
@@ -106,20 +132,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 05/25/2026",
+    "title": "Premier League Wants Domain Registrar Tucows to Unmask Sports Streaming Pirates",
     "link": "https://torrentfreak.com/italian-police-target-previously-unseen-streaming-piracy-tech-that-looks-familiar/",
     "description": "Italy's Guardia di Finanza dismantled a piracy system it says it had never seen until now, carrying out more than 100 searches and seizures. The system relied on an app called CinemaGoal that constantly passed on the access codes of legitimate Sky, DAZN, Netflix, Spotify and Disney+ accounts to its ",
-    "date": "Sun, 24 May 2026 23:09:40 +0000",
+    "date": "Sun, 24 May 2026 12:56:02 +0000",
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -130,8 +156,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "takedown"
+      "takedown",
+      "pirate"
     ]
   },
   {
@@ -142,8 +168,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "crack"
+      "crack",
+      "pirate"
     ]
   },
   {
@@ -154,32 +180,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "The Pirate Bay Remains Resilient, 20 Years After The Raid",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sun, 31 May 2026 20:56:38 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "pirate",
-      "copyright"
-    ]
-  },
-  {
-    "title": "Torrent Giant YTS Suffers Extended Downtime (Updated)",
-    "link": "https://torrentfreak.com/the-pirate-bay-remains-resilient-20-years-after-the-raid/",
-    "description": "Twenty years ago today, dozens of Swedish police officers stormed a Stockholm data center, seizing The Pirate Bay's servers. The entertainment industry hoped the raid would finish the site for good. Instead, the police action inadvertently helped to create one of the most resilient and iconic websit",
-    "date": "Sat, 30 May 2026 21:22:25 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "pirate",
-      "torrent"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -207,6 +209,17 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Top 10 Most Pirated Movies of The Week – 06/01/2026",
+    "link": "https://torrentfreak.com/the-pirate-bay-remains-resilient-20-years-after-the-raid/",
+    "description": "Twenty years ago today, dozens of Swedish police officers stormed a Stockholm data center, seizing The Pirate Bay's servers. The entertainment industry hoped the raid would finish the site for good. Instead, the police action inadvertently helped to create one of the most resilient and iconic websit",
+    "date": "Sat, 30 May 2026 23:09:40 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "pirate"
+    ]
+  },
+  {
     "title": "Hollywood Secures Broad &#8220;Omnibus&#8221; Pirate Site Blocking Order in UK High Court",
     "link": "https://torrentfreak.com/spanish-court-declines-to-fine-nordvpn-over-laliga-piracy-blocking-order/",
     "description": "Three months after a Spanish court ordered NordVPN and ProtonVPN to block pirate football streams, NordVPN says the same court has refused to punish the provider for non-compliance. The VPN company says the Commercial Court of Córdoba rejected LaLiga's request for coercive fines, accepting that ther",
@@ -218,21 +231,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Court Awards Aylo $4.2 Million, Not $84 Million, in Pornhits Piracy Case",
-    "link": "https://torrentfreak.com/publishers-seek-19-5-million-and-domain-takedown-order-against-annas-archive/",
-    "description": "A group of high-profile publishing companies is seeking a $19.5 million default judgment against shadow library Anna's Archive. The proposed order comes with an injunction that would compel more than twenty named international domain registries, hosts, and service providers, including Cloudflare and",
-    "date": "Sun, 10 May 2026 10:38:53 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "piracy"
-    ]
-  },
-  {
-    "title": "Rockstar employees form union amid ongoing legal claims",
+    "title": "European mobile games sector generates €7.53bn globally in 2025",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 01 Jun 2026 10:54:21 +0000",
+    "date": "Tue, 02 Jun 2026 10:35:07 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -240,10 +242,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "FIFA announces new \"Digital Football\" vision, an ecosystem of games from multiple publishers and developers",
-    "link": "https://www.gamesindustry.biz/arc-raiders-wins-nordic-game-of-the-year-at-the-nordic-game-awards",
-    "description": "Arc Raiders has won Nordic Game of the Year at the Nordic Game Awards, which took place on May 28 at the Nordic Game conference in Malm&ouml;, Sweden. Read more",
-    "date": "Thu, 28 May 2026 16:24:55 +0000",
+    "title": "Analyst: Call of Duty's withdrawal from last-gen consoles means it's selling into the smallest install base since 2017",
+    "link": "https://www.gamesindustry.biz/european-mobile-games-sector-generates-753bn-globally-in-2025",
+    "description": "European mobile games companies generated &euro;7.53 billion in global revenue in 2025. Forecasts indicate this will exceed &euro;8 billion by 2028. Read more",
+    "date": "Tue, 02 Jun 2026 08:35:54 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "New Zealand games sector hits $1bn revenue two years earlier than anticipated",
+    "link": "https://www.gamesindustry.biz/analyst-call-of-dutys-withdrawal-from-last-gen-consoles-means-its-selling-into-the-smallest-install-base-since-2017",
+    "description": "Activision's decision to drop support for Xbox One and PlayStation 4 for Call of Duty: Modern Warfare 4 has reduced its potential marked by 4.3%, according to a new report from analysts S&P, which says that the corresponding launch on Switch 2 &ndash; the first time the franchise has been available ",
+    "date": "Tue, 02 Jun 2026 07:12:03 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -296,6 +309,33 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "The California State Assembly passes AB 1921, Stop Killing Games' Protect Our Games Act",
+    "link": "https://www.gamesindustry.biz/new-zealand-games-sector-hits-1bn-revenue-two-years-earlier-than-anticipated",
+    "description": "New Zealand's game development industry has exceeded $1 billion in revenue, reaching this milestone two years ahead of schedule. Read more",
+    "date": "Mon, 01 Jun 2026 21:32:08 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Tekken 8 director Kohei Ikeda leaves Bandai Namco just months after Katsuhiro Harada's exit",
+    "link": "https://www.gamesindustry.biz/the-california-state-assembly-passes-ab-1921-stop-killing-games-protect-our-games-act",
+    "description": "The California State Assembly has passed Assembly Bill 1921, the Protect Our Games Act, in a landmark ruling on game preservation. Read more",
+    "date": "Mon, 01 Jun 2026 21:05:43 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"These sports games that were loved and revered... just went away\" – How a group of ex-EA devs are launching a new NBA game",
+    "link": "https://www.gamesindustry.biz/tekken-8-director-kohei-ikeda-leave-bandai-namco-just-months-after-katsuhiro-haradas-exit",
+    "description": "Tekken director Kohei Ikeda has left Bandai Namco after more than 20 years. Read more",
+    "date": "Mon, 01 Jun 2026 13:54:05 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "CD Projekt begins \"most intensive phase\" of Witcher 4, expands team to over 500 devs",
     "link": "https://www.gamesindustry.biz/rockstar-employees-form-union-amid-ongoing-legal-claims",
     "description": "Rockstar employees have formed the Rockstar Game Workers Union (RGWU), which operates as a subsidiary of the Independent Workers' Union of Great Britain (IWGB). Read more",
@@ -309,42 +349,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/fable-delayed-to-february-2027",
     "description": "Xbox has delayed Playground Games' Fable to February 2027. Read more",
     "date": "Fri, 29 May 2026 16:57:17 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Fandom and GameSpot owner set to buy Balatro publisher Playstack",
-    "link": "https://www.gamesindustry.biz/nordic-game-2026-was-full-of-smiles-but-they-hid-a-very-tough-reality-opinion",
-    "description": "The indie conference Nordic Game returned to Malm&ouml; this week, and although the event naturally has a big focus on Scandinavian developers, there was a multinational flavour to the event booths. Germany, Ukraine, and Moldova were among the countries represented on the show floor, and in fact the",
-    "date": "Fri, 29 May 2026 16:55:52 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "The RAMageddon hits home | Opinion",
-    "link": "https://www.gamesindustry.biz/fandom-and-gamespot-owner-set-to-buy-balatro-publisher-playstack",
-    "description": "Playstack, the publisher behind games including Balatro, Abiotic Factor, and The Rise of the Golden Idol, is set to be purchased by Integrated Media Company (IMC), the owner of Fandom and Gamespot, among numerous other brands. The news was initially reported by Game Developer. Read more",
-    "date": "Fri, 29 May 2026 15:35:38 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "TIGA appoints Elaine Green as chair",
-    "link": "https://www.gamesindustry.biz/the-ramageddon-hits-home",
-    "description": "The extent to which the ongoing crisis in cost and supply of digital storage &ndash; primarily meaning RAM and SSDs &ndash; is going to impact the games business can be hard to grasp. It's been the subject of headlines for months, but it can feel quite abstract. It's one thing to read about the enti",
-    "date": "Fri, 29 May 2026 13:43:33 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "NetEase reports 6.9% increase in games revenue to $3.7bn during Q1",
-    "link": "https://www.gamesindustry.biz/tiga-appoints-elaine-green-as-chair",
-    "description": "UK trade body TIGA has appointed Elaine Green as its chair. Read more",
-    "date": "Fri, 29 May 2026 13:13:17 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
