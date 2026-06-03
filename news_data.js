@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-02 10:49 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-03 11:18 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-02T10:49:58.532633",
+  fetched_at: "2026-06-03T11:18:15.491547",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "rom",
+      "pirate",
       "piracy",
-      "crack",
-      "pirate"
+      "rom",
+      "crack"
     ]
   },
   {
@@ -25,9 +25,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
       "pirate",
-      "dmca"
+      "dmca",
+      "takedown"
     ]
   },
   {
@@ -53,9 +53,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "pirate",
-      "dmca"
+      "dmca",
+      "piracy"
     ]
   },
   {
@@ -66,9 +66,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
+      "pirate",
       "piracy",
-      "pirate"
+      "takedown"
     ]
   },
   {
@@ -79,10 +79,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "torrent",
-      "crack",
       "pirate",
-      "copyright"
+      "torrent",
+      "copyright",
+      "crack"
     ]
   },
   {
@@ -93,9 +93,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "takedown",
+      "dmca",
       "copyright",
-      "dmca"
+      "takedown"
     ]
   },
   {
@@ -106,8 +106,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
       "pirate",
+      "torrent",
       "dmca"
     ]
   },
@@ -119,8 +119,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "pirate",
+      "piracy",
       "copyright"
     ]
   },
@@ -132,8 +132,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -144,8 +144,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -156,8 +156,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "takedown",
-      "pirate"
+      "pirate",
+      "takedown"
     ]
   },
   {
@@ -168,8 +168,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "pirate"
+      "pirate",
+      "crack"
     ]
   },
   {
@@ -180,8 +180,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -192,8 +192,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -204,8 +204,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
     ]
   },
   {
@@ -231,10 +231,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "European mobile games sector generates €7.53bn globally in 2025",
+    "title": "ESA: 67% of Americans played video games for more than an hour in 2025",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 02 Jun 2026 10:35:07 +0000",
+    "date": "Wed, 03 Jun 2026 10:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"The problem with online toxicity, that's something that we can solve today\" – The AI system that promises to detect signs of grooming",
+    "link": "https://www.gamesindustry.biz/sonys-summer-state-of-play-showcase-was-big-on-god-of-war-wolverine-gore-and-gta-dodging-release-dates",
+    "description": "Sony's latest State of Play showcase revealed a series of new games and release dates, alongside the expected deep-dives on Marvel's Wolverine and God of War Laufey, both from internal Sony studios Insomniac and Sony Santa Monica respectively. Read more",
+    "date": "Tue, 02 Jun 2026 13:48:10 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Nordic Game attendance rises by 6% in 2026",
+    "link": "https://www.gamesindustry.biz/playstation-first-party-sales-see-modest-rebound-after-half-decade-decline",
+    "description": "PlayStation first-party game sales  increased from 28.9 million to 32.1 million copies in FY2025, marking a modest improvement over the past five years. Read more",
+    "date": "Tue, 02 Jun 2026 12:10:51 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -304,51 +326,33 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "torrent",
-      "rom"
+      "rom",
+      "torrent"
     ]
   },
   {
-    "title": "The California State Assembly passes AB 1921, Stop Killing Games' Protect Our Games Act",
-    "link": "https://www.gamesindustry.biz/new-zealand-games-sector-hits-1bn-revenue-two-years-earlier-than-anticipated",
-    "description": "New Zealand's game development industry has exceeded $1 billion in revenue, reaching this milestone two years ahead of schedule. Read more",
-    "date": "Mon, 01 Jun 2026 21:32:08 +0000",
+    "title": "Sony's summer State of Play showcase was big on God of War, Wolverine, gore and GTA-dodging release dates",
+    "link": "https://www.gamesindustry.biz/esa-67-of-americans-played-video-games-for-more-than-an-hour-in-2025",
+    "description": "In 2025, more than 212 million Americans ages 5 to 90 played video games, according to the latest Entertainment Software Association data. Read more",
+    "date": "Wed, 03 Jun 2026 04:01:44 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Tekken 8 director Kohei Ikeda leaves Bandai Namco just months after Katsuhiro Harada's exit",
-    "link": "https://www.gamesindustry.biz/the-california-state-assembly-passes-ab-1921-stop-killing-games-protect-our-games-act",
-    "description": "The California State Assembly has passed Assembly Bill 1921, the Protect Our Games Act, in a landmark ruling on game preservation. Read more",
-    "date": "Mon, 01 Jun 2026 21:05:43 +0000",
+    "title": "PlayStation first-party sales see modest rebound after half-decade decline",
+    "link": "https://www.gamesindustry.biz/the-problem-with-online-toxicity-thats-something-that-we-can-solve-today-the-ai-system-that-promises-to-detect-signs-of-grooming",
+    "description": "Content warning: suicide, grooming. Read more",
+    "date": "Tue, 02 Jun 2026 13:44:21 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "\"These sports games that were loved and revered... just went away\" – How a group of ex-EA devs are launching a new NBA game",
-    "link": "https://www.gamesindustry.biz/tekken-8-director-kohei-ikeda-leave-bandai-namco-just-months-after-katsuhiro-haradas-exit",
-    "description": "Tekken director Kohei Ikeda has left Bandai Namco after more than 20 years. Read more",
-    "date": "Mon, 01 Jun 2026 13:54:05 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "CD Projekt begins \"most intensive phase\" of Witcher 4, expands team to over 500 devs",
-    "link": "https://www.gamesindustry.biz/rockstar-employees-form-union-amid-ongoing-legal-claims",
-    "description": "Rockstar employees have formed the Rockstar Game Workers Union (RGWU), which operates as a subsidiary of the Independent Workers' Union of Great Britain (IWGB). Read more",
-    "date": "Mon, 01 Jun 2026 09:56:51 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Nordic Game 2026 was full of smiles, but they hid a very tough reality | Opinion",
-    "link": "https://www.gamesindustry.biz/fable-delayed-to-february-2027",
-    "description": "Xbox has delayed Playground Games' Fable to February 2027. Read more",
-    "date": "Fri, 29 May 2026 16:57:17 +0000",
+    "title": "European mobile games sector generates €7.53bn globally in 2025",
+    "link": "https://www.gamesindustry.biz/nordic-game-attendance-rises-by-6-in-2026",
+    "description": "The organisers of Nordic Game 2026 recorded a 6% increase in attendance numbers compared to last year. Read more",
+    "date": "Tue, 02 Jun 2026 10:35:07 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
