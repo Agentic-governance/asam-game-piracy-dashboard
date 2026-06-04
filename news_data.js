@@ -1,8 +1,22 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-03 11:18 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-04 10:08 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-03T11:18:15.491547",
+  fetched_at: "2026-06-04T10:08:01.360480",
   item_count: 30,
   items: [
+  {
+    "title": "Google&#8217;s Top DMCA Sender Plateaus at 70 Million Takedowns Per Week",
+    "link": "https://torrentfreak.com/streaming-piracy-crackdown-kratos-2-leads-to-29-arrests-targets-remain-unknown/",
+    "description": "A seven-month Europol operation, coordinated by Bulgaria with support from Europol, has dismantled nine criminal networks running pirate streaming services. The operation, dubbed KRATOS 2, resulted in 29 arrests and the removal of more than 27,000 URLs. While the press release includes many data poi",
+    "date": "Tue, 02 Jun 2026 08:00:49 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 10,
+    "matched_keywords": [
+      "rom",
+      "takedown",
+      "pirate",
+      "dmca"
+    ]
+  },
   {
     "title": "Real-Debrid&#8217;s Renewed Piracy Crackdown Follows Corporate Restructuring (Updated)",
     "link": "https://torrentfreak.com/universal-wins-delhi-court-order-against-imdb-themed-pirate-streaming-site/",
@@ -11,10 +25,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "pirate",
+      "crack",
       "piracy",
-      "rom",
-      "crack"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -25,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "takedown",
       "pirate",
-      "dmca",
-      "takedown"
+      "dmca"
     ]
   },
   {
@@ -38,11 +52,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
-      "rom",
-      "torrent",
       "piracy",
-      "copyright"
+      "copyright",
+      "rom",
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -53,22 +67,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
-      "dmca",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Publishers Seek $19.5 Million and Domain Takedown Order Against Anna&#8217;s Archive",
-    "link": "https://torrentfreak.com/broadcaster-loses-fifa-world-cup-rights-after-20-years-citing-rampant-piracy/",
-    "description": "After more than two decades broadcasting the FIFA World Cup in Malaysia, pay-TV operator Astro has lost the rights to the tournament. The company says that \"rampant piracy\" reduced the value of the rights, noting that the 2018 and 2022 tournaments were \"extensively pirated\" in the country. The admis",
-    "date": "Mon, 11 May 2026 08:56:55 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 9,
-    "matched_keywords": [
-      "pirate",
       "piracy",
-      "takedown"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -79,23 +80,23 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
+      "crack",
       "pirate",
       "torrent",
-      "copyright",
-      "crack"
+      "copyright"
     ]
   },
   {
-    "title": "Google&#8217;s Top DMCA Sender Plateaus at 70 Million Takedowns Per Week",
+    "title": "Streaming Piracy Crackdown &#8216;KRATOS 2&#8217; Leads to 29 Arrests, Targets Remain Unknown",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 02 Jun 2026 08:00:49 +0000",
+    "date": "Thu, 04 Jun 2026 08:34:40 +0000",
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "dmca",
-      "copyright",
-      "takedown"
+      "crack",
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -107,8 +108,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "torrent",
-      "dmca"
+      "dmca",
+      "torrent"
     ]
   },
   {
@@ -119,8 +120,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "piracy",
+      "pirate",
       "copyright"
     ]
   },
@@ -132,8 +133,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -144,8 +145,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -156,8 +157,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "takedown"
+      "takedown",
+      "pirate"
     ]
   },
   {
@@ -168,8 +169,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "crack"
+      "crack",
+      "pirate"
     ]
   },
   {
@@ -180,8 +181,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -192,8 +193,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -231,10 +232,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "ESA: 67% of Americans played video games for more than an hour in 2025",
+    "title": "Asia and MENA games market revenue predicted to grow 16.5% to over $103bn by 2030",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 03 Jun 2026 10:00:00 +0000",
+    "date": "Thu, 04 Jun 2026 09:55:35 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -277,7 +278,7 @@ const ARIA_NEWS = {
   {
     "title": "New Zealand games sector hits $1bn revenue two years earlier than anticipated",
     "link": "https://www.gamesindustry.biz/analyst-call-of-dutys-withdrawal-from-last-gen-consoles-means-its-selling-into-the-smallest-install-base-since-2017",
-    "description": "Activision's decision to drop support for Xbox One and PlayStation 4 for Call of Duty: Modern Warfare 4 has reduced its potential marked by 4.3%, according to a new report from analysts S&P, which says that the corresponding launch on Switch 2 &ndash; the first time the franchise has been available ",
+    "description": "Activision's decision to drop support for Xbox One and PlayStation 4 for Call of Duty: Modern Warfare 4 has reduced its potential marked by 5.6%, according to a new report from analysts S&P, which says that the corresponding launch on Switch 2 &ndash; the first time the franchise has been available ",
     "date": "Tue, 02 Jun 2026 07:12:03 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -331,28 +332,28 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Sony's summer State of Play showcase was big on God of War, Wolverine, gore and GTA-dodging release dates",
-    "link": "https://www.gamesindustry.biz/esa-67-of-americans-played-video-games-for-more-than-an-hour-in-2025",
-    "description": "In 2025, more than 212 million Americans ages 5 to 90 played video games, according to the latest Entertainment Software Association data. Read more",
-    "date": "Wed, 03 Jun 2026 04:01:44 +0000",
+    "title": "MGM and Amazon Game Studios to publish future IO Interactive James Bond titles",
+    "link": "https://www.gamesindustry.biz/asia-and-mena-games-market-revenue-predicted-to-grow-165-to-over-103bn-by-2030",
+    "description": "The Asia and MENA regions generated $88.9 billion in gaming revenue in 2025, with revenue projected to reach $103.6 billion by 2028, Niko Partners reports. Read more",
+    "date": "Thu, 04 Jun 2026 08:28:38 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "PlayStation first-party sales see modest rebound after half-decade decline",
-    "link": "https://www.gamesindustry.biz/the-problem-with-online-toxicity-thats-something-that-we-can-solve-today-the-ai-system-that-promises-to-detect-signs-of-grooming",
-    "description": "Content warning: suicide, grooming. Read more",
-    "date": "Tue, 02 Jun 2026 13:44:21 +0000",
+    "title": "Vampire Survivors' Poncle is expanding into Japan",
+    "link": "https://www.gamesindustry.biz/mgm-and-amazon-game-studios-to-publish-future-io-interactive-james-bond-titles",
+    "description": "IO Interactive will no longer self-publish future James Bond games, which will instead be published by MGM and Amazon Game Studios. Read more",
+    "date": "Wed, 03 Jun 2026 19:53:43 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "European mobile games sector generates €7.53bn globally in 2025",
-    "link": "https://www.gamesindustry.biz/nordic-game-attendance-rises-by-6-in-2026",
-    "description": "The organisers of Nordic Game 2026 recorded a 6% increase in attendance numbers compared to last year. Read more",
-    "date": "Tue, 02 Jun 2026 10:35:07 +0000",
+    "title": "\"Nobody's making games for the retired people\" – The growing yet underserved market for grey gamers",
+    "link": "https://www.gamesindustry.biz/pubg-creator-announces-studio-restructure-stating-i-have-reached-the-limits-of-how-far-i-can-fund-this-journey",
+    "description": "PUGB creator Brendan Greene has announced a studio restructure at PlayerUnknown Productions, admitting \"I have reached the limits of how far I can continue to fund this journey in its current form.\" Read more",
+    "date": "Wed, 03 Jun 2026 14:20:13 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
