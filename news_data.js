@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-04 10:08 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-05 10:05 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-04T10:08:01.360480",
+  fetched_at: "2026-06-05T10:05:33.488463",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "rom",
       "takedown",
       "pirate",
-      "dmca"
+      "dmca",
+      "rom"
     ]
   },
   {
@@ -25,10 +25,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "crack",
-      "piracy",
       "pirate",
-      "rom"
+      "rom",
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -53,10 +53,10 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "piracy",
+      "torrent",
       "copyright",
-      "rom",
       "pirate",
-      "torrent"
+      "rom"
     ]
   },
   {
@@ -67,9 +67,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
+      "dmca",
       "pirate",
-      "dmca"
+      "piracy"
     ]
   },
   {
@@ -80,10 +80,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "crack",
+      "copyright",
       "pirate",
       "torrent",
-      "copyright"
+      "crack"
     ]
   },
   {
@@ -94,9 +94,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "crack",
+      "copyright",
       "piracy",
-      "copyright"
+      "crack"
     ]
   },
   {
@@ -120,9 +120,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
+      "copyright",
       "pirate",
-      "copyright"
+      "piracy"
     ]
   },
   {
@@ -133,8 +133,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -145,8 +145,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -169,8 +169,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "pirate"
+      "pirate",
+      "crack"
     ]
   },
   {
@@ -181,8 +181,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -205,8 +205,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
     ]
   },
   {
@@ -232,10 +232,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Asia and MENA games market revenue predicted to grow 16.5% to over $103bn by 2030",
+    "title": "\"We're always on the hunt for new content\" – Secret Mode on the surprise acquisition of Chained Together",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 04 Jun 2026 09:55:35 +0000",
+    "date": "Fri, 05 Jun 2026 09:37:08 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "VR developer Vertigo Games shutters Amsterdam studio",
+    "link": "https://www.gamesindustry.biz/were-always-on-the-hunt-for-new-content-secret-mode-on-the-surprise-acquisition-of-chained-together",
+    "description": "On June 2, UK publisher Secret Mode revealed that it had picked up Chained Together from Anegar Games. The hardcore co-op platformer, which sees players climbing up from the depths of hell while chained to their friends, was released in June 2024 and has sold more than 10 million copies so far. Read",
+    "date": "Fri, 05 Jun 2026 09:15:17 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -332,28 +343,19 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "MGM and Amazon Game Studios to publish future IO Interactive James Bond titles",
-    "link": "https://www.gamesindustry.biz/asia-and-mena-games-market-revenue-predicted-to-grow-165-to-over-103bn-by-2030",
-    "description": "The Asia and MENA regions generated $88.9 billion in gaming revenue in 2025, with revenue projected to reach $103.6 billion by 2028, Niko Partners reports. Read more",
-    "date": "Thu, 04 Jun 2026 08:28:38 +0000",
+    "title": "Switch 2 sales drop 87% in Japan following surge ahead of cost revisions",
+    "link": "https://www.gamesindustry.biz/vr-developer-vertigo-games-shutters-amsterdam-studio",
+    "description": "VR developer Vertigo Games has announced the closure of its Amsterdam studio. Read more",
+    "date": "Fri, 05 Jun 2026 08:14:13 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Vampire Survivors' Poncle is expanding into Japan",
-    "link": "https://www.gamesindustry.biz/mgm-and-amazon-game-studios-to-publish-future-io-interactive-james-bond-titles",
-    "description": "IO Interactive will no longer self-publish future James Bond games, which will instead be published by MGM and Amazon Game Studios. Read more",
-    "date": "Wed, 03 Jun 2026 19:53:43 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"Nobody's making games for the retired people\" – The growing yet underserved market for grey gamers",
-    "link": "https://www.gamesindustry.biz/pubg-creator-announces-studio-restructure-stating-i-have-reached-the-limits-of-how-far-i-can-fund-this-journey",
-    "description": "PUGB creator Brendan Greene has announced a studio restructure at PlayerUnknown Productions, admitting \"I have reached the limits of how far I can continue to fund this journey in its current form.\" Read more",
-    "date": "Wed, 03 Jun 2026 14:20:13 +0000",
+    "title": "\"Indie titles now routinely produce launches with AAA-level concurrent player counts\" – How to prepare in case of viral success",
+    "link": "https://www.gamesindustry.biz/switch-2-sales-drop-87-in-japan-following-surge-ahead-of-cost-revisions",
+    "description": "Nintendo Switch 2 sales in Japan fell by 87% after a surge prior to the May 25 price increase. Read more",
+    "date": "Thu, 04 Jun 2026 13:28:49 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
