@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-05 10:05 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-06 08:43 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-05T10:05:33.488463",
+  fetched_at: "2026-06-06T08:43:28.175037",
   item_count: 30,
   items: [
   {
@@ -11,9 +11,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "takedown",
-      "pirate",
       "dmca",
+      "pirate",
+      "takedown",
       "rom"
     ]
   },
@@ -25,10 +25,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "pirate",
-      "rom",
       "piracy",
-      "crack"
+      "pirate",
+      "crack",
+      "rom"
     ]
   },
   {
@@ -39,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
+      "dmca",
       "pirate",
-      "dmca"
+      "takedown"
     ]
   },
   {
@@ -52,11 +52,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "torrent",
+      "piracy",
       "copyright",
-      "pirate",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -68,8 +68,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "dmca",
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -80,23 +80,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "copyright",
       "pirate",
-      "torrent",
-      "crack"
-    ]
-  },
-  {
-    "title": "Streaming Piracy Crackdown &#8216;KRATOS 2&#8217; Leads to 29 Arrests, Targets Remain Unknown",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Thu, 04 Jun 2026 08:34:40 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
       "copyright",
-      "piracy",
-      "crack"
+      "crack",
+      "torrent"
     ]
   },
   {
@@ -107,22 +94,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "dmca",
+      "pirate",
       "torrent"
     ]
   },
   {
-    "title": "Broadcaster Loses FIFA World Cup Rights After 20 Years, Citing “Rampant Piracy”",
-    "link": "https://torrentfreak.com/publishers-googles-ebook-ad-ban-blocked-legitimate-sellers-not-pirates/",
-    "description": "The textbook publishers that sued Google over pirated ebook ads have responded to the company's effort to dismiss their case. The publishers argue that Google's specific ads for pirate books qualify as contributory copyright infringement under the Supreme Court's Cox ruling. Google's ban on ebook ad",
-    "date": "Tue, 12 May 2026 09:12:15 +0000",
+    "title": "Streaming Piracy Crackdown &#8216;KRATOS 2&#8217; Leads to 29 Arrests, Targets Remain Unknown",
+    "link": "https://torrentfreak.com/vietnams-online-piracy-failures-trigger-section-301-investigation-tariffs-on-the-table/",
+    "description": "A month after designating Vietnam as a \"Priority Foreign Country\" over its failure to deter online piracy, the U.S. Trade Representative has formally opened a trade investigation, opening the door to potential sanctions. Rightsholders are invited to submit comments, and the MPA, which pursued action",
+    "date": "Thu, 04 Jun 2026 08:34:40 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 7,
+    "relevance_score": 6,
     "matched_keywords": [
-      "copyright",
-      "pirate",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -133,8 +119,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -145,8 +131,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -157,8 +143,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "takedown",
-      "pirate"
+      "pirate",
+      "takedown"
     ]
   },
   {
@@ -181,8 +167,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
+    ]
+  },
+  {
+    "title": "Vietnam&#8217;s Online Piracy Failures Trigger Section 301 Investigation, Tariffs on the Table",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Fri, 05 Jun 2026 10:22:07 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -232,10 +230,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"We're always on the hunt for new content\" – Secret Mode on the surprise acquisition of Chained Together",
+    "title": "Platinum is making a triple-A Ninja Turtles game because they're \"huge fans\" of the IP",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 05 Jun 2026 09:37:08 +0000",
+    "date": "Fri, 05 Jun 2026 21:45:36 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -265,36 +263,14 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Nordic Game attendance rises by 6% in 2026",
-    "link": "https://www.gamesindustry.biz/playstation-first-party-sales-see-modest-rebound-after-half-decade-decline",
-    "description": "PlayStation first-party game sales  increased from 28.9 million to 32.1 million copies in FY2025, marking a modest improvement over the past five years. Read more",
-    "date": "Tue, 02 Jun 2026 12:10:51 +0000",
-    "source": "GamesIndustry",
+    "title": "SCOTUS’ Hikma Ruling Changes the Game for Induced Infringement Pleadings",
+    "link": "https://ipwatchdog.com/2026/06/04/hikma-ruling-looms-large-house-ip-subcommittee-hearing-debating-legislation-favoring-generic-drugmakers/",
+    "description": "At approximately the same moment that the U.S. Supreme Court handed down today’s landmark ruling in Hikma v. Amarin, the House Judiciary’s Subcommittee on Courts, Intellectual Property, Artificial Intelligence, and the Internet began a hearing on balancing medical innovation and access to generic dr",
+    "date": "Thu, 04 Jun 2026 17:40:49 +0000",
+    "source": "IPWatchdog",
     "relevance_score": 3,
     "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Analyst: Call of Duty's withdrawal from last-gen consoles means it's selling into the smallest install base since 2017",
-    "link": "https://www.gamesindustry.biz/european-mobile-games-sector-generates-753bn-globally-in-2025",
-    "description": "European mobile games companies generated &euro;7.53 billion in global revenue in 2025. Forecasts indicate this will exceed &euro;8 billion by 2028. Read more",
-    "date": "Tue, 02 Jun 2026 08:35:54 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "New Zealand games sector hits $1bn revenue two years earlier than anticipated",
-    "link": "https://www.gamesindustry.biz/analyst-call-of-dutys-withdrawal-from-last-gen-consoles-means-its-selling-into-the-smallest-install-base-since-2017",
-    "description": "Activision's decision to drop support for Xbox One and PlayStation 4 for Call of Duty: Modern Warfare 4 has reduced its potential marked by 5.6%, according to a new report from analysts S&P, which says that the corresponding launch on Switch 2 &ndash; the first time the franchise has been available ",
-    "date": "Tue, 02 Jun 2026 07:12:03 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
+      "intellectual property"
     ]
   },
   {
@@ -338,24 +314,42 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "rom",
-      "torrent"
+      "torrent",
+      "rom"
     ]
   },
   {
-    "title": "Switch 2 sales drop 87% in Japan following surge ahead of cost revisions",
-    "link": "https://www.gamesindustry.biz/vr-developer-vertigo-games-shutters-amsterdam-studio",
-    "description": "VR developer Vertigo Games has announced the closure of its Amsterdam studio. Read more",
-    "date": "Fri, 05 Jun 2026 08:14:13 +0000",
+    "title": "\"We have secured our components for this year\" – Nex Playground hopes to avoid any further AI-related price rises",
+    "link": "https://www.gamesindustry.biz/platinum-is-making-a-triple-a-ninja-turtles-game-because-theyre-huge-fans-of-the-ip",
+    "description": "Bayonetta dev PlatinumGames signed up to work on Teenage Mutant Ninja Turtles: The Last Ronin because the studio were \"huge fans\" of the IP, according to Dan Prigg, the head of the newly re-announced Paramount Games Studio. Platinum was announced as the developer of the game in the Summer Game Fest ",
+    "date": "Fri, 05 Jun 2026 16:42:42 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "\"Indie titles now routinely produce launches with AAA-level concurrent player counts\" – How to prepare in case of viral success",
-    "link": "https://www.gamesindustry.biz/switch-2-sales-drop-87-in-japan-following-surge-ahead-of-cost-revisions",
-    "description": "Nintendo Switch 2 sales in Japan fell by 87% after a surge prior to the May 25 price increase. Read more",
-    "date": "Thu, 04 Jun 2026 13:28:49 +0000",
+    "title": "Merge Mansion dev Metacore lays off 159 employees, closes studios in Germany and Sweden",
+    "link": "https://www.gamesindustry.biz/we-have-secured-our-components-for-this-year-nex-playground-hopes-to-avoid-any-further-ai-related-price-rises",
+    "description": "Pre-orders are already live for the UK and Ireland launch of the Nex Playground, which is set to ship towards the end of June. The console, which is aimed at families and employs motion-tracking technology &ndash; much like Microsoft's long-gone Kinect &ndash; proved to be a surprise hit in the Unit",
+    "date": "Fri, 05 Jun 2026 13:49:47 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Asha Sharma commits to \"resetting\" Xbox, prioritising exclusivity and addressing AI in new strategy",
+    "link": "https://www.gamesindustry.biz/merge-mansion-dev-metacore-lays-off-159-employees-closes-operations-in-germany-and-sweden",
+    "description": "Mobile studio Metacore has confirmed layoffs of 159 employees in Finland and the closure of its operations in Germany and Sweden. Read more",
+    "date": "Fri, 05 Jun 2026 13:13:54 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "September becomes a pile-up as publishers swerve to avoid GTA 6 | Opinion",
+    "link": "https://www.gamesindustry.biz/asha-sharma-commits-to-resetting-xbox-prioritising-exclusivity-and-addressing-ai-in-new-strategy",
+    "description": "Xbox CEO Asha Sharma aims to make Xbox \"the number one gaming and entertainment company,\" and has emphasised that her immediate priority is \"resetting the business.\" Read more",
+    "date": "Fri, 05 Jun 2026 11:32:34 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
