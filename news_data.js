@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-06 08:43 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-07 09:28 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-06T08:43:28.175037",
+  fetched_at: "2026-06-07T09:28:07.917873",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "dmca",
       "pirate",
-      "takedown",
-      "rom"
+      "rom",
+      "dmca",
+      "takedown"
     ]
   },
   {
@@ -25,10 +25,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "piracy",
       "pirate",
+      "rom",
       "crack",
-      "rom"
+      "piracy"
     ]
   },
   {
@@ -39,8 +39,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "dmca",
       "pirate",
+      "dmca",
       "takedown"
     ]
   },
@@ -52,11 +52,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
-      "piracy",
       "copyright",
+      "pirate",
       "rom",
-      "pirate"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -67,23 +67,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "dmca",
-      "piracy",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Publishers: Google&#8217;s Ebook Ad &#8220;Ban&#8221; Blocked Legitimate Sellers, Not Pirates",
-    "link": "https://torrentfreak.com/real-debrids-renewed-piracy-crackdown-follows-corporate-restructuring/",
-    "description": "Real-Debrid, a popular streaming and download service, has started returning copyright-infringement errors on many cached torrents. The renewed crackdown began days after a corporate restructuring. A third-party source says that long-time subscribers have lost 50 to 70 percent of their libraries ove",
-    "date": "Wed, 13 May 2026 12:00:25 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 8,
-    "matched_keywords": [
       "pirate",
-      "copyright",
-      "crack",
-      "torrent"
+      "dmca",
+      "piracy"
     ]
   },
   {
@@ -94,8 +80,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "dmca",
       "pirate",
+      "dmca",
       "torrent"
     ]
   },
@@ -107,8 +93,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -119,8 +105,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -131,8 +117,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -167,20 +153,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
     "title": "Vietnam&#8217;s Online Piracy Failures Trigger Section 301 Investigation, Tariffs on the Table",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/youtube-processed-2-5-billion-content-id-copyright-claims-in-2025/",
+    "description": "YouTube's Content ID system processed a record 2.5 billion copyright claims in 2025, a 14% increase compared to a year before. While disputes remain rare, uploaders who challenged claims come out as the winner more often than not. Despite the increase in claims, the number of Content ID eligible rig",
     "date": "Fri, 05 Jun 2026 10:22:07 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -191,8 +177,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -203,8 +189,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
     ]
   },
   {
@@ -230,10 +216,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Platinum is making a triple-A Ninja Turtles game because they're \"huge fans\" of the IP",
+    "title": "The Summer Game Fest showcase showed Japan’s top game-makers racing ever further ahead of the west | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 05 Jun 2026 21:45:36 +0000",
+    "date": "Sat, 06 Jun 2026 18:00:45 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -245,17 +231,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/were-always-on-the-hunt-for-new-content-secret-mode-on-the-surprise-acquisition-of-chained-together",
     "description": "On June 2, UK publisher Secret Mode revealed that it had picked up Chained Together from Anegar Games. The hardcore co-op platformer, which sees players climbing up from the depths of hell while chained to their friends, was released in June 2024 and has sold more than 10 million copies so far. Read",
     "date": "Fri, 05 Jun 2026 09:15:17 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "\"The problem with online toxicity, that's something that we can solve today\" – The AI system that promises to detect signs of grooming",
-    "link": "https://www.gamesindustry.biz/sonys-summer-state-of-play-showcase-was-big-on-god-of-war-wolverine-gore-and-gta-dodging-release-dates",
-    "description": "Sony's latest State of Play showcase revealed a series of new games and release dates, alongside the expected deep-dives on Marvel's Wolverine and God of War Laufey, both from internal Sony studios Insomniac and Sony Santa Monica respectively. Read more",
-    "date": "Tue, 02 Jun 2026 13:48:10 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -314,9 +289,27 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "torrent",
-      "rom"
+      "rom",
+      "torrent"
     ]
+  },
+  {
+    "title": "007 First Light officially sells 2.7 million copies, \"probably\" at three million",
+    "link": "https://www.gamesindustry.biz/the-summer-game-fest-showcase-showed-japans-top-game-makers-racing-ever-further-ahead-of-the-west-opinion",
+    "description": "Summer Game Fest&rsquo;s 2026 showcase seemed to cement a grim truth for western game-makers: Japanese studios are delivering more and more quality games hardcore players love than the west seems able to right now. Read more",
+    "date": "Sat, 06 Jun 2026 16:03:05 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Platinum is making a triple-A Ninja Turtles game because they're \"huge fans\" of the IP",
+    "link": "https://www.gamesindustry.biz/007-first-light-officially-sells-27-million-copies-probably-at-three-million",
+    "description": "IO Interactive CEO Hakan Abrak says that the studio's recently-released 007 First Light is approaching three million copies sold, and while the game has yet to recoup its budget the goal is well below the $200 million budget previously reported. He says that conversations are ongoing about how the f",
+    "date": "Fri, 05 Jun 2026 21:45:36 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "\"We have secured our components for this year\" – Nex Playground hopes to avoid any further AI-related price rises",
