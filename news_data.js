@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-07 09:28 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-08 11:12 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-07T09:28:07.917873",
+  fetched_at: "2026-06-08T11:12:00.589558",
   item_count: 30,
   items: [
   {
@@ -11,24 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "pirate",
-      "rom",
       "dmca",
-      "takedown"
-    ]
-  },
-  {
-    "title": "Real-Debrid&#8217;s Renewed Piracy Crackdown Follows Corporate Restructuring (Updated)",
-    "link": "https://torrentfreak.com/universal-wins-delhi-court-order-against-imdb-themed-pirate-streaming-site/",
-    "description": "A new ruling from the Delhi High Court targets various sites that exploit IMDb's website to streamline access to pirated content. This includes PlayIMDb, which redirects users to a pirated stream by adding the word \"play\" to an IMDb link. The order, requested by Universal, requires registrars and IS",
-    "date": "Thu, 14 May 2026 17:48:31 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 10,
-    "matched_keywords": [
+      "takedown",
       "pirate",
-      "rom",
-      "crack",
-      "piracy"
+      "rom"
     ]
   },
   {
@@ -39,9 +25,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "dmca",
-      "takedown"
+      "takedown",
+      "pirate"
     ]
   },
   {
@@ -54,9 +40,9 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "copyright",
       "pirate",
-      "rom",
+      "torrent",
       "piracy",
-      "torrent"
+      "rom"
     ]
   },
   {
@@ -67,9 +53,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
+      "piracy",
       "dmca",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -80,9 +66,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "dmca",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -93,8 +79,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -105,8 +91,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -117,8 +103,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -129,8 +115,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "takedown"
+      "takedown",
+      "pirate"
     ]
   },
   {
@@ -141,8 +127,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "crack"
+      "crack",
+      "pirate"
     ]
   },
   {
@@ -153,8 +139,32 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
+    ]
+  },
+  {
+    "title": "Z-Library Lets People Run White-Label, Login-Only Pirate Mirrors",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Mon, 08 Jun 2026 09:18:44 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
+      "pirate"
+    ]
+  },
+  {
+    "title": "YouTube Processed 2.5 Billion Content ID Copyright Claims in 2025",
+    "link": "https://torrentfreak.com/z-library-lets-people-run-white-label-login-only-pirate-mirrors/",
+    "description": "In what's partly an effort to push back against domain seizures and blocking efforts, Z-Library has upgraded its mirror infrastructure. Users of the shadow library can now create custom-branded, login-only mirrors of the site, creating a network of stealthy, white-label pirate sites. Running a mirro",
+    "date": "Sat, 06 Jun 2026 13:59:34 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -165,8 +175,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -177,8 +187,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -189,8 +199,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
     ]
   },
   {
@@ -216,10 +226,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "The Summer Game Fest showcase showed Japan’s top game-makers racing ever further ahead of the west | Opinion",
+    "title": "Nintendo confirms revised Switch 2 console with replaceable battery for EU consumers",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Sat, 06 Jun 2026 18:00:45 +0000",
+    "date": "Mon, 08 Jun 2026 08:33:49 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"We walked away from years of work\" – The long and troubled journey of The Wolf Among Us 2",
+    "link": "https://www.gamesindustry.biz/nintendo-confirms-revised-switch-2-console-with-replaceable-battery-for-eu-consumers",
+    "description": "Nintendo has announced a revised Switch 2 console for Europe to comply with legislation requiring replaceable batteries. Read more",
+    "date": "Mon, 08 Jun 2026 08:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -235,17 +256,6 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "rom"
-    ]
-  },
-  {
-    "title": "SCOTUS’ Hikma Ruling Changes the Game for Induced Infringement Pleadings",
-    "link": "https://ipwatchdog.com/2026/06/04/hikma-ruling-looms-large-house-ip-subcommittee-hearing-debating-legislation-favoring-generic-drugmakers/",
-    "description": "At approximately the same moment that the U.S. Supreme Court handed down today’s landmark ruling in Hikma v. Amarin, the House Judiciary’s Subcommittee on Courts, Intellectual Property, Artificial Intelligence, and the Internet began a hearing on balancing medical innovation and access to generic dr",
-    "date": "Thu, 04 Jun 2026 17:40:49 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "intellectual property"
     ]
   },
   {
@@ -289,9 +299,36 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "rom",
-      "torrent"
+      "torrent",
+      "rom"
     ]
+  },
+  {
+    "title": "Xbox confirms console exclusivity will be decided on \"case by case basis\"",
+    "link": "https://www.gamesindustry.biz/we-walked-away-from-years-of-work-the-long-and-troubled-journey-of-the-wolf-among-us-2",
+    "description": "After a long, long wait, the Big Bad Wolf has finally returned. Read more",
+    "date": "Mon, 08 Jun 2026 06:56:03 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Crystal Dynamics using generative AI for early prototyping, but \"finished content is human-created\"",
+    "link": "https://www.gamesindustry.biz/xbox-confirms-console-exclusivity-will-be-decided-on-case-by-case-basis",
+    "description": "Xbox opened its summer showcase with the news that Gears of War E-day will not, after all, be releasing on PlayStation 5, and neither will inXile's Clockwork Revolution. Read more",
+    "date": "Mon, 08 Jun 2026 06:35:50 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "The Summer Game Fest showcase showed Japan’s top game-makers racing ever further ahead of the west | Opinion",
+    "link": "https://www.gamesindustry.biz/crystal-dynamics-using-generative-ai-for-early-prototyping-but-finished-content-is-human-created",
+    "description": "Crystal Dynamics has given more detail to GamesIndustry.biz on how it's using AI in the development of Tomb Raider: Legacy of Atlantis, following online backlash to its disclosure in the Steam page for the title. Read more",
+    "date": "Sat, 06 Jun 2026 18:00:45 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "007 First Light officially sells 2.7 million copies, \"probably\" at three million",
@@ -307,42 +344,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/007-first-light-officially-sells-27-million-copies-probably-at-three-million",
     "description": "IO Interactive CEO Hakan Abrak says that the studio's recently-released 007 First Light is approaching three million copies sold, and while the game has yet to recoup its budget the goal is well below the $200 million budget previously reported. He says that conversations are ongoing about how the f",
     "date": "Fri, 05 Jun 2026 21:45:36 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"We have secured our components for this year\" – Nex Playground hopes to avoid any further AI-related price rises",
-    "link": "https://www.gamesindustry.biz/platinum-is-making-a-triple-a-ninja-turtles-game-because-theyre-huge-fans-of-the-ip",
-    "description": "Bayonetta dev PlatinumGames signed up to work on Teenage Mutant Ninja Turtles: The Last Ronin because the studio were \"huge fans\" of the IP, according to Dan Prigg, the head of the newly re-announced Paramount Games Studio. Platinum was announced as the developer of the game in the Summer Game Fest ",
-    "date": "Fri, 05 Jun 2026 16:42:42 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Merge Mansion dev Metacore lays off 159 employees, closes studios in Germany and Sweden",
-    "link": "https://www.gamesindustry.biz/we-have-secured-our-components-for-this-year-nex-playground-hopes-to-avoid-any-further-ai-related-price-rises",
-    "description": "Pre-orders are already live for the UK and Ireland launch of the Nex Playground, which is set to ship towards the end of June. The console, which is aimed at families and employs motion-tracking technology &ndash; much like Microsoft's long-gone Kinect &ndash; proved to be a surprise hit in the Unit",
-    "date": "Fri, 05 Jun 2026 13:49:47 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Asha Sharma commits to \"resetting\" Xbox, prioritising exclusivity and addressing AI in new strategy",
-    "link": "https://www.gamesindustry.biz/merge-mansion-dev-metacore-lays-off-159-employees-closes-operations-in-germany-and-sweden",
-    "description": "Mobile studio Metacore has confirmed layoffs of 159 employees in Finland and the closure of its operations in Germany and Sweden. Read more",
-    "date": "Fri, 05 Jun 2026 13:13:54 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "September becomes a pile-up as publishers swerve to avoid GTA 6 | Opinion",
-    "link": "https://www.gamesindustry.biz/asha-sharma-commits-to-resetting-xbox-prioritising-exclusivity-and-addressing-ai-in-new-strategy",
-    "description": "Xbox CEO Asha Sharma aims to make Xbox \"the number one gaming and entertainment company,\" and has emphasised that her immediate priority is \"resetting the business.\" Read more",
-    "date": "Fri, 05 Jun 2026 11:32:34 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
