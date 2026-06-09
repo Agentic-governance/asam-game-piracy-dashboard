@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-08 11:12 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-09 09:58 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-08T11:12:00.589558",
+  fetched_at: "2026-06-09T09:58:14.786181",
   item_count: 30,
   items: [
   {
@@ -12,9 +12,24 @@ const ARIA_NEWS = {
     "relevance_score": 10,
     "matched_keywords": [
       "dmca",
-      "takedown",
       "pirate",
+      "takedown",
       "rom"
+    ]
+  },
+  {
+    "title": "YouTube Processed 2.5 Billion Content ID Copyright Claims in 2025",
+    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'In The Grey' tops the chart, followed by 'Mortal Kombat II.' 'The Devil Wears Prada 2' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sat, 06 Jun 2026 13:59:34 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 9,
+    "matched_keywords": [
+      "torrent",
+      "piracy",
+      "pirate",
+      "rom",
+      "copyright"
     ]
   },
   {
@@ -26,23 +41,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "dmca",
-      "takedown",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Torrent Giant YTS Suffers Extended Downtime (Updated)",
-    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Mortal Kombat II' tops the chart, followed by 'The Devil Wears Prada 2.' 'Project Hail Mary' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sat, 30 May 2026 21:22:25 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 9,
-    "matched_keywords": [
-      "copyright",
       "pirate",
-      "torrent",
-      "piracy",
-      "rom"
+      "takedown"
     ]
   },
   {
@@ -54,8 +54,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "piracy",
-      "dmca",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -66,8 +66,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "dmca",
       "torrent",
+      "dmca",
+      "pirate"
+    ]
+  },
+  {
+    "title": "Z-Library Lets People Run White-Label, Login-Only Pirate Mirrors",
+    "link": "https://torrentfreak.com/filmmakers-and-isp-wow-settle-piracy-liability-lawsuit-before-trial/",
+    "description": "The long-running piracy liability lawsuit between filmmakers and internet provider WOW! has ended with a quiet settlement. In late March, a Colorado federal court refused to resolve the ISP's safe harbor defense on summary judgment. Instead of going to trial, both sides walked away. The settlement f",
+    "date": "Mon, 08 Jun 2026 09:18:44 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "piracy",
       "pirate"
     ]
   },
@@ -115,8 +127,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "takedown",
-      "pirate"
+      "pirate",
+      "takedown"
     ]
   },
   {
@@ -127,44 +139,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "pirate"
+      "pirate",
+      "crack"
     ]
   },
   {
-    "title": "Universal Wins Indian Court Order Against IMDb-Themed Pirate Streaming Sites",
-    "link": "https://torrentfreak.com/lithuania-pitches-pirate-site-blocking-as-defense-against-hybrid-warfare-including-russian-disinformation/",
-    "description": "Lithuania’s media watchdog LRTK will present an overview of its strategic anti-piracy enforcement at an upcoming WIPO meeting in Geneva. The organization notes that combining pirate site blocking measures with OSINT tools has been helpful in countering hybrid pirate site threats, including the distr",
-    "date": "Fri, 15 May 2026 17:33:33 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "piracy",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Z-Library Lets People Run White-Label, Login-Only Pirate Mirrors",
+    "title": "Filmmakers and ISP WOW! Settle Piracy Liability Lawsuit Before Trial",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Mon, 08 Jun 2026 09:18:44 +0000",
+    "date": "Tue, 09 Jun 2026 08:30:01 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
-    ]
-  },
-  {
-    "title": "YouTube Processed 2.5 Billion Content ID Copyright Claims in 2025",
-    "link": "https://torrentfreak.com/z-library-lets-people-run-white-label-login-only-pirate-mirrors/",
-    "description": "In what's partly an effort to push back against domain seizures and blocking efforts, Z-Library has upgraded its mirror infrastructure. Users of the shadow library can now create custom-branded, login-only mirrors of the site, creating a network of stealthy, white-label pirate sites. Running a mirro",
-    "date": "Sat, 06 Jun 2026 13:59:34 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "copyright",
-      "pirate"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -180,6 +168,18 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Torrent Giant YTS Suffers Extended Downtime (Updated)",
+    "link": "https://torrentfreak.com/the-pirate-bay-remains-resilient-20-years-after-the-raid/",
+    "description": "Twenty years ago today, dozens of Swedish police officers stormed a Stockholm data center, seizing The Pirate Bay's servers. The entertainment industry hoped the raid would finish the site for good. Instead, the police action inadvertently helped to create one of the most resilient and iconic websit",
+    "date": "Sat, 30 May 2026 21:22:25 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "torrent",
+      "pirate"
+    ]
+  },
+  {
     "title": "Mexican President Responds to World Cup Piracy Concerns, Prefers &#8216;Open&#8217; Broadcasts",
     "link": "https://torrentfreak.com/gay-torrents-vanishes-after-lawsuit-flavaworks-narrows-case-from-325-to-39-users/",
     "description": "Adult entertainment company FlavaWorks filed an amended complaint against private torrent tracker Gay-Torrents, alleging that the operators suddenly disappeared, leaving users and staff in the dark. In a tactical shift, Flava significantly reduced the targeted users to a core group of 39, who allege",
@@ -187,8 +187,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -199,15 +199,15 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 06/01/2026",
-    "link": "https://torrentfreak.com/the-pirate-bay-remains-resilient-20-years-after-the-raid/",
-    "description": "Twenty years ago today, dozens of Swedish police officers stormed a Stockholm data center, seizing The Pirate Bay's servers. The entertainment industry hoped the raid would finish the site for good. Instead, the police action inadvertently helped to create one of the most resilient and iconic websit",
-    "date": "Sat, 30 May 2026 23:09:40 +0000",
+    "title": "Top 10 Most Pirated Movies of The Week – 06/08/2026",
+    "link": "https://torrentfreak.com/z-library-lets-people-run-white-label-login-only-pirate-mirrors/",
+    "description": "In what's partly an effort to push back against domain seizures and blocking efforts, Z-Library has upgraded its mirror infrastructure. Users of the shadow library can now create custom-branded, login-only mirrors of the site, creating a network of stealthy, white-label pirate sites. Running a mirro",
+    "date": "Sun, 07 Jun 2026 23:09:40 +0000",
     "source": "TorrentFreak",
     "relevance_score": 3,
     "matched_keywords": [
@@ -226,10 +226,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Nintendo confirms revised Switch 2 console with replaceable battery for EU consumers",
+    "title": "Türkiye's domestic mobile revenue grew 6% to $347m in 2025",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 08 Jun 2026 08:33:49 +0000",
+    "date": "Tue, 09 Jun 2026 09:05:24 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "After a stint on Warzone, Toys for Bob is thrilled to be back on Spyro – \"We were moving away from the types of games that are near and dear to our hearts\"",
+    "link": "https://www.gamesindustry.biz/xbox-explains-new-exclusives-policy-players-can-expect-a-reliable-pipeline-of-exclusive-titles-in-service-of-turning-around-the-business",
+    "description": "Xbox Chief Strategy Officer Matthew Ball has given more insight into the firm's new commitment to platform exclusives, following the announcement yesterday that both Gears of War: E-Day and Clockwork Revolution would not be available on non-Xbox platforms. Read more",
+    "date": "Mon, 08 Jun 2026 15:50:25 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Nintendo of Europe agrees to pay €35m fine for Joy-Con drift defects",
+    "link": "https://www.gamesindustry.biz/after-a-stint-on-warzone-toys-for-bob-is-thrilled-to-be-back-on-spyro-we-were-moving-away-from-the-types-of-games-that-are-near-and-dear-to-our-hearts",
+    "description": "You might know Toys for Bob from the Skylanders franchise, as well as the 2018 Spyro Reignited Trilogy and 2020's Crash Bandicoot 4: It's About Time. But you might not appreciate just how long this studio has been around. \"We're actually one of the longest running game development studios in North A",
+    "date": "Mon, 08 Jun 2026 13:43:43 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -256,6 +278,30 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "rom"
+    ]
+  },
+  {
+    "title": "Patents Don’t Monetize Themselves: Turning Portfolios from Cost Centers into Revenue Assets",
+    "link": "https://ipwatchdog.com/",
+    "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
+    "date": "Mon, 08 Jun 2026 17:32:34 +0000",
+    "source": "IPWatchdog",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "copyright",
+      "rom",
+      "intellectual property"
+    ]
+  },
+  {
+    "title": "SCOTUS’ Hikma Ruling Changes the Game for Induced Infringement Pleadings",
+    "link": "https://ipwatchdog.com/2026/06/04/hikma-ruling-looms-large-house-ip-subcommittee-hearing-debating-legislation-favoring-generic-drugmakers/",
+    "description": "At approximately the same moment that the U.S. Supreme Court handed down today’s landmark ruling in Hikma v. Amarin, the House Judiciary’s Subcommittee on Courts, Intellectual Property, Artificial Intelligence, and the Internet began a hearing on balancing medical innovation and access to generic dr",
+    "date": "Thu, 04 Jun 2026 17:40:49 +0000",
+    "source": "IPWatchdog",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "intellectual property"
     ]
   },
   {
@@ -304,46 +350,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Xbox confirms console exclusivity will be decided on \"case by case basis\"",
-    "link": "https://www.gamesindustry.biz/we-walked-away-from-years-of-work-the-long-and-troubled-journey-of-the-wolf-among-us-2",
-    "description": "After a long, long wait, the Big Bad Wolf has finally returned. Read more",
-    "date": "Mon, 08 Jun 2026 06:56:03 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Crystal Dynamics using generative AI for early prototyping, but \"finished content is human-created\"",
-    "link": "https://www.gamesindustry.biz/xbox-confirms-console-exclusivity-will-be-decided-on-case-by-case-basis",
-    "description": "Xbox opened its summer showcase with the news that Gears of War E-day will not, after all, be releasing on PlayStation 5, and neither will inXile's Clockwork Revolution. Read more",
-    "date": "Mon, 08 Jun 2026 06:35:50 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "The Summer Game Fest showcase showed Japan’s top game-makers racing ever further ahead of the west | Opinion",
-    "link": "https://www.gamesindustry.biz/crystal-dynamics-using-generative-ai-for-early-prototyping-but-finished-content-is-human-created",
-    "description": "Crystal Dynamics has given more detail to GamesIndustry.biz on how it's using AI in the development of Tomb Raider: Legacy of Atlantis, following online backlash to its disclosure in the Steam page for the title. Read more",
-    "date": "Sat, 06 Jun 2026 18:00:45 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "007 First Light officially sells 2.7 million copies, \"probably\" at three million",
-    "link": "https://www.gamesindustry.biz/the-summer-game-fest-showcase-showed-japans-top-game-makers-racing-ever-further-ahead-of-the-west-opinion",
-    "description": "Summer Game Fest&rsquo;s 2026 showcase seemed to cement a grim truth for western game-makers: Japanese studios are delivering more and more quality games hardcore players love than the west seems able to right now. Read more",
-    "date": "Sat, 06 Jun 2026 16:03:05 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Platinum is making a triple-A Ninja Turtles game because they're \"huge fans\" of the IP",
-    "link": "https://www.gamesindustry.biz/007-first-light-officially-sells-27-million-copies-probably-at-three-million",
-    "description": "IO Interactive CEO Hakan Abrak says that the studio's recently-released 007 First Light is approaching three million copies sold, and while the game has yet to recoup its budget the goal is well below the $200 million budget previously reported. He says that conversations are ongoing about how the f",
-    "date": "Fri, 05 Jun 2026 21:45:36 +0000",
+    "title": "Xbox explains new exclusives policy: players \"can expect a reliable pipeline\" of exclusive titles in service of  \"turning around the business\"",
+    "link": "https://www.gamesindustry.biz/roblox-partners-with-superawesome-to-bring-brand-safe-advertising-to-under-13s",
+    "description": "Youth marketing firm SuperAwesome has been appointed Roblox's commercial and technology partner for \"under-13 contextual advertising.\" Read more",
+    "date": "Mon, 08 Jun 2026 18:42:29 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
