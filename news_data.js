@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-09 09:58 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-10 10:15 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-09T09:58:14.786181",
+  fetched_at: "2026-06-10T10:15:57.218808",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "dmca",
       "pirate",
-      "takedown",
-      "rom"
+      "rom",
+      "dmca",
+      "takedown"
     ]
   },
   {
@@ -25,11 +25,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
-      "piracy",
-      "pirate",
+      "copyright",
       "rom",
-      "copyright"
+      "pirate",
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -40,8 +40,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "dmca",
       "pirate",
+      "dmca",
       "takedown"
     ]
   },
@@ -53,9 +53,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "pirate",
-      "dmca"
+      "dmca",
+      "piracy"
     ]
   },
   {
@@ -66,9 +66,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
+      "pirate",
       "dmca",
-      "pirate"
+      "torrent"
     ]
   },
   {
@@ -79,8 +79,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -103,8 +103,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -115,8 +115,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -151,8 +151,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -163,8 +163,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -175,8 +175,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -187,8 +187,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -226,10 +226,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Türkiye's domestic mobile revenue grew 6% to $347m in 2025",
+    "title": "Xbox CEO outlines strategy to prioritise cost-efficiency and exclusive titles over premium hardware",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 09 Jun 2026 09:05:24 +0000",
+    "date": "Wed, 10 Jun 2026 08:24:06 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -270,30 +270,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "VR developer Vertigo Games shutters Amsterdam studio",
-    "link": "https://www.gamesindustry.biz/were-always-on-the-hunt-for-new-content-secret-mode-on-the-surprise-acquisition-of-chained-together",
-    "description": "On June 2, UK publisher Secret Mode revealed that it had picked up Chained Together from Anegar Games. The hardcore co-op platformer, which sees players climbing up from the depths of hell while chained to their friends, was released in June 2024 and has sold more than 10 million copies so far. Read",
-    "date": "Fri, 05 Jun 2026 09:15:17 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Patents Don’t Monetize Themselves: Turning Portfolios from Cost Centers into Revenue Assets",
-    "link": "https://ipwatchdog.com/",
-    "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
-    "date": "Mon, 08 Jun 2026 17:32:34 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "copyright",
-      "rom",
-      "intellectual property"
-    ]
-  },
-  {
     "title": "SCOTUS’ Hikma Ruling Changes the Game for Induced Infringement Pleadings",
     "link": "https://ipwatchdog.com/2026/06/04/hikma-ruling-looms-large-house-ip-subcommittee-hearing-debating-legislation-favoring-generic-drugmakers/",
     "description": "At approximately the same moment that the U.S. Supreme Court handed down today’s landmark ruling in Hikma v. Amarin, the House Judiciary’s Subcommittee on Courts, Intellectual Property, Artificial Intelligence, and the Internet began a hearing on balancing medical innovation and access to generic dr",
@@ -327,17 +303,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Patch Tuesday, April 2026 Edition",
-    "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
-    "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to ",
-    "date": "Tue, 14 Apr 2026 21:47:59 +0000",
-    "source": "KrebsOnSecurity",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "piracy"
-    ]
-  },
-  {
     "title": "Gay-Torrents Vanishes After Lawsuit, FlavaWorks Narrows Case from 325 to 39 Users",
     "link": "https://torrentfreak.com/torrent-giant-yts-suffers-extended-downtime/",
     "description": "The popular torrent site YTS has been unreachable for more than a day, leaving millions of its users in the dark. The site's domain names point to a Cloudflare error, suggesting its servers are offline, but there is no official update from the operators to explain the current downtime.\nFrom: TF, for",
@@ -345,15 +310,42 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "torrent",
-      "rom"
+      "rom",
+      "torrent"
     ]
   },
   {
-    "title": "Xbox explains new exclusives policy: players \"can expect a reliable pipeline\" of exclusive titles in service of  \"turning around the business\"",
-    "link": "https://www.gamesindustry.biz/roblox-partners-with-superawesome-to-bring-brand-safe-advertising-to-under-13s",
-    "description": "Youth marketing firm SuperAwesome has been appointed Roblox's commercial and technology partner for \"under-13 contextual advertising.\" Read more",
-    "date": "Mon, 08 Jun 2026 18:42:29 +0000",
+    "title": "Big Walk's creators reflect on their six-year journey",
+    "link": "https://www.gamesindustry.biz/xbox-ceo-outlines-strategy-to-prioritise-cost-efficiency-and-exclusive-titles-over-premium-hardware",
+    "description": "Xbox CEO Asha Sharma says the industry should prioritise reducing hardware production costs rather than focusing solely on developing the \"most premium, high-performance consoles\". Read more",
+    "date": "Tue, 09 Jun 2026 15:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Apple announces Europe's first Developer Centre",
+    "link": "https://www.gamesindustry.biz/big-walks-creators-reflect-on-their-six-year-journey",
+    "description": "The mandatory COVID lockdowns of 2020 inspired Big Walk. Melbourne-based developer House House &ndash; which was behind the 2019 hit Untitled Goose Game &ndash; wanted to create something that was about socialising outside with your friends at a time when this was impossible. But the devs had no ide",
+    "date": "Tue, 09 Jun 2026 13:37:32 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"Product visibility needs a more cohesive and structural approach\" – How VaultN aims to unify the digital distribution ecosystem",
+    "link": "https://www.gamesindustry.biz/date-everything-wins-two-accolades-at-the-gayming-awards-2026",
+    "description": "Sassy Chap Games' Date Everything won Best LGBTQ+ Indie Game and the Gayming Fan Favourite Award at this year's Gayming Awards. Read more",
+    "date": "Tue, 09 Jun 2026 12:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Amazon committed to developing Lord of the Rings game, is \"evaluating different concepts\"",
+    "link": "https://www.gamesindustry.biz/product-visibility-needs-a-more-cohesive-and-structural-approach-how-vaultn-aims-to-unify-the-digital-distribution-ecosystem",
+    "description": "Last year, the digital distribution platform VaultN partnered with Take-Two Interactive, having already secured customers such as Bethesda, Team17, Landfall, and Curve. Read more",
+    "date": "Tue, 09 Jun 2026 10:20:40 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
