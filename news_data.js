@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-10 10:15 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-11 10:51 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-10T10:15:57.218808",
+  fetched_at: "2026-06-11T10:51:41.651705",
   item_count: 30,
   items: [
   {
@@ -12,8 +12,8 @@ const ARIA_NEWS = {
     "relevance_score": 10,
     "matched_keywords": [
       "pirate",
-      "rom",
       "dmca",
+      "rom",
       "takedown"
     ]
   },
@@ -25,11 +25,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
-      "rom",
       "pirate",
-      "piracy",
-      "torrent"
+      "copyright",
+      "torrent",
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -59,16 +59,16 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Lithuania Pitches Pirate Site Blocking as Defense Against &#8220;Hybrid Warfare,&#8221; Including Russian Disinformation",
-    "link": "https://torrentfreak.com/ace-subpoena-targets-french-private-tracker-chinese-pirate-forum-and-vietnamese-apis/",
-    "description": "A new DMCA subpoena, requested by ACE, directs Cloudflare to help identify the operators of a geographically diverse list of pirate sites. In addition to the standard streaming portals, the legal paperwork mentions the French torrent tracker La Cale, the long-running Chinese BT Home forum, as well a",
-    "date": "Sun, 17 May 2026 11:15:02 +0000",
+    "title": "Filmmakers and ISP WOW! Settle Piracy Liability Lawsuit Before Trial",
+    "link": "https://torrentfreak.com/court-holds-new-york-iptv-box-seller-liable-millions-of-damages-at-stake/",
+    "description": "An electronics store in Queens that sold pirate IPTV boxes for years, despite receiving six cease-and-desist letters from DISH, has been found liable by a New York federal court. The reseller blamed his supplier in court, but that defense did not convince the judge. As a result, the small brick-and-",
+    "date": "Tue, 09 Jun 2026 08:30:01 +0000",
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "dmca",
-      "torrent"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -91,8 +91,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -139,20 +139,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "crack"
-    ]
-  },
-  {
-    "title": "Filmmakers and ISP WOW! Settle Piracy Liability Lawsuit Before Trial",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 09 Jun 2026 08:30:01 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "copyright",
-      "piracy"
+      "crack",
+      "pirate"
     ]
   },
   {
@@ -187,8 +175,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -199,8 +187,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
     ]
   },
   {
@@ -226,10 +214,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Xbox CEO outlines strategy to prioritise cost-efficiency and exclusive titles over premium hardware",
+    "title": "Xbox says hardware pricing boom represents \"great\" opportunity for games streaming",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 10 Jun 2026 08:24:06 +0000",
+    "date": "Thu, 11 Jun 2026 10:23:57 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -237,32 +225,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "After a stint on Warzone, Toys for Bob is thrilled to be back on Spyro – \"We were moving away from the types of games that are near and dear to our hearts\"",
-    "link": "https://www.gamesindustry.biz/xbox-explains-new-exclusives-policy-players-can-expect-a-reliable-pipeline-of-exclusive-titles-in-service-of-turning-around-the-business",
-    "description": "Xbox Chief Strategy Officer Matthew Ball has given more insight into the firm's new commitment to platform exclusives, following the announcement yesterday that both Gears of War: E-Day and Clockwork Revolution would not be available on non-Xbox platforms. Read more",
-    "date": "Mon, 08 Jun 2026 15:50:25 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Nintendo of Europe agrees to pay €35m fine for Joy-Con drift defects",
-    "link": "https://www.gamesindustry.biz/after-a-stint-on-warzone-toys-for-bob-is-thrilled-to-be-back-on-spyro-we-were-moving-away-from-the-types-of-games-that-are-near-and-dear-to-our-hearts",
-    "description": "You might know Toys for Bob from the Skylanders franchise, as well as the 2018 Spyro Reignited Trilogy and 2020's Crash Bandicoot 4: It's About Time. But you might not appreciate just how long this studio has been around. \"We're actually one of the longest running game development studios in North A",
-    "date": "Mon, 08 Jun 2026 13:43:43 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "\"We walked away from years of work\" – The long and troubled journey of The Wolf Among Us 2",
-    "link": "https://www.gamesindustry.biz/nintendo-confirms-revised-switch-2-console-with-replaceable-battery-for-eu-consumers",
-    "description": "Nintendo has announced a revised Switch 2 console for Europe to comply with legislation requiring replaceable batteries. Read more",
-    "date": "Mon, 08 Jun 2026 08:00:00 +0000",
+    "title": "Xbox reportedly planning more layoffs as CEO calls for \"Xbox reset\"",
+    "link": "https://www.gamesindustry.biz/yet-more-layoffs-reported-at-ubisoft-this-time-in-san-francisco",
+    "description": "On the same day as Ubisoft announced it was closing its studios in Winnipeg and Belgrade and proposing further changes in Barcelona, it's now believed dozens of staff have been laid off from its San Francisco studio, too. Read more",
+    "date": "Wed, 10 Jun 2026 22:47:49 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -310,42 +276,69 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "rom",
-      "torrent"
+      "torrent",
+      "rom"
     ]
   },
   {
-    "title": "Big Walk's creators reflect on their six-year journey",
-    "link": "https://www.gamesindustry.biz/xbox-ceo-outlines-strategy-to-prioritise-cost-efficiency-and-exclusive-titles-over-premium-hardware",
-    "description": "Xbox CEO Asha Sharma says the industry should prioritise reducing hardware production costs rather than focusing solely on developing the \"most premium, high-performance consoles\". Read more",
-    "date": "Tue, 09 Jun 2026 15:00:00 +0000",
+    "title": "Analyst: Q1 2026 revenue figures show there is still demand for compelling single-player video games",
+    "link": "https://www.gamesindustry.biz/xbox-says-hardware-pricing-boom-represents-great-opportunity-for-games-streaming",
+    "description": "Xbox's newly anointed chief strategy officer, Matthew Ball, has said that the current spike in hardware pricing represents an opportunity for games streaming. Read more",
+    "date": "Thu, 11 Jun 2026 10:19:50 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Apple announces Europe's first Developer Centre",
-    "link": "https://www.gamesindustry.biz/big-walks-creators-reflect-on-their-six-year-journey",
-    "description": "The mandatory COVID lockdowns of 2020 inspired Big Walk. Melbourne-based developer House House &ndash; which was behind the 2019 hit Untitled Goose Game &ndash; wanted to create something that was about socialising outside with your friends at a time when this was impossible. But the devs had no ide",
-    "date": "Tue, 09 Jun 2026 13:37:32 +0000",
+    "title": "Jin Universe Studios launches with investor backing to fund debut title Aether Dawn",
+    "link": "https://www.gamesindustry.biz/analyst-q1-2026-revenue-figures-show-there-is-still-demand-for-compelling-single-player-video-games",
+    "description": "Global game content revenue increased 3.6% to $54.14 billion in Q1 2026, marking the seventh consecutive quarter of year-over-year growth, according to estimates reported by S&P Global Market Intelligence. Read more",
+    "date": "Thu, 11 Jun 2026 06:54:56 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "\"Product visibility needs a more cohesive and structural approach\" – How VaultN aims to unify the digital distribution ecosystem",
-    "link": "https://www.gamesindustry.biz/date-everything-wins-two-accolades-at-the-gayming-awards-2026",
-    "description": "Sassy Chap Games' Date Everything won Best LGBTQ+ Indie Game and the Gayming Fan Favourite Award at this year's Gayming Awards. Read more",
-    "date": "Tue, 09 Jun 2026 12:00:00 +0000",
+    "title": "Ubisoft's San Francisco office impacted by current round of cuts",
+    "link": "https://www.gamesindustry.biz/jin-universe-studios-launches-with-investor-backing-to-fund-debut-title-aether-dawn",
+    "description": "Singapore-based Jin Universe Studios has launched, backed by Arbitrum Gaming Ventures (AGV) and Bitkraft Ventures. Read more",
+    "date": "Wed, 10 Jun 2026 23:06:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Amazon committed to developing Lord of the Rings game, is \"evaluating different concepts\"",
-    "link": "https://www.gamesindustry.biz/product-visibility-needs-a-more-cohesive-and-structural-approach-how-vaultn-aims-to-unify-the-digital-distribution-ecosystem",
-    "description": "Last year, the digital distribution platform VaultN partnered with Take-Two Interactive, having already secured customers such as Bethesda, Team17, Landfall, and Curve. Read more",
-    "date": "Tue, 09 Jun 2026 10:20:40 +0000",
+    "title": "Ubisoft closing studios in Winnipeg and Belgrade and cutting publishing roles worldwide, 380 jobs at risk",
+    "link": "https://www.gamesindustry.biz/xbox-reportedly-planning-more-layoffs-as-ceo-calls-for-xbox-reset",
+    "description": "Xbox is reportedly considering major layoffs, telling staff, \"we need to reassess [...] our investment priorities for the next five years\" and warning \"we've become too reliant on vendors to operate our systems and must become more self-reliant as an engineering culture to build for the future.\" Rea",
+    "date": "Wed, 10 Jun 2026 17:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Why the $55bn acquisition of Electronic Arts isn't your usual leveraged buyout",
+    "link": "https://www.gamesindustry.biz/ubisoft-closing-studios-in-winnipeg-and-belgrade-and-cutting-publishing-roles-worldwide-380-jobs-at-risk",
+    "description": "Ubisoft has carried out another round of cuts as part of its seemingly endless restructuring process, sources have told GamesIndustry.biz. It is closing its studios in Winnipeg and Belgrade and proposing further changes in Barcelona and to its global publishing team. 380 roles are understood to be a",
+    "date": "Wed, 10 Jun 2026 14:00:15 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "ESA warns 'No Fakes Act' fails to distinguish between deepfakes and digital replicas used in video games",
+    "link": "https://www.gamesindustry.biz/why-the-55bn-acquisition-of-electronic-arts-isnt-your-usual-leveraged-buyout",
+    "description": "In September 2025, the news broke that a consortium of investors led by Saudi Arabia's Public Investment Fund (PIF) had made an offer to buy Electronic Arts. Read more",
+    "date": "Wed, 10 Jun 2026 13:55:21 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "New Arm tech enables the use of Unreal Engine MegaLights on mobile",
+    "link": "https://www.gamesindustry.biz/esa-warns-no-fakes-act-fails-to-distinguish-between-deepfakes-and-digital-replicas-used-in-video-games",
+    "description": "The Entertainment Software Association (ESA) has warned that a proposed deepfake bill could hurt the games industry by failing to distinguish between AI-generated content and digital replicas. Read more",
+    "date": "Wed, 10 Jun 2026 13:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
