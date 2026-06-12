@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-11 10:51 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-12 10:25 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-11T10:51:41.651705",
+  fetched_at: "2026-06-12T10:25:42.429822",
   item_count: 30,
   items: [
   {
@@ -12,9 +12,9 @@ const ARIA_NEWS = {
     "relevance_score": 10,
     "matched_keywords": [
       "pirate",
+      "takedown",
       "dmca",
-      "rom",
-      "takedown"
+      "rom"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "pirate",
+      "piracy",
       "copyright",
       "torrent",
-      "rom",
-      "piracy"
+      "rom"
     ]
   },
   {
@@ -41,8 +41,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "pirate",
-      "dmca",
-      "takedown"
+      "takedown",
+      "dmca"
     ]
   },
   {
@@ -132,15 +132,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "ACE Subpoena Targets French Private Tracker, Chinese Pirate Forum, and Vietnamese APIs",
-    "link": "https://torrentfreak.com/sky-sends-cease-and-desist-letters-to-200-irish-iptv-subscribers-exposed-via-revolut/",
-    "description": "Sky Ireland has sent more than 200 cease-and-desist letters to IPTV subscribers, who were uncovered as part of an earlier crackdown on a 'dodgy box' operator, where Revolut was ordered to cooperate. The media company asks the suspected pirates to immediately cancel all IPTV subscriptions, and to nev",
-    "date": "Tue, 19 May 2026 06:13:13 +0000",
+    "title": "Tech Industry Warns of Piracy Blocking Risks as FIFA World Cup Kicks Off",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Thu, 11 Jun 2026 20:42:41 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 6,
+    "relevance_score": 4,
     "matched_keywords": [
-      "crack",
-      "pirate"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -192,6 +192,17 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Court Holds New York IPTV Box Seller Liable, Millions of Damages at Stake",
+    "link": "https://torrentfreak.com/tech-industry-warns-of-piracy-blocking-risks-as-fifa-world-cup-kicks-off/",
+    "description": "As the FIFA World Cup kicks off, tech-industry group CCIA Europe warns that piracy-blocking systems built to protect live sports are damaging the open internet. The group, which represents tech giants such as Amazon, Cloudflare, and Google, echoes a recent academic study, which found that Europe's a",
+    "date": "Thu, 11 Jun 2026 06:21:47 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "piracy"
+    ]
+  },
+  {
     "title": "Top 10 Most Pirated Movies of The Week – 06/08/2026",
     "link": "https://torrentfreak.com/z-library-lets-people-run-white-label-login-only-pirate-mirrors/",
     "description": "In what's partly an effort to push back against domain seizures and blocking efforts, Z-Library has upgraded its mirror infrastructure. Users of the shadow library can now create custom-branded, login-only mirrors of the site, creating a network of stealthy, white-label pirate sites. Running a mirro",
@@ -214,10 +225,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Xbox says hardware pricing boom represents \"great\" opportunity for games streaming",
+    "title": "Playstack CEO: new owner will keep it separate from its games media brands including GamesSpot and Fandom",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 11 Jun 2026 10:23:57 +0000",
+    "date": "Fri, 12 Jun 2026 08:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Nintendo implements restrictions to multi-language Switch 2 in Japan to combat scalpers",
+    "link": "https://www.gamesindustry.biz/playstack-ceo-new-owner-will-keep-it-separate-from-its-games-media-brands-including-gamesspot-and-fandom",
+    "description": "Harvey Elliott, the CEO of Balatro and Abiotic publisher Playstack, has said the firm's sale to the owner of Fandom and GameSpot will not impact either, telling GamesIndustry.biz that new owner Integrated Media Company (IMC) had committed to maintaining Playstack separately from its media investment",
+    "date": "Fri, 12 Jun 2026 07:57:02 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -233,17 +255,6 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "rom"
-    ]
-  },
-  {
-    "title": "SCOTUS’ Hikma Ruling Changes the Game for Induced Infringement Pleadings",
-    "link": "https://ipwatchdog.com/2026/06/04/hikma-ruling-looms-large-house-ip-subcommittee-hearing-debating-legislation-favoring-generic-drugmakers/",
-    "description": "At approximately the same moment that the U.S. Supreme Court handed down today’s landmark ruling in Hikma v. Amarin, the House Judiciary’s Subcommittee on Courts, Intellectual Property, Artificial Intelligence, and the Internet began a hearing on balancing medical innovation and access to generic dr",
-    "date": "Thu, 04 Jun 2026 17:40:49 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "intellectual property"
     ]
   },
   {
@@ -276,9 +287,27 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "torrent",
-      "rom"
+      "rom",
+      "torrent"
     ]
+  },
+  {
+    "title": "\"My worry is that generative AI is poisoning the well\" – Take-Two's former head of AI shares his concerns on the current hype cycle",
+    "link": "https://www.gamesindustry.biz/nintendo-implements-restrictions-to-multi-language-switch-2-in-japan-to-combat-scalpers",
+    "description": "Nintendo has implemented purchase restrictions on the Switch 2 multi-language version in Japan. Read more",
+    "date": "Thu, 11 Jun 2026 12:05:40 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Xbox says hardware pricing boom represents \"great\" opportunity for games streaming",
+    "link": "https://www.gamesindustry.biz/my-worry-is-that-generative-ai-is-poisoning-the-well-take-twos-former-head-of-ai-shares-his-concerns-on-the-current-hype-cycle",
+    "description": "Back at the start of April, it emerged that Take-Two had laid off its AI team as part of a restructuring initiative. Read more",
+    "date": "Thu, 11 Jun 2026 10:23:57 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Analyst: Q1 2026 revenue figures show there is still demand for compelling single-player video games",
@@ -312,33 +341,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/xbox-reportedly-planning-more-layoffs-as-ceo-calls-for-xbox-reset",
     "description": "Xbox is reportedly considering major layoffs, telling staff, \"we need to reassess [...] our investment priorities for the next five years\" and warning \"we've become too reliant on vendors to operate our systems and must become more self-reliant as an engineering culture to build for the future.\" Rea",
     "date": "Wed, 10 Jun 2026 17:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Why the $55bn acquisition of Electronic Arts isn't your usual leveraged buyout",
-    "link": "https://www.gamesindustry.biz/ubisoft-closing-studios-in-winnipeg-and-belgrade-and-cutting-publishing-roles-worldwide-380-jobs-at-risk",
-    "description": "Ubisoft has carried out another round of cuts as part of its seemingly endless restructuring process, sources have told GamesIndustry.biz. It is closing its studios in Winnipeg and Belgrade and proposing further changes in Barcelona and to its global publishing team. 380 roles are understood to be a",
-    "date": "Wed, 10 Jun 2026 14:00:15 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "ESA warns 'No Fakes Act' fails to distinguish between deepfakes and digital replicas used in video games",
-    "link": "https://www.gamesindustry.biz/why-the-55bn-acquisition-of-electronic-arts-isnt-your-usual-leveraged-buyout",
-    "description": "In September 2025, the news broke that a consortium of investors led by Saudi Arabia's Public Investment Fund (PIF) had made an offer to buy Electronic Arts. Read more",
-    "date": "Wed, 10 Jun 2026 13:55:21 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "New Arm tech enables the use of Unreal Engine MegaLights on mobile",
-    "link": "https://www.gamesindustry.biz/esa-warns-no-fakes-act-fails-to-distinguish-between-deepfakes-and-digital-replicas-used-in-video-games",
-    "description": "The Entertainment Software Association (ESA) has warned that a proposed deepfake bill could hurt the games industry by failing to distinguish between AI-generated content and digital replicas. Read more",
-    "date": "Wed, 10 Jun 2026 13:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
