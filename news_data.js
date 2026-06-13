@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-12 10:25 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-13 09:27 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-12T10:25:42.429822",
+  fetched_at: "2026-06-13T09:27:48.431175",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "pirate",
+      "rom",
       "takedown",
-      "dmca",
-      "rom"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -25,11 +25,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
-      "piracy",
-      "copyright",
+      "rom",
       "torrent",
-      "rom"
+      "copyright",
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -40,8 +40,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "takedown",
+      "pirate",
       "dmca"
     ]
   },
@@ -53,8 +53,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "dmca",
+      "pirate",
       "piracy"
     ]
   },
@@ -66,8 +66,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "rom",
+      "pirate",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Tech Industry Warns of Piracy Blocking Risks as FIFA World Cup Kicks Off",
+    "link": "https://torrentfreak.com/hollywood-secures-9-million-default-judgment-against-iptv-operator/",
+    "description": "A Pennsylvania federal court has handed down a $9 million default judgment against the operator of pirate IPTV services 'Shrugs' and 'Zing'. Major Hollywood studios, Amazon, and Netflix sued the defendant last year, but he failed to appear in court despite being personally served. In addition to the",
+    "date": "Thu, 11 Jun 2026 20:42:41 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "pirate",
       "piracy"
     ]
   },
@@ -91,8 +103,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -120,22 +132,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Anna&#8217;s Archive Hit With $19.5m Default Judgment and Global Domain Takedown Order",
-    "link": "https://torrentfreak.com/hollywood-secures-broad-omnibus-pirate-site-blocking-order-in-uk-high-court/",
-    "description": "A recent UK High Court \"omnibus\" order reportedly grants Hollywood studios the power to block rotating networks of pirate sites, without the need to link them to known pirate brands. The order is a response to rapid domain-hopping and other evasion tactics of pirate site operators. However, aside fr",
-    "date": "Wed, 20 May 2026 11:39:50 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "pirate",
-      "takedown"
-    ]
-  },
-  {
-    "title": "Tech Industry Warns of Piracy Blocking Risks as FIFA World Cup Kicks Off",
+    "title": "Married Couple Behind &#8216;Billion-Visit&#8217; Webtoon Piracy Network Caught in Vietnam",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Thu, 11 Jun 2026 20:42:41 +0000",
+    "date": "Sat, 13 Jun 2026 07:58:00 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
@@ -163,8 +163,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -189,6 +189,17 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "arrested",
       "rom"
+    ]
+  },
+  {
+    "title": "Hollywood Secures $9 Million Default Judgment Against IPTV Operator",
+    "link": "https://torrentfreak.com/married-couple-behind-billion-visit-webtoon-piracy-network-caught-in-vietnam/",
+    "description": "For more than two years, a husband and wife in Vietnam allegedly ran a billion-visit-a-year operation serving Korean webtoons in unauthorized English translation. The network, believed to be Harimanga, Manhwaclan and Kunmanga, has gone dark, its servers seized and the pair hauled in for questioning ",
+    "date": "Fri, 12 Jun 2026 11:56:41 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "seized"
     ]
   },
   {
@@ -225,9 +236,31 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Playstack CEO: new owner will keep it separate from its games media brands including GamesSpot and Fandom",
+    "title": "Asha Sharma faces tough decisions with limited room for manoeuvre | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Fri, 12 Jun 2026 15:53:54 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"We're going to see more hit games coming from publishers you've never heard of\" – Pocketpair and the indie publishing revolution",
+    "link": "https://www.gamesindustry.biz/gamesindustrybiz-summer-party-returns-wednesday-july-15",
+    "description": "The GamesIndustry.biz Summer Party will take place Wednesday July 15, returning once again to Horatio's Bar on Brighton Pier. Read more",
+    "date": "Fri, 12 Jun 2026 12:58:30 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Playstack CEO: new owner will keep it separate from its games media brands including GamesSpot and Fandom",
+    "link": "https://www.gamesindustry.biz/maxis-devs-detail-the-operational-challenges-behind-spores-nine-year-development-cycle",
+    "description": "A new retrospective on Maxis' creature simulation game Spore outlines the operational challenges that shaped its nine-year development cycle. Read more",
     "date": "Fri, 12 Jun 2026 08:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -292,6 +325,15 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "The GamesIndustry.biz Summer Party returns Wednesday July 15",
+    "link": "https://www.gamesindustry.biz/asha-sharma-faces-tough-decisions-with-limited-room-for-manoeuvre-opinion",
+    "description": "The general consensus on Asha Sharma's first 100 days as Xbox CEO has been largely positive. She has certainly confounded the fears of early detractors who took one look at her background in the company's Core AI division and decried her appointment to Xbox as a death knell. The primary fear seemed ",
+    "date": "Fri, 12 Jun 2026 15:32:54 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "\"My worry is that generative AI is poisoning the well\" – Take-Two's former head of AI shares his concerns on the current hype cycle",
     "link": "https://www.gamesindustry.biz/nintendo-implements-restrictions-to-multi-language-switch-2-in-japan-to-combat-scalpers",
     "description": "Nintendo has implemented purchase restrictions on the Switch 2 multi-language version in Japan. Read more",
@@ -305,42 +347,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/my-worry-is-that-generative-ai-is-poisoning-the-well-take-twos-former-head-of-ai-shares-his-concerns-on-the-current-hype-cycle",
     "description": "Back at the start of April, it emerged that Take-Two had laid off its AI team as part of a restructuring initiative. Read more",
     "date": "Thu, 11 Jun 2026 10:23:57 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Analyst: Q1 2026 revenue figures show there is still demand for compelling single-player video games",
-    "link": "https://www.gamesindustry.biz/xbox-says-hardware-pricing-boom-represents-great-opportunity-for-games-streaming",
-    "description": "Xbox's newly anointed chief strategy officer, Matthew Ball, has said that the current spike in hardware pricing represents an opportunity for games streaming. Read more",
-    "date": "Thu, 11 Jun 2026 10:19:50 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Jin Universe Studios launches with investor backing to fund debut title Aether Dawn",
-    "link": "https://www.gamesindustry.biz/analyst-q1-2026-revenue-figures-show-there-is-still-demand-for-compelling-single-player-video-games",
-    "description": "Global game content revenue increased 3.6% to $54.14 billion in Q1 2026, marking the seventh consecutive quarter of year-over-year growth, according to estimates reported by S&P Global Market Intelligence. Read more",
-    "date": "Thu, 11 Jun 2026 06:54:56 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Ubisoft's San Francisco office impacted by current round of cuts",
-    "link": "https://www.gamesindustry.biz/jin-universe-studios-launches-with-investor-backing-to-fund-debut-title-aether-dawn",
-    "description": "Singapore-based Jin Universe Studios has launched, backed by Arbitrum Gaming Ventures (AGV) and Bitkraft Ventures. Read more",
-    "date": "Wed, 10 Jun 2026 23:06:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Ubisoft closing studios in Winnipeg and Belgrade and cutting publishing roles worldwide, 380 jobs at risk",
-    "link": "https://www.gamesindustry.biz/xbox-reportedly-planning-more-layoffs-as-ceo-calls-for-xbox-reset",
-    "description": "Xbox is reportedly considering major layoffs, telling staff, \"we need to reassess [...] our investment priorities for the next five years\" and warning \"we've become too reliant on vendors to operate our systems and must become more self-reliant as an engineering culture to build for the future.\" Rea",
-    "date": "Wed, 10 Jun 2026 17:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
