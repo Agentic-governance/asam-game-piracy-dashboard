@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-13 09:27 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-14 09:49 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-13T09:27:48.431175",
+  fetched_at: "2026-06-14T09:49:47.229922",
   item_count: 30,
   items: [
   {
@@ -12,9 +12,9 @@ const ARIA_NEWS = {
     "relevance_score": 10,
     "matched_keywords": [
       "rom",
-      "takedown",
+      "dmca",
       "pirate",
-      "dmca"
+      "takedown"
     ]
   },
   {
@@ -25,11 +25,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
+      "pirate",
       "torrent",
       "copyright",
-      "pirate",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -40,9 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
+      "dmca",
       "pirate",
-      "dmca"
+      "takedown"
     ]
   },
   {
@@ -103,8 +103,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -163,8 +163,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -187,8 +187,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
     ]
   },
   {
