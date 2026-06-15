@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-14 09:49 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-15 12:34 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-14T09:49:47.229922",
+  fetched_at: "2026-06-15T12:34:48.281666",
   item_count: 30,
   items: [
   {
@@ -11,25 +11,25 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "rom",
       "dmca",
+      "rom",
       "pirate",
       "takedown"
     ]
   },
   {
-    "title": "YouTube Processed 2.5 Billion Content ID Copyright Claims in 2025",
+    "title": "Married Couple Behind &#8216;Billion-Visit&#8217; Webtoon Piracy Network Caught in Vietnam",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'In The Grey' tops the chart, followed by 'Mortal Kombat II.' 'The Devil Wears Prada 2' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sat, 06 Jun 2026 13:59:34 +0000",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Michael' tops the chart, followed by 'In The Grey.' 'Mortal Kombat II' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sat, 13 Jun 2026 07:58:00 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
       "pirate",
-      "torrent",
       "copyright",
       "piracy",
-      "rom"
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -53,9 +53,22 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "piracy",
       "dmca",
-      "pirate",
-      "piracy"
+      "pirate"
+    ]
+  },
+  {
+    "title": "Top 10 Most Pirated Movies of The Week – 06/15/2026",
+    "link": "https://torrentfreak.com/meta-must-face-adult-film-piracy-lawsuit-as-court-denies-dismissal/",
+    "description": "To keep their piracy lawsuit alive, adult film producers Strike 3 Holdings and Counterlife Media don't have to prove Meta used their films for AI training. A California federal judge has denied Meta's motion to dismiss, ruling that the alleged torrenting is itself the infringement. Additionally, the",
+    "date": "Sun, 14 Jun 2026 23:09:40 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "piracy",
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -66,9 +79,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "piracy",
       "rom",
-      "pirate",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -79,8 +92,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -91,8 +104,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -103,8 +116,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -115,8 +128,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -127,20 +140,32 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
-    "title": "Married Couple Behind &#8216;Billion-Visit&#8217; Webtoon Piracy Network Caught in Vietnam",
+    "title": "Meta Must Face Adult Film Piracy Lawsuit as Court Denies Dismissal",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sat, 13 Jun 2026 07:58:00 +0000",
+    "date": "Mon, 15 Jun 2026 08:10:35 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
+    ]
+  },
+  {
+    "title": "YouTube Processed 2.5 Billion Content ID Copyright Claims in 2025",
+    "link": "https://torrentfreak.com/z-library-lets-people-run-white-label-login-only-pirate-mirrors/",
+    "description": "In what's partly an effort to push back against domain seizures and blocking efforts, Z-Library has upgraded its mirror infrastructure. Users of the shadow library can now create custom-branded, login-only mirrors of the site, creating a network of stealthy, white-label pirate sites. Running a mirro",
+    "date": "Sat, 06 Jun 2026 13:59:34 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -151,8 +176,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -163,8 +188,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -175,8 +200,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -214,32 +239,43 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 06/08/2026",
-    "link": "https://torrentfreak.com/z-library-lets-people-run-white-label-login-only-pirate-mirrors/",
-    "description": "In what's partly an effort to push back against domain seizures and blocking efforts, Z-Library has upgraded its mirror infrastructure. Users of the shadow library can now create custom-branded, login-only mirrors of the site, creating a network of stealthy, white-label pirate sites. Running a mirro",
-    "date": "Sun, 07 Jun 2026 23:09:40 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "pirate"
-    ]
-  },
-  {
-    "title": "Hollywood Secures Broad &#8220;Omnibus&#8221; Pirate Site Blocking Order in UK High Court",
-    "link": "https://torrentfreak.com/spanish-court-declines-to-fine-nordvpn-over-laliga-piracy-blocking-order/",
-    "description": "Three months after a Spanish court ordered NordVPN and ProtonVPN to block pirate football streams, NordVPN says the same court has refused to punish the provider for non-compliance. The VPN company says the Commercial Court of Córdoba rejected LaLiga's request for coercive fines, accepting that ther",
-    "date": "Thu, 21 May 2026 08:09:52 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "pirate"
-    ]
-  },
-  {
-    "title": "Asha Sharma faces tough decisions with limited room for manoeuvre | Opinion",
+    "title": "EA rolls out Advertising platform to let companies market \"directly into gameplay\"",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 12 Jun 2026 15:53:54 +0000",
+    "date": "Mon, 15 Jun 2026 11:18:51 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Sonic lead says AAA developers have much to learn from indie studios",
+    "link": "https://www.gamesindustry.biz/ea-rolls-out-advertising-arm-to-let-companies-market-directly-into-gameplay",
+    "description": "US publishing giant Electronic Arts is launching EA Advertising, a new platform that allows brands to market directly to consumers via gameplay. Read more",
+    "date": "Mon, 15 Jun 2026 10:33:31 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "UKIE welcomes video games being classed separately from social media as UK government announces ban",
+    "link": "https://www.gamesindustry.biz/sonic-lead-says-aaa-developers-have-much-to-learn-from-indie-studios",
+    "description": "Takashi Iizuka, the producer on Sega's Sonic the Hedgehog franchise, has said that AAA developers can take lessons from how indie studios operate. Read more",
+    "date": "Mon, 15 Jun 2026 10:03:50 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Report: Microsoft weighing up spinning off Xbox",
+    "link": "https://www.gamesindustry.biz/ukie-hails-video-games-being-classed-separately-from-social-media-as-uk-government-announces-ban",
+    "description": "UK video games trade body UKIE has welcomed the government's decision to classify video games as being distinct from social media, as a ban on the latter for under-16s is set to be introduced. Read more",
+    "date": "Mon, 15 Jun 2026 09:16:32 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -323,33 +359,6 @@ const ARIA_NEWS = {
       "rom",
       "torrent"
     ]
-  },
-  {
-    "title": "The GamesIndustry.biz Summer Party returns Wednesday July 15",
-    "link": "https://www.gamesindustry.biz/asha-sharma-faces-tough-decisions-with-limited-room-for-manoeuvre-opinion",
-    "description": "The general consensus on Asha Sharma's first 100 days as Xbox CEO has been largely positive. She has certainly confounded the fears of early detractors who took one look at her background in the company's Core AI division and decried her appointment to Xbox as a death knell. The primary fear seemed ",
-    "date": "Fri, 12 Jun 2026 15:32:54 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"My worry is that generative AI is poisoning the well\" – Take-Two's former head of AI shares his concerns on the current hype cycle",
-    "link": "https://www.gamesindustry.biz/nintendo-implements-restrictions-to-multi-language-switch-2-in-japan-to-combat-scalpers",
-    "description": "Nintendo has implemented purchase restrictions on the Switch 2 multi-language version in Japan. Read more",
-    "date": "Thu, 11 Jun 2026 12:05:40 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Xbox says hardware pricing boom represents \"great\" opportunity for games streaming",
-    "link": "https://www.gamesindustry.biz/my-worry-is-that-generative-ai-is-poisoning-the-well-take-twos-former-head-of-ai-shares-his-concerns-on-the-current-hype-cycle",
-    "description": "Back at the start of April, it emerged that Take-Two had laid off its AI team as part of a restructuring initiative. Read more",
-    "date": "Thu, 11 Jun 2026 10:23:57 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
   }
 ]
 };
