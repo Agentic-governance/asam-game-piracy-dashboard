@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-15 12:34 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-16 11:27 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-15T12:34:48.281666",
+  fetched_at: "2026-06-16T11:27:17.061591",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "dmca",
+      "takedown",
       "rom",
       "pirate",
-      "takedown"
+      "dmca"
     ]
   },
   {
@@ -25,11 +25,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "copyright",
-      "piracy",
+      "torrent",
       "rom",
-      "torrent"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -40,9 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "dmca",
+      "takedown",
       "pirate",
-      "takedown"
+      "dmca"
     ]
   },
   {
@@ -53,9 +53,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "pirate",
       "piracy",
-      "dmca",
-      "pirate"
+      "dmca"
     ]
   },
   {
@@ -66,9 +66,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "pirate",
       "piracy",
-      "torrent",
-      "pirate"
+      "torrent"
     ]
   },
   {
@@ -79,9 +79,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "rom",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -92,8 +92,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -104,8 +104,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -116,8 +116,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -128,8 +128,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -140,8 +140,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -152,8 +152,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -176,8 +176,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -188,8 +188,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -212,8 +212,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
     ]
   },
   {
@@ -239,14 +239,25 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "EA rolls out Advertising platform to let companies market \"directly into gameplay\"",
+    "title": "Auditors warn Don't Nod will run out of cash by November if it is unable to secure financing",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 15 Jun 2026 11:18:51 +0000",
+    "date": "Tue, 16 Jun 2026 11:20:29 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
       "rom"
+    ]
+  },
+  {
+    "title": "HR veteran Liz Prince awarded MBE for services to the games industry and diversity",
+    "link": "https://www.gamesindustry.biz/blizzard-sues-private-world-of-warcraft-server-for-large-scale-egregious-and-ongoing-infringement-of-blizzards-intellectual-property",
+    "description": "Blizzard has filed a copyright lawsuit against the private World of Warcraft server project,  Project Ascension. Read more",
+    "date": "Mon, 15 Jun 2026 15:46:05 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "copyright"
     ]
   },
   {
@@ -309,17 +320,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/playstack-ceo-new-owner-will-keep-it-separate-from-its-games-media-brands-including-gamesspot-and-fandom",
     "description": "Harvey Elliott, the CEO of Balatro and Abiotic publisher Playstack, has said the firm's sale to the owner of Fandom and GameSpot will not impact either, telling GamesIndustry.biz that new owner Integrated Media Company (IMC) had committed to maintaining Playstack separately from its media investment",
     "date": "Fri, 12 Jun 2026 07:57:02 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Xbox reportedly planning more layoffs as CEO calls for \"Xbox reset\"",
-    "link": "https://www.gamesindustry.biz/yet-more-layoffs-reported-at-ubisoft-this-time-in-san-francisco",
-    "description": "On the same day as Ubisoft announced it was closing its studios in Winnipeg and Belgrade and proposing further changes in Barcelona, it's now believed dozens of staff have been laid off from its San Francisco studio, too. Read more",
-    "date": "Wed, 10 Jun 2026 22:47:49 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
