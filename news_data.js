@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-16 11:27 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-17 11:10 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-16T11:27:17.061591",
+  fetched_at: "2026-06-17T11:10:25.648599",
   item_count: 30,
   items: [
   {
@@ -11,8 +11,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "takedown",
       "rom",
+      "takedown",
       "pirate",
       "dmca"
     ]
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "copyright",
-      "torrent",
+      "piracy",
       "rom",
-      "pirate",
-      "piracy"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -46,19 +46,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Spanish Court Declines to Fine NordVPN Over LaLiga Piracy Blocking Order",
-    "link": "https://torrentfreak.com/premier-league-wants-domain-registrar-tucows-to-unmask-sports-streaming-pirates/",
-    "description": "The Premier League has requested a DMCA subpoena in an attempt to unmask the operators of 25 pirate sports streaming sites. The domain names were registered through Tucows, which is asked to hand over all personal details of the operators. Interestingly, the football league's own evidence shows the ",
-    "date": "Fri, 22 May 2026 13:59:52 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 9,
-    "matched_keywords": [
-      "pirate",
-      "piracy",
-      "dmca"
-    ]
-  },
-  {
     "title": "Top 10 Most Pirated Movies of The Week – 06/15/2026",
     "link": "https://torrentfreak.com/meta-must-face-adult-film-piracy-lawsuit-as-court-denies-dismissal/",
     "description": "To keep their piracy lawsuit alive, adult film producers Strike 3 Holdings and Counterlife Media don't have to prove Meta used their films for AI training. A California federal judge has denied Meta's motion to dismiss, ruling that the alleged torrenting is itself the infringement. Additionally, the",
@@ -66,9 +53,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "torrent",
       "pirate",
-      "piracy",
-      "torrent"
+      "piracy"
     ]
   },
   {
@@ -146,13 +133,13 @@ const ARIA_NEWS = {
   },
   {
     "title": "Meta Must Face Adult Film Piracy Lawsuit as Court Denies Dismissal",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/music-labels-win-canadian-site-blocking-order-against-y2mate-ytmp3-and-savefrom/",
+    "description": "For the first time in Canada, a site-blocking order has been issued that specifically targets YouTube rippers. The Federal Court has ordered major ISPs to block access to Y2Mate, YTMP3, and Savefrom domains. Interestingly, the order targets copycats, as the original Savefrom site preemptively starte",
     "date": "Mon, 15 Jun 2026 08:10:35 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
+      "rom",
       "piracy"
     ]
   },
@@ -188,8 +175,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -200,8 +187,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -212,8 +199,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
     ]
   },
   {
@@ -239,10 +226,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Auditors warn Don't Nod will run out of cash by November if it is unable to secure financing",
+    "title": "\"How dare we use something like that on someone's dream?\" – Why generative AI artwork is a no-go for The Scroll of Taiwu",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 16 Jun 2026 11:20:29 +0000",
+    "date": "Wed, 17 Jun 2026 11:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Thatgamecompany's 20-year journey from anti-Columbine school project to a celebration of Van Gogh",
+    "link": "https://www.gamesindustry.biz/how-dare-we-use-something-like-that-on-someones-dream-why-generative-ai-artwork-is-a-no-go-for-the-scroll-of-taiwu",
+    "description": "Long before the global success of Genshin Impact and Black Myth: Wukong, The Scroll of Taiwu from ConchShip Games pointed towards the potentially huge market for Chinese-developed titles. Read more",
+    "date": "Tue, 16 Jun 2026 18:02:55 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -316,17 +314,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Nintendo implements restrictions to multi-language Switch 2 in Japan to combat scalpers",
-    "link": "https://www.gamesindustry.biz/playstack-ceo-new-owner-will-keep-it-separate-from-its-games-media-brands-including-gamesspot-and-fandom",
-    "description": "Harvey Elliott, the CEO of Balatro and Abiotic publisher Playstack, has said the firm's sale to the owner of Fandom and GameSpot will not impact either, telling GamesIndustry.biz that new owner Integrated Media Company (IMC) had committed to maintaining Playstack separately from its media investment",
-    "date": "Fri, 12 Jun 2026 07:57:02 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
     "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
     "description": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecu",
@@ -346,6 +333,18 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "arrested"
+    ]
+  },
+  {
+    "title": "Music Labels Win Canadian Site Blocking Order Against Y2Mate, YTMP3, and Savefrom",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Tue, 16 Jun 2026 13:47:49 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 2,
+    "matched_keywords": [
+      "rom",
+      "copyright"
     ]
   },
   {
