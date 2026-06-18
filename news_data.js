@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-17 11:10 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-18 10:41 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-17T11:10:25.648599",
+  fetched_at: "2026-06-18T10:41:42.202047",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "rom",
-      "takedown",
+      "dmca",
       "pirate",
-      "dmca"
+      "takedown",
+      "rom"
     ]
   },
   {
@@ -25,11 +25,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "pirate",
+      "torrent",
       "copyright",
       "piracy",
-      "rom",
-      "torrent",
-      "pirate"
+      "rom"
     ]
   },
   {
@@ -40,9 +40,22 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
+      "dmca",
       "pirate",
-      "dmca"
+      "takedown"
+    ]
+  },
+  {
+    "title": "Music Publishers Truncated Musk&#8217;s &#8216;DMCA Plague&#8217; Tweet to Back Piracy Case, X Tells Court",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Wed, 17 Jun 2026 13:02:34 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "dmca",
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -54,8 +67,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "torrent",
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -66,9 +79,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
+      "piracy",
       "pirate",
-      "piracy"
+      "rom"
     ]
   },
   {
@@ -79,8 +92,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -91,8 +104,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -103,8 +116,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -115,20 +128,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
-    "title": "Premier League Wants Domain Registrar Tucows to Unmask Sports Streaming Pirates",
-    "link": "https://torrentfreak.com/italian-police-target-previously-unseen-streaming-piracy-tech-that-looks-familiar/",
-    "description": "Italy's Guardia di Finanza dismantled a piracy system it says it had never seen until now, carrying out more than 100 searches and seizures. The system relied on an app called CinemaGoal that constantly passed on the access codes of legitimate Sky, DAZN, Netflix, Spotify and Disney+ accounts to its ",
-    "date": "Sun, 24 May 2026 12:56:02 +0000",
+    "title": "Music Labels Win Canadian Site Blocking Order Against Y2Mate, YTMP3, and Savefrom",
+    "link": "https://torrentfreak.com/music-publishers-truncated-musks-dmca-plague-tweet-to-back-piracy-case-x-tells-court/",
+    "description": "Elon Musk's X Corp has filed a motion to dismiss the multi-million dollar music piracy lawsuit, which was recently amended following the Cox Supreme Court ruling. X says the new complaint is partly based on a tweet that was pulled out of context.  It argues that even the full version falls short of ",
+    "date": "Tue, 16 Jun 2026 13:47:49 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 6,
+    "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -139,8 +152,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -151,8 +164,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -226,10 +239,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"How dare we use something like that on someone's dream?\" – Why generative AI artwork is a no-go for The Scroll of Taiwu",
+    "title": "OtherSide Entertainment cuts 17 jobs after Argos cancellation",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 17 Jun 2026 11:00:00 +0000",
+    "date": "Thu, 18 Jun 2026 10:30:59 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Everything you need to know from State of Unreal 2026: Unreal Engine 6, Unreal Engine 5.8, and $1bn paid to UEFN devs",
+    "link": "https://www.gamesindustry.biz/uk-employment-tribunal-denies-rockstars-request-to-have-blacklisting-claims-removed-from-upcoming-trial",
+    "description": "A UK employment tribunal has refused Rockstar Games' request to have allegations of 'blacklisting' removed in the case brought against it by fired workers, represented by the IWGB Game Workers union. Read more",
+    "date": "Thu, 18 Jun 2026 00:12:49 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -292,28 +316,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"We're going to see more hit games coming from publishers you've never heard of\" – Pocketpair and the indie publishing revolution",
-    "link": "https://www.gamesindustry.biz/gamesindustrybiz-summer-party-returns-wednesday-july-15",
-    "description": "The GamesIndustry.biz Summer Party will take place Wednesday July 15, returning once again to Horatio's Bar on Brighton Pier. Read more",
-    "date": "Fri, 12 Jun 2026 12:58:30 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Playstack CEO: new owner will keep it separate from its games media brands including GamesSpot and Fandom",
-    "link": "https://www.gamesindustry.biz/maxis-devs-detail-the-operational-challenges-behind-spores-nine-year-development-cycle",
-    "description": "A new retrospective on Maxis' creature simulation game Spore outlines the operational challenges that shaped its nine-year development cycle. Read more",
-    "date": "Fri, 12 Jun 2026 08:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
     "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
     "description": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecu",
@@ -336,18 +338,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Music Labels Win Canadian Site Blocking Order Against Y2Mate, YTMP3, and Savefrom",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 16 Jun 2026 13:47:49 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 2,
-    "matched_keywords": [
-      "rom",
-      "copyright"
-    ]
-  },
-  {
     "title": "Gay-Torrents Vanishes After Lawsuit, FlavaWorks Narrows Case from 325 to 39 Users",
     "link": "https://torrentfreak.com/torrent-giant-yts-suffers-extended-downtime/",
     "description": "The popular torrent site YTS has been unreachable for more than a day, leaving millions of its users in the dark. The site's domain names point to a Cloudflare error, suggesting its servers are offline, but there is no official update from the operators to explain the current downtime.\nFrom: TF, for",
@@ -355,9 +345,18 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "rom",
-      "torrent"
+      "torrent",
+      "rom"
     ]
+  },
+  {
+    "title": "President of Germany to open Gamescom Congress and attend Gamescom 2026",
+    "link": "https://www.gamesindustry.biz/everything-you-need-to-know-from-state-of-unreal-2026-unreal-engine-6-unreal-engine-58-and-1bn-paid-to-fortnite-devs",
+    "description": "Today's State of Unreal keynote at Unreal Fest Chicago formally unveiled Unreal Engine 6 and confirmed Unreal Engine 5.8 is now available. Read more",
+    "date": "Wed, 17 Jun 2026 12:57:45 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   }
 ]
 };
