@@ -1,8 +1,22 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-18 10:41 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-19 10:51 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-18T10:41:42.202047",
+  fetched_at: "2026-06-19T10:51:28.334829",
   item_count: 30,
   items: [
+  {
+    "title": "Music Publishers Truncated Musk&#8217;s &#8216;DMCA Plague&#8217; Tweet to Back Piracy Case, X Tells Court",
+    "link": "https://torrentfreak.com/major-publishers-sue-welib-a-pirate-site-built-on-annas-archive-code/",
+    "description": "Less than a month after a New York court issued a default judgment against shadow library Anna's Archive, thirteen major publishers have sued WeLib. The publishers characterize WeLib as a young but popular pirate site that was largely copied from Anna's Archive. The site is allegedly used by tech co",
+    "date": "Wed, 17 Jun 2026 13:02:34 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 10,
+    "matched_keywords": [
+      "pirate",
+      "piracy",
+      "dmca",
+      "rom"
+    ]
+  },
   {
     "title": "Google&#8217;s Top DMCA Sender Plateaus at 70 Million Takedowns Per Week",
     "link": "https://torrentfreak.com/streaming-piracy-crackdown-kratos-2-leads-to-29-arrests-targets-remain-unknown/",
@@ -11,8 +25,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "dmca",
       "pirate",
+      "dmca",
       "takedown",
       "rom"
     ]
@@ -26,10 +40,10 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "pirate",
-      "torrent",
+      "rom",
       "copyright",
       "piracy",
-      "rom"
+      "torrent"
     ]
   },
   {
@@ -40,22 +54,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "dmca",
       "pirate",
-      "takedown"
-    ]
-  },
-  {
-    "title": "Music Publishers Truncated Musk&#8217;s &#8216;DMCA Plague&#8217; Tweet to Back Piracy Case, X Tells Court",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Wed, 17 Jun 2026 13:02:34 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
       "dmca",
-      "copyright",
-      "piracy"
+      "takedown"
     ]
   },
   {
@@ -66,9 +67,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "pirate",
       "torrent",
-      "piracy",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -79,8 +80,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "pirate",
+      "piracy",
       "rom"
     ]
   },
@@ -92,8 +93,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -104,8 +105,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -121,15 +122,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Italian Police Target &#8220;Previously Unseen&#8221; Streaming Piracy Tech That Looks Familiar",
-    "link": "https://torrentfreak.com/mexican-president-responds-to-world-cup-piracy-concerns-prefers-open-broadcasts/",
-    "description": "With the FIFA World Cup coming up soon, the organizers of one of Mexico's host cities have asked the country's consumer watchdog to warn the public off pirate streaming services, including KaelusTV, ThunderTV, and Sunset TV. The government is not eager to step in to protect the commercial broadcast ",
-    "date": "Mon, 25 May 2026 09:00:33 +0000",
+    "title": "Major Publishers Sue &#8216;WeLib&#8217;, a  Pirate Site Built on Anna&#8217;s Archive Code",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Thu, 18 Jun 2026 11:13:36 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 6,
+    "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -164,8 +165,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -176,8 +177,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -188,8 +189,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -239,10 +240,43 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "OtherSide Entertainment cuts 17 jobs after Argos cancellation",
+    "title": "Roblox details how much creators will pay for brand integrations",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 18 Jun 2026 10:30:59 +0000",
+    "date": "Fri, 19 Jun 2026 10:17:34 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Report: PlayStation changed first-party single-player PC strategy due to lack of revenue",
+    "link": "https://www.gamesindustry.biz/roblox-details-how-much-creators-will-pay-for-brand-integrations",
+    "description": "Games platform Roblox has finally announced how large a cut it will take from brand integrations. Read more",
+    "date": "Fri, 19 Jun 2026 09:19:54 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"We're not trying to replace it. This is very much a love letter\": Why Crystal Dynamics is remaking the original Tomb Raider (again)",
+    "link": "https://www.gamesindustry.biz/newzoo-global-games-market-made-over-200bn-in-2025",
+    "description": "Research from data firm Newzoo shows that the games market generated over $200 billion in revenue during 2025. Read more",
+    "date": "Thu, 18 Jun 2026 15:36:37 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Why one in three new games at SGF has got their launch wrong | Opinion",
+    "link": "https://www.gamesindustry.biz/were-not-trying-to-replace-it-this-is-very-much-a-love-letter-why-crystal-dynamics-is-remaking-the-original-tomb-raider-again",
+    "description": "The future of Tomb Raider begins with a return to its past. Crystal Dynamics announced a brand new Tomb Raider in 2022 alongside a publishing deal with Amazon, promising a new single-player narrative-driven title built in Unreal Engine 5. This was subsequently revealed to be Tomb Raider Catalyst, a ",
+    "date": "Thu, 18 Jun 2026 15:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -283,39 +317,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Sonic lead says AAA developers have much to learn from indie studios",
-    "link": "https://www.gamesindustry.biz/ea-rolls-out-advertising-arm-to-let-companies-market-directly-into-gameplay",
-    "description": "US publishing giant Electronic Arts is launching EA Advertising, a new platform that allows brands to market directly to consumers via gameplay. Read more",
-    "date": "Mon, 15 Jun 2026 10:33:31 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "UKIE welcomes video games being classed separately from social media as UK government announces ban",
-    "link": "https://www.gamesindustry.biz/sonic-lead-says-aaa-developers-have-much-to-learn-from-indie-studios",
-    "description": "Takashi Iizuka, the producer on Sega's Sonic the Hedgehog franchise, has said that AAA developers can take lessons from how indie studios operate. Read more",
-    "date": "Mon, 15 Jun 2026 10:03:50 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Report: Microsoft weighing up spinning off Xbox",
-    "link": "https://www.gamesindustry.biz/ukie-hails-video-games-being-classed-separately-from-social-media-as-uk-government-announces-ban",
-    "description": "UK video games trade body UKIE has welcomed the government's decision to classify video games as being distinct from social media, as a ban on the latter for under-16s is set to be introduced. Read more",
-    "date": "Mon, 15 Jun 2026 09:16:32 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
     "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
     "description": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecu",
@@ -350,10 +351,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "President of Germany to open Gamescom Congress and attend Gamescom 2026",
-    "link": "https://www.gamesindustry.biz/everything-you-need-to-know-from-state-of-unreal-2026-unreal-engine-6-unreal-engine-58-and-1bn-paid-to-fortnite-devs",
-    "description": "Today's State of Unreal keynote at Unreal Fest Chicago formally unveiled Unreal Engine 6 and confirmed Unreal Engine 5.8 is now available. Read more",
-    "date": "Wed, 17 Jun 2026 12:57:45 +0000",
+    "title": "Newzoo: Global games market made over $200bn in 2025",
+    "link": "https://www.gamesindustry.biz/report-playstation-changed-first-party-single-player-pc-strategy-due-to-lack-of-revenue",
+    "description": "Platform holder PlayStation reportedly has changed its strategy regarding first-party titles on PC, partly due to the fact that they weren't generating enough revenue. Read more",
+    "date": "Fri, 19 Jun 2026 08:49:01 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
