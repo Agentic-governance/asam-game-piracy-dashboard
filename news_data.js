@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-19 10:51 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-20 09:30 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-19T10:51:28.334829",
+  fetched_at: "2026-06-20T09:30:06.245068",
   item_count: 30,
   items: [
   {
@@ -13,8 +13,8 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "pirate",
       "piracy",
-      "dmca",
-      "rom"
+      "rom",
+      "dmca"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "relevance_score": 10,
     "matched_keywords": [
       "pirate",
-      "dmca",
+      "rom",
       "takedown",
-      "rom"
+      "dmca"
     ]
   },
   {
@@ -39,11 +39,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "rom",
-      "copyright",
+      "torrent",
+      "pirate",
       "piracy",
-      "torrent"
+      "copyright"
     ]
   },
   {
@@ -55,8 +55,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "pirate",
-      "dmca",
-      "takedown"
+      "takedown",
+      "dmca"
     ]
   },
   {
@@ -68,8 +68,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -201,8 +201,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -240,10 +240,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Roblox details how much creators will pay for brand integrations",
+    "title": "As AI costs rise, there’s little evidence of major utility in game development | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 19 Jun 2026 10:17:34 +0000",
+    "date": "Fri, 19 Jun 2026 16:11:41 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "European Commission aims to facilitate code of conduct for managing \"end of life\" for games following Stop Killing Games petition",
+    "link": "https://www.gamesindustry.biz/as-ai-costs-rise-theres-little-evidence-of-major-utility-in-game-development-opinion",
+    "description": "It&rsquo;s been almost impossible to avoid the conversation about Generative AI in the games industry over the past couple of years. No matter which side you fall on personally &ndash; from starry-eyed evangelists, via the cautiously interested and the ethically concerned, all the way to the hard-bi",
+    "date": "Fri, 19 Jun 2026 12:06:16 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -306,17 +317,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "HR veteran Liz Prince awarded MBE for services to the games industry and diversity",
-    "link": "https://www.gamesindustry.biz/blizzard-sues-private-world-of-warcraft-server-for-large-scale-egregious-and-ongoing-infringement-of-blizzards-intellectual-property",
-    "description": "Blizzard has filed a copyright lawsuit against the private World of Warcraft server project,  Project Ascension. Read more",
-    "date": "Mon, 15 Jun 2026 15:46:05 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "copyright"
-    ]
-  },
-  {
     "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
     "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
     "description": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecu",
@@ -351,10 +351,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Newzoo: Global games market made over $200bn in 2025",
-    "link": "https://www.gamesindustry.biz/report-playstation-changed-first-party-single-player-pc-strategy-due-to-lack-of-revenue",
-    "description": "Platform holder PlayStation reportedly has changed its strategy regarding first-party titles on PC, partly due to the fact that they weren't generating enough revenue. Read more",
-    "date": "Fri, 19 Jun 2026 08:49:01 +0000",
+    "title": "Roblox details how much creators will pay for brand integrations",
+    "link": "https://www.gamesindustry.biz/european-commission-aims-to-facilitate-code-of-conduct-for-managing-end-of-life-for-games-following-stop-killing-games-petition",
+    "description": "The European Commission has responded to the Stop Killing Games petition, saying that it is unable to \"propose a legal obligation\" to keep games playable after they are no longer available commercially. Read more",
+    "date": "Fri, 19 Jun 2026 10:17:34 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
