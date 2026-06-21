@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-20 09:30 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-21 10:00 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-20T09:30:06.245068",
+  fetched_at: "2026-06-21T10:00:45.475217",
   item_count: 30,
   items: [
   {
@@ -11,9 +11,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "pirate",
-      "piracy",
       "rom",
+      "piracy",
+      "pirate",
       "dmca"
     ]
   },
@@ -25,9 +25,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "pirate",
-      "rom",
       "takedown",
+      "rom",
+      "pirate",
       "dmca"
     ]
   },
@@ -39,11 +39,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
       "torrent",
-      "pirate",
       "piracy",
-      "copyright"
+      "copyright",
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -54,8 +54,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "takedown",
+      "pirate",
       "dmca"
     ]
   },
@@ -67,9 +67,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "torrent",
       "piracy",
-      "torrent"
+      "pirate"
     ]
   },
   {
@@ -80,8 +80,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "piracy",
+      "pirate",
       "rom"
     ]
   },
@@ -93,8 +93,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -105,8 +105,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -122,14 +122,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Major Publishers Sue &#8216;WeLib&#8217;, a  Pirate Site Built on Anna&#8217;s Archive Code",
+    "title": "WIPO Alert Pay Aims to Cut Off Piracy Profits with Help from Payment Providers",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Thu, 18 Jun 2026 11:13:36 +0000",
+    "date": "Sat, 20 Jun 2026 10:05:05 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 4,
+    "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
+      "rom",
+      "piracy",
       "copyright"
     ]
   },
@@ -189,20 +190,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
-    ]
-  },
-  {
-    "title": "Mexican President Responds to World Cup Piracy Concerns, Prefers &#8216;Open&#8217; Broadcasts",
-    "link": "https://torrentfreak.com/gay-torrents-vanishes-after-lawsuit-flavaworks-narrows-case-from-325-to-39-users/",
-    "description": "Adult entertainment company FlavaWorks filed an amended complaint against private torrent tracker Gay-Torrents, alleging that the operators suddenly disappeared, leaving users and staff in the dark. In a tactical shift, Flava significantly reduced the targeted users to a core group of 39, who allege",
-    "date": "Wed, 27 May 2026 07:13:56 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -213,8 +202,19 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
+    ]
+  },
+  {
+    "title": "Major Publishers Sue &#8216;WeLib&#8217;, a  Pirate Site Built on Anna&#8217;s Archive Code",
+    "link": "https://torrentfreak.com/wipo-alert-pay-aims-to-cut-off-piracy-profits-with-help-from-payment-providers/",
+    "description": "For years, WIPO has tried to starve pirate sites of advertising money. Now it wants to cut off their payments too. A new system called \"WIPO Alert Pay\" lets rightsholders flag pirate and counterfeit sites to payment providers such as PayPal and Mastercard, who can then act under their own rules. In ",
+    "date": "Thu, 18 Jun 2026 11:13:36 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "pirate"
     ]
   },
   {
