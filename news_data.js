@@ -1,8 +1,24 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-21 10:00 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-22 12:19 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-21T10:00:45.475217",
+  fetched_at: "2026-06-22T12:19:48.387242",
   item_count: 30,
   items: [
+  {
+    "title": "WIPO Alert Pay Aims to Cut Off Piracy Profits with Help from Payment Providers",
+    "link": "https://torrentfreak.com/ai-generated-fifa-world-cup-dmca-notices-ask-google-to-delist-pirate-sites/",
+    "description": "In a series of DMCA takedown requests, \"FIFA World Cup\" is asking Google to permanently remove various pirate site domain names from its search results. While FIFA certainly is protective of its intellectual property, the seemingly AI-generated notices could be the work of a rival pirate site that's",
+    "date": "Sat, 20 Jun 2026 10:05:05 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 14,
+    "matched_keywords": [
+      "pirate",
+      "intellectual property",
+      "takedown",
+      "piracy",
+      "dmca",
+      "rom"
+    ]
+  },
   {
     "title": "Music Publishers Truncated Musk&#8217;s &#8216;DMCA Plague&#8217; Tweet to Back Piracy Case, X Tells Court",
     "link": "https://torrentfreak.com/major-publishers-sue-welib-a-pirate-site-built-on-annas-archive-code/",
@@ -11,10 +27,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "rom",
       "piracy",
       "pirate",
-      "dmca"
+      "dmca",
+      "rom"
     ]
   },
   {
@@ -25,10 +41,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "takedown",
-      "rom",
       "pirate",
-      "dmca"
+      "takedown",
+      "dmca",
+      "rom"
     ]
   },
   {
@@ -39,11 +55,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
-      "piracy",
-      "copyright",
       "pirate",
-      "rom"
+      "copyright",
+      "piracy",
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -54,8 +70,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
       "pirate",
+      "takedown",
+      "dmca"
+    ]
+  },
+  {
+    "title": "AI-Generated &#8216;FIFA World Cup&#8217; DMCA Notices Ask Google to Delist Pirate Sites",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Mon, 22 Jun 2026 10:10:04 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "pirate",
+      "copyright",
       "dmca"
     ]
   },
@@ -67,9 +96,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
       "piracy",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -119,19 +148,6 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy",
       "crack"
-    ]
-  },
-  {
-    "title": "WIPO Alert Pay Aims to Cut Off Piracy Profits with Help from Payment Providers",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sat, 20 Jun 2026 10:05:05 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 5,
-    "matched_keywords": [
-      "rom",
-      "piracy",
-      "copyright"
     ]
   },
   {
@@ -190,8 +206,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -240,10 +256,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "As AI costs rise, there’s little evidence of major utility in game development | Opinion",
+    "title": "Marvel Contest of Champions studio Kabam lays off unknown number of staff in LA office consolidation",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 19 Jun 2026 16:11:41 +0000",
+    "date": "Mon, 22 Jun 2026 09:55:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -339,22 +355,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Gay-Torrents Vanishes After Lawsuit, FlavaWorks Narrows Case from 325 to 39 Users",
-    "link": "https://torrentfreak.com/torrent-giant-yts-suffers-extended-downtime/",
-    "description": "The popular torrent site YTS has been unreachable for more than a day, leaving millions of its users in the dark. The site's domain names point to a Cloudflare error, suggesting its servers are offline, but there is no official update from the operators to explain the current downtime.\nFrom: TF, for",
-    "date": "Fri, 29 May 2026 07:54:12 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 2,
-    "matched_keywords": [
-      "torrent",
-      "rom"
-    ]
-  },
-  {
-    "title": "Roblox details how much creators will pay for brand integrations",
-    "link": "https://www.gamesindustry.biz/european-commission-aims-to-facilitate-code-of-conduct-for-managing-end-of-life-for-games-following-stop-killing-games-petition",
-    "description": "The European Commission has responded to the Stop Killing Games petition, saying that it is unable to \"propose a legal obligation\" to keep games playable after they are no longer available commercially. Read more",
-    "date": "Fri, 19 Jun 2026 10:17:34 +0000",
+    "title": "As AI costs rise, there’s little evidence of major utility in game development | Opinion",
+    "link": "https://www.gamesindustry.biz/ubisoft-co-founder-claude-guillemot-has-died-in-a-plane-crash",
+    "description": "One of the co-founders of French games giant, Ubisoft, Claude Guillemot, has been killed in a plane crash. Read more",
+    "date": "Fri, 19 Jun 2026 16:11:41 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
