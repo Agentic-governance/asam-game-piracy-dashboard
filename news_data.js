@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-22 12:19 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-23 09:57 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-22T12:19:48.387242",
+  fetched_at: "2026-06-23T09:57:43.077056",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
-      "pirate",
       "intellectual property",
-      "takedown",
-      "piracy",
       "dmca",
+      "piracy",
+      "pirate",
+      "takedown",
       "rom"
     ]
   },
@@ -28,9 +28,9 @@ const ARIA_NEWS = {
     "relevance_score": 10,
     "matched_keywords": [
       "piracy",
-      "pirate",
+      "rom",
       "dmca",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -41,10 +41,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "pirate",
       "takedown",
+      "rom",
       "dmca",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -55,11 +55,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "copyright",
+      "torrent",
       "piracy",
-      "rom",
-      "torrent"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -70,9 +70,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "takedown",
-      "dmca"
+      "dmca",
+      "pirate"
     ]
   },
   {
@@ -83,9 +83,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "copyright",
-      "dmca"
+      "dmca",
+      "pirate"
     ]
   },
   {
@@ -97,8 +97,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -110,8 +110,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "pirate",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -146,8 +146,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -182,8 +182,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -206,8 +206,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -256,9 +256,20 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Marvel Contest of Champions studio Kabam lays off unknown number of staff in LA office consolidation",
+    "title": "EA is reportedly laying off recruitment, customer support, safety, and IT staff",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Mon, 22 Jun 2026 21:29:34 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Marvel Contest of Champions studio Kabam lays off unknown number of staff in LA office consolidation",
+    "link": "https://www.gamesindustry.biz/you-just-look-at-the-number-and-go-what-happened-the-developers-of-rv-there-yet-on-their-surprise-multi-million-selling-success",
+    "description": "When Nuggets Entertainment set out to build RV There Yet? from a game jam project to full release, co-founder and CEO Tim Badylak thought it \"might sell 20,000 or so units in a year.\" That estimate turned out to be spectacularly conservative: the cooperative recreational vehicle adventure actually s",
     "date": "Mon, 22 Jun 2026 09:55:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -322,17 +333,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Thatgamecompany's 20-year journey from anti-Columbine school project to a celebration of Van Gogh",
-    "link": "https://www.gamesindustry.biz/how-dare-we-use-something-like-that-on-someones-dream-why-generative-ai-artwork-is-a-no-go-for-the-scroll-of-taiwu",
-    "description": "Long before the global success of Genshin Impact and Black Myth: Wukong, The Scroll of Taiwu from ConchShip Games pointed towards the potentially huge market for Chinese-developed titles. Read more",
-    "date": "Tue, 16 Jun 2026 18:02:55 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
     "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
     "description": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecu",
@@ -355,10 +355,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "As AI costs rise, there’s little evidence of major utility in game development | Opinion",
-    "link": "https://www.gamesindustry.biz/ubisoft-co-founder-claude-guillemot-has-died-in-a-plane-crash",
-    "description": "One of the co-founders of French games giant, Ubisoft, Claude Guillemot, has been killed in a plane crash. Read more",
-    "date": "Fri, 19 Jun 2026 16:11:41 +0000",
+    "title": "Obsidian sued in class action lawsuit over alleged \"systematic pattern of wage and hour violations\"",
+    "link": "https://www.gamesindustry.biz/volunteer-led-rts-bar-signs-publishing-deal-with-hooded-horse",
+    "description": "Beyond All Reason (BAR), the volunteer-led \"epic scale RTS\" game, has signed a publishing deal with Hooded Horse. Read more",
+    "date": "Mon, 22 Jun 2026 20:18:56 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
