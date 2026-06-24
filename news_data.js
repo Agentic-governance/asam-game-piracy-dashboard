@@ -1,22 +1,36 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-23 09:57 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-24 09:45 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-23T09:57:43.077056",
+  fetched_at: "2026-06-24T09:45:09.468993",
   item_count: 30,
   items: [
   {
-    "title": "WIPO Alert Pay Aims to Cut Off Piracy Profits with Help from Payment Providers",
-    "link": "https://torrentfreak.com/ai-generated-fifa-world-cup-dmca-notices-ask-google-to-delist-pirate-sites/",
-    "description": "In a series of DMCA takedown requests, \"FIFA World Cup\" is asking Google to permanently remove various pirate site domain names from its search results. While FIFA certainly is protective of its intellectual property, the seemingly AI-generated notices could be the work of a rival pirate site that's",
-    "date": "Sat, 20 Jun 2026 10:05:05 +0000",
+    "title": "AI-Generated &#8216;FIFA World Cup&#8217; DMCA Notices Ask Google to Delist Pirate Sites",
+    "link": "https://torrentfreak.com/film-companies-piggyback-on-other-lawsuits-to-unmask-bittorrent-pirates/",
+    "description": "After 180 days, Comcast can no longer say which customer was linked to a given IP address. This retention limit has kept old piracy accusations out of reach for years, but that's beginning to change. A series of BitTorrent lawsuits from film companies targets alleged pirates whose identities Strike ",
+    "date": "Mon, 22 Jun 2026 10:10:04 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 14,
+    "relevance_score": 11,
     "matched_keywords": [
-      "intellectual property",
+      "pirate",
+      "rom",
       "dmca",
       "piracy",
+      "torrent"
+    ]
+  },
+  {
+    "title": "Top 10 Most Pirated Movies of The Week – 06/22/2026",
+    "link": "https://torrentfreak.com/ai-generated-fifa-world-cup-dmca-notices-ask-google-to-delist-pirate-sites/",
+    "description": "In a series of DMCA takedown requests, \"FIFA World Cup\" is asking Google to permanently remove various pirate site domain names from its search results. While FIFA certainly is protective of its intellectual property, the seemingly AI-generated notices could be the work of a rival pirate site that's",
+    "date": "Sun, 21 Jun 2026 23:09:40 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 11,
+    "matched_keywords": [
+      "intellectual property",
       "pirate",
-      "takedown",
-      "rom"
+      "rom",
+      "dmca",
+      "takedown"
     ]
   },
   {
@@ -27,10 +41,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "piracy",
       "rom",
       "dmca",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -41,25 +55,25 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "takedown",
       "rom",
       "dmca",
-      "pirate"
+      "pirate",
+      "takedown"
     ]
   },
   {
-    "title": "Married Couple Behind &#8216;Billion-Visit&#8217; Webtoon Piracy Network Caught in Vietnam",
+    "title": "WIPO Alert Pay Aims to Cut Off Piracy Profits with Help from Payment Providers",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Michael' tops the chart, followed by 'In The Grey.' 'Mortal Kombat II' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sat, 13 Jun 2026 07:58:00 +0000",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Michael' tops the chart, followed by 'Obsession.' 'Mortal Kombat II' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sat, 20 Jun 2026 10:05:05 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
-      "torrent",
-      "piracy",
       "pirate",
-      "rom"
+      "rom",
+      "copyright",
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -70,35 +84,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
       "dmca",
-      "pirate"
-    ]
-  },
-  {
-    "title": "AI-Generated &#8216;FIFA World Cup&#8217; DMCA Notices Ask Google to Delist Pirate Sites",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Mon, 22 Jun 2026 10:10:04 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "copyright",
-      "dmca",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Top 10 Most Pirated Movies of The Week – 06/15/2026",
-    "link": "https://torrentfreak.com/meta-must-face-adult-film-piracy-lawsuit-as-court-denies-dismissal/",
-    "description": "To keep their piracy lawsuit alive, adult film producers Strike 3 Holdings and Counterlife Media don't have to prove Meta used their films for AI training. A California federal judge has denied Meta's motion to dismiss, ruling that the alleged torrenting is itself the infringement. Additionally, the",
-    "date": "Sun, 14 Jun 2026 23:09:40 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "piracy",
-      "torrent",
-      "pirate"
+      "pirate",
+      "takedown"
     ]
   },
   {
@@ -109,9 +97,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "rom",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -122,8 +110,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -134,8 +122,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -151,6 +139,19 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Film Companies &#8220;Piggyback&#8221; on Other Lawsuits to Unmask BitTorrent Pirates",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Tue, 23 Jun 2026 12:12:30 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 5,
+    "matched_keywords": [
+      "torrent",
+      "pirate",
+      "copyright"
+    ]
+  },
+  {
     "title": "Music Labels Win Canadian Site Blocking Order Against Y2Mate, YTMP3, and Savefrom",
     "link": "https://torrentfreak.com/music-publishers-truncated-musks-dmca-plague-tweet-to-back-piracy-case-x-tells-court/",
     "description": "Elon Musk's X Corp has filed a motion to dismiss the multi-million dollar music piracy lawsuit, which was recently amended following the Cox Supreme Court ruling. X says the new complaint is partly based on a tweet that was pulled out of context.  It argues that even the full version falls short of ",
@@ -158,8 +159,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -170,8 +171,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Married Couple Behind &#8216;Billion-Visit&#8217; Webtoon Piracy Network Caught in Vietnam",
+    "link": "https://torrentfreak.com/meta-must-face-adult-film-piracy-lawsuit-as-court-denies-dismissal/",
+    "description": "To keep their piracy lawsuit alive, adult film producers Strike 3 Holdings and Counterlife Media don't have to prove Meta used their films for AI training. A California federal judge has denied Meta's motion to dismiss, ruling that the alleged torrenting is itself the infringement. Additionally, the",
+    "date": "Sat, 13 Jun 2026 07:58:00 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -182,8 +195,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -194,20 +207,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
-    ]
-  },
-  {
-    "title": "Torrent Giant YTS Suffers Extended Downtime (Updated)",
-    "link": "https://torrentfreak.com/the-pirate-bay-remains-resilient-20-years-after-the-raid/",
-    "description": "Twenty years ago today, dozens of Swedish police officers stormed a Stockholm data center, seizing The Pirate Bay's servers. The entertainment industry hoped the raid would finish the site for good. Instead, the police action inadvertently helped to create one of the most resilient and iconic websit",
-    "date": "Sat, 30 May 2026 21:22:25 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "torrent",
-      "pirate"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -256,10 +257,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "EA is reportedly laying off recruitment, customer support, safety, and IT staff",
+    "title": "Bungie devs reportedly pitched Destiny dating game",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 22 Jun 2026 21:29:34 +0000",
+    "date": "Wed, 24 Jun 2026 09:11:32 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"This is going to be a niche device\" – Analysts react to the $1,000+ Steam Machine price reveal",
+    "link": "https://www.gamesindustry.biz/report-tencent-plans-to-exit-investments-in-japanese-studios-like-story-of-seasons-developer-marvelous",
+    "description": "A report from Bloomberg suggests that Tencent is in talks to exit some of its minority investments in Japanese studios, including Marvelous, the developer of the Rune Factory, Daemon x Machina, and Story of Seasons games. Read more",
+    "date": "Tue, 23 Jun 2026 11:01:40 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -322,17 +334,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Everything you need to know from State of Unreal 2026: Unreal Engine 6, Unreal Engine 5.8, and $1bn paid to UEFN devs",
-    "link": "https://www.gamesindustry.biz/uk-employment-tribunal-denies-rockstars-request-to-have-blacklisting-claims-removed-from-upcoming-trial",
-    "description": "A UK employment tribunal has refused Rockstar Games' request to have allegations of 'blacklisting' removed in the case brought against it by fired workers, represented by the IWGB Game Workers union. Read more",
-    "date": "Thu, 18 Jun 2026 00:12:49 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
     "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
     "description": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecu",
@@ -355,10 +356,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Obsidian sued in class action lawsuit over alleged \"systematic pattern of wage and hour violations\"",
-    "link": "https://www.gamesindustry.biz/volunteer-led-rts-bar-signs-publishing-deal-with-hooded-horse",
-    "description": "Beyond All Reason (BAR), the volunteer-led \"epic scale RTS\" game, has signed a publishing deal with Hooded Horse. Read more",
-    "date": "Mon, 22 Jun 2026 20:18:56 +0000",
+    "title": "EA: AI is delivering \"faster prototyping\" and a \"real rise in creativity\" in its studios",
+    "link": "https://www.gamesindustry.biz/bungie-devs-reportedly-pitched-destiny-dating-game",
+    "description": "Staff at Bungie apparently pitched the idea of making a dating game based on its smash hit sci-fi shooter Destiny. Read more",
+    "date": "Tue, 23 Jun 2026 12:39:11 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
