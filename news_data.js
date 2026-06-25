@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-24 09:45 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-25 09:36 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-24T09:45:09.468993",
+  fetched_at: "2026-06-25T09:36:14.657875",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "pirate",
-      "rom",
-      "dmca",
       "piracy",
+      "dmca",
+      "rom",
+      "pirate",
       "torrent"
     ]
   },
@@ -26,11 +26,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "intellectual property",
-      "pirate",
-      "rom",
       "dmca",
-      "takedown"
+      "rom",
+      "pirate",
+      "takedown",
+      "intellectual property"
     ]
   },
   {
@@ -41,10 +41,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "rom",
-      "dmca",
+      "piracy",
       "pirate",
-      "piracy"
+      "dmca",
+      "rom"
     ]
   },
   {
@@ -56,8 +56,8 @@ const ARIA_NEWS = {
     "relevance_score": 10,
     "matched_keywords": [
       "rom",
-      "dmca",
       "pirate",
+      "dmca",
       "takedown"
     ]
   },
@@ -69,24 +69,25 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
-      "rom",
       "copyright",
       "piracy",
+      "rom",
+      "pirate",
       "torrent"
     ]
   },
   {
-    "title": "The Pirate Bay Remains Resilient, 20 Years After The Raid",
-    "link": "https://torrentfreak.com/googles-top-dmca-sender-plateaus-at-70-million-takedowns-per-week/",
-    "description": "Google has processed billions of DMCA takedown requests during the first months of the year. Reporting agency Link-Busters remains the top sender. While its dominance remains, the company appears to have hit a takedown ceiling of roughly 70 million URLs per week. Google won't confirm whether there's",
-    "date": "Sun, 31 May 2026 20:56:38 +0000",
+    "title": "Film Companies &#8220;Piggyback&#8221; on Other Lawsuits to Unmask BitTorrent Pirates",
+    "link": "https://torrentfreak.com/major-brand-ads-on-pirate-sites-surged-80-in-a-year-euipo-finds/",
+    "description": "A new report published by the EU Intellectual Property Office shows that the share of major brand advertising on pirate sites increased 80%. The problem is the worst on court-adjudicated pirate sites, where top brands account for more than half of all ads. The data further shows that anti-piracy blo",
+    "date": "Tue, 23 Jun 2026 12:12:30 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 9,
+    "relevance_score": 8,
     "matched_keywords": [
-      "dmca",
+      "piracy",
       "pirate",
-      "takedown"
+      "intellectual property",
+      "torrent"
     ]
   },
   {
@@ -97,9 +98,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
+      "piracy",
       "pirate",
-      "piracy"
+      "rom"
     ]
   },
   {
@@ -110,8 +111,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -122,8 +123,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -134,19 +135,18 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
-    "title": "Film Companies &#8220;Piggyback&#8221; on Other Lawsuits to Unmask BitTorrent Pirates",
+    "title": "Major Brand Ads on Pirate Sites Surged 80% in a Year, EUIPO Finds",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 23 Jun 2026 12:12:30 +0000",
+    "date": "Wed, 24 Jun 2026 12:12:06 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 5,
+    "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
       "pirate",
       "copyright"
     ]
@@ -159,8 +159,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -171,8 +171,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -183,8 +183,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -207,8 +207,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -219,8 +219,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
     ]
   },
   {
@@ -257,10 +257,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Bungie devs reportedly pitched Destiny dating game",
+    "title": "FromSoftware parent CEO keeps position following activist investors' disappointment in firm's handling of Elden Ring",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 24 Jun 2026 09:11:32 +0000",
+    "date": "Thu, 25 Jun 2026 09:15:48 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Sony is reportedly enforcing \"stricter guidelines\" against so-called \"shovelware\" PlayStation games",
+    "link": "https://www.gamesindustry.biz/fromsoftware-parent-ceo-keeps-position-following-activist-investors-disappointment-in-firms-handling-of-elden-ring",
+    "description": "The CEO of FromSoftware parent company Kadokawa Corporation, Takeshi Natsuno, has retained his position after an activist investor group tried to oust him. Read more",
+    "date": "Wed, 24 Jun 2026 20:01:30 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -290,50 +301,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "European Commission aims to facilitate code of conduct for managing \"end of life\" for games following Stop Killing Games petition",
-    "link": "https://www.gamesindustry.biz/as-ai-costs-rise-theres-little-evidence-of-major-utility-in-game-development-opinion",
-    "description": "It&rsquo;s been almost impossible to avoid the conversation about Generative AI in the games industry over the past couple of years. No matter which side you fall on personally &ndash; from starry-eyed evangelists, via the cautiously interested and the ethically concerned, all the way to the hard-bi",
-    "date": "Fri, 19 Jun 2026 12:06:16 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Report: PlayStation changed first-party single-player PC strategy due to lack of revenue",
-    "link": "https://www.gamesindustry.biz/roblox-details-how-much-creators-will-pay-for-brand-integrations",
-    "description": "Games platform Roblox has finally announced how large a cut it will take from brand integrations. Read more",
-    "date": "Fri, 19 Jun 2026 09:19:54 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "\"We're not trying to replace it. This is very much a love letter\": Why Crystal Dynamics is remaking the original Tomb Raider (again)",
-    "link": "https://www.gamesindustry.biz/newzoo-global-games-market-made-over-200bn-in-2025",
-    "description": "Research from data firm Newzoo shows that the games market generated over $200 billion in revenue during 2025. Read more",
-    "date": "Thu, 18 Jun 2026 15:36:37 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Why one in three new games at SGF has got their launch wrong | Opinion",
-    "link": "https://www.gamesindustry.biz/were-not-trying-to-replace-it-this-is-very-much-a-love-letter-why-crystal-dynamics-is-remaking-the-original-tomb-raider-again",
-    "description": "The future of Tomb Raider begins with a return to its past. Crystal Dynamics announced a brand new Tomb Raider in 2022 alongside a publishing deal with Amazon, promising a new single-player narrative-driven title built in Unreal Engine 5. This was subsequently revealed to be Tomb Raider Catalyst, a ",
-    "date": "Thu, 18 Jun 2026 15:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
     "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
     "description": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecu",
@@ -356,10 +323,37 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "EA: AI is delivering \"faster prototyping\" and a \"real rise in creativity\" in its studios",
-    "link": "https://www.gamesindustry.biz/bungie-devs-reportedly-pitched-destiny-dating-game",
-    "description": "Staff at Bungie apparently pitched the idea of making a dating game based on its smash hit sci-fi shooter Destiny. Read more",
-    "date": "Tue, 23 Jun 2026 12:39:11 +0000",
+    "title": "Jagex confirms \"landmark publishing partnerships\" to bring RuneScape to Japan, South Korea, and South East Asia",
+    "link": "https://www.gamesindustry.biz/sony-is-reportedly-enforcing-stricter-guidelines-against-so-called-shovelware-playstation-games",
+    "description": "Sony is seemingly enforcing \"stricter guidelines\" by cutting ties with alleged \"shovelware\" publishers like the Brazilian-based Afil Games. Read more",
+    "date": "Wed, 24 Jun 2026 19:33:41 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "GTA 6 will launch at $79.99 and will be download only",
+    "link": "https://www.gamesindustry.biz/gta-6-sales-predictions-how-many-copies-will-rockstar-sell-at-80",
+    "description": "We already know the GTA 6 release date, and now we know how much it will cost &ndash; a slightly elevated but not unprecedented price of $79.99, with a $100 special edition adding a series of additional content to the single-player game. We also know that it will be paying lip service to the notion ",
+    "date": "Wed, 24 Jun 2026 11:18:38 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Valve admits Steam Machine is \"more expensive\" than it hoped",
+    "link": "https://www.gamesindustry.biz/appcharge-direct-to-consumer-market-worth-around-17bn-today",
+    "description": "New research suggests that direct-to-consumer (DTC) spending on mobile was around $17 billion in 2025. Read more",
+    "date": "Wed, 24 Jun 2026 09:48:50 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Mobygames announces new suite of pro tools for users to maintain their career profile, find jobs and see industry insights",
+    "link": "https://www.gamesindustry.biz/valve-admits-steam-machine-is-more-expensive-than-it-hoped",
+    "description": "Games giant Valve has admitted that its Steam Machine hardware has a higher cost than it would have liked. Read more",
+    "date": "Wed, 24 Jun 2026 09:46:37 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
