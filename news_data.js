@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-25 09:36 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-26 09:43 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-25T09:36:14.657875",
+  fetched_at: "2026-06-26T09:43:16.282724",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "piracy",
-      "dmca",
+      "torrent",
       "rom",
       "pirate",
-      "torrent"
+      "dmca",
+      "piracy"
     ]
   },
   {
@@ -26,11 +26,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "dmca",
-      "rom",
-      "pirate",
       "takedown",
-      "intellectual property"
+      "rom",
+      "intellectual property",
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -41,24 +41,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
+      "dmca",
+      "pirate",
       "piracy",
-      "pirate",
-      "dmca",
       "rom"
-    ]
-  },
-  {
-    "title": "Google&#8217;s Top DMCA Sender Plateaus at 70 Million Takedowns Per Week",
-    "link": "https://torrentfreak.com/streaming-piracy-crackdown-kratos-2-leads-to-29-arrests-targets-remain-unknown/",
-    "description": "A seven-month Europol operation, coordinated by Bulgaria with support from Europol, has dismantled nine criminal networks running pirate streaming services. The operation, dubbed KRATOS 2, resulted in 29 arrests and the removal of more than 27,000 URLs. While the press release includes many data poi",
-    "date": "Tue, 02 Jun 2026 08:00:49 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 10,
-    "matched_keywords": [
-      "rom",
-      "pirate",
-      "dmca",
-      "takedown"
     ]
   },
   {
@@ -69,11 +55,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "torrent",
       "copyright",
-      "piracy",
       "rom",
       "pirate",
-      "torrent"
+      "piracy"
     ]
   },
   {
@@ -84,10 +70,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "piracy",
       "pirate",
-      "intellectual property",
-      "torrent"
+      "torrent",
+      "piracy",
+      "intellectual property"
     ]
   },
   {
@@ -98,8 +84,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "pirate",
+      "piracy",
       "rom"
     ]
   },
@@ -111,8 +97,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -123,8 +109,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -135,20 +121,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
-    "title": "Major Brand Ads on Pirate Sites Surged 80% in a Year, EUIPO Finds",
+    "title": "ACE, UEFA, and Mexico Chase PirloTV&#8217;s 950-Million-Visit Piracy Network",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Wed, 24 Jun 2026 12:12:06 +0000",
+    "date": "Thu, 25 Jun 2026 09:52:33 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -159,8 +145,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -171,8 +157,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -183,8 +169,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -195,8 +181,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -207,8 +193,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -221,6 +207,17 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "rom",
       "arrested"
+    ]
+  },
+  {
+    "title": "Major Brand Ads on Pirate Sites Surged 80% in a Year, EUIPO Finds",
+    "link": "https://torrentfreak.com/ace-uefa-and-mexico-chase-pirlotvs-950-million-visit-piracy-network/",
+    "description": "One of Latin America's most-visited illegal sports streaming networks has been disrupted by ACE, UEFA, and Mexican authorities. The enforcement action targeted 44 domain names that were operating under popular sports streaming brands including PirloTV. While the enforcement effort appears to have di",
+    "date": "Wed, 24 Jun 2026 12:12:06 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "pirate"
     ]
   },
   {
@@ -257,10 +254,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "FromSoftware parent CEO keeps position following activist investors' disappointment in firm's handling of Elden Ring",
+    "title": "Italy's 34BigThings spins out from Embracer Group",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 25 Jun 2026 09:15:48 +0000",
+    "date": "Fri, 26 Jun 2026 09:14:52 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"Mission Impossible is high on my list\" – how Paramount plans to use co-dev to exploit its archive, while building its own all-new IP",
+    "link": "https://www.gamesindustry.biz/microsoft-significantly-increases-xbox-prices-worldwide-and-withdraws-2tb-model-citing-components-crisis",
+    "description": "Microsoft has announced that it is increasing the price of Xbox worldwide from August 2, blaming increased costs for console storage and memory. The 512 GB models will increase by $100 and the 1TB model will increase by $150; the 2TB variant will be withdrawn. The company did not immediately confirm",
+    "date": "Thu, 25 Jun 2026 17:46:38 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -272,28 +280,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/fromsoftware-parent-ceo-keeps-position-following-activist-investors-disappointment-in-firms-handling-of-elden-ring",
     "description": "The CEO of FromSoftware parent company Kadokawa Corporation, Takeshi Natsuno, has retained his position after an activist investor group tried to oust him. Read more",
     "date": "Wed, 24 Jun 2026 20:01:30 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "\"This is going to be a niche device\" – Analysts react to the $1,000+ Steam Machine price reveal",
-    "link": "https://www.gamesindustry.biz/report-tencent-plans-to-exit-investments-in-japanese-studios-like-story-of-seasons-developer-marvelous",
-    "description": "A report from Bloomberg suggests that Tencent is in talks to exit some of its minority investments in Japanese studios, including Marvelous, the developer of the Rune Factory, Daemon x Machina, and Story of Seasons games. Read more",
-    "date": "Tue, 23 Jun 2026 11:01:40 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Marvel Contest of Champions studio Kabam lays off unknown number of staff in LA office consolidation",
-    "link": "https://www.gamesindustry.biz/you-just-look-at-the-number-and-go-what-happened-the-developers-of-rv-there-yet-on-their-surprise-multi-million-selling-success",
-    "description": "When Nuggets Entertainment set out to build RV There Yet? from a game jam project to full release, co-founder and CEO Tim Badylak thought it \"might sell 20,000 or so units in a year.\" That estimate turned out to be spectacularly conservative: the cooperative recreational vehicle adventure actually s",
-    "date": "Mon, 22 Jun 2026 09:55:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -323,37 +309,46 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Jagex confirms \"landmark publishing partnerships\" to bring RuneScape to Japan, South Korea, and South East Asia",
-    "link": "https://www.gamesindustry.biz/sony-is-reportedly-enforcing-stricter-guidelines-against-so-called-shovelware-playstation-games",
-    "description": "Sony is seemingly enforcing \"stricter guidelines\" by cutting ties with alleged \"shovelware\" publishers like the Brazilian-based Afil Games. Read more",
-    "date": "Wed, 24 Jun 2026 19:33:41 +0000",
+    "title": "Epic's Sweeney claims Steam AI labels are \"really irresponsible of Valve\"",
+    "link": "https://www.gamesindustry.biz/italys-34bigthings-spins-out-from-embracer-group",
+    "description": "Italian studio 34BigThings has spun out of games conglomerate Embracer Group. Read more",
+    "date": "Fri, 26 Jun 2026 08:12:39 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "GTA 6 will launch at $79.99 and will be download only",
-    "link": "https://www.gamesindustry.biz/gta-6-sales-predictions-how-many-copies-will-rockstar-sell-at-80",
-    "description": "We already know the GTA 6 release date, and now we know how much it will cost &ndash; a slightly elevated but not unprecedented price of $79.99, with a $100 special edition adding a series of additional content to the single-player game. We also know that it will be paying lip service to the notion ",
-    "date": "Wed, 24 Jun 2026 11:18:38 +0000",
+    "title": "Sony cuts 292 jobs at Destiny maker Bungie",
+    "link": "https://www.gamesindustry.biz/epics-sweeney-claims-steam-ai-labels-are-really-irresponsible-of-valve",
+    "description": "The CEO of Epic Games, Tim Sweeney, has said that Valve's decision to have disclosure labels for projects on Steam that make use of AI is \"really irresponsible\". Read more",
+    "date": "Fri, 26 Jun 2026 07:31:49 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Valve admits Steam Machine is \"more expensive\" than it hoped",
-    "link": "https://www.gamesindustry.biz/appcharge-direct-to-consumer-market-worth-around-17bn-today",
-    "description": "New research suggests that direct-to-consumer (DTC) spending on mobile was around $17 billion in 2025. Read more",
-    "date": "Wed, 24 Jun 2026 09:48:50 +0000",
+    "title": "Microsoft significantly increases Xbox prices worldwide and withdraws 2TB model citing \"components crisis\"",
+    "link": "https://www.gamesindustry.biz/sony-cuts-292-jobs-at-destiny-maker-bungie",
+    "description": "Sony Interactive Entertainment is cutting jobs at Destiny maker Bungie. Read more",
+    "date": "Thu, 25 Jun 2026 18:20:07 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Mobygames announces new suite of pro tools for users to maintain their career profile, find jobs and see industry insights",
-    "link": "https://www.gamesindustry.biz/valve-admits-steam-machine-is-more-expensive-than-it-hoped",
-    "description": "Games giant Valve has admitted that its Steam Machine hardware has a higher cost than it would have liked. Read more",
-    "date": "Wed, 24 Jun 2026 09:46:37 +0000",
+    "title": "VC fund Vgames launches new $10m Indie Fund",
+    "link": "https://www.gamesindustry.biz/mission-impossible-is-high-on-my-list-how-paramount-plans-to-use-co-dev-to-exploit-its-archive-while-building-its-own-all-new-ip",
+    "description": "Just before Summer Games Fest kicked off, Paramount Skydance announced it was merging its video games divisions into a new entity called Paramount Games Studio. Read more",
+    "date": "Thu, 25 Jun 2026 14:15:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Circana: Nintendo Switch 2 helped US physical game spending increase year-on-year for first time since 2009",
+    "link": "https://www.gamesindustry.biz/vc-fund-vgames-launches-new-10m-indie-fund",
+    "description": "Venture capital firm Vgames is launching a new $10 million Indie Fund. Read more",
+    "date": "Thu, 25 Jun 2026 12:13:39 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
