@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-26 09:43 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-27 08:46 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-26T09:43:16.282724",
+  fetched_at: "2026-06-27T08:46:28.495493",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "torrent",
       "rom",
       "pirate",
+      "piracy",
       "dmca",
-      "piracy"
+      "torrent"
     ]
   },
   {
@@ -28,9 +28,9 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "takedown",
       "rom",
-      "intellectual property",
       "pirate",
-      "dmca"
+      "dmca",
+      "intellectual property"
     ]
   },
   {
@@ -41,10 +41,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "dmca",
       "pirate",
+      "rom",
       "piracy",
-      "rom"
+      "dmca"
     ]
   },
   {
@@ -55,11 +55,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
-      "copyright",
       "rom",
       "pirate",
-      "piracy"
+      "copyright",
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -71,8 +71,8 @@ const ARIA_NEWS = {
     "relevance_score": 8,
     "matched_keywords": [
       "pirate",
-      "torrent",
       "piracy",
+      "torrent",
       "intellectual property"
     ]
   },
@@ -85,8 +85,20 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
+    ]
+  },
+  {
+    "title": "ACE, UEFA, and Mexico Chase PirloTV&#8217;s 950-Million-Visit Piracy Network",
+    "link": "https://torrentfreak.com/eu-backed-dns-resolver-collects-pirate-site-blocklist-which-it-doesnt-use/",
+    "description": "DNS4EU is a relatively young DNS provider that launched last year with European Commission funding. The company is pitched as a privacy-first alternative to Google and Cloudflare, but it also comes with site blocking in mind. DNS4EU has shown an interest in pirate site blocklists, including the one ",
+    "date": "Thu, 25 Jun 2026 09:52:33 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -114,27 +126,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Streaming Piracy Crackdown &#8216;KRATOS 2&#8217; Leads to 29 Arrests, Targets Remain Unknown",
-    "link": "https://torrentfreak.com/vietnams-online-piracy-failures-trigger-section-301-investigation-tariffs-on-the-table/",
-    "description": "A month after designating Vietnam as a \"Priority Foreign Country\" over its failure to deter online piracy, the U.S. Trade Representative has formally opened a trade investigation, opening the door to potential sanctions. Rightsholders are invited to submit comments, and the MPA, which pursued action",
-    "date": "Thu, 04 Jun 2026 08:34:40 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "crack",
-      "piracy"
-    ]
-  },
-  {
-    "title": "ACE, UEFA, and Mexico Chase PirloTV&#8217;s 950-Million-Visit Piracy Network",
+    "title": "EU-Backed DNS Resolver Collects Pirate Site Blocklist, Which It Doesn&#8217;t Use",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Thu, 25 Jun 2026 09:52:33 +0000",
+    "date": "Sat, 27 Jun 2026 08:28:03 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -169,8 +169,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -181,8 +181,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -254,9 +254,20 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Italy's 34BigThings spins out from Embracer Group",
+    "title": "PlayStation hardware sales fall to their lowest May total since 2000 | US Monthly Charts",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Fri, 26 Jun 2026 17:37:13 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Italy's 34BigThings spins out from Embracer Group",
+    "link": "https://www.gamesindustry.biz/five-things-to-avoid-when-marketing-your-indie-game-opinion",
+    "description": "Axel F&auml;lth and Linn Stjernl&ouml;f of Mi5 Communications share over two decades of experience within PR and marketing in the tech and games industry, and have worked with clients including Raw Fury, Ubisoft, Sega, Low Drag Labs, IO Interactive, Bethesda, and Krufs Productions.  Read more",
     "date": "Fri, 26 Jun 2026 09:14:52 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -309,6 +320,24 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Valve can afford a niche, pricey hardware launch; Sony and Microsoft can't | Opinion",
+    "link": "https://www.gamesindustry.biz/playstation-hardware-sales-fall-to-their-lowest-may-total-since-2000-us-monthly-charts",
+    "description": "PlayStation 5 unit sales in the United States dropped 58% year on year in May, according to Circana, reaching their lowest May total since 2000. Xbox unit sales, meanwhile, reached their lowest ever recorded figures for May, dropping 12% year on year. Read more",
+    "date": "Fri, 26 Jun 2026 15:04:18 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Five things to avoid when marketing your indie game | Opinion",
+    "link": "https://www.gamesindustry.biz/valve-can-afford-a-niche-pricey-hardware-launch-sony-and-microsoft-cant",
+    "description": "The great hardware pricing crisis may feel like it's been going on for ages, but in truth, its full effects have only been felt in certain specific consumer sectors so far. If you're directly shopping for PC components like RAM or SSDs, you know just how bad things have become; people in the market ",
+    "date": "Fri, 26 Jun 2026 14:07:12 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Epic's Sweeney claims Steam AI labels are \"really irresponsible of Valve\"",
     "link": "https://www.gamesindustry.biz/italys-34bigthings-spins-out-from-embracer-group",
     "description": "Italian studio 34BigThings has spun out of games conglomerate Embracer Group. Read more",
@@ -322,33 +351,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/epics-sweeney-claims-steam-ai-labels-are-really-irresponsible-of-valve",
     "description": "The CEO of Epic Games, Tim Sweeney, has said that Valve's decision to have disclosure labels for projects on Steam that make use of AI is \"really irresponsible\". Read more",
     "date": "Fri, 26 Jun 2026 07:31:49 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Microsoft significantly increases Xbox prices worldwide and withdraws 2TB model citing \"components crisis\"",
-    "link": "https://www.gamesindustry.biz/sony-cuts-292-jobs-at-destiny-maker-bungie",
-    "description": "Sony Interactive Entertainment is cutting jobs at Destiny maker Bungie. Read more",
-    "date": "Thu, 25 Jun 2026 18:20:07 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "VC fund Vgames launches new $10m Indie Fund",
-    "link": "https://www.gamesindustry.biz/mission-impossible-is-high-on-my-list-how-paramount-plans-to-use-co-dev-to-exploit-its-archive-while-building-its-own-all-new-ip",
-    "description": "Just before Summer Games Fest kicked off, Paramount Skydance announced it was merging its video games divisions into a new entity called Paramount Games Studio. Read more",
-    "date": "Thu, 25 Jun 2026 14:15:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Circana: Nintendo Switch 2 helped US physical game spending increase year-on-year for first time since 2009",
-    "link": "https://www.gamesindustry.biz/vc-fund-vgames-launches-new-10m-indie-fund",
-    "description": "Venture capital firm Vgames is launching a new $10 million Indie Fund. Read more",
-    "date": "Thu, 25 Jun 2026 12:13:39 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
