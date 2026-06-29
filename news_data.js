@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-28 09:23 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-29 11:17 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-28T09:23:37.876006",
+  fetched_at: "2026-06-29T11:17:17.542022",
   item_count: 30,
   items: [
   {
@@ -12,10 +12,10 @@ const ARIA_NEWS = {
     "relevance_score": 11,
     "matched_keywords": [
       "dmca",
-      "pirate",
-      "piracy",
       "rom",
-      "torrent"
+      "torrent",
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -26,11 +26,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "intellectual property",
-      "dmca",
       "takedown",
-      "pirate",
-      "rom"
+      "dmca",
+      "rom",
+      "intellectual property",
+      "pirate"
     ]
   },
   {
@@ -41,10 +41,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "rom",
-      "dmca",
       "piracy",
-      "pirate"
+      "rom",
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -55,11 +55,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
-      "pirate",
-      "piracy",
       "rom",
-      "torrent"
+      "torrent",
+      "piracy",
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -70,10 +70,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "torrent",
-      "intellectual property",
       "piracy",
-      "pirate"
+      "intellectual property",
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -84,8 +84,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "piracy",
+      "rom",
       "pirate"
     ]
   },
@@ -126,18 +126,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Feds Seize Domain Names of Nearly 400 Pirate Sports Streaming Sites",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sat, 27 Jun 2026 13:45:38 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "copyright",
-      "pirate"
-    ]
-  },
-  {
     "title": "EU-Backed DNS Resolver Collects Pirate Site Blocklist, Which It Doesn&#8217;t Use",
     "link": "https://torrentfreak.com/feds-seize-domain-names-of-nearly-400-pirate-sports-streaming-sites/",
     "description": "The U.S. Department of Justice announced the seizure of nearly 400 pirate streaming domain names that offered access to FIFA World Cup matches. This enforcement action, dubbed \"Operation Offsides\", targets popular brands including \"rojadirecta\", \"koora\", and \"futbollibre\". TorrentFreak tracked down ",
@@ -145,8 +133,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -157,8 +145,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -169,8 +157,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -181,19 +169,30 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
-    "title": "YouTube Processed 2.5 Billion Content ID Copyright Claims in 2025",
-    "link": "https://torrentfreak.com/z-library-lets-people-run-white-label-login-only-pirate-mirrors/",
-    "description": "In what's partly an effort to push back against domain seizures and blocking efforts, Z-Library has upgraded its mirror infrastructure. Users of the shadow library can now create custom-branded, login-only mirrors of the site, creating a network of stealthy, white-label pirate sites. Running a mirro",
-    "date": "Sat, 06 Jun 2026 13:59:34 +0000",
-    "source": "TorrentFreak",
+    "title": "Alleged Kimwolf Botmaster &#8216;Dort&#8217; Arrested, Charged in U.S. and Canada",
+    "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+    "description": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub ac",
+    "date": "Thu, 21 May 2026 21:50:25 +0000",
+    "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
+      "rom",
+      "arrested"
+    ]
+  },
+  {
+    "title": "Feds Seize Domain Names of Nearly 400 Pirate Sports Streaming Sites (Update)",
+    "link": "https://torrentfreak.com/european-isps-want-rightsholders-held-accountable-for-overblocking-damage/",
+    "description": "For years, rightsholders have pushed for broader site blocking orders, with no direct liability if these result in overblocking. EuroISPA, which represents over 3,300 European internet service providers, is now asking the EU Commission to change that. The association points to a series of overblocki",
+    "date": "Sat, 27 Jun 2026 13:45:38 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
       "pirate"
     ]
   },
@@ -242,10 +241,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "PlayStation hardware sales fall to their lowest May total since 2000 | US Monthly Charts",
+    "title": "CD Projekt rebrands to CD Projekt Red",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 26 Jun 2026 17:37:13 +0000",
+    "date": "Mon, 29 Jun 2026 09:40:55 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -286,6 +285,46 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
+    "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
+    "description": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecu",
+    "date": "Fri, 22 May 2026 16:34:24 +0000",
+    "source": "KrebsOnSecurity",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "arrested"
+    ]
+  },
+  {
+    "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
+    "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
+    "description": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for use in a series of massive distributed denial-of-service (DDoS) attacks over the past six months. Krebs",
+    "date": "Mon, 18 May 2026 20:48:21 +0000",
+    "source": "KrebsOnSecurity",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "arrested"
+    ]
+  },
+  {
+    "title": "PlayStation CEO says company wants to \"revitalise\" live-service games",
+    "link": "https://www.gamesindustry.biz/cd-projekt-rebrands-to-cd-projekt-red",
+    "description": "Polish games firm CD Projekt has opted to change its name to CD Projekt Red. Read more",
+    "date": "Mon, 29 Jun 2026 09:13:46 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "PlayStation hardware sales fall to their lowest May total since 2000 | US Monthly Charts",
+    "link": "https://www.gamesindustry.biz/playstation-ceo-says-company-wants-to-revitalise-live-service-games",
+    "description": "The CEO of Sony Interactive Entertainment, Hideaki Nishino, has said that he wants to \"revitalise\" live-service projects through a combination of first- and third-party content. Read more",
+    "date": "Fri, 26 Jun 2026 17:37:13 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Valve can afford a niche, pricey hardware launch; Sony and Microsoft can't | Opinion",
     "link": "https://www.gamesindustry.biz/playstation-hardware-sales-fall-to-their-lowest-may-total-since-2000-us-monthly-charts",
     "description": "PlayStation 5 unit sales in the United States dropped 58% year on year in May, according to Circana, reaching their lowest May total since 2000. Xbox unit sales, meanwhile, reached their lowest ever recorded figures for May, dropping 12% year on year. Read more",
@@ -308,42 +347,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/italys-34bigthings-spins-out-from-embracer-group",
     "description": "Italian studio 34BigThings has spun out of games conglomerate Embracer Group. Read more",
     "date": "Fri, 26 Jun 2026 08:12:39 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Sony cuts 292 jobs at Destiny maker Bungie",
-    "link": "https://www.gamesindustry.biz/epics-sweeney-claims-steam-ai-labels-are-really-irresponsible-of-valve",
-    "description": "The CEO of Epic Games, Tim Sweeney, has said that Valve's decision to have disclosure labels for projects on Steam that make use of AI is \"really irresponsible\". Read more",
-    "date": "Fri, 26 Jun 2026 07:31:49 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Microsoft significantly increases Xbox prices worldwide and withdraws 2TB model citing \"components crisis\"",
-    "link": "https://www.gamesindustry.biz/sony-cuts-292-jobs-at-destiny-maker-bungie",
-    "description": "Sony Interactive Entertainment is cutting jobs at Destiny maker Bungie. Read more",
-    "date": "Thu, 25 Jun 2026 18:20:07 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "VC fund Vgames launches new $10m Indie Fund",
-    "link": "https://www.gamesindustry.biz/mission-impossible-is-high-on-my-list-how-paramount-plans-to-use-co-dev-to-exploit-its-archive-while-building-its-own-all-new-ip",
-    "description": "Just before Summer Games Fest kicked off, Paramount Skydance announced it was merging its video games divisions into a new entity called Paramount Games Studio. Read more",
-    "date": "Thu, 25 Jun 2026 14:15:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Circana: Nintendo Switch 2 helped US physical game spending increase year-on-year for first time since 2009",
-    "link": "https://www.gamesindustry.biz/vc-fund-vgames-launches-new-10m-indie-fund",
-    "description": "Venture capital firm Vgames is launching a new $10 million Indie Fund. Read more",
-    "date": "Thu, 25 Jun 2026 12:13:39 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
