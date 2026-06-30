@@ -1,8 +1,24 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-29 11:17 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-06-30 09:54 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-29T11:17:17.542022",
+  fetched_at: "2026-06-30T09:54:45.942779",
   item_count: 30,
   items: [
+  {
+    "title": "WIPO Alert Pay Aims to Cut Off Piracy Profits with Help from Payment Providers",
+    "link": "https://torrentfreak.com/ai-generated-fifa-world-cup-dmca-notices-ask-google-to-delist-pirate-sites/",
+    "description": "In a series of DMCA takedown requests, \"FIFA World Cup\" is asking Google to permanently remove various pirate site domain names from its search results. While FIFA certainly is protective of its intellectual property, the seemingly AI-generated notices could be the work of a rival pirate site that's",
+    "date": "Sat, 20 Jun 2026 10:05:05 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 14,
+    "matched_keywords": [
+      "pirate",
+      "piracy",
+      "intellectual property",
+      "rom",
+      "dmca",
+      "takedown"
+    ]
+  },
   {
     "title": "AI-Generated &#8216;FIFA World Cup&#8217; DMCA Notices Ask Google to Delist Pirate Sites",
     "link": "https://torrentfreak.com/film-companies-piggyback-on-other-lawsuits-to-unmask-bittorrent-pirates/",
@@ -11,26 +27,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "dmca",
-      "rom",
-      "torrent",
+      "pirate",
       "piracy",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Top 10 Most Pirated Movies of The Week – 06/22/2026",
-    "link": "https://torrentfreak.com/ai-generated-fifa-world-cup-dmca-notices-ask-google-to-delist-pirate-sites/",
-    "description": "In a series of DMCA takedown requests, \"FIFA World Cup\" is asking Google to permanently remove various pirate site domain names from its search results. While FIFA certainly is protective of its intellectual property, the seemingly AI-generated notices could be the work of a rival pirate site that's",
-    "date": "Sun, 21 Jun 2026 23:09:40 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 11,
-    "matched_keywords": [
-      "takedown",
-      "dmca",
       "rom",
-      "intellectual property",
-      "pirate"
+      "dmca",
+      "torrent"
     ]
   },
   {
@@ -41,25 +42,25 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "piracy",
-      "rom",
       "pirate",
+      "rom",
+      "piracy",
       "dmca"
     ]
   },
   {
-    "title": "WIPO Alert Pay Aims to Cut Off Piracy Profits with Help from Payment Providers",
+    "title": "Feds Seize Domain Names of Nearly 400 Pirate Sports Streaming Sites (Update)",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Michael' tops the chart, followed by 'Obsession.' 'Mortal Kombat II' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sat, 20 Jun 2026 10:05:05 +0000",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Masters of the Universe' tops the chart, followed by 'Obsession.' 'Michael' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sat, 27 Jun 2026 13:45:38 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
-      "torrent",
-      "piracy",
+      "pirate",
       "copyright",
-      "pirate"
+      "piracy",
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -70,10 +71,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "piracy",
-      "intellectual property",
       "pirate",
-      "torrent"
+      "torrent",
+      "piracy",
+      "intellectual property"
     ]
   },
   {
@@ -84,9 +85,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
+      "pirate",
       "rom",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -97,8 +98,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -109,8 +110,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -121,8 +122,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -145,8 +146,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -157,8 +158,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -169,8 +170,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
+    ]
+  },
+  {
+    "title": "PlayStation once again pulls purchased Studio Canal content from user libraries because of \"licensing arrangements\"",
+    "link": "https://www.gamesindustry.biz/ndreams-founder-launches-new-studio-atmospheric-to-create-original-ip-across-games-and-music",
+    "description": "The founder of VR studio nDreams, Patrick O'Luanaigh, has launched a new studio called Atmospheric, described as \"a new independent entertainment company creating original intellectual property across games and music.\" O'Luanaigh stepped down from nDreams in May 2025 after 19 years as CEO, and eight",
+    "date": "Mon, 29 Jun 2026 17:27:27 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "rom",
+      "intellectual property"
     ]
   },
   {
@@ -181,15 +194,15 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
     ]
   },
   {
-    "title": "Feds Seize Domain Names of Nearly 400 Pirate Sports Streaming Sites (Update)",
+    "title": "Top 10 Most Pirated Movies of The Week – 06/29/2026",
     "link": "https://torrentfreak.com/european-isps-want-rightsholders-held-accountable-for-overblocking-damage/",
     "description": "For years, rightsholders have pushed for broader site blocking orders, with no direct liability if these result in overblocking. EuroISPA, which represents over 3,300 European internet service providers, is now asking the EU Commission to change that. The association points to a series of overblocki",
-    "date": "Sat, 27 Jun 2026 13:45:38 +0000",
+    "date": "Sun, 28 Jun 2026 23:09:40 +0000",
     "source": "TorrentFreak",
     "relevance_score": 3,
     "matched_keywords": [
@@ -241,10 +254,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "CD Projekt rebrands to CD Projekt Red",
+    "title": "Griffin Gaming Partners invests in TinyBuild",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 29 Jun 2026 09:40:55 +0000",
+    "date": "Tue, 30 Jun 2026 09:42:27 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"I literally built an investment firm that wouldn't have funded my own pitch\" – Why the money isn't reaching the games that need it",
+    "link": "https://www.gamesindustry.biz/playstation-once-again-pulls-purchased-studio-canal-content-from-user-libraries-because-of-licensing-arrangements",
+    "description": "Sony PlayStation has written to players informing them that previously purchased Studio Canal movies will be pulled from libraries from September 1. Read more",
+    "date": "Mon, 29 Jun 2026 14:06:43 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -274,17 +298,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Sony is reportedly enforcing \"stricter guidelines\" against so-called \"shovelware\" PlayStation games",
-    "link": "https://www.gamesindustry.biz/fromsoftware-parent-ceo-keeps-position-following-activist-investors-disappointment-in-firms-handling-of-elden-ring",
-    "description": "The CEO of FromSoftware parent company Kadokawa Corporation, Takeshi Natsuno, has retained his position after an activist investor group tried to oust him. Read more",
-    "date": "Wed, 24 Jun 2026 20:01:30 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
     "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
     "description": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecu",
@@ -307,46 +320,37 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "CWA union says Xbox workers are not \"disposable\" as layoffs loom",
+    "link": "https://www.gamesindustry.biz/griffin-gaming-partners-invests-in-tinybuild",
+    "description": "Venture capital firm Griffin Gaming Partners has bought a 3.24% equity stake in developer and publisher TinyBuild. Read more",
+    "date": "Tue, 30 Jun 2026 08:47:14 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "nDreams founder launches new studio Atmospheric to create \"original IP across games and music\"",
+    "link": "https://www.gamesindustry.biz/cwa-union-says-xbox-workers-are-not-disposable-as-layoffs-loom",
+    "description": "The Communications Workers of America (CWA) union has come out in support of its members at Xbox as reports of mass layoffs continue to loom. Read more",
+    "date": "Tue, 30 Jun 2026 08:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "SK Hynix, Samsung and Micron sued over allegations of \"concerted anticompetitive behaviour\" in DRAM market",
+    "link": "https://www.gamesindustry.biz/i-literally-built-an-investment-firm-that-wouldnt-have-funded-my-own-pitch-why-the-money-isnt-reaching-the-games-that-need-it",
+    "description": "A roundtable workshop at this year's Madeira Games Summit, at which executives and studio leaders spoke under the condition of anonymity, gave some insight into why funding keeps going to the same companies and risk-averse projects, rather than deserving, original video games. Read more",
+    "date": "Mon, 29 Jun 2026 11:18:50 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "PlayStation CEO says company wants to \"revitalise\" live-service games",
     "link": "https://www.gamesindustry.biz/cd-projekt-rebrands-to-cd-projekt-red",
     "description": "Polish games firm CD Projekt has opted to change its name to CD Projekt Red. Read more",
     "date": "Mon, 29 Jun 2026 09:13:46 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "PlayStation hardware sales fall to their lowest May total since 2000 | US Monthly Charts",
-    "link": "https://www.gamesindustry.biz/playstation-ceo-says-company-wants-to-revitalise-live-service-games",
-    "description": "The CEO of Sony Interactive Entertainment, Hideaki Nishino, has said that he wants to \"revitalise\" live-service projects through a combination of first- and third-party content. Read more",
-    "date": "Fri, 26 Jun 2026 17:37:13 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Valve can afford a niche, pricey hardware launch; Sony and Microsoft can't | Opinion",
-    "link": "https://www.gamesindustry.biz/playstation-hardware-sales-fall-to-their-lowest-may-total-since-2000-us-monthly-charts",
-    "description": "PlayStation 5 unit sales in the United States dropped 58% year on year in May, according to Circana, reaching their lowest May total since 2000. Xbox unit sales, meanwhile, reached their lowest ever recorded figures for May, dropping 12% year on year. Read more",
-    "date": "Fri, 26 Jun 2026 15:04:18 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Five things to avoid when marketing your indie game | Opinion",
-    "link": "https://www.gamesindustry.biz/valve-can-afford-a-niche-pricey-hardware-launch-sony-and-microsoft-cant",
-    "description": "The great hardware pricing crisis may feel like it's been going on for ages, but in truth, its full effects have only been felt in certain specific consumer sectors so far. If you're directly shopping for PC components like RAM or SSDs, you know just how bad things have become; people in the market ",
-    "date": "Fri, 26 Jun 2026 14:07:12 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Epic's Sweeney claims Steam AI labels are \"really irresponsible of Valve\"",
-    "link": "https://www.gamesindustry.biz/italys-34bigthings-spins-out-from-embracer-group",
-    "description": "Italian studio 34BigThings has spun out of games conglomerate Embracer Group. Read more",
-    "date": "Fri, 26 Jun 2026 08:12:39 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
