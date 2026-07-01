@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-06-30 09:54 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-01 10:03 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-06-30T09:54:45.942779",
+  fetched_at: "2026-07-01T10:03:56.016823",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
-      "pirate",
-      "piracy",
-      "intellectual property",
       "rom",
       "dmca",
-      "takedown"
+      "pirate",
+      "intellectual property",
+      "takedown",
+      "piracy"
     ]
   },
   {
@@ -27,11 +27,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "pirate",
-      "piracy",
       "rom",
       "dmca",
-      "torrent"
+      "torrent",
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -42,10 +42,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "pirate",
       "rom",
-      "piracy",
-      "dmca"
+      "dmca",
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -56,11 +56,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
-      "copyright",
-      "piracy",
       "rom",
-      "torrent"
+      "copyright",
+      "torrent",
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -71,10 +71,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
       "torrent",
-      "piracy",
-      "intellectual property"
+      "intellectual property",
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -85,8 +85,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "rom",
+      "pirate",
       "piracy"
     ]
   },
@@ -115,18 +115,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Z-Library Lets People Run White-Label, Login-Only Pirate Mirrors",
-    "link": "https://torrentfreak.com/filmmakers-and-isp-wow-settle-piracy-liability-lawsuit-before-trial/",
-    "description": "The long-running piracy liability lawsuit between filmmakers and internet provider WOW! has ended with a quiet settlement. In late March, a Colorado federal court refused to resolve the ISP's safe harbor defense on summary judgment. Instead of going to trial, both sides walked away. The settlement f",
-    "date": "Mon, 08 Jun 2026 09:18:44 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
     "title": "EU-Backed DNS Resolver Collects Pirate Site Blocklist, Which It Doesn&#8217;t Use",
     "link": "https://torrentfreak.com/feds-seize-domain-names-of-nearly-400-pirate-sports-streaming-sites/",
     "description": "The U.S. Department of Justice announced the seizure of nearly 400 pirate streaming domain names that offered access to FIFA World Cup matches. This enforcement action, dubbed \"Operation Offsides\", targets popular brands including \"rojadirecta\", \"koora\", and \"futbollibre\". TorrentFreak tracked down ",
@@ -134,8 +122,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -175,7 +163,7 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "PlayStation once again pulls purchased Studio Canal content from user libraries because of \"licensing arrangements\"",
+    "title": "PlayStation once again pulls purchased StudioCanal content from user libraries because of \"licensing arrangements\"",
     "link": "https://www.gamesindustry.biz/ndreams-founder-launches-new-studio-atmospheric-to-create-original-ip-across-games-and-music",
     "description": "The founder of VR studio nDreams, Patrick O'Luanaigh, has launched a new studio called Atmospheric, described as \"a new independent entertainment company creating original intellectual property across games and music.\" O'Luanaigh stepped down from nDreams in May 2025 after 19 years as CEO, and eight",
     "date": "Mon, 29 Jun 2026 17:27:27 +0000",
@@ -194,8 +182,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
     ]
   },
   {
@@ -254,10 +242,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Griffin Gaming Partners invests in TinyBuild",
+    "title": "Xbox ends deal to fund and publish IO Interactive's Project Fantasy; redundancies expected",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 30 Jun 2026 09:42:27 +0000",
+    "date": "Wed, 01 Jul 2026 09:00:11 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Slitherine acquires Warhammer Blood Bowl licence from troubled French publisher Nacon",
+    "link": "https://www.gamesindustry.biz/xbox-ends-deal-to-fund-and-publish-io-interactives-project-fantasy-redundancies-expected",
+    "description": "Xbox has exited a deal to fund and publish IO Interactive's online fantasy RPG, codenamed Project Fantasy, a move that may lead to job losses. Read more",
+    "date": "Wed, 01 Jul 2026 08:30:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Rokky launches unofficial Steam tool for checking if bundle and press keys have been used",
+    "link": "https://www.gamesindustry.biz/slitherine-acquires-warhammer-blood-bowl-licence-from-troubled-french-publisher-nacon",
+    "description": "Wargame and strategy specialist Slitherine Software has acquired the licence, publishing rights and back catalogue for the Warhammer-derived Blood Bowl franchise from Nacon, following the latter's filing for insolvency. As part of the deal, Slitherine will publish the upcoming Warhammer Blood Bowl. ",
+    "date": "Wed, 01 Jul 2026 08:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -267,7 +277,7 @@ const ARIA_NEWS = {
   {
     "title": "\"I literally built an investment firm that wouldn't have funded my own pitch\" – Why the money isn't reaching the games that need it",
     "link": "https://www.gamesindustry.biz/playstation-once-again-pulls-purchased-studio-canal-content-from-user-libraries-because-of-licensing-arrangements",
-    "description": "Sony PlayStation has written to players informing them that previously purchased Studio Canal movies will be pulled from libraries from September 1. Read more",
+    "description": "Sony PlayStation has written to players informing them that previously purchased StudioCanal movies will be pulled from libraries from September 1. Read more",
     "date": "Mon, 29 Jun 2026 14:06:43 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -298,6 +308,17 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "SCOTUS Denies Hyatt Petition on Prosecution Laches, Among Other Patent Denials",
+    "link": "https://ipwatchdog.com/2026/06/30/high-court-grants-cert-in-apples-challenge-to-ninth-circuit-contempt-ruling-in-app-store-dispute/",
+    "description": "The U.S. Supreme Court today granted certiorari in Apple Inc.’s appeal of a civil contempt finding stemming from its App Store dispute with Epic Games, Inc. The case centers on a 2021 injunction issued by the U.S. District Court for the Northern District of California and a subsequent contempt order",
+    "date": "Mon, 29 Jun 2026 18:15:18 +0000",
+    "source": "IPWatchdog",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
     "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
     "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
     "description": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecu",
@@ -320,37 +341,19 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "CWA union says Xbox workers are not \"disposable\" as layoffs loom",
-    "link": "https://www.gamesindustry.biz/griffin-gaming-partners-invests-in-tinybuild",
-    "description": "Venture capital firm Griffin Gaming Partners has bought a 3.24% equity stake in developer and publisher TinyBuild. Read more",
-    "date": "Tue, 30 Jun 2026 08:47:14 +0000",
+    "title": "Ubisoft Barcelona staff go on strike over 51 staff being laid off",
+    "link": "https://www.gamesindustry.biz/rokky-launches-unofficial-steam-tool-for-checking-if-bundle-and-press-keys-have-been-used",
+    "description": "Key distribution platform Rokky has debuted a free browser plugin for publishers and developers to monitor if distributed Steam keys have been used. The firm described it as a tool for \"partner reconciliation and sales forecasting\" and \"safe post-bundle verification\". Read more",
+    "date": "Tue, 30 Jun 2026 10:39:48 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "nDreams founder launches new studio Atmospheric to create \"original IP across games and music\"",
-    "link": "https://www.gamesindustry.biz/cwa-union-says-xbox-workers-are-not-disposable-as-layoffs-loom",
-    "description": "The Communications Workers of America (CWA) union has come out in support of its members at Xbox as reports of mass layoffs continue to loom. Read more",
-    "date": "Tue, 30 Jun 2026 08:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "SK Hynix, Samsung and Micron sued over allegations of \"concerted anticompetitive behaviour\" in DRAM market",
-    "link": "https://www.gamesindustry.biz/i-literally-built-an-investment-firm-that-wouldnt-have-funded-my-own-pitch-why-the-money-isnt-reaching-the-games-that-need-it",
-    "description": "A roundtable workshop at this year's Madeira Games Summit, at which executives and studio leaders spoke under the condition of anonymity, gave some insight into why funding keeps going to the same companies and risk-averse projects, rather than deserving, original video games. Read more",
-    "date": "Mon, 29 Jun 2026 11:18:50 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "PlayStation CEO says company wants to \"revitalise\" live-service games",
-    "link": "https://www.gamesindustry.biz/cd-projekt-rebrands-to-cd-projekt-red",
-    "description": "Polish games firm CD Projekt has opted to change its name to CD Projekt Red. Read more",
-    "date": "Mon, 29 Jun 2026 09:13:46 +0000",
+    "title": "Griffin Gaming Partners invests in TinyBuild",
+    "link": "https://www.gamesindustry.biz/ubisoft-barcelona-staff-go-on-strike-over-51-staff-being-laid-off",
+    "description": "Staff at Ubisoft's Barcelona studio are going on strike over proposed layoffs that could see 51 workers lose their jobs. Read more",
+    "date": "Tue, 30 Jun 2026 09:42:27 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
