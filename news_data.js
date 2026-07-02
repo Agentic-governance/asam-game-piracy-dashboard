@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-01 10:03 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-02 09:26 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-01T10:03:56.016823",
+  fetched_at: "2026-07-02T09:26:42.088780",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
+      "piracy",
       "rom",
-      "dmca",
+      "takedown",
       "pirate",
       "intellectual property",
-      "takedown",
-      "piracy"
+      "dmca"
     ]
   },
   {
@@ -27,11 +27,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
+      "piracy",
       "rom",
-      "dmca",
-      "torrent",
       "pirate",
-      "piracy"
+      "torrent",
+      "dmca"
     ]
   },
   {
@@ -42,10 +42,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "rom",
-      "dmca",
+      "piracy",
       "pirate",
-      "piracy"
+      "dmca",
+      "rom"
     ]
   },
   {
@@ -56,11 +56,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "piracy",
       "rom",
-      "copyright",
-      "torrent",
       "pirate",
-      "piracy"
+      "copyright",
+      "torrent"
     ]
   },
   {
@@ -71,23 +71,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "torrent",
+      "piracy",
+      "pirate",
       "intellectual property",
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Filmmakers and ISP WOW! Settle Piracy Liability Lawsuit Before Trial",
-    "link": "https://torrentfreak.com/court-holds-new-york-iptv-box-seller-liable-millions-of-damages-at-stake/",
-    "description": "An electronics store in Queens that sold pirate IPTV boxes for years, despite receiving six cease-and-desist letters from DISH, has been found liable by a New York federal court. The reseller blamed his supplier in court, but that defense did not convince the judge. As a result, the small brick-and-",
-    "date": "Tue, 09 Jun 2026 08:30:01 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "rom",
-      "pirate",
-      "piracy"
+      "torrent"
     ]
   },
   {
@@ -98,8 +85,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -110,8 +97,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
+    ]
+  },
+  {
+    "title": "Sports Rightsholders Want an EU Blacklist for &#8216;Piracy&#8217; Hosting Providers",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Thu, 02 Jul 2026 06:26:51 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -122,8 +121,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -134,8 +133,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -146,8 +145,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -158,8 +157,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -182,8 +181,19 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
+    ]
+  },
+  {
+    "title": "Kim Dotcom Loses Court of Appeal Bid to Block Extradition to the U.S.",
+    "link": "https://torrentfreak.com/sports-rightsholders-want-an-eu-blacklist-for-piracy-hosting-providers/",
+    "description": "Sports broadcaster beIN and the Audiovisual Anti-Piracy Alliance propose to expand the European blocking efforts with a blacklist of rogue hosting companies. These companies can then be banned by their ASN, covering a series of IP-address blocks. By implementing the blocking measures across various ",
+    "date": "Wed, 01 Jul 2026 08:57:34 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "piracy"
     ]
   },
   {
@@ -242,9 +252,31 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Xbox ends deal to fund and publish IO Interactive's Project Fantasy; redundancies expected",
+    "title": "Kepler Interactive acquires stake in indie publisher Oro Interactive from venture capital firm",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Thu, 02 Jul 2026 08:53:14 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Sony to discontinue physical discs for new games launching on PS consoles from January 2028",
+    "link": "https://www.gamesindustry.biz/i-get-very-excited-about-trying-to-invent-something-new-assassins-creed-composer-jesper-kyd-reflects-on-his-three-decade-career",
+    "description": "Even if you don't know the name Jesper Kyd, it's more than likely you've heard his music. The Danish composer and sound designer has worked on the soundtracks to dozens of games over the past three decades, including huge franchises like Borderlands, State of Decay, and Assassin's Creed. Indeed, the",
+    "date": "Wed, 01 Jul 2026 13:48:56 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Xbox ends deal to fund and publish IO Interactive's Project Fantasy; redundancies expected",
+    "link": "https://www.gamesindustry.biz/uk-workers-request-voluntary-union-recognition-at-rockstar",
+    "description": "Rockstar employees in the UK have  requested voluntary union recognition from the developer to address pay transparency, flexible working, and overtime. Read more",
     "date": "Wed, 01 Jul 2026 09:00:11 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -268,39 +300,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/slitherine-acquires-warhammer-blood-bowl-licence-from-troubled-french-publisher-nacon",
     "description": "Wargame and strategy specialist Slitherine Software has acquired the licence, publishing rights and back catalogue for the Warhammer-derived Blood Bowl franchise from Nacon, following the latter's filing for insolvency. As part of the deal, Slitherine will publish the upcoming Warhammer Blood Bowl. ",
     "date": "Wed, 01 Jul 2026 08:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "\"I literally built an investment firm that wouldn't have funded my own pitch\" – Why the money isn't reaching the games that need it",
-    "link": "https://www.gamesindustry.biz/playstation-once-again-pulls-purchased-studio-canal-content-from-user-libraries-because-of-licensing-arrangements",
-    "description": "Sony PlayStation has written to players informing them that previously purchased StudioCanal movies will be pulled from libraries from September 1. Read more",
-    "date": "Mon, 29 Jun 2026 14:06:43 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Italy's 34BigThings spins out from Embracer Group",
-    "link": "https://www.gamesindustry.biz/five-things-to-avoid-when-marketing-your-indie-game-opinion",
-    "description": "Axel F&auml;lth and Linn Stjernl&ouml;f of Mi5 Communications share over two decades of experience within PR and marketing in the tech and games industry, and have worked with clients including Raw Fury, Ubisoft, Sega, Low Drag Labs, IO Interactive, Bethesda, and Krufs Productions.  Read more",
-    "date": "Fri, 26 Jun 2026 09:14:52 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "\"Mission Impossible is high on my list\" – how Paramount plans to use co-dev to exploit its archive, while building its own all-new IP",
-    "link": "https://www.gamesindustry.biz/microsoft-significantly-increases-xbox-prices-worldwide-and-withdraws-2tb-model-citing-components-crisis",
-    "description": "Microsoft has announced that it is increasing the price of Xbox worldwide from August 2, blaming increased costs for console storage and memory. The 512 GB models will increase by $100 and the 1TB model will increase by $150; the 2TB variant will be withdrawn. The company did not immediately confirm",
-    "date": "Thu, 25 Jun 2026 17:46:38 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -341,19 +340,19 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Ubisoft Barcelona staff go on strike over 51 staff being laid off",
-    "link": "https://www.gamesindustry.biz/rokky-launches-unofficial-steam-tool-for-checking-if-bundle-and-press-keys-have-been-used",
-    "description": "Key distribution platform Rokky has debuted a free browser plugin for publishers and developers to monitor if distributed Steam keys have been used. The firm described it as a tool for \"partner reconciliation and sales forecasting\" and \"safe post-bundle verification\". Read more",
-    "date": "Tue, 30 Jun 2026 10:39:48 +0000",
+    "title": "Sony to close down PlayStation Store on PS3 and PS Vita by July 2027",
+    "link": "https://www.gamesindustry.biz/union-raises-concerns-over-gender-pay-gaps-bonus-management-and-crunch-at-rockstar",
+    "description": "Rockstar union members have raised concerns regarding potential gender-based pay gaps, contractual overtime requirements, and the management of bonuses. Read more",
+    "date": "Wed, 01 Jul 2026 21:27:46 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Griffin Gaming Partners invests in TinyBuild",
-    "link": "https://www.gamesindustry.biz/ubisoft-barcelona-staff-go-on-strike-over-51-staff-being-laid-off",
-    "description": "Staff at Ubisoft's Barcelona studio are going on strike over proposed layoffs that could see 51 workers lose their jobs. Read more",
-    "date": "Tue, 30 Jun 2026 09:42:27 +0000",
+    "title": "Godot bans \"autonomous AI agent use or vibe coded\" contributions",
+    "link": "https://www.gamesindustry.biz/sony-to-close-down-ps3-and-ps-vita-online-store-globally-by-july-2027",
+    "description": "Sony is closing the PlayStation Store on PS3 and PS Vita. Read more",
+    "date": "Wed, 01 Jul 2026 20:59:41 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
