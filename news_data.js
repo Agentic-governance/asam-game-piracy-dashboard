@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-02 09:26 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-03 09:30 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-02T09:26:42.088780",
+  fetched_at: "2026-07-03T09:30:28.557970",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
+      "dmca",
       "piracy",
-      "rom",
       "takedown",
-      "pirate",
       "intellectual property",
-      "dmca"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -27,11 +27,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "piracy",
-      "rom",
-      "pirate",
+      "dmca",
       "torrent",
-      "dmca"
+      "piracy",
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -44,8 +44,8 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy",
       "pirate",
-      "dmca",
-      "rom"
+      "rom",
+      "dmca"
     ]
   },
   {
@@ -56,11 +56,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
-      "rom",
-      "pirate",
       "copyright",
-      "torrent"
+      "torrent",
+      "piracy",
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -71,9 +71,22 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
+      "intellectual property",
       "piracy",
       "pirate",
-      "intellectual property",
+      "torrent"
+    ]
+  },
+  {
+    "title": "Sports Rightsholders Want an EU Blacklist for &#8216;Piracy&#8217; Hosting Providers",
+    "link": "https://torrentfreak.com/french-police-dismantle-operation-behind-the-already-defunct-yggtorrent/",
+    "description": "France's Gendarmerie nationale announced that it dismantled the organization behind YggTorrent, France's largest torrent site. Twelve people have been arrested on charges including money laundering. The site itself, however, was already destroyed months ago by a hacker who leaked its data and draine",
+    "date": "Thu, 02 Jul 2026 06:26:51 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "piracy",
+      "arrested",
       "torrent"
     ]
   },
@@ -99,18 +112,6 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy",
       "pirate"
-    ]
-  },
-  {
-    "title": "Sports Rightsholders Want an EU Blacklist for &#8216;Piracy&#8217; Hosting Providers",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Thu, 02 Jul 2026 06:26:51 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "piracy",
-      "copyright"
     ]
   },
   {
@@ -159,18 +160,6 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy",
       "torrent"
-    ]
-  },
-  {
-    "title": "PlayStation once again pulls purchased StudioCanal content from user libraries because of \"licensing arrangements\"",
-    "link": "https://www.gamesindustry.biz/ndreams-founder-launches-new-studio-atmospheric-to-create-original-ip-across-games-and-music",
-    "description": "The founder of VR studio nDreams, Patrick O'Luanaigh, has launched a new studio called Atmospheric, described as \"a new independent entertainment company creating original intellectual property across games and music.\" O'Luanaigh stepped down from nDreams in May 2025 after 19 years as CEO, and eight",
-    "date": "Mon, 29 Jun 2026 17:27:27 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "rom",
-      "intellectual property"
     ]
   },
   {
@@ -241,21 +230,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Court Holds New York IPTV Box Seller Liable, Millions of Damages at Stake",
-    "link": "https://torrentfreak.com/tech-industry-warns-of-piracy-blocking-risks-as-fifa-world-cup-kicks-off/",
-    "description": "As the FIFA World Cup kicks off, tech-industry group CCIA Europe warns that piracy-blocking systems built to protect live sports are damaging the open internet. The group, which represents tech giants such as Amazon, Cloudflare, and Google, echoes a recent academic study, which found that Europe's a",
-    "date": "Thu, 11 Jun 2026 06:21:47 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "piracy"
-    ]
-  },
-  {
-    "title": "Kepler Interactive acquires stake in indie publisher Oro Interactive from venture capital firm",
+    "title": "Jobs roundup: July 2026 | Robert Henrysson steps down as Supermassive Games CEO",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 02 Jul 2026 08:53:14 +0000",
+    "date": "Fri, 03 Jul 2026 08:45:04 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -296,17 +274,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Rokky launches unofficial Steam tool for checking if bundle and press keys have been used",
-    "link": "https://www.gamesindustry.biz/slitherine-acquires-warhammer-blood-bowl-licence-from-troubled-french-publisher-nacon",
-    "description": "Wargame and strategy specialist Slitherine Software has acquired the licence, publishing rights and back catalogue for the Warhammer-derived Blood Bowl franchise from Nacon, following the latter's filing for insolvency. As part of the deal, Slitherine will publish the upcoming Warhammer Blood Bowl. ",
-    "date": "Wed, 01 Jul 2026 08:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "SCOTUS Denies Hyatt Petition on Prosecution Laches, Among Other Patent Denials",
     "link": "https://ipwatchdog.com/2026/06/30/high-court-grants-cert-in-apples-challenge-to-ninth-circuit-contempt-ruling-in-app-store-dispute/",
     "description": "The U.S. Supreme Court today granted certiorari in Apple Inc.’s appeal of a civil contempt finding stemming from its App Store dispute with Epic Games, Inc. The case centers on a 2021 injunction issued by the U.S. District Court for the Northern District of California and a subsequent contempt order",
@@ -340,19 +307,49 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Sony to close down PlayStation Store on PS3 and PS Vita by July 2027",
-    "link": "https://www.gamesindustry.biz/union-raises-concerns-over-gender-pay-gaps-bonus-management-and-crunch-at-rockstar",
-    "description": "Rockstar union members have raised concerns regarding potential gender-based pay gaps, contractual overtime requirements, and the management of bonuses. Read more",
-    "date": "Wed, 01 Jul 2026 21:27:46 +0000",
+    "title": "French Police Dismantle Operation Behind the Already Defunct YggTorrent",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Fri, 03 Jul 2026 06:58:19 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 2,
+    "matched_keywords": [
+      "copyright",
+      "torrent"
+    ]
+  },
+  {
+    "title": "Thick as Thieves dev OtherSide Entertainment impacted by further layoffs",
+    "link": "https://www.gamesindustry.biz/jobs-roundup-july-2026-robert-henrysson-steps-down-as-supermassive-games-ceo",
+    "description": "It can be difficult keeping track of the various comings and goings in the games industry, which is why we compile them in semi-regular round-ups. Read more",
+    "date": "Fri, 03 Jul 2026 07:23:59 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Godot bans \"autonomous AI agent use or vibe coded\" contributions",
-    "link": "https://www.gamesindustry.biz/sony-to-close-down-ps3-and-ps-vita-online-store-globally-by-july-2027",
-    "description": "Sony is closing the PlayStation Store on PS3 and PS Vita. Read more",
-    "date": "Wed, 01 Jul 2026 20:59:41 +0000",
+    "title": "Save the date: the GamesIndustry.biz HR Summit returns in October",
+    "link": "https://www.gamesindustry.biz/thick-as-thieves-dev-otherside-entertainment-impacted-by-further-layoffs",
+    "description": "OtherSide Entertainment has implemented another round of layoffs, impacting 18 employees on its Thick as Thieves team. Read more",
+    "date": "Thu, 02 Jul 2026 13:43:31 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"The goal isn't to build something that burns brightly for a few years and disappears\" – Cosmic Division CEO on launching a \"responsibly ambitious\" studio",
+    "link": "https://www.gamesindustry.biz/save-the-date-the-gamesindustrybiz-hr-summit-returns-in-october",
+    "description": "The GamesIndustry.biz HR Summit will return for its fourth year, held once again at the Royal Institution in London. The event will take place throughout the day of Thursday October 1, and will be followed by the Best Places To Work Awards. Early Bird tickets for the Summit are on sale now, priced a",
+    "date": "Thu, 02 Jul 2026 13:33:27 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Creator-distributed discount codes drive massive uptake of game storefronts, according to new Tebex data",
+    "link": "https://www.gamesindustry.biz/the-goal-isnt-to-build-something-that-burns-brightly-for-a-few-years-and-disappears-cosmic-division-ceo-on-launching-a-responsibly-ambitious-studio",
+    "description": "In May, former Housemarque game director Harry Krueger launched Cosmic Division, a new indie studio based in downtown Helsinki. Krueger was previously game director at Housemarque, where he worked on titles including Nex Machina, Returnal, and Saros. Read more",
+    "date": "Thu, 02 Jul 2026 13:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
