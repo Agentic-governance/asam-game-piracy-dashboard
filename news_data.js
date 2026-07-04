@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-03 09:30 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-04 08:47 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-03T09:30:28.557970",
+  fetched_at: "2026-07-04T08:47:15.318464",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
-      "dmca",
-      "piracy",
-      "takedown",
+      "rom",
       "intellectual property",
       "pirate",
-      "rom"
+      "takedown",
+      "piracy",
+      "dmca"
     ]
   },
   {
@@ -27,11 +27,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "dmca",
-      "torrent",
-      "piracy",
+      "rom",
       "pirate",
-      "rom"
+      "piracy",
+      "dmca",
+      "torrent"
     ]
   },
   {
@@ -42,10 +42,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "piracy",
       "pirate",
+      "dmca",
       "rom",
-      "dmca"
+      "piracy"
     ]
   },
   {
@@ -56,11 +56,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
-      "torrent",
-      "piracy",
+      "rom",
       "pirate",
-      "rom"
+      "piracy",
+      "copyright",
+      "torrent"
     ]
   },
   {
@@ -71,9 +71,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
+      "pirate",
       "intellectual property",
       "piracy",
-      "pirate",
       "torrent"
     ]
   },
@@ -85,8 +85,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "arrested",
+      "piracy",
       "torrent"
     ]
   },
@@ -98,8 +98,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -110,8 +110,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -134,8 +134,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -146,8 +146,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -230,9 +230,20 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Jobs roundup: July 2026 | Robert Henrysson steps down as Supermassive Games CEO",
+    "title": "What kind of PS6 could justify a $1,000 price tag? | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Fri, 03 Jul 2026 15:19:54 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Jobs roundup: July 2026 | Robert Henrysson steps down as Supermassive Games CEO",
+    "link": "https://www.gamesindustry.biz/we-are-profoundly-disappointed-by-sonys-decision-game-companies-express-dismay-at-the-end-of-playstation-disc-production",
+    "description": "Earlier this week, Sony announced plans  to discontinue production of physical discs for new PlayStation games launching from January 2028. Read more",
     "date": "Fri, 03 Jul 2026 08:45:04 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -246,39 +257,6 @@ const ARIA_NEWS = {
     "description": "Even if you don't know the name Jesper Kyd, it's more than likely you've heard his music. The Danish composer and sound designer has worked on the soundtracks to dozens of games over the past three decades, including huge franchises like Borderlands, State of Decay, and Assassin's Creed. Indeed, the",
     "date": "Wed, 01 Jul 2026 13:48:56 +0000",
     "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Xbox ends deal to fund and publish IO Interactive's Project Fantasy; redundancies expected",
-    "link": "https://www.gamesindustry.biz/uk-workers-request-voluntary-union-recognition-at-rockstar",
-    "description": "Rockstar employees in the UK have  requested voluntary union recognition from the developer to address pay transparency, flexible working, and overtime. Read more",
-    "date": "Wed, 01 Jul 2026 09:00:11 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Slitherine acquires Warhammer Blood Bowl licence from troubled French publisher Nacon",
-    "link": "https://www.gamesindustry.biz/xbox-ends-deal-to-fund-and-publish-io-interactives-project-fantasy-redundancies-expected",
-    "description": "Xbox has exited a deal to fund and publish IO Interactive's online fantasy RPG, codenamed Project Fantasy, a move that may lead to job losses. Read more",
-    "date": "Wed, 01 Jul 2026 08:30:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "SCOTUS Denies Hyatt Petition on Prosecution Laches, Among Other Patent Denials",
-    "link": "https://ipwatchdog.com/2026/06/30/high-court-grants-cert-in-apples-challenge-to-ninth-circuit-contempt-ruling-in-app-store-dispute/",
-    "description": "The U.S. Supreme Court today granted certiorari in Apple Inc.’s appeal of a civil contempt finding stemming from its App Store dispute with Epic Games, Inc. The case centers on a 2021 injunction issued by the U.S. District Court for the Northern District of California and a subsequent contempt order",
-    "date": "Mon, 29 Jun 2026 18:15:18 +0000",
-    "source": "IPWatchdog",
     "relevance_score": 3,
     "matched_keywords": [
       "rom"
@@ -319,6 +297,33 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Where did all the UK game events go?",
+    "link": "https://www.gamesindustry.biz/what-kind-of-ps6-could-justify-a-1000-price-tag-opinion",
+    "description": "The death of consoles has been predicted with atomic clock levels of regularity for at least the past quarter century. Each new wave of consumer hardware with the capacity &ndash; real or hypothetical &ndash; to play games has been heralded as the final nail in the coffin. Some of those, like home P",
+    "date": "Fri, 03 Jul 2026 13:35:07 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "New studio //18.bravo is aiming for a \"radically different approach\" to game development",
+    "link": "https://www.gamesindustry.biz/where-did-all-the-uk-game-events-go",
+    "description": "A recurring question in the UK games scene is why such a significant territory can't sustain its own major consumer event, in the style of the USA's PAX, Frances's Paris Games Week or Germany's Gamescom. The country's largest video game consumer show, EGX, paused during COVID before being merged int",
+    "date": "Fri, 03 Jul 2026 13:34:54 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"We are profoundly disappointed by Sony's decision\" – Game companies express dismay at the end of PlayStation disc production",
+    "link": "https://www.gamesindustry.biz/industry-veteran-robert-bowling-launches-new-developer-18bravo",
+    "description": "Robert Bowling, former creative strategist at Infinity Ward, has launched a new Los Angeles-based studio called //18.bravo. Read more",
+    "date": "Fri, 03 Jul 2026 12:22:42 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Thick as Thieves dev OtherSide Entertainment impacted by further layoffs",
     "link": "https://www.gamesindustry.biz/jobs-roundup-july-2026-robert-henrysson-steps-down-as-supermassive-games-ceo",
     "description": "It can be difficult keeping track of the various comings and goings in the games industry, which is why we compile them in semi-regular round-ups. Read more",
@@ -341,15 +346,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/save-the-date-the-gamesindustrybiz-hr-summit-returns-in-october",
     "description": "The GamesIndustry.biz HR Summit will return for its fourth year, held once again at the Royal Institution in London. The event will take place throughout the day of Thursday October 1, and will be followed by the Best Places To Work Awards. Early Bird tickets for the Summit are on sale now, priced a",
     "date": "Thu, 02 Jul 2026 13:33:27 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Creator-distributed discount codes drive massive uptake of game storefronts, according to new Tebex data",
-    "link": "https://www.gamesindustry.biz/the-goal-isnt-to-build-something-that-burns-brightly-for-a-few-years-and-disappears-cosmic-division-ceo-on-launching-a-responsibly-ambitious-studio",
-    "description": "In May, former Housemarque game director Harry Krueger launched Cosmic Division, a new indie studio based in downtown Helsinki. Krueger was previously game director at Housemarque, where he worked on titles including Nex Machina, Returnal, and Saros. Read more",
-    "date": "Thu, 02 Jul 2026 13:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
