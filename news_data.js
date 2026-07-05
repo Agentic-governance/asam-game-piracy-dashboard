@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-04 08:47 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-05 09:17 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-04T08:47:15.318464",
+  fetched_at: "2026-07-05T09:17:50.058889",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
-      "rom",
-      "intellectual property",
-      "pirate",
+      "dmca",
       "takedown",
       "piracy",
-      "dmca"
+      "rom",
+      "intellectual property",
+      "pirate"
     ]
   },
   {
@@ -27,11 +27,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "rom",
-      "pirate",
-      "piracy",
+      "torrent",
       "dmca",
-      "torrent"
+      "piracy",
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -42,10 +42,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "pirate",
       "dmca",
-      "rom",
-      "piracy"
+      "pirate",
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -56,11 +56,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "torrent",
+      "piracy",
       "rom",
       "pirate",
-      "piracy",
-      "copyright",
-      "torrent"
+      "copyright"
     ]
   },
   {
@@ -71,10 +71,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
+      "torrent",
       "intellectual property",
-      "piracy",
-      "torrent"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -85,9 +85,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "torrent",
       "arrested",
-      "piracy",
-      "torrent"
+      "piracy"
     ]
   },
   {
@@ -103,18 +103,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Tech Industry Warns of Piracy Blocking Risks as FIFA World Cup Kicks Off",
-    "link": "https://torrentfreak.com/hollywood-secures-9-million-default-judgment-against-iptv-operator/",
-    "description": "A Pennsylvania federal court has handed down a $9 million default judgment against the operator of pirate IPTV services 'Shrugs' and 'Zing'. Major Hollywood studios, Amazon, and Netflix sued the defendant last year, but he failed to appear in court despite being personally served. In addition to the",
-    "date": "Thu, 11 Jun 2026 20:42:41 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
     "title": "EU-Backed DNS Resolver Collects Pirate Site Blocklist, Which It Doesn&#8217;t Use",
     "link": "https://torrentfreak.com/feds-seize-domain-names-of-nearly-400-pirate-sports-streaming-sites/",
     "description": "The U.S. Department of Justice announced the seizure of nearly 400 pirate streaming domain names that offered access to FIFA World Cup matches. This enforcement action, dubbed \"Operation Offsides\", targets popular brands including \"rojadirecta\", \"koora\", and \"futbollibre\". TorrentFreak tracked down ",
@@ -122,8 +110,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -134,8 +122,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -146,8 +134,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -158,8 +146,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -263,6 +251,17 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "SCOTUS Denies Hyatt Petition on Prosecution Laches, Among Other Patent Denials",
+    "link": "https://ipwatchdog.com/2026/06/30/high-court-grants-cert-in-apples-challenge-to-ninth-circuit-contempt-ruling-in-app-store-dispute/",
+    "description": "The U.S. Supreme Court today granted certiorari in Apple Inc.’s appeal of a civil contempt finding stemming from its App Store dispute with Epic Games, Inc. The case centers on a 2021 injunction issued by the U.S. District Court for the Northern District of California and a subsequent contempt order",
+    "date": "Mon, 29 Jun 2026 18:15:18 +0000",
+    "source": "IPWatchdog",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
     "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
     "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
     "description": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecu",
@@ -286,14 +285,14 @@ const ARIA_NEWS = {
   },
   {
     "title": "French Police Dismantle Operation Behind the Already Defunct YggTorrent",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/researchers-create-self-replicating-seedbox-in-quest-for-decentralized-democracy/",
+    "description": "Researchers from Delft University of Technology have spent more than two decades building their decentralized BitTorrent client Tribler. The software is designed to be impossible to shut down and the project itself is also going strong, as it recently secured funding up until 2032. New research focu",
     "date": "Fri, 03 Jul 2026 06:58:19 +0000",
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "copyright",
-      "torrent"
+      "torrent",
+      "rom"
     ]
   },
   {
