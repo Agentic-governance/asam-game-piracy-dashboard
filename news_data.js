@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-05 09:17 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-06 10:54 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-05T09:17:50.058889",
+  fetched_at: "2026-07-06T10:54:00.074030",
   item_count: 30,
   items: [
   {
@@ -12,11 +12,11 @@ const ARIA_NEWS = {
     "relevance_score": 14,
     "matched_keywords": [
       "dmca",
-      "takedown",
+      "pirate",
       "piracy",
       "rom",
-      "intellectual property",
-      "pirate"
+      "takedown",
+      "intellectual property"
     ]
   },
   {
@@ -27,11 +27,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "torrent",
       "dmca",
+      "pirate",
       "piracy",
       "rom",
-      "pirate"
+      "torrent"
     ]
   },
   {
@@ -56,10 +56,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
+      "pirate",
       "piracy",
       "rom",
-      "pirate",
+      "torrent",
       "copyright"
     ]
   },
@@ -71,9 +71,35 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
+      "pirate",
       "torrent",
       "intellectual property",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Alleged Operators of HiAnime Piracy Ring Arrested in Vietnam with U.S. Support",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Mon, 06 Jul 2026 08:23:50 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "copyright",
+      "piracy",
+      "arrested"
+    ]
+  },
+  {
+    "title": "Researchers Create Self-Replicating Seedbox in Quest for Decentralized Democracy",
+    "link": "https://torrentfreak.com/alleged-operators-of-hianime-piracy-ring-arrested-in-vietnam-with-u-s-support/",
+    "description": "Supported by U.S. intelligence, Vietnamese authorities have dismantled a massive network of over 100 pirate sites. Seven suspects have been charged with running a mass copyright infringement operation that included the now-defunct piracy giant HiAnime.to, allegedly earning $12.8 million in advertisi",
+    "date": "Sun, 05 Jul 2026 08:33:00 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
       "pirate",
+      "copyright",
       "piracy"
     ]
   },
@@ -86,8 +112,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "torrent",
-      "arrested",
-      "piracy"
+      "piracy",
+      "arrested"
     ]
   },
   {
@@ -110,8 +136,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -158,8 +184,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
     ]
   },
   {
@@ -207,21 +233,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Hollywood Secures $9 Million Default Judgment Against IPTV Operator",
-    "link": "https://torrentfreak.com/married-couple-behind-billion-visit-webtoon-piracy-network-caught-in-vietnam/",
-    "description": "For more than two years, a husband and wife in Vietnam allegedly ran a billion-visit-a-year operation serving Korean webtoons in unauthorized English translation. The network, believed to be Harimanga, Manhwaclan and Kunmanga, has gone dark, its servers seized and the pair hauled in for questioning ",
-    "date": "Fri, 12 Jun 2026 11:56:41 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "seized"
-    ]
-  },
-  {
-    "title": "What kind of PS6 could justify a $1,000 price tag? | Opinion",
+    "title": "Union launches hardship fund for laid off developers",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 03 Jul 2026 15:19:54 +0000",
+    "date": "Mon, 06 Jul 2026 09:46:40 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -233,17 +248,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/we-are-profoundly-disappointed-by-sonys-decision-game-companies-express-dismay-at-the-end-of-playstation-disc-production",
     "description": "Earlier this week, Sony announced plans  to discontinue production of physical discs for new PlayStation games launching from January 2028. Read more",
     "date": "Fri, 03 Jul 2026 08:45:04 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Sony to discontinue physical discs for new games launching on PS consoles from January 2028",
-    "link": "https://www.gamesindustry.biz/i-get-very-excited-about-trying-to-invent-something-new-assassins-creed-composer-jesper-kyd-reflects-on-his-three-decade-career",
-    "description": "Even if you don't know the name Jesper Kyd, it's more than likely you've heard his music. The Danish composer and sound designer has worked on the soundtracks to dozens of games over the past three decades, including huge franchises like Borderlands, State of Decay, and Assassin's Creed. Indeed, the",
-    "date": "Wed, 01 Jul 2026 13:48:56 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -296,6 +300,24 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Sony clarifies re-order support for existing PlayStation discs",
+    "link": "https://www.gamesindustry.biz/union-launches-hardship-fund-for-laid-off-developers",
+    "description": "The United Videogame Workers union (UVW-CWA) has  created a hardship fund for industry workers affected by layoffs in the United States and Canada. Read more",
+    "date": "Mon, 06 Jul 2026 07:48:10 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "What kind of PS6 could justify a $1,000 price tag? | Opinion",
+    "link": "https://www.gamesindustry.biz/sony-clarifies-re-order-support-for-existing-playstation-discs",
+    "description": "Sony has clarified to developers and publishers that they will be able to re-order existing PlayStation discs beyond the January 2028 end-of-production date. Read more",
+    "date": "Fri, 03 Jul 2026 15:19:54 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Where did all the UK game events go?",
     "link": "https://www.gamesindustry.biz/what-kind-of-ps6-could-justify-a-1000-price-tag-opinion",
     "description": "The death of consoles has been predicted with atomic clock levels of regularity for at least the past quarter century. Each new wave of consumer hardware with the capacity &ndash; real or hypothetical &ndash; to play games has been heralded as the final nail in the coffin. Some of those, like home P",
@@ -307,7 +329,7 @@ const ARIA_NEWS = {
   {
     "title": "New studio //18.bravo is aiming for a \"radically different approach\" to game development",
     "link": "https://www.gamesindustry.biz/where-did-all-the-uk-game-events-go",
-    "description": "A recurring question in the UK games scene is why such a significant territory can't sustain its own major consumer event, in the style of the USA's PAX, Frances's Paris Games Week or Germany's Gamescom. The country's largest video game consumer show, EGX, paused during COVID before being merged int",
+    "description": "A recurring question in the UK games scene is why such a significant territory can't sustain its own major consumer event, in the style of the USA's PAX, France's Paris Games Week or Germany's Gamescom. The country's largest video game consumer show, EGX, paused during COVID before being merged into",
     "date": "Fri, 03 Jul 2026 13:34:54 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
@@ -327,24 +349,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/jobs-roundup-july-2026-robert-henrysson-steps-down-as-supermassive-games-ceo",
     "description": "It can be difficult keeping track of the various comings and goings in the games industry, which is why we compile them in semi-regular round-ups. Read more",
     "date": "Fri, 03 Jul 2026 07:23:59 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Save the date: the GamesIndustry.biz HR Summit returns in October",
-    "link": "https://www.gamesindustry.biz/thick-as-thieves-dev-otherside-entertainment-impacted-by-further-layoffs",
-    "description": "OtherSide Entertainment has implemented another round of layoffs, impacting 18 employees on its Thick as Thieves team. Read more",
-    "date": "Thu, 02 Jul 2026 13:43:31 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"The goal isn't to build something that burns brightly for a few years and disappears\" – Cosmic Division CEO on launching a \"responsibly ambitious\" studio",
-    "link": "https://www.gamesindustry.biz/save-the-date-the-gamesindustrybiz-hr-summit-returns-in-october",
-    "description": "The GamesIndustry.biz HR Summit will return for its fourth year, held once again at the Royal Institution in London. The event will take place throughout the day of Thursday October 1, and will be followed by the Best Places To Work Awards. Early Bird tickets for the Summit are on sale now, priced a",
-    "date": "Thu, 02 Jul 2026 13:33:27 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
