@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-06 10:54 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-07 09:55 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-06T10:54:00.074030",
+  fetched_at: "2026-07-07T09:55:43.247502",
   item_count: 30,
   items: [
   {
@@ -12,11 +12,11 @@ const ARIA_NEWS = {
     "relevance_score": 14,
     "matched_keywords": [
       "dmca",
-      "pirate",
-      "piracy",
+      "intellectual property",
       "rom",
       "takedown",
-      "intellectual property"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -28,10 +28,10 @@ const ARIA_NEWS = {
     "relevance_score": 11,
     "matched_keywords": [
       "dmca",
-      "pirate",
-      "piracy",
+      "torrent",
       "rom",
-      "torrent"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -43,24 +43,37 @@ const ARIA_NEWS = {
     "relevance_score": 10,
     "matched_keywords": [
       "dmca",
-      "pirate",
+      "rom",
       "piracy",
-      "rom"
+      "pirate"
+    ]
+  },
+  {
+    "title": "Alleged Operators of HiAnime Piracy Ring Arrested in Vietnam with U.S. Support",
+    "link": "https://torrentfreak.com/tonga-suspends-popular-pirate-site-domains-following-indian-court-order/",
+    "description": "For years, Tonga's .to domain names have been a popular choice for pirate sites, but that may very well change. Following a restructuring of the domain name operation, the Government of the Kingdom of Tonga appears to have suspended several domains, including the popular German streaming portals S.t",
+    "date": "Mon, 06 Jul 2026 08:23:50 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 9,
+    "matched_keywords": [
+      "arrested",
+      "piracy",
+      "pirate"
     ]
   },
   {
     "title": "Feds Seize Domain Names of Nearly 400 Pirate Sports Streaming Sites (Update)",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Masters of the Universe' tops the chart, followed by 'Obsession.' 'Michael' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Obsession' tops the chart, followed by 'Masters of the Universe.' 'Citizen Vigilante' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
     "date": "Sat, 27 Jun 2026 13:45:38 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
-      "piracy",
-      "rom",
+      "copyright",
       "torrent",
-      "copyright"
+      "rom",
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -71,23 +84,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
-      "torrent",
       "intellectual property",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Alleged Operators of HiAnime Piracy Ring Arrested in Vietnam with U.S. Support",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Mon, 06 Jul 2026 08:23:50 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "copyright",
       "piracy",
-      "arrested"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -98,9 +98,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "copyright",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -111,9 +111,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
+      "arrested",
       "piracy",
-      "arrested"
+      "torrent"
     ]
   },
   {
@@ -124,8 +124,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
+    ]
+  },
+  {
+    "title": "&#8216;Tonga&#8217; Suspends Popular Pirate Site Domains Following Indian Court Order",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Tue, 07 Jul 2026 08:30:01 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -136,8 +148,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -148,8 +160,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -160,19 +172,7 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
-    ]
-  },
-  {
-    "title": "Married Couple Behind &#8216;Billion-Visit&#8217; Webtoon Piracy Network Caught in Vietnam",
-    "link": "https://torrentfreak.com/meta-must-face-adult-film-piracy-lawsuit-as-court-denies-dismissal/",
-    "description": "To keep their piracy lawsuit alive, adult film producers Strike 3 Holdings and Counterlife Media don't have to prove Meta used their films for AI training. A California federal judge has denied Meta's motion to dismiss, ruling that the alleged torrenting is itself the infringement. Additionally, the",
-    "date": "Sat, 13 Jun 2026 07:58:00 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "torrent",
+      "rom",
       "piracy"
     ]
   },
@@ -200,7 +200,7 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 06/29/2026",
+    "title": "Top 10 Most Pirated Movies of The Week – 07/06/2026",
     "link": "https://torrentfreak.com/european-isps-want-rightsholders-held-accountable-for-overblocking-damage/",
     "description": "For years, rightsholders have pushed for broader site blocking orders, with no direct liability if these result in overblocking. EuroISPA, which represents over 3,300 European internet service providers, is now asking the EU Commission to change that. The association points to a series of overblocki",
     "date": "Sun, 28 Jun 2026 23:09:40 +0000",
@@ -233,10 +233,54 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Union launches hardship fund for laid off developers",
+    "title": "Original Switch console lineup to be discontinued in Europe by mid-February 2027",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 06 Jul 2026 09:46:40 +0000",
+    "date": "Tue, 07 Jul 2026 07:59:59 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Sony leadership says AI tools are \"an important foundational technology supporting our strategy\"",
+    "link": "https://www.gamesindustry.biz/original-switch-console-lineup-to-be-discontinued-in-europe-by-mid-february-2027",
+    "description": "Nintendo will  discontinue sales of the original Switch lineup in Europe from mid-February 2027, as required by  EU legislation on accessible consumer hardware batteries. Read more",
+    "date": "Tue, 07 Jul 2026 06:41:04 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Compulsion Games and Double Fine confirm \"Independence Day\" from Xbox",
+    "link": "https://www.gamesindustry.biz/sony-leadership-says-ai-tools-are-an-important-foundational-technology-supporting-our-strategy",
+    "description": "Sony says implementing AI tools in development is \"enhancing\" their work \"by removing repetitive tasks and enabling faster iteration.\" Read more",
+    "date": "Mon, 06 Jul 2026 21:42:55 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Epic Games settles lawsuit against former contractor accused of leaking unannounced Fortnite collaborations",
+    "link": "https://www.gamesindustry.biz/compulsion-games-and-double-fine-confirm-independence-day-from-xbox",
+    "description": "Compulsion Games and Double Fine &ndash; two formerly Xbox-owned developers now spun out from the Xbox family of studios as Microsoft enacts a deep round of cuts and divestitures &ndash; have released statements about the changes. Read more",
+    "date": "Mon, 06 Jul 2026 21:15:27 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Interview: While GDC falters, Gamescom goes from strength to strength",
+    "link": "https://www.gamesindustry.biz/xbox-to-reduce-workforce-by-3200-five-studios-to-be-divested",
+    "description": "Xbox has announced sweeping cuts as part of its previously announced reset. 3,200 staff are to be laid off - 20% of the Xbox organisation - with 1,600 roles being eliminated today, according to an internal email from Xbox CEO Asha Sharma that was also posted to X.  Read more",
+    "date": "Mon, 06 Jul 2026 13:30:14 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -249,17 +293,6 @@ const ARIA_NEWS = {
     "description": "Earlier this week, Sony announced plans  to discontinue production of physical discs for new PlayStation games launching from January 2028. Read more",
     "date": "Fri, 03 Jul 2026 08:45:04 +0000",
     "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "SCOTUS Denies Hyatt Petition on Prosecution Laches, Among Other Patent Denials",
-    "link": "https://ipwatchdog.com/2026/06/30/high-court-grants-cert-in-apples-challenge-to-ninth-circuit-contempt-ruling-in-app-store-dispute/",
-    "description": "The U.S. Supreme Court today granted certiorari in Apple Inc.’s appeal of a civil contempt finding stemming from its App Store dispute with Epic Games, Inc. The case centers on a 2021 injunction issued by the U.S. District Court for the Northern District of California and a subsequent contempt order",
-    "date": "Mon, 29 Jun 2026 18:15:18 +0000",
-    "source": "IPWatchdog",
     "relevance_score": 3,
     "matched_keywords": [
       "rom"
@@ -295,60 +328,33 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "torrent",
-      "rom"
+      "rom",
+      "torrent"
     ]
   },
   {
-    "title": "Sony clarifies re-order support for existing PlayStation discs",
-    "link": "https://www.gamesindustry.biz/union-launches-hardship-fund-for-laid-off-developers",
-    "description": "The United Videogame Workers union (UVW-CWA) has  created a hardship fund for industry workers affected by layoffs in the United States and Canada. Read more",
-    "date": "Mon, 06 Jul 2026 07:48:10 +0000",
+    "title": "Xbox layoffs: jobs lost at Obsidian, Bethesda, Id and Zenimax Online Studios",
+    "link": "https://www.gamesindustry.biz/epic-games-settles-lawsuit-against-former-contractor-accused-of-leaking-unannounced-fortnite-collaborations",
+    "description": "Epic Games has settled a legal case against a former contractor accused of leaking confidential information about Fortnite's then unannounced collaborations with IPs like Minecraft, Ben 10, and Game of Thrones. Read more",
+    "date": "Mon, 06 Jul 2026 16:45:32 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "What kind of PS6 could justify a $1,000 price tag? | Opinion",
-    "link": "https://www.gamesindustry.biz/sony-clarifies-re-order-support-for-existing-playstation-discs",
-    "description": "Sony has clarified to developers and publishers that they will be able to re-order existing PlayStation discs beyond the January 2028 end-of-production date. Read more",
-    "date": "Fri, 03 Jul 2026 15:19:54 +0000",
+    "title": "Xbox announces plans to lay off 3,200 staff and divest five studios",
+    "link": "https://www.gamesindustry.biz/xbox-layoffs-july-2026",
+    "description": "Update July 6, 10pm UK: Posts on BlueSky and Linkedin indicated layoffs taking place at Obsidian, developer of The Outer Worlds and Pentiment. Those impacted include Daniel Alpert, an Art Director who'd been with the company for 21 years, and writer AK Fedeau. Read more",
+    "date": "Mon, 06 Jul 2026 13:53:54 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Where did all the UK game events go?",
-    "link": "https://www.gamesindustry.biz/what-kind-of-ps6-could-justify-a-1000-price-tag-opinion",
-    "description": "The death of consoles has been predicted with atomic clock levels of regularity for at least the past quarter century. Each new wave of consumer hardware with the capacity &ndash; real or hypothetical &ndash; to play games has been heralded as the final nail in the coffin. Some of those, like home P",
-    "date": "Fri, 03 Jul 2026 13:35:07 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "New studio //18.bravo is aiming for a \"radically different approach\" to game development",
-    "link": "https://www.gamesindustry.biz/where-did-all-the-uk-game-events-go",
-    "description": "A recurring question in the UK games scene is why such a significant territory can't sustain its own major consumer event, in the style of the USA's PAX, France's Paris Games Week or Germany's Gamescom. The country's largest video game consumer show, EGX, paused during COVID before being merged into",
-    "date": "Fri, 03 Jul 2026 13:34:54 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"We are profoundly disappointed by Sony's decision\" – Game companies express dismay at the end of PlayStation disc production",
-    "link": "https://www.gamesindustry.biz/industry-veteran-robert-bowling-launches-new-developer-18bravo",
-    "description": "Robert Bowling, former creative strategist at Infinity Ward, has launched a new Los Angeles-based studio called //18.bravo. Read more",
-    "date": "Fri, 03 Jul 2026 12:22:42 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Thick as Thieves dev OtherSide Entertainment impacted by further layoffs",
-    "link": "https://www.gamesindustry.biz/jobs-roundup-july-2026-robert-henrysson-steps-down-as-supermassive-games-ceo",
-    "description": "It can be difficult keeping track of the various comings and goings in the games industry, which is why we compile them in semi-regular round-ups. Read more",
-    "date": "Fri, 03 Jul 2026 07:23:59 +0000",
+    "title": "Union launches hardship fund for laid off developers",
+    "link": "https://www.gamesindustry.biz/interview-while-gdc-falters-gamescom-goes-from-strength-to-strength",
+    "description": "At Gamescom Latam in Brazil earlier this year, GamesIndustry.biz caught up with Tim Endres, director of Gamescom at Koelnmesse, and Stefan Heikhaus, his counterpart at Game, the German Games Industry Association. Read more",
+    "date": "Mon, 06 Jul 2026 09:46:40 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
