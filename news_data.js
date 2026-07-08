@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-07 09:55 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-08 08:39 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-07T09:55:43.247502",
+  fetched_at: "2026-07-08T08:39:57.932982",
   item_count: 30,
   items: [
   {
@@ -12,11 +12,11 @@ const ARIA_NEWS = {
     "relevance_score": 14,
     "matched_keywords": [
       "dmca",
-      "intellectual property",
-      "rom",
-      "takedown",
       "piracy",
-      "pirate"
+      "intellectual property",
+      "pirate",
+      "takedown",
+      "rom"
     ]
   },
   {
@@ -27,11 +27,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "dmca",
       "torrent",
-      "rom",
+      "dmca",
       "piracy",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -42,10 +42,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "dmca",
-      "rom",
+      "pirate",
       "piracy",
-      "pirate"
+      "dmca",
+      "rom"
     ]
   },
   {
@@ -56,24 +56,24 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "arrested",
+      "pirate",
       "piracy",
-      "pirate"
+      "arrested"
     ]
   },
   {
-    "title": "Feds Seize Domain Names of Nearly 400 Pirate Sports Streaming Sites (Update)",
+    "title": "Researchers Create Self-Replicating Seedbox in Quest for Decentralized Democracy",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
     "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Obsession' tops the chart, followed by 'Masters of the Universe.' 'Citizen Vigilante' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sat, 27 Jun 2026 13:45:38 +0000",
+    "date": "Sun, 05 Jul 2026 08:33:00 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
       "copyright",
       "torrent",
-      "rom",
       "piracy",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -84,23 +84,23 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "intellectual property",
-      "piracy",
       "torrent",
-      "pirate"
+      "pirate",
+      "piracy",
+      "intellectual property"
     ]
   },
   {
-    "title": "Researchers Create Self-Replicating Seedbox in Quest for Decentralized Democracy",
+    "title": "Top 10 Most Pirated Movies of The Week – 07/06/2026",
     "link": "https://torrentfreak.com/alleged-operators-of-hianime-piracy-ring-arrested-in-vietnam-with-u-s-support/",
     "description": "Supported by U.S. intelligence, Vietnamese authorities have dismantled a massive network of over 100 pirate sites. Seven suspects have been charged with running a mass copyright infringement operation that included the now-defunct piracy giant HiAnime.to, allegedly earning $12.8 million in advertisi",
-    "date": "Sun, 05 Jul 2026 08:33:00 +0000",
+    "date": "Sun, 05 Jul 2026 23:09:40 +0000",
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
       "copyright",
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -111,9 +111,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "arrested",
+      "torrent",
       "piracy",
-      "torrent"
+      "arrested"
     ]
   },
   {
@@ -124,8 +124,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -200,10 +200,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 07/06/2026",
+    "title": "Feds Seize Domain Names of Nearly 400 Pirate Sports Streaming Sites (Update)",
     "link": "https://torrentfreak.com/european-isps-want-rightsholders-held-accountable-for-overblocking-damage/",
     "description": "For years, rightsholders have pushed for broader site blocking orders, with no direct liability if these result in overblocking. EuroISPA, which represents over 3,300 European internet service providers, is now asking the EU Commission to change that. The association points to a series of overblocki",
-    "date": "Sun, 28 Jun 2026 23:09:40 +0000",
+    "date": "Sat, 27 Jun 2026 13:45:38 +0000",
     "source": "TorrentFreak",
     "relevance_score": 3,
     "matched_keywords": [
@@ -233,10 +233,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Original Switch console lineup to be discontinued in Europe by mid-February 2027",
+    "title": "\"There's a wealth of talent here, our focus is on how to leverage and support it\" – Atari appoints Andreas Deptolla as Atari Europe president",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 07 Jul 2026 07:59:59 +0000",
+    "date": "Wed, 08 Jul 2026 07:48:20 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -288,17 +288,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Jobs roundup: July 2026 | Robert Henrysson steps down as Supermassive Games CEO",
-    "link": "https://www.gamesindustry.biz/we-are-profoundly-disappointed-by-sonys-decision-game-companies-express-dismay-at-the-end-of-playstation-disc-production",
-    "description": "Earlier this week, Sony announced plans  to discontinue production of physical discs for new PlayStation games launching from January 2028. Read more",
-    "date": "Fri, 03 Jul 2026 08:45:04 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
     "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
     "description": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecu",
@@ -328,33 +317,42 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "rom",
-      "torrent"
+      "torrent",
+      "rom"
     ]
   },
   {
-    "title": "Xbox layoffs: jobs lost at Obsidian, Bethesda, Id and Zenimax Online Studios",
-    "link": "https://www.gamesindustry.biz/epic-games-settles-lawsuit-against-former-contractor-accused-of-leaking-unannounced-fortnite-collaborations",
-    "description": "Epic Games has settled a legal case against a former contractor accused of leaking confidential information about Fortnite's then unannounced collaborations with IPs like Minecraft, Ben 10, and Game of Thrones. Read more",
-    "date": "Mon, 06 Jul 2026 16:45:32 +0000",
+    "title": "Xbox retreats again – but to where? | Opinion",
+    "link": "https://www.gamesindustry.biz/theres-a-wealth-of-talent-here-our-focus-is-on-how-to-leverage-and-support-it-atari-appoints-andreas-deptolla-as-atari-europe-president",
+    "description": "Atari has appointed former CTO Andreas Deptolla as president of Atari Europe. Read more",
+    "date": "Tue, 07 Jul 2026 14:07:20 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Xbox announces plans to lay off 3,200 staff and divest five studios",
-    "link": "https://www.gamesindustry.biz/xbox-layoffs-july-2026",
-    "description": "Update July 6, 10pm UK: Posts on BlueSky and Linkedin indicated layoffs taking place at Obsidian, developer of The Outer Worlds and Pentiment. Those impacted include Daniel Alpert, an Art Director who'd been with the company for 21 years, and writer AK Fedeau. Read more",
-    "date": "Mon, 06 Jul 2026 13:53:54 +0000",
+    "title": "IO Interactive to shutter Istanbul studio following end of Project Fantasy deal with Xbox",
+    "link": "https://www.gamesindustry.biz/xbox-retreats-again-but-to-where-opinion",
+    "description": "Last July, when Microsoft made sweeping cuts to its gaming division, axing employees at King, Raven Software, Rare, Blizzard, and more, shuttering The Initiative, and cancelling the Perfect Dark reboot, Everwild, and ZeniMax Online's Project Blackbird, I said it was Microsoft's darkest day since the",
+    "date": "Tue, 07 Jul 2026 14:02:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Union launches hardship fund for laid off developers",
-    "link": "https://www.gamesindustry.biz/interview-while-gdc-falters-gamescom-goes-from-strength-to-strength",
-    "description": "At Gamescom Latam in Brazil earlier this year, GamesIndustry.biz caught up with Tim Endres, director of Gamescom at Koelnmesse, and Stefan Heikhaus, his counterpart at Game, the German Games Industry Association. Read more",
-    "date": "Mon, 06 Jul 2026 09:46:40 +0000",
+    "title": "Xbox Game Pass subscriber count is less than 50% of original target",
+    "link": "https://www.gamesindustry.biz/io-interactive-to-shutter-istanbul-studio-following-end-of-project-fantasy-deal-with-xbox",
+    "description": "IO Interactive will  close its Istanbul studio following the loss of funding for its online fantasy RPG, codenamed Project Fantasy. Read more",
+    "date": "Tue, 07 Jul 2026 13:44:12 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"We simply spread ourselves too thin\" – Xbox's Asha Sharma on firm's restructuring plans",
+    "link": "https://www.gamesindustry.biz/xbox-game-pass-reportedly-boasts-around-30m-subscribers",
+    "description": "Microsoft's Xbox Game Pass subscription service apparently has around 30 million users. Read more",
+    "date": "Tue, 07 Jul 2026 13:14:50 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
