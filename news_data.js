@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-08 08:39 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-09 09:52 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-08T08:39:57.932982",
+  fetched_at: "2026-07-09T09:52:53.816129",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
+      "rom",
       "dmca",
-      "piracy",
-      "intellectual property",
       "pirate",
       "takedown",
-      "rom"
+      "piracy",
+      "intellectual property"
     ]
   },
   {
@@ -27,11 +27,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
+      "rom",
       "torrent",
       "dmca",
-      "piracy",
       "pirate",
-      "rom"
+      "piracy"
     ]
   },
   {
@@ -42,10 +42,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "pirate",
       "piracy",
+      "rom",
       "dmca",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -56,9 +56,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
+      "arrested",
       "piracy",
-      "arrested"
+      "pirate"
     ]
   },
   {
@@ -69,11 +69,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
+      "rom",
       "torrent",
-      "piracy",
       "pirate",
-      "rom"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -84,10 +84,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "torrent",
-      "pirate",
       "piracy",
-      "intellectual property"
+      "torrent",
+      "intellectual property",
+      "pirate"
     ]
   },
   {
@@ -99,8 +99,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "copyright",
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -111,9 +111,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
+      "arrested",
       "piracy",
-      "arrested"
+      "torrent"
     ]
   },
   {
@@ -124,15 +124,15 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
-    "title": "&#8216;Tonga&#8217; Suspends Popular Pirate Site Domains Following Indian Court Order",
+    "title": "Pirate Site Blocking Is Legally Impossible in Bulgaria, Supreme Court Ruled",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 07 Jul 2026 08:30:01 +0000",
+    "date": "Wed, 08 Jul 2026 12:55:47 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
@@ -160,20 +160,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Meta Must Face Adult Film Piracy Lawsuit as Court Denies Dismissal",
-    "link": "https://torrentfreak.com/music-labels-win-canadian-site-blocking-order-against-y2mate-ytmp3-and-savefrom/",
-    "description": "For the first time in Canada, a site-blocking order has been issued that specifically targets YouTube rippers. The Federal Court has ordered major ISPs to block access to Y2Mate, YTMP3, and Savefrom domains. Interestingly, the order targets copycats, as the original Savefrom site preemptively starte",
-    "date": "Mon, 15 Jun 2026 08:10:35 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -184,8 +172,19 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
+    ]
+  },
+  {
+    "title": "&#8216;Tonga&#8217; Suspends Popular Pirate Site Domains Following Indian Court Order",
+    "link": "https://torrentfreak.com/pirate-site-blocking-is-legally-impossible-in-bulgaria-supreme-court-ruled/",
+    "description": "Bulgaria's highest court has ruled that civil site blocking is legally impossible under current national law. Bulgaria failed to properly transpose the EU directives that authorize blocking injunctions. The decision is a major setback for rightsholders, including the association of music producers, ",
+    "date": "Tue, 07 Jul 2026 08:30:01 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "pirate"
     ]
   },
   {
@@ -233,10 +232,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"There's a wealth of talent here, our focus is on how to leverage and support it\" – Atari appoints Andreas Deptolla as Atari Europe president",
+    "title": "Bungie and Sony settle lawsuit with former Marathon director for undisclosed amount",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 08 Jul 2026 07:48:20 +0000",
+    "date": "Thu, 09 Jul 2026 09:11:45 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Nintendo confirms Switch 1 consoles will be withdrawn from Europe following EU law change on batteries",
+    "link": "https://www.gamesindustry.biz/report-obsidian-to-work-on-fallout-title-as-unannounced-projects-cancelled",
+    "description": "Obsidian is reportedly developing a new Fallout game after canceling several unannounced projects. Read more",
+    "date": "Wed, 08 Jul 2026 18:17:11 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Nexon to assume publishing duties for Overwatch on PC in South Korea",
+    "link": "https://www.gamesindustry.biz/workers-deserve-protection-not-to-be-treated-like-disposable-line-items-hundreds-of-union-members-affected-by-xbox-layoffs",
+    "description": "Hundreds of union members from the Communication Workers of America were affected by the  mass layoffs at Xbox this week. Read more",
+    "date": "Wed, 08 Jul 2026 09:15:21 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -277,14 +298,14 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Interview: While GDC falters, Gamescom goes from strength to strength",
-    "link": "https://www.gamesindustry.biz/xbox-to-reduce-workforce-by-3200-five-studios-to-be-divested",
-    "description": "Xbox has announced sweeping cuts as part of its previously announced reset. 3,200 staff are to be laid off - 20% of the Xbox organisation - with 1,600 roles being eliminated today, according to an internal email from Xbox CEO Asha Sharma that was also posted to X.  Read more",
-    "date": "Mon, 06 Jul 2026 13:30:14 +0000",
-    "source": "GamesIndustry",
+    "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+    "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+    "description": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform t",
+    "date": "Thu, 02 Jul 2026 19:27:33 +0000",
+    "source": "KrebsOnSecurity",
     "relevance_score": 3,
     "matched_keywords": [
-      "rom"
+      "piracy"
     ]
   },
   {
@@ -299,17 +320,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
-    "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
-    "description": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for use in a series of massive distributed denial-of-service (DDoS) attacks over the past six months. Krebs",
-    "date": "Mon, 18 May 2026 20:48:21 +0000",
-    "source": "KrebsOnSecurity",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "arrested"
-    ]
-  },
-  {
     "title": "French Police Dismantle Operation Behind the Already Defunct YggTorrent",
     "link": "https://torrentfreak.com/researchers-create-self-replicating-seedbox-in-quest-for-decentralized-democracy/",
     "description": "Researchers from Delft University of Technology have spent more than two decades building their decentralized BitTorrent client Tribler. The software is designed to be impossible to shut down and the project itself is also going strong, as it recently secured funding up until 2032. New research focu",
@@ -317,42 +327,33 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "torrent",
-      "rom"
+      "rom",
+      "torrent"
     ]
   },
   {
-    "title": "Xbox retreats again – but to where? | Opinion",
-    "link": "https://www.gamesindustry.biz/theres-a-wealth-of-talent-here-our-focus-is-on-how-to-leverage-and-support-it-atari-appoints-andreas-deptolla-as-atari-europe-president",
-    "description": "Atari has appointed former CTO Andreas Deptolla as president of Atari Europe. Read more",
-    "date": "Tue, 07 Jul 2026 14:07:20 +0000",
+    "title": "Build a Rocket Boy staff to protest upcoming \"all-expenses-paid\" fan event",
+    "link": "https://www.gamesindustry.biz/nintendo-confirms-switch-1-consoles-will-be-withdrawn-from-europe-following-eu-law-change-on-batteries",
+    "description": "Nintendo has confirmed that sales of its original Switch console system - including its Lite and OLED models - will be discontinued in Europe next year. Read more",
+    "date": "Wed, 08 Jul 2026 17:07:40 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "IO Interactive to shutter Istanbul studio following end of Project Fantasy deal with Xbox",
-    "link": "https://www.gamesindustry.biz/xbox-retreats-again-but-to-where-opinion",
-    "description": "Last July, when Microsoft made sweeping cuts to its gaming division, axing employees at King, Raven Software, Rare, Blizzard, and more, shuttering The Initiative, and cancelling the Perfect Dark reboot, Everwild, and ZeniMax Online's Project Blackbird, I said it was Microsoft's darkest day since the",
-    "date": "Tue, 07 Jul 2026 14:02:00 +0000",
+    "title": "Premium mobile games are back, with releases up 77% in 2025",
+    "link": "https://www.gamesindustry.biz/build-a-rocket-boy-staff-to-protest-upcoming-all-expenses-paid-fan-event",
+    "description": "Build a Rocket Boy (BARB) staff have organized a protest outside the studio's Edinburgh offices this weekend in response to an \"all-expenses-paid\" fan event. Read more",
+    "date": "Wed, 08 Jul 2026 14:26:16 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Xbox Game Pass subscriber count is less than 50% of original target",
-    "link": "https://www.gamesindustry.biz/io-interactive-to-shutter-istanbul-studio-following-end-of-project-fantasy-deal-with-xbox",
-    "description": "IO Interactive will  close its Istanbul studio following the loss of funding for its online fantasy RPG, codenamed Project Fantasy. Read more",
-    "date": "Tue, 07 Jul 2026 13:44:12 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"We simply spread ourselves too thin\" – Xbox's Asha Sharma on firm's restructuring plans",
-    "link": "https://www.gamesindustry.biz/xbox-game-pass-reportedly-boasts-around-30m-subscribers",
-    "description": "Microsoft's Xbox Game Pass subscription service apparently has around 30 million users. Read more",
-    "date": "Tue, 07 Jul 2026 13:14:50 +0000",
+    "title": "Mario Kart Tour to shut down in September 2026",
+    "link": "https://www.gamesindustry.biz/premium-mobile-games-are-back-with-releases-up-77-in-2025",
+    "description": "In unexpected but welcome news, premium mobile games are seeing a resurgence, after years in which free-to-play has been seen as the only option worth pursuing. Read more",
+    "date": "Wed, 08 Jul 2026 13:44:23 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
