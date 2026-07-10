@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-09 09:52 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-10 09:48 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-09T09:52:53.816129",
+  fetched_at: "2026-07-10T09:48:51.783294",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
-      "rom",
       "dmca",
       "pirate",
-      "takedown",
+      "rom",
       "piracy",
-      "intellectual property"
+      "intellectual property",
+      "takedown"
     ]
   },
   {
@@ -27,11 +27,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "rom",
-      "torrent",
       "dmca",
       "pirate",
-      "piracy"
+      "rom",
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -42,10 +42,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "piracy",
-      "rom",
       "dmca",
-      "pirate"
+      "pirate",
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -56,9 +56,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "pirate",
       "arrested",
-      "piracy",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -69,11 +69,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
-      "torrent",
       "pirate",
+      "rom",
       "copyright",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -84,10 +84,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "piracy",
       "torrent",
       "intellectual property",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -98,9 +98,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "pirate",
       "copyright",
-      "piracy",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -111,9 +111,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "torrent",
       "arrested",
-      "piracy",
-      "torrent"
+      "piracy"
     ]
   },
   {
@@ -124,8 +124,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -136,8 +136,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -160,8 +160,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -172,8 +172,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
     ]
   },
   {
@@ -232,10 +232,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Bungie and Sony settle lawsuit with former Marathon director for undisclosed amount",
+    "title": "Asha Sharma to co-lead US Federal Reserve's Productivity and Jobs task force",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 09 Jul 2026 09:11:45 +0000",
+    "date": "Fri, 10 Jul 2026 08:43:21 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -258,39 +258,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/workers-deserve-protection-not-to-be-treated-like-disposable-line-items-hundreds-of-union-members-affected-by-xbox-layoffs",
     "description": "Hundreds of union members from the Communication Workers of America were affected by the  mass layoffs at Xbox this week. Read more",
     "date": "Wed, 08 Jul 2026 09:15:21 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Sony leadership says AI tools are \"an important foundational technology supporting our strategy\"",
-    "link": "https://www.gamesindustry.biz/original-switch-console-lineup-to-be-discontinued-in-europe-by-mid-february-2027",
-    "description": "Nintendo will  discontinue sales of the original Switch lineup in Europe from mid-February 2027, as required by  EU legislation on accessible consumer hardware batteries. Read more",
-    "date": "Tue, 07 Jul 2026 06:41:04 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Compulsion Games and Double Fine confirm \"Independence Day\" from Xbox",
-    "link": "https://www.gamesindustry.biz/sony-leadership-says-ai-tools-are-an-important-foundational-technology-supporting-our-strategy",
-    "description": "Sony says implementing AI tools in development is \"enhancing\" their work \"by removing repetitive tasks and enabling faster iteration.\" Read more",
-    "date": "Mon, 06 Jul 2026 21:42:55 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Epic Games settles lawsuit against former contractor accused of leaking unannounced Fortnite collaborations",
-    "link": "https://www.gamesindustry.biz/compulsion-games-and-double-fine-confirm-independence-day-from-xbox",
-    "description": "Compulsion Games and Double Fine &ndash; two formerly Xbox-owned developers now spun out from the Xbox family of studios as Microsoft enacts a deep round of cuts and divestitures &ndash; have released statements about the changes. Read more",
-    "date": "Mon, 06 Jul 2026 21:15:27 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -327,9 +294,45 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "rom",
-      "torrent"
+      "torrent",
+      "rom"
     ]
+  },
+  {
+    "title": "Why two games media veterans think a \"classic old-school style multi-format video games website\" will flourish in 2026",
+    "link": "https://www.gamesindustry.biz/asha-sharma-to-co-lead-us-federal-reserves-productivity-and-jobs-task-force",
+    "description": "The United States Federal Reserve has appointed Xbox CEO Asha Sharma to co-lead its Productivity and Jobs task force. Read more",
+    "date": "Fri, 10 Jul 2026 08:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Layoffs begin at Ubisoft Barcelona following Assassin's Creed Black Flag Resynced launch",
+    "link": "https://www.gamesindustry.biz/why-two-games-media-veterans-think-a-classic-old-school-style-multi-format-video-games-website-will-flourish-in-2026",
+    "description": "Times are bleak in the games industry, and they're no less challenging in the media that covers it. Twenty years ago there were dozens of print magazines and hundreds of games websites pumping out daily news, previews and reviews. Those numbers have declined steeply over the following years, and whi",
+    "date": "Fri, 10 Jul 2026 07:16:34 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "You can now enter the 2026 UK GamesIndustry.biz Best Places To Work Awards",
+    "link": "https://www.gamesindustry.biz/new-zealands-success-is-being-built-by-ambitious-studios-of-all-sizes-combined-revenue-of-studios-supported-by-rebate-grows-17-to-829m",
+    "description": "New Zealand's game sector continues to grow as combined studio revenue supported by its Game Development Sector Rebate (GDSR) rose 17% to $829 million in 2025/26. Read more",
+    "date": "Thu, 09 Jul 2026 13:23:08 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Supercell launches equity-free grants program for Africa-based game studios",
+    "link": "https://www.gamesindustry.biz/you-can-now-enter-the-2026-uk-gamesindustrybiz-best-places-to-work-awards",
+    "description": "Games firms in the UK can now enter the GamesIndustry.biz Best Places To Work Awards 2026. Read more",
+    "date": "Thu, 09 Jul 2026 10:46:15 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Build a Rocket Boy staff to protest upcoming \"all-expenses-paid\" fan event",
@@ -345,15 +348,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/build-a-rocket-boy-staff-to-protest-upcoming-all-expenses-paid-fan-event",
     "description": "Build a Rocket Boy (BARB) staff have organized a protest outside the studio's Edinburgh offices this weekend in response to an \"all-expenses-paid\" fan event. Read more",
     "date": "Wed, 08 Jul 2026 14:26:16 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Mario Kart Tour to shut down in September 2026",
-    "link": "https://www.gamesindustry.biz/premium-mobile-games-are-back-with-releases-up-77-in-2025",
-    "description": "In unexpected but welcome news, premium mobile games are seeing a resurgence, after years in which free-to-play has been seen as the only option worth pursuing. Read more",
-    "date": "Wed, 08 Jul 2026 13:44:23 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
