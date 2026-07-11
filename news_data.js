@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-10 09:48 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-11 08:06 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-10T09:48:51.783294",
+  fetched_at: "2026-07-11T08:06:41.879448",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
-      "dmca",
-      "pirate",
-      "rom",
       "piracy",
       "intellectual property",
+      "rom",
+      "pirate",
+      "dmca",
       "takedown"
     ]
   },
@@ -27,11 +27,25 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "dmca",
-      "pirate",
-      "rom",
+      "torrent",
       "piracy",
-      "torrent"
+      "rom",
+      "pirate",
+      "dmca"
+    ]
+  },
+  {
+    "title": "Pirate Site Blocking Is Legally Impossible in Bulgaria, Supreme Court Ruled",
+    "link": "https://torrentfreak.com/pearsons-anti-piracy-vendor-takes-down-best-selling-authors-own-github-repo/",
+    "description": "Pearson's anti-piracy vendor inadvertently used a DMCA notice to take down the official GitHub code repository of Pearson's own best-selling author, Paul Deitel. The prominent computer science educator pushed back, noting that the sender has \"no idea of the damage they're doing\" by taking down criti",
+    "date": "Wed, 08 Jul 2026 12:55:47 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 10,
+    "matched_keywords": [
+      "piracy",
+      "pirate",
+      "dmca",
+      "rom"
     ]
   },
   {
@@ -42,10 +56,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "dmca",
+      "piracy",
       "pirate",
-      "rom",
-      "piracy"
+      "dmca",
+      "rom"
     ]
   },
   {
@@ -56,9 +70,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "piracy",
       "pirate",
-      "arrested",
-      "piracy"
+      "arrested"
     ]
   },
   {
@@ -69,11 +83,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
-      "rom",
-      "copyright",
+      "torrent",
       "piracy",
-      "torrent"
+      "copyright",
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -85,9 +99,9 @@ const ARIA_NEWS = {
     "relevance_score": 8,
     "matched_keywords": [
       "torrent",
-      "intellectual property",
+      "piracy",
       "pirate",
-      "piracy"
+      "intellectual property"
     ]
   },
   {
@@ -98,9 +112,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "piracy",
       "pirate",
-      "copyright",
-      "piracy"
+      "copyright"
     ]
   },
   {
@@ -112,8 +126,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "torrent",
-      "arrested",
-      "piracy"
+      "piracy",
+      "arrested"
     ]
   },
   {
@@ -124,19 +138,19 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
-    "title": "Pirate Site Blocking Is Legally Impossible in Bulgaria, Supreme Court Ruled",
+    "title": "Pearson&#8217;s Anti-Piracy Vendor Takes Down Best-Selling Author&#8217;s Own GitHub Repo",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Wed, 08 Jul 2026 12:55:47 +0000",
+    "date": "Fri, 10 Jul 2026 10:21:27 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
+      "piracy",
       "copyright"
     ]
   },
@@ -153,18 +167,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Music Labels Win Canadian Site Blocking Order Against Y2Mate, YTMP3, and Savefrom",
-    "link": "https://torrentfreak.com/music-publishers-truncated-musks-dmca-plague-tweet-to-back-piracy-case-x-tells-court/",
-    "description": "Elon Musk's X Corp has filed a motion to dismiss the multi-million dollar music piracy lawsuit, which was recently amended following the Cox Supreme Court ruling. X says the new complaint is partly based on a tweet that was pulled out of context.  It argues that even the full version falls short of ",
-    "date": "Tue, 16 Jun 2026 13:47:49 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "rom",
-      "piracy"
-    ]
-  },
-  {
     "title": "Alleged Kimwolf Botmaster &#8216;Dort&#8217; Arrested, Charged in U.S. and Canada",
     "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
     "description": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub ac",
@@ -172,8 +174,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
     ]
   },
   {
@@ -232,10 +234,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Asha Sharma to co-lead US Federal Reserve's Productivity and Jobs task force",
+    "title": "Id claims it has \"the crew we need to build the games and tech we're known for\" following mass layoffs",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 10 Jul 2026 08:43:21 +0000",
+    "date": "Fri, 10 Jul 2026 18:24:27 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Can a top-down, focused software strategy save Xbox? | Opinion",
+    "link": "https://www.gamesindustry.biz/id-claims-it-has-the-crew-we-need-to-build-the-games-and-tech-were-known-for-following-mass-layoffs",
+    "description": "A social post from the account of id Software has stated that the studio still has \"the crew we need to build the games and tech we're known for\" after dramatic staff cuts across the Xbox portfolio lead to claims that the firm would no longer maintain the idtech engine used to create Doom, Wolfenste",
+    "date": "Fri, 10 Jul 2026 13:49:02 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -299,6 +312,24 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "\"They want us to accept this as a done deal and quietly disappear\" – Bethesda union members organise protest in response to Xbox layoffs",
+    "link": "https://www.gamesindustry.biz/can-a-top-down-focused-software-strategy-save-xbox-opinion",
+    "description": "When Asha Sharma passed the 100-day mark at the helm of Xbox last month, the consensus assessment was cautiously positive &ndash; but as I wrote at the time, Sharma's role so far had mostly been crowd-pleasing positioning statements, and the genuinely hard choices would need to be made soon. Read mo",
+    "date": "Fri, 10 Jul 2026 13:22:07 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Enginefall developer Red Rover Interactive to cut workforce by 22 roles",
+    "link": "https://www.gamesindustry.biz/they-want-us-to-accept-this-as-a-done-deal-and-quietly-disappear-bethesda-union-members-organise-protest-in-response-to-xbox-layoffs",
+    "description": "Union members at Bethesda Game Studios will strike next week in response to  mass layoffs at Xbox. Read more",
+    "date": "Fri, 10 Jul 2026 09:58:34 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Why two games media veterans think a \"classic old-school style multi-format video games website\" will flourish in 2026",
     "link": "https://www.gamesindustry.biz/asha-sharma-to-co-lead-us-federal-reserves-productivity-and-jobs-task-force",
     "description": "The United States Federal Reserve has appointed Xbox CEO Asha Sharma to co-lead its Productivity and Jobs task force. Read more",
@@ -321,33 +352,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/new-zealands-success-is-being-built-by-ambitious-studios-of-all-sizes-combined-revenue-of-studios-supported-by-rebate-grows-17-to-829m",
     "description": "New Zealand's game sector continues to grow as combined studio revenue supported by its Game Development Sector Rebate (GDSR) rose 17% to $829 million in 2025/26. Read more",
     "date": "Thu, 09 Jul 2026 13:23:08 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Supercell launches equity-free grants program for Africa-based game studios",
-    "link": "https://www.gamesindustry.biz/you-can-now-enter-the-2026-uk-gamesindustrybiz-best-places-to-work-awards",
-    "description": "Games firms in the UK can now enter the GamesIndustry.biz Best Places To Work Awards 2026. Read more",
-    "date": "Thu, 09 Jul 2026 10:46:15 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Build a Rocket Boy staff to protest upcoming \"all-expenses-paid\" fan event",
-    "link": "https://www.gamesindustry.biz/nintendo-confirms-switch-1-consoles-will-be-withdrawn-from-europe-following-eu-law-change-on-batteries",
-    "description": "Nintendo has confirmed that sales of its original Switch console system - including its Lite and OLED models - will be discontinued in Europe next year. Read more",
-    "date": "Wed, 08 Jul 2026 17:07:40 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Premium mobile games are back, with releases up 77% in 2025",
-    "link": "https://www.gamesindustry.biz/build-a-rocket-boy-staff-to-protest-upcoming-all-expenses-paid-fan-event",
-    "description": "Build a Rocket Boy (BARB) staff have organized a protest outside the studio's Edinburgh offices this weekend in response to an \"all-expenses-paid\" fan event. Read more",
-    "date": "Wed, 08 Jul 2026 14:26:16 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
