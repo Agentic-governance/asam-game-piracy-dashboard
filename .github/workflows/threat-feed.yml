@@ -1,8 +1,13 @@
 name: ARIA Daily Threat Feed + Diff
 
 on:
-  schedule:
-    - cron: '0 6 * * *'   # Daily UTC 06:00 (JST 15:00)
+  # DISABLED 2026-07-12: the daily schedule committed byte-identical snapshots and
+  # zero-change diffs every day, manufacturing a false "live feed" signal while the
+  # underlying dataset has been frozen since 2026-03-28. Re-enable only once
+  # scripts/snapshot.py is backed by a real re-crawl that regenerates the dataset,
+  # and publishing fails closed when zero observations occurred.
+  #   schedule:
+  #     - cron: '0 6 * * *'   # Daily UTC 06:00 (JST 15:00)
   workflow_dispatch:
 
 permissions:

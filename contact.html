@@ -2,6 +2,7 @@
 <!-- ARIA Dataset v6 | Snapshot 2026-03-30 UTC -->
 <html lang="en">
 <head>
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; frame-ancestors 'none'">
 <meta charset="UTF-8">
 <meta name="generated" content="2026-03-30T10:00:00Z">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -321,6 +322,7 @@ a:hover{text-decoration:underline}
 </style>
 </head>
 <body>
+<div data-aria-staleness-banner style="background:#5a1a1a;color:#ffd7d7;padding:8px 16px;text-align:center;font-size:.8rem;font-weight:600;border-bottom:1px solid #8b2c2c">&#9888; STATIC SNAPSHOT &mdash; dataset frozen at 2026-03-30 (N=3,755 domains). Historical snapshot only; live monitoring is not yet active. Figures are as-of 2026-03-30 and pending re-verification.</div>
 
 <!-- ========== NAVIGATION ========== -->
 <nav class="navbar">
@@ -490,7 +492,7 @@ a:hover{text-decoration:underline}
           <textarea id="notes" name="notes" placeholder="Specific titles, urgency, or additional requirements..."></textarea>
         </div>
         <button type="submit" class="submit-btn" id="submitBtn" disabled>Request Evidence Package &rarr;</button>
-        <p class="form-note">Your legal analyst responds within 1 business day with scope, timeline, and exact deliverables before billing with your evidence package.</p>
+        <p class="form-note">This static site has no backend and stores nothing you enter. Submitting opens your email client with a pre-filled message to our team — please review and send it. Backend intake is not yet live.</p>
       </form>
 
       <div class="order-summary">
@@ -517,8 +519,8 @@ a:hover{text-decoration:underline}
 
   <!-- ========== BOTTOM SECTION ========== -->
   <div class="bottom-section">
-    <a href="#" class="sample-link" onclick="event.preventDefault();alert('Sample evidence package (redacted) would download here.')">
-      &#8595; Download redacted sample + delivery checklist (redacted)
+    <a href="sample_evidence_package.pdf" class="sample-link" download>
+      &#8595; Download redacted sample evidence package (PDF)
     </a>
 
     <div class="persuasion-quotes">
@@ -543,8 +545,8 @@ a:hover{text-decoration:underline}
 <div class="success-overlay" id="successOverlay">
   <div class="success-box">
     <div class="success-icon">&#9989;</div>
-    <h2>Request Submitted</h2>
-    <p>Thank you. Our evidence team will review your request and contact you within 24 hours at the email address provided.</p>
+    <h2>Opening your email client</h2>
+    <p>This static site does not transmit or store anything you entered. Your email client should open with a pre-filled message — please review and send it to reach us. If nothing opened, email <a href="mailto:contact@aria-intel.com" style="color:#1a8cff">contact@aria-intel.com</a> directly.</p>
     <button class="success-close" onclick="document.getElementById('successOverlay').classList.remove('visible')">Close</button>
   </div>
 </div>
@@ -708,11 +710,30 @@ function selectTier(card) {
   updateSubmitBtn();
 }
 
-/* ========== STEP 4: Submit ========== */
+/* ========== STEP 4: Submit ==========
+   No backend exists. Rather than silently discard the submission (and show a fake
+   "received" message), open the user's mail client with the details pre-filled so
+   the request actually reaches a human. Replace with a real webhook + durable store
+   + server-side acknowledgment when the backend is built. */
 function handleSubmit(e) {
   e.preventDefault();
   var form = document.getElementById('contactForm');
   if (!form.checkValidity()) { form.reportValidity(); return; }
+  var val = function(id){ var el = document.getElementById(id); return el ? el.value : ''; };
+  var txt = function(id){ var el = document.getElementById(id); return el ? el.textContent : ''; };
+  var lines = [
+    'Company: ' + val('companyName'),
+    'Name: ' + val('yourName'),
+    'Job title: ' + val('jobTitle'),
+    'Work email: ' + val('workEmail'),
+    'Publisher: ' + txt('osPublisher'),
+    'Jurisdiction: ' + txt('osJurisdiction'),
+    'Package: ' + txt('osTier'),
+    'Notes: ' + val('notes')
+  ];
+  window.location.href = 'mailto:contact@aria-intel.com'
+    + '?subject=' + encodeURIComponent('Evidence package request - ' + val('companyName'))
+    + '&body=' + encodeURIComponent(lines.join('\n'));
   document.getElementById('successOverlay').classList.add('visible');
 }
 </script>

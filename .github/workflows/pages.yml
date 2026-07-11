@@ -18,9 +18,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - name: Assemble public artifact (exclude raw dataset, scripts, snapshots)
+        run: |
+          # Publish ONLY the site; never ship the raw survey CSV, the pipeline
+          # scripts, or the 107 daily snapshots (client-confidential + tips off
+          # observed operators). Deny-by-default: copy the allowlist into _site.
+          mkdir -p _site
+          cp -v *.html *.js *.pdf _site/ 2>/dev/null || true
+          cp -rv assets publishers _site/ 2>/dev/null || true
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: '_site'
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
