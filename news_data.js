@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-11 08:06 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-12 08:27 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-11T08:06:41.879448",
+  fetched_at: "2026-07-12T08:27:55.988788",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
-      "piracy",
-      "intellectual property",
-      "rom",
       "pirate",
       "dmca",
-      "takedown"
+      "piracy",
+      "intellectual property",
+      "takedown",
+      "rom"
     ]
   },
   {
@@ -27,11 +27,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "torrent",
-      "piracy",
-      "rom",
       "pirate",
-      "dmca"
+      "dmca",
+      "piracy",
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -42,24 +42,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "piracy",
-      "pirate",
       "dmca",
-      "rom"
-    ]
-  },
-  {
-    "title": "Music Publishers Truncated Musk&#8217;s &#8216;DMCA Plague&#8217; Tweet to Back Piracy Case, X Tells Court",
-    "link": "https://torrentfreak.com/major-publishers-sue-welib-a-pirate-site-built-on-annas-archive-code/",
-    "description": "Less than a month after a New York court issued a default judgment against shadow library Anna's Archive, thirteen major publishers have sued WeLib. The publishers characterize WeLib as a young but popular pirate site that was largely copied from Anna's Archive. The site is allegedly used by tech co",
-    "date": "Wed, 17 Jun 2026 13:02:34 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 10,
-    "matched_keywords": [
+      "rom",
       "piracy",
-      "pirate",
-      "dmca",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -70,9 +56,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "arrested",
       "piracy",
-      "pirate",
-      "arrested"
+      "pirate"
     ]
   },
   {
@@ -83,11 +69,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
+      "pirate",
       "piracy",
+      "torrent",
       "copyright",
-      "rom",
-      "pirate"
+      "rom"
     ]
   },
   {
@@ -98,10 +84,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
+      "intellectual property",
       "torrent",
       "piracy",
-      "pirate",
-      "intellectual property"
+      "pirate"
     ]
   },
   {
@@ -112,9 +98,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "copyright",
       "piracy",
-      "pirate",
-      "copyright"
+      "pirate"
     ]
   },
   {
@@ -126,8 +112,20 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "torrent",
+      "arrested",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Pearson&#8217;s Anti-Piracy Vendor Takes Down Best-Selling Author&#8217;s Own GitHub Repo",
+    "link": "https://torrentfreak.com/google-opposes-site-blocking-in-europe-as-u-s-piracy-blocking-plans-gain-momentum/",
+    "description": "Google has told the European Commission that pirate site blocking causes \"significant harm\" and should not target DNS resolvers, VPNs or shared IPs. The submission was filed days before a U.S. congressional hearing signaled that American site blocking legislation is closer than ever to introduction.",
+    "date": "Fri, 10 Jul 2026 10:21:27 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
       "piracy",
-      "arrested"
+      "pirate"
     ]
   },
   {
@@ -143,15 +141,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Pearson&#8217;s Anti-Piracy Vendor Takes Down Best-Selling Author&#8217;s Own GitHub Repo",
+    "title": "Google Opposes Site Blocking in Europe as U.S. Piracy Blocking Plans Gain Momentum",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Fri, 10 Jul 2026 10:21:27 +0000",
+    "date": "Sat, 11 Jul 2026 11:37:45 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
