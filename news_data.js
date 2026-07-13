@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-12 08:27 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-13 09:41 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-12T08:27:55.988788",
+  fetched_at: "2026-07-13T09:41:03.406757",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
-      "pirate",
-      "dmca",
-      "piracy",
-      "intellectual property",
       "takedown",
-      "rom"
+      "piracy",
+      "dmca",
+      "rom",
+      "intellectual property",
+      "pirate"
     ]
   },
   {
@@ -27,11 +27,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "pirate",
-      "dmca",
       "piracy",
       "torrent",
-      "rom"
+      "dmca",
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -42,10 +42,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "dmca",
-      "rom",
+      "pirate",
       "piracy",
-      "pirate"
+      "rom",
+      "dmca"
     ]
   },
   {
@@ -56,9 +56,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "arrested",
+      "pirate",
       "piracy",
-      "pirate"
+      "arrested"
     ]
   },
   {
@@ -69,11 +69,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "piracy",
       "torrent",
-      "copyright",
-      "rom"
+      "rom",
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -84,10 +84,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "intellectual property",
-      "torrent",
+      "pirate",
       "piracy",
-      "pirate"
+      "intellectual property",
+      "torrent"
     ]
   },
   {
@@ -98,9 +98,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "copyright",
+      "pirate",
       "piracy",
-      "pirate"
+      "copyright"
     ]
   },
   {
@@ -111,9 +111,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
       "arrested",
-      "piracy"
+      "piracy",
+      "torrent"
+    ]
+  },
+  {
+    "title": "Google Opposes Site Blocking in Europe as U.S. Piracy Blocking Plans Gain Momentum",
+    "link": "https://torrentfreak.com/u-s-seizes-more-pirate-sports-streaming-domains-but-iranian-fallbacks-remain/",
+    "description": "The U.S. continues to crack down on sports streaming sites, seizing well over a hundred additional domain names this weekend. While these enforcement actions sorted effect, several of the targeted domains now use fallback domains on Iran's .ir country-code TLD, which might be harder to reach for Ame",
+    "date": "Sat, 11 Jul 2026 11:37:45 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -124,8 +136,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -136,20 +148,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
-    "title": "Google Opposes Site Blocking in Europe as U.S. Piracy Blocking Plans Gain Momentum",
+    "title": "U.S. Seizes More Pirate Sports Streaming Domains, But Iranian Fallbacks Remain",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sat, 11 Jul 2026 11:37:45 +0000",
+    "date": "Mon, 13 Jul 2026 09:32:28 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -160,8 +172,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -221,20 +233,20 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Major Publishers Sue &#8216;WeLib&#8217;, a  Pirate Site Built on Anna&#8217;s Archive Code",
-    "link": "https://torrentfreak.com/wipo-alert-pay-aims-to-cut-off-piracy-profits-with-help-from-payment-providers/",
-    "description": "For years, WIPO has tried to starve pirate sites of advertising money. Now it wants to cut off their payments too. A new system called \"WIPO Alert Pay\" lets rightsholders flag pirate and counterfeit sites to payment providers such as PayPal and Mastercard, who can then act under their own rules. In ",
-    "date": "Thu, 18 Jun 2026 11:13:36 +0000",
-    "source": "TorrentFreak",
+    "title": "EA removes microtransactions from EA Sports College Football 27 following backlash",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Mon, 13 Jul 2026 08:14:17 +0000",
+    "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
-      "pirate"
+      "rom"
     ]
   },
   {
     "title": "Id claims it has \"the crew we need to build the games and tech we're known for\" following mass layoffs",
-    "link": "https://www.gamesindustry.biz/feed",
-    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "link": "https://www.gamesindustry.biz/ea-removes-microtransactions-from-ea-sports-college-football-27-following-backlash",
+    "description": "Electronic Arts has removed microtransactions from EA Sports College Football 27 in response to feedback from players and content creators. Read more",
     "date": "Fri, 10 Jul 2026 18:24:27 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -305,8 +317,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "torrent",
-      "rom"
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -341,15 +353,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/why-two-games-media-veterans-think-a-classic-old-school-style-multi-format-video-games-website-will-flourish-in-2026",
     "description": "Times are bleak in the games industry, and they're no less challenging in the media that covers it. Twenty years ago there were dozens of print magazines and hundreds of games websites pumping out daily news, previews and reviews. Those numbers have declined steeply over the following years, and whi",
     "date": "Fri, 10 Jul 2026 07:16:34 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "You can now enter the 2026 UK GamesIndustry.biz Best Places To Work Awards",
-    "link": "https://www.gamesindustry.biz/new-zealands-success-is-being-built-by-ambitious-studios-of-all-sizes-combined-revenue-of-studios-supported-by-rebate-grows-17-to-829m",
-    "description": "New Zealand's game sector continues to grow as combined studio revenue supported by its Game Development Sector Rebate (GDSR) rose 17% to $829 million in 2025/26. Read more",
-    "date": "Thu, 09 Jul 2026 13:23:08 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
