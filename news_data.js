@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-13 09:41 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-14 08:20 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-13T09:41:03.406757",
+  fetched_at: "2026-07-14T08:20:53.606860",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
-      "takedown",
-      "piracy",
-      "dmca",
       "rom",
       "intellectual property",
+      "dmca",
+      "piracy",
+      "takedown",
       "pirate"
     ]
   },
@@ -27,10 +27,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "piracy",
-      "torrent",
-      "dmca",
       "rom",
+      "dmca",
+      "torrent",
+      "piracy",
       "pirate"
     ]
   },
@@ -42,10 +42,25 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "pirate",
       "piracy",
+      "pirate",
       "rom",
       "dmca"
+    ]
+  },
+  {
+    "title": "Google Opposes Site Blocking in Europe as U.S. Piracy Blocking Plans Gain Momentum",
+    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Obsession' tops the chart, followed by 'Masters of the Universe.' 'Mortal Kombat II' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sat, 11 Jul 2026 11:37:45 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 9,
+    "matched_keywords": [
+      "copyright",
+      "rom",
+      "torrent",
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -56,24 +71,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "piracy",
+      "pirate",
       "arrested"
-    ]
-  },
-  {
-    "title": "Researchers Create Self-Replicating Seedbox in Quest for Decentralized Democracy",
-    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Obsession' tops the chart, followed by 'Masters of the Universe.' 'Citizen Vigilante' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sun, 05 Jul 2026 08:33:00 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 9,
-    "matched_keywords": [
-      "piracy",
-      "torrent",
-      "rom",
-      "pirate",
-      "copyright"
     ]
   },
   {
@@ -84,23 +84,23 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
+      "torrent",
       "piracy",
-      "intellectual property",
-      "torrent"
+      "pirate",
+      "intellectual property"
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 07/06/2026",
+    "title": "Researchers Create Self-Replicating Seedbox in Quest for Decentralized Democracy",
     "link": "https://torrentfreak.com/alleged-operators-of-hianime-piracy-ring-arrested-in-vietnam-with-u-s-support/",
     "description": "Supported by U.S. intelligence, Vietnamese authorities have dismantled a massive network of over 100 pirate sites. Seven suspects have been charged with running a mass copyright infringement operation that included the now-defunct piracy giant HiAnime.to, allegedly earning $12.8 million in advertisi",
-    "date": "Sun, 05 Jul 2026 23:09:40 +0000",
+    "date": "Sun, 05 Jul 2026 08:33:00 +0000",
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "copyright",
       "piracy",
-      "copyright"
+      "pirate"
     ]
   },
   {
@@ -111,21 +111,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "arrested",
+      "torrent",
       "piracy",
-      "torrent"
+      "arrested"
     ]
   },
   {
-    "title": "Google Opposes Site Blocking in Europe as U.S. Piracy Blocking Plans Gain Momentum",
+    "title": "Top 10 Most Pirated Movies of The Week – 07/13/2026",
     "link": "https://torrentfreak.com/u-s-seizes-more-pirate-sports-streaming-domains-but-iranian-fallbacks-remain/",
     "description": "The U.S. continues to crack down on sports streaming sites, seizing well over a hundred additional domain names this weekend. While these enforcement actions sorted effect, several of the targeted domains now use fallback domains on Iran's .ir country-code TLD, which might be harder to reach for Ame",
-    "date": "Sat, 11 Jul 2026 11:37:45 +0000",
+    "date": "Sun, 12 Jul 2026 23:09:40 +0000",
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
+      "crack",
+      "pirate"
     ]
   },
   {
@@ -136,8 +136,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -148,8 +148,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -160,8 +160,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -172,20 +172,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
-    ]
-  },
-  {
-    "title": "Alleged Kimwolf Botmaster &#8216;Dort&#8217; Arrested, Charged in U.S. and Canada",
-    "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
-    "description": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub ac",
-    "date": "Thu, 21 May 2026 21:50:25 +0000",
-    "source": "KrebsOnSecurity",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "arrested",
-      "rom"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -233,9 +221,20 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "EA removes microtransactions from EA Sports College Football 27 following backlash",
+    "title": "Analyst: Game console shipments expected to decline 19.5% to 33.9m units in 2026",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Mon, 13 Jul 2026 13:13:28 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "EA removes microtransactions from EA Sports College Football 27 following backlash",
+    "link": "https://www.gamesindustry.biz/alinea-steam-revenue-reaches-111bn-marking-highest-half-year-on-record",
+    "description": "Estimates from data firm Aliena Analytics suggest Steam generated $11.1 billion in H1 revenue, up 14.5% year-over-year, marking the platform's highest half-year revenue on record. Read more",
     "date": "Mon, 13 Jul 2026 08:14:17 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -277,17 +276,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Nexon to assume publishing duties for Overwatch on PC in South Korea",
-    "link": "https://www.gamesindustry.biz/workers-deserve-protection-not-to-be-treated-like-disposable-line-items-hundreds-of-union-members-affected-by-xbox-layoffs",
-    "description": "Hundreds of union members from the Communication Workers of America were affected by the  mass layoffs at Xbox this week. Read more",
-    "date": "Wed, 08 Jul 2026 09:15:21 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
     "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
     "description": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform t",
@@ -317,9 +305,27 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "rom",
-      "torrent"
+      "torrent",
+      "rom"
     ]
+  },
+  {
+    "title": "What does the future of external development look like?",
+    "link": "https://www.gamesindustry.biz/analyst-game-console-shipments-expected-to-decline-195-to-339m-units-in-2026",
+    "description": "Game console shipments are expected to fall 19.5% this year to 33.9 million units, according to new analyst data. Read more",
+    "date": "Mon, 13 Jul 2026 11:02:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Alinea: Steam revenue reaches $11.1bn, marking highest half-year on record",
+    "link": "https://www.gamesindustry.biz/welcome-to-exdev-week",
+    "description": "This week, we're looking at external development on GamesIndustry.biz, spotlighting the hardworking studios that often have a major hand in designing some of the world's biggest games, but that rarely get to take a bow in the limelight. Read more",
+    "date": "Mon, 13 Jul 2026 10:03:04 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "\"They want us to accept this as a done deal and quietly disappear\" – Bethesda union members organise protest in response to Xbox layoffs",
@@ -344,15 +350,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/asha-sharma-to-co-lead-us-federal-reserves-productivity-and-jobs-task-force",
     "description": "The United States Federal Reserve has appointed Xbox CEO Asha Sharma to co-lead its Productivity and Jobs task force. Read more",
     "date": "Fri, 10 Jul 2026 08:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Layoffs begin at Ubisoft Barcelona following Assassin's Creed Black Flag Resynced launch",
-    "link": "https://www.gamesindustry.biz/why-two-games-media-veterans-think-a-classic-old-school-style-multi-format-video-games-website-will-flourish-in-2026",
-    "description": "Times are bleak in the games industry, and they're no less challenging in the media that covers it. Twenty years ago there were dozens of print magazines and hundreds of games websites pumping out daily news, previews and reviews. Those numbers have declined steeply over the following years, and whi",
-    "date": "Fri, 10 Jul 2026 07:16:34 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
