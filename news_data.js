@@ -1,24 +1,8 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-14 08:20 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-15 08:27 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-14T08:20:53.606860",
+  fetched_at: "2026-07-15T08:27:03.708702",
   item_count: 30,
   items: [
-  {
-    "title": "WIPO Alert Pay Aims to Cut Off Piracy Profits with Help from Payment Providers",
-    "link": "https://torrentfreak.com/ai-generated-fifa-world-cup-dmca-notices-ask-google-to-delist-pirate-sites/",
-    "description": "In a series of DMCA takedown requests, \"FIFA World Cup\" is asking Google to permanently remove various pirate site domain names from its search results. While FIFA certainly is protective of its intellectual property, the seemingly AI-generated notices could be the work of a rival pirate site that's",
-    "date": "Sat, 20 Jun 2026 10:05:05 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 14,
-    "matched_keywords": [
-      "rom",
-      "intellectual property",
-      "dmca",
-      "piracy",
-      "takedown",
-      "pirate"
-    ]
-  },
   {
     "title": "AI-Generated &#8216;FIFA World Cup&#8217; DMCA Notices Ask Google to Delist Pirate Sites",
     "link": "https://torrentfreak.com/film-companies-piggyback-on-other-lawsuits-to-unmask-bittorrent-pirates/",
@@ -27,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "rom",
+      "pirate",
       "dmca",
+      "rom",
       "torrent",
-      "piracy",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -42,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "piracy",
       "pirate",
-      "rom",
-      "dmca"
+      "dmca",
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -56,11 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "pirate",
       "copyright",
       "rom",
       "torrent",
-      "piracy",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -71,9 +55,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "pirate",
-      "arrested"
+      "arrested",
+      "piracy"
     ]
   },
   {
@@ -84,10 +68,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "torrent",
-      "piracy",
       "pirate",
-      "intellectual property"
+      "intellectual property",
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -98,9 +82,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "copyright",
+      "pirate",
       "piracy",
-      "pirate"
+      "copyright"
     ]
   },
   {
@@ -111,9 +95,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
+      "arrested",
       "piracy",
-      "arrested"
+      "torrent"
+    ]
+  },
+  {
+    "title": "U.S. Seizes More Pirate Sports Streaming Domains, But Iranian Fallbacks Remain",
+    "link": "https://torrentfreak.com/anime-piracy-giant-animeflv-mysteriously-stopped-serving-video/",
+    "description": "AnimeFLV, the largest Spanish-language anime piracy site on the internet, has stopped serving video to its tens of millions of monthly visitors. The site, which the MPA flagged as a notorious market in its latest USTR submission, remains online with its directory intact. However, the videos have bee",
+    "date": "Mon, 13 Jul 2026 09:32:28 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -124,8 +120,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "pirate"
+      "pirate",
+      "crack"
     ]
   },
   {
@@ -136,8 +132,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -148,20 +144,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
-    "title": "U.S. Seizes More Pirate Sports Streaming Domains, But Iranian Fallbacks Remain",
+    "title": "Anime Piracy Giant Animeflv Mysteriously Stopped Serving Video",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Mon, 13 Jul 2026 09:32:28 +0000",
+    "date": "Tue, 14 Jul 2026 09:27:44 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -172,8 +168,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -221,10 +217,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Analyst: Game console shipments expected to decline 19.5% to 33.9m units in 2026",
+    "title": "Aream &amp; Co: Gaming M&amp;A hits $2.3bn in Q2, highest level since 2022",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 13 Jul 2026 13:13:28 +0000",
+    "date": "Tue, 14 Jul 2026 14:09:53 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Compulsion Games seeks new partnerships following spin-out from from Xbox",
+    "link": "https://www.gamesindustry.biz/aream-co-gaming-ma-hits-23bn-in-q2-highest-level-since-2022",
+    "description": "Games industry mergers and acquisitions reached $2.3 billion with 54 transactions during Q2 of 2026, the highest level since 2022, according to a new report from investment bank Aream & Co. Read more",
+    "date": "Tue, 14 Jul 2026 13:03:49 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"It's not like the Eye of Sauron is looking at everything we're doing\" – Silent Hill F developer NeoBards on why trust is essential for co-dev",
+    "link": "https://www.gamesindustry.biz/compulsion-games-seeks-new-partnerships-following-spin-out-from-from-xbox",
+    "description": "Compulsion Games, developer of South of Midnight, has announced it is open to working with and supporting other studios following its independence from Xbox. Read more",
+    "date": "Tue, 14 Jul 2026 13:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -265,17 +283,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Nintendo confirms Switch 1 consoles will be withdrawn from Europe following EU law change on batteries",
-    "link": "https://www.gamesindustry.biz/report-obsidian-to-work-on-fallout-title-as-unannounced-projects-cancelled",
-    "description": "Obsidian is reportedly developing a new Fallout game after canceling several unannounced projects. Read more",
-    "date": "Wed, 08 Jul 2026 18:17:11 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
     "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
     "description": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform t",
@@ -287,17 +294,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
-    "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
-    "description": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecu",
-    "date": "Fri, 22 May 2026 16:34:24 +0000",
-    "source": "KrebsOnSecurity",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "arrested"
-    ]
-  },
-  {
     "title": "French Police Dismantle Operation Behind the Already Defunct YggTorrent",
     "link": "https://torrentfreak.com/researchers-create-self-replicating-seedbox-in-quest-for-decentralized-democracy/",
     "description": "Researchers from Delft University of Technology have spent more than two decades building their decentralized BitTorrent client Tribler. The software is designed to be impossible to shut down and the project itself is also going strong, as it recently secured funding up until 2032. New research focu",
@@ -305,51 +301,51 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "torrent",
-      "rom"
+      "rom",
+      "torrent"
     ]
+  },
+  {
+    "title": "How Evil Trout aims to turn a cult free game into a Steam hit – again",
+    "link": "https://www.gamesindustry.biz/its-not-like-the-eye-of-sauron-is-looking-at-everything-were-doing-silent-hill-f-developer-neobards-on-why-trust-is-essential-for-co-dev",
+    "description": "This article is part of ExDev Week. Read more",
+    "date": "Tue, 14 Jul 2026 10:30:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Former Epic Games VP Steve Allison appointed chief business officer at Saber Interactive",
+    "link": "https://www.gamesindustry.biz/how-evil-trout-aims-to-turn-a-cult-free-game-into-a-steam-hit-again",
+    "description": "This week, indie studio Evil Trout Inc is releasing its second game, The Incident At Galley House. It&rsquo;s a remake of Type Help, a detective game that first made waves as a free release on Itch.io. At this point, any sharp-eyed sleuths may be getting a sense of d&eacute;j&agrave; vu. Because thi",
+    "date": "Tue, 14 Jul 2026 10:17:12 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Ubisoft pivots to \"selective model\" to reduce reliance on individual game launches",
+    "link": "https://www.gamesindustry.biz/former-epic-games-vp-steve-allison-appointed-chief-business-officer-at-saber-interactive",
+    "description": "Former Epic Games vice president Steve Allison has joined Saber Interactive as chief business officer. Read more",
+    "date": "Tue, 14 Jul 2026 09:20:04 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Analyst: Game console shipments expected to decline 19.5% to 33.9m units in 2026",
+    "link": "https://www.gamesindustry.biz/ubisoft-pivots-to-selective-model-to-reduce-reliance-on-individual-game-launches",
+    "description": "Ubisoft is looking to reduce its reliance on individual game launches, pivoting instead toward a \"more selective model\" leaning on its back-catalog and live service titles for revenue. Read more",
+    "date": "Mon, 13 Jul 2026 13:13:28 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "What does the future of external development look like?",
     "link": "https://www.gamesindustry.biz/analyst-game-console-shipments-expected-to-decline-195-to-339m-units-in-2026",
     "description": "Game console shipments are expected to fall 19.5% this year to 33.9 million units, according to new analyst data. Read more",
     "date": "Mon, 13 Jul 2026 11:02:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Alinea: Steam revenue reaches $11.1bn, marking highest half-year on record",
-    "link": "https://www.gamesindustry.biz/welcome-to-exdev-week",
-    "description": "This week, we're looking at external development on GamesIndustry.biz, spotlighting the hardworking studios that often have a major hand in designing some of the world's biggest games, but that rarely get to take a bow in the limelight. Read more",
-    "date": "Mon, 13 Jul 2026 10:03:04 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"They want us to accept this as a done deal and quietly disappear\" – Bethesda union members organise protest in response to Xbox layoffs",
-    "link": "https://www.gamesindustry.biz/can-a-top-down-focused-software-strategy-save-xbox-opinion",
-    "description": "When Asha Sharma passed the 100-day mark at the helm of Xbox last month, the consensus assessment was cautiously positive &ndash; but as I wrote at the time, Sharma's role so far had mostly been crowd-pleasing positioning statements, and the genuinely hard choices would need to be made soon. Read mo",
-    "date": "Fri, 10 Jul 2026 13:22:07 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Enginefall developer Red Rover Interactive to cut workforce by 22 roles",
-    "link": "https://www.gamesindustry.biz/they-want-us-to-accept-this-as-a-done-deal-and-quietly-disappear-bethesda-union-members-organise-protest-in-response-to-xbox-layoffs",
-    "description": "Union members at Bethesda Game Studios will strike next week in response to  mass layoffs at Xbox. Read more",
-    "date": "Fri, 10 Jul 2026 09:58:34 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Why two games media veterans think a \"classic old-school style multi-format video games website\" will flourish in 2026",
-    "link": "https://www.gamesindustry.biz/asha-sharma-to-co-lead-us-federal-reserves-productivity-and-jobs-task-force",
-    "description": "The United States Federal Reserve has appointed Xbox CEO Asha Sharma to co-lead its Productivity and Jobs task force. Read more",
-    "date": "Fri, 10 Jul 2026 08:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
