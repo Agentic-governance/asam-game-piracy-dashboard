@@ -1,23 +1,8 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-15 08:27 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-16 08:25 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-15T08:27:03.708702",
+  fetched_at: "2026-07-16T08:25:42.727112",
   item_count: 30,
   items: [
-  {
-    "title": "AI-Generated &#8216;FIFA World Cup&#8217; DMCA Notices Ask Google to Delist Pirate Sites",
-    "link": "https://torrentfreak.com/film-companies-piggyback-on-other-lawsuits-to-unmask-bittorrent-pirates/",
-    "description": "After 180 days, Comcast can no longer say which customer was linked to a given IP address. This retention limit has kept old piracy accusations out of reach for years, but that's beginning to change. A series of BitTorrent lawsuits from film companies targets alleged pirates whose identities Strike ",
-    "date": "Mon, 22 Jun 2026 10:10:04 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 11,
-    "matched_keywords": [
-      "pirate",
-      "dmca",
-      "rom",
-      "torrent",
-      "piracy"
-    ]
-  },
   {
     "title": "Pirate Site Blocking Is Legally Impossible in Bulgaria, Supreme Court Ruled",
     "link": "https://torrentfreak.com/pearsons-anti-piracy-vendor-takes-down-best-selling-authors-own-github-repo/",
@@ -26,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "pirate",
       "dmca",
       "piracy",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -41,10 +26,10 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "pirate",
-      "copyright",
+      "piracy",
       "rom",
-      "torrent",
-      "piracy"
+      "copyright",
+      "torrent"
     ]
   },
   {
@@ -55,9 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
+      "piracy",
       "arrested",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -68,10 +53,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
       "intellectual property",
       "piracy",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -82,9 +67,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "piracy",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -95,8 +80,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "arrested",
       "piracy",
+      "arrested",
       "torrent"
     ]
   },
@@ -108,8 +93,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -120,8 +105,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "crack"
+      "crack",
+      "pirate"
     ]
   },
   {
@@ -132,8 +117,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -144,14 +129,14 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
     "title": "Anime Piracy Giant Animeflv Mysteriously Stopped Serving Video",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/eus-top-court-geo-blocking-protects-publishers-in-copyright-disputes-vpns-not-liable/",
+    "description": "The EU's highest court has ruled that publishers who use state-of-the-art geo-blocking are not liable for copyright infringement, even when users bypass their restrictions with a VPN. The ruling, which was handed down in the landmark copyright battle involving digital copies of the iconic Anne Frank",
     "date": "Tue, 14 Jul 2026 09:27:44 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
@@ -168,8 +153,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -217,10 +202,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Aream &amp; Co: Gaming M&amp;A hits $2.3bn in Q2, highest level since 2022",
+    "title": "\"We thought, well, how would we reinvent this wheel?\" – Minecraft specialists 4J Studios on building a new sandbox crafting game from first principles",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 14 Jul 2026 14:09:53 +0000",
+    "date": "Wed, 15 Jul 2026 14:28:45 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -306,6 +291,24 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "\"I had a front row seat to one of the greatest creative explosions in history\" – Glen Schofield announces retirement",
+    "link": "https://www.gamesindustry.biz/we-thought-well-how-would-we-reinvent-this-wheel-minecraft-specialists-4j-studios-on-building-a-new-sandbox-crafting-game-from-first-principles",
+    "description": "Minecraft has been incredibly lucrative for 4J Studios. The Dundee-based firm, which was established in 2005 by Chris van der Kuyl, Paddy Burns, and Frank Arnot, has ported Mojang's game to almost every console under the sun since 2012. Read more",
+    "date": "Wed, 15 Jul 2026 13:27:21 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Aream &amp; Co: Gaming M&amp;A hits $2.3bn in Q2, highest level since 2022",
+    "link": "https://www.gamesindustry.biz/11-bit-studios-lays-off-20-workers-as-it-adjusts-new-project-teams-to-current-needs",
+    "description": "The Alters developer 11 Bit Studios has announced layoffs affecting 20 roles. Read more",
+    "date": "Tue, 14 Jul 2026 14:09:53 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "How Evil Trout aims to turn a cult free game into a Steam hit – again",
     "link": "https://www.gamesindustry.biz/its-not-like-the-eye-of-sauron-is-looking-at-everything-were-doing-silent-hill-f-developer-neobards-on-why-trust-is-essential-for-co-dev",
     "description": "This article is part of ExDev Week. Read more",
@@ -337,15 +340,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/ubisoft-pivots-to-selective-model-to-reduce-reliance-on-individual-game-launches",
     "description": "Ubisoft is looking to reduce its reliance on individual game launches, pivoting instead toward a \"more selective model\" leaning on its back-catalog and live service titles for revenue. Read more",
     "date": "Mon, 13 Jul 2026 13:13:28 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "What does the future of external development look like?",
-    "link": "https://www.gamesindustry.biz/analyst-game-console-shipments-expected-to-decline-195-to-339m-units-in-2026",
-    "description": "Game console shipments are expected to fall 19.5% this year to 33.9 million units, according to new analyst data. Read more",
-    "date": "Mon, 13 Jul 2026 11:02:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
