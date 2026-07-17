@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-16 08:25 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-17 08:21 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-16T08:25:42.727112",
+  fetched_at: "2026-07-17T08:21:49.467041",
   item_count: 30,
   items: [
   {
@@ -11,8 +11,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "dmca",
       "piracy",
+      "dmca",
       "rom",
       "pirate"
     ]
@@ -25,11 +25,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "piracy",
-      "rom",
+      "pirate",
       "copyright",
-      "torrent"
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -42,20 +42,6 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy",
       "arrested",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Film Companies &#8220;Piggyback&#8221; on Other Lawsuits to Unmask BitTorrent Pirates",
-    "link": "https://torrentfreak.com/major-brand-ads-on-pirate-sites-surged-80-in-a-year-euipo-finds/",
-    "description": "A new report published by the EU Intellectual Property Office shows that the share of major brand advertising on pirate sites increased 80%. The problem is the worst on court-adjudicated pirate sites, where top brands account for more than half of all ads. The data further shows that anti-piracy blo",
-    "date": "Tue, 23 Jun 2026 12:12:30 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 8,
-    "matched_keywords": [
-      "intellectual property",
-      "piracy",
-      "torrent",
       "pirate"
     ]
   },
@@ -81,8 +67,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "arrested",
-      "torrent"
+      "torrent",
+      "arrested"
     ]
   },
   {
@@ -130,6 +116,18 @@ const ARIA_NEWS = {
     "relevance_score": 6,
     "matched_keywords": [
       "piracy",
+      "pirate"
+    ]
+  },
+  {
+    "title": "Pirate Sites&#8217; Domain Hopping Habit Undermines Belgium&#8217;s New Blocking Order",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Fri, 17 Jul 2026 07:49:07 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
       "pirate"
     ]
   },
@@ -202,9 +200,20 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"We thought, well, how would we reinvent this wheel?\" – Minecraft specialists 4J Studios on building a new sandbox crafting game from first principles",
+    "title": "London Games Festival moves to central venue for 2027 showcase",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Fri, 17 Jul 2026 07:29:28 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"We thought, well, how would we reinvent this wheel?\" – Minecraft specialists 4J Studios on building a new sandbox crafting game from first principles",
+    "link": "https://www.gamesindustry.biz/should-you-work-on-your-own-games-as-an-external-development-studio",
+    "description": "This article is part of ExDev Week. Read more",
     "date": "Wed, 15 Jul 2026 14:28:45 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -235,39 +244,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "EA removes microtransactions from EA Sports College Football 27 following backlash",
-    "link": "https://www.gamesindustry.biz/alinea-steam-revenue-reaches-111bn-marking-highest-half-year-on-record",
-    "description": "Estimates from data firm Aliena Analytics suggest Steam generated $11.1 billion in H1 revenue, up 14.5% year-over-year, marking the platform's highest half-year revenue on record. Read more",
-    "date": "Mon, 13 Jul 2026 08:14:17 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Id claims it has \"the crew we need to build the games and tech we're known for\" following mass layoffs",
-    "link": "https://www.gamesindustry.biz/ea-removes-microtransactions-from-ea-sports-college-football-27-following-backlash",
-    "description": "Electronic Arts has removed microtransactions from EA Sports College Football 27 in response to feedback from players and content creators. Read more",
-    "date": "Fri, 10 Jul 2026 18:24:27 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Can a top-down, focused software strategy save Xbox? | Opinion",
-    "link": "https://www.gamesindustry.biz/id-claims-it-has-the-crew-we-need-to-build-the-games-and-tech-were-known-for-following-mass-layoffs",
-    "description": "A social post from the account of id Software has stated that the studio still has \"the crew we need to build the games and tech we're known for\" after dramatic staff cuts across the Xbox portfolio lead to claims that the firm would no longer maintain the idtech engine used to create Doom, Wolfenste",
-    "date": "Fri, 10 Jul 2026 13:49:02 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
     "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
     "description": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform t",
@@ -286,9 +262,45 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "rom",
-      "torrent"
+      "torrent",
+      "rom"
     ]
+  },
+  {
+    "title": "\"If I work on that, my kids will think I'm Gandalf\" – Blackbird Interactive on the highs and lows of external development",
+    "link": "https://www.gamesindustry.biz/london-games-festival-moves-to-central-venue-for-2027-showcase",
+    "description": "Games London has announced that the London Games Festival will move to a central venue in 2027. Read more",
+    "date": "Thu, 16 Jul 2026 13:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Clair Obscur: Expedition 33 wins Best Game at Develop:Star Awards 2026",
+    "link": "https://www.gamesindustry.biz/if-i-work-on-that-my-kids-will-think-im-gandalf-blackbird-interactive-on-the-highs-and-lows-of-external-development",
+    "description": "This article is part of ExDev Week. Read more",
+    "date": "Thu, 16 Jul 2026 11:48:02 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "ZeniMax Online Studios leadership impacted by latest Xbox layoffs",
+    "link": "https://www.gamesindustry.biz/looney-tunes-world-of-mayhem-to-be-taken-offline-in-october-2026",
+    "description": "Mobile game Looney Tunes: World of Mayhem will be  shut down on October 15, 2026. Read more",
+    "date": "Thu, 16 Jul 2026 09:10:53 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Should you work on your own games as an external development studio?",
+    "link": "https://www.gamesindustry.biz/zenimax-online-studios-leadership-impacted-by-latest-xbox-layoffs",
+    "description": "Leadership at ZeniMax Online Studios were caught up  in last week's Xbox layoffs, including studio head Joseph Burba. Read more",
+    "date": "Thu, 16 Jul 2026 09:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "\"I had a front row seat to one of the greatest creative explosions in history\" – Glen Schofield announces retirement",
@@ -322,24 +334,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/how-evil-trout-aims-to-turn-a-cult-free-game-into-a-steam-hit-again",
     "description": "This week, indie studio Evil Trout Inc is releasing its second game, The Incident At Galley House. It&rsquo;s a remake of Type Help, a detective game that first made waves as a free release on Itch.io. At this point, any sharp-eyed sleuths may be getting a sense of d&eacute;j&agrave; vu. Because thi",
     "date": "Tue, 14 Jul 2026 10:17:12 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Ubisoft pivots to \"selective model\" to reduce reliance on individual game launches",
-    "link": "https://www.gamesindustry.biz/former-epic-games-vp-steve-allison-appointed-chief-business-officer-at-saber-interactive",
-    "description": "Former Epic Games vice president Steve Allison has joined Saber Interactive as chief business officer. Read more",
-    "date": "Tue, 14 Jul 2026 09:20:04 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Analyst: Game console shipments expected to decline 19.5% to 33.9m units in 2026",
-    "link": "https://www.gamesindustry.biz/ubisoft-pivots-to-selective-model-to-reduce-reliance-on-individual-game-launches",
-    "description": "Ubisoft is looking to reduce its reliance on individual game launches, pivoting instead toward a \"more selective model\" leaning on its back-catalog and live service titles for revenue. Read more",
-    "date": "Mon, 13 Jul 2026 13:13:28 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
