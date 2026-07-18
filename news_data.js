@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-17 08:21 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-18 08:03 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-17T08:21:49.467041",
+  fetched_at: "2026-07-18T08:03:38.969951",
   item_count: 30,
   items: [
   {
@@ -12,8 +12,8 @@ const ARIA_NEWS = {
     "relevance_score": 10,
     "matched_keywords": [
       "piracy",
-      "dmca",
       "rom",
+      "dmca",
       "pirate"
     ]
   },
@@ -25,11 +25,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
-      "pirate",
-      "copyright",
+      "rom",
       "torrent",
-      "rom"
+      "piracy",
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -67,8 +67,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "torrent",
-      "arrested"
+      "arrested",
+      "torrent"
     ]
   },
   {
@@ -200,9 +200,20 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "London Games Festival moves to central venue for 2027 showcase",
+    "title": "Sky-high prices risk disaster for a console market struggling to grow | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Fri, 17 Jul 2026 14:53:58 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "London Games Festival moves to central venue for 2027 showcase",
+    "link": "https://www.gamesindustry.biz/why-releasing-games-on-the-web-could-be-right-for-your-studio-in-2026",
+    "description": "Romy Halfweeg is Business Development Manager at web gaming platform Poki. Read more",
     "date": "Fri, 17 Jul 2026 07:29:28 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -244,6 +255,17 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "China Figures Prominently in WIPO Report Showing Generative AI Patent Activity Tripling in Past Two Years",
+    "link": "https://ipwatchdog.com/2026/07/16/the-ip-behind-the-putter-golfs-new-intellectual-property-race/",
+    "description": "When the world's best golfers descend on Royal Birkdale in Southport, England, for the 154th Open Championship, they arrive at golf's oldest major — the tournament that has defined the sport since 1860. Played on the windswept links where the game forged its traditions, The Open has always celebrate",
+    "date": "Wed, 15 Jul 2026 21:25:21 +0000",
+    "source": "IPWatchdog",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
     "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
     "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
     "description": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform t",
@@ -262,78 +284,60 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "torrent",
-      "rom"
+      "rom",
+      "torrent"
     ]
+  },
+  {
+    "title": "Bethesda reveals plans for Fallout 5, The Elder Scrolls 6, and more",
+    "link": "https://www.gamesindustry.biz/sky-high-prices-risk-disaster-for-a-console-market-struggling-to-grow-opinion",
+    "description": "Nobody needs to hear again about how the crisis in component costs is causing havoc on the hardware side of the games industry. That particular bell has been tolling for some months now, and we're resigned to not being able to do anything much about it. This is an event to be weathered, not one that",
+    "date": "Fri, 17 Jul 2026 14:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "UKIE: 22% of UK games industry workforce affected by job losses in last three years",
+    "link": "https://www.gamesindustry.biz/bethesda-reveals-plans-for-fallout-5-the-elder-scrolls-6-and-more",
+    "description": "Todd Howard, executive producer and game director at Bethesda Game Studios, has published a note outlining the company's plans over the coming years, including Fallout 5 and The Elder Scrolls 6, as well as remasters of Fallout 3 and Fallout: New Vegas, and a Fallout Shelter TV show. Read more",
+    "date": "Fri, 17 Jul 2026 13:50:23 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Gamecity Hamburg announces second round of prototype funding",
+    "link": "https://www.gamesindustry.biz/ukie-22-of-uk-games-industry-workforce-affected-by-job-losses-in-last-three-years",
+    "description": "22% of UK games industry workers have experienced job loss in the last three years, including redundancies, studio closures, and the end of fixed-term contracts. Read more",
+    "date": "Fri, 17 Jul 2026 12:35:31 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Develop:Brighton showed the UK games industry is done with hand-wringing and is determined to save itself | Opinion",
+    "link": "https://www.gamesindustry.biz/gamecity-hamburg-announces-second-round-of-prototype-funding",
+    "description": "Gamecity Hamburg has announced that its  second round of funding for prototypes will open this September. Read more",
+    "date": "Fri, 17 Jul 2026 10:28:35 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Why releasing games on the web could be right for your studio in 2026",
+    "link": "https://www.gamesindustry.biz/newzoo-gta-6-pre-orders-generate-260m-globally-during-first-week-of-campaign",
+    "description": "Grand Theft Auto 6 generated roughly $260 million in digital pre-orders during the last week of June, with Newzoo data indicating that $180 million was brought in across the US and five European markets (UK, France, Spain, Germany, and Italy). Read more",
+    "date": "Fri, 17 Jul 2026 09:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "\"If I work on that, my kids will think I'm Gandalf\" – Blackbird Interactive on the highs and lows of external development",
     "link": "https://www.gamesindustry.biz/london-games-festival-moves-to-central-venue-for-2027-showcase",
     "description": "Games London has announced that the London Games Festival will move to a central venue in 2027. Read more",
     "date": "Thu, 16 Jul 2026 13:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Clair Obscur: Expedition 33 wins Best Game at Develop:Star Awards 2026",
-    "link": "https://www.gamesindustry.biz/if-i-work-on-that-my-kids-will-think-im-gandalf-blackbird-interactive-on-the-highs-and-lows-of-external-development",
-    "description": "This article is part of ExDev Week. Read more",
-    "date": "Thu, 16 Jul 2026 11:48:02 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "ZeniMax Online Studios leadership impacted by latest Xbox layoffs",
-    "link": "https://www.gamesindustry.biz/looney-tunes-world-of-mayhem-to-be-taken-offline-in-october-2026",
-    "description": "Mobile game Looney Tunes: World of Mayhem will be  shut down on October 15, 2026. Read more",
-    "date": "Thu, 16 Jul 2026 09:10:53 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Should you work on your own games as an external development studio?",
-    "link": "https://www.gamesindustry.biz/zenimax-online-studios-leadership-impacted-by-latest-xbox-layoffs",
-    "description": "Leadership at ZeniMax Online Studios were caught up  in last week's Xbox layoffs, including studio head Joseph Burba. Read more",
-    "date": "Thu, 16 Jul 2026 09:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"I had a front row seat to one of the greatest creative explosions in history\" – Glen Schofield announces retirement",
-    "link": "https://www.gamesindustry.biz/we-thought-well-how-would-we-reinvent-this-wheel-minecraft-specialists-4j-studios-on-building-a-new-sandbox-crafting-game-from-first-principles",
-    "description": "Minecraft has been incredibly lucrative for 4J Studios. The Dundee-based firm, which was established in 2005 by Chris van der Kuyl, Paddy Burns, and Frank Arnot, has ported Mojang's game to almost every console under the sun since 2012. Read more",
-    "date": "Wed, 15 Jul 2026 13:27:21 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Aream &amp; Co: Gaming M&amp;A hits $2.3bn in Q2, highest level since 2022",
-    "link": "https://www.gamesindustry.biz/11-bit-studios-lays-off-20-workers-as-it-adjusts-new-project-teams-to-current-needs",
-    "description": "The Alters developer 11 Bit Studios has announced layoffs affecting 20 roles. Read more",
-    "date": "Tue, 14 Jul 2026 14:09:53 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "How Evil Trout aims to turn a cult free game into a Steam hit – again",
-    "link": "https://www.gamesindustry.biz/its-not-like-the-eye-of-sauron-is-looking-at-everything-were-doing-silent-hill-f-developer-neobards-on-why-trust-is-essential-for-co-dev",
-    "description": "This article is part of ExDev Week. Read more",
-    "date": "Tue, 14 Jul 2026 10:30:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Former Epic Games VP Steve Allison appointed chief business officer at Saber Interactive",
-    "link": "https://www.gamesindustry.biz/how-evil-trout-aims-to-turn-a-cult-free-game-into-a-steam-hit-again",
-    "description": "This week, indie studio Evil Trout Inc is releasing its second game, The Incident At Galley House. It&rsquo;s a remake of Type Help, a detective game that first made waves as a free release on Itch.io. At this point, any sharp-eyed sleuths may be getting a sense of d&eacute;j&agrave; vu. Because thi",
-    "date": "Tue, 14 Jul 2026 10:17:12 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
