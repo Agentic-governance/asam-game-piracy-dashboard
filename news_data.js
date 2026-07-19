@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-18 08:03 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-19 08:29 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-18T08:03:38.969951",
+  fetched_at: "2026-07-19T08:29:01.277363",
   item_count: 30,
   items: [
   {
@@ -11,9 +11,22 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "piracy",
-      "rom",
       "dmca",
+      "rom",
+      "piracy",
+      "pirate"
+    ]
+  },
+  {
+    "title": "Pirate Sites&#8217; Domain Hopping Habit Undermines Belgium&#8217;s New Blocking Order",
+    "link": "https://torrentfreak.com/fifa-world-cup-triggers-a-global-anti-piracy-crackdown/",
+    "description": "During the FIFA World Cup, law enforcement and private partners across multiple continents have seized or blocked well over a thousand pirate streaming domains, arrested suspects, and cut off advertising revenue. Taken together, \"Operation Offsides\" and \"Operación Tarjeta Roja\" are part of the broad",
+    "date": "Fri, 17 Jul 2026 07:49:07 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 9,
+    "matched_keywords": [
+      "arrested",
+      "seized",
       "pirate"
     ]
   },
@@ -25,10 +38,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
-      "torrent",
-      "piracy",
       "copyright",
+      "piracy",
+      "torrent",
+      "rom",
       "pirate"
     ]
   },
@@ -43,6 +56,19 @@ const ARIA_NEWS = {
       "piracy",
       "arrested",
       "pirate"
+    ]
+  },
+  {
+    "title": "FIFA World Cup Triggers a Global Anti-Piracy Crackdown",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Sun, 19 Jul 2026 01:19:48 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "piracy",
+      "copyright",
+      "crack"
     ]
   },
   {
@@ -120,18 +146,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Pirate Sites&#8217; Domain Hopping Habit Undermines Belgium&#8217;s New Blocking Order",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Fri, 17 Jul 2026 07:49:07 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "copyright",
-      "pirate"
-    ]
-  },
-  {
     "title": "Anime Piracy Giant Animeflv Mysteriously Stopped Serving Video",
     "link": "https://torrentfreak.com/eus-top-court-geo-blocking-protects-publishers-in-copyright-disputes-vpns-not-liable/",
     "description": "The EU's highest court has ruled that publishers who use state-of-the-art geo-blocking are not liable for copyright infringement, even when users bypass their restrictions with a VPN. The ruling, which was handed down in the landmark copyright battle involving digital copies of the iconic Anne Frank",
@@ -182,17 +196,6 @@ const ARIA_NEWS = {
     "link": "https://torrentfreak.com/european-isps-want-rightsholders-held-accountable-for-overblocking-damage/",
     "description": "For years, rightsholders have pushed for broader site blocking orders, with no direct liability if these result in overblocking. EuroISPA, which represents over 3,300 European internet service providers, is now asking the EU Commission to change that. The association points to a series of overblocki",
     "date": "Sat, 27 Jun 2026 13:45:38 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "pirate"
-    ]
-  },
-  {
-    "title": "Major Brand Ads on Pirate Sites Surged 80% in a Year, EUIPO Finds",
-    "link": "https://torrentfreak.com/ace-uefa-and-mexico-chase-pirlotvs-950-million-visit-piracy-network/",
-    "description": "One of Latin America's most-visited illegal sports streaming networks has been disrupted by ACE, UEFA, and Mexican authorities. The enforcement action targeted 44 domain names that were operating under popular sports streaming brands including PirloTV. While the enforcement effort appears to have di",
-    "date": "Wed, 24 Jun 2026 12:12:06 +0000",
     "source": "TorrentFreak",
     "relevance_score": 3,
     "matched_keywords": [
