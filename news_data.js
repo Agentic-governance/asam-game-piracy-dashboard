@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-19 08:29 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-20 09:29 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-19T08:29:01.277363",
+  fetched_at: "2026-07-20T09:29:05.946207",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "dmca",
-      "rom",
       "piracy",
-      "pirate"
+      "dmca",
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -38,11 +38,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "torrent",
+      "pirate",
       "copyright",
       "piracy",
-      "torrent",
-      "rom",
-      "pirate"
+      "rom"
     ]
   },
   {
@@ -67,8 +67,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "copyright",
-      "crack"
+      "crack",
+      "copyright"
     ]
   },
   {
@@ -80,8 +80,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -93,8 +93,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "arrested",
-      "torrent"
+      "torrent",
+      "arrested"
     ]
   },
   {
@@ -203,10 +203,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Sky-high prices risk disaster for a console market struggling to grow | Opinion",
+    "title": "\"There has to be a reason for people to buy an Xbox\" – Senior leadership reinforces commitment to console exclusivity",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 17 Jul 2026 14:53:58 +0000",
+    "date": "Mon, 20 Jul 2026 08:47:45 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -236,39 +236,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Compulsion Games seeks new partnerships following spin-out from from Xbox",
-    "link": "https://www.gamesindustry.biz/aream-co-gaming-ma-hits-23bn-in-q2-highest-level-since-2022",
-    "description": "Games industry mergers and acquisitions reached $2.3 billion with 54 transactions during Q2 of 2026, the highest level since 2022, according to a new report from investment bank Aream & Co. Read more",
-    "date": "Tue, 14 Jul 2026 13:03:49 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "\"It's not like the Eye of Sauron is looking at everything we're doing\" – Silent Hill F developer NeoBards on why trust is essential for co-dev",
-    "link": "https://www.gamesindustry.biz/compulsion-games-seeks-new-partnerships-following-spin-out-from-from-xbox",
-    "description": "Compulsion Games, developer of South of Midnight, has announced it is open to working with and supporting other studios following its independence from Xbox. Read more",
-    "date": "Tue, 14 Jul 2026 13:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "China Figures Prominently in WIPO Report Showing Generative AI Patent Activity Tripling in Past Two Years",
-    "link": "https://ipwatchdog.com/2026/07/16/the-ip-behind-the-putter-golfs-new-intellectual-property-race/",
-    "description": "When the world's best golfers descend on Royal Birkdale in Southport, England, for the 154th Open Championship, they arrive at golf's oldest major — the tournament that has defined the sport since 1860. Played on the windswept links where the game forged its traditions, The Open has always celebrate",
-    "date": "Wed, 15 Jul 2026 21:25:21 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
     "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
     "description": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform t",
@@ -290,6 +257,24 @@ const ARIA_NEWS = {
       "rom",
       "torrent"
     ]
+  },
+  {
+    "title": "32 workers at ZA/UM laid off following release of Zero Parades: For Dead Spies",
+    "link": "https://www.gamesindustry.biz/there-has-to-be-a-reason-for-people-to-buy-an-xbox-senior-leadership-reinforces-commitment-to-console-exclusivity",
+    "description": "Following the recent restructure at Xbox, senior leadership has emphasised the firm's focus on keeping games exclusive to its platform. Read more",
+    "date": "Mon, 20 Jul 2026 07:13:20 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Sky-high prices risk disaster for a console market struggling to grow | Opinion",
+    "link": "https://www.gamesindustry.biz/32-workers-at-zaum-laid-off-following-release-of-zero-parades-for-dead-spies",
+    "description": "ZA/UM has announced layoffs impacting 32 employees across all departments. Read more",
+    "date": "Fri, 17 Jul 2026 14:53:58 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Bethesda reveals plans for Fallout 5, The Elder Scrolls 6, and more",
@@ -341,6 +326,15 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/london-games-festival-moves-to-central-venue-for-2027-showcase",
     "description": "Games London has announced that the London Games Festival will move to a central venue in 2027. Read more",
     "date": "Thu, 16 Jul 2026 13:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Clair Obscur: Expedition 33 wins Best Game at Develop:Star Awards 2026",
+    "link": "https://www.gamesindustry.biz/if-i-work-on-that-my-kids-will-think-im-gandalf-blackbird-interactive-on-the-highs-and-lows-of-external-development",
+    "description": "This article is part of ExDev Week. Read more",
+    "date": "Thu, 16 Jul 2026 11:48:02 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
