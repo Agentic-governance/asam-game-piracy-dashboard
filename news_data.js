@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-20 09:29 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-21 08:39 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-20T09:29:05.946207",
+  fetched_at: "2026-07-21T08:39:43.086222",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
+      "rom",
       "piracy",
-      "dmca",
       "pirate",
-      "rom"
+      "dmca"
     ]
   },
   {
@@ -25,9 +25,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "arrested",
       "seized",
-      "pirate"
+      "pirate",
+      "arrested"
     ]
   },
   {
@@ -38,11 +38,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
-      "pirate",
-      "copyright",
+      "rom",
       "piracy",
-      "rom"
+      "torrent",
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -59,19 +59,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "FIFA World Cup Triggers a Global Anti-Piracy Crackdown",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sun, 19 Jul 2026 01:19:48 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "piracy",
-      "crack",
-      "copyright"
-    ]
-  },
-  {
     "title": "Researchers Create Self-Replicating Seedbox in Quest for Decentralized Democracy",
     "link": "https://torrentfreak.com/alleged-operators-of-hianime-piracy-ring-arrested-in-vietnam-with-u-s-support/",
     "description": "Supported by U.S. intelligence, Vietnamese authorities have dismantled a massive network of over 100 pirate sites. Seven suspects have been charged with running a mass copyright infringement operation that included the now-defunct piracy giant HiAnime.to, allegedly earning $12.8 million in advertisi",
@@ -80,8 +67,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -92,9 +79,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "torrent",
+      "piracy",
       "arrested"
+    ]
+  },
+  {
+    "title": "FIFA World Cup Triggers a Global Anti-Piracy Crackdown (Updated)",
+    "link": "https://torrentfreak.com/hollywood-wants-vietnam-to-slay-the-piracy-hydra/",
+    "description": "Shutting down major piracy operations such as Fmovies and HiAnime means little if successors pop up within weeks. In their submissions to the USTR's Section 301 investigation into Vietnam, both the MPA and IIPA stress that taking down copycats and successor sites should be a key enforcement priority",
+    "date": "Sun, 19 Jul 2026 01:19:48 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -117,8 +116,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "pirate"
+      "pirate",
+      "crack"
     ]
   },
   {
@@ -134,15 +133,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "ACE, UEFA, and Mexico Chase PirloTV&#8217;s 950-Million-Visit Piracy Network",
-    "link": "https://torrentfreak.com/eu-backed-dns-resolver-collects-pirate-site-blocklist-which-it-doesnt-use/",
-    "description": "DNS4EU is a relatively young DNS provider that launched last year with European Commission funding. The company is pitched as a privacy-first alternative to Google and Cloudflare, but it also comes with site blocking in mind. DNS4EU has shown an interest in pirate site blocklists, including the one ",
-    "date": "Thu, 25 Jun 2026 09:52:33 +0000",
+    "title": "Hollywood Wants Vietnam to Slay the Piracy Hydra",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Mon, 20 Jul 2026 11:00:05 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 6,
+    "relevance_score": 4,
     "matched_keywords": [
       "piracy",
-      "pirate"
+      "copyright"
     ]
   },
   {
@@ -203,10 +202,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"There has to be a reason for people to buy an Xbox\" – Senior leadership reinforces commitment to console exclusivity",
+    "title": "Unity 7 to launch in Q1 2027; new engine is a \"direct continuation\" of Unity 6",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 20 Jul 2026 08:47:45 +0000",
+    "date": "Tue, 21 Jul 2026 07:44:28 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Netflix Playground drives 600% surge in kids games engagement",
+    "link": "https://www.gamesindustry.biz/the-market-is-becoming-much-more-diverse-will-the-proliferation-of-football-video-games-last",
+    "description": "Since 2022, when FIFA and Electronic Arts ended their almost 30-year partnership, a wide range of new football video games have emerged, including the free-to-play title UFL and the Netflix exclusive FIFA World Cup: Launch Edition from Delphi Interactive. Read more",
+    "date": "Mon, 20 Jul 2026 10:53:11 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -225,11 +235,11 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"We thought, well, how would we reinvent this wheel?\" – Minecraft specialists 4J Studios on building a new sandbox crafting game from first principles",
-    "link": "https://www.gamesindustry.biz/should-you-work-on-your-own-games-as-an-external-development-studio",
-    "description": "This article is part of ExDev Week. Read more",
-    "date": "Wed, 15 Jul 2026 14:28:45 +0000",
-    "source": "GamesIndustry",
+    "title": "China Figures Prominently in WIPO Report Showing Generative AI Patent Activity Tripling in Past Two Years",
+    "link": "https://ipwatchdog.com/2026/07/16/the-ip-behind-the-putter-golfs-new-intellectual-property-race/",
+    "description": "When the world's best golfers descend on Royal Birkdale in Southport, England, for the 154th Open Championship, they arrive at golf's oldest major — the tournament that has defined the sport since 1860. Played on the windswept links where the game forged its traditions, The Open has always celebrate",
+    "date": "Wed, 15 Jul 2026 21:25:21 +0000",
+    "source": "IPWatchdog",
     "relevance_score": 3,
     "matched_keywords": [
       "rom"
@@ -259,6 +269,51 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Court orders Midgar Studio to liquidate after failing to secure a buyer",
+    "link": "https://www.gamesindustry.biz/valve-suggests-memory-crisis-is-still-getting-worse-admitting-were-limited-by-memory-capacity-for-sure",
+    "description": "Steam Machine developer and gaming giant Valve has admitted that sourcing memory and storage supply for the Steam Machine - and beyond - is \"still getting worse.\" Read more",
+    "date": "Mon, 20 Jul 2026 18:00:29 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Union slams Microsoft for \"unfair labor practice\", alleging Xbox \"unlawfully\" laid off staff",
+    "link": "https://www.gamesindustry.biz/court-orders-midgar-studio-to-liquidate-after-failing-to-secure-a-buyer",
+    "description": "Edge of Eternity developer Midgar Studio is closing down. Read more",
+    "date": "Mon, 20 Jul 2026 15:51:31 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"I'm not a creative. I like spreadsheets\" – The low-profile team that powers Marathon, Subnautica 2, NBA 2K, and more",
+    "link": "https://www.gamesindustry.biz/union-slams-microsoft-for-unfair-labor-practice-alleging-xbox-unlawfully-laid-off-staff",
+    "description": "Xbox has been accused of \"unlawfully\" laying off staff without giving notice to, or discussing it with, recognized unions. Read more",
+    "date": "Mon, 20 Jul 2026 15:23:07 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"The market is becoming much more diverse\" – Will the proliferation of football video games last?",
+    "link": "https://www.gamesindustry.biz/im-not-a-creative-i-like-spreadsheets-the-low-profile-team-that-runs-servers-for-marathon-subnautica-2-nba-2k-and-more",
+    "description": "This article concludes ExDev Week. You can find previous articles here.  Read more",
+    "date": "Mon, 20 Jul 2026 11:39:41 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"There has to be a reason for people to buy an Xbox\" – Senior leadership reinforces commitment to console exclusivity",
+    "link": "https://www.gamesindustry.biz/netflix-playground-drives-600-surge-in-kids-games-engagement",
+    "description": "Since Netflix Playground's global launch in April, the platform's dedicated mobile app for kids games has tripled its daily player count, leading to a 600% year-on-year increase in kids engagement. Read more",
+    "date": "Mon, 20 Jul 2026 08:47:45 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "32 workers at ZA/UM laid off following release of Zero Parades: For Dead Spies",
     "link": "https://www.gamesindustry.biz/there-has-to-be-a-reason-for-people-to-buy-an-xbox-senior-leadership-reinforces-commitment-to-console-exclusivity",
     "description": "Following the recent restructure at Xbox, senior leadership has emphasised the firm's focus on keeping games exclusive to its platform. Read more",
@@ -281,60 +336,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/sky-high-prices-risk-disaster-for-a-console-market-struggling-to-grow-opinion",
     "description": "Nobody needs to hear again about how the crisis in component costs is causing havoc on the hardware side of the games industry. That particular bell has been tolling for some months now, and we're resigned to not being able to do anything much about it. This is an event to be weathered, not one that",
     "date": "Fri, 17 Jul 2026 14:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "UKIE: 22% of UK games industry workforce affected by job losses in last three years",
-    "link": "https://www.gamesindustry.biz/bethesda-reveals-plans-for-fallout-5-the-elder-scrolls-6-and-more",
-    "description": "Todd Howard, executive producer and game director at Bethesda Game Studios, has published a note outlining the company's plans over the coming years, including Fallout 5 and The Elder Scrolls 6, as well as remasters of Fallout 3 and Fallout: New Vegas, and a Fallout Shelter TV show. Read more",
-    "date": "Fri, 17 Jul 2026 13:50:23 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Gamecity Hamburg announces second round of prototype funding",
-    "link": "https://www.gamesindustry.biz/ukie-22-of-uk-games-industry-workforce-affected-by-job-losses-in-last-three-years",
-    "description": "22% of UK games industry workers have experienced job loss in the last three years, including redundancies, studio closures, and the end of fixed-term contracts. Read more",
-    "date": "Fri, 17 Jul 2026 12:35:31 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Develop:Brighton showed the UK games industry is done with hand-wringing and is determined to save itself | Opinion",
-    "link": "https://www.gamesindustry.biz/gamecity-hamburg-announces-second-round-of-prototype-funding",
-    "description": "Gamecity Hamburg has announced that its  second round of funding for prototypes will open this September. Read more",
-    "date": "Fri, 17 Jul 2026 10:28:35 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Why releasing games on the web could be right for your studio in 2026",
-    "link": "https://www.gamesindustry.biz/newzoo-gta-6-pre-orders-generate-260m-globally-during-first-week-of-campaign",
-    "description": "Grand Theft Auto 6 generated roughly $260 million in digital pre-orders during the last week of June, with Newzoo data indicating that $180 million was brought in across the US and five European markets (UK, France, Spain, Germany, and Italy). Read more",
-    "date": "Fri, 17 Jul 2026 09:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"If I work on that, my kids will think I'm Gandalf\" – Blackbird Interactive on the highs and lows of external development",
-    "link": "https://www.gamesindustry.biz/london-games-festival-moves-to-central-venue-for-2027-showcase",
-    "description": "Games London has announced that the London Games Festival will move to a central venue in 2027. Read more",
-    "date": "Thu, 16 Jul 2026 13:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Clair Obscur: Expedition 33 wins Best Game at Develop:Star Awards 2026",
-    "link": "https://www.gamesindustry.biz/if-i-work-on-that-my-kids-will-think-im-gandalf-blackbird-interactive-on-the-highs-and-lows-of-external-development",
-    "description": "This article is part of ExDev Week. Read more",
-    "date": "Thu, 16 Jul 2026 11:48:02 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
