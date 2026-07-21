@@ -1,6 +1,8 @@
-// [PUBLIC KNOWLEDGE] Copyright enforcement caselaw data
-// Sources: US Court records (PACER), Japan Courts (裁判所), EU case databases
-// Compiled for ARIA v3 enforcement intelligence
+// [UNVERIFIED — ILLUSTRATIVE] Copyright enforcement caselaw data.
+// These win-rate / damages / precedent figures are NOT validated against primary
+// sources and MUST NOT be presented as established precedent. At least one entry was
+// found factually inverted (see Sony below). Pending qualified legal review before any
+// client-facing use.
 
 const ARIA_CASELAW = {
 
@@ -140,14 +142,16 @@ const ARIA_CASELAW = {
   by_publisher: {
     Nintendo:     { relevant_cases: 47, win_rate: 0.89, total_damages_usd: 14200000, strongest_precedent: "Nintendo v. RomUniverse ($2.1M)" },
     Activision:   { relevant_cases: 23, win_rate: 0.78, total_damages_usd: 8900000, strongest_precedent: "Activision v. Radical Software ($1.8M)" },
-    Sony:         { relevant_cases: 31, win_rate: 0.81, total_damages_usd: 11400000, strongest_precedent: "Sony v. Connectix ($10.5M settlement)" },
+    // NOTE: Sony v. Connectix (203 F.3d 596, 9th Cir. 2000) was a Sony LOSS (fair-use
+    // reverse engineering) — it was previously cited here as a $10.5M win, which is inverted.
+    Sony:         { relevant_cases: 31, win_rate: 0.81, total_damages_usd: 11400000, strongest_precedent: "(pending qualified legal review)" },
     EA:           { relevant_cases: 18, win_rate: 0.72, total_damages_usd: 5600000, strongest_precedent: "EA v. Zynga ($600K settlement)" },
     "Square Enix":{ relevant_cases: 8,  win_rate: 0.75, total_damages_usd: 2100000 },
     Sega:         { relevant_cases: 14, win_rate: 0.86, total_damages_usd: 4300000, strongest_precedent: "Sega v. Accolade (landmark reverse engineering case)" },
     "Bandai Namco":{ relevant_cases: 6, win_rate: 0.83, total_damages_usd: 1800000 },
     Ubisoft:      { relevant_cases: 11, win_rate: 0.73, total_damages_usd: 3200000 },
     Capcom:       { relevant_cases: 9,  win_rate: 0.78, total_damages_usd: 2700000 },
-    Microsoft:    { relevant_cases: 52, win_rate: 0.82, total_damages_usd: 24100000, strongest_precedent: "Microsoft v. Software pirates ($9M)" },
+    Microsoft:    { relevant_cases: 52, win_rate: 0.82, total_damages_usd: 24100000, strongest_precedent: "(pending qualified legal review)" },
     Rockstar:     { relevant_cases: 7,  win_rate: 0.86, total_damages_usd: 3100000 },
     Konami:       { relevant_cases: 5,  win_rate: 0.80, total_damages_usd: 1200000 },
     Bethesda:     { relevant_cases: 4,  win_rate: 0.75, total_damages_usd: 900000 },
