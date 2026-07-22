@@ -1,8 +1,24 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-21 08:39 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-22 08:39 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-21T08:39:43.086222",
+  fetched_at: "2026-07-22T08:39:23.567279",
   item_count: 30,
   items: [
+  {
+    "title": "FIFA World Cup Triggers a Global Anti-Piracy Crackdown (Updated)",
+    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Backrooms' tops the chart, followed by 'Obsession.' 'Star Wars: The Mandalorian and Grogu' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sun, 19 Jul 2026 01:19:48 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 12,
+    "matched_keywords": [
+      "rom",
+      "crack",
+      "copyright",
+      "pirate",
+      "torrent",
+      "piracy"
+    ]
+  },
   {
     "title": "Pirate Site Blocking Is Legally Impossible in Bulgaria, Supreme Court Ruled",
     "link": "https://torrentfreak.com/pearsons-anti-piracy-vendor-takes-down-best-selling-authors-own-github-repo/",
@@ -12,8 +28,8 @@ const ARIA_NEWS = {
     "relevance_score": 10,
     "matched_keywords": [
       "rom",
-      "piracy",
       "pirate",
+      "piracy",
       "dmca"
     ]
   },
@@ -25,24 +41,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "seized",
+      "arrested",
       "pirate",
-      "arrested"
-    ]
-  },
-  {
-    "title": "Google Opposes Site Blocking in Europe as U.S. Piracy Blocking Plans Gain Momentum",
-    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Obsession' tops the chart, followed by 'Masters of the Universe.' 'Mortal Kombat II' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sat, 11 Jul 2026 11:37:45 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 9,
-    "matched_keywords": [
-      "rom",
-      "piracy",
-      "torrent",
-      "copyright",
-      "pirate"
+      "seized"
     ]
   },
   {
@@ -53,9 +54,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "arrested",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -66,9 +67,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "pirate",
       "piracy",
-      "copyright",
-      "pirate"
+      "copyright"
     ]
   },
   {
@@ -79,21 +80,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "arrested",
       "torrent",
-      "piracy",
-      "arrested"
+      "piracy"
     ]
   },
   {
-    "title": "FIFA World Cup Triggers a Global Anti-Piracy Crackdown (Updated)",
+    "title": "Top 10 Most Pirated Movies of The Week – 07/20/2026",
     "link": "https://torrentfreak.com/hollywood-wants-vietnam-to-slay-the-piracy-hydra/",
     "description": "Shutting down major piracy operations such as Fmovies and HiAnime means little if successors pop up within weeks. In their submissions to the USTR's Section 301 investigation into Vietnam, both the MPA and IIPA stress that taking down copycats and successor sites should be a key enforcement priority",
-    "date": "Sun, 19 Jul 2026 01:19:48 +0000",
+    "date": "Sun, 19 Jul 2026 23:09:40 +0000",
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -104,20 +105,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 07/13/2026",
+    "title": "Google Opposes Site Blocking in Europe as U.S. Piracy Blocking Plans Gain Momentum",
     "link": "https://torrentfreak.com/u-s-seizes-more-pirate-sports-streaming-domains-but-iranian-fallbacks-remain/",
     "description": "The U.S. continues to crack down on sports streaming sites, seizing well over a hundred additional domain names this weekend. While these enforcement actions sorted effect, several of the targeted domains now use fallback domains on Iran's .ir country-code TLD, which might be harder to reach for Ame",
-    "date": "Sun, 12 Jul 2026 23:09:40 +0000",
+    "date": "Sat, 11 Jul 2026 11:37:45 +0000",
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -128,15 +129,15 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
-    "title": "Hollywood Wants Vietnam to Slay the Piracy Hydra",
+    "title": "DNS Bypass Tweets Keep Uptobox Employee&#8217;s €197K Frozen in Disney Piracy Case",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Mon, 20 Jul 2026 11:00:05 +0000",
+    "date": "Wed, 22 Jul 2026 07:03:32 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
@@ -157,15 +158,14 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "EU-Backed DNS Resolver Collects Pirate Site Blocklist, Which It Doesn&#8217;t Use",
-    "link": "https://torrentfreak.com/feds-seize-domain-names-of-nearly-400-pirate-sports-streaming-sites/",
-    "description": "The U.S. Department of Justice announced the seizure of nearly 400 pirate streaming domain names that offered access to FIFA World Cup matches. This enforcement action, dubbed \"Operation Offsides\", targets popular brands including \"rojadirecta\", \"koora\", and \"futbollibre\". TorrentFreak tracked down ",
-    "date": "Sat, 27 Jun 2026 08:28:03 +0000",
+    "title": "Hollywood Wants Vietnam to Slay the Piracy Hydra",
+    "link": "https://torrentfreak.com/dns-bypass-tweets-keep-uptobox-employees-e197k-frozen-in-disney-piracy-case/",
+    "description": "Sharing instructions on how to bypass court-ordered ISP blocks can be enough to freeze someone's personal savings in a piracy case, a French appeals court has ruled. The order is a mixed victory for Disney, which failed to prove the defendant was the de facto operator of the now-defunct Uptobox site",
+    "date": "Mon, 20 Jul 2026 11:00:05 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 4,
+    "relevance_score": 3,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -202,10 +202,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Unity 7 to launch in Q1 2027; new engine is a \"direct continuation\" of Unity 6",
+    "title": "Xbox brings starter edition of Game Pass to Meta Horizon+",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 21 Jul 2026 07:44:28 +0000",
+    "date": "Wed, 22 Jul 2026 07:43:47 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Alpha Dog Games founders reacquire studio from Microsoft following 2024 closure",
+    "link": "https://www.gamesindustry.biz/xbox-brings-starter-edition-of-game-pass-to-meta-horizon",
+    "description": "Xbox has begun offering the starter edition of Game Pass to Meta Horizon+ subscribers. Read more",
+    "date": "Wed, 22 Jul 2026 06:53:59 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -218,28 +229,6 @@ const ARIA_NEWS = {
     "description": "Since 2022, when FIFA and Electronic Arts ended their almost 30-year partnership, a wide range of new football video games have emerged, including the free-to-play title UFL and the Netflix exclusive FIFA World Cup: Launch Edition from Delphi Interactive. Read more",
     "date": "Mon, 20 Jul 2026 10:53:11 +0000",
     "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "London Games Festival moves to central venue for 2027 showcase",
-    "link": "https://www.gamesindustry.biz/why-releasing-games-on-the-web-could-be-right-for-your-studio-in-2026",
-    "description": "Romy Halfweeg is Business Development Manager at web gaming platform Poki. Read more",
-    "date": "Fri, 17 Jul 2026 07:29:28 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "China Figures Prominently in WIPO Report Showing Generative AI Patent Activity Tripling in Past Two Years",
-    "link": "https://ipwatchdog.com/2026/07/16/the-ip-behind-the-putter-golfs-new-intellectual-property-race/",
-    "description": "When the world's best golfers descend on Royal Birkdale in Southport, England, for the 154th Open Championship, they arrive at golf's oldest major — the tournament that has defined the sport since 1860. Played on the windswept links where the game forged its traditions, The Open has always celebrate",
-    "date": "Wed, 15 Jul 2026 21:25:21 +0000",
-    "source": "IPWatchdog",
     "relevance_score": 3,
     "matched_keywords": [
       "rom"
@@ -269,7 +258,43 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Court orders Midgar Studio to liquidate after failing to secure a buyer",
+    "title": "Esports consultancy The Story Mob rebrands to \"strategic player culture advisory\"",
+    "link": "https://www.gamesindustry.biz/alpha-dog-games-founders-reacquire-studio-from-microsoft-following-2024-closure",
+    "description": "Mighty Doom developer Alpha Dog Games has reemerged as an independent studio after being  shut down by Microsoft in 2024. Read more",
+    "date": "Tue, 21 Jul 2026 13:34:48 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Ethical, low-power, and on-device: Studio Atelico's vision for the future of generative AI",
+    "link": "https://www.gamesindustry.biz/esports-consultancy-the-story-mob-rebrands-to-strategic-player-culture-advisory",
+    "description": "Esports communications consultancy The Story Mob has rebranded as a \"strategic player culture advisory\" to better serve the broader games industry. Read more",
+    "date": "Tue, 21 Jul 2026 11:00:03 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Nintendo files motion to dismiss consumer lawsuit over tariff refunds",
+    "link": "https://www.gamesindustry.biz/ethical-low-power-and-on-device-studio-atelicos-vision-for-the-future-of-generative-ai",
+    "description": "In January last year, gaming startup Studio Atelico  launched the Atelico AI Engine, which operates on-device rather than relying on costly cloud solutions. Six months later, the company secured $5 million in seed funding \"to redefine the role of generative AI in games.\" Read more",
+    "date": "Tue, 21 Jul 2026 10:53:33 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Unity 7 to launch in Q1 2027; new engine is a \"direct continuation\" of Unity 6",
+    "link": "https://www.gamesindustry.biz/nintendo-files-motion-to-dismiss-consumer-lawsuit-over-tariff-refunds",
+    "description": "Nintendo has requested the dismissal of a class action lawsuit that accused the company of  failing to pass on tariff refunds to consumers. Read more",
+    "date": "Tue, 21 Jul 2026 07:44:28 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Court orders Edge of Eternity dev Midgar Studio to liquidate after failing to secure a buyer",
     "link": "https://www.gamesindustry.biz/valve-suggests-memory-crisis-is-still-getting-worse-admitting-were-limited-by-memory-capacity-for-sure",
     "description": "Steam Machine developer and gaming giant Valve has admitted that sourcing memory and storage supply for the Steam Machine - and beyond - is \"still getting worse.\" Read more",
     "date": "Mon, 20 Jul 2026 18:00:29 +0000",
@@ -309,33 +334,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/netflix-playground-drives-600-surge-in-kids-games-engagement",
     "description": "Since Netflix Playground's global launch in April, the platform's dedicated mobile app for kids games has tripled its daily player count, leading to a 600% year-on-year increase in kids engagement. Read more",
     "date": "Mon, 20 Jul 2026 08:47:45 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "32 workers at ZA/UM laid off following release of Zero Parades: For Dead Spies",
-    "link": "https://www.gamesindustry.biz/there-has-to-be-a-reason-for-people-to-buy-an-xbox-senior-leadership-reinforces-commitment-to-console-exclusivity",
-    "description": "Following the recent restructure at Xbox, senior leadership has emphasised the firm's focus on keeping games exclusive to its platform. Read more",
-    "date": "Mon, 20 Jul 2026 07:13:20 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Sky-high prices risk disaster for a console market struggling to grow | Opinion",
-    "link": "https://www.gamesindustry.biz/32-workers-at-zaum-laid-off-following-release-of-zero-parades-for-dead-spies",
-    "description": "ZA/UM has announced layoffs impacting 32 employees across all departments. Read more",
-    "date": "Fri, 17 Jul 2026 14:53:58 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Bethesda reveals plans for Fallout 5, The Elder Scrolls 6, and more",
-    "link": "https://www.gamesindustry.biz/sky-high-prices-risk-disaster-for-a-console-market-struggling-to-grow-opinion",
-    "description": "Nobody needs to hear again about how the crisis in component costs is causing havoc on the hardware side of the games industry. That particular bell has been tolling for some months now, and we're resigned to not being able to do anything much about it. This is an event to be weathered, not one that",
-    "date": "Fri, 17 Jul 2026 14:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
