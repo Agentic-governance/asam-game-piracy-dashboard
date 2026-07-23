@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-22 08:39 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-23 08:40 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-22T08:39:23.567279",
+  fetched_at: "2026-07-23T08:40:52.719433",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "rom",
-      "crack",
       "copyright",
+      "crack",
+      "piracy",
       "pirate",
-      "torrent",
-      "piracy"
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -27,10 +27,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "rom",
-      "pirate",
+      "dmca",
       "piracy",
-      "dmca"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -41,9 +41,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "arrested",
+      "seized",
       "pirate",
-      "seized"
+      "arrested"
     ]
   },
   {
@@ -54,9 +54,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "arrested",
+      "piracy",
       "pirate",
-      "piracy"
+      "arrested"
     ]
   },
   {
@@ -67,9 +67,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "copyright",
       "piracy",
-      "copyright"
+      "pirate"
     ]
   },
   {
@@ -80,9 +80,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "arrested",
       "torrent",
-      "piracy"
+      "piracy",
+      "arrested"
     ]
   },
   {
@@ -93,8 +93,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -105,8 +105,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -117,8 +117,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -129,8 +129,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -141,8 +141,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -153,8 +153,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -202,10 +202,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Xbox brings starter edition of Game Pass to Meta Horizon+",
+    "title": "The GamesIndustry.biz Summer Party 2026 in photos",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 22 Jul 2026 07:43:47 +0000",
+    "date": "Thu, 23 Jul 2026 08:32:27 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Hasbro records $56m write-down and cancels \"several games\" scheduled for 2028 and beyond",
+    "link": "https://www.gamesindustry.biz/despite-xbox-console-sales-doubling-yoy-hardware-sales-across-the-us-are-down-62-us-monthly-charts",
+    "description": "Total video game sales in the US fell by a fifth year-on-year, with total projected video game sales estimated to have dropped from $5.7 billion to $4.5 billion between June 2025 and June 2026. Read more",
+    "date": "Wed, 22 Jul 2026 16:41:27 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "South of Midnight wins Game and Experience of the Year at Games for Change Awards 2026",
+    "link": "https://www.gamesindustry.biz/games-for-change-aims-to-ground-parental-gaming-concerns-in-evidence-rather-than-fear",
+    "description": "Non-profit organisation Games for Change has published a white paper exploring how parents approach video games, and how to shift their focus away from \"fear-driven narratives focused on addiction, violence, and excessive screen time.\" Read more",
+    "date": "Wed, 22 Jul 2026 09:39:07 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -217,17 +239,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/xbox-brings-starter-edition-of-game-pass-to-meta-horizon",
     "description": "Xbox has begun offering the starter edition of Game Pass to Meta Horizon+ subscribers. Read more",
     "date": "Wed, 22 Jul 2026 06:53:59 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Netflix Playground drives 600% surge in kids games engagement",
-    "link": "https://www.gamesindustry.biz/the-market-is-becoming-much-more-diverse-will-the-proliferation-of-football-video-games-last",
-    "description": "Since 2022, when FIFA and Electronic Arts ended their almost 30-year partnership, a wide range of new football video games have emerged, including the free-to-play title UFL and the Netflix exclusive FIFA World Cup: Launch Edition from Delphi Interactive. Read more",
-    "date": "Mon, 20 Jul 2026 10:53:11 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -253,9 +264,63 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "rom",
-      "torrent"
+      "torrent",
+      "rom"
     ]
+  },
+  {
+    "title": "Xbox announces backwards compatibility for PC and handheld devices",
+    "link": "https://www.gamesindustry.biz/the-gamesindustrybiz-summer-party-2026-in-photos",
+    "description": "Last week, GamesIndustry.biz once again hosted the great and good of the UK games industry at our annual summer party, held once again on Brighton Pier during the Develop: Brighton conference. Read more",
+    "date": "Thu, 23 Jul 2026 07:41:46 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Gamescom 2026's exhibition area is fully booked for the first time",
+    "link": "https://www.gamesindustry.biz/xbox-announces-backwards-compatibility-for-pc-and-handheld-devices",
+    "description": "Xbox is introducing  backwards compatibility for PC and handheld devices, starting with four original titles: BLiNX: The Time Sweeper, Conker: Live and Reloaded, Crimson Skies: High Road to Revenge, and Fuzion Frenzy. Read more",
+    "date": "Wed, 22 Jul 2026 20:37:44 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Despite Xbox console sales doubling YoY, hardware sales across the US are down 62% | US Monthly Charts",
+    "link": "https://www.gamesindustry.biz/gamescom-2026s-exhibition-area-is-fully-booked-for-the-first-time",
+    "description": "The exhibition area of Gamescom 2026 has hit a new milestone and is, for the first time, completely booked up this year. Read more",
+    "date": "Wed, 22 Jul 2026 17:26:25 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Hitscan is a new tool for connecting publishers with creators that are \"driving the most impact and viewership\"",
+    "link": "https://www.gamesindustry.biz/hasbro-records-56m-write-down-and-cancels-several-games-scheduled-for-2028-and-beyond",
+    "description": "Hasbro has recorded a $56 million impairment charge against its video game portfolio, confirming it has cancelled \"several\" games scheduled for release in 2028 and beyond. Read more",
+    "date": "Wed, 22 Jul 2026 15:02:48 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Games for Change report aims to ground parental gaming concerns in \"evidence rather than fear\"",
+    "link": "https://www.gamesindustry.biz/hitscan-is-a-new-tool-for-connecting-publishers-with-creators-that-are-driving-the-most-impact-and-viewership",
+    "description": "For a decade now, LA-based talent management company Loaded Holdings has been building up its video games business. Read more",
+    "date": "Wed, 22 Jul 2026 13:52:02 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Xbox brings starter edition of Game Pass to Meta Horizon+",
+    "link": "https://www.gamesindustry.biz/south-of-midnight-wins-game-and-experience-of-the-year-at-games-for-change-awards-2026",
+    "description": "Games for Change has revealed the winners of its 2026 awards, naming Compulsion Games' South of Midnight as Game and Experience of the Year. Read more",
+    "date": "Wed, 22 Jul 2026 07:43:47 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Esports consultancy The Story Mob rebrands to \"strategic player culture advisory\"",
@@ -271,69 +336,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/esports-consultancy-the-story-mob-rebrands-to-strategic-player-culture-advisory",
     "description": "Esports communications consultancy The Story Mob has rebranded as a \"strategic player culture advisory\" to better serve the broader games industry. Read more",
     "date": "Tue, 21 Jul 2026 11:00:03 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Nintendo files motion to dismiss consumer lawsuit over tariff refunds",
-    "link": "https://www.gamesindustry.biz/ethical-low-power-and-on-device-studio-atelicos-vision-for-the-future-of-generative-ai",
-    "description": "In January last year, gaming startup Studio Atelico  launched the Atelico AI Engine, which operates on-device rather than relying on costly cloud solutions. Six months later, the company secured $5 million in seed funding \"to redefine the role of generative AI in games.\" Read more",
-    "date": "Tue, 21 Jul 2026 10:53:33 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Unity 7 to launch in Q1 2027; new engine is a \"direct continuation\" of Unity 6",
-    "link": "https://www.gamesindustry.biz/nintendo-files-motion-to-dismiss-consumer-lawsuit-over-tariff-refunds",
-    "description": "Nintendo has requested the dismissal of a class action lawsuit that accused the company of  failing to pass on tariff refunds to consumers. Read more",
-    "date": "Tue, 21 Jul 2026 07:44:28 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Court orders Edge of Eternity dev Midgar Studio to liquidate after failing to secure a buyer",
-    "link": "https://www.gamesindustry.biz/valve-suggests-memory-crisis-is-still-getting-worse-admitting-were-limited-by-memory-capacity-for-sure",
-    "description": "Steam Machine developer and gaming giant Valve has admitted that sourcing memory and storage supply for the Steam Machine - and beyond - is \"still getting worse.\" Read more",
-    "date": "Mon, 20 Jul 2026 18:00:29 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Union slams Microsoft for \"unfair labor practice\", alleging Xbox \"unlawfully\" laid off staff",
-    "link": "https://www.gamesindustry.biz/court-orders-midgar-studio-to-liquidate-after-failing-to-secure-a-buyer",
-    "description": "Edge of Eternity developer Midgar Studio is closing down. Read more",
-    "date": "Mon, 20 Jul 2026 15:51:31 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"I'm not a creative. I like spreadsheets\" – The low-profile team that powers Marathon, Subnautica 2, NBA 2K, and more",
-    "link": "https://www.gamesindustry.biz/union-slams-microsoft-for-unfair-labor-practice-alleging-xbox-unlawfully-laid-off-staff",
-    "description": "Xbox has been accused of \"unlawfully\" laying off staff without giving notice to, or discussing it with, recognized unions. Read more",
-    "date": "Mon, 20 Jul 2026 15:23:07 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"The market is becoming much more diverse\" – Will the proliferation of football video games last?",
-    "link": "https://www.gamesindustry.biz/im-not-a-creative-i-like-spreadsheets-the-low-profile-team-that-runs-servers-for-marathon-subnautica-2-nba-2k-and-more",
-    "description": "This article concludes ExDev Week. You can find previous articles here.  Read more",
-    "date": "Mon, 20 Jul 2026 11:39:41 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"There has to be a reason for people to buy an Xbox\" – Senior leadership reinforces commitment to console exclusivity",
-    "link": "https://www.gamesindustry.biz/netflix-playground-drives-600-surge-in-kids-games-engagement",
-    "description": "Since Netflix Playground's global launch in April, the platform's dedicated mobile app for kids games has tripled its daily player count, leading to a 600% year-on-year increase in kids engagement. Read more",
-    "date": "Mon, 20 Jul 2026 08:47:45 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
