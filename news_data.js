@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-23 08:40 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-24 08:36 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-23T08:40:52.719433",
+  fetched_at: "2026-07-24T08:36:41.875584",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "copyright",
-      "crack",
-      "piracy",
-      "pirate",
       "rom",
-      "torrent"
+      "piracy",
+      "copyright",
+      "pirate",
+      "torrent",
+      "crack"
     ]
   },
   {
@@ -27,10 +27,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "dmca",
-      "piracy",
       "pirate",
-      "rom"
+      "dmca",
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -41,9 +41,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "seized",
       "pirate",
-      "arrested"
+      "arrested",
+      "seized"
     ]
   },
   {
@@ -54,9 +54,22 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "pirate",
-      "arrested"
+      "arrested",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Canada&#8217;s &#8216;Expanded Scope&#8217; Blocking Order Targets Existing and Future Pirate Sites",
+    "link": "https://torrentfreak.com/x-and-music-publishers-settle-three-year-copyright-clash-after-spacex-ipo/",
+    "description": "Three years of litigation that triggered explosive allegations of DMCA \"weaponization\" and \"maximum pain\" pressure tactics quietly ended in coordinated settlements. X Corp and several music companies settled the copyright infringement lawsuit and X's antitrust counterstrike, with prejudice. The dism",
+    "date": "Thu, 23 Jul 2026 09:52:05 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "pirate",
+      "dmca",
+      "copyright"
     ]
   },
   {
@@ -67,9 +80,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "copyright",
+      "pirate",
       "piracy",
-      "pirate"
+      "copyright"
     ]
   },
   {
@@ -80,9 +93,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
+      "arrested",
       "piracy",
-      "arrested"
+      "torrent"
+    ]
+  },
+  {
+    "title": "DNS Bypass Tweets Keep Uptobox Employee&#8217;s €197K Frozen in Disney Piracy Case",
+    "link": "https://torrentfreak.com/canadas-expanded-scope-blocking-order-targets-existing-and-future-pirate-sites/",
+    "description": "For the first time, a Canadian site-blocking order can target pirate sites that don't exist yet. The Federal Court has ordered ISPs to block thirteen piracy brands including 123Movies and FMovies, and its catch-all \"Expanded Scope\" allows Hollywood studios and broadcasters to add unrelated sites lat",
+    "date": "Wed, 22 Jul 2026 07:03:32 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -93,8 +118,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -105,8 +130,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -129,19 +154,7 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
-    ]
-  },
-  {
-    "title": "DNS Bypass Tweets Keep Uptobox Employee&#8217;s €197K Frozen in Disney Piracy Case",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Wed, 22 Jul 2026 07:03:32 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "copyright",
+      "pirate",
       "piracy"
     ]
   },
@@ -153,8 +166,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -191,20 +204,31 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Feds Seize Domain Names of Nearly 400 Pirate Sports Streaming Sites (Update)",
-    "link": "https://torrentfreak.com/european-isps-want-rightsholders-held-accountable-for-overblocking-damage/",
-    "description": "For years, rightsholders have pushed for broader site blocking orders, with no direct liability if these result in overblocking. EuroISPA, which represents over 3,300 European internet service providers, is now asking the EU Commission to change that. The association points to a series of overblocki",
-    "date": "Sat, 27 Jun 2026 13:45:38 +0000",
-    "source": "TorrentFreak",
+    "title": "EU Commission approves $55bn EA buyout, says it \"would not raise competition concerns\"",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Fri, 24 Jul 2026 08:08:59 +0000",
+    "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
-      "pirate"
+      "rom"
+    ]
+  },
+  {
+    "title": "UK Games Growth Package driving \"exceptional demand\" one year on from launch",
+    "link": "https://www.gamesindustry.biz/delphi-interactives-fan-first-strategy-draws-major-ip-interest-following-success-of-james-bond-and-fifa",
+    "description": "Delphi Interactive's success with FIFA World Cup: Launch Edition and 007 First Light has created new opportunities with major brands, according to CEO Casper Daugaard. Read more",
+    "date": "Thu, 23 Jul 2026 08:58:24 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
     ]
   },
   {
     "title": "The GamesIndustry.biz Summer Party 2026 in photos",
-    "link": "https://www.gamesindustry.biz/feed",
-    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "link": "https://www.gamesindustry.biz/uk-games-growth-package-driving-exceptional-demand-one-year-on-from-launch",
+    "description": "The UK government's  &pound;30 million Games Growth Package \"is already making an impact\" a year on from its launch, according to UK Creative Industries Minister Ian Murray. Read more",
     "date": "Thu, 23 Jul 2026 08:32:27 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -264,78 +288,60 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "torrent",
-      "rom"
+      "rom",
+      "torrent"
     ]
   },
   {
-    "title": "Xbox announces backwards compatibility for PC and handheld devices",
-    "link": "https://www.gamesindustry.biz/the-gamesindustrybiz-summer-party-2026-in-photos",
-    "description": "Last week, GamesIndustry.biz once again hosted the great and good of the UK games industry at our annual summer party, held once again on Brighton Pier during the Develop: Brighton conference. Read more",
-    "date": "Thu, 23 Jul 2026 07:41:46 +0000",
+    "title": "Microsoft starts testing ad-supported game streaming on Xbox",
+    "link": "https://www.gamesindustry.biz/eu-commission-approves-55bn-ea-buyout-says-it-would-not-raise-competition-concerns",
+    "description": "The EU Commission has cleared the  $55 billion acquisition of Electronic Arts led by Saudi Arabia's Public Investment Fund. Read more",
+    "date": "Fri, 24 Jul 2026 07:08:08 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Gamescom 2026's exhibition area is fully booked for the first time",
-    "link": "https://www.gamesindustry.biz/xbox-announces-backwards-compatibility-for-pc-and-handheld-devices",
-    "description": "Xbox is introducing  backwards compatibility for PC and handheld devices, starting with four original titles: BLiNX: The Time Sweeper, Conker: Live and Reloaded, Crimson Skies: High Road to Revenge, and Fuzion Frenzy. Read more",
-    "date": "Wed, 22 Jul 2026 20:37:44 +0000",
+    "title": "Union accuses Bethesda of violating labour laws in Canada following layoffs at Montreal studio",
+    "link": "https://www.gamesindustry.biz/microsoft-starts-testing-ad-supported-game-streaming-on-xbox",
+    "description": "Microsoft has begun  testing ad-supported game streaming on Xbox. Read more",
+    "date": "Thu, 23 Jul 2026 14:48:27 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Despite Xbox console sales doubling YoY, hardware sales across the US are down 62% | US Monthly Charts",
-    "link": "https://www.gamesindustry.biz/gamescom-2026s-exhibition-area-is-fully-booked-for-the-first-time",
-    "description": "The exhibition area of Gamescom 2026 has hit a new milestone and is, for the first time, completely booked up this year. Read more",
-    "date": "Wed, 22 Jul 2026 17:26:25 +0000",
+    "title": "ESA Foundation awards 31 university students scholarships to support careers in games and esports",
+    "link": "https://www.gamesindustry.biz/amazon-clarifies-stance-on-007-first-light-sequel-given-the-success-of-this-one-i-think-you-probably-want-ioi-developing-it",
+    "description": "Jeff Gattis, general manager for Amazon Luna and Amazon Game Studios, has clarified his earlier comments that sequels to 007: First Light will be \"done by MGM and, theoretically, by Amazon Game Studios.\" Read more",
+    "date": "Thu, 23 Jul 2026 13:06:55 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Hitscan is a new tool for connecting publishers with creators that are \"driving the most impact and viewership\"",
-    "link": "https://www.gamesindustry.biz/hasbro-records-56m-write-down-and-cancels-several-games-scheduled-for-2028-and-beyond",
-    "description": "Hasbro has recorded a $56 million impairment charge against its video game portfolio, confirming it has cancelled \"several\" games scheduled for release in 2028 and beyond. Read more",
-    "date": "Wed, 22 Jul 2026 15:02:48 +0000",
+    "title": "Amazon Luna cloud gaming platform now added to Prime Video in the US and UK",
+    "link": "https://www.gamesindustry.biz/esa-foundation-awards-31-university-students-scholarships-to-support-careers-in-games-and-esports",
+    "description": "The ESA Foundation has provided 31 university students with scholarships worth $5,000 to $10,000 to support careers in game development and esports. Read more",
+    "date": "Thu, 23 Jul 2026 13:02:18 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Games for Change report aims to ground parental gaming concerns in \"evidence rather than fear\"",
-    "link": "https://www.gamesindustry.biz/hitscan-is-a-new-tool-for-connecting-publishers-with-creators-that-are-driving-the-most-impact-and-viewership",
-    "description": "For a decade now, LA-based talent management company Loaded Holdings has been building up its video games business. Read more",
-    "date": "Wed, 22 Jul 2026 13:52:02 +0000",
+    "title": "Inside Amazon's plan to unite games, movies and TV – including \"more games in development than at any point in our history\"",
+    "link": "https://www.gamesindustry.biz/amazon-luna-cloud-gaming-platform-now-added-to-prime-video-in-the-us-and-uk",
+    "description": "Amazon's cloud gaming service Luna is now available for Prime Video subscribers with Fire TV in the US and UK. Read more",
+    "date": "Thu, 23 Jul 2026 13:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Xbox brings starter edition of Game Pass to Meta Horizon+",
-    "link": "https://www.gamesindustry.biz/south-of-midnight-wins-game-and-experience-of-the-year-at-games-for-change-awards-2026",
-    "description": "Games for Change has revealed the winners of its 2026 awards, naming Compulsion Games' South of Midnight as Game and Experience of the Year. Read more",
-    "date": "Wed, 22 Jul 2026 07:43:47 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Esports consultancy The Story Mob rebrands to \"strategic player culture advisory\"",
-    "link": "https://www.gamesindustry.biz/alpha-dog-games-founders-reacquire-studio-from-microsoft-following-2024-closure",
-    "description": "Mighty Doom developer Alpha Dog Games has reemerged as an independent studio after being  shut down by Microsoft in 2024. Read more",
-    "date": "Tue, 21 Jul 2026 13:34:48 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Ethical, low-power, and on-device: Studio Atelico's vision for the future of generative AI",
-    "link": "https://www.gamesindustry.biz/esports-consultancy-the-story-mob-rebrands-to-strategic-player-culture-advisory",
-    "description": "Esports communications consultancy The Story Mob has rebranded as a \"strategic player culture advisory\" to better serve the broader games industry. Read more",
-    "date": "Tue, 21 Jul 2026 11:00:03 +0000",
+    "title": "Delphi Interactive's fan-first strategy draws major IP interest following success of James Bond and FIFA",
+    "link": "https://www.gamesindustry.biz/now-luna-is-integrated-into-prime-video-amazon-sees-potential-for-gaming-to-expand-beyond-pc-and-console-that-pie-isnt-really-growing",
+    "description": "Amazon has announced that its Luna video game streaming service will be incorporated into Prime Video, allowing Prime subscribers to play games directly through the video app. It follows similar moves at Netflix, where gaming titles were made available as part of the main video streaming service, le",
+    "date": "Thu, 23 Jul 2026 10:34:37 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
