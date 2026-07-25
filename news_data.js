@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-24 08:36 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-25 08:17 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-24T08:36:41.875584",
+  fetched_at: "2026-07-25T08:17:47.095766",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "rom",
-      "piracy",
-      "copyright",
       "pirate",
+      "piracy",
+      "crack",
       "torrent",
-      "crack"
+      "copyright",
+      "rom"
     ]
   },
   {
@@ -27,10 +27,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "pirate",
-      "dmca",
+      "piracy",
       "rom",
-      "piracy"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -41,8 +41,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "arrested",
+      "pirate",
       "seized"
     ]
   },
@@ -54,9 +54,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "piracy",
       "pirate",
-      "arrested",
-      "piracy"
+      "arrested"
     ]
   },
   {
@@ -68,8 +68,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "dmca",
-      "copyright"
+      "copyright",
+      "dmca"
     ]
   },
   {
@@ -80,8 +80,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "piracy",
+      "pirate",
       "copyright"
     ]
   },
@@ -93,9 +93,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "arrested",
       "piracy",
-      "torrent"
+      "torrent",
+      "arrested"
     ]
   },
   {
@@ -106,8 +106,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -118,8 +118,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -130,8 +130,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -154,8 +154,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -204,10 +204,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "EU Commission approves $55bn EA buyout, says it \"would not raise competition concerns\"",
+    "title": "After half a decade of job losses, there is no \"business as usual\" | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 24 Jul 2026 08:08:59 +0000",
+    "date": "Fri, 24 Jul 2026 16:23:28 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Ubisoft expects \"superior financial performance\" from Black Flag remake, but won't increase guidance due to \"strong competitive lineup\"",
+    "link": "https://www.gamesindustry.biz/the-games-industry-is-stifled-by-a-culture-of-fear",
+    "description": "The games industry is stifled by a culture of fear that prioritises algorithmic trends and market research over the creative conviction and personal taste required to produce genuine hits. Read more",
+    "date": "Fri, 24 Jul 2026 13:28:30 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -248,28 +259,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "South of Midnight wins Game and Experience of the Year at Games for Change Awards 2026",
-    "link": "https://www.gamesindustry.biz/games-for-change-aims-to-ground-parental-gaming-concerns-in-evidence-rather-than-fear",
-    "description": "Non-profit organisation Games for Change has published a white paper exploring how parents approach video games, and how to shift their focus away from \"fear-driven narratives focused on addiction, violence, and excessive screen time.\" Read more",
-    "date": "Wed, 22 Jul 2026 09:39:07 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Alpha Dog Games founders reacquire studio from Microsoft following 2024 closure",
-    "link": "https://www.gamesindustry.biz/xbox-brings-starter-edition-of-game-pass-to-meta-horizon",
-    "description": "Xbox has begun offering the starter edition of Game Pass to Meta Horizon+ subscribers. Read more",
-    "date": "Wed, 22 Jul 2026 06:53:59 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
     "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
     "description": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform t",
@@ -288,9 +277,18 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "rom",
-      "torrent"
+      "torrent",
+      "rom"
     ]
+  },
+  {
+    "title": "The games industry is stifled by a culture of fear",
+    "link": "https://www.gamesindustry.biz/after-half-a-decade-of-job-losses-there-is-no-business-as-usual-opinion",
+    "description": "The past five years of writing about the games business has come with a helping of cognitive dissonance so severe that it often felt like whiplash. Record success one week; record layoffs the next. Studios launch critically and commercially acclaimed games, only to make large swathes of their creati",
+    "date": "Fri, 24 Jul 2026 14:38:01 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Microsoft starts testing ad-supported game streaming on Xbox",
