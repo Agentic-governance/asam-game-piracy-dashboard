@@ -1,24 +1,8 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-26 08:36 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-27 10:04 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-26T08:36:08.610897",
+  fetched_at: "2026-07-27T10:04:04.169522",
   item_count: 30,
   items: [
-  {
-    "title": "FIFA World Cup Triggers a Global Anti-Piracy Crackdown (Updated)",
-    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Backrooms' tops the chart, followed by 'Obsession.' 'Star Wars: The Mandalorian and Grogu' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sun, 19 Jul 2026 01:19:48 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 12,
-    "matched_keywords": [
-      "copyright",
-      "piracy",
-      "pirate",
-      "torrent",
-      "crack",
-      "rom"
-    ]
-  },
   {
     "title": "Pirate Site Blocking Is Legally Impossible in Bulgaria, Supreme Court Ruled",
     "link": "https://torrentfreak.com/pearsons-anti-piracy-vendor-takes-down-best-selling-authors-own-github-repo/",
@@ -27,10 +11,25 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "piracy",
-      "dmca",
+      "pirate",
       "rom",
-      "pirate"
+      "piracy",
+      "dmca"
+    ]
+  },
+  {
+    "title": "Meta Confirms &#8216;Data Engineer&#8217; is Behind Key IP Address in Adult Film Piracy Lawsuit",
+    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Disclosure Day' tops the chart, followed by 'Star Wars: The Mandalorian and Grogu.' 'Obsession' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sun, 26 Jul 2026 11:16:29 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 9,
+    "matched_keywords": [
+      "pirate",
+      "torrent",
+      "piracy",
+      "rom",
+      "copyright"
     ]
   },
   {
@@ -41,9 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "seized",
+      "pirate",
       "arrested",
-      "pirate"
+      "seized"
     ]
   },
   {
@@ -54,9 +53,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
+      "pirate",
       "arrested",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -67,9 +66,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "pirate",
       "copyright",
-      "dmca",
-      "pirate"
+      "dmca"
     ]
   },
   {
@@ -80,22 +79,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "pirate",
       "copyright",
-      "piracy",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Sports Rightsholders Want an EU Blacklist for &#8216;Piracy&#8217; Hosting Providers",
-    "link": "https://torrentfreak.com/french-police-dismantle-operation-behind-the-already-defunct-yggtorrent/",
-    "description": "France's Gendarmerie nationale announced that it dismantled the organization behind YggTorrent, France's largest torrent site. Twelve people have been arrested on charges including money laundering. The site itself, however, was already destroyed months ago by a hacker who leaked its data and draine",
-    "date": "Thu, 02 Jul 2026 06:26:51 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "piracy",
-      "torrent",
-      "arrested"
+      "piracy"
     ]
   },
   {
@@ -106,20 +92,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 07/20/2026",
+    "title": "FIFA World Cup Triggers a Global Anti-Piracy Crackdown (Updated)",
     "link": "https://torrentfreak.com/hollywood-wants-vietnam-to-slay-the-piracy-hydra/",
     "description": "Shutting down major piracy operations such as Fmovies and HiAnime means little if successors pop up within weeks. In their submissions to the USTR's Section 301 investigation into Vietnam, both the MPA and IIPA stress that taking down copycats and successor sites should be a key enforcement priority",
-    "date": "Sun, 19 Jul 2026 23:09:40 +0000",
+    "date": "Sun, 19 Jul 2026 01:19:48 +0000",
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
       "piracy",
-      "pirate"
+      "crack"
     ]
   },
   {
@@ -130,8 +116,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -154,8 +140,32 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Top 10 Most Pirated Movies of The Week – 07/27/2026",
+    "link": "https://torrentfreak.com/copyright-scammers-weaponized-metas-rights-manager-with-backdating-exploit/",
+    "description": "Scammers are allegedly exploiting a flaw in Facebook's 'Edit Post' feature to backdate stolen videos and hijack copyright claims through Meta's Rights Manager. This allows them to monetize content of other creators, while also hitting them with strikes. The problem is at the center of several Indian",
+    "date": "Sun, 26 Jul 2026 23:09:40 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "pirate",
+      "copyright"
+    ]
+  },
+  {
+    "title": "X and Music Publishers Settle Three-Year Copyright Clash After SpaceX IPO",
+    "link": "https://torrentfreak.com/meta-confirms-data-engineer-is-behind-key-ip-address-in-adult-film-piracy-lawsuit/",
+    "description": "Meta has responded to the amended multi-million copyright lawsuit filed by adult film producer Strike 3 Holdings. While flatly denying that it pirated adult films for AI training, Meta confirmed that a key IP address is traced to the home of one of its former data engineers. At the same time, Meta p",
+    "date": "Fri, 24 Jul 2026 08:21:48 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -193,20 +203,20 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Kim Dotcom Loses Court of Appeal Bid to Block Extradition to the U.S.",
-    "link": "https://torrentfreak.com/sports-rightsholders-want-an-eu-blacklist-for-piracy-hosting-providers/",
-    "description": "Sports broadcaster beIN and the Audiovisual Anti-Piracy Alliance propose to expand the European blocking efforts with a blacklist of rogue hosting companies. These companies can then be banned by their ASN, covering a series of IP-address blocks. By implementing the blocking measures across various ",
-    "date": "Wed, 01 Jul 2026 08:57:34 +0000",
-    "source": "TorrentFreak",
+    "title": "Why new EU deepfake legislation means games need to be careful when featuring real-world people and locations",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Mon, 27 Jul 2026 08:51:45 +0000",
+    "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
-      "piracy"
+      "rom"
     ]
   },
   {
     "title": "After half a decade of job losses, there is no \"business as usual\" | Opinion",
-    "link": "https://www.gamesindustry.biz/feed",
-    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "link": "https://www.gamesindustry.biz/why-new-eu-deepfake-legislation-means-games-need-to-be-careful-when-featuring-real-world-people-and-locations",
+    "description": "The EU AI Act's deepfake transparency rules present an interesting challenge for game studios. The obligation is broader than the popular understanding of a deepfake, extending beyond fake videos of politicians, to a wide range of AI-generated and AI-manipulated content. This has prompted concern am",
     "date": "Fri, 24 Jul 2026 16:23:28 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -277,8 +287,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "torrent",
-      "rom"
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -331,15 +341,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/amazon-luna-cloud-gaming-platform-now-added-to-prime-video-in-the-us-and-uk",
     "description": "Amazon's cloud gaming service Luna is now available for Prime Video subscribers with Fire TV in the US and UK. Read more",
     "date": "Thu, 23 Jul 2026 13:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Delphi Interactive's fan-first strategy draws major IP interest following success of James Bond and FIFA",
-    "link": "https://www.gamesindustry.biz/now-luna-is-integrated-into-prime-video-amazon-sees-potential-for-gaming-to-expand-beyond-pc-and-console-that-pie-isnt-really-growing",
-    "description": "Amazon has announced that its Luna video game streaming service will be incorporated into Prime Video, allowing Prime subscribers to play games directly through the video app. It follows similar moves at Netflix, where gaming titles were made available as part of the main video streaming service, le",
-    "date": "Thu, 23 Jul 2026 10:34:37 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
