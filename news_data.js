@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-27 10:04 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-28 08:46 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-27T10:04:04.169522",
+  fetched_at: "2026-07-28T08:46:18.211728",
   item_count: 30,
   items: [
   {
@@ -12,9 +12,9 @@ const ARIA_NEWS = {
     "relevance_score": 10,
     "matched_keywords": [
       "pirate",
+      "dmca",
       "rom",
-      "piracy",
-      "dmca"
+      "piracy"
     ]
   },
   {
@@ -25,9 +25,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "piracy",
       "pirate",
       "torrent",
-      "piracy",
       "rom",
       "copyright"
     ]
@@ -40,8 +40,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "arrested",
+      "pirate",
       "seized"
     ]
   },
@@ -53,8 +53,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "arrested",
+      "pirate",
       "piracy"
     ]
   },
@@ -67,8 +67,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "copyright",
-      "dmca"
+      "dmca",
+      "copyright"
     ]
   },
   {
@@ -203,9 +203,53 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Why new EU deepfake legislation means games need to be careful when featuring real-world people and locations",
+    "title": "Xbox explains outage preventing players from accessing games, CTO says it will \"do better\"",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Tue, 28 Jul 2026 07:47:53 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Video Game History Foundation releases major new E3 archive collections",
+    "link": "https://www.gamesindustry.biz/xbox-explains-outage-preventing-players-from-accessing-games-cto-says-it-will-do-better",
+    "description": "Xbox has provided an explanation for yesterday's hours-long outage, which prevented players from signing in, accessing their libraries, and playing games. Read more",
+    "date": "Mon, 27 Jul 2026 21:11:39 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Atari signs 10-title film deal with Universal",
+    "link": "https://www.gamesindustry.biz/video-game-history-foundation-releases-major-new-e3-archive-collections",
+    "description": "The Video Game History Foundation (VGHF) has published new collections documenting the history of E3, the industry trade show that ran from 1995 to 2021. Read more",
+    "date": "Mon, 27 Jul 2026 18:39:58 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "John Romero announced as keynote speaker for Gamescom Asia x Thailand Game Show",
+    "link": "https://www.gamesindustry.biz/this-is-us-speaking-to-the-world-why-london-is-keen-to-host-esports-events-like-the-valorant-masters",
+    "description": "Last month, London hosted the Valorant Masters, one of the biggest dates in the calendar for Riot Games' tactical shooter. Read more",
+    "date": "Mon, 27 Jul 2026 11:57:03 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Why new EU deepfake legislation means games need to be careful when featuring real-world people and locations",
+    "link": "https://www.gamesindustry.biz/john-romero-announced-as-keynote-speaker-for-gamescom-asia-x-thailand-game-show",
+    "description": "Gamescom Asia x Thailand Game Show has announced that id Software co-founder John Romero will headline the business area conference of this year's event in Bangkok, with a keynote entitled \"Why We Still Make Games\" about \"a lifetime of building games, overcoming setbacks and navigating decades of in",
     "date": "Mon, 27 Jul 2026 08:51:45 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -236,39 +280,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "UK Games Growth Package driving \"exceptional demand\" one year on from launch",
-    "link": "https://www.gamesindustry.biz/delphi-interactives-fan-first-strategy-draws-major-ip-interest-following-success-of-james-bond-and-fifa",
-    "description": "Delphi Interactive's success with FIFA World Cup: Launch Edition and 007 First Light has created new opportunities with major brands, according to CEO Casper Daugaard. Read more",
-    "date": "Thu, 23 Jul 2026 08:58:24 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "The GamesIndustry.biz Summer Party 2026 in photos",
-    "link": "https://www.gamesindustry.biz/uk-games-growth-package-driving-exceptional-demand-one-year-on-from-launch",
-    "description": "The UK government's  &pound;30 million Games Growth Package \"is already making an impact\" a year on from its launch, according to UK Creative Industries Minister Ian Murray. Read more",
-    "date": "Thu, 23 Jul 2026 08:32:27 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Hasbro records $56m write-down and cancels \"several games\" scheduled for 2028 and beyond",
-    "link": "https://www.gamesindustry.biz/despite-xbox-console-sales-doubling-yoy-hardware-sales-across-the-us-are-down-62-us-monthly-charts",
-    "description": "Total video game sales in the US fell by a fifth year-on-year, with total projected video game sales estimated to have dropped from $5.7 billion to $4.5 billion between June 2025 and June 2026. Read more",
-    "date": "Wed, 22 Jul 2026 16:41:27 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
     "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
     "description": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform t",
@@ -290,6 +301,15 @@ const ARIA_NEWS = {
       "rom",
       "torrent"
     ]
+  },
+  {
+    "title": "Cyan reveals abandoned prototype for new Myst game, confirms different Myst game is in development",
+    "link": "https://www.gamesindustry.biz/atari-signs-10-title-film-deal-with-universal",
+    "description": "Atari has signed a deal with Universal Pictures to develop 10 of its game IPs into feature films. Read more",
+    "date": "Mon, 27 Jul 2026 18:21:24 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "The games industry is stifled by a culture of fear",
@@ -323,24 +343,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/amazon-clarifies-stance-on-007-first-light-sequel-given-the-success-of-this-one-i-think-you-probably-want-ioi-developing-it",
     "description": "Jeff Gattis, general manager for Amazon Luna and Amazon Game Studios, has clarified his earlier comments that sequels to 007: First Light will be \"done by MGM and, theoretically, by Amazon Game Studios.\" Read more",
     "date": "Thu, 23 Jul 2026 13:06:55 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Amazon Luna cloud gaming platform now added to Prime Video in the US and UK",
-    "link": "https://www.gamesindustry.biz/esa-foundation-awards-31-university-students-scholarships-to-support-careers-in-games-and-esports",
-    "description": "The ESA Foundation has provided 31 university students with scholarships worth $5,000 to $10,000 to support careers in game development and esports. Read more",
-    "date": "Thu, 23 Jul 2026 13:02:18 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Inside Amazon's plan to unite games, movies and TV – including \"more games in development than at any point in our history\"",
-    "link": "https://www.gamesindustry.biz/amazon-luna-cloud-gaming-platform-now-added-to-prime-video-in-the-us-and-uk",
-    "description": "Amazon's cloud gaming service Luna is now available for Prime Video subscribers with Fire TV in the US and UK. Read more",
-    "date": "Thu, 23 Jul 2026 13:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
