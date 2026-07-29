@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-28 08:46 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-29 08:51 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-28T08:46:18.211728",
+  fetched_at: "2026-07-29T08:51:04.460009",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "pirate",
-      "dmca",
       "rom",
-      "piracy"
+      "pirate",
+      "piracy",
+      "dmca"
     ]
   },
   {
@@ -25,11 +25,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "pirate",
       "torrent",
       "rom",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -66,9 +66,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "copyright",
       "pirate",
-      "dmca",
-      "copyright"
+      "dmca"
     ]
   },
   {
@@ -79,8 +79,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "copyright",
+      "pirate",
       "piracy"
     ]
   },
@@ -104,8 +104,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -128,8 +128,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -145,6 +145,31 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Copyright Scammers Weaponized Meta&#8217;s Rights Manager with Backdating Exploit",
+    "link": "https://torrentfreak.com/france-approves-automated-real-time-blocking-of-pirate-sports-streams/",
+    "description": "French lawmakers have officially adopted a new sports law that replaces manual domain checks with support for automated, real-time piracy blocking. The system allows for instant blockades during live sports broadcasts, with  oversight checks from regulator ARCOM being applied afterward rather than b",
+    "date": "Mon, 27 Jul 2026 08:58:24 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 5,
+    "matched_keywords": [
+      "rom",
+      "copyright",
+      "piracy"
+    ]
+  },
+  {
+    "title": "France Approves Automated, Real-Time Blocking of Pirate Sports Streams",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Tue, 28 Jul 2026 13:36:47 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
+      "pirate"
+    ]
+  },
+  {
     "title": "Top 10 Most Pirated Movies of The Week – 07/27/2026",
     "link": "https://torrentfreak.com/copyright-scammers-weaponized-metas-rights-manager-with-backdating-exploit/",
     "description": "Scammers are allegedly exploiting a flaw in Facebook's 'Edit Post' feature to backdate stolen videos and hijack copyright claims through Meta's Rights Manager. This allows them to monetize content of other creators, while also hitting them with strikes. The problem is at the center of several Indian",
@@ -152,8 +177,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -164,8 +189,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -203,9 +228,53 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Xbox explains outage preventing players from accessing games, CTO says it will \"do better\"",
+    "title": "Double Fine Productions cuts 23 roles as it becomes independent from Xbox",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Wed, 29 Jul 2026 07:26:52 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "New data suggests layoffs will affect 14,259 people by the end of 2026, up 78% from first forecast of the year",
+    "link": "https://www.gamesindustry.biz/double-fine-productions-cuts-23-roles-as-it-becomes-independent-from-xbox",
+    "description": "Double Fine Productions has reduced its workforce by 25% following its full separation from Xbox earlier this week. Read more",
+    "date": "Tue, 28 Jul 2026 13:44:03 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"Across the industry, we don't think enough about how we match the scope to what we're making\" – Mike Bithell on why the world needs an im-slim",
+    "link": "https://www.gamesindustry.biz/new-data-suggests-layoffs-will-affect-14259-people-by-the-end-of-2026-up-78-from-first-forecast-of-the-year",
+    "description": "New data from the  ASGC Games Industry Layoffs Tracker predicts job losses will reach 14,259 by the end of 2026, representing a 78% increase over an initial forecast for the year. Read more",
+    "date": "Tue, 28 Jul 2026 12:17:32 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Pragmata and Resident Evil franchise boost Capcom's Q1 ordinary profit by 81% to $252.5m",
+    "link": "https://www.gamesindustry.biz/across-the-industry-we-dont-think-enough-about-how-we-match-the-scope-to-what-were-making-mike-bithell-on-why-the-world-needs-an-im-slim",
+    "description": "2025 was a very bad year for Mike Bithell. In August, he announced that the majority of full-time staff were being let go from Bithell Games, with 11 jobs being made redundant. Read more",
+    "date": "Tue, 28 Jul 2026 11:17:34 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Xbox explains outage preventing players from accessing games, CTO says it will \"do better\"",
+    "link": "https://www.gamesindustry.biz/games-for-change-festival-to-expand-and-move-to-new-cities",
+    "description": "Games for Change (G4C) has announced that its annual festival will be hosted in a new city during odd-numbered years, starting with Arizona in 2027. Read more",
     "date": "Tue, 28 Jul 2026 07:47:53 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -289,63 +358,6 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
-  },
-  {
-    "title": "French Police Dismantle Operation Behind the Already Defunct YggTorrent",
-    "link": "https://torrentfreak.com/researchers-create-self-replicating-seedbox-in-quest-for-decentralized-democracy/",
-    "description": "Researchers from Delft University of Technology have spent more than two decades building their decentralized BitTorrent client Tribler. The software is designed to be impossible to shut down and the project itself is also going strong, as it recently secured funding up until 2032. New research focu",
-    "date": "Fri, 03 Jul 2026 06:58:19 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 2,
-    "matched_keywords": [
-      "rom",
-      "torrent"
-    ]
-  },
-  {
-    "title": "Cyan reveals abandoned prototype for new Myst game, confirms different Myst game is in development",
-    "link": "https://www.gamesindustry.biz/atari-signs-10-title-film-deal-with-universal",
-    "description": "Atari has signed a deal with Universal Pictures to develop 10 of its game IPs into feature films. Read more",
-    "date": "Mon, 27 Jul 2026 18:21:24 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "The games industry is stifled by a culture of fear",
-    "link": "https://www.gamesindustry.biz/after-half-a-decade-of-job-losses-there-is-no-business-as-usual-opinion",
-    "description": "The past five years of writing about the games business has come with a helping of cognitive dissonance so severe that it often felt like whiplash. Record success one week; record layoffs the next. Studios launch critically and commercially acclaimed games, only to make large swathes of their creati",
-    "date": "Fri, 24 Jul 2026 14:38:01 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Microsoft starts testing ad-supported game streaming on Xbox",
-    "link": "https://www.gamesindustry.biz/eu-commission-approves-55bn-ea-buyout-says-it-would-not-raise-competition-concerns",
-    "description": "The EU Commission has cleared the  $55 billion acquisition of Electronic Arts led by Saudi Arabia's Public Investment Fund. Read more",
-    "date": "Fri, 24 Jul 2026 07:08:08 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Union accuses Bethesda of violating labour laws in Canada following layoffs at Montreal studio",
-    "link": "https://www.gamesindustry.biz/microsoft-starts-testing-ad-supported-game-streaming-on-xbox",
-    "description": "Microsoft has begun  testing ad-supported game streaming on Xbox. Read more",
-    "date": "Thu, 23 Jul 2026 14:48:27 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "ESA Foundation awards 31 university students scholarships to support careers in games and esports",
-    "link": "https://www.gamesindustry.biz/amazon-clarifies-stance-on-007-first-light-sequel-given-the-success-of-this-one-i-think-you-probably-want-ioi-developing-it",
-    "description": "Jeff Gattis, general manager for Amazon Luna and Amazon Game Studios, has clarified his earlier comments that sequels to 007: First Light will be \"done by MGM and, theoretically, by Amazon Game Studios.\" Read more",
-    "date": "Thu, 23 Jul 2026 13:06:55 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
   }
 ]
 };
