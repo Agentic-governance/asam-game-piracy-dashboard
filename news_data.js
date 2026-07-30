@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-29 08:51 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-30 08:41 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-29T08:51:04.460009",
+  fetched_at: "2026-07-30T08:41:09.935611",
   item_count: 30,
   items: [
   {
@@ -11,9 +11,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "rom",
-      "pirate",
       "piracy",
+      "pirate",
+      "rom",
       "dmca"
     ]
   },
@@ -25,11 +25,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
-      "torrent",
-      "rom",
+      "piracy",
       "copyright",
-      "piracy"
+      "torrent",
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -40,9 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "arrested",
       "pirate",
-      "seized"
+      "seized",
+      "arrested"
     ]
   },
   {
@@ -53,9 +53,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "arrested",
+      "piracy",
       "pirate",
-      "piracy"
+      "arrested"
     ]
   },
   {
@@ -66,22 +66,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "copyright",
+      "dmca",
       "pirate",
-      "dmca"
+      "copyright"
     ]
   },
   {
-    "title": "Researchers Create Self-Replicating Seedbox in Quest for Decentralized Democracy",
-    "link": "https://torrentfreak.com/alleged-operators-of-hianime-piracy-ring-arrested-in-vietnam-with-u-s-support/",
-    "description": "Supported by U.S. intelligence, Vietnamese authorities have dismantled a massive network of over 100 pirate sites. Seven suspects have been charged with running a mass copyright infringement operation that included the now-defunct piracy giant HiAnime.to, allegedly earning $12.8 million in advertisi",
-    "date": "Sun, 05 Jul 2026 08:33:00 +0000",
+    "title": "France Approves Automated, Real-Time Blocking of Pirate Sports Streams",
+    "link": "https://torrentfreak.com/vietnam-uses-hianime-arrests-as-defense-against-u-s-trade-sanctions/",
+    "description": "Facing potential U.S. trade sanctions over online piracy, Vietnam is using the recent shutdown and its criminal prosecution of the HiAnime piracy ring as a key line of defense. Notably, Vietnam's response was submitted on the same day that the HiAnime prosecution was made public. While the enforceme",
+    "date": "Tue, 28 Jul 2026 13:36:47 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 7,
+    "relevance_score": 6,
     "matched_keywords": [
-      "copyright",
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -92,8 +91,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -104,8 +103,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -116,8 +115,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -128,8 +127,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -140,8 +139,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -152,21 +151,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
+      "piracy",
       "rom",
-      "copyright",
-      "piracy"
-    ]
-  },
-  {
-    "title": "France Approves Automated, Real-Time Blocking of Pirate Sports Streams",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 28 Jul 2026 13:36:47 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "copyright",
-      "pirate"
+      "copyright"
     ]
   },
   {
@@ -177,8 +164,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -189,8 +176,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -201,8 +188,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -228,9 +215,42 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Double Fine Productions cuts 23 roles as it becomes independent from Xbox",
+    "title": "Xbox revenue plunges $1.7bn, with hardware dropping 29% YoY",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Thu, 30 Jul 2026 08:21:34 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"People want to play arcade racers again\" – How the developer of Wreckreation went from a company-wide redundancy notice to working on a sequel",
+    "link": "https://www.gamesindustry.biz/xbox-revenue-plunges-17bn-with-hardware-dropping-29-yoy",
+    "description": "Microsoft has published its latest financial results, with Xbox revenue down 7% for the full year and 10% in the fourth quarter. Read more",
+    "date": "Wed, 29 Jul 2026 15:56:07 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Capcom producer says Resident Evil remakes are providing financial support to develop new games and IP",
+    "link": "https://www.gamesindustry.biz/people-want-to-play-arcade-racers-again-how-the-developer-of-wreckreation-went-from-a-company-wide-redundancy-notice-to-working-on-a-sequel",
+    "description": "When we last heard from Fiona Sperry in December, she had just put the entire team at Three Fields Entertainment on notice of redundancy. Read more",
+    "date": "Wed, 29 Jul 2026 13:50:23 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Double Fine Productions cuts 23 roles as it becomes independent from Xbox",
+    "link": "https://www.gamesindustry.biz/uk-games-fund-announces-largest-cohort-of-indie-studios-to-receive-grants-of-up-to-100000",
+    "description": "The UK Games Fund has announced its largest group of funded companies since its launch in 2015. Read more",
     "date": "Wed, 29 Jul 2026 07:26:52 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -320,28 +340,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/john-romero-announced-as-keynote-speaker-for-gamescom-asia-x-thailand-game-show",
     "description": "Gamescom Asia x Thailand Game Show has announced that id Software co-founder John Romero will headline the business area conference of this year's event in Bangkok, with a keynote entitled \"Why We Still Make Games\" about \"a lifetime of building games, overcoming setbacks and navigating decades of in",
     "date": "Mon, 27 Jul 2026 08:51:45 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "After half a decade of job losses, there is no \"business as usual\" | Opinion",
-    "link": "https://www.gamesindustry.biz/why-new-eu-deepfake-legislation-means-games-need-to-be-careful-when-featuring-real-world-people-and-locations",
-    "description": "The EU AI Act's deepfake transparency rules present an interesting challenge for game studios. The obligation is broader than the popular understanding of a deepfake, extending beyond fake videos of politicians, to a wide range of AI-generated and AI-manipulated content. This has prompted concern am",
-    "date": "Fri, 24 Jul 2026 16:23:28 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Ubisoft expects \"superior financial performance\" from Black Flag remake, but won't increase guidance due to \"strong competitive lineup\"",
-    "link": "https://www.gamesindustry.biz/the-games-industry-is-stifled-by-a-culture-of-fear",
-    "description": "The games industry is stifled by a culture of fear that prioritises algorithmic trends and market research over the creative conviction and personal taste required to produce genuine hits. Read more",
-    "date": "Fri, 24 Jul 2026 13:28:30 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
