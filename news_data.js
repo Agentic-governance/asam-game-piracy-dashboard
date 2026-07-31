@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-30 08:41 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-07-31 09:12 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-30T08:41:09.935611",
+  fetched_at: "2026-07-31T09:12:01.656007",
   item_count: 30,
   items: [
   {
@@ -11,9 +11,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
+      "rom",
       "piracy",
       "pirate",
-      "rom",
       "dmca"
     ]
   },
@@ -25,11 +25,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
-      "copyright",
       "torrent",
+      "copyright",
       "pirate",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -40,22 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
+      "arrested",
       "seized",
-      "arrested"
-    ]
-  },
-  {
-    "title": "Alleged Operators of HiAnime Piracy Ring Arrested in Vietnam with U.S. Support",
-    "link": "https://torrentfreak.com/tonga-suspends-popular-pirate-site-domains-following-indian-court-order/",
-    "description": "For years, Tonga's .to domain names have been a popular choice for pirate sites, but that may very well change. Following a restructuring of the domain name operation, the Government of the Kingdom of Tonga appears to have suspended several domains, including the popular German streaming portals S.t",
-    "date": "Mon, 06 Jul 2026 08:23:50 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 9,
-    "matched_keywords": [
-      "piracy",
-      "pirate",
-      "arrested"
+      "pirate"
     ]
   },
   {
@@ -66,9 +53,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "dmca",
+      "copyright",
       "pirate",
-      "copyright"
+      "dmca"
     ]
   },
   {
@@ -151,9 +138,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "piracy",
+      "copyright",
       "rom",
-      "copyright"
+      "piracy"
+    ]
+  },
+  {
+    "title": "HBO&#8217;s Blocking Order Takes Out Popular Pirate Streaming Domains Including Streamzy.to",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Thu, 30 Jul 2026 17:01:43 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -164,8 +163,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -176,8 +175,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -188,8 +187,19 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Vietnam Uses HiAnime Arrests As Defense Against U.S. Trade Sanctions",
+    "link": "https://torrentfreak.com/hbos-blocking-order-takes-out-popular-pirate-streaming-domains-including-streamzy-to/",
+    "description": "Popular pirate streaming sites, including Streamzy and Lordflix, are key targets in a new Indian site-blocking order obtained by HBO and other major studios. The order, which lists over 120 domain names, refines how India deals with new mirror domains that surface after the initial block. The order ",
+    "date": "Wed, 29 Jul 2026 11:42:29 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "pirate"
     ]
   },
   {
@@ -215,10 +225,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Xbox revenue plunges $1.7bn, with hardware dropping 29% YoY",
+    "title": "Roblox Q2 revenue rises 36% to $1.5bn",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 30 Jul 2026 08:21:34 +0000",
+    "date": "Fri, 31 Jul 2026 07:52:59 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -314,39 +324,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Atari signs 10-title film deal with Universal",
-    "link": "https://www.gamesindustry.biz/video-game-history-foundation-releases-major-new-e3-archive-collections",
-    "description": "The Video Game History Foundation (VGHF) has published new collections documenting the history of E3, the industry trade show that ran from 1995 to 2021. Read more",
-    "date": "Mon, 27 Jul 2026 18:39:58 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "John Romero announced as keynote speaker for Gamescom Asia x Thailand Game Show",
-    "link": "https://www.gamesindustry.biz/this-is-us-speaking-to-the-world-why-london-is-keen-to-host-esports-events-like-the-valorant-masters",
-    "description": "Last month, London hosted the Valorant Masters, one of the biggest dates in the calendar for Riot Games' tactical shooter. Read more",
-    "date": "Mon, 27 Jul 2026 11:57:03 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Why new EU deepfake legislation means games need to be careful when featuring real-world people and locations",
-    "link": "https://www.gamesindustry.biz/john-romero-announced-as-keynote-speaker-for-gamescom-asia-x-thailand-game-show",
-    "description": "Gamescom Asia x Thailand Game Show has announced that id Software co-founder John Romero will headline the business area conference of this year's event in Bangkok, with a keynote entitled \"Why We Still Make Games\" about \"a lifetime of building games, overcoming setbacks and navigating decades of in",
-    "date": "Mon, 27 Jul 2026 08:51:45 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
     "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
     "description": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform t",
@@ -356,6 +333,24 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
+  },
+  {
+    "title": "Gamesight: Creators are best predictor for a game's success, not viewership",
+    "link": "https://www.gamesindustry.biz/appmagic-pokemon-go-generates-485m-during-10th-anniversary-celebrations",
+    "description": "Pok&eacute;mon Go generated over $48.5 million in in-app purchase revenue during its 10th anniversary week, according to AppMagic data. Read more",
+    "date": "Thu, 30 Jul 2026 12:26:51 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"I learnt a tonne about enamel pin manufacturing\" – Brigador developer Stellar Jockeys on the secrets of selling video game merchandise",
+    "link": "https://www.gamesindustry.biz/gamesight-creators-are-best-predictor-for-a-games-success-not-viewership",
+    "description": "The number of active creators and streamers after launch is the clearest predictor of success for player-versus-player first-person shooter games, rather than the total hours watched, according to new data. Read more",
+    "date": "Thu, 30 Jul 2026 11:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   }
 ]
 };
