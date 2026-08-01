@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-07-31 09:12 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-01 08:30 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-07-31T09:12:01.656007",
+  fetched_at: "2026-08-01T08:30:23.745635",
   item_count: 30,
   items: [
   {
@@ -11,9 +11,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "rom",
-      "piracy",
       "pirate",
+      "piracy",
+      "rom",
       "dmca"
     ]
   },
@@ -25,11 +25,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "pirate",
+      "piracy",
       "torrent",
       "copyright",
-      "pirate",
-      "rom",
-      "piracy"
+      "rom"
     ]
   },
   {
@@ -40,9 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "pirate",
       "arrested",
-      "seized",
-      "pirate"
+      "seized"
     ]
   },
   {
@@ -53,8 +53,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "copyright",
       "pirate",
+      "copyright",
       "dmca"
     ]
   },
@@ -66,8 +66,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -78,8 +78,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -90,8 +90,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -102,8 +102,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -114,8 +114,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -126,8 +126,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -139,8 +139,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "copyright",
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -151,8 +151,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -163,8 +163,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -175,8 +175,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -225,10 +225,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Roblox Q2 revenue rises 36% to $1.5bn",
+    "title": "Xbox is (probably) not for sale | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 31 Jul 2026 07:52:59 +0000",
+    "date": "Fri, 31 Jul 2026 15:21:24 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"We will not live on past successes or be trapped by past failures\" – Xbox CEO outlines priorities to turn platform around in FY27",
+    "link": "https://www.gamesindustry.biz/xbox-is-probably-not-for-sale-opinion",
+    "description": "For much of this year, each new week has brought with it a new impetus for a rash of articles on Microsoft&rsquo;s Xbox misfortunes. From deep wounds like layoffs and project cancellations, to stinging papercuts like internal memos, poorly received public statements, or unflattering data points, as ",
+    "date": "Fri, 31 Jul 2026 13:40:23 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "EA acquisition set to close on August 4 following approval from required regulatory bodies",
+    "link": "https://www.gamesindustry.biz/playstation-reports-flat-q1-sales-says-its-cautiously-moving-forward-with-halting-physical-disc-production",
+    "description": "Sony reported flat sales in its Games & Network Services (G&NS) segment for its first quarter, but operating income rose 37%, primarily due to US tariff refunds. Read more",
+    "date": "Fri, 31 Jul 2026 09:47:25 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -302,28 +324,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Xbox explains outage preventing players from accessing games, CTO says it will \"do better\"",
-    "link": "https://www.gamesindustry.biz/games-for-change-festival-to-expand-and-move-to-new-cities",
-    "description": "Games for Change (G4C) has announced that its annual festival will be hosted in a new city during odd-numbered years, starting with Arizona in 2027. Read more",
-    "date": "Tue, 28 Jul 2026 07:47:53 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Video Game History Foundation releases major new E3 archive collections",
-    "link": "https://www.gamesindustry.biz/xbox-explains-outage-preventing-players-from-accessing-games-cto-says-it-will-do-better",
-    "description": "Xbox has provided an explanation for yesterday's hours-long outage, which prevented players from signing in, accessing their libraries, and playing games. Read more",
-    "date": "Mon, 27 Jul 2026 21:11:39 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
     "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
     "description": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform t",
@@ -335,19 +335,19 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Gamesight: Creators are best predictor for a game's success, not viewership",
-    "link": "https://www.gamesindustry.biz/appmagic-pokemon-go-generates-485m-during-10th-anniversary-celebrations",
-    "description": "Pok&eacute;mon Go generated over $48.5 million in in-app purchase revenue during its 10th anniversary week, according to AppMagic data. Read more",
-    "date": "Thu, 30 Jul 2026 12:26:51 +0000",
+    "title": "Unity announces dedicated engine support for Netflix Games",
+    "link": "https://www.gamesindustry.biz/we-will-not-live-on-past-successes-or-be-trapped-by-past-failures-xbox-ceo-outlines-priorities-to-turn-platform-around-in-fy27",
+    "description": "Asha Sharma has outlined key priorities to help Xbox recover after it  reported a $1.7 billion decline in revenue last year. Read more",
+    "date": "Fri, 31 Jul 2026 12:59:19 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "\"I learnt a tonne about enamel pin manufacturing\" – Brigador developer Stellar Jockeys on the secrets of selling video game merchandise",
-    "link": "https://www.gamesindustry.biz/gamesight-creators-are-best-predictor-for-a-games-success-not-viewership",
-    "description": "The number of active creators and streamers after launch is the clearest predictor of success for player-versus-player first-person shooter games, rather than the total hours watched, according to new data. Read more",
-    "date": "Thu, 30 Jul 2026 11:00:00 +0000",
+    "title": "PlayStation reports flat Q1 sales, says it's \"cautiously moving forward\" with halting physical disc production",
+    "link": "https://www.gamesindustry.biz/unity-announces-dedicated-engine-for-netflix-games",
+    "description": "Unity has launched dedicated engine support for Netflix platforms, making it easier for developers to ship titles on the streaming platform's ecosystem. Read more",
+    "date": "Fri, 31 Jul 2026 11:21:17 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
