@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-01 08:30 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-02 08:33 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-01T08:30:23.745635",
+  fetched_at: "2026-08-02T08:33:06.458709",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,23 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 10,
     "matched_keywords": [
-      "pirate",
       "piracy",
       "rom",
+      "pirate",
       "dmca"
+    ]
+  },
+  {
+    "title": "HBO&#8217;s Blocking Order Takes Out Popular Pirate Streaming Domains Including Streamzy.to",
+    "link": "https://torrentfreak.com/world-cup-piracy-crackdown-shows-limits-of-domain-seizures-mpa-pushes-site-blocking/",
+    "description": "Operation Offsides seized more than 1,000 pirate streaming domains during the FIFA World Cup. While the enforcement efforts were broadly praised, domain seizures are no silver bullet. In an op-ed, leaders of the MPA and the IPR Center suggest that more is needed to tackle piracy effectively, support",
+    "date": "Thu, 30 Jul 2026 17:01:43 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 9,
+    "matched_keywords": [
+      "seized",
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -25,11 +38,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "torrent",
       "pirate",
       "piracy",
-      "torrent",
-      "copyright",
-      "rom"
+      "rom",
+      "copyright"
     ]
   },
   {
@@ -40,9 +53,22 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
+      "seized",
       "arrested",
-      "seized"
+      "pirate"
+    ]
+  },
+  {
+    "title": "World Cup Piracy Crackdown Shows Limits of Domain Seizures, MPA Pushes Site Blocking",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Sat, 01 Aug 2026 08:45:30 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "piracy",
+      "copyright",
+      "crack"
     ]
   },
   {
@@ -53,8 +79,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "copyright",
+      "pirate",
       "dmca"
     ]
   },
@@ -66,8 +92,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -78,8 +104,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -90,8 +116,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -102,8 +128,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -114,8 +140,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -126,8 +152,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -138,20 +164,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "copyright",
       "piracy",
-      "rom"
-    ]
-  },
-  {
-    "title": "HBO&#8217;s Blocking Order Takes Out Popular Pirate Streaming Domains Including Streamzy.to",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Thu, 30 Jul 2026 17:01:43 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "pirate",
+      "rom",
       "copyright"
     ]
   },
@@ -163,8 +177,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -175,8 +189,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -187,8 +201,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -211,17 +225,6 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "piracy"
-    ]
-  },
-  {
-    "title": "&#8216;Tonga&#8217; Suspends Popular Pirate Site Domains Following Indian Court Order",
-    "link": "https://torrentfreak.com/pirate-site-blocking-is-legally-impossible-in-bulgaria-supreme-court-ruled/",
-    "description": "Bulgaria's highest court has ruled that civil site blocking is legally impossible under current national law. Bulgaria failed to properly transpose the EU directives that authorize blocking injunctions. The decision is a major setback for rightsholders, including the association of music producers, ",
-    "date": "Tue, 07 Jul 2026 08:30:01 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "pirate"
     ]
   },
   {
