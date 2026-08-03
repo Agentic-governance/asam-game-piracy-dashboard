@@ -1,22 +1,8 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-02 08:33 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-03 09:59 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-02T08:33:06.458709",
+  fetched_at: "2026-08-03T09:59:59.776315",
   item_count: 30,
   items: [
-  {
-    "title": "Pirate Site Blocking Is Legally Impossible in Bulgaria, Supreme Court Ruled",
-    "link": "https://torrentfreak.com/pearsons-anti-piracy-vendor-takes-down-best-selling-authors-own-github-repo/",
-    "description": "Pearson's anti-piracy vendor inadvertently used a DMCA notice to take down the official GitHub code repository of Pearson's own best-selling author, Paul Deitel. The prominent computer science educator pushed back, noting that the sender has \"no idea of the damage they're doing\" by taking down criti",
-    "date": "Wed, 08 Jul 2026 12:55:47 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 10,
-    "matched_keywords": [
-      "piracy",
-      "rom",
-      "pirate",
-      "dmca"
-    ]
-  },
   {
     "title": "HBO&#8217;s Blocking Order Takes Out Popular Pirate Streaming Domains Including Streamzy.to",
     "link": "https://torrentfreak.com/world-cup-piracy-crackdown-shows-limits-of-domain-seizures-mpa-pushes-site-blocking/",
@@ -38,10 +24,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
-      "pirate",
-      "piracy",
       "rom",
+      "torrent",
+      "piracy",
+      "pirate",
       "copyright"
     ]
   },
@@ -53,22 +39,22 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "seized",
       "arrested",
+      "seized",
       "pirate"
     ]
   },
   {
     "title": "World Cup Piracy Crackdown Shows Limits of Domain Seizures, MPA Pushes Site Blocking",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/record-labels-offer-to-abandon-46-8-million-piracy-case-against-grande/",
+    "description": "After the Supreme Court's Cox ruling reshaped ISPs piracy liability, the record labels behind a $46.8 million verdict against Grande Communications are ready to walk away from the case entirely. Grande won't let them, however. The Internet provider is holding out for a formal win and the millions in",
     "date": "Sat, 01 Aug 2026 08:45:30 +0000",
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
-      "copyright",
-      "crack"
+      "crack",
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -79,9 +65,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "dmca",
       "copyright",
-      "pirate",
-      "dmca"
+      "pirate"
     ]
   },
   {
@@ -116,8 +102,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -140,8 +126,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -164,9 +150,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "piracy",
+      "copyright",
       "rom",
-      "copyright"
+      "piracy"
+    ]
+  },
+  {
+    "title": "Record Labels Offer to Abandon $46.8 Million Piracy Case Against Grande",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Mon, 03 Aug 2026 09:39:30 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -201,8 +199,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -228,9 +226,20 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Xbox is (probably) not for sale | Opinion",
+    "title": "Last Sentinel developer Lightspeed LA conducts layoffs, 80 roles reportedly cut",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Mon, 03 Aug 2026 09:57:28 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Xbox is (probably) not for sale | Opinion",
+    "link": "https://www.gamesindustry.biz/microsoft-confirms-increased-xbox-prices-in-the-uk-and-europe",
+    "description": "Xbox consoles in the UK and Europe will increase from between &pound;130/&euro;150 and &pound;170/&euro;200 following worldwide price hikes announced in late June. Read more",
     "date": "Fri, 31 Jul 2026 15:21:24 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -305,28 +314,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"Across the industry, we don't think enough about how we match the scope to what we're making\" – Mike Bithell on why the world needs an im-slim",
-    "link": "https://www.gamesindustry.biz/new-data-suggests-layoffs-will-affect-14259-people-by-the-end-of-2026-up-78-from-first-forecast-of-the-year",
-    "description": "New data from the  ASGC Games Industry Layoffs Tracker predicts job losses will reach 14,259 by the end of 2026, representing a 78% increase over an initial forecast for the year. Read more",
-    "date": "Tue, 28 Jul 2026 12:17:32 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Pragmata and Resident Evil franchise boost Capcom's Q1 ordinary profit by 81% to $252.5m",
-    "link": "https://www.gamesindustry.biz/across-the-industry-we-dont-think-enough-about-how-we-match-the-scope-to-what-were-making-mike-bithell-on-why-the-world-needs-an-im-slim",
-    "description": "2025 was a very bad year for Mike Bithell. In August, he announced that the majority of full-time staff were being let go from Bithell Games, with 11 jobs being made redundant. Read more",
-    "date": "Tue, 28 Jul 2026 11:17:34 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
     "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
     "description": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform t",
@@ -336,6 +323,15 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
+  },
+  {
+    "title": "Microsoft confirms increased Xbox prices in the UK and Europe",
+    "link": "https://www.gamesindustry.biz/last-sentinel-developer-lightspeed-la-conducts-layoffs-80-roles-reportedly-cut",
+    "description": "Tencent-owned Lightspeed LA has undergone layoffs as it \"shifts the creative and development direction\" of its debut title, Last Sentinel. Read more",
+    "date": "Mon, 03 Aug 2026 08:22:06 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Unity announces dedicated engine support for Netflix Games",
