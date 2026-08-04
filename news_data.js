@@ -1,8 +1,24 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-03 09:59 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-04 08:49 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-03T09:59:59.776315",
+  fetched_at: "2026-08-04T08:49:41.984050",
   item_count: 30,
   items: [
+  {
+    "title": "World Cup Piracy Crackdown Shows Limits of Domain Seizures, MPA Pushes Site Blocking",
+    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Disclosure Day' tops the chart, followed by 'Supergirl.' 'Spider-Man: Brand New Day' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sat, 01 Aug 2026 08:45:30 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 12,
+    "matched_keywords": [
+      "copyright",
+      "piracy",
+      "crack",
+      "rom",
+      "torrent",
+      "pirate"
+    ]
+  },
   {
     "title": "HBO&#8217;s Blocking Order Takes Out Popular Pirate Streaming Domains Including Streamzy.to",
     "link": "https://torrentfreak.com/world-cup-piracy-crackdown-shows-limits-of-domain-seizures-mpa-pushes-site-blocking/",
@@ -12,23 +28,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "seized",
-      "piracy",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Meta Confirms &#8216;Data Engineer&#8217; is Behind Key IP Address in Adult Film Piracy Lawsuit",
-    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Disclosure Day' tops the chart, followed by 'Star Wars: The Mandalorian and Grogu.' 'Obsession' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sun, 26 Jul 2026 11:16:29 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 9,
-    "matched_keywords": [
-      "rom",
-      "torrent",
-      "piracy",
       "pirate",
-      "copyright"
+      "piracy"
     ]
   },
   {
@@ -39,21 +40,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "arrested",
       "seized",
-      "pirate"
+      "pirate",
+      "arrested"
     ]
   },
   {
-    "title": "World Cup Piracy Crackdown Shows Limits of Domain Seizures, MPA Pushes Site Blocking",
+    "title": "Top 10 Most Pirated Movies of The Week – 08/03/2026",
     "link": "https://torrentfreak.com/record-labels-offer-to-abandon-46-8-million-piracy-case-against-grande/",
     "description": "After the Supreme Court's Cox ruling reshaped ISPs piracy liability, the record labels behind a $46.8 million verdict against Grande Communications are ready to walk away from the case entirely. Grande won't let them, however. The Internet provider is holding out for a formal win and the millions in",
-    "date": "Sat, 01 Aug 2026 08:45:30 +0000",
+    "date": "Sun, 02 Aug 2026 23:09:40 +0000",
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "crack",
       "rom",
+      "pirate",
       "piracy"
     ]
   },
@@ -65,9 +66,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "dmca",
       "copyright",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -78,8 +79,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -90,8 +91,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -114,8 +115,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -131,18 +132,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Pearson&#8217;s Anti-Piracy Vendor Takes Down Best-Selling Author&#8217;s Own GitHub Repo",
-    "link": "https://torrentfreak.com/google-opposes-site-blocking-in-europe-as-u-s-piracy-blocking-plans-gain-momentum/",
-    "description": "Google has told the European Commission that pirate site blocking causes \"significant harm\" and should not target DNS resolvers, VPNs or shared IPs. The submission was filed days before a U.S. congressional hearing signaled that American site blocking legislation is closer than ever to introduction.",
-    "date": "Fri, 10 Jul 2026 10:21:27 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "piracy",
-      "pirate"
-    ]
-  },
-  {
     "title": "Copyright Scammers Weaponized Meta&#8217;s Rights Manager with Backdating Exploit",
     "link": "https://torrentfreak.com/france-approves-automated-real-time-blocking-of-pirate-sports-streams/",
     "description": "French lawmakers have officially adopted a new sports law that replaces manual domain checks with support for automated, real-time piracy blocking. The system allows for instant blockades during live sports broadcasts, with  oversight checks from regulator ARCOM being applied afterward rather than b",
@@ -150,33 +139,33 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "copyright",
       "rom",
+      "copyright",
       "piracy"
     ]
   },
   {
     "title": "Record Labels Offer to Abandon $46.8 Million Piracy Case Against Grande",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/european-space-agency-website-exploited-to-advertise-shady-iptv-services/",
+    "description": "The European Space Agency's Cosmos portal is dedicated to space exploration. While the organization scans stars and galaxies far away, its own infrastructure is quietly hosting hundreds of PDFs promoting shady IPTV services, ranking them in Google right beside official Gaia mission updates. The SEO ",
     "date": "Mon, 03 Aug 2026 09:39:30 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "rom",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Meta Confirms &#8216;Data Engineer&#8217; is Behind Key IP Address in Adult Film Piracy Lawsuit",
+    "link": "https://torrentfreak.com/copyright-scammers-weaponized-metas-rights-manager-with-backdating-exploit/",
+    "description": "Scammers are allegedly exploiting a flaw in Facebook's 'Edit Post' feature to backdate stolen videos and hijack copyright claims through Meta's Rights Manager. This allows them to monetize content of other creators, while also hitting them with strikes. The problem is at the center of several Indian",
+    "date": "Sun, 26 Jul 2026 11:16:29 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
       "copyright",
       "piracy"
-    ]
-  },
-  {
-    "title": "Top 10 Most Pirated Movies of The Week – 07/27/2026",
-    "link": "https://torrentfreak.com/copyright-scammers-weaponized-metas-rights-manager-with-backdating-exploit/",
-    "description": "Scammers are allegedly exploiting a flaw in Facebook's 'Edit Post' feature to backdate stolen videos and hijack copyright claims through Meta's Rights Manager. This allows them to monetize content of other creators, while also hitting them with strikes. The problem is at the center of several Indian",
-    "date": "Sun, 26 Jul 2026 23:09:40 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "copyright",
-      "pirate"
     ]
   },
   {
@@ -226,10 +215,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Last Sentinel developer Lightspeed LA conducts layoffs, 80 roles reportedly cut",
+    "title": "FIFA World Cup developer Refactor Games cuts 85% of staff",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 03 Aug 2026 09:57:28 +0000",
+    "date": "Mon, 03 Aug 2026 20:15:39 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -270,50 +259,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"People want to play arcade racers again\" – How the developer of Wreckreation went from a company-wide redundancy notice to working on a sequel",
-    "link": "https://www.gamesindustry.biz/xbox-revenue-plunges-17bn-with-hardware-dropping-29-yoy",
-    "description": "Microsoft has published its latest financial results, with Xbox revenue down 7% for the full year and 10% in the fourth quarter. Read more",
-    "date": "Wed, 29 Jul 2026 15:56:07 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Capcom producer says Resident Evil remakes are providing financial support to develop new games and IP",
-    "link": "https://www.gamesindustry.biz/people-want-to-play-arcade-racers-again-how-the-developer-of-wreckreation-went-from-a-company-wide-redundancy-notice-to-working-on-a-sequel",
-    "description": "When we last heard from Fiona Sperry in December, she had just put the entire team at Three Fields Entertainment on notice of redundancy. Read more",
-    "date": "Wed, 29 Jul 2026 13:50:23 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Double Fine Productions cuts 23 roles as it becomes independent from Xbox",
-    "link": "https://www.gamesindustry.biz/uk-games-fund-announces-largest-cohort-of-indie-studios-to-receive-grants-of-up-to-100000",
-    "description": "The UK Games Fund has announced its largest group of funded companies since its launch in 2015. Read more",
-    "date": "Wed, 29 Jul 2026 07:26:52 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "New data suggests layoffs will affect 14,259 people by the end of 2026, up 78% from first forecast of the year",
-    "link": "https://www.gamesindustry.biz/double-fine-productions-cuts-23-roles-as-it-becomes-independent-from-xbox",
-    "description": "Double Fine Productions has reduced its workforce by 25% following its full separation from Xbox earlier this week. Read more",
-    "date": "Tue, 28 Jul 2026 13:44:03 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
     "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
     "description": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform t",
@@ -323,6 +268,51 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
+  },
+  {
+    "title": "Atari's core business returns to profit, but consolidated group posts $5.5m net loss as Thunderful drags on results",
+    "link": "https://www.gamesindustry.biz/fifa-world-cup-developer-refactor-games-reportedly-shuttered-by-delphi-interactive",
+    "description": "UPDATE Aug 4th: studio owner Nathan Burba confirmed to Gamesbeat that the studio had laid off 85% of its staff. This story has been updated to reflect this information. Read more",
+    "date": "Mon, 03 Aug 2026 19:44:13 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Ustwo Games was pushed out of mobile by the rise of free-to-play – but the mobile way of doing things is coming to PC",
+    "link": "https://www.gamesindustry.biz/razer-acquires-streamelements-assets",
+    "description": "Razer has acquired the assets of the cloud-based live streaming platform,  StreamElements. Read more",
+    "date": "Mon, 03 Aug 2026 14:59:24 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "AI startup Reforged Labs shuts down as the \"gap we were selling into is closing\"",
+    "link": "https://www.gamesindustry.biz/ustwo-games-was-pushed-out-of-mobile-by-the-rise-of-free-to-play-but-the-mobile-way-of-doing-things-is-coming-to-pc",
+    "description": "Ustwo Games has always been synonymous with tactile mobile game experiences, chiefly their breakout hit Monument Valley and subsequent releases Assemble With Care and Desta: The Memories Between. Earlier this year it announced plans to change that, and shift to a PC-first strategy. Read more",
+    "date": "Mon, 03 Aug 2026 13:47:44 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Rokky teams up with Revolution Software to bring Broken Sword franchise to China",
+    "link": "https://www.gamesindustry.biz/ai-startup-reforged-labs-shuts-down-as-the-gap-we-were-selling-into-is-closing",
+    "description": "Generative AI platform  Reforged Labs is shutting down after three years due to challenges scaling beyond the gaming sector. Read more",
+    "date": "Mon, 03 Aug 2026 12:45:46 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Last Sentinel developer Lightspeed LA conducts layoffs, 80 roles reportedly cut",
+    "link": "https://www.gamesindustry.biz/rokky-teams-up-with-revolution-software-to-bring-broken-sword-franchise-to-china",
+    "description": "Game distributor Rokky has partnered with Revolution Software to co-publish its Broken Sword franchise in China. Read more",
+    "date": "Mon, 03 Aug 2026 09:57:28 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Microsoft confirms increased Xbox prices in the UK and Europe",
