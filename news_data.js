@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-04 08:49 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-05 08:46 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-04T08:49:41.984050",
+  fetched_at: "2026-08-05T08:46:41.441086",
   item_count: 30,
   items: [
   {
@@ -12,11 +12,11 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "copyright",
-      "piracy",
+      "pirate",
+      "torrent",
       "crack",
       "rom",
-      "torrent",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -27,9 +27,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "seized",
+      "piracy",
       "pirate",
-      "piracy"
+      "seized"
     ]
   },
   {
@@ -41,8 +41,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "seized",
-      "pirate",
-      "arrested"
+      "arrested",
+      "pirate"
     ]
   },
   {
@@ -53,9 +53,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
+      "piracy",
       "pirate",
-      "piracy"
+      "rom"
     ]
   },
   {
@@ -66,9 +66,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "copyright",
+      "dmca",
       "pirate",
-      "dmca"
+      "copyright"
     ]
   },
   {
@@ -79,8 +79,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -91,8 +91,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -103,8 +103,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -115,8 +115,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -127,8 +127,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -139,9 +139,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "rom",
       "copyright",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -152,8 +152,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -215,10 +215,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "FIFA World Cup developer Refactor Games cuts 85% of staff",
+    "title": "Electronic Arts completes $55bn acquisition; CEO announces senior leadership changes",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 03 Aug 2026 20:15:39 +0000",
+    "date": "Wed, 05 Aug 2026 08:07:24 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Roblox's reported user numbers will make it subject to additional EU legislation for regulating social networks",
+    "link": "https://www.gamesindustry.biz/the-industry-makes-great-games-but-nobody-can-find-them",
+    "description": "At the Madeira Games Summit in May, Michal Bujko, senior business development manager at Modma Studios, asked a question: If we were looking back at 2026 five years from now, what should we have fixed when we still had the chance? Read more",
+    "date": "Tue, 04 Aug 2026 09:47:52 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -270,73 +281,64 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Raptor PR launches Early Gaming Growth platform to help gaming startups navigate B2B communications",
+    "link": "https://www.gamesindustry.biz/electronic-arts-completes-55bn-acquisition-ceo-announces-senior-leadership-changes",
+    "description": "Electronic Arts has completed its $55 billion leveraged buyout, with Saudi Arabia's Public Investment Fund (PIF) now the majority owner. Read more",
+    "date": "Wed, 05 Aug 2026 08:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Secret Mode opens new Sheffield studio to support internal titles, starting with Escape the Backrooms and Chained Together",
+    "link": "https://www.gamesindustry.biz/raptor-pr-launches-early-gaming-growth-platform-to-help-gaming-startups-navigate-b2b-communications",
+    "description": "Raptor PR has launched Early Gaming Growth (EGG), a communications platform designed for gaming startups. Read more",
+    "date": "Wed, 05 Aug 2026 05:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Ex-Sumo Group CEO Carl Cavers joins co-dev studio Vertpaint as non-exec director and shareholder",
+    "link": "https://www.gamesindustry.biz/secret-mode-opens-new-sheffield-studio-to-support-internal-titles-starting-with-escape-the-backrooms-and-chained-together",
+    "description": "Indie publisher Secret Mode has set up a new internal development studio in Sheffield to support the label's line-up of games, starting with recent hit Escape the Backrooms and Chained Together, which Secret Mode acquired in June. At launch the venture is just three people strong, but over the next ",
+    "date": "Tue, 04 Aug 2026 12:15:35 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "FirstLook launches creator-first platform Creators.gg with launch partners IO Interactive and Brain Jar Games",
+    "link": "https://www.gamesindustry.biz/ex-sumo-group-ceo-carl-cavers-joins-co-dev-studio-vertpaint-as-non-exec-director-and-shareholder",
+    "description": "Co-development studio Vertpaint has appointed former Sumo Group co-founder and CEO Carl Cavers OBE as non-executive director and shareholder. Read more",
+    "date": "Tue, 04 Aug 2026 12:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "The industry makes great games, but nobody can find them",
+    "link": "https://www.gamesindustry.biz/firstlook-launches-creator-first-platform-creatorsgg-with-launch-partners-io-interactive-and-brain-jar-games",
+    "description": "Player relationship and marketing platform FirstLook has launched Creators.gg to connect studios with creators of any size, rather than limiting opportunities to those with the largest audiences. Read more",
+    "date": "Tue, 04 Aug 2026 11:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "FIFA World Cup developer Refactor Games cuts 85% of staff",
+    "link": "https://www.gamesindustry.biz/robloxs-reported-user-numbers-will-make-it-subject-to-additional-eu-legislation-for-regulating-social-networks",
+    "description": "Roblox could become the first game to be classified as a very large online platform (VLOP) under European legislation. Read more",
+    "date": "Mon, 03 Aug 2026 20:15:39 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Atari's core business returns to profit, but consolidated group posts $5.5m net loss as Thunderful drags on results",
     "link": "https://www.gamesindustry.biz/fifa-world-cup-developer-refactor-games-reportedly-shuttered-by-delphi-interactive",
     "description": "UPDATE Aug 4th: studio owner Nathan Burba confirmed to Gamesbeat that the studio had laid off 85% of its staff. This story has been updated to reflect this information. Read more",
     "date": "Mon, 03 Aug 2026 19:44:13 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Ustwo Games was pushed out of mobile by the rise of free-to-play – but the mobile way of doing things is coming to PC",
-    "link": "https://www.gamesindustry.biz/razer-acquires-streamelements-assets",
-    "description": "Razer has acquired the assets of the cloud-based live streaming platform,  StreamElements. Read more",
-    "date": "Mon, 03 Aug 2026 14:59:24 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "AI startup Reforged Labs shuts down as the \"gap we were selling into is closing\"",
-    "link": "https://www.gamesindustry.biz/ustwo-games-was-pushed-out-of-mobile-by-the-rise-of-free-to-play-but-the-mobile-way-of-doing-things-is-coming-to-pc",
-    "description": "Ustwo Games has always been synonymous with tactile mobile game experiences, chiefly their breakout hit Monument Valley and subsequent releases Assemble With Care and Desta: The Memories Between. Earlier this year it announced plans to change that, and shift to a PC-first strategy. Read more",
-    "date": "Mon, 03 Aug 2026 13:47:44 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Rokky teams up with Revolution Software to bring Broken Sword franchise to China",
-    "link": "https://www.gamesindustry.biz/ai-startup-reforged-labs-shuts-down-as-the-gap-we-were-selling-into-is-closing",
-    "description": "Generative AI platform  Reforged Labs is shutting down after three years due to challenges scaling beyond the gaming sector. Read more",
-    "date": "Mon, 03 Aug 2026 12:45:46 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Last Sentinel developer Lightspeed LA conducts layoffs, 80 roles reportedly cut",
-    "link": "https://www.gamesindustry.biz/rokky-teams-up-with-revolution-software-to-bring-broken-sword-franchise-to-china",
-    "description": "Game distributor Rokky has partnered with Revolution Software to co-publish its Broken Sword franchise in China. Read more",
-    "date": "Mon, 03 Aug 2026 09:57:28 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Microsoft confirms increased Xbox prices in the UK and Europe",
-    "link": "https://www.gamesindustry.biz/last-sentinel-developer-lightspeed-la-conducts-layoffs-80-roles-reportedly-cut",
-    "description": "Tencent-owned Lightspeed LA has undergone layoffs as it \"shifts the creative and development direction\" of its debut title, Last Sentinel. Read more",
-    "date": "Mon, 03 Aug 2026 08:22:06 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Unity announces dedicated engine support for Netflix Games",
-    "link": "https://www.gamesindustry.biz/we-will-not-live-on-past-successes-or-be-trapped-by-past-failures-xbox-ceo-outlines-priorities-to-turn-platform-around-in-fy27",
-    "description": "Asha Sharma has outlined key priorities to help Xbox recover after it  reported a $1.7 billion decline in revenue last year. Read more",
-    "date": "Fri, 31 Jul 2026 12:59:19 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "PlayStation reports flat Q1 sales, says it's \"cautiously moving forward\" with halting physical disc production",
-    "link": "https://www.gamesindustry.biz/unity-announces-dedicated-engine-for-netflix-games",
-    "description": "Unity has launched dedicated engine support for Netflix platforms, making it easier for developers to ship titles on the streaming platform's ecosystem. Read more",
-    "date": "Fri, 31 Jul 2026 11:21:17 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
