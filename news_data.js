@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-05 08:46 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-06 08:48 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-05T08:46:41.441086",
+  fetched_at: "2026-08-06T08:48:25.325572",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "copyright",
-      "pirate",
       "torrent",
-      "crack",
       "rom",
+      "crack",
+      "pirate",
+      "copyright",
       "piracy"
     ]
   },
@@ -27,9 +27,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "pirate",
-      "seized"
+      "seized",
+      "piracy"
     ]
   },
   {
@@ -40,9 +40,22 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "pirate",
       "seized",
-      "arrested",
-      "pirate"
+      "arrested"
+    ]
+  },
+  {
+    "title": "Broadcaster Wins Broad U.S. Blocking Injunction Covering Pirate Sites That Don&#8217;t Exist Yet",
+    "link": "https://torrentfreak.com/yggtorrent-teases-a-comeback-in-september-weeks-after-arrests/",
+    "description": "YggTorrent was France's largest torrent site until a hacker gutted it in March. In July, the police arrested twelve suspected operators. That was not the end of it, however. Following a purported takeover, YggTorrent's domains are back online and counting down to a \"grand return\" on September 1 unde",
+    "date": "Wed, 05 Aug 2026 14:02:23 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "torrent",
+      "pirate",
+      "arrested"
     ]
   },
   {
@@ -53,9 +66,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "pirate",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -72,6 +85,18 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "European Space Agency Website Exploited to Advertise Shady IPTV Services",
+    "link": "https://torrentfreak.com/broadcaster-wins-broad-u-s-blocking-injunction-covering-pirate-sites-that-dont-exist-yet/",
+    "description": "Mexican broadcaster TelevisaUnivision has obtained one of the broadest anti-piracy injunctions ever issued by a U.S. federal court. After initially targeting five pirate IPTV streaming operations, the case expanded to cover well over 500 domain names, requiring intermediaries including Cloudflare, G",
+    "date": "Tue, 04 Aug 2026 06:12:42 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "pirate",
+      "piracy"
+    ]
+  },
+  {
     "title": "France Approves Automated, Real-Time Blocking of Pirate Sports Streams",
     "link": "https://torrentfreak.com/vietnam-uses-hianime-arrests-as-defense-against-u-s-trade-sanctions/",
     "description": "Facing potential U.S. trade sanctions over online piracy, Vietnam is using the recent shutdown and its criminal prosecution of the HiAnime piracy ring as a key line of defense. Notably, Vietnam's response was submitted on the same day that the HiAnime prosecution was made public. While the enforceme",
@@ -79,8 +104,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -91,8 +116,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -103,32 +128,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "crack"
-    ]
-  },
-  {
-    "title": "U.S. Seizes More Pirate Sports Streaming Domains, But Iranian Fallbacks Remain",
-    "link": "https://torrentfreak.com/anime-piracy-giant-animeflv-mysteriously-stopped-serving-video/",
-    "description": "AnimeFLV, the largest Spanish-language anime piracy site on the internet, has stopped serving video to its tens of millions of monthly visitors. The site, which the MPA flagged as a notorious market in its latest USTR submission, remains online with its directory intact. However, the videos have bee",
-    "date": "Mon, 13 Jul 2026 09:32:28 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "piracy",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Google Opposes Site Blocking in Europe as U.S. Piracy Blocking Plans Gain Momentum",
-    "link": "https://torrentfreak.com/u-s-seizes-more-pirate-sports-streaming-domains-but-iranian-fallbacks-remain/",
-    "description": "The U.S. continues to crack down on sports streaming sites, seizing well over a hundred additional domain names this weekend. While these enforcement actions sorted effect, several of the targeted domains now use fallback domains on Iran's .ir country-code TLD, which might be harder to reach for Ame",
-    "date": "Sat, 11 Jul 2026 11:37:45 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -140,8 +141,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "copyright",
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -152,8 +153,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -176,8 +177,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -215,10 +216,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Electronic Arts completes $55bn acquisition; CEO announces senior leadership changes",
+    "title": "Nintendo Q1 sales drop 9.5%; operating profit soars following higher software sales and $300m in US tariff refunds",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 05 Aug 2026 08:07:24 +0000",
+    "date": "Thu, 06 Aug 2026 08:46:53 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Silver Lining Interactive launches first title from its development label Silver Bullet",
+    "link": "https://www.gamesindustry.biz/phasmophobia-developers-indie-label-kinetic-publishing-to-reveal-debut-slate-at-showcase-this-august",
+    "description": "Kinetic Publishing, the publishing label founded by Phasmophobia developer Kinetic Games, will reveal the first games signed to the label at a showcase on August 12. Read more",
+    "date": "Wed, 05 Aug 2026 13:11:29 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Jobs roundup: August 2026 | Three new hires at Yogscast Games",
+    "link": "https://www.gamesindustry.biz/silver-lining-interactive-launches-first-title-from-its-development-label-silver-bullet",
+    "description": "Indie games publisher Silver Lining Interactive has revealed the first title from its internal IP development label, Silver Bullet. Read more",
+    "date": "Wed, 05 Aug 2026 10:57:10 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -237,39 +260,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Xbox is (probably) not for sale | Opinion",
-    "link": "https://www.gamesindustry.biz/microsoft-confirms-increased-xbox-prices-in-the-uk-and-europe",
-    "description": "Xbox consoles in the UK and Europe will increase from between &pound;130/&euro;150 and &pound;170/&euro;200 following worldwide price hikes announced in late June. Read more",
-    "date": "Fri, 31 Jul 2026 15:21:24 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "\"We will not live on past successes or be trapped by past failures\" – Xbox CEO outlines priorities to turn platform around in FY27",
-    "link": "https://www.gamesindustry.biz/xbox-is-probably-not-for-sale-opinion",
-    "description": "For much of this year, each new week has brought with it a new impetus for a rash of articles on Microsoft&rsquo;s Xbox misfortunes. From deep wounds like layoffs and project cancellations, to stinging papercuts like internal memos, poorly received public statements, or unflattering data points, as ",
-    "date": "Fri, 31 Jul 2026 13:40:23 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "EA acquisition set to close on August 4 following approval from required regulatory bodies",
-    "link": "https://www.gamesindustry.biz/playstation-reports-flat-q1-sales-says-its-cautiously-moving-forward-with-halting-physical-disc-production",
-    "description": "Sony reported flat sales in its Games & Network Services (G&NS) segment for its first quarter, but operating income rose 37%, primarily due to US tariff refunds. Read more",
-    "date": "Fri, 31 Jul 2026 09:47:25 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
     "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
     "description": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform t",
@@ -281,6 +271,36 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "YggTorrent Teases a Comeback in September, Weeks After Arrests",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Thu, 06 Aug 2026 07:50:37 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 2,
+    "matched_keywords": [
+      "torrent",
+      "copyright"
+    ]
+  },
+  {
+    "title": "King declines collective bargaining agreement with Swedish unions",
+    "link": "https://www.gamesindustry.biz/nintendo-q1-sales-drop-95-operating-profit-soars-following-higher-software-sales-and-300m-in-us-tariff-refunds",
+    "description": "Nintendo reported a 9.5% decrease in first-quarter net sales, but operating profit rose 150.5% due to higher software revenue and $300 million in US tariff refunds. Read more",
+    "date": "Wed, 05 Aug 2026 18:41:43 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Electronic Arts completes $55bn acquisition; CEO announces senior leadership changes",
+    "link": "https://www.gamesindustry.biz/jobs-roundup-august-2026-three-new-hires-at-yogscast-games",
+    "description": "It can be difficult keeping track of the various comings and goings in the games industry, which is why we compile them in semi-regular round-ups. Read more",
+    "date": "Wed, 05 Aug 2026 08:07:24 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Raptor PR launches Early Gaming Growth platform to help gaming startups navigate B2B communications",
     "link": "https://www.gamesindustry.biz/electronic-arts-completes-55bn-acquisition-ceo-announces-senior-leadership-changes",
     "description": "Electronic Arts has completed its $55 billion leveraged buyout, with Saudi Arabia's Public Investment Fund (PIF) now the majority owner. Read more",
@@ -290,7 +310,7 @@ const ARIA_NEWS = {
     "matched_keywords": []
   },
   {
-    "title": "Secret Mode opens new Sheffield studio to support internal titles, starting with Escape the Backrooms and Chained Together",
+    "title": "Secret Mode opens new Sheffield studio to support internal titles",
     "link": "https://www.gamesindustry.biz/raptor-pr-launches-early-gaming-growth-platform-to-help-gaming-startups-navigate-b2b-communications",
     "description": "Raptor PR has launched Early Gaming Growth (EGG), a communications platform designed for gaming startups. Read more",
     "date": "Wed, 05 Aug 2026 05:00:00 +0000",
@@ -301,7 +321,7 @@ const ARIA_NEWS = {
   {
     "title": "Ex-Sumo Group CEO Carl Cavers joins co-dev studio Vertpaint as non-exec director and shareholder",
     "link": "https://www.gamesindustry.biz/secret-mode-opens-new-sheffield-studio-to-support-internal-titles-starting-with-escape-the-backrooms-and-chained-together",
-    "description": "Indie publisher Secret Mode has set up a new internal development studio in Sheffield to support the label's line-up of games, starting with recent hit Escape the Backrooms and Chained Together, which Secret Mode acquired in June. At launch the venture is just three people strong, but over the next ",
+    "description": "Indie publisher Secret Mode has set up a new internal development studio in Sheffield to support the label's line-up of games, starting with recent hit Escape the Backrooms and Chained Together, which Secret Mode took over in June. At launch the venture is just three people strong, but over the next",
     "date": "Tue, 04 Aug 2026 12:15:35 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
@@ -321,24 +341,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/firstlook-launches-creator-first-platform-creatorsgg-with-launch-partners-io-interactive-and-brain-jar-games",
     "description": "Player relationship and marketing platform FirstLook has launched Creators.gg to connect studios with creators of any size, rather than limiting opportunities to those with the largest audiences. Read more",
     "date": "Tue, 04 Aug 2026 11:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "FIFA World Cup developer Refactor Games cuts 85% of staff",
-    "link": "https://www.gamesindustry.biz/robloxs-reported-user-numbers-will-make-it-subject-to-additional-eu-legislation-for-regulating-social-networks",
-    "description": "Roblox could become the first game to be classified as a very large online platform (VLOP) under European legislation. Read more",
-    "date": "Mon, 03 Aug 2026 20:15:39 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Atari's core business returns to profit, but consolidated group posts $5.5m net loss as Thunderful drags on results",
-    "link": "https://www.gamesindustry.biz/fifa-world-cup-developer-refactor-games-reportedly-shuttered-by-delphi-interactive",
-    "description": "UPDATE Aug 4th: studio owner Nathan Burba confirmed to Gamesbeat that the studio had laid off 85% of its staff. This story has been updated to reflect this information. Read more",
-    "date": "Mon, 03 Aug 2026 19:44:13 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
