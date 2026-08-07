@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-06 08:48 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-07 07:34 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-06T08:48:25.325572",
+  fetched_at: "2026-08-07T07:34:52.598784",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "torrent",
-      "rom",
-      "crack",
       "pirate",
+      "torrent",
       "copyright",
-      "piracy"
+      "piracy",
+      "rom",
+      "crack"
     ]
   },
   {
@@ -27,8 +27,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "seized",
+      "pirate",
       "piracy"
     ]
   },
@@ -40,9 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
+      "arrested",
       "seized",
-      "arrested"
+      "pirate"
     ]
   },
   {
@@ -53,9 +53,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "arrested",
       "torrent",
-      "pirate",
-      "arrested"
+      "pirate"
     ]
   },
   {
@@ -66,8 +66,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "rom",
+      "pirate",
       "piracy"
     ]
   },
@@ -79,9 +79,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "copyright",
       "dmca",
-      "pirate",
-      "copyright"
+      "pirate"
     ]
   },
   {
@@ -177,8 +177,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -216,10 +216,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Nintendo Q1 sales drop 9.5%; operating profit soars following higher software sales and $300m in US tariff refunds",
+    "title": "Roblox shares fall 70% following lower-than-expected monetisation during Q2",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 06 Aug 2026 08:46:53 +0000",
+    "date": "Thu, 06 Aug 2026 13:17:27 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -260,6 +260,17 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Read This Before You Buy That TV Streaming Stick",
+    "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+    "description": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontar",
+    "date": "Thu, 30 Jul 2026 16:49:00 +0000",
+    "source": "KrebsOnSecurity",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "piracy"
+    ]
+  },
+  {
     "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
     "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
     "description": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform t",
@@ -283,6 +294,42 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "UK Employment Rights Act 2025: Harassment law is getting tougher – and games companies need to be ready",
+    "link": "https://www.gamesindustry.biz/roblox-shares-fall-70-following-lower-than-expected-monetisation-during-q2",
+    "description": "Roblox  shares have  declined 70% after  second quarter results showed monetisation was 2% below company guidance, which impacted overall bookings. Read more",
+    "date": "Thu, 06 Aug 2026 11:01:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Kudos Games Services expands leadership team with Testronic and Team17 execs",
+    "link": "https://www.gamesindustry.biz/uk-employment-rights-act-2025-harassment-law-is-getting-tougher-and-games-companies-need-to-be-ready",
+    "description": "This is the second article in our series analysing the potential impact of the new Employment Rights Act (ERA) 2025 on games businesses operating within the UK. Read more",
+    "date": "Thu, 06 Aug 2026 10:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Devolver Digital intends to go private",
+    "link": "https://www.gamesindustry.biz/kudos-games-services-expands-leadership-team-with-testronic-and-team17-execs",
+    "description": "Kudos Games Services has expanded its senior leadership team by appointing Michael Hanna as chief operating officer and Ann Hurley as board advisor. Read more",
+    "date": "Thu, 06 Aug 2026 08:58:53 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Nintendo Q1 sales drop 9.5%; operating profit soars following higher software sales and $300m in US tariff refunds",
+    "link": "https://www.gamesindustry.biz/devolver-digital-intends-to-go-private",
+    "description": "Indie publisher Devolver Digital is looking to once again become a private company later this year. Read more",
+    "date": "Thu, 06 Aug 2026 08:46:53 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "King declines collective bargaining agreement with Swedish unions",
     "link": "https://www.gamesindustry.biz/nintendo-q1-sales-drop-95-operating-profit-soars-following-higher-software-sales-and-300m-in-us-tariff-refunds",
     "description": "Nintendo reported a 9.5% decrease in first-quarter net sales, but operating profit rose 150.5% due to higher software revenue and $300 million in US tariff refunds. Read more",
@@ -296,51 +343,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/jobs-roundup-august-2026-three-new-hires-at-yogscast-games",
     "description": "It can be difficult keeping track of the various comings and goings in the games industry, which is why we compile them in semi-regular round-ups. Read more",
     "date": "Wed, 05 Aug 2026 08:07:24 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Raptor PR launches Early Gaming Growth platform to help gaming startups navigate B2B communications",
-    "link": "https://www.gamesindustry.biz/electronic-arts-completes-55bn-acquisition-ceo-announces-senior-leadership-changes",
-    "description": "Electronic Arts has completed its $55 billion leveraged buyout, with Saudi Arabia's Public Investment Fund (PIF) now the majority owner. Read more",
-    "date": "Wed, 05 Aug 2026 08:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Secret Mode opens new Sheffield studio to support internal titles",
-    "link": "https://www.gamesindustry.biz/raptor-pr-launches-early-gaming-growth-platform-to-help-gaming-startups-navigate-b2b-communications",
-    "description": "Raptor PR has launched Early Gaming Growth (EGG), a communications platform designed for gaming startups. Read more",
-    "date": "Wed, 05 Aug 2026 05:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Ex-Sumo Group CEO Carl Cavers joins co-dev studio Vertpaint as non-exec director and shareholder",
-    "link": "https://www.gamesindustry.biz/secret-mode-opens-new-sheffield-studio-to-support-internal-titles-starting-with-escape-the-backrooms-and-chained-together",
-    "description": "Indie publisher Secret Mode has set up a new internal development studio in Sheffield to support the label's line-up of games, starting with recent hit Escape the Backrooms and Chained Together, which Secret Mode took over in June. At launch the venture is just three people strong, but over the next",
-    "date": "Tue, 04 Aug 2026 12:15:35 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "FirstLook launches creator-first platform Creators.gg with launch partners IO Interactive and Brain Jar Games",
-    "link": "https://www.gamesindustry.biz/ex-sumo-group-ceo-carl-cavers-joins-co-dev-studio-vertpaint-as-non-exec-director-and-shareholder",
-    "description": "Co-development studio Vertpaint has appointed former Sumo Group co-founder and CEO Carl Cavers OBE as non-executive director and shareholder. Read more",
-    "date": "Tue, 04 Aug 2026 12:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "The industry makes great games, but nobody can find them",
-    "link": "https://www.gamesindustry.biz/firstlook-launches-creator-first-platform-creatorsgg-with-launch-partners-io-interactive-and-brain-jar-games",
-    "description": "Player relationship and marketing platform FirstLook has launched Creators.gg to connect studios with creators of any size, rather than limiting opportunities to those with the largest audiences. Read more",
-    "date": "Tue, 04 Aug 2026 11:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
