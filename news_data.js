@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-07 07:34 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-08 07:04 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-07T07:34:52.598784",
+  fetched_at: "2026-08-08T07:04:20.694054",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "pirate",
-      "torrent",
       "copyright",
+      "pirate",
       "piracy",
-      "rom",
-      "crack"
+      "crack",
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -27,9 +27,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "piracy",
       "seized",
-      "pirate",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -66,9 +66,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "piracy",
       "rom",
-      "pirate",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -79,8 +79,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "copyright",
       "dmca",
+      "copyright",
       "pirate"
     ]
   },
@@ -92,8 +92,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -104,8 +104,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -116,8 +116,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -128,8 +128,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -140,9 +140,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
+      "piracy",
       "copyright",
-      "rom",
-      "piracy"
+      "rom"
     ]
   },
   {
@@ -153,8 +153,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -165,8 +165,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -189,8 +189,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -216,10 +216,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Roblox shares fall 70% following lower-than-expected monetisation during Q2",
+    "title": "Strauss Zelnick: Netflix debut is merely \"one of the hors d'oeuvres\" for full GTA 6 launch; pre-order numbers are \"unprecedented and astonishing\"",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 06 Aug 2026 13:17:27 +0000",
+    "date": "Fri, 07 Aug 2026 16:26:16 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Former Icelandic minister joins Fenris Creations to lead new AI partnerships",
+    "link": "https://www.gamesindustry.biz/analyst-ai-focused-ma-deals-are-weakening-the-games-investment-landscape",
+    "description": "A new M&A report from analyst S&P has indicated a weakening investment environment for games, with available funding increasingly going to businesse models relying on recurring engagement, platform leverage or alternative monetization. Read more",
+    "date": "Fri, 07 Aug 2026 13:40:25 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -238,21 +249,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Jobs roundup: August 2026 | Three new hires at Yogscast Games",
+    "title": "Jobs roundup: August 2026 | Frontier Developments appoints Dan Lazarides as CMO",
     "link": "https://www.gamesindustry.biz/silver-lining-interactive-launches-first-title-from-its-development-label-silver-bullet",
     "description": "Indie games publisher Silver Lining Interactive has revealed the first title from its internal IP development label, Silver Bullet. Read more",
     "date": "Wed, 05 Aug 2026 10:57:10 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Roblox's reported user numbers will make it subject to additional EU legislation for regulating social networks",
-    "link": "https://www.gamesindustry.biz/the-industry-makes-great-games-but-nobody-can-find-them",
-    "description": "At the Madeira Games Summit in May, Michal Bujko, senior business development manager at Modma Studios, asked a question: If we were looking back at 2026 five years from now, what should we have fixed when we still had the chance? Read more",
-    "date": "Tue, 04 Aug 2026 09:47:52 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -289,9 +289,45 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "torrent",
-      "copyright"
+      "copyright",
+      "torrent"
     ]
+  },
+  {
+    "title": "Investors hate Roblox’ new direction – but a reversal may be impossible | Opinion",
+    "link": "https://www.gamesindustry.biz/strauss-zelnick-netflix-debut-is-merely-one-of-the-hors-doeuvres-for-full-gta-6-launch-pre-order-numbers-are-unprecedented-and-astonishing",
+    "description": "Take-Two CEO Strauss Zelnick tells GamesIndustry.biz that the forthcoming Netflix gameplay premiere of GTA 6, which will air on August 27th, is merely \"one of the hors d'oeuvres,\" for the game's marketing campaign. \"There's appetizers, main course and dessert to follow,\" he says, in a call following",
+    "date": "Fri, 07 Aug 2026 14:53:37 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Analyst: AI-focused M&amp;A deals are \"weakening\" the games investment landscape",
+    "link": "https://www.gamesindustry.biz/investors-hate-roblox-new-direction-but-a-reversal-may-be-impossible-opinion",
+    "description": "When Epic Games announced major layoffs back in March, it become clear that Fortnite &ndash; once regarded as holding a near-unassailable market position &ndash; was facing a serious slump, if not a lasting decline. One common response was to claim that the dream of the ever-evolving metaverse-like ",
+    "date": "Fri, 07 Aug 2026 14:06:32 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Take-Two Q1 results include net bookings ahead of guidance, a slight increase in revenue, and cancellation of unannounced \"new core IP\" game",
+    "link": "https://www.gamesindustry.biz/former-icelandic-minister-joins-fenris-creations-to-lead-new-ai-partnerships",
+    "description": "Fenris Creations has appointed former Icelandic minister &Aacute;slaug Arna Sigurbj&ouml;rnsd&oacute;ttir as senior director for AI partnerships. Read more",
+    "date": "Fri, 07 Aug 2026 13:01:40 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Charity bundle hosted by Necrosoft Games nears $200,000 goal to support workers affected by layoffs",
+    "link": "https://www.gamesindustry.biz/take-two-q1-results-include-net-bookings-ahead-of-guidance-a-slight-increase-in-revenue-and-cancellation-of-unannounced-game",
+    "description": "Take-Two's Q1 results came in slightly ahead of guidance thanks to strong performance of NBA 2K6 and GTA supported by the Zynga mobile portfolio, with the firm maintaining its previous projection of $8-8.2 billion in net bookings for the full year. Read more",
+    "date": "Fri, 07 Aug 2026 11:07:42 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "UK Employment Rights Act 2025: Harassment law is getting tougher – and games companies need to be ready",
@@ -307,42 +343,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/uk-employment-rights-act-2025-harassment-law-is-getting-tougher-and-games-companies-need-to-be-ready",
     "description": "This is the second article in our series analysing the potential impact of the new Employment Rights Act (ERA) 2025 on games businesses operating within the UK. Read more",
     "date": "Thu, 06 Aug 2026 10:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Devolver Digital intends to go private",
-    "link": "https://www.gamesindustry.biz/kudos-games-services-expands-leadership-team-with-testronic-and-team17-execs",
-    "description": "Kudos Games Services has expanded its senior leadership team by appointing Michael Hanna as chief operating officer and Ann Hurley as board advisor. Read more",
-    "date": "Thu, 06 Aug 2026 08:58:53 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Nintendo Q1 sales drop 9.5%; operating profit soars following higher software sales and $300m in US tariff refunds",
-    "link": "https://www.gamesindustry.biz/devolver-digital-intends-to-go-private",
-    "description": "Indie publisher Devolver Digital is looking to once again become a private company later this year. Read more",
-    "date": "Thu, 06 Aug 2026 08:46:53 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "King declines collective bargaining agreement with Swedish unions",
-    "link": "https://www.gamesindustry.biz/nintendo-q1-sales-drop-95-operating-profit-soars-following-higher-software-sales-and-300m-in-us-tariff-refunds",
-    "description": "Nintendo reported a 9.5% decrease in first-quarter net sales, but operating profit rose 150.5% due to higher software revenue and $300 million in US tariff refunds. Read more",
-    "date": "Wed, 05 Aug 2026 18:41:43 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Electronic Arts completes $55bn acquisition; CEO announces senior leadership changes",
-    "link": "https://www.gamesindustry.biz/jobs-roundup-august-2026-three-new-hires-at-yogscast-games",
-    "description": "It can be difficult keeping track of the various comings and goings in the games industry, which is why we compile them in semi-regular round-ups. Read more",
-    "date": "Wed, 05 Aug 2026 08:07:24 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
