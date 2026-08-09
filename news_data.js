@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-08 07:04 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-09 07:06 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-08T07:04:20.694054",
+  fetched_at: "2026-08-09T07:06:50.941764",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "copyright",
-      "pirate",
       "piracy",
       "crack",
+      "copyright",
+      "rom",
       "torrent",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -40,9 +40,22 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "arrested",
       "seized",
-      "pirate"
+      "pirate",
+      "arrested"
+    ]
+  },
+  {
+    "title": "YggTorrent Teases a Comeback in September, Weeks After Arrests",
+    "link": "https://torrentfreak.com/japanese-police-arrest-nyaa-first-uploader-but-not-by-watching-the-swarm/",
+    "description": "Japanese police have arrested an alleged seeder who's connected to the widely popular anime torrent site NYAA. Anti-piracy group CODA tells TorrentFreak that the tool which helped find the suspect didn't monitor the torrent swarms, but analyzed traffic at the index and tracker level. How that identi",
+    "date": "Thu, 06 Aug 2026 07:50:37 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "piracy",
+      "torrent",
+      "arrested"
     ]
   },
   {
@@ -53,9 +66,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "arrested",
       "torrent",
-      "pirate"
+      "pirate",
+      "arrested"
     ]
   },
   {
@@ -67,8 +80,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -79,9 +92,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "dmca",
       "copyright",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -182,18 +195,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Anime Piracy Giant Animeflv Mysteriously Stopped Serving Video",
-    "link": "https://torrentfreak.com/eus-top-court-geo-blocking-protects-publishers-in-copyright-disputes-vpns-not-liable/",
-    "description": "The EU's highest court has ruled that publishers who use state-of-the-art geo-blocking are not liable for copyright infringement, even when users bypass their restrictions with a VPN. The ruling, which was handed down in the landmark copyright battle involving digital copies of the iconic Anne Frank",
-    "date": "Tue, 14 Jul 2026 09:27:44 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "piracy",
-      "copyright"
-    ]
-  },
-  {
     "title": "Vietnam Uses HiAnime Arrests As Defense Against U.S. Trade Sanctions",
     "link": "https://torrentfreak.com/hbos-blocking-order-takes-out-popular-pirate-streaming-domains-including-streamzy-to/",
     "description": "Popular pirate streaming sites, including Streamzy and Lordflix, are key targets in a new Indian site-blocking order obtained by HBO and other major studios. The order, which lists over 120 domain names, refines how India deals with new mirror domains that surface after the initial block. The order ",
@@ -260,40 +261,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Read This Before You Buy That TV Streaming Stick",
-    "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-    "description": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontar",
-    "date": "Thu, 30 Jul 2026 16:49:00 +0000",
-    "source": "KrebsOnSecurity",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "piracy"
-    ]
-  },
-  {
-    "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-    "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
-    "description": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform t",
-    "date": "Thu, 02 Jul 2026 19:27:33 +0000",
-    "source": "KrebsOnSecurity",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "piracy"
-    ]
-  },
-  {
-    "title": "YggTorrent Teases a Comeback in September, Weeks After Arrests",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Thu, 06 Aug 2026 07:50:37 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 2,
-    "matched_keywords": [
-      "copyright",
-      "torrent"
-    ]
-  },
-  {
     "title": "Investors hate Roblox’ new direction – but a reversal may be impossible | Opinion",
     "link": "https://www.gamesindustry.biz/strauss-zelnick-netflix-debut-is-merely-one-of-the-hors-doeuvres-for-full-gta-6-launch-pre-order-numbers-are-unprecedented-and-astonishing",
     "description": "Take-Two CEO Strauss Zelnick tells GamesIndustry.biz that the forthcoming Netflix gameplay premiere of GTA 6, which will air on August 27th, is merely \"one of the hors d'oeuvres,\" for the game's marketing campaign. \"There's appetizers, main course and dessert to follow,\" he says, in a call following",
@@ -343,6 +310,33 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/uk-employment-rights-act-2025-harassment-law-is-getting-tougher-and-games-companies-need-to-be-ready",
     "description": "This is the second article in our series analysing the potential impact of the new Employment Rights Act (ERA) 2025 on games businesses operating within the UK. Read more",
     "date": "Thu, 06 Aug 2026 10:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Devolver Digital intends to go private",
+    "link": "https://www.gamesindustry.biz/kudos-games-services-expands-leadership-team-with-testronic-and-team17-execs",
+    "description": "Kudos Games Services has expanded its senior leadership team by appointing Michael Hanna as chief operating officer and Ann Hurley as board advisor. Read more",
+    "date": "Thu, 06 Aug 2026 08:58:53 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Nintendo Q1 sales drop 9.5%; operating profit soars following higher software sales and $300m in US tariff refunds",
+    "link": "https://www.gamesindustry.biz/devolver-digital-intends-to-go-private",
+    "description": "Indie publisher Devolver Digital is looking to once again become a private company later this year. Read more",
+    "date": "Thu, 06 Aug 2026 08:46:53 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "King declines collective bargaining agreement with Swedish unions",
+    "link": "https://www.gamesindustry.biz/nintendo-q1-sales-drop-95-operating-profit-soars-following-higher-software-sales-and-300m-in-us-tariff-refunds",
+    "description": "Nintendo reported a 9.5% decrease in first-quarter net sales, but operating profit rose 150.5% due to higher software revenue and $300 million in US tariff refunds. Read more",
+    "date": "Wed, 05 Aug 2026 18:41:43 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
