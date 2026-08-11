@@ -1,22 +1,21 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-10 07:54 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-11 07:18 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-10T07:54:56.063945",
+  fetched_at: "2026-08-11T07:18:34.062539",
   item_count: 30,
   items: [
   {
-    "title": "World Cup Piracy Crackdown Shows Limits of Domain Seizures, MPA Pushes Site Blocking",
+    "title": "Japanese Police Arrest NYAA &#8216;First Uploader,&#8217; But Not by Watching the Swarm",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Disclosure Day' tops the chart, followed by 'Supergirl.' 'Spider-Man: Brand New Day' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sat, 01 Aug 2026 08:45:30 +0000",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Spider-Man: Brand New Day' tops the chart, followed by 'Supergirl.' 'Disclosure Day' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sat, 08 Aug 2026 07:41:08 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 12,
+    "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
-      "crack",
-      "piracy",
       "torrent",
+      "rom",
       "copyright",
-      "rom"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -28,8 +27,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "seized",
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -40,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "arrested",
       "seized",
-      "pirate",
-      "arrested"
+      "pirate"
     ]
   },
   {
@@ -53,9 +52,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
+      "piracy",
       "arrested",
-      "piracy"
+      "torrent"
     ]
   },
   {
@@ -66,22 +65,22 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
+      "arrested",
       "pirate",
-      "arrested"
+      "torrent"
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 08/03/2026",
+    "title": "World Cup Piracy Crackdown Shows Limits of Domain Seizures, MPA Pushes Site Blocking",
     "link": "https://torrentfreak.com/record-labels-offer-to-abandon-46-8-million-piracy-case-against-grande/",
     "description": "After the Supreme Court's Cox ruling reshaped ISPs piracy liability, the record labels behind a $46.8 million verdict against Grande Communications are ready to walk away from the case entirely. Grande won't let them, however. The Internet provider is holding out for a formal win and the millions in",
-    "date": "Sun, 02 Aug 2026 23:09:40 +0000",
+    "date": "Sat, 01 Aug 2026 08:45:30 +0000",
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "piracy",
       "rom",
-      "piracy"
+      "crack"
     ]
   },
   {
@@ -92,9 +91,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "copyright",
+      "pirate",
       "dmca"
+    ]
+  },
+  {
+    "title": "Top 10 Most Pirated Movies of The Week – 08/10/2026",
+    "link": "https://torrentfreak.com/eu-study-block-live-sports-piracy-in-30-minutes-across-dns-resolvers-vpns-and-cdns/",
+    "description": "Three years ago the European Commission rejected calls for binding anti-piracy legislation, issuing a 'recommendation' instead. A new study commissioned by the European Parliament concludes that this soft approach has fallen short. It calls for a binding EU Regulation built around the 30-minute bloc",
+    "date": "Sun, 09 Aug 2026 23:09:40 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -105,8 +116,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -117,8 +128,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -129,8 +140,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -154,7 +165,19 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "copyright",
-      "rom",
+      "piracy",
+      "rom"
+    ]
+  },
+  {
+    "title": "EU Study: Block Live Sports Piracy in 30 Minutes, Across DNS Resolvers, VPNs and CDNs",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Mon, 10 Aug 2026 08:33:38 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
       "piracy"
     ]
   },
@@ -166,8 +189,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -190,8 +213,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -217,10 +240,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Sega reports 17.3% rise in Q3 net sales; games segment exceeds expectations",
+    "title": "Halloween: The Game denied classification in Australia and New Zealand over drug depiction",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 10 Aug 2026 07:50:16 +0000",
+    "date": "Mon, 10 Aug 2026 19:20:17 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "How Vampire Survivors became Vampire Crawlers: Six lessons from building a game based on another developer's IP",
+    "link": "https://www.gamesindustry.biz/leaked-emails-reveal-blizzard-is-xboxs-top-performing-studio-for-fy26",
+    "description": "Blizzard closed Microsoft's 2026 fiscal year as the best-performing studio within Xbox Game Studios, according to internal emails obtained and verified by Windows Central. Read more",
+    "date": "Mon, 10 Aug 2026 15:19:18 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -232,28 +266,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/analyst-ai-focused-ma-deals-are-weakening-the-games-investment-landscape",
     "description": "A new M&A report from analyst S&P has indicated a weakening investment environment for games, with available funding increasingly going to businesse models relying on recurring engagement, platform leverage or alternative monetization. Read more",
     "date": "Fri, 07 Aug 2026 13:40:25 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Silver Lining Interactive launches first title from its development label Silver Bullet",
-    "link": "https://www.gamesindustry.biz/phasmophobia-developers-indie-label-kinetic-publishing-to-reveal-debut-slate-at-showcase-this-august",
-    "description": "Kinetic Publishing, the publishing label founded by Phasmophobia developer Kinetic Games, will reveal the first games signed to the label at a showcase on August 12. Read more",
-    "date": "Wed, 05 Aug 2026 13:11:29 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Jobs roundup: August 2026 | Frontier Developments appoints Dan Lazarides as CMO",
-    "link": "https://www.gamesindustry.biz/silver-lining-interactive-launches-first-title-from-its-development-label-silver-bullet",
-    "description": "Indie games publisher Silver Lining Interactive has revealed the first title from its internal IP development label, Silver Bullet. Read more",
-    "date": "Wed, 05 Aug 2026 10:57:10 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -283,64 +295,55 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Strauss Zelnick: Netflix debut is merely \"one of the hors d'oeuvres\" for full GTA 6 launch; pre-order numbers are \"unprecedented and astonishing\"",
-    "link": "https://www.gamesindustry.biz/sega-reports-173-rise-in-q3-net-sales-games-segment-exceeds-expectations",
-    "description": "Sega Sammy reported a 17.3% increase in net sales for its first quarter. The Entertainment Contents segment, which includes games, exceeded expectations at &yen;68.4 billion ($432 million). Read more",
-    "date": "Fri, 07 Aug 2026 16:26:16 +0000",
+    "title": "Valve confirms Steam hardware buyers' data exposed in CEVA Logistics cyberattack",
+    "link": "https://www.gamesindustry.biz/halloween-the-game-denied-classification-in-australia-and-new-zealand-over-drug-depiction",
+    "description": "IllFonic's asymmetric horror title Halloween: The Game has been refused classification by the Australian Classifications Board, barring its sale in both Australia and New Zealand. Read more",
+    "date": "Mon, 10 Aug 2026 17:46:04 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Investors hate Roblox’ new direction – but a reversal may be impossible | Opinion",
-    "link": "https://www.gamesindustry.biz/strauss-zelnick-netflix-debut-is-merely-one-of-the-hors-doeuvres-for-full-gta-6-launch-pre-order-numbers-are-unprecedented-and-astonishing",
-    "description": "Take-Two CEO Strauss Zelnick tells GamesIndustry.biz that the forthcoming Netflix gameplay premiere of GTA 6, which will air on August 27th, is merely \"one of the hors d'oeuvres,\" for the game's marketing campaign. \"There's appetizers, main course and dessert to follow,\" he says, in a call following",
-    "date": "Fri, 07 Aug 2026 14:53:37 +0000",
+    "title": "HandyGames rebrands as THQ Nordic Mobile",
+    "link": "https://www.gamesindustry.biz/valve-confirms-steam-hardware-buyers-data-exposed-in-ceva-logistics-cyberattack",
+    "description": "Valve has begun notifying European customers who ordered Steam hardware that their personal information may have been exposed following a cyberattack on CEVA Logistics, the company that handles Steam hardware deliveries across the region. Read more",
+    "date": "Mon, 10 Aug 2026 17:10:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Analyst: AI-focused M&amp;A deals are \"weakening\" the games investment landscape",
-    "link": "https://www.gamesindustry.biz/investors-hate-roblox-new-direction-but-a-reversal-may-be-impossible-opinion",
-    "description": "When Epic Games announced major layoffs back in March, it become clear that Fortnite &ndash; once regarded as holding a near-unassailable market position &ndash; was facing a serious slump, if not a lasting decline. One common response was to claim that the dream of the ever-evolving metaverse-like ",
-    "date": "Fri, 07 Aug 2026 14:06:32 +0000",
+    "title": "Leaked emails reveal Blizzard is Xbox's top-performing studio for FY26",
+    "link": "https://www.gamesindustry.biz/handygames-rebrands-as-thq-nordic-mobile",
+    "description": "HandyGames has rebranded as THQ Nordic Mobile, with the publisher shifting its focus toward bringing premium PC and console titles to mobile platforms. Read more",
+    "date": "Mon, 10 Aug 2026 16:07:39 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Take-Two Q1 results include net bookings ahead of guidance, a slight increase in revenue, and cancellation of unannounced \"new core IP\" game",
-    "link": "https://www.gamesindustry.biz/former-icelandic-minister-joins-fenris-creations-to-lead-new-ai-partnerships",
-    "description": "Fenris Creations has appointed former Icelandic minister &Aacute;slaug Arna Sigurbj&ouml;rnsd&oacute;ttir as senior director for AI partnerships. Read more",
-    "date": "Fri, 07 Aug 2026 13:01:40 +0000",
+    "title": "Xbox to implement age verification in Australia on console and PC in late August",
+    "link": "https://www.gamesindustry.biz/how-vampire-survivors-became-vampire-crawlers-six-lessons-from-building-a-game-based-on-another-developers-ip-1",
+    "description": "Andreas Firnigl started his career as a tester on Big Mutha Truckers, way back on Gamecube. He founded Nosebleed Interactive almost 15 years ago as CEO and creative director. Read more",
+    "date": "Mon, 10 Aug 2026 13:50:22 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Charity bundle hosted by Necrosoft Games nears $200,000 goal to support workers affected by layoffs",
-    "link": "https://www.gamesindustry.biz/take-two-q1-results-include-net-bookings-ahead-of-guidance-a-slight-increase-in-revenue-and-cancellation-of-unannounced-game",
-    "description": "Take-Two's Q1 results came in slightly ahead of guidance thanks to strong performance of NBA 2K6 and GTA supported by the Zynga mobile portfolio, with the firm maintaining its previous projection of $8-8.2 billion in net bookings for the full year. Read more",
-    "date": "Fri, 07 Aug 2026 11:07:42 +0000",
+    "title": "Former Ubisoft Barcelona workers launch Dark Ritual Studios, an indie developer focused on \"craftsmanship over scale\"",
+    "link": "https://www.gamesindustry.biz/xbox-to-implement-age-verification-in-australia-on-console-and-pc-in-late-august",
+    "description": "Xbox will begin rolling out age verification for users in Australia later this month. Read more",
+    "date": "Mon, 10 Aug 2026 12:39:11 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "UK Employment Rights Act 2025: Harassment law is getting tougher – and games companies need to be ready",
-    "link": "https://www.gamesindustry.biz/roblox-shares-fall-70-following-lower-than-expected-monetisation-during-q2",
-    "description": "Roblox  shares have  declined 70% after  second quarter results showed monetisation was 2% below company guidance, which impacted overall bookings. Read more",
-    "date": "Thu, 06 Aug 2026 11:01:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Kudos Games Services expands leadership team with Testronic and Team17 execs",
-    "link": "https://www.gamesindustry.biz/uk-employment-rights-act-2025-harassment-law-is-getting-tougher-and-games-companies-need-to-be-ready",
-    "description": "This is the second article in our series analysing the potential impact of the new Employment Rights Act (ERA) 2025 on games businesses operating within the UK. Read more",
-    "date": "Thu, 06 Aug 2026 10:00:00 +0000",
+    "title": "Sega reports 17.3% rise in Q3 net sales; games segment exceeds expectations",
+    "link": "https://www.gamesindustry.biz/bandai-namco-achieves-record-q1-sales-but-digital-segment-operating-profit-drops-309",
+    "description": "Bandai Namco reported record first-quarter results overall. Read more",
+    "date": "Mon, 10 Aug 2026 07:50:16 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
