@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-11 07:18 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-12 07:42 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-11T07:18:34.062539",
+  fetched_at: "2026-08-12T07:42:30.965857",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
-      "rom",
       "copyright",
+      "torrent",
+      "pirate",
       "piracy",
-      "pirate"
+      "rom"
     ]
   },
   {
@@ -26,22 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "seized",
+      "pirate",
       "piracy",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Pirate Sites&#8217; Domain Hopping Habit Undermines Belgium&#8217;s New Blocking Order",
-    "link": "https://torrentfreak.com/fifa-world-cup-triggers-a-global-anti-piracy-crackdown/",
-    "description": "During the FIFA World Cup, law enforcement and private partners across multiple continents have seized or blocked well over a thousand pirate streaming domains, arrested suspects, and cut off advertising revenue. Taken together, \"Operation Offsides\" and \"Operación Tarjeta Roja\" are part of the broad",
-    "date": "Fri, 17 Jul 2026 07:49:07 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 9,
-    "matched_keywords": [
-      "arrested",
-      "seized",
-      "pirate"
+      "seized"
     ]
   },
   {
@@ -52,8 +39,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "arrested",
+      "piracy",
       "torrent"
     ]
   },
@@ -79,8 +66,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "rom",
-      "crack"
+      "crack",
+      "rom"
     ]
   },
   {
@@ -91,9 +78,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "copyright",
+      "dmca",
       "pirate",
-      "dmca"
+      "copyright"
     ]
   },
   {
@@ -104,8 +91,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -116,8 +103,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -128,8 +115,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -140,8 +127,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -170,10 +157,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "EU Study: Block Live Sports Piracy in 30 Minutes, Across DNS Resolvers, VPNs and CDNs",
+    "title": "Paris Court Kicks Off New Football Season with Multi-Intermediary Piracy Blocking Orders",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Mon, 10 Aug 2026 08:33:38 +0000",
+    "date": "Tue, 11 Aug 2026 07:21:04 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
@@ -218,6 +205,17 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "EU Study: Block Live Sports Piracy in 30 Minutes, Across DNS Resolvers, VPNs and CDNs",
+    "link": "https://torrentfreak.com/paris-court-kicks-off-new-football-season-with-multi-intermediary-piracy-blocking-orders/",
+    "description": "Europe's football seasons kick off again this month, with the Champions League to follow in September. In preparation, Canal+ has secured fourteen site-blocking orders spanning ISPs, DNS resolvers, VPNs, and search engines. It's a broad, coordinated effort — and one of the last that France will run ",
+    "date": "Mon, 10 Aug 2026 08:33:38 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "piracy"
+    ]
+  },
+  {
     "title": "Vietnam Uses HiAnime Arrests As Defense Against U.S. Trade Sanctions",
     "link": "https://torrentfreak.com/hbos-blocking-order-takes-out-popular-pirate-streaming-domains-including-streamzy-to/",
     "description": "Popular pirate streaming sites, including Streamzy and Lordflix, are key targets in a new Indian site-blocking order obtained by HBO and other major studios. The order, which lists over 120 domain names, refines how India deals with new mirror domains that surface after the initial block. The order ",
@@ -240,10 +238,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Halloween: The Game denied classification in Australia and New Zealand over drug depiction",
+    "title": "Gamescom Dev speaker survey identifies potential impacts of AI on team structure and productivity",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 10 Aug 2026 19:20:17 +0000",
+    "date": "Tue, 11 Aug 2026 14:05:37 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -295,55 +293,55 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Supermassive Games announces layoffs, up to 75 workers may be affected",
+    "link": "https://www.gamesindustry.biz/gamescom-dev-speaker-survey-identifies-potential-impacts-of-ai-on-team-structure-and-productivity",
+    "description": "Gamescom Dev has released its annual speaker survey results, revealing that 83% of respondents expect AI to impact team structure or productivity. Read more",
+    "date": "Tue, 11 Aug 2026 13:05:23 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Reforj developer 4J Studios unveils Rixels: modified pixels that reduce texture memory requirements by 98%",
+    "link": "https://www.gamesindustry.biz/supermassive-games-announces-layoffs-up-to-75-workers-may-be-affected",
+    "description": "Supermassive Games has announced a third round of layoffs in three years, potentially impacting up to 75 positions. Read more",
+    "date": "Tue, 11 Aug 2026 12:26:32 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "GamesAid appoints six new trustees as it raises £82,000 in funding during 2025/26",
+    "link": "https://www.gamesindustry.biz/remedy-reports-revenue-declines-in-q2-and-h1-as-it-prepares-for-control-resonant-launch",
+    "description": "Remedy reported revenue declines in the first half and second quarter of 2026 while increasing marketing efforts for Control Resonant. Read more",
+    "date": "Tue, 11 Aug 2026 10:00:44 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Square Enix Q1 profit soars following Final Fantasy 7 Rebirth launch on Switch 2 and Xbox",
+    "link": "https://www.gamesindustry.biz/gamesaid-appoints-six-new-trustees-as-it-raises-82000-in-funding-during-202526",
+    "description": "GamesAid has appointed six new trustees to its board and raised &pound;82,000 for four charities in 2025/26. Read more",
+    "date": "Tue, 11 Aug 2026 08:26:52 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Halloween: The Game denied classification in Australia and New Zealand over drug depiction",
+    "link": "https://www.gamesindustry.biz/square-enix-q1-profit-soars-following-final-fantasy-7-rebirth-launch-on-switch-2-and-xbox",
+    "description": "Square Enix reported strong first-quarter growth, with profit rising 175.5% to &yen;13.2 billion ($82.9 million). Read more",
+    "date": "Mon, 10 Aug 2026 19:20:17 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Valve confirms Steam hardware buyers' data exposed in CEVA Logistics cyberattack",
     "link": "https://www.gamesindustry.biz/halloween-the-game-denied-classification-in-australia-and-new-zealand-over-drug-depiction",
     "description": "IllFonic's asymmetric horror title Halloween: The Game has been refused classification by the Australian Classifications Board, barring its sale in both Australia and New Zealand. Read more",
     "date": "Mon, 10 Aug 2026 17:46:04 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "HandyGames rebrands as THQ Nordic Mobile",
-    "link": "https://www.gamesindustry.biz/valve-confirms-steam-hardware-buyers-data-exposed-in-ceva-logistics-cyberattack",
-    "description": "Valve has begun notifying European customers who ordered Steam hardware that their personal information may have been exposed following a cyberattack on CEVA Logistics, the company that handles Steam hardware deliveries across the region. Read more",
-    "date": "Mon, 10 Aug 2026 17:10:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Leaked emails reveal Blizzard is Xbox's top-performing studio for FY26",
-    "link": "https://www.gamesindustry.biz/handygames-rebrands-as-thq-nordic-mobile",
-    "description": "HandyGames has rebranded as THQ Nordic Mobile, with the publisher shifting its focus toward bringing premium PC and console titles to mobile platforms. Read more",
-    "date": "Mon, 10 Aug 2026 16:07:39 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Xbox to implement age verification in Australia on console and PC in late August",
-    "link": "https://www.gamesindustry.biz/how-vampire-survivors-became-vampire-crawlers-six-lessons-from-building-a-game-based-on-another-developers-ip-1",
-    "description": "Andreas Firnigl started his career as a tester on Big Mutha Truckers, way back on Gamecube. He founded Nosebleed Interactive almost 15 years ago as CEO and creative director. Read more",
-    "date": "Mon, 10 Aug 2026 13:50:22 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Former Ubisoft Barcelona workers launch Dark Ritual Studios, an indie developer focused on \"craftsmanship over scale\"",
-    "link": "https://www.gamesindustry.biz/xbox-to-implement-age-verification-in-australia-on-console-and-pc-in-late-august",
-    "description": "Xbox will begin rolling out age verification for users in Australia later this month. Read more",
-    "date": "Mon, 10 Aug 2026 12:39:11 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Sega reports 17.3% rise in Q3 net sales; games segment exceeds expectations",
-    "link": "https://www.gamesindustry.biz/bandai-namco-achieves-record-q1-sales-but-digital-segment-operating-profit-drops-309",
-    "description": "Bandai Namco reported record first-quarter results overall. Read more",
-    "date": "Mon, 10 Aug 2026 07:50:16 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
