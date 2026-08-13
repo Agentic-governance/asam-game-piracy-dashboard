@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-12 07:42 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-13 07:44 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-12T07:42:30.965857",
+  fetched_at: "2026-08-13T07:44:21.603887",
   item_count: 30,
   items: [
   {
@@ -12,10 +12,10 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "copyright",
-      "torrent",
-      "pirate",
+      "rom",
       "piracy",
-      "rom"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "piracy",
-      "seized"
+      "seized",
+      "pirate"
     ]
   },
   {
@@ -39,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "arrested",
       "piracy",
-      "torrent"
+      "torrent",
+      "arrested"
     ]
   },
   {
@@ -52,9 +52,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "torrent",
       "arrested",
-      "pirate",
-      "torrent"
+      "pirate"
     ]
   },
   {
@@ -78,9 +78,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "copyright",
       "dmca",
-      "pirate",
-      "copyright"
+      "pirate"
+    ]
+  },
+  {
+    "title": "Paris Court Kicks Off New Football Season with Multi-Intermediary Piracy Blocking Orders",
+    "link": "https://torrentfreak.com/hollywoods-uk-omnibus-pirate-site-blocking-order-surfaces-through-cloudflare/",
+    "description": "In May, the UK High Court granted several Hollywood studios a broad \"omnibus\" site blocking order, allowing them to block rotating networks of pirate sites, without the need to link them to known pirate brands. This breakthrough order was recently cited in a Canadian court order, but remained unavai",
+    "date": "Tue, 11 Aug 2026 07:21:04 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -91,8 +103,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -103,8 +115,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -115,8 +127,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -127,20 +139,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "FIFA World Cup Triggers a Global Anti-Piracy Crackdown (Updated)",
-    "link": "https://torrentfreak.com/hollywood-wants-vietnam-to-slay-the-piracy-hydra/",
-    "description": "Shutting down major piracy operations such as Fmovies and HiAnime means little if successors pop up within weeks. In their submissions to the USTR's Section 301 investigation into Vietnam, both the MPA and IIPA stress that taking down copycats and successor sites should be a key enforcement priority",
-    "date": "Sun, 19 Jul 2026 01:19:48 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
       "piracy",
-      "crack"
+      "pirate"
     ]
   },
   {
@@ -151,21 +151,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "copyright",
       "piracy",
+      "copyright",
       "rom"
     ]
   },
   {
-    "title": "Paris Court Kicks Off New Football Season with Multi-Intermediary Piracy Blocking Orders",
+    "title": "Hollywood&#8217;s UK &#8220;Omnibus&#8221; Pirate Site Blocking Order Surfaces Through Cloudflare",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 11 Aug 2026 07:21:04 +0000",
+    "date": "Wed, 12 Aug 2026 14:36:45 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
       "copyright",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -188,8 +188,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -238,10 +238,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Gamescom Dev speaker survey identifies potential impacts of AI on team structure and productivity",
+    "title": "Witcher multiplayer spin-off Project Sirius hit by fresh layoffs",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 11 Aug 2026 14:05:37 +0000",
+    "date": "Wed, 12 Aug 2026 16:33:08 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "MMORPG Throne and Liberty transitions from Amazon Game Studios to NC (formerly NCSoft)",
+    "link": "https://www.gamesindustry.biz/codedev-group-launches-dev-studio-full-spectrum-interactive",
+    "description": "CodeDev Group, also known as  The Unreal Guys, has launched a new studio called Full Spectrum Interactive. Read more",
+    "date": "Wed, 12 Aug 2026 13:07:48 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "How Planet of Lana became a hit through dogged determination after being rejected \"hundreds\" of times",
+    "link": "https://www.gamesindustry.biz/mmorpg-throne-and-liberty-transitions-from-amazon-game-studios-to-nc-formerly-ncsoft",
+    "description": "Throne and Liberty's global publishing service will transfer from Amazon Game Studios to NC (formerly NCSoft). Read more",
+    "date": "Wed, 12 Aug 2026 11:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -253,17 +275,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/leaked-emails-reveal-blizzard-is-xboxs-top-performing-studio-for-fy26",
     "description": "Blizzard closed Microsoft's 2026 fiscal year as the best-performing studio within Xbox Game Studios, according to internal emails obtained and verified by Windows Central. Read more",
     "date": "Mon, 10 Aug 2026 15:19:18 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Former Icelandic minister joins Fenris Creations to lead new AI partnerships",
-    "link": "https://www.gamesindustry.biz/analyst-ai-focused-ma-deals-are-weakening-the-games-investment-landscape",
-    "description": "A new M&A report from analyst S&P has indicated a weakening investment environment for games, with available funding increasingly going to businesse models relying on recurring engagement, platform leverage or alternative monetization. Read more",
-    "date": "Fri, 07 Aug 2026 13:40:25 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -293,55 +304,46 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Supermassive Games announces layoffs, up to 75 workers may be affected",
-    "link": "https://www.gamesindustry.biz/gamescom-dev-speaker-survey-identifies-potential-impacts-of-ai-on-team-structure-and-productivity",
-    "description": "Gamescom Dev has released its annual speaker survey results, revealing that 83% of respondents expect AI to impact team structure or productivity. Read more",
-    "date": "Tue, 11 Aug 2026 13:05:23 +0000",
+    "title": "CodeDev Group launches dev studio Full Spectrum Interactive",
+    "link": "https://www.gamesindustry.biz/saber-interactive-denies-replacing-writer-with-ai",
+    "description": "Saber Interactive has denied replacing a writer with ChatGPT on its upcoming driving game Rideshare Stimulator. Read more",
+    "date": "Wed, 12 Aug 2026 13:58:09 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Reforj developer 4J Studios unveils Rixels: modified pixels that reduce texture memory requirements by 98%",
-    "link": "https://www.gamesindustry.biz/supermassive-games-announces-layoffs-up-to-75-workers-may-be-affected",
-    "description": "Supermassive Games has announced a third round of layoffs in three years, potentially impacting up to 75 positions. Read more",
-    "date": "Tue, 11 Aug 2026 12:26:32 +0000",
+    "title": "BAFTA Games Awards updates voting requirements and entry fees as it opens entries for 2027 ceremony",
+    "link": "https://www.gamesindustry.biz/how-planet-of-lana-became-a-hit-through-dogged-determination-after-being-rejected-hundreds-of-times",
+    "description": "The story of Planet of Lana is the story of triumph over adversity. But it's also one of naivety. The developers themselves admit they had no clue what they were doing at first. Read more",
+    "date": "Wed, 12 Aug 2026 10:46:01 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "GamesAid appoints six new trustees as it raises £82,000 in funding during 2025/26",
-    "link": "https://www.gamesindustry.biz/remedy-reports-revenue-declines-in-q2-and-h1-as-it-prepares-for-control-resonant-launch",
-    "description": "Remedy reported revenue declines in the first half and second quarter of 2026 while increasing marketing efforts for Control Resonant. Read more",
-    "date": "Tue, 11 Aug 2026 10:00:44 +0000",
+    "title": "Pearl Abyss Q2 earnings decline as impact of Crimson Desert's launch period subsides",
+    "link": "https://www.gamesindustry.biz/bafta-games-awards-updates-voting-requirements-and-entry-fees-as-it-opens-entries-for-2027-ceremony",
+    "description": "Entries for the 2027 BAFTA Games Awards are now open, alongside updates to its entry requirements, fee structure, and AI policy. Read more",
+    "date": "Wed, 12 Aug 2026 09:51:42 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Square Enix Q1 profit soars following Final Fantasy 7 Rebirth launch on Switch 2 and Xbox",
-    "link": "https://www.gamesindustry.biz/gamesaid-appoints-six-new-trustees-as-it-raises-82000-in-funding-during-202526",
-    "description": "GamesAid has appointed six new trustees to its board and raised &pound;82,000 for four charities in 2025/26. Read more",
-    "date": "Tue, 11 Aug 2026 08:26:52 +0000",
+    "title": "UKIE-backed Digital Schoolhouse partners with Roblox to provide suite of tools for students to develop Roblox games in-class",
+    "link": "https://www.gamesindustry.biz/pearl-abyss-q2-earnings-decline-as-impact-of-crimson-deserts-launch-period-subsides",
+    "description": "Pearl Abyss reported a weaker second quarter as the initial impact of Crimson Desert's March launch tapered off. Read more",
+    "date": "Wed, 12 Aug 2026 08:59:53 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Halloween: The Game denied classification in Australia and New Zealand over drug depiction",
-    "link": "https://www.gamesindustry.biz/square-enix-q1-profit-soars-following-final-fantasy-7-rebirth-launch-on-switch-2-and-xbox",
-    "description": "Square Enix reported strong first-quarter growth, with profit rising 175.5% to &yen;13.2 billion ($82.9 million). Read more",
-    "date": "Mon, 10 Aug 2026 19:20:17 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Valve confirms Steam hardware buyers' data exposed in CEVA Logistics cyberattack",
-    "link": "https://www.gamesindustry.biz/halloween-the-game-denied-classification-in-australia-and-new-zealand-over-drug-depiction",
-    "description": "IllFonic's asymmetric horror title Halloween: The Game has been refused classification by the Australian Classifications Board, barring its sale in both Australia and New Zealand. Read more",
-    "date": "Mon, 10 Aug 2026 17:46:04 +0000",
+    "title": "Gamescom Dev speaker survey identifies potential impacts of AI on team structure and productivity",
+    "link": "https://www.gamesindustry.biz/ukie-backed-digital-schoolhouse-partners-with-roblox-to-provide-suite-of-tools-for-students-to-develop-roblox-games-in-class",
+    "description": "UKIE-backed educational non-profit Digital Schoolhouse has partnered with Roblox to develop a suite of free tools designed to teach children how to create Roblox games as part of in-classroom education. Read more",
+    "date": "Tue, 11 Aug 2026 14:05:37 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
