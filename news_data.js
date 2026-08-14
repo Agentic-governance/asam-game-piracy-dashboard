@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-13 07:44 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-14 07:41 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-13T07:44:21.603887",
+  fetched_at: "2026-08-14T07:41:50.685049",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
-      "rom",
       "piracy",
       "torrent",
-      "pirate"
+      "rom",
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -26,9 +26,22 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "pirate",
       "piracy",
-      "seized",
-      "pirate"
+      "seized"
+    ]
+  },
+  {
+    "title": "Hollywood&#8217;s UK &#8220;Omnibus&#8221; Pirate Site Blocking Order Surfaces Through Cloudflare",
+    "link": "https://torrentfreak.com/court-rejects-fair-use-claim-orders-youtube-to-unmask-anime-recap-channels/",
+    "description": "A California federal court has ordered YouTube to unmask three popular South Korean creators of anime recap channels. The creators filed a motion to quash the DMCA subpoena, requested by Japanese publisher KADOKAWA, but the court rejected the fair use claim, which is now under appeal. \nFrom: TF, for",
+    "date": "Wed, 12 Aug 2026 14:36:45 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "pirate",
+      "dmca",
+      "rom"
     ]
   },
   {
@@ -39,9 +52,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "torrent",
-      "arrested"
+      "arrested",
+      "piracy"
     ]
   },
   {
@@ -52,9 +65,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
+      "pirate",
       "arrested",
-      "pirate"
+      "torrent"
     ]
   },
   {
@@ -65,8 +78,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "crack",
+      "piracy",
       "rom"
     ]
   },
@@ -78,9 +91,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "copyright",
+      "pirate",
       "dmca",
-      "pirate"
+      "copyright"
     ]
   },
   {
@@ -91,8 +104,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -103,8 +116,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -115,8 +128,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -127,8 +140,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -139,8 +152,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -154,18 +167,6 @@ const ARIA_NEWS = {
       "piracy",
       "copyright",
       "rom"
-    ]
-  },
-  {
-    "title": "Hollywood&#8217;s UK &#8220;Omnibus&#8221; Pirate Site Blocking Order Surfaces Through Cloudflare",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Wed, 12 Aug 2026 14:36:45 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "copyright",
-      "pirate"
     ]
   },
   {
@@ -200,8 +201,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -227,54 +228,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Hollywood Wants Vietnam to Slay the Piracy Hydra",
-    "link": "https://torrentfreak.com/dns-bypass-tweets-keep-uptobox-employees-e197k-frozen-in-disney-piracy-case/",
-    "description": "Sharing instructions on how to bypass court-ordered ISP blocks can be enough to freeze someone's personal savings in a piracy case, a French appeals court has ruled. The order is a mixed victory for Disney, which failed to prove the defendant was the de facto operator of the now-defunct Uptobox site",
-    "date": "Mon, 20 Jul 2026 11:00:05 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "piracy"
-    ]
-  },
-  {
-    "title": "Witcher multiplayer spin-off Project Sirius hit by fresh layoffs",
+    "title": "Mattel launches new global studios business to develop games based on its IP",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 12 Aug 2026 16:33:08 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "MMORPG Throne and Liberty transitions from Amazon Game Studios to NC (formerly NCSoft)",
-    "link": "https://www.gamesindustry.biz/codedev-group-launches-dev-studio-full-spectrum-interactive",
-    "description": "CodeDev Group, also known as  The Unreal Guys, has launched a new studio called Full Spectrum Interactive. Read more",
-    "date": "Wed, 12 Aug 2026 13:07:48 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "How Planet of Lana became a hit through dogged determination after being rejected \"hundreds\" of times",
-    "link": "https://www.gamesindustry.biz/mmorpg-throne-and-liberty-transitions-from-amazon-game-studios-to-nc-formerly-ncsoft",
-    "description": "Throne and Liberty's global publishing service will transfer from Amazon Game Studios to NC (formerly NCSoft). Read more",
-    "date": "Wed, 12 Aug 2026 11:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "How Vampire Survivors became Vampire Crawlers: Six lessons from building a game based on another developer's IP",
-    "link": "https://www.gamesindustry.biz/leaked-emails-reveal-blizzard-is-xboxs-top-performing-studio-for-fy26",
-    "description": "Blizzard closed Microsoft's 2026 fiscal year as the best-performing studio within Xbox Game Studios, according to internal emails obtained and verified by Windows Central. Read more",
-    "date": "Mon, 10 Aug 2026 15:19:18 +0000",
+    "date": "Thu, 13 Aug 2026 16:55:14 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -304,10 +261,19 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "CodeDev Group launches dev studio Full Spectrum Interactive",
-    "link": "https://www.gamesindustry.biz/saber-interactive-denies-replacing-writer-with-ai",
-    "description": "Saber Interactive has denied replacing a writer with ChatGPT on its upcoming driving game Rideshare Stimulator. Read more",
-    "date": "Wed, 12 Aug 2026 13:58:09 +0000",
+    "title": "Sensor Tower: 89% of GTA6 preorders are for the $100 ultimate edition",
+    "link": "https://www.gamesindustry.biz/mattel-launches-new-global-studios-business-to-develop-games-based-on-its-ip",
+    "description": "Mattel has announced the formation of Mattel Game Studios, a global development organisation that will create games based on the company's IP. It follows the company's February acquisition of 100% of Mattel163, a joint venture that was previously 50% owned by partner firm NetEase. Read more",
+    "date": "Thu, 13 Aug 2026 14:00:44 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "How Planet of Lana became a hit through dogged determination after being rejected \"hundreds\" of times",
+    "link": "https://www.gamesindustry.biz/mmorpg-throne-and-liberty-transitions-from-amazon-game-studios-to-nc-formerly-ncsoft",
+    "description": "Update, August 13, 2026:  Amazon Game Studios has ended its publishing deal with Smilegate's MMO Lost Ark. Read more",
+    "date": "Wed, 12 Aug 2026 11:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
@@ -344,6 +310,33 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/ukie-backed-digital-schoolhouse-partners-with-roblox-to-provide-suite-of-tools-for-students-to-develop-roblox-games-in-class",
     "description": "UKIE-backed educational non-profit Digital Schoolhouse has partnered with Roblox to develop a suite of free tools designed to teach children how to create Roblox games as part of in-classroom education. Read more",
     "date": "Tue, 11 Aug 2026 14:05:37 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Supermassive Games announces layoffs, up to 75 workers may be affected",
+    "link": "https://www.gamesindustry.biz/gamescom-dev-speaker-survey-identifies-potential-impacts-of-ai-on-team-structure-and-productivity",
+    "description": "Gamescom Dev has released its annual speaker survey results, revealing that 83% of respondents expect AI to impact team structure or productivity. Read more",
+    "date": "Tue, 11 Aug 2026 13:05:23 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Reforj developer 4J Studios unveils Rixels: modified pixels that reduce texture memory requirements by 98%",
+    "link": "https://www.gamesindustry.biz/supermassive-games-announces-layoffs-up-to-75-workers-may-be-affected",
+    "description": "Supermassive Games has announced a third round of layoffs in three years, potentially impacting up to 75 positions. Read more",
+    "date": "Tue, 11 Aug 2026 12:26:32 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "GamesAid appoints six new trustees as it raises £82,000 in funding during 2025/26",
+    "link": "https://www.gamesindustry.biz/remedy-reports-revenue-declines-in-q2-and-h1-as-it-prepares-for-control-resonant-launch",
+    "description": "Remedy reported revenue declines in the first half and second quarter of 2026 while increasing marketing efforts for Control Resonant. Read more",
+    "date": "Tue, 11 Aug 2026 10:00:44 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
