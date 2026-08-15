@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-14 07:41 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-15 06:50 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-14T07:41:50.685049",
+  fetched_at: "2026-08-15T06:50:03.628038",
   item_count: 30,
   items: [
   {
@@ -12,8 +12,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "piracy",
-      "torrent",
       "rom",
+      "torrent",
       "pirate",
       "copyright"
     ]
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "piracy",
-      "seized"
+      "seized",
+      "pirate"
     ]
   },
   {
@@ -39,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "rom",
       "pirate",
-      "dmca",
-      "rom"
+      "dmca"
     ]
   },
   {
@@ -52,9 +52,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "piracy",
       "torrent",
-      "arrested",
-      "piracy"
+      "arrested"
     ]
   },
   {
@@ -65,9 +65,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "torrent",
       "arrested",
-      "torrent"
+      "pirate"
     ]
   },
   {
@@ -78,9 +78,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "crack",
+      "rom",
       "piracy",
-      "rom"
+      "crack"
     ]
   },
   {
@@ -92,8 +92,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "dmca",
-      "copyright"
+      "copyright",
+      "dmca"
     ]
   },
   {
@@ -104,8 +104,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -116,8 +116,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -128,8 +128,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -140,8 +140,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -152,8 +152,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -164,9 +164,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
+      "rom",
       "piracy",
-      "copyright",
-      "rom"
+      "copyright"
     ]
   },
   {
@@ -177,8 +177,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -228,10 +228,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Mattel launches new global studios business to develop games based on its IP",
+    "title": "Modern consumers crave \"events\", and the games industry needs to provide them | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 13 Aug 2026 16:55:14 +0000",
+    "date": "Fri, 14 Aug 2026 16:39:59 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -259,6 +259,42 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
+  },
+  {
+    "title": "Niko Partners: India games market exceeds $1bn, forecast to reach $1.2bn by end of 2026",
+    "link": "https://www.gamesindustry.biz/modern-consumers-crave-events-and-the-games-industry-needs-to-provide-them-opinion",
+    "description": "For almost as long as the games industry has existed, the conventional wisdom around sequels has remained the same: strike while the iron is hot. If you have a hit game, ensure you get a sequel out the door before the public loses interest. If you have more than one hit in a row, that's a franchise,",
+    "date": "Fri, 14 Aug 2026 13:47:08 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "2K establishes AAA sports developer Small Axe Studios",
+    "link": "https://www.gamesindustry.biz/niko-partners-india-games-market-exceeds-1bn-forecast-to-reach-12bn-by-end-of-2026",
+    "description": "India's games market exceeded $1 billion in revenue for the first time in 2025, up 14.8% year over year to $1.04 billion. Read more",
+    "date": "Fri, 14 Aug 2026 11:06:51 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Netflix shutters Night School Studio and Moonloot Games",
+    "link": "https://www.gamesindustry.biz/i-dont-see-why-people-are-scared-of-it-why-shipshaper-developer-tomas-sala-doesnt-think-indies-should-be-stressing-about-gta6",
+    "description": "GTA6 is messing with Tomas Sala's plans. He'd intended to launch ShipShaper earlier this year, but \"life got in the way,\" he tells GamesIndustry.biz. \"And then I saw all this stress about, 'Oh my God, GTA is coming, you have to pack it before September'.\" Read more",
+    "date": "Fri, 14 Aug 2026 08:11:46 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Mattel launches new global studios business to develop games based on its IP",
+    "link": "https://www.gamesindustry.biz/netflix-shutters-night-school-studio-and-moonloot-games",
+    "description": "Netflix has closed Night School Studio and Helsinki-based Moonloot Games. Read more",
+    "date": "Thu, 13 Aug 2026 16:55:14 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Sensor Tower: 89% of GTA6 preorders are for the $100 ultimate edition",
@@ -301,42 +337,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/pearl-abyss-q2-earnings-decline-as-impact-of-crimson-deserts-launch-period-subsides",
     "description": "Pearl Abyss reported a weaker second quarter as the initial impact of Crimson Desert's March launch tapered off. Read more",
     "date": "Wed, 12 Aug 2026 08:59:53 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Gamescom Dev speaker survey identifies potential impacts of AI on team structure and productivity",
-    "link": "https://www.gamesindustry.biz/ukie-backed-digital-schoolhouse-partners-with-roblox-to-provide-suite-of-tools-for-students-to-develop-roblox-games-in-class",
-    "description": "UKIE-backed educational non-profit Digital Schoolhouse has partnered with Roblox to develop a suite of free tools designed to teach children how to create Roblox games as part of in-classroom education. Read more",
-    "date": "Tue, 11 Aug 2026 14:05:37 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Supermassive Games announces layoffs, up to 75 workers may be affected",
-    "link": "https://www.gamesindustry.biz/gamescom-dev-speaker-survey-identifies-potential-impacts-of-ai-on-team-structure-and-productivity",
-    "description": "Gamescom Dev has released its annual speaker survey results, revealing that 83% of respondents expect AI to impact team structure or productivity. Read more",
-    "date": "Tue, 11 Aug 2026 13:05:23 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Reforj developer 4J Studios unveils Rixels: modified pixels that reduce texture memory requirements by 98%",
-    "link": "https://www.gamesindustry.biz/supermassive-games-announces-layoffs-up-to-75-workers-may-be-affected",
-    "description": "Supermassive Games has announced a third round of layoffs in three years, potentially impacting up to 75 positions. Read more",
-    "date": "Tue, 11 Aug 2026 12:26:32 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "GamesAid appoints six new trustees as it raises £82,000 in funding during 2025/26",
-    "link": "https://www.gamesindustry.biz/remedy-reports-revenue-declines-in-q2-and-h1-as-it-prepares-for-control-resonant-launch",
-    "description": "Remedy reported revenue declines in the first half and second quarter of 2026 while increasing marketing efforts for Control Resonant. Read more",
-    "date": "Tue, 11 Aug 2026 10:00:44 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
