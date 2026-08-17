@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-16 06:51 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-17 07:08 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-16T06:51:23.695207",
+  fetched_at: "2026-08-17T07:08:29.721808",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
-      "piracy",
-      "rom",
       "torrent",
-      "copyright"
+      "copyright",
+      "rom",
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "seized",
       "pirate",
-      "piracy",
-      "seized"
+      "piracy"
     ]
   },
   {
@@ -39,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "rom",
-      "dmca"
+      "dmca",
+      "pirate"
     ]
   },
   {
@@ -52,9 +52,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
+      "torrent",
       "arrested",
-      "torrent"
+      "piracy"
     ]
   },
   {
@@ -65,9 +65,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "torrent",
       "pirate",
-      "arrested",
-      "torrent"
+      "arrested"
     ]
   },
   {
@@ -78,9 +78,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "crack",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -91,9 +91,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "dmca",
-      "copyright"
+      "copyright",
+      "pirate"
+    ]
+  },
+  {
+    "title": "Court Rejects Fair Use Claim, Orders YouTube to Unmask Anime Recap Channels",
+    "link": "https://torrentfreak.com/researchers-hunt-telegram-pirates-with-ai-tool-flag-hundreds-of-channels/",
+    "description": "A new academic study offers a detailed look inside Telegram's video piracy ecosystem, spotting more than 19,000 pirated titles linked in posts that were viewed more than 4 billion times. The researchers built an AI-powered tool that can spot pirate channels and bots, which were reported to Telegram ",
+    "date": "Fri, 14 Aug 2026 07:40:28 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -145,18 +157,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "DNS Bypass Tweets Keep Uptobox Employee&#8217;s €197K Frozen in Disney Piracy Case",
-    "link": "https://torrentfreak.com/canadas-expanded-scope-blocking-order-targets-existing-and-future-pirate-sites/",
-    "description": "For the first time, a Canadian site-blocking order can target pirate sites that don't exist yet. The Federal Court has ordered ISPs to block thirteen piracy brands including 123Movies and FMovies, and its catch-all \"Expanded Scope\" allows Hollywood studios and broadcasters to add unrelated sites lat",
-    "date": "Wed, 22 Jul 2026 07:03:32 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
     "title": "Copyright Scammers Weaponized Meta&#8217;s Rights Manager with Backdating Exploit",
     "link": "https://torrentfreak.com/france-approves-automated-real-time-blocking-of-pirate-sports-streams/",
     "description": "French lawmakers have officially adopted a new sports law that replaces manual domain checks with support for automated, real-time piracy blocking. The system allows for instant blockades during live sports broadcasts, with  oversight checks from regulator ARCOM being applied afterward rather than b",
@@ -164,9 +164,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "piracy",
+      "rom",
       "copyright",
-      "rom"
+      "piracy"
+    ]
+  },
+  {
+    "title": "Researchers Hunt Telegram Pirates with AI Tool, Flag Hundreds of Channels",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Sun, 16 Aug 2026 08:18:27 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -177,8 +189,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -189,8 +201,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -201,8 +213,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -328,15 +340,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/bafta-games-awards-updates-voting-requirements-and-entry-fees-as-it-opens-entries-for-2027-ceremony",
     "description": "Entries for the 2027 BAFTA Games Awards are now open, alongside updates to its entry requirements, fee structure, and AI policy. Read more",
     "date": "Wed, 12 Aug 2026 09:51:42 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "UKIE-backed Digital Schoolhouse partners with Roblox to provide suite of tools for students to develop Roblox games in-class",
-    "link": "https://www.gamesindustry.biz/pearl-abyss-q2-earnings-decline-as-impact-of-crimson-deserts-launch-period-subsides",
-    "description": "Pearl Abyss reported a weaker second quarter as the initial impact of Crimson Desert's March launch tapered off. Read more",
-    "date": "Wed, 12 Aug 2026 08:59:53 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
