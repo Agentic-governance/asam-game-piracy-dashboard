@@ -1,21 +1,21 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-17 07:08 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-18 06:55 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-17T07:08:29.721808",
+  fetched_at: "2026-08-18T06:55:02.291590",
   item_count: 30,
   items: [
   {
-    "title": "Japanese Police Arrest NYAA &#8216;First Uploader,&#8217; But Not by Watching the Swarm",
+    "title": "Researchers Hunt Telegram Pirates with AI Tool, Flag Hundreds of Channels",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Spider-Man: Brand New Day' tops the chart, followed by 'Supergirl.' 'Disclosure Day' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sat, 08 Aug 2026 07:41:08 +0000",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Spider-Man: Brand New Day' tops the chart, followed by Disclosure Day.' 'The Odyssey' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sun, 16 Aug 2026 08:18:27 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
-      "copyright",
-      "rom",
       "pirate",
-      "piracy"
+      "copyright",
+      "piracy",
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "seized",
       "pirate",
-      "piracy"
+      "piracy",
+      "seized"
     ]
   },
   {
@@ -40,8 +40,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "rom",
-      "dmca",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -53,8 +53,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "torrent",
-      "arrested",
-      "piracy"
+      "piracy",
+      "arrested"
     ]
   },
   {
@@ -84,16 +84,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Canada&#8217;s &#8216;Expanded Scope&#8217; Blocking Order Targets Existing and Future Pirate Sites",
-    "link": "https://torrentfreak.com/x-and-music-publishers-settle-three-year-copyright-clash-after-spacex-ipo/",
-    "description": "Three years of litigation that triggered explosive allegations of DMCA \"weaponization\" and \"maximum pain\" pressure tactics quietly ended in coordinated settlements. X Corp and several music companies settled the copyright infringement lawsuit and X's antitrust counterstrike, with prejudice. The dism",
-    "date": "Thu, 23 Jul 2026 09:52:05 +0000",
+    "title": "Top 10 Most Pirated Movies of The Week – 08/17/2026",
+    "link": "https://torrentfreak.com/pirate-streaming-giant-cineby-announces-surprise-shutdown/",
+    "description": "Cineby, one of the biggest pirate streaming sites on the web, says it will shut its doors on August 26. The site was previously flagged as a notorious piracy operation by Hollywood and has been blocked by court order in several countries. If history is any guide, successors and copycats will line up",
+    "date": "Sun, 16 Aug 2026 23:09:40 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 7,
+    "relevance_score": 6,
     "matched_keywords": [
-      "dmca",
-      "copyright",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -113,18 +112,6 @@ const ARIA_NEWS = {
     "link": "https://torrentfreak.com/hollywoods-uk-omnibus-pirate-site-blocking-order-surfaces-through-cloudflare/",
     "description": "In May, the UK High Court granted several Hollywood studios a broad \"omnibus\" site blocking order, allowing them to block rotating networks of pirate sites, without the need to link them to known pirate brands. This breakthrough order was recently cited in a Canadian court order, but remained unavai",
     "date": "Tue, 11 Aug 2026 07:21:04 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Top 10 Most Pirated Movies of The Week – 08/10/2026",
-    "link": "https://torrentfreak.com/eu-study-block-live-sports-piracy-in-30-minutes-across-dns-resolvers-vpns-and-cdns/",
-    "description": "Three years ago the European Commission rejected calls for binding anti-piracy legislation, issuing a 'recommendation' instead. A new study commissioned by the European Parliament concludes that this soft approach has fallen short. It calls for a binding EU Regulation built around the 30-minute bloc",
-    "date": "Sun, 09 Aug 2026 23:09:40 +0000",
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
@@ -165,20 +152,20 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "rom",
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
-    "title": "Researchers Hunt Telegram Pirates with AI Tool, Flag Hundreds of Channels",
+    "title": "Pirate Streaming Giant Cineby Announces Surprise Shutdown",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sun, 16 Aug 2026 08:18:27 +0000",
+    "date": "Mon, 17 Aug 2026 09:43:20 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -201,8 +188,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -213,8 +200,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -222,6 +209,17 @@ const ARIA_NEWS = {
     "link": "https://torrentfreak.com/paris-court-kicks-off-new-football-season-with-multi-intermediary-piracy-blocking-orders/",
     "description": "Europe's football seasons kick off again this month, with the Champions League to follow in September. In preparation, Canal+ has secured fourteen site-blocking orders spanning ISPs, DNS resolvers, VPNs, and search engines. It's a broad, coordinated effort — and one of the last that France will run ",
     "date": "Mon, 10 Aug 2026 08:33:38 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "piracy"
+    ]
+  },
+  {
+    "title": "Japanese Police Arrest NYAA &#8216;First Uploader,&#8217; But Not by Watching the Swarm",
+    "link": "https://torrentfreak.com/eu-study-block-live-sports-piracy-in-30-minutes-across-dns-resolvers-vpns-and-cdns/",
+    "description": "Three years ago the European Commission rejected calls for binding anti-piracy legislation, issuing a 'recommendation' instead. A new study commissioned by the European Parliament concludes that this soft approach has fallen short. It calls for a binding EU Regulation built around the 30-minute bloc",
+    "date": "Sat, 08 Aug 2026 07:41:08 +0000",
     "source": "TorrentFreak",
     "relevance_score": 3,
     "matched_keywords": [
@@ -240,10 +238,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Modern consumers crave \"events\", and the games industry needs to provide them | Opinion",
+    "title": "The Hollywood disruptors making a large-scale game with a 12-person team – and no generative AI",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 14 Aug 2026 16:39:59 +0000",
+    "date": "Mon, 17 Aug 2026 17:43:23 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -271,6 +269,42 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
+  },
+  {
+    "title": "US Senate to investigate Roblox following claims it \"prioritises revenue and engagement\" over child safety",
+    "link": "https://www.gamesindustry.biz/the-hollywood-disruptors-making-a-large-scale-game-with-a-12-person-team-and-no-generative-ai",
+    "description": "You might recall the trailer for Join Us being featured in the Xbox Showcase back in June. It depicts a darkly comic co-op cult simulator, with robed cult members riding around on pigs and loosing off machine guns, before ending on an image of Cthulu-like giant tentacles. Not shown was the snake gun",
+    "date": "Mon, 17 Aug 2026 12:47:28 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Saber Interactive adds AI disclaimer to Rideshare on Steam; CEO Matt Karch apologises to former lead writer",
+    "link": "https://www.gamesindustry.biz/us-senate-to-investigate-roblox-following-claims-it-prioritises-revenue-and-engagement-over-child-safety",
+    "description": "The US Senate Judiciary Subcommittee on Crime and Counterterrorism has launched an investigation into Roblox, saying the platform \"appears to prioritise revenue and engagement metrics\" over child safety. Read more",
+    "date": "Mon, 17 Aug 2026 10:24:45 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Matchmaking platform Sail.game launches free tier for devs ahead of Gamescom",
+    "link": "https://www.gamesindustry.biz/saber-interactive-adds-ai-disclaimer-to-rideshare-on-steam-ceo-matt-karch-apologises-to-former-lead-writer",
+    "description": "Saber Interactive has added an AI disclaimer to Rideshare Simulator's  Steam page following controversy over allegations the firm had dismissed a writer working on the game in favour of using AI-written copy. Read more",
+    "date": "Mon, 17 Aug 2026 07:33:37 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Modern consumers crave \"events\", and the games industry needs to provide them | Opinion",
+    "link": "https://www.gamesindustry.biz/matchmaking-platform-sailgame-launches-free-tier-for-devs-ahead-of-gamescom",
+    "description": "Matchmaking platform  Sail.game is introducing a free tier for PC and console game developers ahead of Gamescom. Read more",
+    "date": "Fri, 14 Aug 2026 16:39:59 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Niko Partners: India games market exceeds $1bn, forecast to reach $1.2bn by end of 2026",
@@ -304,42 +338,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/netflix-shutters-night-school-studio-and-moonloot-games",
     "description": "Netflix has closed Night School Studio and Helsinki-based Moonloot Games. Read more",
     "date": "Thu, 13 Aug 2026 16:55:14 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Sensor Tower: 89% of GTA6 preorders are for the $100 ultimate edition",
-    "link": "https://www.gamesindustry.biz/mattel-launches-new-global-studios-business-to-develop-games-based-on-its-ip",
-    "description": "Mattel has announced the formation of Mattel Game Studios, a global development organisation that will create games based on the company's IP. It follows the company's February acquisition of 100% of Mattel163, a joint venture that was previously 50% owned by partner firm NetEase. Read more",
-    "date": "Thu, 13 Aug 2026 14:00:44 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "How Planet of Lana became a hit through dogged determination after being rejected \"hundreds\" of times",
-    "link": "https://www.gamesindustry.biz/mmorpg-throne-and-liberty-transitions-from-amazon-game-studios-to-nc-formerly-ncsoft",
-    "description": "Update, August 13, 2026:  Amazon Game Studios has ended its publishing deal with Smilegate's MMO Lost Ark. Read more",
-    "date": "Wed, 12 Aug 2026 11:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "BAFTA Games Awards updates voting requirements and entry fees as it opens entries for 2027 ceremony",
-    "link": "https://www.gamesindustry.biz/how-planet-of-lana-became-a-hit-through-dogged-determination-after-being-rejected-hundreds-of-times",
-    "description": "The story of Planet of Lana is the story of triumph over adversity. But it's also one of naivety. The developers themselves admit they had no clue what they were doing at first. Read more",
-    "date": "Wed, 12 Aug 2026 10:46:01 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Pearl Abyss Q2 earnings decline as impact of Crimson Desert's launch period subsides",
-    "link": "https://www.gamesindustry.biz/bafta-games-awards-updates-voting-requirements-and-entry-fees-as-it-opens-entries-for-2027-ceremony",
-    "description": "Entries for the 2027 BAFTA Games Awards are now open, alongside updates to its entry requirements, fee structure, and AI policy. Read more",
-    "date": "Wed, 12 Aug 2026 09:51:42 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
