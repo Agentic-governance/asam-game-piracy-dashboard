@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-18 06:55 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-19 06:56 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-18T06:55:02.291590",
+  fetched_at: "2026-08-19T06:56:02.746867",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
-      "copyright",
       "piracy",
+      "pirate",
+      "torrent",
       "rom",
-      "torrent"
+      "copyright"
     ]
   },
   {
@@ -26,8 +26,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "piracy",
+      "pirate",
       "seized"
     ]
   },
@@ -39,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "dmca",
       "rom",
-      "pirate",
-      "dmca"
+      "pirate"
     ]
   },
   {
@@ -66,8 +66,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "torrent",
-      "pirate",
-      "arrested"
+      "arrested",
+      "pirate"
     ]
   },
   {
@@ -78,9 +78,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "crack",
       "rom",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -91,8 +91,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -103,8 +103,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -115,8 +115,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -127,8 +127,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -139,8 +139,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -151,20 +151,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "rom",
       "piracy",
-      "copyright"
+      "copyright",
+      "rom"
     ]
   },
   {
-    "title": "Pirate Streaming Giant Cineby Announces Surprise Shutdown",
+    "title": "A German Court Drew the Piracy Line at 81.5%, KinoGO Was Blocked with (at least) 82.4%",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Mon, 17 Aug 2026 09:43:20 +0000",
+    "date": "Tue, 18 Aug 2026 15:01:43 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
+      "piracy",
       "copyright"
     ]
   },
@@ -176,8 +176,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -193,15 +193,14 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "X and Music Publishers Settle Three-Year Copyright Clash After SpaceX IPO",
-    "link": "https://torrentfreak.com/meta-confirms-data-engineer-is-behind-key-ip-address-in-adult-film-piracy-lawsuit/",
-    "description": "Meta has responded to the amended multi-million copyright lawsuit filed by adult film producer Strike 3 Holdings. While flatly denying that it pirated adult films for AI training, Meta confirmed that a key IP address is traced to the home of one of its former data engineers. At the same time, Meta p",
-    "date": "Fri, 24 Jul 2026 08:21:48 +0000",
+    "title": "Pirate Streaming Giant Cineby Announces Surprise Shutdown",
+    "link": "https://torrentfreak.com/a-german-court-drew-the-piracy-line-at-81-5-kinogo-was-blocked-with-at-least-82-4/",
+    "description": "Germany doesn't have a hard benchmark for when a site is structurally infringing. However, the site-blocking clearinghouse CUII stated that illegal content clearly outweighs legal content when at least 81.5 percent of a site is infringing. After KinoGO was recently blocked with a floor of 82.4 perce",
+    "date": "Mon, 17 Aug 2026 09:43:20 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 4,
+    "relevance_score": 3,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "pirate"
     ]
   },
   {
@@ -238,10 +237,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "The Hollywood disruptors making a large-scale game with a 12-person team – and no generative AI",
+    "title": "VS Studio adds another Tekken veteran as Kohei Ikeda joins as game designer",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 17 Aug 2026 17:43:23 +0000",
+    "date": "Wed, 19 Aug 2026 06:49:31 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Three Epic veterans are building an AI-powered game engine to break the industry's doom cycle",
+    "link": "https://www.gamesindustry.biz/gamescom-2026-sets-new-record-as-number-of-country-pavilions-increases-by-25",
+    "description": "With Gamescom 2026 less than a week away, the event will host nearly 50 pavilions from 40 countries, up 25% and 14% over 2025, respectively. Read more",
+    "date": "Tue, 18 Aug 2026 13:32:01 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -271,73 +281,64 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Gamescom 2026 sets new record as number of country pavilions increases by 25%",
+    "link": "https://www.gamesindustry.biz/vs-studio-adds-another-tekken-veteran-as-kohei-ikeda-joins-as-game-designer",
+    "description": "Tekken 8 director Kohei Ikeda has joined Katsuhiro Harada's VS Studio. Read more",
+    "date": "Tue, 18 Aug 2026 14:15:40 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Bain &amp; Co: Research shows only one in five players seek out new titles",
+    "link": "https://www.gamesindustry.biz/three-epic-veterans-are-building-an-ai-powered-game-engine-to-break-the-industrys-doom-cycle",
+    "description": "Unity and Unreal have dominated the development scene for a long time now, and were used to make roughly 70% of the games released on Steam in 2025. Godot has seen some significant growth in the past few years, and many big companies still favour proprietary engines &ndash; like Capcom with its RE E",
+    "date": "Tue, 18 Aug 2026 13:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Deus Ex creator Warren Spector announces retirement – \"it's time to ride off into the sunset\"",
+    "link": "https://www.gamesindustry.biz/bain-co-research-shows-only-one-in-five-players-seek-out-new-titles",
+    "description": "Global gaming software revenue has grown at a compound annual rate of 3% over the past four years and is expected to continue at this pace for the next four years. But two-thirds of players prefer familiar games or sequels, and only one in five seek new titles. Read more",
+    "date": "Tue, 18 Aug 2026 12:08:03 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Save the Children announces its first game and streaming fundraising event called Save Point",
+    "link": "https://www.gamesindustry.biz/deus-ex-creator-warren-spector-announces-retirement-its-time-to-ride-off-into-the-sunset",
+    "description": "Deus Ex creator Warren Spector has announced his retirement after over forty years in game development. Read more",
+    "date": "Tue, 18 Aug 2026 08:53:12 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "GYLD raises $1m to fund proprietary games research system that marked Clair Obscur as a potential hit",
+    "link": "https://www.gamesindustry.biz/save-the-children-announces-its-first-game-and-streaming-fundraising-event-called-save-point",
+    "description": "This Christmas, Save the Children will launch is first game and streaming fundraiser called Save Point. Read more",
+    "date": "Tue, 18 Aug 2026 07:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "The Hollywood disruptors making a large-scale game with a 12-person team – and no generative AI",
+    "link": "https://www.gamesindustry.biz/gyld-raises-1m-to-fund-proprietary-games-research-system-that-marked-clair-obscur-as-a-potential-hit",
+    "description": "Games publishing and investment agency GYLD has raised $1 million in funding to support its proprietary games research system Critical Compass. Read more",
+    "date": "Mon, 17 Aug 2026 17:43:23 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "US Senate to investigate Roblox following claims it \"prioritises revenue and engagement\" over child safety",
     "link": "https://www.gamesindustry.biz/the-hollywood-disruptors-making-a-large-scale-game-with-a-12-person-team-and-no-generative-ai",
     "description": "You might recall the trailer for Join Us being featured in the Xbox Showcase back in June. It depicts a darkly comic co-op cult simulator, with robed cult members riding around on pigs and loosing off machine guns, before ending on an image of Cthulu-like giant tentacles. Not shown was the snake gun",
     "date": "Mon, 17 Aug 2026 12:47:28 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Saber Interactive adds AI disclaimer to Rideshare on Steam; CEO Matt Karch apologises to former lead writer",
-    "link": "https://www.gamesindustry.biz/us-senate-to-investigate-roblox-following-claims-it-prioritises-revenue-and-engagement-over-child-safety",
-    "description": "The US Senate Judiciary Subcommittee on Crime and Counterterrorism has launched an investigation into Roblox, saying the platform \"appears to prioritise revenue and engagement metrics\" over child safety. Read more",
-    "date": "Mon, 17 Aug 2026 10:24:45 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Matchmaking platform Sail.game launches free tier for devs ahead of Gamescom",
-    "link": "https://www.gamesindustry.biz/saber-interactive-adds-ai-disclaimer-to-rideshare-on-steam-ceo-matt-karch-apologises-to-former-lead-writer",
-    "description": "Saber Interactive has added an AI disclaimer to Rideshare Simulator's  Steam page following controversy over allegations the firm had dismissed a writer working on the game in favour of using AI-written copy. Read more",
-    "date": "Mon, 17 Aug 2026 07:33:37 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Modern consumers crave \"events\", and the games industry needs to provide them | Opinion",
-    "link": "https://www.gamesindustry.biz/matchmaking-platform-sailgame-launches-free-tier-for-devs-ahead-of-gamescom",
-    "description": "Matchmaking platform  Sail.game is introducing a free tier for PC and console game developers ahead of Gamescom. Read more",
-    "date": "Fri, 14 Aug 2026 16:39:59 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Niko Partners: India games market exceeds $1bn, forecast to reach $1.2bn by end of 2026",
-    "link": "https://www.gamesindustry.biz/modern-consumers-crave-events-and-the-games-industry-needs-to-provide-them-opinion",
-    "description": "For almost as long as the games industry has existed, the conventional wisdom around sequels has remained the same: strike while the iron is hot. If you have a hit game, ensure you get a sequel out the door before the public loses interest. If you have more than one hit in a row, that's a franchise,",
-    "date": "Fri, 14 Aug 2026 13:47:08 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "2K establishes AAA sports developer Small Axe Studios",
-    "link": "https://www.gamesindustry.biz/niko-partners-india-games-market-exceeds-1bn-forecast-to-reach-12bn-by-end-of-2026",
-    "description": "India's games market exceeded $1 billion in revenue for the first time in 2025, up 14.8% year over year to $1.04 billion. Read more",
-    "date": "Fri, 14 Aug 2026 11:06:51 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Netflix shutters Night School Studio and Moonloot Games",
-    "link": "https://www.gamesindustry.biz/i-dont-see-why-people-are-scared-of-it-why-shipshaper-developer-tomas-sala-doesnt-think-indies-should-be-stressing-about-gta6",
-    "description": "GTA6 is messing with Tomas Sala's plans. He'd intended to launch ShipShaper earlier this year, but \"life got in the way,\" he tells GamesIndustry.biz. \"And then I saw all this stress about, 'Oh my God, GTA is coming, you have to pack it before September'.\" Read more",
-    "date": "Fri, 14 Aug 2026 08:11:46 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Mattel launches new global studios business to develop games based on its IP",
-    "link": "https://www.gamesindustry.biz/netflix-shutters-night-school-studio-and-moonloot-games",
-    "description": "Netflix has closed Night School Studio and Helsinki-based Moonloot Games. Read more",
-    "date": "Thu, 13 Aug 2026 16:55:14 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
