@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-19 06:56 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-20 06:57 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-19T06:56:02.746867",
+  fetched_at: "2026-08-20T06:57:01.106158",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
-      "pirate",
       "torrent",
       "rom",
-      "copyright"
+      "piracy",
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -39,8 +39,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "dmca",
       "rom",
+      "dmca",
       "pirate"
     ]
   },
@@ -52,9 +52,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
+      "arrested",
       "piracy",
-      "arrested"
+      "torrent"
     ]
   },
   {
@@ -65,9 +65,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
       "arrested",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -79,8 +79,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "rom",
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -151,13 +151,13 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
+      "rom",
       "piracy",
-      "copyright",
-      "rom"
+      "copyright"
     ]
   },
   {
-    "title": "A German Court Drew the Piracy Line at 81.5%, KinoGO Was Blocked with (at least) 82.4%",
+    "title": "A German Court Drew the Piracy Line at 81.5%, KinoGO Was Blocked with (at least) 82.4% (Updated)",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
     "date": "Tue, 18 Aug 2026 15:01:43 +0000",
@@ -176,8 +176,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -237,10 +237,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "VS Studio adds another Tekken veteran as Kohei Ikeda joins as game designer",
+    "title": "\"As more people play games, even the tiniest niches find a bigger audience\" – Why Matt Webster is convinced people want Star Wars: Galactic Racer",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 19 Aug 2026 06:49:31 +0000",
+    "date": "Wed, 19 Aug 2026 14:57:11 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Human: Fall Flat veterans launch new UK studio Pretty Cool Games with funding from Arknights developer Hypergraph",
+    "link": "https://www.gamesindustry.biz/we-chose-the-worst-time-in-history-harvey-smith-on-starting-his-own-studio-after-arkane",
+    "description": "Microsoft's closure of Arkane Austin in May 2024 left 96 developers out of work &ndash; among them studio head Harvey Smith, whose storied career spans Deus Ex, Dishonored, and Prey. Now, after a two-year quiet period, Smith is ready to reveal his next venture: Black Pony Immersive, a new studio co-",
+    "date": "Wed, 19 Aug 2026 10:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -281,6 +292,33 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "\"We chose the worst time in history\" – Harvey Smith on starting his own studio after Arkane",
+    "link": "https://www.gamesindustry.biz/report-live-service-removed-from-horizon-hunters-gathering-following-negative-player-feedback",
+    "description": "Guerrilla Games is overhauling Horizon Hunters Gathering by removing its live-service features in response to negative player feedback, according to  Bloomberg's Jason Schreier. Read more",
+    "date": "Wed, 19 Aug 2026 13:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Konami's Castlevania: Grimoire of Souls to be taken offline next month",
+    "link": "https://www.gamesindustry.biz/human-fall-flat-veterans-launch-new-uk-studio-pretty-cool-games-with-funding-from-arknights-developer-hypergraph",
+    "description": "Pretty Cool Games has been co-founded by Human: Fall Flat veterans Sitara Shefta (CEO) and Will Dudley (CCO) with the aim of building a sustainable studio that's fair to its employees and rewards them for their success. Read more",
+    "date": "Wed, 19 Aug 2026 07:50:27 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "VS Studio adds another Tekken veteran as Kohei Ikeda joins as game designer",
+    "link": "https://www.gamesindustry.biz/konamis-castlevania-grimoire-of-souls-to-be-taken-offline-next-month",
+    "description": "Konami has announced the shut down Castlevania: Grimoire of Souls next month. Read more",
+    "date": "Wed, 19 Aug 2026 06:49:31 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Gamescom 2026 sets new record as number of country pavilions increases by 25%",
     "link": "https://www.gamesindustry.biz/vs-studio-adds-another-tekken-veteran-as-kohei-ikeda-joins-as-game-designer",
     "description": "Tekken 8 director Kohei Ikeda has joined Katsuhiro Harada's VS Studio. Read more",
@@ -303,42 +341,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/bain-co-research-shows-only-one-in-five-players-seek-out-new-titles",
     "description": "Global gaming software revenue has grown at a compound annual rate of 3% over the past four years and is expected to continue at this pace for the next four years. But two-thirds of players prefer familiar games or sequels, and only one in five seek new titles. Read more",
     "date": "Tue, 18 Aug 2026 12:08:03 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Save the Children announces its first game and streaming fundraising event called Save Point",
-    "link": "https://www.gamesindustry.biz/deus-ex-creator-warren-spector-announces-retirement-its-time-to-ride-off-into-the-sunset",
-    "description": "Deus Ex creator Warren Spector has announced his retirement after over forty years in game development. Read more",
-    "date": "Tue, 18 Aug 2026 08:53:12 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "GYLD raises $1m to fund proprietary games research system that marked Clair Obscur as a potential hit",
-    "link": "https://www.gamesindustry.biz/save-the-children-announces-its-first-game-and-streaming-fundraising-event-called-save-point",
-    "description": "This Christmas, Save the Children will launch is first game and streaming fundraiser called Save Point. Read more",
-    "date": "Tue, 18 Aug 2026 07:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "The Hollywood disruptors making a large-scale game with a 12-person team – and no generative AI",
-    "link": "https://www.gamesindustry.biz/gyld-raises-1m-to-fund-proprietary-games-research-system-that-marked-clair-obscur-as-a-potential-hit",
-    "description": "Games publishing and investment agency GYLD has raised $1 million in funding to support its proprietary games research system Critical Compass. Read more",
-    "date": "Mon, 17 Aug 2026 17:43:23 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "US Senate to investigate Roblox following claims it \"prioritises revenue and engagement\" over child safety",
-    "link": "https://www.gamesindustry.biz/the-hollywood-disruptors-making-a-large-scale-game-with-a-12-person-team-and-no-generative-ai",
-    "description": "You might recall the trailer for Join Us being featured in the Xbox Showcase back in June. It depicts a darkly comic co-op cult simulator, with robed cult members riding around on pigs and loosing off machine guns, before ending on an image of Cthulu-like giant tentacles. Not shown was the snake gun",
-    "date": "Mon, 17 Aug 2026 12:47:28 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
