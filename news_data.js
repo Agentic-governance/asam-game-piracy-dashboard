@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-20 06:57 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-21 06:58 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-20T06:57:01.106158",
+  fetched_at: "2026-08-21T06:58:19.432662",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "pirate",
       "torrent",
-      "rom",
-      "piracy",
       "copyright",
-      "pirate"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "seized",
       "piracy",
-      "pirate",
-      "seized"
+      "pirate"
     ]
   },
   {
@@ -39,8 +39,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "dmca",
+      "rom",
       "pirate"
     ]
   },
@@ -52,9 +52,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "arrested",
+      "torrent",
       "piracy",
-      "torrent"
+      "arrested"
     ]
   },
   {
@@ -65,9 +65,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "torrent",
       "arrested",
-      "pirate",
-      "torrent"
+      "pirate"
     ]
   },
   {
@@ -79,7 +79,21 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "rom",
-      "crack",
+      "piracy",
+      "crack"
+    ]
+  },
+  {
+    "title": "A German Court Drew the Piracy Line at 81.5%, KinoGO Was Blocked with (at least) 82.4% (Updated)",
+    "link": "https://torrentfreak.com/filmmaker-who-sued-ptp-btn-and-four-other-private-torrent-trackers-may-be-an-impostor/",
+    "description": "A federal copyright lawsuit targeting six of the most prominent private BitTorrent trackers, including PassThePopcorn, BroadcasTheNet, and HDBits, may be the work of an impostor. Attorneys representing two of the alleged operators told a federal judge they tracked down the real person behind the fil",
+    "date": "Tue, 18 Aug 2026 15:01:43 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "rom",
+      "copyright",
+      "torrent",
       "piracy"
     ]
   },
@@ -152,20 +166,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "rom",
-      "piracy",
-      "copyright"
-    ]
-  },
-  {
-    "title": "A German Court Drew the Piracy Line at 81.5%, KinoGO Was Blocked with (at least) 82.4% (Updated)",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 18 Aug 2026 15:01:43 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -178,18 +180,6 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "rom",
       "piracy"
-    ]
-  },
-  {
-    "title": "Meta Confirms &#8216;Data Engineer&#8217; is Behind Key IP Address in Adult Film Piracy Lawsuit",
-    "link": "https://torrentfreak.com/copyright-scammers-weaponized-metas-rights-manager-with-backdating-exploit/",
-    "description": "Scammers are allegedly exploiting a flaw in Facebook's 'Edit Post' feature to backdate stolen videos and hijack copyright claims through Meta's Rights Manager. This allows them to monetize content of other creators, while also hitting them with strikes. The problem is at the center of several Indian",
-    "date": "Sun, 26 Jul 2026 11:16:29 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "piracy",
-      "copyright"
     ]
   },
   {
@@ -237,9 +227,31 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"As more people play games, even the tiniest niches find a bigger audience\" – Why Matt Webster is convinced people want Star Wars: Galactic Racer",
+    "title": "Geoff Keighley clarifies how trailers are selected for Gamescom Opening Night Live",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Thu, 20 Aug 2026 19:19:08 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Why a publisher you've probably not heard of is spending millions of dollars on its Gamescom presence",
+    "link": "https://www.gamesindustry.biz/rockstar-hit-with-more-leaks-as-gta-6-gameplay-and-assets-appear-to-circulate-on-social-media",
+    "description": "A hacker group is is posting daily leaks of what appears to be details and footage from a build of GTA 6. Material posted so far includes various gameplay mechanics and assets, as well as a full game map. Read more",
+    "date": "Thu, 20 Aug 2026 11:02:20 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"As more people play games, even the tiniest niches find a bigger audience\" – Why Matt Webster is convinced people want Star Wars: Galactic Racer",
+    "link": "https://www.gamesindustry.biz/inner-pocket-publishing-is-building-a-quiet-corner-for-people-who-love-thoughtful-single-player-games",
+    "description": "A team of industry veterans from Critical Reflex, Gaijin Entertainment, and Nozomu Games has established the indie label Inner Pocket Publishing. Read more",
     "date": "Wed, 19 Aug 2026 14:57:11 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -292,55 +304,49 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"We chose the worst time in history\" – Harvey Smith on starting his own studio after Arkane",
-    "link": "https://www.gamesindustry.biz/report-live-service-removed-from-horizon-hunters-gathering-following-negative-player-feedback",
-    "description": "Guerrilla Games is overhauling Horizon Hunters Gathering by removing its live-service features in response to negative player feedback, according to  Bloomberg's Jason Schreier. Read more",
-    "date": "Wed, 19 Aug 2026 13:00:00 +0000",
+    "title": "&#8216;Filmmaker&#8217; Who Sued PTP, BTN, and Four Other Private Torrent Trackers May Be an Impostor",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Thu, 20 Aug 2026 11:58:53 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 2,
+    "matched_keywords": [
+      "copyright",
+      "torrent"
+    ]
+  },
+  {
+    "title": "US physical game sales drop to lowest monthly total since 1995 | US Monthly Charts",
+    "link": "https://www.gamesindustry.biz/geoff-keighley-clarifies-how-trailers-are-selected-for-gamescom-opening-night-live",
+    "description": "In a press pre-briefing ahead of next week's Gamescom conference, Geoff Keighley has shed some light on the process of how trailers are selected for the Opening Night Live digital showcase, which will take place on Tuesday. Read more",
+    "date": "Thu, 20 Aug 2026 15:20:49 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Konami's Castlevania: Grimoire of Souls to be taken offline next month",
-    "link": "https://www.gamesindustry.biz/human-fall-flat-veterans-launch-new-uk-studio-pretty-cool-games-with-funding-from-arknights-developer-hypergraph",
-    "description": "Pretty Cool Games has been co-founded by Human: Fall Flat veterans Sitara Shefta (CEO) and Will Dudley (CCO) with the aim of building a sustainable studio that's fair to its employees and rewards them for their success. Read more",
-    "date": "Wed, 19 Aug 2026 07:50:27 +0000",
+    "title": "GamesIndustry.biz HR Summit reveals new People and Workplace focus, dedicated to shaping the future of games workplaces",
+    "link": "https://www.gamesindustry.biz/us-physical-game-sales-drop-to-lowest-monthly-total-since-1995-us-monthly-charts",
+    "description": "US physical software sales fell to $85 million in July, the lowest monthly total since Circana began tracking in 1995. Read more",
+    "date": "Thu, 20 Aug 2026 14:33:37 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "VS Studio adds another Tekken veteran as Kohei Ikeda joins as game designer",
-    "link": "https://www.gamesindustry.biz/konamis-castlevania-grimoire-of-souls-to-be-taken-offline-next-month",
-    "description": "Konami has announced the shut down Castlevania: Grimoire of Souls next month. Read more",
-    "date": "Wed, 19 Aug 2026 06:49:31 +0000",
+    "title": "Makers Fund raises $250m in fourth round to support interactive entertainment startups",
+    "link": "https://www.gamesindustry.biz/gamesindustrybiz-hr-summit-reveals-new-people-and-workplace-focus-dedicated-to-shaping-the-future-of-games-workplaces",
+    "description": "This year's GamesIndustry.biz HR Summit, returning to the Royal Institution on October 1, will have a new focus on People and Workplaces, with a series of sessions featuring, and speaking to, both HR professionals and business leaders on what the modern games workplace needs to be in a time of ongoi",
+    "date": "Thu, 20 Aug 2026 13:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Gamescom 2026 sets new record as number of country pavilions increases by 25%",
-    "link": "https://www.gamesindustry.biz/vs-studio-adds-another-tekken-veteran-as-kohei-ikeda-joins-as-game-designer",
-    "description": "Tekken 8 director Kohei Ikeda has joined Katsuhiro Harada's VS Studio. Read more",
-    "date": "Tue, 18 Aug 2026 14:15:40 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Bain &amp; Co: Research shows only one in five players seek out new titles",
-    "link": "https://www.gamesindustry.biz/three-epic-veterans-are-building-an-ai-powered-game-engine-to-break-the-industrys-doom-cycle",
-    "description": "Unity and Unreal have dominated the development scene for a long time now, and were used to make roughly 70% of the games released on Steam in 2025. Godot has seen some significant growth in the past few years, and many big companies still favour proprietary engines &ndash; like Capcom with its RE E",
-    "date": "Tue, 18 Aug 2026 13:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Deus Ex creator Warren Spector announces retirement – \"it's time to ride off into the sunset\"",
-    "link": "https://www.gamesindustry.biz/bain-co-research-shows-only-one-in-five-players-seek-out-new-titles",
-    "description": "Global gaming software revenue has grown at a compound annual rate of 3% over the past four years and is expected to continue at this pace for the next four years. But two-thirds of players prefer familiar games or sequels, and only one in five seek new titles. Read more",
-    "date": "Tue, 18 Aug 2026 12:08:03 +0000",
+    "title": "Rockstar hit with more leaks as GTA 6 gameplay and assets appear to circulate on social media",
+    "link": "https://www.gamesindustry.biz/makers-fund-raises-250m-in-fourth-round-to-support-interactive-entertainment-startups",
+    "description": "Venture capital firm Makers Fund has secured $250 million to invest in startups advancing games and interactive entertainment. This brings its total assets under management to $1.5 billion. Read more",
+    "date": "Thu, 20 Aug 2026 11:09:56 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
