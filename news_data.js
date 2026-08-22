@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-21 06:58 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-22 06:51 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-21T06:58:19.432662",
+  fetched_at: "2026-08-22T06:51:58.540503",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "torrent",
-      "copyright",
       "piracy",
-      "rom"
+      "rom",
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -27,8 +27,21 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "seized",
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
+    ]
+  },
+  {
+    "title": "&#8216;Filmmaker&#8217; Who Sued PTP, BTN, and Four Other Private Torrent Trackers May Be an Impostor",
+    "link": "https://torrentfreak.com/nintendo-wipes-out-400-switch-emulator-repos-in-single-day-github-sweep/",
+    "description": "Nintendo has filed seven DMCA anti-circumvention notices at GitHub in a single day, wiping out more than 400 Switch emulator repositories in one coordinated campaign. The targets include copies of the Suyu emulator, several Yuzu forks, and Skyline, an emulator that shut itself down years ago. The ta",
+    "date": "Thu, 20 Aug 2026 11:58:53 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "emulator",
+      "torrent",
+      "dmca"
     ]
   },
   {
@@ -39,9 +52,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "dmca",
       "rom",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -52,9 +65,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "arrested",
       "torrent",
-      "piracy",
-      "arrested"
+      "piracy"
     ]
   },
   {
@@ -65,8 +78,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
       "arrested",
+      "torrent",
       "pirate"
     ]
   },
@@ -91,9 +104,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
+      "torrent",
       "rom",
       "copyright",
-      "torrent",
       "piracy"
     ]
   },
@@ -105,8 +118,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -117,8 +130,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -129,8 +142,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -141,8 +154,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -153,21 +166,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
-    "title": "Copyright Scammers Weaponized Meta&#8217;s Rights Manager with Backdating Exploit",
-    "link": "https://torrentfreak.com/france-approves-automated-real-time-blocking-of-pirate-sports-streams/",
-    "description": "French lawmakers have officially adopted a new sports law that replaces manual domain checks with support for automated, real-time piracy blocking. The system allows for instant blockades during live sports broadcasts, with  oversight checks from regulator ARCOM being applied afterward rather than b",
-    "date": "Mon, 27 Jul 2026 08:58:24 +0000",
+    "title": "Nintendo Wipes Out 400+ Switch Emulator Repos in Single-Day GitHub Sweep",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Fri, 21 Aug 2026 13:47:50 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 5,
+    "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "copyright",
-      "piracy"
+      "emulator",
+      "copyright"
     ]
   },
   {
@@ -227,10 +239,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Geoff Keighley clarifies how trailers are selected for Gamescom Opening Night Live",
+    "title": "The opportunity cost of Sony's live service pivot is enormous | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 20 Aug 2026 19:19:08 +0000",
+    "date": "Fri, 21 Aug 2026 14:15:36 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Compulsion Games officially separates from Xbox – \"The team told me we would rather eat rocks and drink gasoline than be split up\"",
+    "link": "https://www.gamesindustry.biz/ign-entertainment-brings-women-in-gaming-networking-event-to-gamescom",
+    "description": "IGN Entertainment is hosting a Women in Gaming networking breakfast at Gamescom, on the morning of Wednesday 26th August. The event is supported by GamesIndustry.biz, and will take place in the Dorint Hotel am Heumarkt K&ouml;ln from 8.30-10.30. Read more",
+    "date": "Fri, 21 Aug 2026 13:52:33 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Rover's Tale developer Observer Interactive parts ways with Team17 as it moves to self-publishing",
+    "link": "https://www.gamesindustry.biz/compulsion-games-officially-separates-from-xbox-the-team-told-me-we-would-rather-eat-rocks-and-drink-gasoline-than-be-split-up",
+    "description": "Compulsion Games is now independent from Xbox, with management acquiring both the studio and its staff. Read more",
+    "date": "Fri, 21 Aug 2026 13:26:55 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -271,17 +305,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Three Epic veterans are building an AI-powered game engine to break the industry's doom cycle",
-    "link": "https://www.gamesindustry.biz/gamescom-2026-sets-new-record-as-number-of-country-pavilions-increases-by-25",
-    "description": "With Gamescom 2026 less than a week away, the event will host nearly 50 pavilions from 40 countries, up 25% and 14% over 2025, respectively. Read more",
-    "date": "Tue, 18 Aug 2026 13:32:01 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Read This Before You Buy That TV Streaming Stick",
     "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
     "description": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontar",
@@ -304,49 +327,28 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "&#8216;Filmmaker&#8217; Who Sued PTP, BTN, and Four Other Private Torrent Trackers May Be an Impostor",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Thu, 20 Aug 2026 11:58:53 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 2,
-    "matched_keywords": [
-      "copyright",
-      "torrent"
-    ]
-  },
-  {
-    "title": "US physical game sales drop to lowest monthly total since 1995 | US Monthly Charts",
-    "link": "https://www.gamesindustry.biz/geoff-keighley-clarifies-how-trailers-are-selected-for-gamescom-opening-night-live",
-    "description": "In a press pre-briefing ahead of next week's Gamescom conference, Geoff Keighley has shed some light on the process of how trailers are selected for the Opening Night Live digital showcase, which will take place on Tuesday. Read more",
-    "date": "Thu, 20 Aug 2026 15:20:49 +0000",
+    "title": "IGN Entertainment brings Women In Gaming networking event to Gamescom",
+    "link": "https://www.gamesindustry.biz/the-opportunity-cost-of-sonys-live-service-pivot-is-enormous-opinion",
+    "description": "The folly of the live service mania that consumed the games business for much of the past decade is pretty well documented by this point. The idea that every game should be a live service game &ndash; the absolute madness of thinking that every game could be a live service game &ndash; consumed coun",
+    "date": "Fri, 21 Aug 2026 14:00:36 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "GamesIndustry.biz HR Summit reveals new People and Workplace focus, dedicated to shaping the future of games workplaces",
-    "link": "https://www.gamesindustry.biz/us-physical-game-sales-drop-to-lowest-monthly-total-since-1995-us-monthly-charts",
-    "description": "US physical software sales fell to $85 million in July, the lowest monthly total since Circana began tracking in 1995. Read more",
-    "date": "Thu, 20 Aug 2026 14:33:37 +0000",
+    "title": "Why Xbox's console ads could be a good thing for gaming | Opinion",
+    "link": "https://www.gamesindustry.biz/rovers-tale-developer-observer-interactive-parts-ways-with-team17-as-it-moves-to-self-publishing",
+    "description": "Team17 is no longer publishing Observer Interactive's debut title Rover's Tale. Read more",
+    "date": "Fri, 21 Aug 2026 11:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Makers Fund raises $250m in fourth round to support interactive entertainment startups",
-    "link": "https://www.gamesindustry.biz/gamesindustrybiz-hr-summit-reveals-new-people-and-workplace-focus-dedicated-to-shaping-the-future-of-games-workplaces",
-    "description": "This year's GamesIndustry.biz HR Summit, returning to the Royal Institution on October 1, will have a new focus on People and Workplaces, with a series of sessions featuring, and speaking to, both HR professionals and business leaders on what the modern games workplace needs to be in a time of ongoi",
-    "date": "Thu, 20 Aug 2026 13:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Rockstar hit with more leaks as GTA 6 gameplay and assets appear to circulate on social media",
-    "link": "https://www.gamesindustry.biz/makers-fund-raises-250m-in-fourth-round-to-support-interactive-entertainment-startups",
-    "description": "Venture capital firm Makers Fund has secured $250 million to invest in startups advancing games and interactive entertainment. This brings its total assets under management to $1.5 billion. Read more",
-    "date": "Thu, 20 Aug 2026 11:09:56 +0000",
+    "title": "Riot Games sunsets active development on 2XKO as it costs \"substantially more to operate than it brings in\"",
+    "link": "https://www.gamesindustry.biz/roblox-makes-three-of-its-ai-safety-tools-open-source",
+    "description": "Roblox is open-sourcing three of its AI safety models via the  Robust Open Online Safety Tools Model Community (ROOST). Read more",
+    "date": "Fri, 21 Aug 2026 08:06:41 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
