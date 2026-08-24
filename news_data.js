@@ -1,8 +1,21 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-23 06:52 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-24 07:11 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-23T06:52:39.290654",
+  fetched_at: "2026-08-24T07:11:30.895040",
   item_count: 30,
   items: [
+  {
+    "title": "Nintendo Wipes Out 400+ Switch Emulator Repos in Single-Day GitHub Sweep",
+    "link": "https://torrentfreak.com/take-two-expands-gta-6-leak-hunt-with-dmca-subpoenas/",
+    "description": "In response to a high-profile GTA 6 leak, Take-Two has requested broad DMCA subpoenas, targeting thousands of Discord users, as well as Microsoft data. The crackdown doesn't stop there. With two additional DMCA subpoenas, the gaming company expanded its information search to X and YouTube. Some of t",
+    "date": "Fri, 21 Aug 2026 13:47:50 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 9,
+    "matched_keywords": [
+      "crack",
+      "dmca",
+      "emulator"
+    ]
+  },
   {
     "title": "Researchers Hunt Telegram Pirates with AI Tool, Flag Hundreds of Channels",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
@@ -11,11 +24,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
+      "rom",
       "torrent",
       "copyright",
-      "pirate",
-      "rom"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -26,8 +39,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "seized",
+      "piracy",
       "pirate"
     ]
   },
@@ -39,9 +52,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "emulator",
       "dmca",
-      "torrent",
-      "emulator"
+      "torrent"
     ]
   },
   {
@@ -65,9 +78,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
+      "arrested",
       "torrent",
-      "arrested"
+      "piracy"
     ]
   },
   {
@@ -91,9 +104,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "rom",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -104,10 +117,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
       "rom",
       "torrent",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -159,26 +172,14 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "France Approves Automated, Real-Time Blocking of Pirate Sports Streams",
-    "link": "https://torrentfreak.com/vietnam-uses-hianime-arrests-as-defense-against-u-s-trade-sanctions/",
-    "description": "Facing potential U.S. trade sanctions over online piracy, Vietnam is using the recent shutdown and its criminal prosecution of the HiAnime piracy ring as a key line of defense. Notably, Vietnam's response was submitted on the same day that the HiAnime prosecution was made public. While the enforceme",
-    "date": "Tue, 28 Jul 2026 13:36:47 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "piracy",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Nintendo Wipes Out 400+ Switch Emulator Repos in Single-Day GitHub Sweep",
+    "title": "Take-Two Expands GTA 6 Leak Hunt With DMCA Subpoenas to X and YouTube",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Fri, 21 Aug 2026 13:47:50 +0000",
+    "date": "Sun, 23 Aug 2026 14:54:56 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "emulator",
+      "dmca",
       "copyright"
     ]
   },
@@ -190,8 +191,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
