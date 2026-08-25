@@ -1,8 +1,24 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-24 07:11 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-25 06:58 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-24T07:11:30.895040",
+  fetched_at: "2026-08-25T06:58:47.372132",
   item_count: 30,
   items: [
+  {
+    "title": "Take-Two Expands GTA 6 Leak Hunt With DMCA Subpoenas to X and YouTube",
+    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Mutiny' tops the chart, followed by 'Spider-Man: Brand New Day.' 'The Odyssey' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sun, 23 Aug 2026 14:54:56 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 12,
+    "matched_keywords": [
+      "rom",
+      "torrent",
+      "copyright",
+      "dmca",
+      "pirate",
+      "piracy"
+    ]
+  },
   {
     "title": "Nintendo Wipes Out 400+ Switch Emulator Repos in Single-Day GitHub Sweep",
     "link": "https://torrentfreak.com/take-two-expands-gta-6-leak-hunt-with-dmca-subpoenas/",
@@ -11,37 +27,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "crack",
+      "emulator",
       "dmca",
-      "emulator"
-    ]
-  },
-  {
-    "title": "Researchers Hunt Telegram Pirates with AI Tool, Flag Hundreds of Channels",
-    "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Spider-Man: Brand New Day' tops the chart, followed by Disclosure Day.' 'The Odyssey' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sun, 16 Aug 2026 08:18:27 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 9,
-    "matched_keywords": [
-      "rom",
-      "torrent",
-      "copyright",
-      "piracy",
-      "pirate"
-    ]
-  },
-  {
-    "title": "HBO&#8217;s Blocking Order Takes Out Popular Pirate Streaming Domains Including Streamzy.to",
-    "link": "https://torrentfreak.com/world-cup-piracy-crackdown-shows-limits-of-domain-seizures-mpa-pushes-site-blocking/",
-    "description": "Operation Offsides seized more than 1,000 pirate streaming domains during the FIFA World Cup. While the enforcement efforts were broadly praised, domain seizures are no silver bullet. In an op-ed, leaders of the MPA and the IPR Center suggest that more is needed to tackle piracy effectively, support",
-    "date": "Thu, 30 Jul 2026 17:01:43 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 9,
-    "matched_keywords": [
-      "seized",
-      "piracy",
-      "pirate"
+      "crack"
     ]
   },
   {
@@ -52,9 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "emulator",
+      "torrent",
       "dmca",
-      "torrent"
+      "emulator"
     ]
   },
   {
@@ -65,9 +53,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
+      "pirate",
       "dmca",
-      "pirate"
+      "rom"
     ]
   },
   {
@@ -78,8 +66,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "arrested",
       "torrent",
+      "arrested",
       "piracy"
     ]
   },
@@ -91,9 +79,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "arrested",
+      "pirate",
       "torrent",
-      "pirate"
+      "arrested"
     ]
   },
   {
@@ -104,9 +92,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "crack",
-      "piracy"
+      "piracy",
+      "rom"
+    ]
+  },
+  {
+    "title": "Top 10 Most Pirated Movies of The Week – 08/24/2026",
+    "link": "https://torrentfreak.com/annas-archive-owes-340-million-lost-several-domains-but-its-still-online/",
+    "description": "When Anna's Archive suffered widespread downtime earlier this month, many users feared a legal crackdown. Instead, the site was reportedly targeted by a coordinated assault on its network infrastructure. Just as it did after facing $340 million in damages and losing several domains earlier this year",
+    "date": "Sun, 23 Aug 2026 23:09:40 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "pirate",
+      "crack"
     ]
   },
   {
@@ -117,22 +117,22 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "rom",
-      "torrent",
       "copyright",
+      "torrent",
+      "rom",
       "piracy"
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 08/17/2026",
+    "title": "Researchers Hunt Telegram Pirates with AI Tool, Flag Hundreds of Channels",
     "link": "https://torrentfreak.com/pirate-streaming-giant-cineby-announces-surprise-shutdown/",
     "description": "Cineby, one of the biggest pirate streaming sites on the web, says it will shut its doors on August 26. The site was previously flagged as a notorious piracy operation by Hollywood and has been blocked by court order in several countries. If history is any guide, successors and copycats will line up",
-    "date": "Sun, 16 Aug 2026 23:09:40 +0000",
+    "date": "Sun, 16 Aug 2026 08:18:27 +0000",
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -143,8 +143,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -155,8 +155,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -167,20 +167,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Take-Two Expands GTA 6 Leak Hunt With DMCA Subpoenas to X and YouTube",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sun, 23 Aug 2026 14:54:56 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "dmca",
-      "copyright"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -229,25 +217,36 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Vietnam Uses HiAnime Arrests As Defense Against U.S. Trade Sanctions",
-    "link": "https://torrentfreak.com/hbos-blocking-order-takes-out-popular-pirate-streaming-domains-including-streamzy-to/",
-    "description": "Popular pirate streaming sites, including Streamzy and Lordflix, are key targets in a new Indian site-blocking order obtained by HBO and other major studios. The order, which lists over 120 domain names, refines how India deals with new mirror domains that surface after the initial block. The order ",
-    "date": "Wed, 29 Jul 2026 11:42:29 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "pirate"
-    ]
-  },
-  {
-    "title": "The opportunity cost of Sony's live service pivot is enormous | Opinion",
+    "title": "Maria Redin of mobile giant MTG on rebranding, buying Raid: Shadow Legends, and plans to double the company's size",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 21 Aug 2026 14:15:36 +0000",
+    "date": "Mon, 24 Aug 2026 14:23:55 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
       "rom"
+    ]
+  },
+  {
+    "title": "Double Fine Productions regains ownership of IP and publishing rights following independence from Xbox",
+    "link": "https://www.gamesindustry.biz/data-96-of-studios-now-run-a-direct-to-consumer-web-store-or-plan-to",
+    "description": "Almost all games studios run a direct-to-consumer (D2C) web store or plan to, according to a new survey. Read more",
+    "date": "Mon, 24 Aug 2026 11:05:37 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Take-Two Interactive files subpoenas against Microsoft, Discord, and X amid ongoing GTA 6 leaks",
+    "link": "https://www.gamesindustry.biz/double-fine-productions-regains-ownership-of-ip-and-publishing-rights-following-independence-from-xbox",
+    "description": "Double Fine Productions has regained ownership of its intellectual property and publishing rights after leaving Xbox. Read more",
+    "date": "Mon, 24 Aug 2026 09:53:53 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "intellectual property"
     ]
   },
   {
@@ -275,7 +274,7 @@ const ARIA_NEWS = {
   {
     "title": "Why a publisher you've probably not heard of is spending millions of dollars on its Gamescom presence",
     "link": "https://www.gamesindustry.biz/rockstar-hit-with-more-leaks-as-gta-6-gameplay-and-assets-appear-to-circulate-on-social-media",
-    "description": "A hacker group is is posting daily leaks of what appears to be details and footage from a build of GTA 6. Material posted so far includes various gameplay mechanics and assets, as well as a full game map. Read more",
+    "description": "A hacker group is posting daily leaks of what appears to be details and footage from a build of GTA 6. Material posted so far includes various gameplay mechanics and assets, as well as a full game map. Read more",
     "date": "Thu, 20 Aug 2026 11:02:20 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -288,17 +287,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/inner-pocket-publishing-is-building-a-quiet-corner-for-people-who-love-thoughtful-single-player-games",
     "description": "A team of industry veterans from Critical Reflex, Gaijin Entertainment, and Nozomu Games has established the indie label Inner Pocket Publishing. Read more",
     "date": "Wed, 19 Aug 2026 14:57:11 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Human: Fall Flat veterans launch new UK studio Pretty Cool Games with funding from Arknights developer Hypergraph",
-    "link": "https://www.gamesindustry.biz/we-chose-the-worst-time-in-history-harvey-smith-on-starting-his-own-studio-after-arkane",
-    "description": "Microsoft's closure of Arkane Austin in May 2024 left 96 developers out of work &ndash; among them studio head Harvey Smith, whose storied career spans Deus Ex, Dishonored, and Prey. Now, after a two-year quiet period, Smith is ready to reveal his next venture: Black Pony Immersive, a new studio co-",
-    "date": "Wed, 19 Aug 2026 10:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -328,6 +316,27 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "FlavaWorks Targets 75 Members of Gay-Torrents Tracker With RICO Lawsuit",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Tue, 25 Aug 2026 06:35:04 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 2,
+    "matched_keywords": [
+      "copyright",
+      "torrent"
+    ]
+  },
+  {
+    "title": "Data: 96% of studios now run a direct-to-consumer web store or plan to",
+    "link": "https://www.gamesindustry.biz/maria-redin-of-mobile-giant-mtg-on-rebranding-buying-raid-shadow-legends-and-plans-to-double-the-companys-size",
+    "description": "In February last year, the Swedish mobile giant MTG (Modern Times Group) acquired Plarium, maker of the hugely successful hero collecting game Raid: Shadow Legends, for a cool $620 million. But that's just the start, it seems. Read more",
+    "date": "Mon, 24 Aug 2026 14:01:44 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "IGN Entertainment brings Women In Gaming networking event to Gamescom",
     "link": "https://www.gamesindustry.biz/the-opportunity-cost-of-sonys-live-service-pivot-is-enormous-opinion",
     "description": "The folly of the live service mania that consumed the games business for much of the past decade is pretty well documented by this point. The idea that every game should be a live service game &ndash; the absolute madness of thinking that every game could be a live service game &ndash; consumed coun",
@@ -341,15 +350,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/rovers-tale-developer-observer-interactive-parts-ways-with-team17-as-it-moves-to-self-publishing",
     "description": "Team17 is no longer publishing Observer Interactive's debut title Rover's Tale. Read more",
     "date": "Fri, 21 Aug 2026 11:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Riot Games sunsets active development on 2XKO as it costs \"substantially more to operate than it brings in\"",
-    "link": "https://www.gamesindustry.biz/roblox-makes-three-of-its-ai-safety-tools-open-source",
-    "description": "Roblox is open-sourcing three of its AI safety models via the  Robust Open Online Safety Tools Model Community (ROOST). Read more",
-    "date": "Fri, 21 Aug 2026 08:06:41 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
