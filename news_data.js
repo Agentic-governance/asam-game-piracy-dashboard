@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-25 06:58 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-26 06:59 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-25T06:58:47.372132",
+  fetched_at: "2026-08-26T06:59:54.840591",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "rom",
-      "torrent",
       "copyright",
-      "dmca",
       "pirate",
+      "torrent",
+      "dmca",
+      "rom",
       "piracy"
     ]
   },
@@ -40,9 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "emulator",
       "torrent",
-      "dmca",
-      "emulator"
+      "dmca"
     ]
   },
   {
@@ -67,8 +67,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "torrent",
-      "arrested",
-      "piracy"
+      "piracy",
+      "arrested"
     ]
   },
   {
@@ -92,9 +92,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "crack",
+      "rom",
       "piracy",
-      "rom"
+      "crack"
     ]
   },
   {
@@ -119,8 +119,8 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "copyright",
       "torrent",
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -179,8 +179,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -217,10 +217,54 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Maria Redin of mobile giant MTG on rebranding, buying Raid: Shadow Legends, and plans to double the company's size",
+    "title": "Executives from EA and Tencent to speak alongside Netflix, Sony, and Disney at FT Business of Entertainment summit",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 24 Aug 2026 14:23:55 +0000",
+    "date": "Wed, 26 Aug 2026 05:56:36 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "The highlights of Gamescom Opening Night Live 2026",
+    "link": "https://www.gamesindustry.biz/executives-from-ea-and-tencent-to-speak-alongside-netflix-sony-and-disney-at-ft-business-of-entertainment-summit",
+    "description": "The Financial Times has unveiled the C-suite line-up for its upcoming Business of Entertainment Summit in LA in September, with games industry speakers from EA and Tencent Games joining a roster which includes executives from linear media firms including Netflix, Sony Pictures, NBCUniversal and UFC/",
+    "date": "Tue, 25 Aug 2026 23:23:11 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Maverick Games partners with Focus Entertainment to publish debut racing title Clutch",
+    "link": "https://www.gamesindustry.biz/game-developer-association-of-india-picks-15-studios-for-first-supernova-cohort",
+    "description": "The Game Developer Association of India (GDAI) has announced the first cohort of its Supernova incubation program, selecting 15 studios from more than 260 applicants.\r\n Read more",
+    "date": "Tue, 25 Aug 2026 13:41:50 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Newzoo: Global games market to generate $213.9bn in 2026, up 6.1% YoY",
+    "link": "https://www.gamesindustry.biz/gamescom-dev-head-says-smaller-studios-represent-the-biggest-opportunity-in-the-games-market",
+    "description": "Frederik Hammes, who took over from Stephan Reichart as managing director of Gamescom Dev this year, says the results of the Gamescom Dev speaker survey show that smaller studios represent the biggest opportunity in the games market right now. Read more",
+    "date": "Tue, 25 Aug 2026 09:14:43 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Godot Engine partner firm W4 Games secures $18m Series B funding, signs deal with Tencent to bolster Asia ecosystem",
+    "link": "https://www.gamesindustry.biz/newzoo-global-games-market-to-generate-2139bn-in-2026-up-61-yoy",
+    "description": "Newzoo projects the global games market will grow 6.1% to $213.9 billion, with over half of consumer spending originating from China and the US. Read more",
+    "date": "Tue, 25 Aug 2026 08:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -254,39 +298,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/ign-entertainment-brings-women-in-gaming-networking-event-to-gamescom",
     "description": "IGN Entertainment is hosting a Women in Gaming networking breakfast at Gamescom, on the morning of Wednesday 26th August. The event is supported by GamesIndustry.biz, and will take place in the Dorint Hotel am Heumarkt K&ouml;ln from 8.30-10.30. Read more",
     "date": "Fri, 21 Aug 2026 13:52:33 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Rover's Tale developer Observer Interactive parts ways with Team17 as it moves to self-publishing",
-    "link": "https://www.gamesindustry.biz/compulsion-games-officially-separates-from-xbox-the-team-told-me-we-would-rather-eat-rocks-and-drink-gasoline-than-be-split-up",
-    "description": "Compulsion Games is now independent from Xbox, with management acquiring both the studio and its staff. Read more",
-    "date": "Fri, 21 Aug 2026 13:26:55 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Why a publisher you've probably not heard of is spending millions of dollars on its Gamescom presence",
-    "link": "https://www.gamesindustry.biz/rockstar-hit-with-more-leaks-as-gta-6-gameplay-and-assets-appear-to-circulate-on-social-media",
-    "description": "A hacker group is posting daily leaks of what appears to be details and footage from a build of GTA 6. Material posted so far includes various gameplay mechanics and assets, as well as a full game map. Read more",
-    "date": "Thu, 20 Aug 2026 11:02:20 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "\"As more people play games, even the tiniest niches find a bigger audience\" – Why Matt Webster is convinced people want Star Wars: Galactic Racer",
-    "link": "https://www.gamesindustry.biz/inner-pocket-publishing-is-building-a-quiet-corner-for-people-who-love-thoughtful-single-player-games",
-    "description": "A team of industry veterans from Critical Reflex, Gaijin Entertainment, and Nozomu Games has established the indie label Inner Pocket Publishing. Read more",
-    "date": "Wed, 19 Aug 2026 14:57:11 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -328,28 +339,19 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Data: 96% of studios now run a direct-to-consumer web store or plan to",
-    "link": "https://www.gamesindustry.biz/maria-redin-of-mobile-giant-mtg-on-rebranding-buying-raid-shadow-legends-and-plans-to-double-the-companys-size",
-    "description": "In February last year, the Swedish mobile giant MTG (Modern Times Group) acquired Plarium, maker of the hugely successful hero collecting game Raid: Shadow Legends, for a cool $620 million. But that's just the start, it seems. Read more",
-    "date": "Mon, 24 Aug 2026 14:01:44 +0000",
+    "title": "Schell Games reportedly lays off staff",
+    "link": "https://www.gamesindustry.biz/the-highlights-of-gamescom-opening-night-live-2026",
+    "description": "GamesIndustry.biz was at Gamescom Opening Night Live on Tuesday night, the eighth instalment of the digital showcase. The hall was packed, without an empty seat in sight, and there were plenty of gaming celebrities in attendance: Xbox head Asha Sharma could be seen near the front, gamely forming an ",
+    "date": "Tue, 25 Aug 2026 19:45:19 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "IGN Entertainment brings Women In Gaming networking event to Gamescom",
-    "link": "https://www.gamesindustry.biz/the-opportunity-cost-of-sonys-live-service-pivot-is-enormous-opinion",
-    "description": "The folly of the live service mania that consumed the games business for much of the past decade is pretty well documented by this point. The idea that every game should be a live service game &ndash; the absolute madness of thinking that every game could be a live service game &ndash; consumed coun",
-    "date": "Fri, 21 Aug 2026 14:00:36 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Why Xbox's console ads could be a good thing for gaming | Opinion",
-    "link": "https://www.gamesindustry.biz/rovers-tale-developer-observer-interactive-parts-ways-with-team17-as-it-moves-to-self-publishing",
-    "description": "Team17 is no longer publishing Observer Interactive's debut title Rover's Tale. Read more",
-    "date": "Fri, 21 Aug 2026 11:00:00 +0000",
+    "title": "Nvidia announces ray-traced Nanite, native anti-cheat, and DLSS 4.5 at Gamescom 2026",
+    "link": "https://www.gamesindustry.biz/schell-games-reportedly-lays-off-staff",
+    "description": "Schell Games, co-developer of Among Us 3D and studio behind the I Expect You to Die series, has reportedly laid off staff. Read more",
+    "date": "Tue, 25 Aug 2026 18:44:44 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
