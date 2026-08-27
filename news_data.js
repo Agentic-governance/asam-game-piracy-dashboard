@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-26 06:59 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-27 17:33 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-26T06:59:54.840591",
+  fetched_at: "2026-08-27T17:33:36.105929",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "copyright",
+      "piracy",
       "pirate",
       "torrent",
-      "dmca",
+      "copyright",
       "rom",
-      "piracy"
+      "dmca"
     ]
   },
   {
@@ -27,9 +27,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "emulator",
+      "crack",
       "dmca",
-      "crack"
+      "emulator"
     ]
   },
   {
@@ -40,9 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "emulator",
       "torrent",
-      "dmca"
+      "dmca",
+      "emulator"
     ]
   },
   {
@@ -54,8 +54,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "dmca",
-      "rom"
+      "rom",
+      "dmca"
     ]
   },
   {
@@ -66,9 +66,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
       "piracy",
-      "arrested"
+      "arrested",
+      "torrent"
     ]
   },
   {
@@ -80,21 +80,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "torrent",
-      "arrested"
-    ]
-  },
-  {
-    "title": "World Cup Piracy Crackdown Shows Limits of Domain Seizures, MPA Pushes Site Blocking",
-    "link": "https://torrentfreak.com/record-labels-offer-to-abandon-46-8-million-piracy-case-against-grande/",
-    "description": "After the Supreme Court's Cox ruling reshaped ISPs piracy liability, the record labels behind a $46.8 million verdict against Grande Communications are ready to walk away from the case entirely. Grande won't let them, however. The Internet provider is holding out for a formal win and the millions in",
-    "date": "Sat, 01 Aug 2026 08:45:30 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "rom",
-      "piracy",
-      "crack"
+      "arrested",
+      "torrent"
     ]
   },
   {
@@ -117,9 +104,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "copyright",
-      "torrent",
       "piracy",
+      "torrent",
+      "copyright",
       "rom"
     ]
   },
@@ -131,8 +118,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -143,8 +130,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -155,8 +142,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -167,8 +154,33 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
+    ]
+  },
+  {
+    "title": "Nigeria Is Building the Next Global Economy: Is Your Intellectual Property Ready for It?",
+    "link": "https://ipwatchdog.com/2026/08/25/wikihow-files-lawsuit-against-openai-over-chatgpts-use-of-its-how-to-library/",
+    "description": "On August 21, wikiHow, Inc. filed a complaint in the U.S. District Court for the Southern District of New York against OpenAI, Inc. and eight affiliated entities, alleging violations of the Copyright Act and the Digital Millennium Copyright Act (DMCA). The lawsuit centers on claims that OpenAI copie",
+    "date": "Tue, 25 Aug 2026 12:15:15 +0000",
+    "source": "IPWatchdog",
+    "relevance_score": 5,
+    "matched_keywords": [
+      "intellectual property",
+      "copyright",
+      "dmca"
+    ]
+  },
+  {
+    "title": "Cineby Starts Staged Shutdown of Its Piracy Empire",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Wed, 26 Aug 2026 15:27:48 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -217,9 +229,53 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Executives from EA and Tencent to speak alongside Netflix, Sony, and Disney at FT Business of Entertainment summit",
+    "title": "European games industry revenue reached €30bn in 2025",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Thu, 27 Aug 2026 13:39:30 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "1047 Games ends active development on Empulse and Splitgate: Arena Reloaded, says it's moving away from live service shooters",
+    "link": "https://www.gamesindustry.biz/xbox-to-focus-on-efficiency-and-affordability-alongside-performance-for-next-gen-console-amid-rising-hardware-costs-and-innovations-in-ai",
+    "description": "Xbox is prioritising \"efficiency and affordability alongside performance\" for its next-generation console in the face of rising hardware costs and innovations in AI. Read more",
+    "date": "Wed, 26 Aug 2026 19:10:37 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "IGDA Incubation SIG to unveil first global census of game incubators and accelerators at Gamescom",
+    "link": "https://www.gamesindustry.biz/1047-games-ends-active-development-on-empulse-and-splitgate-arena-reloaded-says-its-moving-away-from-live-service-shooters",
+    "description": "1047 Games is ending active development on Empulse and Splitgate: Arena Reloaded, moving both titles to peer-to-peer hosting as the studio signals a broader shift away from live service shooters after ten years. Read more",
+    "date": "Wed, 26 Aug 2026 18:11:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Ubisoft announces playstest platform The Player Council",
+    "link": "https://www.gamesindustry.biz/xbox-to-let-insiders-convert-physical-game-discs-into-digital-entitlements-later-this-month",
+    "description": "Xbox will let Xbox Insiders begin testing a disc-to-digital feature from August 31, letting owners of supported physical games unlock a digital entitlement for the same title. Read more",
+    "date": "Wed, 26 Aug 2026 13:30:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Executives from EA and Tencent to speak alongside Netflix, Sony, and Disney at FT Business of Entertainment summit",
+    "link": "https://www.gamesindustry.biz/roblox-applies-restrictions-to-games-featuring-reward-driven-media-feeds-available-in-roblox-kids-and-select",
+    "description": "Roblox has introduced a policy to prevent children from accessing \"reward-driven media feeds\" in games available in Roblox Kids and Select. Read more",
     "date": "Wed, 26 Aug 2026 05:56:36 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -239,69 +295,25 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Maverick Games partners with Focus Entertainment to publish debut racing title Clutch",
-    "link": "https://www.gamesindustry.biz/game-developer-association-of-india-picks-15-studios-for-first-supernova-cohort",
-    "description": "The Game Developer Association of India (GDAI) has announced the first cohort of its Supernova incubation program, selecting 15 studios from more than 260 applicants.\r\n Read more",
-    "date": "Tue, 25 Aug 2026 13:41:50 +0000",
-    "source": "GamesIndustry",
+    "title": "Two Alleged &#8216;TeamPCP&#8217; Hackers Arrested in Australia",
+    "link": "https://krebsonsecurity.com",
+    "description": "In-depth security news and investigation",
+    "date": "Thu, 27 Aug 2026 11:04:15 +0000",
+    "source": "KrebsOnSecurity",
     "relevance_score": 3,
     "matched_keywords": [
-      "rom"
+      "arrested"
     ]
   },
   {
-    "title": "Newzoo: Global games market to generate $213.9bn in 2026, up 6.1% YoY",
-    "link": "https://www.gamesindustry.biz/gamescom-dev-head-says-smaller-studios-represent-the-biggest-opportunity-in-the-games-market",
-    "description": "Frederik Hammes, who took over from Stephan Reichart as managing director of Gamescom Dev this year, says the results of the Gamescom Dev speaker survey show that smaller studios represent the biggest opportunity in the games market right now. Read more",
-    "date": "Tue, 25 Aug 2026 09:14:43 +0000",
-    "source": "GamesIndustry",
+    "title": "Who&#8217;s Tracking You? Use This New Service to Find Out",
+    "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
+    "description": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever.\r\n\r\nIn a statement released today, the Australian Federal Police (AFP) said two unn",
+    "date": "Fri, 14 Aug 2026 11:24:35 +0000",
+    "source": "KrebsOnSecurity",
     "relevance_score": 3,
     "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Godot Engine partner firm W4 Games secures $18m Series B funding, signs deal with Tencent to bolster Asia ecosystem",
-    "link": "https://www.gamesindustry.biz/newzoo-global-games-market-to-generate-2139bn-in-2026-up-61-yoy",
-    "description": "Newzoo projects the global games market will grow 6.1% to $213.9 billion, with over half of consumer spending originating from China and the US. Read more",
-    "date": "Tue, 25 Aug 2026 08:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Double Fine Productions regains ownership of IP and publishing rights following independence from Xbox",
-    "link": "https://www.gamesindustry.biz/data-96-of-studios-now-run-a-direct-to-consumer-web-store-or-plan-to",
-    "description": "Almost all games studios run a direct-to-consumer (D2C) web store or plan to, according to a new survey. Read more",
-    "date": "Mon, 24 Aug 2026 11:05:37 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Take-Two Interactive files subpoenas against Microsoft, Discord, and X amid ongoing GTA 6 leaks",
-    "link": "https://www.gamesindustry.biz/double-fine-productions-regains-ownership-of-ip-and-publishing-rights-following-independence-from-xbox",
-    "description": "Double Fine Productions has regained ownership of its intellectual property and publishing rights after leaving Xbox. Read more",
-    "date": "Mon, 24 Aug 2026 09:53:53 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "intellectual property"
-    ]
-  },
-  {
-    "title": "Compulsion Games officially separates from Xbox – \"The team told me we would rather eat rocks and drink gasoline than be split up\"",
-    "link": "https://www.gamesindustry.biz/ign-entertainment-brings-women-in-gaming-networking-event-to-gamescom",
-    "description": "IGN Entertainment is hosting a Women in Gaming networking breakfast at Gamescom, on the morning of Wednesday 26th August. The event is supported by GamesIndustry.biz, and will take place in the Dorint Hotel am Heumarkt K&ouml;ln from 8.30-10.30. Read more",
-    "date": "Fri, 21 Aug 2026 13:52:33 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
+      "arrested"
     ]
   },
   {
@@ -327,31 +339,19 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "FlavaWorks Targets 75 Members of Gay-Torrents Tracker With RICO Lawsuit",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 25 Aug 2026 06:35:04 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 2,
-    "matched_keywords": [
-      "copyright",
-      "torrent"
-    ]
-  },
-  {
-    "title": "Schell Games reportedly lays off staff",
-    "link": "https://www.gamesindustry.biz/the-highlights-of-gamescom-opening-night-live-2026",
-    "description": "GamesIndustry.biz was at Gamescom Opening Night Live on Tuesday night, the eighth instalment of the digital showcase. The hall was packed, without an empty seat in sight, and there were plenty of gaming celebrities in attendance: Xbox head Asha Sharma could be seen near the front, gamely forming an ",
-    "date": "Tue, 25 Aug 2026 19:45:19 +0000",
+    "title": "Newzoo: 2026 console revenue would be flat year-on-year without Grand Theft Auto 6",
+    "link": "https://www.gamesindustry.biz/european-games-industry-revenue-reached-30bn-in-2025",
+    "description": "The European games industry generated &euro;30 billion in 2025, with digital purchases accounting for 91% of total revenue, according to Video Games Europe (VGE). Read more",
+    "date": "Thu, 27 Aug 2026 12:22:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Nvidia announces ray-traced Nanite, native anti-cheat, and DLSS 4.5 at Gamescom 2026",
-    "link": "https://www.gamesindustry.biz/schell-games-reportedly-lays-off-staff",
-    "description": "Schell Games, co-developer of Among Us 3D and studio behind the I Expect You to Die series, has reportedly laid off staff. Read more",
-    "date": "Tue, 25 Aug 2026 18:44:44 +0000",
+    "title": "\"The things that we based our assumptions on have changed fundamentally\": Arrowhead CEO Shams Jorjani on the games industry's rapid transformation",
+    "link": "https://www.gamesindustry.biz/newzoo-2026-console-revenue-would-be-flat-year-on-year-without-grand-theft-auto-6",
+    "description": "Without the launch of Grand Theft Auto 6 this year, console revenue would be flat compared to 2025. Read more",
+    "date": "Thu, 27 Aug 2026 11:10:08 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
