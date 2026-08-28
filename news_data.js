@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-27 17:33 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-28 18:30 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-27T17:33:36.105929",
+  fetched_at: "2026-08-28T18:30:38.334534",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "piracy",
+      "dmca",
       "pirate",
+      "piracy",
       "torrent",
       "copyright",
-      "rom",
-      "dmca"
+      "rom"
     ]
   },
   {
@@ -28,8 +28,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "crack",
-      "dmca",
-      "emulator"
+      "emulator",
+      "dmca"
     ]
   },
   {
@@ -40,9 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
+      "emulator",
       "dmca",
-      "emulator"
+      "torrent"
     ]
   },
   {
@@ -53,9 +53,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "rom",
-      "dmca"
+      "dmca",
+      "pirate"
     ]
   },
   {
@@ -79,9 +79,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "arrested",
-      "torrent"
+      "torrent",
+      "pirate"
+    ]
+  },
+  {
+    "title": "Cineby Starts Staged Shutdown of Its Piracy Empire",
+    "link": "https://torrentfreak.com/belgian-orders-demand-pirate-site-operators-bank-details-crypto-wallets-and-server-logs/",
+    "description": "Over the past two years, Belgium's anti-piracy blocklist has grown past 1,500 domains. This week the government's anti-piracy department expanded its effort, ordering domain registrars and a registry to hand over names, bank accounts, crypto wallets and connection logs linked to pirate site operator",
+    "date": "Wed, 26 Aug 2026 15:27:48 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -92,8 +104,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "crack"
+      "crack",
+      "pirate"
     ]
   },
   {
@@ -104,10 +116,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
+      "rom",
       "piracy",
-      "torrent",
       "copyright",
-      "rom"
+      "torrent"
     ]
   },
   {
@@ -166,33 +178,21 @@ const ARIA_NEWS = {
     "source": "IPWatchdog",
     "relevance_score": 5,
     "matched_keywords": [
-      "intellectual property",
       "copyright",
-      "dmca"
+      "dmca",
+      "intellectual property"
     ]
   },
   {
-    "title": "Cineby Starts Staged Shutdown of Its Piracy Empire",
+    "title": "Belgian Orders Demand Pirate Site Operators&#8217; Bank Details, Crypto Wallets and Server Logs",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Wed, 26 Aug 2026 15:27:48 +0000",
+    "date": "Fri, 28 Aug 2026 10:21:53 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
-    ]
-  },
-  {
-    "title": "Record Labels Offer to Abandon $46.8 Million Piracy Case Against Grande",
-    "link": "https://torrentfreak.com/european-space-agency-website-exploited-to-advertise-shady-iptv-services/",
-    "description": "The European Space Agency's Cosmos portal is dedicated to space exploration. While the organization scans stars and galaxies far away, its own infrastructure is quietly hosting hundreds of PDFs promoting shady IPTV services, ranking them in Google right beside official Gaia mission updates. The SEO ",
-    "date": "Mon, 03 Aug 2026 09:39:30 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "piracy",
-      "rom"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -229,9 +229,20 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "European games industry revenue reached €30bn in 2025",
+    "title": "GTA 6 will have a halo effect for the entire industry | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Fri, 28 Aug 2026 14:27:12 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "European games industry revenue reached €30bn in 2025",
+    "link": "https://www.gamesindustry.biz/playdate-maker-panic-refunds-tariff-surcharges-to-customers",
+    "description": "Playdate maker Panic is refunding tariff surcharges to customers after receiving its own refund from the US government after the Supreme Court ruled that President Trump's tariffs were an unlawful use of emergency powers. Read more",
     "date": "Thu, 27 Aug 2026 13:39:30 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -266,28 +277,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/xbox-to-let-insiders-convert-physical-game-discs-into-digital-entitlements-later-this-month",
     "description": "Xbox will let Xbox Insiders begin testing a disc-to-digital feature from August 31, letting owners of supported physical games unlock a digital entitlement for the same title. Read more",
     "date": "Wed, 26 Aug 2026 13:30:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Executives from EA and Tencent to speak alongside Netflix, Sony, and Disney at FT Business of Entertainment summit",
-    "link": "https://www.gamesindustry.biz/roblox-applies-restrictions-to-games-featuring-reward-driven-media-feeds-available-in-roblox-kids-and-select",
-    "description": "Roblox has introduced a policy to prevent children from accessing \"reward-driven media feeds\" in games available in Roblox Kids and Select. Read more",
-    "date": "Wed, 26 Aug 2026 05:56:36 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "The highlights of Gamescom Opening Night Live 2026",
-    "link": "https://www.gamesindustry.biz/executives-from-ea-and-tencent-to-speak-alongside-netflix-sony-and-disney-at-ft-business-of-entertainment-summit",
-    "description": "The Financial Times has unveiled the C-suite line-up for its upcoming Business of Entertainment Summit in LA in September, with games industry speakers from EA and Tencent Games joining a roster which includes executives from linear media firms including Netflix, Sony Pictures, NBCUniversal and UFC/",
-    "date": "Tue, 25 Aug 2026 23:23:11 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -339,19 +328,28 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Newzoo: 2026 console revenue would be flat year-on-year without Grand Theft Auto 6",
-    "link": "https://www.gamesindustry.biz/european-games-industry-revenue-reached-30bn-in-2025",
-    "description": "The European games industry generated &euro;30 billion in 2025, with digital purchases accounting for 91% of total revenue, according to Video Games Europe (VGE). Read more",
-    "date": "Thu, 27 Aug 2026 12:22:00 +0000",
+    "title": "Limbic Entertainment on life after Bandai Namco",
+    "link": "https://www.gamesindustry.biz/gta-6-will-have-a-halo-effect-for-the-entire-industry-opinion",
+    "description": "When the hype engine for GTA 6 roared into top gear this week, there was a quietly touching aspect amid the excitement that will stay with me for a while. As the  27 minute long extended look at the game racked up millions of views on YouTube, a theme emerged in the comments. Many of the most upvote",
+    "date": "Fri, 28 Aug 2026 12:05:08 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "\"The things that we based our assumptions on have changed fundamentally\": Arrowhead CEO Shams Jorjani on the games industry's rapid transformation",
-    "link": "https://www.gamesindustry.biz/newzoo-2026-console-revenue-would-be-flat-year-on-year-without-grand-theft-auto-6",
-    "description": "Without the launch of Grand Theft Auto 6 this year, console revenue would be flat compared to 2025. Read more",
-    "date": "Thu, 27 Aug 2026 11:10:08 +0000",
+    "title": "Sensor Tower: Netflix US mobile viewership increased 35% during GTA 6 extended preview",
+    "link": "https://www.gamesindustry.biz/rockstar-formed-a-new-la-based-team-to-develop-more-realistic-npcs-for-grand-theft-auto-6",
+    "description": "Rockstar Games established a new team focused on developing more realistic NPCs for Grand Theft Auto 6. Read more",
+    "date": "Fri, 28 Aug 2026 08:09:05 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Playdate maker Panic refunds tariff surcharges to customers",
+    "link": "https://www.gamesindustry.biz/grand-theft-auto-6-30-minute-teaser-debuts-on-netflix",
+    "description": "Take-Two Interactive and Rockstar Games' Grand Theft Auto 6 extended gameplay debut is now live on Netflix. Read more",
+    "date": "Thu, 27 Aug 2026 18:26:08 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
