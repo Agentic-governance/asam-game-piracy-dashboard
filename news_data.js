@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-28 18:30 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-29 12:36 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-28T18:30:38.334534",
+  fetched_at: "2026-08-29T12:36:05.811685",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "rom",
+      "copyright",
       "dmca",
-      "pirate",
       "piracy",
       "torrent",
-      "copyright",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -27,9 +27,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "crack",
       "emulator",
-      "dmca"
+      "dmca",
+      "crack"
     ]
   },
   {
@@ -40,9 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "torrent",
       "emulator",
-      "dmca",
-      "torrent"
+      "dmca"
     ]
   },
   {
@@ -54,8 +54,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "rom",
-      "dmca",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -66,9 +66,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "arrested",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -92,8 +92,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -104,8 +104,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "pirate"
+      "pirate",
+      "crack"
     ]
   },
   {
@@ -117,9 +117,9 @@ const ARIA_NEWS = {
     "relevance_score": 6,
     "matched_keywords": [
       "rom",
-      "piracy",
       "copyright",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -130,8 +130,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -142,8 +142,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -154,8 +154,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -166,8 +166,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -178,9 +178,9 @@ const ARIA_NEWS = {
     "source": "IPWatchdog",
     "relevance_score": 5,
     "matched_keywords": [
+      "intellectual property",
       "copyright",
-      "dmca",
-      "intellectual property"
+      "dmca"
     ]
   },
   {
