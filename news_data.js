@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-29 12:36 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-30 11:44 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-29T12:36:05.811685",
+  fetched_at: "2026-08-30T11:44:55.931891",
   item_count: 30,
   items: [
   {
@@ -12,11 +12,24 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "rom",
-      "copyright",
       "dmca",
+      "copyright",
+      "pirate",
       "piracy",
-      "torrent",
-      "pirate"
+      "torrent"
+    ]
+  },
+  {
+    "title": "Belgian Orders Demand Pirate Site Operators&#8217; Bank Details, Crypto Wallets and Server Logs",
+    "link": "https://torrentfreak.com/ace-targets-dozens-of-streaming-pirates-through-cloudflare-and-discord-subpoenas/",
+    "description": "Through the Motion Picture Association, anti-piracy coalition ACE has requested two DMCA subpoenas at California federal courts. One covers 49 Cloudflare-fronted domains including Miruro.to and Aniworld.to, while the other targets two Discord servers. How effective the requests will be is hard to sa",
+    "date": "Fri, 28 Aug 2026 10:21:53 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 9,
+    "matched_keywords": [
+      "pirate",
+      "piracy",
+      "dmca"
     ]
   },
   {
@@ -28,8 +41,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "emulator",
-      "dmca",
-      "crack"
+      "crack",
+      "dmca"
     ]
   },
   {
@@ -40,8 +53,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
       "emulator",
+      "torrent",
       "dmca"
     ]
   },
@@ -53,8 +66,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "pirate",
+      "rom",
       "dmca"
     ]
   },
@@ -66,9 +79,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "arrested",
+      "piracy",
       "torrent",
-      "piracy"
+      "arrested"
     ]
   },
   {
@@ -79,9 +92,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "arrested",
+      "pirate",
       "torrent",
-      "pirate"
+      "arrested"
     ]
   },
   {
@@ -117,9 +130,9 @@ const ARIA_NEWS = {
     "relevance_score": 6,
     "matched_keywords": [
       "rom",
-      "copyright",
+      "piracy",
       "torrent",
-      "piracy"
+      "copyright"
     ]
   },
   {
@@ -159,40 +172,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "European Space Agency Website Exploited to Advertise Shady IPTV Services",
-    "link": "https://torrentfreak.com/broadcaster-wins-broad-u-s-blocking-injunction-covering-pirate-sites-that-dont-exist-yet/",
-    "description": "Mexican broadcaster TelevisaUnivision has obtained one of the broadest anti-piracy injunctions ever issued by a U.S. federal court. After initially targeting five pirate IPTV streaming operations, the case expanded to cover well over 500 domain names, requiring intermediaries including Cloudflare, G",
-    "date": "Tue, 04 Aug 2026 06:12:42 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Nigeria Is Building the Next Global Economy: Is Your Intellectual Property Ready for It?",
-    "link": "https://ipwatchdog.com/2026/08/25/wikihow-files-lawsuit-against-openai-over-chatgpts-use-of-its-how-to-library/",
-    "description": "On August 21, wikiHow, Inc. filed a complaint in the U.S. District Court for the Southern District of New York against OpenAI, Inc. and eight affiliated entities, alleging violations of the Copyright Act and the Digital Millennium Copyright Act (DMCA). The lawsuit centers on claims that OpenAI copie",
-    "date": "Tue, 25 Aug 2026 12:15:15 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 5,
-    "matched_keywords": [
-      "intellectual property",
-      "copyright",
-      "dmca"
-    ]
-  },
-  {
-    "title": "Belgian Orders Demand Pirate Site Operators&#8217; Bank Details, Crypto Wallets and Server Logs",
+    "title": "ACE Targets Dozens of Streaming Pirates Through Cloudflare and Discord Subpoenas",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Fri, 28 Aug 2026 10:21:53 +0000",
+    "date": "Sun, 30 Aug 2026 07:29:18 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -350,6 +338,15 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/grand-theft-auto-6-30-minute-teaser-debuts-on-netflix",
     "description": "Take-Two Interactive and Rockstar Games' Grand Theft Auto 6 extended gameplay debut is now live on Netflix. Read more",
     "date": "Thu, 27 Aug 2026 18:26:08 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Newzoo: 2026 console revenue would be flat year-on-year without Grand Theft Auto 6",
+    "link": "https://www.gamesindustry.biz/european-games-industry-revenue-reached-30bn-in-2025",
+    "description": "The European games industry generated &euro;30 billion in 2025, with digital purchases accounting for 91% of total revenue, according to Video Games Europe (VGE). Read more",
+    "date": "Thu, 27 Aug 2026 12:22:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
