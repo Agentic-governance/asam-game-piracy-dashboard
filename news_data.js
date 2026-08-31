@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-30 11:44 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-08-31 13:26 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-30T11:44:55.931891",
+  fetched_at: "2026-08-31T13:26:14.159842",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "rom",
       "dmca",
-      "copyright",
       "pirate",
-      "piracy",
-      "torrent"
+      "torrent",
+      "copyright",
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -27,9 +27,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
+      "dmca",
       "piracy",
-      "dmca"
+      "pirate"
     ]
   },
   {
@@ -40,9 +40,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "dmca",
       "emulator",
-      "crack",
-      "dmca"
+      "crack"
+    ]
+  },
+  {
+    "title": "ACE Targets Dozens of Streaming Pirates Through Cloudflare and Discord Subpoenas",
+    "link": "https://torrentfreak.com/take-two-says-gta-6-leak-probe-is-rapidly-evolving-wants-new-discord-demands-under-seal/",
+    "description": "Take-Two has informed U.S. federal courts that its investigation into the GTA 6 leak is \"rapidly evolving.\" On the heels of its Netflix preview, the gaming company filed a new DMCA subpoena request, asking the court to keep it sealed to prevent tipping off the alleged infringers. Meanwhile, Take-Two",
+    "date": "Sun, 30 Aug 2026 07:29:18 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 8,
+    "matched_keywords": [
+      "dmca",
+      "pirate"
     ]
   },
   {
@@ -53,9 +65,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "dmca",
       "emulator",
-      "torrent",
-      "dmca"
+      "torrent"
     ]
   },
   {
@@ -66,9 +78,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "dmca",
       "rom",
-      "dmca"
+      "pirate"
     ]
   },
   {
@@ -80,21 +92,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "torrent",
-      "arrested"
-    ]
-  },
-  {
-    "title": "Broadcaster Wins Broad U.S. Blocking Injunction Covering Pirate Sites That Don&#8217;t Exist Yet",
-    "link": "https://torrentfreak.com/yggtorrent-teases-a-comeback-in-september-weeks-after-arrests/",
-    "description": "YggTorrent was France's largest torrent site until a hacker gutted it in March. In July, the police arrested twelve suspected operators. That was not the end of it, however. Following a purported takeover, YggTorrent's domains are back online and counting down to a \"grand return\" on September 1 unde",
-    "date": "Wed, 05 Aug 2026 14:02:23 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "pirate",
-      "torrent",
-      "arrested"
+      "arrested",
+      "torrent"
     ]
   },
   {
@@ -105,8 +104,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -117,8 +116,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "crack"
+      "crack",
+      "pirate"
     ]
   },
   {
@@ -131,8 +130,8 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "rom",
       "piracy",
-      "torrent",
-      "copyright"
+      "copyright",
+      "torrent"
     ]
   },
   {
@@ -143,8 +142,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -155,8 +154,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -167,20 +166,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "ACE Targets Dozens of Streaming Pirates Through Cloudflare and Discord Subpoenas",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sun, 30 Aug 2026 07:29:18 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "pirate",
-      "copyright"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -347,6 +334,15 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/european-games-industry-revenue-reached-30bn-in-2025",
     "description": "The European games industry generated &euro;30 billion in 2025, with digital purchases accounting for 91% of total revenue, according to Video Games Europe (VGE). Read more",
     "date": "Thu, 27 Aug 2026 12:22:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"The things that we based our assumptions on have changed fundamentally\": Arrowhead CEO Shams Jorjani on the games industry's rapid transformation",
+    "link": "https://www.gamesindustry.biz/newzoo-2026-console-revenue-would-be-flat-year-on-year-without-grand-theft-auto-6",
+    "description": "Without the launch of Grand Theft Auto 6 this year, console revenue would be flat compared to 2025. Read more",
+    "date": "Thu, 27 Aug 2026 11:10:08 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
