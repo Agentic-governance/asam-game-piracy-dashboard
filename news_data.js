@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-08-31 13:26 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-01 11:30 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-08-31T13:26:14.159842",
+  fetched_at: "2026-09-01T11:30:49.663795",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "dmca",
+      "piracy",
       "pirate",
       "torrent",
       "copyright",
       "rom",
-      "piracy"
+      "dmca"
     ]
   },
   {
@@ -27,9 +27,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "dmca",
       "piracy",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -40,9 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "dmca",
+      "crack",
       "emulator",
-      "crack"
+      "dmca"
     ]
   },
   {
@@ -53,8 +53,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "dmca",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -65,9 +65,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "dmca",
       "emulator",
-      "torrent"
+      "torrent",
+      "dmca"
     ]
   },
   {
@@ -78,22 +78,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "dmca",
+      "pirate",
       "rom",
-      "pirate"
-    ]
-  },
-  {
-    "title": "YggTorrent Teases a Comeback in September, Weeks After Arrests",
-    "link": "https://torrentfreak.com/japanese-police-arrest-nyaa-first-uploader-but-not-by-watching-the-swarm/",
-    "description": "Japanese police have arrested an alleged seeder who's connected to the widely popular anime torrent site NYAA. Anti-piracy group CODA tells TorrentFreak that the tool which helped find the suspect didn't monitor the torrent swarms, but analyzed traffic at the index and tracker level. How that identi",
-    "date": "Thu, 06 Aug 2026 07:50:37 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "piracy",
-      "arrested",
-      "torrent"
+      "dmca"
     ]
   },
   {
@@ -116,8 +103,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "pirate"
+      "pirate",
+      "crack"
     ]
   },
   {
@@ -128,10 +115,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "rom",
       "piracy",
       "copyright",
-      "torrent"
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -171,6 +158,19 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Take-Two Says GTA 6 Leak Probe Is &#8220;Rapidly Evolving,&#8221; Wants New Discord Demands Under Seal",
+    "link": "https://torrentfreak.com/a-cute-little-libgen-babysitter-music-publishers-sue-anthropic-founders-over-torrenting-spree/",
+    "description": "Anthropic's bulk torrenting of pirated books from shadow libraries LibGen and Pirate Library Mirror continues to generate new lawsuits. A group of major publishers, including Sony Music and Warner Chappell, have sued the AI company and its co-founders, alleging that torrenting activity that resulted",
+    "date": "Mon, 31 Aug 2026 08:53:36 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 5,
+    "matched_keywords": [
+      "pirate",
+      "torrent",
+      "rom"
+    ]
+  },
+  {
     "title": "Pirate Streaming Giant Cineby Announces Surprise Shutdown",
     "link": "https://torrentfreak.com/a-german-court-drew-the-piracy-line-at-81-5-kinogo-was-blocked-with-at-least-82-4/",
     "description": "Germany doesn't have a hard benchmark for when a site is structurally infringing. However, the site-blocking clearinghouse CUII stated that illegal content clearly outweighs legal content when at least 81.5 percent of a site is infringing. After KinoGO was recently blocked with a floor of 82.4 perce",
@@ -204,10 +204,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "GTA 6 will have a halo effect for the entire industry | Opinion",
+    "title": "Gamescom 2026 attendance rose 6% to 368,000 visitors",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 28 Aug 2026 14:27:12 +0000",
+    "date": "Tue, 01 Sep 2026 10:32:51 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Rovio closes Copenhagen studio following shut down of Sonic Blitz",
+    "link": "https://www.gamesindustry.biz/gamescom-2026-attendance-rose-6-to-368000-visitors",
+    "description": "Gamescom 2026 attracted 368,000 visitors from 131 countries, a 6% increase over the previous year. Read more",
+    "date": "Tue, 01 Sep 2026 08:47:50 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -241,17 +252,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/1047-games-ends-active-development-on-empulse-and-splitgate-arena-reloaded-says-its-moving-away-from-live-service-shooters",
     "description": "1047 Games is ending active development on Empulse and Splitgate: Arena Reloaded, moving both titles to peer-to-peer hosting as the studio signals a broader shift away from live service shooters after ten years. Read more",
     "date": "Wed, 26 Aug 2026 18:11:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Ubisoft announces playstest platform The Player Council",
-    "link": "https://www.gamesindustry.biz/xbox-to-let-insiders-convert-physical-game-discs-into-digital-entitlements-later-this-month",
-    "description": "Xbox will let Xbox Insiders begin testing a disc-to-digital feature from August 31, letting owners of supported physical games unlock a digital entitlement for the same title. Read more",
-    "date": "Wed, 26 Aug 2026 13:30:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -303,6 +303,27 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "&#8220;A Cute Little LibGen Babysitter&#8221;: Music Publishers Sue Anthropic Founders Over Torrenting Spree",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Tue, 01 Sep 2026 10:10:07 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 2,
+    "matched_keywords": [
+      "copyright",
+      "torrent"
+    ]
+  },
+  {
+    "title": "GTA 6 will have a halo effect for the entire industry | Opinion",
+    "link": "https://www.gamesindustry.biz/bit-reactor-furloughed-many-of-its-workers-in-the-weeks-before-star-wars-zero-companys-launch",
+    "description": "Star Wars Zero Company developer Bit Reactor furloughed \"many of its workers\" prior to the game's release. Read more",
+    "date": "Fri, 28 Aug 2026 14:27:12 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Limbic Entertainment on life after Bandai Namco",
     "link": "https://www.gamesindustry.biz/gta-6-will-have-a-halo-effect-for-the-entire-industry-opinion",
     "description": "When the hype engine for GTA 6 roared into top gear this week, there was a quietly touching aspect amid the excitement that will stay with me for a while. As the  27 minute long extended look at the game racked up millions of views on YouTube, a theme emerged in the comments. Many of the most upvote",
@@ -325,24 +346,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/grand-theft-auto-6-30-minute-teaser-debuts-on-netflix",
     "description": "Take-Two Interactive and Rockstar Games' Grand Theft Auto 6 extended gameplay debut is now live on Netflix. Read more",
     "date": "Thu, 27 Aug 2026 18:26:08 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Newzoo: 2026 console revenue would be flat year-on-year without Grand Theft Auto 6",
-    "link": "https://www.gamesindustry.biz/european-games-industry-revenue-reached-30bn-in-2025",
-    "description": "The European games industry generated &euro;30 billion in 2025, with digital purchases accounting for 91% of total revenue, according to Video Games Europe (VGE). Read more",
-    "date": "Thu, 27 Aug 2026 12:22:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"The things that we based our assumptions on have changed fundamentally\": Arrowhead CEO Shams Jorjani on the games industry's rapid transformation",
-    "link": "https://www.gamesindustry.biz/newzoo-2026-console-revenue-would-be-flat-year-on-year-without-grand-theft-auto-6",
-    "description": "Without the launch of Grand Theft Auto 6 this year, console revenue would be flat compared to 2025. Read more",
-    "date": "Thu, 27 Aug 2026 11:10:08 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
