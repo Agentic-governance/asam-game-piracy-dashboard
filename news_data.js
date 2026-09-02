@@ -1,22 +1,21 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-01 11:30 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-02 11:06 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-01T11:30:49.663795",
+  fetched_at: "2026-09-02T11:06:03.782980",
   item_count: 30,
   items: [
   {
-    "title": "Take-Two Expands GTA 6 Leak Hunt With DMCA Subpoenas to X and YouTube",
+    "title": "ACE Targets Dozens of Streaming Pirates Through Cloudflare and Discord Subpoenas",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Mutiny' tops the chart, followed by 'Spider-Man: Brand New Day.' 'The Odyssey' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sun, 23 Aug 2026 14:54:56 +0000",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Spider-Man: Brand New Day' tops the chart, followed by 'Mutiny.' 'The Odyssey' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sun, 30 Aug 2026 07:29:18 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 12,
+    "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
-      "pirate",
-      "torrent",
-      "copyright",
       "rom",
-      "dmca"
+      "torrent",
+      "piracy",
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -27,8 +26,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "pirate",
+      "piracy",
       "dmca"
     ]
   },
@@ -46,10 +45,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "ACE Targets Dozens of Streaming Pirates Through Cloudflare and Discord Subpoenas",
+    "title": "Top 10 Most Pirated Movies of The Week – 08/31/2026",
     "link": "https://torrentfreak.com/take-two-says-gta-6-leak-probe-is-rapidly-evolving-wants-new-discord-demands-under-seal/",
     "description": "Take-Two has informed U.S. federal courts that its investigation into the GTA 6 leak is \"rapidly evolving.\" On the heels of its Netflix preview, the gaming company filed a new DMCA subpoena request, asking the court to keep it sealed to prevent tipping off the alleged infringers. Meanwhile, Take-Two",
-    "date": "Sun, 30 Aug 2026 07:29:18 +0000",
+    "date": "Sun, 30 Aug 2026 23:09:40 +0000",
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
@@ -66,8 +65,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "emulator",
-      "torrent",
-      "dmca"
+      "dmca",
+      "torrent"
     ]
   },
   {
@@ -91,20 +90,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 08/24/2026",
+    "title": "Take-Two Expands GTA 6 Leak Hunt With DMCA Subpoenas to X and YouTube",
     "link": "https://torrentfreak.com/annas-archive-owes-340-million-lost-several-domains-but-its-still-online/",
     "description": "When Anna's Archive suffered widespread downtime earlier this month, many users feared a legal crackdown. Instead, the site was reportedly targeted by a coordinated assault on its network infrastructure. Just as it did after facing $340 million in damages and losing several domains earlier this year",
-    "date": "Sun, 23 Aug 2026 23:09:40 +0000",
+    "date": "Sun, 23 Aug 2026 14:54:56 +0000",
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "crack"
+      "crack",
+      "dmca"
     ]
   },
   {
@@ -115,10 +114,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
       "copyright",
-      "torrent",
-      "rom"
+      "piracy",
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -129,8 +128,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -141,8 +140,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -153,8 +152,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -166,8 +165,32 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "pirate",
-      "torrent",
-      "rom"
+      "rom",
+      "torrent"
+    ]
+  },
+  {
+    "title": "The Video Game AI Conundrum: Can Lawmakers Regulate AI Without Stifling Innovation? &#124; IPWatchdog Unleashed",
+    "link": "https://ipwatchdog.com/",
+    "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
+    "date": "Tue, 01 Sep 2026 19:15:10 +0000",
+    "source": "IPWatchdog",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
+      "intellectual property"
+    ]
+  },
+  {
+    "title": "Two Alleged &#8216;TeamPCP&#8217; Hackers Arrested in Australia",
+    "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+    "description": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning i",
+    "date": "Thu, 27 Aug 2026 11:04:15 +0000",
+    "source": "KrebsOnSecurity",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "rom",
+      "arrested"
     ]
   },
   {
@@ -204,10 +227,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Gamescom 2026 attendance rose 6% to 368,000 visitors",
+    "title": "Moon Studios delays No Rest for the Wicked to March 2027 – \"We're holding our games to a standard we won't compromise on\"",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 01 Sep 2026 10:32:51 +0000",
+    "date": "Wed, 02 Sep 2026 10:44:18 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -237,36 +260,14 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "1047 Games ends active development on Empulse and Splitgate: Arena Reloaded, says it's moving away from live service shooters",
-    "link": "https://www.gamesindustry.biz/xbox-to-focus-on-efficiency-and-affordability-alongside-performance-for-next-gen-console-amid-rising-hardware-costs-and-innovations-in-ai",
-    "description": "Xbox is prioritising \"efficiency and affordability alongside performance\" for its next-generation console in the face of rising hardware costs and innovations in AI. Read more",
-    "date": "Wed, 26 Aug 2026 19:10:37 +0000",
-    "source": "GamesIndustry",
+    "title": "Cancer Drug Patent Claims Upheld by CAFC",
+    "link": "https://ipwatchdog.com/2026/09/01/video-game-ai-conundrum/",
+    "description": "This week on IPWatchdog Unleashed, I spoke with Bijou Mgbojikwe, who serves as Senior Policy Counsel for the Entertainment Software Association. Our conversation examined the rapidly expanding intersection of artificial intelligence, intellectual property, and video game policy. The central challeng",
+    "date": "Tue, 01 Sep 2026 16:15:15 +0000",
+    "source": "IPWatchdog",
     "relevance_score": 3,
     "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "IGDA Incubation SIG to unveil first global census of game incubators and accelerators at Gamescom",
-    "link": "https://www.gamesindustry.biz/1047-games-ends-active-development-on-empulse-and-splitgate-arena-reloaded-says-its-moving-away-from-live-service-shooters",
-    "description": "1047 Games is ending active development on Empulse and Splitgate: Arena Reloaded, moving both titles to peer-to-peer hosting as the studio signals a broader shift away from live service shooters after ten years. Read more",
-    "date": "Wed, 26 Aug 2026 18:11:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Two Alleged &#8216;TeamPCP&#8217; Hackers Arrested in Australia",
-    "link": "https://krebsonsecurity.com",
-    "description": "In-depth security news and investigation",
-    "date": "Thu, 27 Aug 2026 11:04:15 +0000",
-    "source": "KrebsOnSecurity",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "arrested"
+      "intellectual property"
     ]
   },
   {
@@ -292,17 +293,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-    "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
-    "description": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform t",
-    "date": "Thu, 02 Jul 2026 19:27:33 +0000",
-    "source": "KrebsOnSecurity",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "piracy"
-    ]
-  },
-  {
     "title": "&#8220;A Cute Little LibGen Babysitter&#8221;: Music Publishers Sue Anthropic Founders Over Torrenting Spree",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
@@ -315,37 +305,46 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "GTA 6 will have a halo effect for the entire industry | Opinion",
-    "link": "https://www.gamesindustry.biz/bit-reactor-furloughed-many-of-its-workers-in-the-weeks-before-star-wars-zero-companys-launch",
-    "description": "Star Wars Zero Company developer Bit Reactor furloughed \"many of its workers\" prior to the game's release. Read more",
-    "date": "Fri, 28 Aug 2026 14:27:12 +0000",
+    "title": "Over 700 games launched on Steam in one week for the first time, though 74% had fewer than 10 reviews",
+    "link": "https://www.gamesindustry.biz/moon-studios-delays-no-rest-for-the-wicked-to-march-2027-were-holding-our-games-to-a-standard-we-wont-compromise-on",
+    "description": "Ori and the Will of the Wisps developer Moon Studios has postponed the full release of its next title, No Rest for the Wicked, to March 2027. Read more",
+    "date": "Wed, 02 Sep 2026 09:55:59 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Limbic Entertainment on life after Bandai Namco",
-    "link": "https://www.gamesindustry.biz/gta-6-will-have-a-halo-effect-for-the-entire-industry-opinion",
-    "description": "When the hype engine for GTA 6 roared into top gear this week, there was a quietly touching aspect amid the excitement that will stay with me for a while. As the  27 minute long extended look at the game racked up millions of views on YouTube, a theme emerged in the comments. Many of the most upvote",
-    "date": "Fri, 28 Aug 2026 12:05:08 +0000",
+    "title": "Supercell's acquisition of Metacore expected to close at the end of September 2026",
+    "link": "https://www.gamesindustry.biz/over-700-games-launched-on-steam-in-one-week-for-the-first-time-though-74-had-fewer-than-10-reviews",
+    "description": "For the first time, more than 700 games were released on Steam in a single week; however, 74% received fewer than 10 reviews. Read more",
+    "date": "Wed, 02 Sep 2026 08:37:20 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Sensor Tower: Netflix US mobile viewership increased 35% during GTA 6 extended preview",
-    "link": "https://www.gamesindustry.biz/rockstar-formed-a-new-la-based-team-to-develop-more-realistic-npcs-for-grand-theft-auto-6",
-    "description": "Rockstar Games established a new team focused on developing more realistic NPCs for Grand Theft Auto 6. Read more",
-    "date": "Fri, 28 Aug 2026 08:09:05 +0000",
+    "title": "IO Interactive CEO Hakan Abrak to discuss development of 007 First Light at Game Republic New Horizons 2026",
+    "link": "https://www.gamesindustry.biz/gta-6-extended-look-reaches-311m-views-on-netflix-in-four-days-making-it-the-most-viewed-title-last-week",
+    "description": "The extended look of Grand Theft Auto 6  was the most-viewed title on Netflix last week, reaching 31.1 million views in four days. Read more",
+    "date": "Wed, 02 Sep 2026 07:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Playdate maker Panic refunds tariff surcharges to customers",
-    "link": "https://www.gamesindustry.biz/grand-theft-auto-6-30-minute-teaser-debuts-on-netflix",
-    "description": "Take-Two Interactive and Rockstar Games' Grand Theft Auto 6 extended gameplay debut is now live on Netflix. Read more",
-    "date": "Thu, 27 Aug 2026 18:26:08 +0000",
+    "title": "The Big Picture: What you need to know about the ongoing games industry reset",
+    "link": "https://www.gamesindustry.biz/io-interactive-ceo-hakan-abrak-to-discuss-development-of-007-first-light-at-game-republic-new-horizons-2026",
+    "description": "IO Interactive CEO Hakan Abrak will host a 007 First Light session at Game Republic New Horizons. Read more",
+    "date": "Tue, 01 Sep 2026 16:19:14 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Brian Ward steps down as Savvy Games Group CEO",
+    "link": "https://www.gamesindustry.biz/the-big-picture-what-you-need-to-know-about-the-ongoing-games-industry-reset",
+    "description": "The games industry is undergoing a reset. That was the message of Gamescom Dev's opening keynote, delivered by Amir Satvat, who until a few days ago was business development manager at Tencent, but is now general partner at 1Up Ventures. Read more",
+    "date": "Tue, 01 Sep 2026 14:38:11 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
