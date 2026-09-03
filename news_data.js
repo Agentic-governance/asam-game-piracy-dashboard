@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-02 11:06 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-03 11:02 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-02T11:06:03.782980",
+  fetched_at: "2026-09-03T11:02:59.863524",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
       "torrent",
       "piracy",
+      "pirate",
       "copyright",
-      "pirate"
+      "rom"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "piracy",
-      "dmca"
+      "dmca",
+      "pirate"
     ]
   },
   {
@@ -39,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "dmca",
       "crack",
-      "emulator",
-      "dmca"
+      "emulator"
     ]
   },
   {
@@ -52,8 +52,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
-      "dmca"
+      "dmca",
+      "pirate"
     ]
   },
   {
@@ -64,9 +64,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "emulator",
+      "torrent",
       "dmca",
-      "torrent"
+      "emulator"
     ]
   },
   {
@@ -77,9 +77,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "dmca",
       "rom",
-      "dmca"
+      "pirate"
     ]
   },
   {
@@ -90,8 +90,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -102,8 +102,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "dmca"
+      "dmca",
+      "crack"
     ]
   },
   {
@@ -114,10 +114,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "copyright",
+      "torrent",
       "piracy",
-      "rom",
-      "torrent"
+      "copyright",
+      "rom"
     ]
   },
   {
@@ -128,8 +128,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -140,8 +140,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -152,8 +152,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -164,21 +164,33 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
+      "torrent",
       "rom",
-      "torrent"
+      "pirate"
     ]
   },
   {
-    "title": "The Video Game AI Conundrum: Can Lawmakers Regulate AI Without Stifling Innovation? &#124; IPWatchdog Unleashed",
-    "link": "https://ipwatchdog.com/",
-    "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
-    "date": "Tue, 01 Sep 2026 19:15:10 +0000",
-    "source": "IPWatchdog",
+    "title": "RCN Urges Judge to Toss the Major Labels&#8217; &#8216;Last&#8217; Piracy Liability Lawsuit",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Wed, 02 Sep 2026 13:54:46 +0000",
+    "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "intellectual property"
+      "piracy",
+      "copyright"
+    ]
+  },
+  {
+    "title": "&#8220;A Cute Little LibGen Babysitter&#8221;: Music Publishers Sue Anthropic Founders Over Torrenting Spree",
+    "link": "https://torrentfreak.com/rcn-urges-judge-to-toss-the-major-labels-last-piracy-liability-lawsuit/",
+    "description": "Internet service provider RCN has asked a New Jersey federal court to reconsider a six-year-old ruling and dismiss the major record labels' piracy liability lawsuit. RCN argues that the Supreme Court's decision in Cox v. Sony wiped out the legal basis for the claims. With \"repeat infringer\" cases ag",
+    "date": "Tue, 01 Sep 2026 10:10:07 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -189,8 +201,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
     ]
   },
   {
@@ -216,20 +228,20 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Japanese Police Arrest NYAA &#8216;First Uploader,&#8217; But Not by Watching the Swarm",
-    "link": "https://torrentfreak.com/eu-study-block-live-sports-piracy-in-30-minutes-across-dns-resolvers-vpns-and-cdns/",
-    "description": "Three years ago the European Commission rejected calls for binding anti-piracy legislation, issuing a 'recommendation' instead. A new study commissioned by the European Parliament concludes that this soft approach has fallen short. It calls for a binding EU Regulation built around the 30-minute bloc",
-    "date": "Sat, 08 Aug 2026 07:41:08 +0000",
-    "source": "TorrentFreak",
+    "title": "Peak studio Aggro Crab establishes publishing label for \"intense, stylised games with an attitude\"",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Thu, 03 Sep 2026 09:29:08 +0000",
+    "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
-      "piracy"
+      "rom"
     ]
   },
   {
     "title": "Moon Studios delays No Rest for the Wicked to March 2027 – \"We're holding our games to a standard we won't compromise on\"",
-    "link": "https://www.gamesindustry.biz/feed",
-    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "link": "https://www.gamesindustry.biz/sometimes-you-need-fresh-perspectives-how-external-development-helped-tomb-raider-legacy-of-atlantis",
+    "description": "A hands-off demonstration of Tomb Raider: Legacy of Atlantis at Gamescom last week showed that the game is far from a simple remaster of the 1996 original; it's a complete reworking of Lara Croft's first adventure. Read more",
     "date": "Wed, 02 Sep 2026 10:44:18 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -242,17 +254,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/gamescom-2026-attendance-rose-6-to-368000-visitors",
     "description": "Gamescom 2026 attracted 368,000 visitors from 131 countries, a 6% increase over the previous year. Read more",
     "date": "Tue, 01 Sep 2026 08:47:50 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "European games industry revenue reached €30bn in 2025",
-    "link": "https://www.gamesindustry.biz/playdate-maker-panic-refunds-tariff-surcharges-to-customers",
-    "description": "Playdate maker Panic is refunding tariff surcharges to customers after receiving its own refund from the US government after the Supreme Court ruled that President Trump's tariffs were an unlawful use of emergency powers. Read more",
-    "date": "Thu, 27 Aug 2026 13:39:30 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -293,16 +294,40 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "&#8220;A Cute Little LibGen Babysitter&#8221;: Music Publishers Sue Anthropic Founders Over Torrenting Spree",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 01 Sep 2026 10:10:07 +0000",
-    "source": "TorrentFreak",
+    "title": "Planet Coaster studio Frontier Developments announces new title based on Disney IP",
+    "link": "https://www.gamesindustry.biz/peak-studio-aggro-crab-establishes-publishing-label-for-intense-stylised-games-with-an-attitude",
+    "description": "Aggro Crab, known for Peak and Another Crab's Treasure, has launched a publishing label to support \"intense, stylised games with an attitude.\" Read more",
+    "date": "Thu, 03 Sep 2026 08:04:49 +0000",
+    "source": "GamesIndustry",
     "relevance_score": 2,
-    "matched_keywords": [
-      "copyright",
-      "torrent"
-    ]
+    "matched_keywords": []
+  },
+  {
+    "title": "CD Projekt Red sees profit climb 37% in H1 2026",
+    "link": "https://www.gamesindustry.biz/this-is-the-worst-crash-weve-seen-since-the-1980s-says-tim-sweeney",
+    "description": "Epic Games CEO Tim Sweeney says the industry is going through its biggest crash since the 1980s in the latest issue of Edge magazine. Read more",
+    "date": "Wed, 02 Sep 2026 19:44:30 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Nexus Mods acquires SteamDB",
+    "link": "https://www.gamesindustry.biz/cd-projekt-red-sees-profit-climb-37-in-h1-2026",
+    "description": "CD Projekt Red generated $116.5 million (435 million PLN) in revenue during the first half of 2026, up 23% year-over-year. Read more",
+    "date": "Wed, 02 Sep 2026 19:14:24 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Square Enix denies going private after report sends stock surging",
+    "link": "https://www.gamesindustry.biz/nexus-mods-acquires-steamdb",
+    "description": "Nexus Mods has acquired SteamDB, the widely used Steam data-tracking site. Read more",
+    "date": "Wed, 02 Sep 2026 16:02:35 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Over 700 games launched on Steam in one week for the first time, though 74% had fewer than 10 reviews",
@@ -318,33 +343,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/over-700-games-launched-on-steam-in-one-week-for-the-first-time-though-74-had-fewer-than-10-reviews",
     "description": "For the first time, more than 700 games were released on Steam in a single week; however, 74% received fewer than 10 reviews. Read more",
     "date": "Wed, 02 Sep 2026 08:37:20 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "IO Interactive CEO Hakan Abrak to discuss development of 007 First Light at Game Republic New Horizons 2026",
-    "link": "https://www.gamesindustry.biz/gta-6-extended-look-reaches-311m-views-on-netflix-in-four-days-making-it-the-most-viewed-title-last-week",
-    "description": "The extended look of Grand Theft Auto 6  was the most-viewed title on Netflix last week, reaching 31.1 million views in four days. Read more",
-    "date": "Wed, 02 Sep 2026 07:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "The Big Picture: What you need to know about the ongoing games industry reset",
-    "link": "https://www.gamesindustry.biz/io-interactive-ceo-hakan-abrak-to-discuss-development-of-007-first-light-at-game-republic-new-horizons-2026",
-    "description": "IO Interactive CEO Hakan Abrak will host a 007 First Light session at Game Republic New Horizons. Read more",
-    "date": "Tue, 01 Sep 2026 16:19:14 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Brian Ward steps down as Savvy Games Group CEO",
-    "link": "https://www.gamesindustry.biz/the-big-picture-what-you-need-to-know-about-the-ongoing-games-industry-reset",
-    "description": "The games industry is undergoing a reset. That was the message of Gamescom Dev's opening keynote, delivered by Amir Satvat, who until a few days ago was business development manager at Tencent, but is now general partner at 1Up Ventures. Read more",
-    "date": "Tue, 01 Sep 2026 14:38:11 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
