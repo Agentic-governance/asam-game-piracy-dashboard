@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-03 11:02 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-04 11:04 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-03T11:02:59.863524",
+  fetched_at: "2026-09-04T11:04:14.404741",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
-      "piracy",
-      "pirate",
       "copyright",
-      "rom"
+      "torrent",
+      "rom",
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -39,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "emulator",
       "dmca",
-      "crack",
-      "emulator"
+      "crack"
     ]
   },
   {
@@ -64,9 +64,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
+      "emulator",
       "dmca",
-      "emulator"
+      "torrent"
     ]
   },
   {
@@ -78,8 +78,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "dmca",
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -114,9 +114,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "torrent",
       "piracy",
       "copyright",
+      "torrent",
       "rom"
     ]
   },
@@ -157,6 +157,19 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Adult Film Producer Unmasks Prolific &#8216;John Doe&#8217; Torrent Pirate as Meta Executive",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Fri, 04 Sep 2026 09:27:03 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 5,
+    "matched_keywords": [
+      "torrent",
+      "copyright",
+      "pirate"
+    ]
+  },
+  {
     "title": "Take-Two Says GTA 6 Leak Probe Is &#8220;Rapidly Evolving,&#8221; Wants New Discord Demands Under Seal",
     "link": "https://torrentfreak.com/a-cute-little-libgen-babysitter-music-publishers-sue-anthropic-founders-over-torrenting-spree/",
     "description": "Anthropic's bulk torrenting of pirated books from shadow libraries LibGen and Pirate Library Mirror continues to generate new lawsuits. A group of major publishers, including Sony Music and Warner Chappell, have sued the AI company and its co-founders, alleging that torrenting activity that resulted",
@@ -165,20 +178,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "torrent",
-      "rom",
-      "pirate"
-    ]
-  },
-  {
-    "title": "RCN Urges Judge to Toss the Major Labels&#8217; &#8216;Last&#8217; Piracy Liability Lawsuit",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Wed, 02 Sep 2026 13:54:46 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "piracy",
-      "copyright"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -206,6 +207,17 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "RCN Urges Judge to Toss the Major Labels&#8217; &#8216;Last&#8217; Piracy Liability Lawsuit",
+    "link": "https://torrentfreak.com/adult-film-producer-unmasks-prolific-john-doe-torrent-pirate-as-meta-executive/",
+    "description": "A routine John Doe lawsuit could become part of Strike 3 Holdings' $446 million AI training case against Meta. The adult film producer wants to link the two lawsuits, arguing that a Reality Labs executive downloaded nearly 20,000 files at his home for work purposes, not for personal use. Meta counte",
+    "date": "Wed, 02 Sep 2026 13:54:46 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "piracy"
+    ]
+  },
+  {
     "title": "Pirate Streaming Giant Cineby Announces Surprise Shutdown",
     "link": "https://torrentfreak.com/a-german-court-drew-the-piracy-line-at-81-5-kinogo-was-blocked-with-at-least-82-4/",
     "description": "Germany doesn't have a hard benchmark for when a site is structurally infringing. However, the site-blocking clearinghouse CUII stated that illegal content clearly outweighs legal content when at least 81.5 percent of a site is infringing. After KinoGO was recently blocked with a floor of 82.4 perce",
@@ -217,21 +229,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "EU Study: Block Live Sports Piracy in 30 Minutes, Across DNS Resolvers, VPNs and CDNs",
-    "link": "https://torrentfreak.com/paris-court-kicks-off-new-football-season-with-multi-intermediary-piracy-blocking-orders/",
-    "description": "Europe's football seasons kick off again this month, with the Champions League to follow in September. In preparation, Canal+ has secured fourteen site-blocking orders spanning ISPs, DNS resolvers, VPNs, and search engines. It's a broad, coordinated effort — and one of the last that France will run ",
-    "date": "Mon, 10 Aug 2026 08:33:38 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "piracy"
-    ]
-  },
-  {
-    "title": "Peak studio Aggro Crab establishes publishing label for \"intense, stylised games with an attitude\"",
+    "title": "GTA 6 Netflix preview causes PlayStation and Xbox hardware sales to jump in the UK",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 03 Sep 2026 09:29:08 +0000",
+    "date": "Fri, 04 Sep 2026 09:09:47 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -243,17 +244,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/sometimes-you-need-fresh-perspectives-how-external-development-helped-tomb-raider-legacy-of-atlantis",
     "description": "A hands-off demonstration of Tomb Raider: Legacy of Atlantis at Gamescom last week showed that the game is far from a simple remaster of the 1996 original; it's a complete reworking of Lara Croft's first adventure. Read more",
     "date": "Wed, 02 Sep 2026 10:44:18 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Rovio closes Copenhagen studio following shut down of Sonic Blitz",
-    "link": "https://www.gamesindustry.biz/gamescom-2026-attendance-rose-6-to-368000-visitors",
-    "description": "Gamescom 2026 attracted 368,000 visitors from 131 countries, a 6% increase over the previous year. Read more",
-    "date": "Tue, 01 Sep 2026 08:47:50 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -294,6 +284,42 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Xbox adds monthly cloud limits to Game Pass as it \"continues to invest in its reliability and performance\"",
+    "link": "https://www.gamesindustry.biz/gta-6-netflix-preview-causes-playstation-and-xbox-hardware-sales-to-jump-in-the-uk",
+    "description": "PlayStation 5 and Xbox Series X|S console sales increased in the UK following last week's Grand Theft Auto 6 reveal on Netflix. Read more",
+    "date": "Fri, 04 Sep 2026 07:37:02 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Voting extended for special categories in the Best Places To Work Awards",
+    "link": "https://www.gamesindustry.biz/xbox-adds-monthly-cloud-limits-to-game-pass-as-it-continues-to-invest-in-its-reliability-and-performance",
+    "description": "Xbox will introduce monthly cloud gaming limits for Game Pass subscribers beginning in November 2026. Read more",
+    "date": "Thu, 03 Sep 2026 16:30:22 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Apple faces £2bn lawsuit over implementation of App Tracking Transparency framework",
+    "link": "https://www.gamesindustry.biz/voting-extended-for-special-categories-in-the-best-places-to-work-awards",
+    "description": "Now that Gamescom is firmly behind us, the GamesIndustry.biz team is busy judging the entries for this year's Best Places To Work Awards. Entries have closed for our headline awards, which are judged based on anonymous employee feedback - but we have extended the deadline for nominations for our Spe",
+    "date": "Thu, 03 Sep 2026 14:56:12 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Peak studio Aggro Crab establishes publishing label for \"intense, stylised games with an attitude\"",
+    "link": "https://www.gamesindustry.biz/sony-and-microsoft-request-dismissal-of-consumer-lawsuits-over-tariff-refunds",
+    "description": "Sony and Microsoft have filed motions to dismiss class action lawsuits accusing them of not passing on tariff refunds to consumers. Read more",
+    "date": "Thu, 03 Sep 2026 09:29:08 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Planet Coaster studio Frontier Developments announces new title based on Disney IP",
     "link": "https://www.gamesindustry.biz/peak-studio-aggro-crab-establishes-publishing-label-for-intense-stylised-games-with-an-attitude",
     "description": "Aggro Crab, known for Peak and Another Crab's Treasure, has launched a publishing label to support \"intense, stylised games with an attitude.\" Read more",
@@ -316,33 +342,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/cd-projekt-red-sees-profit-climb-37-in-h1-2026",
     "description": "CD Projekt Red generated $116.5 million (435 million PLN) in revenue during the first half of 2026, up 23% year-over-year. Read more",
     "date": "Wed, 02 Sep 2026 19:14:24 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Square Enix denies going private after report sends stock surging",
-    "link": "https://www.gamesindustry.biz/nexus-mods-acquires-steamdb",
-    "description": "Nexus Mods has acquired SteamDB, the widely used Steam data-tracking site. Read more",
-    "date": "Wed, 02 Sep 2026 16:02:35 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Over 700 games launched on Steam in one week for the first time, though 74% had fewer than 10 reviews",
-    "link": "https://www.gamesindustry.biz/moon-studios-delays-no-rest-for-the-wicked-to-march-2027-were-holding-our-games-to-a-standard-we-wont-compromise-on",
-    "description": "Ori and the Will of the Wisps developer Moon Studios has postponed the full release of its next title, No Rest for the Wicked, to March 2027. Read more",
-    "date": "Wed, 02 Sep 2026 09:55:59 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Supercell's acquisition of Metacore expected to close at the end of September 2026",
-    "link": "https://www.gamesindustry.biz/over-700-games-launched-on-steam-in-one-week-for-the-first-time-though-74-had-fewer-than-10-reviews",
-    "description": "For the first time, more than 700 games were released on Steam in a single week; however, 74% received fewer than 10 reviews. Read more",
-    "date": "Wed, 02 Sep 2026 08:37:20 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
