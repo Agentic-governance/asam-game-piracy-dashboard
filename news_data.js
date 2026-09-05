@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-04 11:04 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-05 10:25 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-04T11:04:14.404741",
+  fetched_at: "2026-09-05T10:25:58.828562",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
+      "pirate",
       "torrent",
       "rom",
       "piracy",
-      "pirate"
+      "copyright"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "pirate",
       "piracy",
-      "dmca",
-      "pirate"
+      "dmca"
     ]
   },
   {
@@ -52,8 +52,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "dmca",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -65,8 +65,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "emulator",
-      "dmca",
-      "torrent"
+      "torrent",
+      "dmca"
     ]
   },
   {
@@ -77,9 +77,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "dmca",
+      "rom",
       "pirate",
-      "rom"
+      "dmca"
     ]
   },
   {
@@ -90,8 +90,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -114,8 +114,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
       "copyright",
+      "piracy",
       "torrent",
       "rom"
     ]
@@ -128,8 +128,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -140,8 +140,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -152,8 +152,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -164,9 +164,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
       "copyright",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -177,9 +177,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
+      "rom",
       "pirate",
-      "rom"
+      "torrent"
     ]
   },
   {
@@ -202,8 +202,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
     ]
   },
   {
@@ -229,10 +229,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "GTA 6 Netflix preview causes PlayStation and Xbox hardware sales to jump in the UK",
+    "title": "PAX Unplugged Houston to debut in June 2027: \"It's a chance to bring PAX back to the PAX South fans that missed us\"",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 04 Sep 2026 09:09:47 +0000",
+    "date": "Fri, 04 Sep 2026 18:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -251,14 +251,16 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Cancer Drug Patent Claims Upheld by CAFC",
-    "link": "https://ipwatchdog.com/2026/09/01/video-game-ai-conundrum/",
-    "description": "This week on IPWatchdog Unleashed, I spoke with Bijou Mgbojikwe, who serves as Senior Policy Counsel for the Entertainment Software Association. Our conversation examined the rapidly expanding intersection of artificial intelligence, intellectual property, and video game policy. The central challeng",
-    "date": "Tue, 01 Sep 2026 16:15:15 +0000",
+    "title": "Drug Patent Thicket Letter from U.S. Senators to Vidal Seeks Reforms on Continuation Patent Filings",
+    "link": "https://ipwatchdog.com/2022/06/15/drug-patent-thicket-letter-u-s-senators-vidal-seeks-reforms-continuation-patent-filings/",
+    "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
+    "date": "Wed, 15 Jun 2022 20:15:34 +0000",
     "source": "IPWatchdog",
     "relevance_score": 3,
     "matched_keywords": [
-      "intellectual property"
+      "copyright",
+      "intellectual property",
+      "rom"
     ]
   },
   {
@@ -282,6 +284,15 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
+  },
+  {
+    "title": "GTA 6 Netflix preview causes PlayStation and Xbox hardware sales to jump in the UK",
+    "link": "https://www.gamesindustry.biz/future-imperfect-five-predictions-for-the-next-decade-opinion",
+    "description": "A lot of minds around the industry currently seem focused on one thing: the future. Whether it was Amir Satvat's Gamescom Dev keynote, or the plethora of industry luminaries who lined up to discuss ongoing and impending turmoil for Edge magazine's latest issue, the topic of the moment is what's next",
+    "date": "Fri, 04 Sep 2026 09:09:47 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Xbox adds monthly cloud limits to Game Pass as it \"continues to invest in its reliability and performance\"",
@@ -333,15 +344,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/this-is-the-worst-crash-weve-seen-since-the-1980s-says-tim-sweeney",
     "description": "Epic Games CEO Tim Sweeney says the industry is going through its biggest crash since the 1980s in the latest issue of Edge magazine. Read more",
     "date": "Wed, 02 Sep 2026 19:44:30 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Nexus Mods acquires SteamDB",
-    "link": "https://www.gamesindustry.biz/cd-projekt-red-sees-profit-climb-37-in-h1-2026",
-    "description": "CD Projekt Red generated $116.5 million (435 million PLN) in revenue during the first half of 2026, up 23% year-over-year. Read more",
-    "date": "Wed, 02 Sep 2026 19:14:24 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
