@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-05 10:25 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-06 10:44 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-05T10:25:58.828562",
+  fetched_at: "2026-09-06T10:44:36.033500",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "copyright",
+      "rom",
       "pirate",
       "torrent",
-      "rom",
-      "piracy",
-      "copyright"
+      "piracy"
     ]
   },
   {
@@ -26,8 +26,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "piracy",
+      "pirate",
       "dmca"
     ]
   },
@@ -45,6 +45,20 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Adult Film Producer Unmasks Prolific &#8216;John Doe&#8217; Torrent Pirate as Meta Executive",
+    "link": "https://torrentfreak.com/online-piracy-costs-the-uk-9400-nurses-a-year-if-pirates-keep-their-word/",
+    "description": "A new UK industry report says illegal streaming costs the government the equivalent of 9,400 NHS nurse salaries a year. This missed tax money is linked to a broader £1.35 billion annual hit to the economy. The billion-pound figure is extrapolated from what some pirates say they would pay if piracy d",
+    "date": "Fri, 04 Sep 2026 09:27:03 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 8,
+    "matched_keywords": [
+      "piracy",
+      "pirate",
+      "torrent",
+      "rom"
+    ]
+  },
+  {
     "title": "Top 10 Most Pirated Movies of The Week – 08/31/2026",
     "link": "https://torrentfreak.com/take-two-says-gta-6-leak-probe-is-rapidly-evolving-wants-new-discord-demands-under-seal/",
     "description": "Take-Two has informed U.S. federal courts that its investigation into the GTA 6 leak is \"rapidly evolving.\" On the heels of its Netflix preview, the gaming company filed a new DMCA subpoena request, asking the court to keep it sealed to prevent tipping off the alleged infringers. Meanwhile, Take-Two",
@@ -57,6 +71,19 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Online Piracy Costs the UK 9,400 Nurses a Year, If Pirates Keep Their Word",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Sun, 06 Sep 2026 07:41:26 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "piracy",
+      "pirate",
+      "copyright"
+    ]
+  },
+  {
     "title": "&#8216;Filmmaker&#8217; Who Sued PTP, BTN, and Four Other Private Torrent Trackers May Be an Impostor",
     "link": "https://torrentfreak.com/nintendo-wipes-out-400-switch-emulator-repos-in-single-day-github-sweep/",
     "description": "Nintendo has filed seven DMCA anti-circumvention notices at GitHub in a single day, wiping out more than 400 Switch emulator repositories in one coordinated campaign. The targets include copies of the Suyu emulator, several Yuzu forks, and Skyline, an emulator that shut itself down years ago. The ta",
@@ -65,8 +92,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "emulator",
-      "torrent",
-      "dmca"
+      "dmca",
+      "torrent"
     ]
   },
   {
@@ -77,9 +104,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "pirate",
-      "dmca"
+      "dmca",
+      "rom"
     ]
   },
   {
@@ -90,8 +117,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -114,8 +141,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "copyright",
       "piracy",
+      "copyright",
       "torrent",
       "rom"
     ]
@@ -128,8 +155,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -140,33 +167,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Paris Court Kicks Off New Football Season with Multi-Intermediary Piracy Blocking Orders",
-    "link": "https://torrentfreak.com/hollywoods-uk-omnibus-pirate-site-blocking-order-surfaces-through-cloudflare/",
-    "description": "In May, the UK High Court granted several Hollywood studios a broad \"omnibus\" site blocking order, allowing them to block rotating networks of pirate sites, without the need to link them to known pirate brands. This breakthrough order was recently cited in a Canadian court order, but remained unavai",
-    "date": "Tue, 11 Aug 2026 07:21:04 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Adult Film Producer Unmasks Prolific &#8216;John Doe&#8217; Torrent Pirate as Meta Executive",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Fri, 04 Sep 2026 09:27:03 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 5,
-    "matched_keywords": [
-      "copyright",
-      "pirate",
-      "torrent"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -177,9 +179,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "rom",
       "pirate",
-      "torrent"
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -202,8 +204,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
     ]
   },
   {
@@ -251,16 +253,14 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Drug Patent Thicket Letter from U.S. Senators to Vidal Seeks Reforms on Continuation Patent Filings",
-    "link": "https://ipwatchdog.com/2022/06/15/drug-patent-thicket-letter-u-s-senators-vidal-seeks-reforms-continuation-patent-filings/",
-    "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
-    "date": "Wed, 15 Jun 2022 20:15:34 +0000",
+    "title": "Cancer Drug Patent Claims Upheld by CAFC",
+    "link": "https://ipwatchdog.com/2026/09/01/video-game-ai-conundrum/",
+    "description": "This week on IPWatchdog Unleashed, I spoke with Bijou Mgbojikwe, who serves as Senior Policy Counsel for the Entertainment Software Association. Our conversation examined the rapidly expanding intersection of artificial intelligence, intellectual property, and video game policy. The central challeng",
+    "date": "Tue, 01 Sep 2026 16:15:15 +0000",
     "source": "IPWatchdog",
     "relevance_score": 3,
     "matched_keywords": [
-      "copyright",
-      "intellectual property",
-      "rom"
+      "intellectual property"
     ]
   },
   {
