@@ -1,21 +1,21 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-06 10:44 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-07 12:14 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-06T10:44:36.033500",
+  fetched_at: "2026-09-07T12:14:42.819988",
   item_count: 30,
   items: [
   {
-    "title": "ACE Targets Dozens of Streaming Pirates Through Cloudflare and Discord Subpoenas",
+    "title": "Online Piracy Costs the UK 9,400 Nurses a Year, If Pirates Keep Their Word",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Spider-Man: Brand New Day' tops the chart, followed by 'Mutiny.' 'The Odyssey' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sun, 30 Aug 2026 07:29:18 +0000",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Mayday' tops the chart, followed by 'Spider-Man: Brand New Day.' 'Batman: Knightfall - Part 1: Knightfall' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy a",
+    "date": "Sun, 06 Sep 2026 07:41:26 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
-      "rom",
       "pirate",
+      "rom",
+      "piracy",
       "torrent",
-      "piracy"
+      "copyright"
     ]
   },
   {
@@ -26,8 +26,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "pirate",
+      "piracy",
       "dmca"
     ]
   },
@@ -39,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "crack",
       "emulator",
-      "dmca",
-      "crack"
+      "dmca"
     ]
   },
   {
@@ -52,17 +52,17 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "piracy",
       "pirate",
-      "torrent",
-      "rom"
+      "piracy",
+      "rom",
+      "torrent"
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 08/31/2026",
+    "title": "ACE Targets Dozens of Streaming Pirates Through Cloudflare and Discord Subpoenas",
     "link": "https://torrentfreak.com/take-two-says-gta-6-leak-probe-is-rapidly-evolving-wants-new-discord-demands-under-seal/",
     "description": "Take-Two has informed U.S. federal courts that its investigation into the GTA 6 leak is \"rapidly evolving.\" On the heels of its Netflix preview, the gaming company filed a new DMCA subpoena request, asking the court to keep it sealed to prevent tipping off the alleged infringers. Meanwhile, Take-Two",
-    "date": "Sun, 30 Aug 2026 23:09:40 +0000",
+    "date": "Sun, 30 Aug 2026 07:29:18 +0000",
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
@@ -71,16 +71,16 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Online Piracy Costs the UK 9,400 Nurses a Year, If Pirates Keep Their Word",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sun, 06 Sep 2026 07:41:26 +0000",
+    "title": "Top 10 Most Pirated Movies of The Week – 09/07/2026",
+    "link": "https://torrentfreak.com/openais-chatgpt-was-built-on-concealed-mass-piracy-authors-tell-court/",
+    "description": "Book authors have asked a New York federal judge to rule that OpenAI built its AI models on “mass piracy”. Pointing to internal documents, a summary judgment motion alleges the AI giant downloaded books from LibGen, hid the evidence by renaming datasets, and designed its models to supplant human wri",
+    "date": "Sun, 06 Sep 2026 23:09:40 +0000",
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "pirate",
-      "copyright"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -91,22 +91,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "torrent",
       "emulator",
-      "dmca",
-      "torrent"
-    ]
-  },
-  {
-    "title": "Hollywood&#8217;s UK &#8220;Omnibus&#8221; Pirate Site Blocking Order Surfaces Through Cloudflare",
-    "link": "https://torrentfreak.com/court-rejects-fair-use-claim-orders-youtube-to-unmask-anime-recap-channels/",
-    "description": "A California federal court has ordered YouTube to unmask three popular South Korean creators of anime recap channels. The creators filed a motion to quash the DMCA subpoena, requested by Japanese publisher KADOKAWA, but the court rejected the fair use claim, which is now under appeal. \nFrom: TF, for",
-    "date": "Wed, 12 Aug 2026 14:36:45 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "pirate",
-      "dmca",
-      "rom"
+      "dmca"
     ]
   },
   {
@@ -117,8 +104,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -129,8 +116,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "dmca",
-      "crack"
+      "crack",
+      "dmca"
     ]
   },
   {
@@ -141,10 +128,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "copyright",
       "torrent",
-      "rom"
+      "piracy",
+      "rom",
+      "copyright"
     ]
   },
   {
@@ -155,8 +142,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -167,8 +154,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -185,6 +172,18 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "OpenAI&#8217;s ChatGPT Was Built on Concealed &#8216;Mass Piracy&#8217;, Authors Tell Court",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Mon, 07 Sep 2026 10:46:26 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "piracy",
+      "copyright"
+    ]
+  },
+  {
     "title": "&#8220;A Cute Little LibGen Babysitter&#8221;: Music Publishers Sue Anthropic Founders Over Torrenting Spree",
     "link": "https://torrentfreak.com/rcn-urges-judge-to-toss-the-major-labels-last-piracy-liability-lawsuit/",
     "description": "Internet service provider RCN has asked a New Jersey federal court to reconsider a six-year-old ruling and dismiss the major record labels' piracy liability lawsuit. RCN argues that the Supreme Court's decision in Cox v. Sony wiped out the legal basis for the claims. With \"repeat infringer\" cases ag",
@@ -192,8 +191,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -231,10 +230,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "PAX Unplugged Houston to debut in June 2027: \"It's a chance to bring PAX back to the PAX South fans that missed us\"",
+    "title": "Gamescom issues apology for initial response to hardware thefts: \"It did not show the people affected the empathy they deserve\"",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 04 Sep 2026 18:00:00 +0000",
+    "date": "Mon, 07 Sep 2026 10:38:03 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -250,17 +249,6 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "rom"
-    ]
-  },
-  {
-    "title": "Cancer Drug Patent Claims Upheld by CAFC",
-    "link": "https://ipwatchdog.com/2026/09/01/video-game-ai-conundrum/",
-    "description": "This week on IPWatchdog Unleashed, I spoke with Bijou Mgbojikwe, who serves as Senior Policy Counsel for the Entertainment Software Association. Our conversation examined the rapidly expanding intersection of artificial intelligence, intellectual property, and video game policy. The central challeng",
-    "date": "Tue, 01 Sep 2026 16:15:15 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "intellectual property"
     ]
   },
   {
@@ -284,6 +272,24 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
+  },
+  {
+    "title": "Niko Partners: Chinese games market surpasses $50bn for the first time in 2025",
+    "link": "https://www.gamesindustry.biz/gamescom-issues-apology-for-initial-response-to-hardware-thefts-it-did-not-show-the-people-affected-the-empathy-they-deserve",
+    "description": "Gamescom has apologised for its initial response to theft reports at this year's event, acknowledging it \"did not strike the right tone\" or \"show the people affected the empathy they deserve.\" Read more",
+    "date": "Mon, 07 Sep 2026 07:54:06 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "PAX Unplugged Houston to debut in June 2027: \"It's a chance to bring PAX back to the PAX South fans that missed us\"",
+    "link": "https://www.gamesindustry.biz/niko-partners-chinese-games-market-surpasses-50bn-for-the-first-time-in-2025",
+    "description": "China's games market surpassed $50 billion for the first time in 2025, growing 5.4% year-on-year to $51.8 billion. Read more",
+    "date": "Fri, 04 Sep 2026 18:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "GTA 6 Netflix preview causes PlayStation and Xbox hardware sales to jump in the UK",
@@ -335,15 +341,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/peak-studio-aggro-crab-establishes-publishing-label-for-intense-stylised-games-with-an-attitude",
     "description": "Aggro Crab, known for Peak and Another Crab's Treasure, has launched a publishing label to support \"intense, stylised games with an attitude.\" Read more",
     "date": "Thu, 03 Sep 2026 08:04:49 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "CD Projekt Red sees profit climb 37% in H1 2026",
-    "link": "https://www.gamesindustry.biz/this-is-the-worst-crash-weve-seen-since-the-1980s-says-tim-sweeney",
-    "description": "Epic Games CEO Tim Sweeney says the industry is going through its biggest crash since the 1980s in the latest issue of Edge magazine. Read more",
-    "date": "Wed, 02 Sep 2026 19:44:30 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
