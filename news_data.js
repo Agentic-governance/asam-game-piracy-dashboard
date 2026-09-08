@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-07 12:14 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-08 11:04 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-07T12:14:42.819988",
+  fetched_at: "2026-09-08T11:04:20.430656",
   item_count: 30,
   items: [
   {
@@ -13,9 +13,9 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "pirate",
       "rom",
-      "piracy",
+      "copyright",
       "torrent",
-      "copyright"
+      "piracy"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
+      "dmca",
       "piracy",
-      "dmca"
+      "pirate"
     ]
   },
   {
@@ -39,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "dmca",
       "crack",
-      "emulator",
-      "dmca"
+      "emulator"
     ]
   },
   {
@@ -52,10 +52,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
+      "torrent",
       "piracy",
       "rom",
-      "torrent"
+      "pirate"
     ]
   },
   {
@@ -66,8 +66,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
-      "dmca"
+      "dmca",
+      "pirate"
     ]
   },
   {
@@ -78,9 +78,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "piracy",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -92,8 +92,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "torrent",
-      "emulator",
-      "dmca"
+      "dmca",
+      "emulator"
     ]
   },
   {
@@ -104,8 +104,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -116,8 +116,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "dmca"
+      "dmca",
+      "crack"
     ]
   },
   {
@@ -142,20 +142,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Court Rejects Fair Use Claim, Orders YouTube to Unmask Anime Recap Channels",
-    "link": "https://torrentfreak.com/researchers-hunt-telegram-pirates-with-ai-tool-flag-hundreds-of-channels/",
-    "description": "A new academic study offers a detailed look inside Telegram's video piracy ecosystem, spotting more than 19,000 pirated titles linked in posts that were viewed more than 4 billion times. The researchers built an AI-powered tool that can spot pirate channels and bots, which were reported to Telegram ",
-    "date": "Fri, 14 Aug 2026 07:40:28 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -166,21 +154,33 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
       "torrent",
-      "rom"
+      "rom",
+      "pirate"
+    ]
+  },
+  {
+    "title": "Stray Kids Label Hits Music Distributor With DMCA Subpoena Over Bootleg Track",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Tue, 08 Sep 2026 09:02:41 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "dmca",
+      "copyright"
     ]
   },
   {
     "title": "OpenAI&#8217;s ChatGPT Was Built on Concealed &#8216;Mass Piracy&#8217;, Authors Tell Court",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/stray-kids-label-hits-music-distributor-with-dmca-subpoena-over-bootleg-track/",
+    "description": "Stray Kids is one of the biggest bands in today's music industry. Because of that massive reach, a solo track from member Han went from a YouTube exclusive to bootleg releases on Apple Music and TikTok in days. Label JYP Entertainment now wants to identify the bootlegger. Instead of subpoenaing the ",
     "date": "Mon, 07 Sep 2026 10:46:26 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
       "piracy",
-      "copyright"
+      "rom"
     ]
   },
   {
@@ -203,8 +203,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
     ]
   },
   {
@@ -230,10 +230,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Gamescom issues apology for initial response to hardware thefts: \"It did not show the people affected the empathy they deserve\"",
+    "title": "FuturLab cuts staff after cancelling non-Powerwash Simulator title",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 07 Sep 2026 10:38:03 +0000",
+    "date": "Tue, 08 Sep 2026 11:00:58 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -241,14 +241,47 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Moon Studios delays No Rest for the Wicked to March 2027 – \"We're holding our games to a standard we won't compromise on\"",
-    "link": "https://www.gamesindustry.biz/sometimes-you-need-fresh-perspectives-how-external-development-helped-tomb-raider-legacy-of-atlantis",
-    "description": "A hands-off demonstration of Tomb Raider: Legacy of Atlantis at Gamescom last week showed that the game is far from a simple remaster of the 1996 original; it's a complete reworking of Lara Croft's first adventure. Read more",
-    "date": "Wed, 02 Sep 2026 10:44:18 +0000",
+    "title": "Arm explains its mobile-first AI-reconstruction technology, which takes a different tack from the \"black box\" approach of DLSS 5",
+    "link": "https://www.gamesindustry.biz/assassins-creed-black-flag-resynced-debuts-in-top-5-for-pc-and-console-revenue-in-july-newzoo-charts",
+    "description": "Remakes and rereleases drove games revenue in July, with Assassin's Creed Black Flag Resynced debuting in second on PC and fourth on console in Newzoo's charts. Read more",
+    "date": "Tue, 08 Sep 2026 02:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
       "rom"
+    ]
+  },
+  {
+    "title": "\"It's not sexy, but it's one of the most successful genres on Steam\" – Stronghold developer Firefly launches publishing label to serve the vast strategy market",
+    "link": "https://www.gamesindustry.biz/capcom-says-it-will-focus-on-reviving-dormant-ips-after-onimusha-way-of-the-swords-breakout-launch",
+    "description": "Capcom has revealed it will focus on reactivating dormant intellectual property following a strong launch for Onimusha: Way of the Sword. Read more",
+    "date": "Mon, 07 Sep 2026 15:34:14 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "intellectual property"
+    ]
+  },
+  {
+    "title": "Sega cancelled its \"risky\" Super Game project as it \"would have to grow enormously to match the scale of the service\"",
+    "link": "https://www.gamesindustry.biz/its-not-sexy-but-its-one-of-the-most-successful-genres-on-steam-stronghold-developer-firefly-steps-up-to-publisher-to-serve-the-vast-strategy-market",
+    "description": "Stronghold developer Firefly is the latest developer to move into publishing, debuting a new strategy-focused label Wuselfaktory and its first title Fool King as part of UKIE's For One Night Only showcase earlier this year. The title, from first-time developer Loot Donkey, describes itself as a \"tac",
+    "date": "Mon, 07 Sep 2026 14:03:15 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Cancer Drug Patent Claims Upheld by CAFC",
+    "link": "https://ipwatchdog.com/2026/09/01/video-game-ai-conundrum/",
+    "description": "This week on IPWatchdog Unleashed, I spoke with Bijou Mgbojikwe, who serves as Senior Policy Counsel for the Entertainment Software Association. Our conversation examined the rapidly expanding intersection of artificial intelligence, intellectual property, and video game policy. The central challeng",
+    "date": "Tue, 01 Sep 2026 16:15:15 +0000",
+    "source": "IPWatchdog",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "intellectual property"
     ]
   },
   {
@@ -274,6 +307,33 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Assassin's Creed Black Flag Resynced debuts in Top 5 for PC and console revenue in July | Newzoo Charts",
+    "link": "https://www.gamesindustry.biz/futurlab-cuts-staff-after-cancelling-non-powerwash-simulator-title",
+    "description": "FuturLab has laid off seven employees following the cancellation of a project unrelated to PowerWash Simulator. Read more",
+    "date": "Tue, 08 Sep 2026 07:57:07 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Tim Schafer: \"No one puts Double Fine out of business except me\"",
+    "link": "https://www.gamesindustry.biz/sega-cancelled-its-risky-super-game-project-as-it-would-have-to-grow-enormously-to-match-the-scale-of-the-service",
+    "description": "Sega cancelled its live-service Super Game initiative  earlier this year as \"taking on this challenge at this time would be too risky.\" Read more",
+    "date": "Mon, 07 Sep 2026 13:07:52 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Gamescom issues apology for initial response to hardware thefts: \"It did not show the people affected the empathy they deserve\"",
+    "link": "https://www.gamesindustry.biz/tim-schafer-no-one-puts-double-fine-out-of-business-except-me",
+    "description": "Double Fine Productions' boss Tim Schafer recently explained how the studio avoided closure following significant layoffs at Xbox, stating, \"no one puts Double Fine out of business except for me.\" Read more",
+    "date": "Mon, 07 Sep 2026 10:38:03 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Niko Partners: Chinese games market surpasses $50bn for the first time in 2025",
     "link": "https://www.gamesindustry.biz/gamescom-issues-apology-for-initial-response-to-hardware-thefts-it-did-not-show-the-people-affected-the-empathy-they-deserve",
     "description": "Gamescom has apologised for its initial response to theft reports at this year's event, acknowledging it \"did not strike the right tone\" or \"show the people affected the empathy they deserve.\" Read more",
@@ -287,60 +347,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/niko-partners-chinese-games-market-surpasses-50bn-for-the-first-time-in-2025",
     "description": "China's games market surpassed $50 billion for the first time in 2025, growing 5.4% year-on-year to $51.8 billion. Read more",
     "date": "Fri, 04 Sep 2026 18:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "GTA 6 Netflix preview causes PlayStation and Xbox hardware sales to jump in the UK",
-    "link": "https://www.gamesindustry.biz/future-imperfect-five-predictions-for-the-next-decade-opinion",
-    "description": "A lot of minds around the industry currently seem focused on one thing: the future. Whether it was Amir Satvat's Gamescom Dev keynote, or the plethora of industry luminaries who lined up to discuss ongoing and impending turmoil for Edge magazine's latest issue, the topic of the moment is what's next",
-    "date": "Fri, 04 Sep 2026 09:09:47 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Xbox adds monthly cloud limits to Game Pass as it \"continues to invest in its reliability and performance\"",
-    "link": "https://www.gamesindustry.biz/gta-6-netflix-preview-causes-playstation-and-xbox-hardware-sales-to-jump-in-the-uk",
-    "description": "PlayStation 5 and Xbox Series X|S console sales increased in the UK following last week's Grand Theft Auto 6 reveal on Netflix. Read more",
-    "date": "Fri, 04 Sep 2026 07:37:02 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Voting extended for special categories in the Best Places To Work Awards",
-    "link": "https://www.gamesindustry.biz/xbox-adds-monthly-cloud-limits-to-game-pass-as-it-continues-to-invest-in-its-reliability-and-performance",
-    "description": "Xbox will introduce monthly cloud gaming limits for Game Pass subscribers beginning in November 2026. Read more",
-    "date": "Thu, 03 Sep 2026 16:30:22 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Apple faces £2bn lawsuit over implementation of App Tracking Transparency framework",
-    "link": "https://www.gamesindustry.biz/voting-extended-for-special-categories-in-the-best-places-to-work-awards",
-    "description": "Now that Gamescom is firmly behind us, the GamesIndustry.biz team is busy judging the entries for this year's Best Places To Work Awards. Entries have closed for our headline awards, which are judged based on anonymous employee feedback - but we have extended the deadline for nominations for our Spe",
-    "date": "Thu, 03 Sep 2026 14:56:12 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Peak studio Aggro Crab establishes publishing label for \"intense, stylised games with an attitude\"",
-    "link": "https://www.gamesindustry.biz/sony-and-microsoft-request-dismissal-of-consumer-lawsuits-over-tariff-refunds",
-    "description": "Sony and Microsoft have filed motions to dismiss class action lawsuits accusing them of not passing on tariff refunds to consumers. Read more",
-    "date": "Thu, 03 Sep 2026 09:29:08 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Planet Coaster studio Frontier Developments announces new title based on Disney IP",
-    "link": "https://www.gamesindustry.biz/peak-studio-aggro-crab-establishes-publishing-label-for-intense-stylised-games-with-an-attitude",
-    "description": "Aggro Crab, known for Peak and Another Crab's Treasure, has launched a publishing label to support \"intense, stylised games with an attitude.\" Read more",
-    "date": "Thu, 03 Sep 2026 08:04:49 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
