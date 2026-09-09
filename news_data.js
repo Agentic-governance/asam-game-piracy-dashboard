@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-08 11:04 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-09 11:09 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-08T11:04:20.430656",
+  fetched_at: "2026-09-09T11:09:09.503299",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "piracy",
       "pirate",
-      "rom",
-      "copyright",
       "torrent",
-      "piracy"
+      "rom",
+      "copyright"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "dmca",
       "piracy",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -39,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "dmca",
       "crack",
-      "emulator"
+      "emulator",
+      "dmca"
     ]
   },
   {
@@ -52,10 +52,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "torrent",
       "piracy",
-      "rom",
-      "pirate"
+      "pirate",
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -66,8 +66,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "dmca",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -79,8 +79,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -92,8 +92,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "torrent",
-      "dmca",
-      "emulator"
+      "emulator",
+      "dmca"
     ]
   },
   {
@@ -116,8 +116,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "dmca",
-      "crack"
+      "crack",
+      "dmca"
     ]
   },
   {
@@ -128,10 +128,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "torrent",
       "piracy",
-      "rom",
-      "copyright"
+      "copyright",
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -155,8 +155,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "torrent",
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -167,8 +167,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "dmca",
-      "copyright"
+      "copyright",
+      "dmca"
     ]
   },
   {
@@ -191,8 +191,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -230,14 +230,25 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "FuturLab cuts staff after cancelling non-Powerwash Simulator title",
+    "title": "Gamescom Asia x Thailand Game Show announces exhibitor lineup for 2026",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 08 Sep 2026 11:00:58 +0000",
+    "date": "Wed, 09 Sep 2026 09:55:55 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
       "rom"
+    ]
+  },
+  {
+    "title": "The Tetris Company says it was \"not involved in the creation\" of White House parody, takes \"copyright infringement very seriously\"",
+    "link": "https://www.gamesindustry.biz/european-game-developers-are-more-concerned-that-ai-will-pressure-them-to-work-faster-rather-than-take-their-job",
+    "description": "61% of European game developers are concerned that generative AI will place them under pressure to work faster and produce more, but only 35% think that AI might cause them to lose their job or reduce demand for their role. Read more",
+    "date": "Tue, 08 Sep 2026 13:03:33 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "copyright"
     ]
   },
   {
@@ -307,46 +318,37 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Assassin's Creed Black Flag Resynced debuts in Top 5 for PC and console revenue in July | Newzoo Charts",
-    "link": "https://www.gamesindustry.biz/futurlab-cuts-staff-after-cancelling-non-powerwash-simulator-title",
-    "description": "FuturLab has laid off seven employees following the cancellation of a project unrelated to PowerWash Simulator. Read more",
-    "date": "Tue, 08 Sep 2026 07:57:07 +0000",
+    "title": "Steam achievements for unreleased and unannounced games leak on aggregators such as Exophase and SteamDB",
+    "link": "https://www.gamesindustry.biz/gamescom-asia-x-thailand-game-show-announces-exhibitor-lineup-for-2026",
+    "description": "Gamescom Asia x Thailand Game Show has announced its exhibitor lineup for this year's event, including Capcom, Bandai Namco, and The Pok&eacute;mon Company, as well as Nintendo and PlayStation represented by partners. Read more",
+    "date": "Wed, 09 Sep 2026 09:15:34 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Tim Schafer: \"No one puts Double Fine out of business except me\"",
-    "link": "https://www.gamesindustry.biz/sega-cancelled-its-risky-super-game-project-as-it-would-have-to-grow-enormously-to-match-the-scale-of-the-service",
-    "description": "Sega cancelled its live-service Super Game initiative  earlier this year as \"taking on this challenge at this time would be too risky.\" Read more",
-    "date": "Mon, 07 Sep 2026 13:07:52 +0000",
+    "title": "Why the world needs a Club Penguin successor – that isn't Roblox",
+    "link": "https://www.gamesindustry.biz/steam-achievements-for-unreleased-and-unannounced-games-leak-on-aggregators-such-as-exophase-and-steamdb",
+    "description": "Achievements for unreleased and unannounced games on Steam have been leaked, including Fable, Persona 6, Kingdom Hearts 4, and Control Resonant. Read more",
+    "date": "Tue, 08 Sep 2026 15:46:17 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Gamescom issues apology for initial response to hardware thefts: \"It did not show the people affected the empathy they deserve\"",
-    "link": "https://www.gamesindustry.biz/tim-schafer-no-one-puts-double-fine-out-of-business-except-me",
-    "description": "Double Fine Productions' boss Tim Schafer recently explained how the studio avoided closure following significant layoffs at Xbox, stating, \"no one puts Double Fine out of business except for me.\" Read more",
-    "date": "Mon, 07 Sep 2026 10:38:03 +0000",
+    "title": "European game developers are more concerned that AI will pressure them to work faster rather than take their job",
+    "link": "https://www.gamesindustry.biz/star-stable-entertainment-reduces-workforce-by-20-to-secure-long-term-future-of-its-multiplayer-horse-adventure-rpg",
+    "description": "Swedish developer Star Stable Entertainment has laid off 20% of its employees following a restructuring program. Read more",
+    "date": "Tue, 08 Sep 2026 13:27:23 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Niko Partners: Chinese games market surpasses $50bn for the first time in 2025",
-    "link": "https://www.gamesindustry.biz/gamescom-issues-apology-for-initial-response-to-hardware-thefts-it-did-not-show-the-people-affected-the-empathy-they-deserve",
-    "description": "Gamescom has apologised for its initial response to theft reports at this year's event, acknowledging it \"did not strike the right tone\" or \"show the people affected the empathy they deserve.\" Read more",
-    "date": "Mon, 07 Sep 2026 07:54:06 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "PAX Unplugged Houston to debut in June 2027: \"It's a chance to bring PAX back to the PAX South fans that missed us\"",
-    "link": "https://www.gamesindustry.biz/niko-partners-chinese-games-market-surpasses-50bn-for-the-first-time-in-2025",
-    "description": "China's games market surpassed $50 billion for the first time in 2025, growing 5.4% year-on-year to $51.8 billion. Read more",
-    "date": "Fri, 04 Sep 2026 18:00:00 +0000",
+    "title": "FuturLab cuts staff after cancelling non-Powerwash Simulator title",
+    "link": "https://www.gamesindustry.biz/the-tetris-company-says-it-was-not-involved-in-the-creation-of-white-house-parody-takes-copyright-infringement-very-seriously",
+    "description": "The Tetris Company has issued a statement regarding a US government-made parody of its tile-matching puzzle game, which has since been removed. Read more",
+    "date": "Tue, 08 Sep 2026 11:00:58 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
