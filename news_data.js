@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-09 11:09 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-10 11:05 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-09T11:09:09.503299",
+  fetched_at: "2026-09-10T11:05:26.189720",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
-      "pirate",
       "torrent",
+      "copyright",
       "rom",
-      "copyright"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
+      "dmca",
       "pirate",
-      "dmca"
+      "piracy"
     ]
   },
   {
@@ -39,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "crack",
+      "dmca",
       "emulator",
-      "dmca"
+      "crack"
     ]
   },
   {
@@ -52,10 +52,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "piracy",
-      "pirate",
+      "rom",
       "torrent",
-      "rom"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -66,8 +66,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
-      "dmca"
+      "dmca",
+      "pirate"
     ]
   },
   {
@@ -78,9 +78,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
+      "rom",
       "pirate",
-      "rom"
+      "piracy"
     ]
   },
   {
@@ -91,9 +91,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "dmca",
       "torrent",
-      "emulator",
-      "dmca"
+      "emulator"
     ]
   },
   {
@@ -104,8 +104,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -116,8 +116,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "crack",
-      "dmca"
+      "dmca",
+      "crack"
     ]
   },
   {
@@ -128,22 +128,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "copyright",
+      "rom",
       "torrent",
-      "rom"
-    ]
-  },
-  {
-    "title": "Researchers Hunt Telegram Pirates with AI Tool, Flag Hundreds of Channels",
-    "link": "https://torrentfreak.com/pirate-streaming-giant-cineby-announces-surprise-shutdown/",
-    "description": "Cineby, one of the biggest pirate streaming sites on the web, says it will shut its doors on August 26. The site was previously flagged as a notorious piracy operation by Hollywood and has been blocked by court order in several countries. If history is any guide, successors and copycats will line up",
-    "date": "Sun, 16 Aug 2026 08:18:27 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "piracy",
-      "pirate"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -161,14 +149,14 @@ const ARIA_NEWS = {
   },
   {
     "title": "Stray Kids Label Hits Music Distributor With DMCA Subpoena Over Bootleg Track",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/private-torrent-tracker-lawsuit-takes-bizarre-turn-im-a-different-matthew-schneider/",
+    "description": "The copyright lawsuit targeting PassThePopcorn, BroadcasTheNet, HDBits, and three other major private trackers has taken a bizarre turn. After a Canadian filmmaker filed a sworn declaration confirming he has nothing to do with the case, the plaintiff argues there are simply two filmmakers with the s",
     "date": "Tue, 08 Sep 2026 09:02:41 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "dmca"
+      "dmca",
+      "copyright"
     ]
   },
   {
@@ -179,8 +167,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -191,8 +179,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -203,8 +191,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
     ]
   },
   {
@@ -230,10 +218,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Gamescom Asia x Thailand Game Show announces exhibitor lineup for 2026",
+    "title": "Xbox to publish Kojima Productions' Physint after it \"unexpectedly received notice\" from PlayStation that it would cancel the project",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 09 Sep 2026 09:55:55 +0000",
+    "date": "Thu, 10 Sep 2026 07:34:19 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Almost 1,900 Blizzard workers ratify first union contract with Microsoft",
+    "link": "https://www.gamesindustry.biz/xbox-to-publish-kojima-productions-physint-after-it-unexpectedly-received-notice-from-playstation-that-it-would-cancel-the-project",
+    "description": "Xbox will publish Kojima Productions' upcoming title Physint after the developer \"unexpectedly received notice from PlayStation Studios that they would cancel the Physint project\" in mid-June. Read more",
+    "date": "Wed, 09 Sep 2026 20:14:39 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -274,28 +273,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Sega cancelled its \"risky\" Super Game project as it \"would have to grow enormously to match the scale of the service\"",
-    "link": "https://www.gamesindustry.biz/its-not-sexy-but-its-one-of-the-most-successful-genres-on-steam-stronghold-developer-firefly-steps-up-to-publisher-to-serve-the-vast-strategy-market",
-    "description": "Stronghold developer Firefly is the latest developer to move into publishing, debuting a new strategy-focused label Wuselfaktory and its first title Fool King as part of UKIE's For One Night Only showcase earlier this year. The title, from first-time developer Loot Donkey, describes itself as a \"tac",
-    "date": "Mon, 07 Sep 2026 14:03:15 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Cancer Drug Patent Claims Upheld by CAFC",
-    "link": "https://ipwatchdog.com/2026/09/01/video-game-ai-conundrum/",
-    "description": "This week on IPWatchdog Unleashed, I spoke with Bijou Mgbojikwe, who serves as Senior Policy Counsel for the Entertainment Software Association. Our conversation examined the rapidly expanding intersection of artificial intelligence, intellectual property, and video game policy. The central challeng",
-    "date": "Tue, 01 Sep 2026 16:15:15 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "intellectual property"
-    ]
-  },
-  {
     "title": "Who&#8217;s Tracking You? Use This New Service to Find Out",
     "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
     "description": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever.\r\n\r\nIn a statement released today, the Australian Federal Police (AFP) said two unn",
@@ -318,37 +295,58 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Steam achievements for unreleased and unannounced games leak on aggregators such as Exophase and SteamDB",
-    "link": "https://www.gamesindustry.biz/gamescom-asia-x-thailand-game-show-announces-exhibitor-lineup-for-2026",
-    "description": "Gamescom Asia x Thailand Game Show has announced its exhibitor lineup for this year's event, including Capcom, Bandai Namco, and The Pok&eacute;mon Company, as well as Nintendo and PlayStation represented by partners. Read more",
-    "date": "Wed, 09 Sep 2026 09:15:34 +0000",
+    "title": "Private Torrent Tracker Lawsuit Takes Bizarre Turn: &#8216;I&#8217;m a Different Matthew Schneider&#8217; (Updated)",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Wed, 09 Sep 2026 11:57:22 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 2,
+    "matched_keywords": [
+      "torrent",
+      "copyright"
+    ]
+  },
+  {
+    "title": "Lego Digital Play acquires mobile studio Offroad Games",
+    "link": "https://www.gamesindustry.biz/almost-1900-blizzard-workers-ratify-first-union-contract-with-microsoft",
+    "description": "Blizzard Entertainment has secured a first union contract with parent company Microsoft, ratified by a workforce vote covering just under 1,900 staff. Read more",
+    "date": "Wed, 09 Sep 2026 18:56:51 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Why the world needs a Club Penguin successor – that isn't Roblox",
-    "link": "https://www.gamesindustry.biz/steam-achievements-for-unreleased-and-unannounced-games-leak-on-aggregators-such-as-exophase-and-steamdb",
-    "description": "Achievements for unreleased and unannounced games on Steam have been leaked, including Fable, Persona 6, Kingdom Hearts 4, and Control Resonant. Read more",
-    "date": "Tue, 08 Sep 2026 15:46:17 +0000",
+    "title": "Epic Games Store to introduce age checks for R18+ games in Australia",
+    "link": "https://www.gamesindustry.biz/lego-digital-play-acquires-mobile-studio-offroad-games",
+    "description": "Lego Digital Play has acquired Offroad Games. Read more",
+    "date": "Wed, 09 Sep 2026 17:24:25 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "European game developers are more concerned that AI will pressure them to work faster rather than take their job",
-    "link": "https://www.gamesindustry.biz/star-stable-entertainment-reduces-workforce-by-20-to-secure-long-term-future-of-its-multiplayer-horse-adventure-rpg",
-    "description": "Swedish developer Star Stable Entertainment has laid off 20% of its employees following a restructuring program. Read more",
-    "date": "Tue, 08 Sep 2026 13:27:23 +0000",
+    "title": "Mark Cerny and Geoff Keighley launch Nova Games Foundation to fund young designers",
+    "link": "https://www.gamesindustry.biz/epic-games-store-to-introduce-age-checks-for-r18-games-in-australia",
+    "description": "Epic Games will require Australian players to confirm they're 18 or older before downloading or buying R18+ rated titles on the Epic Games Store, starting September 9. Read more",
+    "date": "Wed, 09 Sep 2026 16:15:46 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "FuturLab cuts staff after cancelling non-Powerwash Simulator title",
-    "link": "https://www.gamesindustry.biz/the-tetris-company-says-it-was-not-involved-in-the-creation-of-white-house-parody-takes-copyright-infringement-very-seriously",
-    "description": "The Tetris Company has issued a statement regarding a US government-made parody of its tile-matching puzzle game, which has since been removed. Read more",
-    "date": "Tue, 08 Sep 2026 11:00:58 +0000",
+    "title": "Keywords Studios combines multiple marketing businesses into global creative agency FreeAnimal",
+    "link": "https://www.gamesindustry.biz/mark-cerny-and-geoff-keighley-launch-nova-games-foundation-to-fund-young-designers",
+    "description": "Mark Cerny and Geoff Keighley have launched the Nova Games Foundation, a philanthropic fellowship program aimed at funding young game designers. Read more",
+    "date": "Wed, 09 Sep 2026 15:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Frontier Developments FY26 adjusted operating profit jumps 62% to £21.4m",
+    "link": "https://www.gamesindustry.biz/we-probably-need-a-few-more-expedition-33s-to-just-prove-them-wrong-the-maker-of-valor-mortis-on-why-publishers-should-have-faith-in-aa",
+    "description": "Over the past 12 years, Polish studio One More Level has carved out a niche in the world of AA games with projects whose production values often approach those of AAA titles. Its eye-catching 2020 cyberpunk action platformer Ghostrunner launched to critical acclaim and commercial success, selling 5.",
+    "date": "Wed, 09 Sep 2026 11:37:22 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
