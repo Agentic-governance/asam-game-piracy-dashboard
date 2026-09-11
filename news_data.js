@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-10 11:05 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-11 11:04 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-10T11:05:26.189720",
+  fetched_at: "2026-09-11T11:04:10.471386",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
-      "copyright",
       "rom",
       "piracy",
-      "pirate"
+      "torrent",
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "dmca",
       "pirate",
-      "piracy"
+      "piracy",
+      "dmca"
     ]
   },
   {
@@ -52,10 +52,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "rom",
-      "torrent",
       "pirate",
-      "piracy"
+      "piracy",
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -66,8 +66,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "dmca",
-      "pirate"
+      "pirate",
+      "dmca"
     ]
   },
   {
@@ -78,9 +78,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "pirate",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -128,10 +128,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "rom",
-      "torrent",
+      "piracy",
       "copyright",
-      "piracy"
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -142,9 +142,33 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
       "pirate",
+      "torrent",
       "rom"
+    ]
+  },
+  {
+    "title": "Pirate IPTV Operators Face $32.7 Million Judgment and Self-Expanding Blocking Injunction",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Thu, 10 Sep 2026 13:39:13 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "pirate",
+      "copyright"
+    ]
+  },
+  {
+    "title": "Private Torrent Tracker Lawsuit Takes Bizarre Turn: &#8216;I&#8217;m a Different Matthew Schneider&#8217; (Updated)",
+    "link": "https://torrentfreak.com/pirate-iptv-operators-face-32-7-million-judgment-and-self-expanding-blocking-injunction/",
+    "description": "TelevisaUnivision has asked a Florida federal judge to enter a $32.7 million default judgment against the operators of three pirate IPTV services, who all failed to appear in court. The proposed permanent blocking injunction expands its already-broad predecessor, letting the broadcaster add new defe",
+    "date": "Wed, 09 Sep 2026 11:57:22 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -167,8 +191,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -179,8 +203,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -207,20 +231,20 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Pirate Streaming Giant Cineby Announces Surprise Shutdown",
-    "link": "https://torrentfreak.com/a-german-court-drew-the-piracy-line-at-81-5-kinogo-was-blocked-with-at-least-82-4/",
-    "description": "Germany doesn't have a hard benchmark for when a site is structurally infringing. However, the site-blocking clearinghouse CUII stated that illegal content clearly outweighs legal content when at least 81.5 percent of a site is infringing. After KinoGO was recently blocked with a floor of 82.4 perce",
-    "date": "Mon, 17 Aug 2026 09:43:20 +0000",
-    "source": "TorrentFreak",
+    "title": "Saudi Arabia's PIF reportedly considering to combine EA with Savvy Games Group",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Fri, 11 Sep 2026 08:29:50 +0000",
+    "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
-      "pirate"
+      "rom"
     ]
   },
   {
     "title": "Xbox to publish Kojima Productions' Physint after it \"unexpectedly received notice\" from PlayStation that it would cancel the project",
-    "link": "https://www.gamesindustry.biz/feed",
-    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "link": "https://www.gamesindustry.biz/newzoo-most-established-live-service-and-evergreen-titles-were-flat-or-down-year-over-year-in-h1-2026",
+    "description": "Live-service and evergreen titles were flat or declined year-over-year in the first half of 2026 compared to 2025, according to Newzoo data. Read more",
     "date": "Thu, 10 Sep 2026 07:34:19 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -251,28 +275,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Arm explains its mobile-first AI-reconstruction technology, which takes a different tack from the \"black box\" approach of DLSS 5",
-    "link": "https://www.gamesindustry.biz/assassins-creed-black-flag-resynced-debuts-in-top-5-for-pc-and-console-revenue-in-july-newzoo-charts",
-    "description": "Remakes and rereleases drove games revenue in July, with Assassin's Creed Black Flag Resynced debuting in second on PC and fourth on console in Newzoo's charts. Read more",
-    "date": "Tue, 08 Sep 2026 02:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "\"It's not sexy, but it's one of the most successful genres on Steam\" – Stronghold developer Firefly launches publishing label to serve the vast strategy market",
-    "link": "https://www.gamesindustry.biz/capcom-says-it-will-focus-on-reviving-dormant-ips-after-onimusha-way-of-the-swords-breakout-launch",
-    "description": "Capcom has revealed it will focus on reactivating dormant intellectual property following a strong launch for Onimusha: Way of the Sword. Read more",
-    "date": "Mon, 07 Sep 2026 15:34:14 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "intellectual property"
-    ]
-  },
-  {
     "title": "Who&#8217;s Tracking You? Use This New Service to Find Out",
     "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
     "description": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever.\r\n\r\nIn a statement released today, the Australian Federal Police (AFP) said two unn",
@@ -295,16 +297,13 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Private Torrent Tracker Lawsuit Takes Bizarre Turn: &#8216;I&#8217;m a Different Matthew Schneider&#8217; (Updated)",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Wed, 09 Sep 2026 11:57:22 +0000",
-    "source": "TorrentFreak",
+    "title": "Saber Interactive has \"no real development in North America any more\"",
+    "link": "https://www.gamesindustry.biz/saudi-arabias-pif-reportedly-considering-to-combine-ea-with-savvy-games-group",
+    "description": "Saudi Arabia's Public Investment Fund (PIF) is reportedly planning to combine Electronic Arts with its subsidiary, Savvy Games Group. Read more",
+    "date": "Fri, 11 Sep 2026 08:27:29 +0000",
+    "source": "GamesIndustry",
     "relevance_score": 2,
-    "matched_keywords": [
-      "torrent",
-      "copyright"
-    ]
+    "matched_keywords": []
   },
   {
     "title": "Lego Digital Play acquires mobile studio Offroad Games",
