@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-11 11:04 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-12 10:33 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-11T11:04:10.471386",
+  fetched_at: "2026-09-12T10:33:17.173580",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
-      "piracy",
       "torrent",
       "pirate",
+      "piracy",
+      "rom",
       "copyright"
     ]
   },
@@ -91,9 +91,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "dmca",
       "torrent",
+      "dmca",
       "emulator"
+    ]
+  },
+  {
+    "title": "Pirate IPTV Operators Face $32.7 Million Judgment and Self-Expanding Blocking Injunction",
+    "link": "https://torrentfreak.com/report-links-pirate-iptv-to-hezbollah-tv-calls-for-u-s-site-blocking/",
+    "description": "A new report released by the Digital Citizens Alliance warns that pirate IPTV services are giving terrorist organizations a back door into American homes. By highlighting the availability of Hezbollah and Hamas channels via these services, the group reframes piracy as a national security threat, whi",
+    "date": "Thu, 10 Sep 2026 13:39:13 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -121,20 +133,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "A German Court Drew the Piracy Line at 81.5%, KinoGO Was Blocked with (at least) 82.4% (Updated)",
-    "link": "https://torrentfreak.com/filmmaker-who-sued-ptp-btn-and-four-other-private-torrent-trackers-may-be-an-impostor/",
-    "description": "A federal copyright lawsuit targeting six of the most prominent private BitTorrent trackers, including PassThePopcorn, BroadcasTheNet, and HDBits, may be the work of an impostor. Attorneys representing two of the alleged operators told a federal judge they tracked down the real person behind the fil",
-    "date": "Tue, 18 Aug 2026 15:01:43 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "piracy",
-      "copyright",
-      "torrent",
-      "rom"
-    ]
-  },
-  {
     "title": "Take-Two Says GTA 6 Leak Probe Is &#8220;Rapidly Evolving,&#8221; Wants New Discord Demands Under Seal",
     "link": "https://torrentfreak.com/a-cute-little-libgen-babysitter-music-publishers-sue-anthropic-founders-over-torrenting-spree/",
     "description": "Anthropic's bulk torrenting of pirated books from shadow libraries LibGen and Pirate Library Mirror continues to generate new lawsuits. A group of major publishers, including Sony Music and Warner Chappell, have sued the AI company and its co-founders, alleging that torrenting activity that resulted",
@@ -148,10 +146,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Pirate IPTV Operators Face $32.7 Million Judgment and Self-Expanding Blocking Injunction",
+    "title": "Report Links Pirate IPTV to Hezbollah TV, Calls for U.S. Site-Blocking",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Thu, 10 Sep 2026 13:39:13 +0000",
+    "date": "Fri, 11 Sep 2026 11:48:27 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
@@ -179,8 +177,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "dmca",
-      "copyright"
+      "copyright",
+      "dmca"
     ]
   },
   {
@@ -231,10 +229,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Saudi Arabia's PIF reportedly considering to combine EA with Savvy Games Group",
+    "title": "Goodwill Hunting: Consoles’ brand value and loyalty is being tested | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 11 Sep 2026 08:29:50 +0000",
+    "date": "Fri, 11 Sep 2026 16:28:42 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -264,17 +262,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "The Tetris Company says it was \"not involved in the creation\" of White House parody, takes \"copyright infringement very seriously\"",
-    "link": "https://www.gamesindustry.biz/european-game-developers-are-more-concerned-that-ai-will-pressure-them-to-work-faster-rather-than-take-their-job",
-    "description": "61% of European game developers are concerned that generative AI will place them under pressure to work faster and produce more, but only 35% think that AI might cause them to lose their job or reduce demand for their role. Read more",
-    "date": "Tue, 08 Sep 2026 13:03:33 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "copyright"
-    ]
-  },
-  {
     "title": "Who&#8217;s Tracking You? Use This New Service to Find Out",
     "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
     "description": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever.\r\n\r\nIn a statement released today, the Australian Federal Police (AFP) said two unn",
@@ -295,6 +282,42 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
+  },
+  {
+    "title": "State of the Unions: the rise of unionisation in games workplaces",
+    "link": "https://www.gamesindustry.biz/goodwill-hunting-consoles-brand-value-and-loyalty-is-being-tested-opinion",
+    "description": "There&rsquo;s a really important piece of context that looms behind every decision, every announcement, and every news story about PlayStation or Xbox at the moment. It&rsquo;s a ticking clock; a countdown to the moment when Sony and Microsoft are going to have to start talking about their next-gene",
+    "date": "Fri, 11 Sep 2026 15:59:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "European studio expenditure on external talent rises 63% in 2025",
+    "link": "https://www.gamesindustry.biz/state-of-the-unions-the-rise-of-unionisation-in-games-workplaces",
+    "description": "The rise of unions in the video games industry has been a hot topic over the past decade, as more and more workers seek protection for their rights in the face of harsh working conditions and management shortcomings around the world. Read more",
+    "date": "Fri, 11 Sep 2026 13:46:06 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Saber Interactive's Tim Willits on generative AI, moving development out of North America, and embracing recognisable IP",
+    "link": "https://www.gamesindustry.biz/marvels-wolverine-critical-consensus",
+    "description": "Insomniac Games' take on Wolverine has had an eventful route to market. Read more",
+    "date": "Fri, 11 Sep 2026 12:40:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Saudi Arabia's PIF reportedly considering to combine EA with Savvy Games Group",
+    "link": "https://www.gamesindustry.biz/saber-interactives-tim-willits-on-generative-ai-moving-development-out-of-north-america-and-embracing-recognisable-ip",
+    "description": "Saber Interactive has achieved a lot in the past few years, but the most noticeable recent news to come out of the the company was CEO Matthew Karch's unfiltered response to accusations that a writer had been replaced with ChatGPT. When we sit down at Gamescom for the second of two conversations wit",
+    "date": "Fri, 11 Sep 2026 08:29:50 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Saber Interactive has \"no real development in North America any more\"",
@@ -319,33 +342,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/lego-digital-play-acquires-mobile-studio-offroad-games",
     "description": "Lego Digital Play has acquired Offroad Games. Read more",
     "date": "Wed, 09 Sep 2026 17:24:25 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Mark Cerny and Geoff Keighley launch Nova Games Foundation to fund young designers",
-    "link": "https://www.gamesindustry.biz/epic-games-store-to-introduce-age-checks-for-r18-games-in-australia",
-    "description": "Epic Games will require Australian players to confirm they're 18 or older before downloading or buying R18+ rated titles on the Epic Games Store, starting September 9. Read more",
-    "date": "Wed, 09 Sep 2026 16:15:46 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Keywords Studios combines multiple marketing businesses into global creative agency FreeAnimal",
-    "link": "https://www.gamesindustry.biz/mark-cerny-and-geoff-keighley-launch-nova-games-foundation-to-fund-young-designers",
-    "description": "Mark Cerny and Geoff Keighley have launched the Nova Games Foundation, a philanthropic fellowship program aimed at funding young game designers. Read more",
-    "date": "Wed, 09 Sep 2026 15:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Frontier Developments FY26 adjusted operating profit jumps 62% to £21.4m",
-    "link": "https://www.gamesindustry.biz/we-probably-need-a-few-more-expedition-33s-to-just-prove-them-wrong-the-maker-of-valor-mortis-on-why-publishers-should-have-faith-in-aa",
-    "description": "Over the past 12 years, Polish studio One More Level has carved out a niche in the world of AA games with projects whose production values often approach those of AAA titles. Its eye-catching 2020 cyberpunk action platformer Ghostrunner launched to critical acclaim and commercial success, selling 5.",
-    "date": "Wed, 09 Sep 2026 11:37:22 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
