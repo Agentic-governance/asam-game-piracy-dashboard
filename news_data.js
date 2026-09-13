@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-12 10:33 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-13 11:36 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-12T10:33:17.173580",
+  fetched_at: "2026-09-13T11:36:24.043286",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
       "pirate",
+      "copyright",
+      "torrent",
       "piracy",
-      "rom",
-      "copyright"
+      "rom"
     ]
   },
   {
@@ -27,8 +27,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "pirate",
-      "piracy",
-      "dmca"
+      "dmca",
+      "piracy"
     ]
   },
   {
@@ -39,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "crack",
       "dmca",
-      "emulator",
-      "crack"
+      "emulator"
     ]
   },
   {
@@ -53,8 +53,8 @@ const ARIA_NEWS = {
     "relevance_score": 8,
     "matched_keywords": [
       "pirate",
-      "piracy",
       "torrent",
+      "piracy",
       "rom"
     ]
   },
@@ -81,19 +81,6 @@ const ARIA_NEWS = {
       "pirate",
       "piracy",
       "rom"
-    ]
-  },
-  {
-    "title": "&#8216;Filmmaker&#8217; Who Sued PTP, BTN, and Four Other Private Torrent Trackers May Be an Impostor",
-    "link": "https://torrentfreak.com/nintendo-wipes-out-400-switch-emulator-repos-in-single-day-github-sweep/",
-    "description": "Nintendo has filed seven DMCA anti-circumvention notices at GitHub in a single day, wiping out more than 400 Switch emulator repositories in one coordinated campaign. The targets include copies of the Suyu emulator, several Yuzu forks, and Skyline, an emulator that shut itself down years ago. The ta",
-    "date": "Thu, 20 Aug 2026 11:58:53 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "torrent",
-      "dmca",
-      "emulator"
     ]
   },
   {
@@ -128,8 +115,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "dmca",
-      "crack"
+      "crack",
+      "dmca"
     ]
   },
   {
@@ -146,10 +133,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Report Links Pirate IPTV to Hezbollah TV, Calls for U.S. Site-Blocking",
+    "title": "As U.S. Trade Pressure Mounts, Vietnam Prepares to Prosecute 74 &#8216;Xoi Lac&#8217; Sports Pirates",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Fri, 11 Sep 2026 11:48:27 +0000",
+    "date": "Sat, 12 Sep 2026 18:18:08 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
@@ -177,8 +164,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "dmca"
+      "dmca",
+      "copyright"
     ]
   },
   {
@@ -201,8 +188,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -215,6 +202,17 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "arrested",
       "rom"
+    ]
+  },
+  {
+    "title": "Report Links Pirate IPTV to Hezbollah TV, Calls for U.S. Site-Blocking",
+    "link": "https://torrentfreak.com/as-us-trade-pressure-mounts-vietnam-prepares-to-prosecute-74-xoi-lac-sports-pirates/",
+    "description": "Six months after Vietnamese police shut down the country's notorious pirate football streaming network 'Xoi Lac TV', investigators have recommended criminal charges against 74 people. While pirated streams drew millions of people to the sites, the operators face the most severe prison sentences for ",
+    "date": "Fri, 11 Sep 2026 11:48:27 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "pirate"
     ]
   },
   {
