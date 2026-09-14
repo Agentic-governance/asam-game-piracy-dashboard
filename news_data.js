@@ -1,21 +1,21 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-13 11:36 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-14 12:30 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-13T11:36:24.043286",
+  fetched_at: "2026-09-14T12:30:13.711599",
   item_count: 30,
   items: [
   {
-    "title": "Online Piracy Costs the UK 9,400 Nurses a Year, If Pirates Keep Their Word",
+    "title": "As U.S. Trade Pressure Mounts, Vietnam Prepares to Prosecute 74 &#8216;Xoi Lac&#8217; Sports Pirates",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Mayday' tops the chart, followed by 'Spider-Man: Brand New Day.' 'Batman: Knightfall - Part 1: Knightfall' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy a",
-    "date": "Sun, 06 Sep 2026 07:41:26 +0000",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Spider-Man: Brand New Day' tops the chart, followed by 'Coyote vs. Acme.' 'The Odyssey' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sat, 12 Sep 2026 18:18:08 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
-      "copyright",
+      "rom",
       "torrent",
+      "pirate",
       "piracy",
-      "rom"
+      "copyright"
     ]
   },
   {
@@ -27,21 +27,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "pirate",
-      "dmca",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Nintendo Wipes Out 400+ Switch Emulator Repos in Single-Day GitHub Sweep",
-    "link": "https://torrentfreak.com/take-two-expands-gta-6-leak-hunt-with-dmca-subpoenas/",
-    "description": "In response to a high-profile GTA 6 leak, Take-Two has requested broad DMCA subpoenas, targeting thousands of Discord users, as well as Microsoft data. The crackdown doesn't stop there. With two additional DMCA subpoenas, the gaming company expanded its information search to X and YouTube. Some of t",
-    "date": "Fri, 21 Aug 2026 13:47:50 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 9,
-    "matched_keywords": [
-      "crack",
-      "dmca",
-      "emulator"
+      "piracy",
+      "dmca"
     ]
   },
   {
@@ -53,9 +40,9 @@ const ARIA_NEWS = {
     "relevance_score": 8,
     "matched_keywords": [
       "pirate",
-      "torrent",
       "piracy",
-      "rom"
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -71,10 +58,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 09/07/2026",
+    "title": "Online Piracy Costs the UK 9,400 Nurses a Year, If Pirates Keep Their Word",
     "link": "https://torrentfreak.com/openais-chatgpt-was-built-on-concealed-mass-piracy-authors-tell-court/",
     "description": "Book authors have asked a New York federal judge to rule that OpenAI built its AI models on “mass piracy”. Pointing to internal documents, a summary judgment motion alleges the AI giant downloaded books from LibGen, hid the evidence by renaming datasets, and designed its models to supplant human wri",
-    "date": "Sun, 06 Sep 2026 23:09:40 +0000",
+    "date": "Sun, 06 Sep 2026 07:41:26 +0000",
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
@@ -128,20 +115,20 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "pirate",
-      "torrent",
-      "rom"
+      "rom",
+      "torrent"
     ]
   },
   {
-    "title": "As U.S. Trade Pressure Mounts, Vietnam Prepares to Prosecute 74 &#8216;Xoi Lac&#8217; Sports Pirates",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sat, 12 Sep 2026 18:18:08 +0000",
+    "title": "Top 10 Most Pirated Movies of The Week – 09/14/2026",
+    "link": "https://torrentfreak.com/rightsholders-cant-use-openai-and-anthropic-to-dismantle-metas-seeding-defense/",
+    "description": "Meta previously argued that uploading pirated books to other BitTorrent users was an unavoidable side effect of downloading them, and therefore fair use. Rightsholders suing Meta in three related cases tried to dismantle this theory by asking OpenAI and Anthropic to reveal how they torrented shadow ",
+    "date": "Sun, 13 Sep 2026 23:09:40 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
       "pirate",
-      "copyright"
+      "torrent"
     ]
   },
   {
@@ -188,8 +175,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -200,8 +187,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
     ]
   },
   {
@@ -227,10 +214,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Goodwill Hunting: Consoles’ brand value and loyalty is being tested | Opinion",
+    "title": "New StarCraft title to launch in 2030, will be an open-world FPS",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 11 Sep 2026 16:28:42 +0000",
+    "date": "Mon, 14 Sep 2026 10:29:14 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Moss developer Polyarc Games announces closure",
+    "link": "https://www.gamesindustry.biz/new-starcraft-title-to-launch-in-2030-will-be-an-open-world-fps",
+    "description": "Blizzard Entertainment has announced that the next StarCraft title will shift from real-time strategy to an open-world first-person shooter. Read more",
+    "date": "Mon, 14 Sep 2026 08:00:08 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -282,6 +280,15 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Goodwill Hunting: Consoles’ brand value and loyalty is being tested | Opinion",
+    "link": "https://www.gamesindustry.biz/moss-developer-polyarc-games-announces-closure",
+    "description": "Moss developer Polyarc Games is shutting down after 12 years in operation. Read more",
+    "date": "Fri, 11 Sep 2026 16:28:42 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "State of the Unions: the rise of unionisation in games workplaces",
     "link": "https://www.gamesindustry.biz/goodwill-hunting-consoles-brand-value-and-loyalty-is-being-tested-opinion",
     "description": "There&rsquo;s a really important piece of context that looms behind every decision, every announcement, and every news story about PlayStation or Xbox at the moment. It&rsquo;s a ticking clock; a countdown to the moment when Sony and Microsoft are going to have to start talking about their next-gene",
@@ -331,15 +338,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/almost-1900-blizzard-workers-ratify-first-union-contract-with-microsoft",
     "description": "Blizzard Entertainment has secured a first union contract with parent company Microsoft, ratified by a workforce vote covering just under 1,900 staff. Read more",
     "date": "Wed, 09 Sep 2026 18:56:51 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Epic Games Store to introduce age checks for R18+ games in Australia",
-    "link": "https://www.gamesindustry.biz/lego-digital-play-acquires-mobile-studio-offroad-games",
-    "description": "Lego Digital Play has acquired Offroad Games. Read more",
-    "date": "Wed, 09 Sep 2026 17:24:25 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
