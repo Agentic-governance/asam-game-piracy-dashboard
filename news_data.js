@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-14 12:30 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-15 11:33 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-14T12:30:13.711599",
+  fetched_at: "2026-09-15T11:33:16.821807",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
-      "torrent",
-      "pirate",
       "piracy",
-      "copyright"
+      "torrent",
+      "copyright",
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -26,8 +26,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "piracy",
+      "pirate",
       "dmca"
     ]
   },
@@ -39,10 +39,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
-      "piracy",
       "rom",
-      "torrent"
+      "piracy",
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -65,9 +65,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "rom",
       "piracy",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -78,8 +78,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -90,8 +90,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -114,9 +114,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
       "rom",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -127,8 +127,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -139,8 +139,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -151,8 +151,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "dmca",
-      "copyright"
+      "copyright",
+      "dmca"
     ]
   },
   {
@@ -163,8 +163,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -214,10 +214,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "New StarCraft title to launch in 2030, will be an open-world FPS",
+    "title": "Sega and Netflix announce partnership to develop Crazy Taxi, Sonic, and Stranger Than Heaven adaptations",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 14 Sep 2026 10:29:14 +0000",
+    "date": "Tue, 15 Sep 2026 10:47:08 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -229,28 +229,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/new-starcraft-title-to-launch-in-2030-will-be-an-open-world-fps",
     "description": "Blizzard Entertainment has announced that the next StarCraft title will shift from real-time strategy to an open-world first-person shooter. Read more",
     "date": "Mon, 14 Sep 2026 08:00:08 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Xbox to publish Kojima Productions' Physint after it \"unexpectedly received notice\" from PlayStation that it would cancel the project",
-    "link": "https://www.gamesindustry.biz/newzoo-most-established-live-service-and-evergreen-titles-were-flat-or-down-year-over-year-in-h1-2026",
-    "description": "Live-service and evergreen titles were flat or declined year-over-year in the first half of 2026 compared to 2025, according to Newzoo data. Read more",
-    "date": "Thu, 10 Sep 2026 07:34:19 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Almost 1,900 Blizzard workers ratify first union contract with Microsoft",
-    "link": "https://www.gamesindustry.biz/xbox-to-publish-kojima-productions-physint-after-it-unexpectedly-received-notice-from-playstation-that-it-would-cancel-the-project",
-    "description": "Xbox will publish Kojima Productions' upcoming title Physint after the developer \"unexpectedly received notice from PlayStation Studios that they would cancel the Physint project\" in mid-June. Read more",
-    "date": "Wed, 09 Sep 2026 20:14:39 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -280,64 +258,82 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Curve Games partners with Wayfinder Studios to publish online co-op RPG Wyldheart",
+    "link": "https://www.gamesindustry.biz/team17-owner-everplay-increases-shareholding-in-wardogs-dev-bulkhead-touts-strong-fy26-results",
+    "description": "Team17 owner Everplay expects strong full-year results, as Bulkhead's Wardogs and Expression Games' Hell Let Loose: Vietnam are outperforming expectations. Read more",
+    "date": "Tue, 15 Sep 2026 07:44:48 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Level-5 CEO admits using generative AI in recent showcase",
+    "link": "https://www.gamesindustry.biz/curve-games-partners-with-wayfinder-studios-to-publish-online-co-op-rpg-wyldheart",
+    "description": "Curve Games has partnered with independent developer Wayfinder Studios to publish Wyldheart, its online co-op RPG. Read more",
+    "date": "Mon, 14 Sep 2026 20:10:38 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Valve opens waiting list for Steam Frame, starting at $1059",
+    "link": "https://www.gamesindustry.biz/level-5-ceo-admits-using-generative-ai-in-recent-showcase",
+    "description": "Level-5 president and CEO Akihiro Hino has apologized after confirming that generative AI was used in the studio's recent digital showcase. Read more",
+    "date": "Mon, 14 Sep 2026 18:03:34 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "More than 40% of people cancelling Xbox Game Pass, PlayStation Plus and Nintendo Switch Online subscriptions blame rising costs",
+    "link": "https://www.gamesindustry.biz/valve-opens-waiting-list-for-steam-frame-starting-at-1059",
+    "description": "Valve has opened a waiting list for its new VR system, Steam Frame. Read more",
+    "date": "Mon, 14 Sep 2026 17:30:55 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Rockstar and IWGB outline arguments at start of tribunal",
+    "link": "https://www.gamesindustry.biz/more-than-40-of-people-cancelling-xbox-game-pass-playstation-plus-and-nintendo-switch-online-subscriptions-blame-rising-costs",
+    "description": "Cost is increasingly blamed for gamers choosing to cancel their Xbox Game Pass, PlayStation Plus, and Nintendo Switch Online subscriptions. Read more",
+    "date": "Mon, 14 Sep 2026 16:22:08 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "PlayStation allegedly had \"concerns over budget, potential profitability, and exclusivity\" over Kojima Productions' Physint",
+    "link": "https://www.gamesindustry.biz/rockstar-and-iwgb-outline-arguments-at-start-of-tribunal",
+    "description": "Rockstar and the Independent Workers' Union of Great Britain have set out their arguments at an ongoing employment tribunal expected to run until October 16. Read more",
+    "date": "Mon, 14 Sep 2026 13:43:40 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Roblox creators will soon be able to publish games on multiple platforms as standalone apps",
+    "link": "https://www.gamesindustry.biz/playstation-allegedly-had-concerns-over-budget-potential-profitability-and-exclusivity-over-kojima-productions-physint",
+    "description": "PlayStation reportedly  discontinued its involvement with Kojima Productions' Physint due to \"concerns over budget, potential profitability, and exclusivity.\" Read more",
+    "date": "Mon, 14 Sep 2026 12:58:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"What's the harm in asking?\" – Dlala Studios on taking a big swing to get comedy legend Bob Mortimer for the upcoming game Murals",
+    "link": "https://www.gamesindustry.biz/roblox-creators-will-soon-be-able-to-publish-games-on-multiple-platforms-as-standalone-apps",
+    "description": "Roblox will enable creators to publish their games on mobile, PC, and console through the Roblox Everywhere initiative. Read more",
+    "date": "Mon, 14 Sep 2026 12:30:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Goodwill Hunting: Consoles’ brand value and loyalty is being tested | Opinion",
     "link": "https://www.gamesindustry.biz/moss-developer-polyarc-games-announces-closure",
     "description": "Moss developer Polyarc Games is shutting down after 12 years in operation. Read more",
     "date": "Fri, 11 Sep 2026 16:28:42 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "State of the Unions: the rise of unionisation in games workplaces",
-    "link": "https://www.gamesindustry.biz/goodwill-hunting-consoles-brand-value-and-loyalty-is-being-tested-opinion",
-    "description": "There&rsquo;s a really important piece of context that looms behind every decision, every announcement, and every news story about PlayStation or Xbox at the moment. It&rsquo;s a ticking clock; a countdown to the moment when Sony and Microsoft are going to have to start talking about their next-gene",
-    "date": "Fri, 11 Sep 2026 15:59:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "European studio expenditure on external talent rises 63% in 2025",
-    "link": "https://www.gamesindustry.biz/state-of-the-unions-the-rise-of-unionisation-in-games-workplaces",
-    "description": "The rise of unions in the video games industry has been a hot topic over the past decade, as more and more workers seek protection for their rights in the face of harsh working conditions and management shortcomings around the world. Read more",
-    "date": "Fri, 11 Sep 2026 13:46:06 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Saber Interactive's Tim Willits on generative AI, moving development out of North America, and embracing recognisable IP",
-    "link": "https://www.gamesindustry.biz/marvels-wolverine-critical-consensus",
-    "description": "Insomniac Games' take on Wolverine has had an eventful route to market. Read more",
-    "date": "Fri, 11 Sep 2026 12:40:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Saudi Arabia's PIF reportedly considering to combine EA with Savvy Games Group",
-    "link": "https://www.gamesindustry.biz/saber-interactives-tim-willits-on-generative-ai-moving-development-out-of-north-america-and-embracing-recognisable-ip",
-    "description": "Saber Interactive has achieved a lot in the past few years, but the most noticeable recent news to come out of the the company was CEO Matthew Karch's unfiltered response to accusations that a writer had been replaced with ChatGPT. When we sit down at Gamescom for the second of two conversations wit",
-    "date": "Fri, 11 Sep 2026 08:29:50 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Saber Interactive has \"no real development in North America any more\"",
-    "link": "https://www.gamesindustry.biz/saudi-arabias-pif-reportedly-considering-to-combine-ea-with-savvy-games-group",
-    "description": "Saudi Arabia's Public Investment Fund (PIF) is reportedly planning to combine Electronic Arts with its subsidiary, Savvy Games Group. Read more",
-    "date": "Fri, 11 Sep 2026 08:27:29 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Lego Digital Play acquires mobile studio Offroad Games",
-    "link": "https://www.gamesindustry.biz/almost-1900-blizzard-workers-ratify-first-union-contract-with-microsoft",
-    "description": "Blizzard Entertainment has secured a first union contract with parent company Microsoft, ratified by a workforce vote covering just under 1,900 staff. Read more",
-    "date": "Wed, 09 Sep 2026 18:56:51 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
