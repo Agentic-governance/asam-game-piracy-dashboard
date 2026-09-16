@@ -1,8 +1,37 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-15 11:33 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-16 11:19 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-15T11:33:16.821807",
+  fetched_at: "2026-09-16T11:19:40.050871",
   item_count: 30,
   items: [
+  {
+    "title": "Rep. Issa Files Competing U.S. Pirate Site Blocking Bill",
+    "link": "https://torrentfreak.com/denuvo-sues-game-cracker-voices38-for-bypassing-its-anti-tamper-drm/",
+    "description": "Anti-piracy outfit Denuvo has filed a DMCA anti-circumvention lawsuit in a U.S. federal court, targeting the anonymous game cracker known as 'voices38.' The defendant stands accused of bypassing Denuvo's digital locks on more than two dozen games, including Hogwarts Legacy and Black Myth: Wukong. As",
+    "date": "Tue, 15 Sep 2026 19:43:34 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 17,
+    "matched_keywords": [
+      "denuvo",
+      "piracy",
+      "crack",
+      "pirate",
+      "dmca"
+    ]
+  },
+  {
+    "title": "Denuvo Sues Game Cracker &#8216;voices38&#8217; for Bypassing its Anti-Tamper DRM",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Wed, 16 Sep 2026 08:29:21 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 10,
+    "matched_keywords": [
+      "crack",
+      "denuvo",
+      "drm",
+      "copyright"
+    ]
+  },
   {
     "title": "As U.S. Trade Pressure Mounts, Vietnam Prepares to Prosecute 74 &#8216;Xoi Lac&#8217; Sports Pirates",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
@@ -11,10 +40,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "torrent",
-      "copyright",
       "rom",
+      "copyright",
+      "piracy",
       "pirate"
     ]
   },
@@ -26,9 +55,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "pirate",
-      "dmca"
+      "dmca",
+      "piracy"
     ]
   },
   {
@@ -39,10 +68,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "rom",
-      "piracy",
       "torrent",
-      "pirate"
+      "rom",
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -66,8 +95,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "rom",
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -78,8 +107,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -90,20 +119,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Take-Two Expands GTA 6 Leak Hunt With DMCA Subpoenas to X and YouTube",
-    "link": "https://torrentfreak.com/annas-archive-owes-340-million-lost-several-domains-but-its-still-online/",
-    "description": "When Anna's Archive suffered widespread downtime earlier this month, many users feared a legal crackdown. Instead, the site was reportedly targeted by a coordinated assault on its network infrastructure. Just as it did after facing $340 million in damages and losing several domains earlier this year",
-    "date": "Sun, 23 Aug 2026 14:54:56 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "crack",
-      "dmca"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -114,8 +131,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "rom",
       "torrent",
+      "rom",
       "pirate"
     ]
   },
@@ -175,8 +192,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -189,6 +206,17 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "rom",
       "arrested"
+    ]
+  },
+  {
+    "title": "Accused Impostor in Private Tracker Lawsuit Driven by Revenge, Defense Says",
+    "link": "https://torrentfreak.com/rep-issa-files-competing-u-s-pirate-site-blocking-bill/",
+    "description": "U.S. Representative Darrell Issa has officially introduced a new bill that aims to block foreign pirate sites in the United States. While the final text has yet to be published, an early draft suggests that both ISPs and DNS resolvers will be covered. The bill has already triggered opposition, while",
+    "date": "Tue, 15 Sep 2026 14:31:00 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "pirate"
     ]
   },
   {
@@ -214,10 +242,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Sega and Netflix announce partnership to develop Crazy Taxi, Sonic, and Stranger Than Heaven adaptations",
+    "title": "Bohemia Interactive takes minority stake in Everwind developer Enjoy Studio",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 15 Sep 2026 10:47:08 +0000",
+    "date": "Wed, 16 Sep 2026 07:57:45 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -258,6 +286,33 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Why the publisher of Nintendo Life is launching a new PC gaming site",
+    "link": "https://www.gamesindustry.biz/bohemia-interactive-takes-minority-stake-in-everwind-developer-enjoy-studio",
+    "description": "Bohemia Interactive has secured an undisclosed minority stake in Polish developer Enjoy Studio, creator of co-op FPS survival RPG Everwind. Read more",
+    "date": "Wed, 16 Sep 2026 06:30:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Why switching main characters for your game's sequel might be a mistake",
+    "link": "https://www.gamesindustry.biz/why-the-publisher-of-nintendo-life-is-launching-a-new-pc-gaming-site",
+    "description": "Games media publisher Hookshot has launched Steam Hype, a new PC-focused media outlet. It is the fifth site launched by Hookshot &ndash; in which GamesIndustry.biz parent IGN Entertainment holds a minority stake through its acquisition of Gamer Network &ndash; and completes the firm's platform lineu",
+    "date": "Tue, 15 Sep 2026 12:30:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Sega and Netflix announce partnership to develop Crazy Taxi, Sonic, and Stranger Than Heaven adaptations",
+    "link": "https://www.gamesindustry.biz/why-switching-main-characters-for-your-games-sequel-might-be-a-mistake",
+    "description": "Christian Fonnesbech is a well-known name in the North European games industry. He was previously head of IP development at Nordisk Film Games, but in 2019 he founded Leverage in Copenhagen to help game studios develop their IP. Read more",
+    "date": "Tue, 15 Sep 2026 10:47:08 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Curve Games partners with Wayfinder Studios to publish online co-op RPG Wyldheart",
     "link": "https://www.gamesindustry.biz/team17-owner-everplay-increases-shareholding-in-wardogs-dev-bulkhead-touts-strong-fy26-results",
     "description": "Team17 owner Everplay expects strong full-year results, as Bulkhead's Wardogs and Expression Games' Hell Let Loose: Vietnam are outperforming expectations. Read more",
@@ -289,51 +344,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/valve-opens-waiting-list-for-steam-frame-starting-at-1059",
     "description": "Valve has opened a waiting list for its new VR system, Steam Frame. Read more",
     "date": "Mon, 14 Sep 2026 17:30:55 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Rockstar and IWGB outline arguments at start of tribunal",
-    "link": "https://www.gamesindustry.biz/more-than-40-of-people-cancelling-xbox-game-pass-playstation-plus-and-nintendo-switch-online-subscriptions-blame-rising-costs",
-    "description": "Cost is increasingly blamed for gamers choosing to cancel their Xbox Game Pass, PlayStation Plus, and Nintendo Switch Online subscriptions. Read more",
-    "date": "Mon, 14 Sep 2026 16:22:08 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "PlayStation allegedly had \"concerns over budget, potential profitability, and exclusivity\" over Kojima Productions' Physint",
-    "link": "https://www.gamesindustry.biz/rockstar-and-iwgb-outline-arguments-at-start-of-tribunal",
-    "description": "Rockstar and the Independent Workers' Union of Great Britain have set out their arguments at an ongoing employment tribunal expected to run until October 16. Read more",
-    "date": "Mon, 14 Sep 2026 13:43:40 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Roblox creators will soon be able to publish games on multiple platforms as standalone apps",
-    "link": "https://www.gamesindustry.biz/playstation-allegedly-had-concerns-over-budget-potential-profitability-and-exclusivity-over-kojima-productions-physint",
-    "description": "PlayStation reportedly  discontinued its involvement with Kojima Productions' Physint due to \"concerns over budget, potential profitability, and exclusivity.\" Read more",
-    "date": "Mon, 14 Sep 2026 12:58:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"What's the harm in asking?\" – Dlala Studios on taking a big swing to get comedy legend Bob Mortimer for the upcoming game Murals",
-    "link": "https://www.gamesindustry.biz/roblox-creators-will-soon-be-able-to-publish-games-on-multiple-platforms-as-standalone-apps",
-    "description": "Roblox will enable creators to publish their games on mobile, PC, and console through the Roblox Everywhere initiative. Read more",
-    "date": "Mon, 14 Sep 2026 12:30:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Goodwill Hunting: Consoles’ brand value and loyalty is being tested | Opinion",
-    "link": "https://www.gamesindustry.biz/moss-developer-polyarc-games-announces-closure",
-    "description": "Moss developer Polyarc Games is shutting down after 12 years in operation. Read more",
-    "date": "Fri, 11 Sep 2026 16:28:42 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
