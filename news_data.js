@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-16 11:19 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-17 11:28 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-16T11:19:40.050871",
+  fetched_at: "2026-09-17T11:28:06.480525",
   item_count: 30,
   items: [
   {
@@ -11,25 +11,25 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 17,
     "matched_keywords": [
-      "denuvo",
-      "piracy",
-      "crack",
       "pirate",
-      "dmca"
+      "crack",
+      "piracy",
+      "dmca",
+      "denuvo"
     ]
   },
   {
     "title": "Denuvo Sues Game Cracker &#8216;voices38&#8217; for Bypassing its Anti-Tamper DRM",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/court-upholds-belgian-pirate-dns-blocking-order-opendns-exit-looms/",
+    "description": "Google, Cloudflare, and Cisco lost a key challenge against a Belgian DNS blocking order. The revised injunction, obtained by sports rightsholder DAZN, requires alternative resolvers to block pirate sports streaming domains on match days. Cisco says it will suspend OpenDNS in Belgium rather than comp",
     "date": "Wed, 16 Sep 2026 08:29:21 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 10,
+    "relevance_score": 12,
     "matched_keywords": [
+      "pirate",
       "crack",
-      "denuvo",
       "drm",
-      "copyright"
+      "denuvo"
     ]
   },
   {
@@ -40,11 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
+      "pirate",
       "rom",
+      "torrent",
       "copyright",
-      "piracy",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -68,9 +68,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
+      "pirate",
       "torrent",
       "rom",
-      "pirate",
       "piracy"
     ]
   },
@@ -94,8 +94,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "pirate",
+      "rom",
       "piracy"
     ]
   },
@@ -112,18 +112,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Cineby Starts Staged Shutdown of Its Piracy Empire",
-    "link": "https://torrentfreak.com/belgian-orders-demand-pirate-site-operators-bank-details-crypto-wallets-and-server-logs/",
-    "description": "Over the past two years, Belgium's anti-piracy blocklist has grown past 1,500 domains. This week the government's anti-piracy department expanded its effort, ordering domain registrars and a registry to hand over names, bank accounts, crypto wallets and connection logs linked to pirate site operator",
-    "date": "Wed, 26 Aug 2026 15:27:48 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
     "title": "Take-Two Says GTA 6 Leak Probe Is &#8220;Rapidly Evolving,&#8221; Wants New Discord Demands Under Seal",
     "link": "https://torrentfreak.com/a-cute-little-libgen-babysitter-music-publishers-sue-anthropic-founders-over-torrenting-spree/",
     "description": "Anthropic's bulk torrenting of pirated books from shadow libraries LibGen and Pirate Library Mirror continues to generate new lawsuits. A group of major publishers, including Sony Music and Warner Chappell, have sued the AI company and its co-founders, alleging that torrenting activity that resulted",
@@ -131,9 +119,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
+      "pirate",
       "torrent",
-      "rom",
-      "pirate"
+      "rom"
+    ]
+  },
+  {
+    "title": "Court Upholds Belgian Pirate DNS Blocking Order, OpenDNS Exit Looms",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Thu, 17 Sep 2026 10:35:06 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -144,8 +144,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -156,8 +156,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -242,10 +242,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Bohemia Interactive takes minority stake in Everwind developer Enjoy Studio",
+    "title": "Remedy's Arhi Makkonen on designing the \"biggest world we have ever done\" for Control Resonant",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 16 Sep 2026 07:57:45 +0000",
+    "date": "Thu, 17 Sep 2026 10:29:52 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -253,10 +253,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Moss developer Polyarc Games announces closure",
-    "link": "https://www.gamesindustry.biz/new-starcraft-title-to-launch-in-2030-will-be-an-open-world-fps",
-    "description": "Blizzard Entertainment has announced that the next StarCraft title will shift from real-time strategy to an open-world first-person shooter. Read more",
-    "date": "Mon, 14 Sep 2026 08:00:08 +0000",
+    "title": "Heart Machine faces possible closure after publishing deal falls through; majority of staff laid off",
+    "link": "https://www.gamesindustry.biz/remedys-arhi-makkonen-on-designing-the-biggest-world-we-have-ever-done-for-control-resonant",
+    "description": "Control Resonant releases on September 24, some seven years after 2019's Control. Much has changed for the sequel, notably a switch of main character from Jesse Faden to Dylan Faden, her brother. The new game also places a focus on melee combat &ndash; a first for Remedy &ndash; and the tight confin",
+    "date": "Thu, 17 Sep 2026 08:39:10 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -284,6 +284,24 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
+  },
+  {
+    "title": "Here are the first finalists for the 2026 GamesIndustry.biz Best Places To Work Awards UK",
+    "link": "https://www.gamesindustry.biz/mindseye-developers-report-new-round-of-layoffs-at-build-a-rocket-boy",
+    "description": "Scottish studio Build a Rocket Boy has reportedly initiated another round of job cuts. Read more",
+    "date": "Wed, 16 Sep 2026 16:08:21 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "1312 Interactive raises $1m in seed funding round",
+    "link": "https://www.gamesindustry.biz/here-are-the-first-finalists-for-the-2026-gamesindustrybiz-best-places-to-work-awards-uk",
+    "description": "We are thrilled to reveal the finalists for the special awards at the UK GamesIndustry.biz Best Places To Work Awards 2026. Read more",
+    "date": "Wed, 16 Sep 2026 13:25:18 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Why the publisher of Nintendo Life is launching a new PC gaming site",
@@ -326,24 +344,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/curve-games-partners-with-wayfinder-studios-to-publish-online-co-op-rpg-wyldheart",
     "description": "Curve Games has partnered with independent developer Wayfinder Studios to publish Wyldheart, its online co-op RPG. Read more",
     "date": "Mon, 14 Sep 2026 20:10:38 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Valve opens waiting list for Steam Frame, starting at $1059",
-    "link": "https://www.gamesindustry.biz/level-5-ceo-admits-using-generative-ai-in-recent-showcase",
-    "description": "Level-5 president and CEO Akihiro Hino has apologized after confirming that generative AI was used in the studio's recent digital showcase. Read more",
-    "date": "Mon, 14 Sep 2026 18:03:34 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "More than 40% of people cancelling Xbox Game Pass, PlayStation Plus and Nintendo Switch Online subscriptions blame rising costs",
-    "link": "https://www.gamesindustry.biz/valve-opens-waiting-list-for-steam-frame-starting-at-1059",
-    "description": "Valve has opened a waiting list for its new VR system, Steam Frame. Read more",
-    "date": "Mon, 14 Sep 2026 17:30:55 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
