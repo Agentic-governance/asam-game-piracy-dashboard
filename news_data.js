@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-17 11:28 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-18 11:01 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-17T11:28:06.480525",
+  fetched_at: "2026-09-18T11:01:14.669995",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 17,
     "matched_keywords": [
-      "pirate",
-      "crack",
+      "denuvo",
       "piracy",
+      "pirate",
       "dmca",
-      "denuvo"
+      "crack"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "denuvo",
       "pirate",
       "crack",
-      "drm",
-      "denuvo"
+      "drm"
     ]
   },
   {
@@ -40,11 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
-      "rom",
       "torrent",
-      "copyright",
-      "piracy"
+      "piracy",
+      "rom",
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -56,8 +56,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "pirate",
-      "dmca",
-      "piracy"
+      "piracy",
+      "dmca"
     ]
   },
   {
@@ -68,10 +68,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
       "torrent",
-      "rom",
-      "piracy"
+      "pirate",
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -95,8 +95,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -119,8 +119,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
       "torrent",
+      "pirate",
       "rom"
     ]
   },
@@ -132,8 +132,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -144,8 +144,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -156,8 +156,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -180,8 +180,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -204,8 +204,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
     ]
   },
   {
@@ -242,10 +242,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Remedy's Arhi Makkonen on designing the \"biggest world we have ever done\" for Control Resonant",
+    "title": "Strauss Zelnick stresses a well-known franchise like GTA still needs marketing: \"You always have to go out and create enthusiasm\"",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 17 Sep 2026 10:29:52 +0000",
+    "date": "Fri, 18 Sep 2026 10:22:40 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -286,6 +286,51 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Dredge maker Black Salt Games establishes indie studio Team Trifold under new Saltworks Entertainment label",
+    "link": "https://www.gamesindustry.biz/king-workers-to-strike-in-sweden-following-rejection-of-collective-bargaining-agreement",
+    "description": "Swedish trade unions Unionen and Sveriges Ingenj&ouml;rer have issued a strike notice against King after executives rejected a proposed collective bargaining agreement  last month. Read more",
+    "date": "Fri, 18 Sep 2026 08:04:19 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "GDC Festival of Gaming appoints four members to advisory board",
+    "link": "https://www.gamesindustry.biz/black-salt-games-establishes-indie-studio-team-trifold-under-new-saltworks-entertainment-label",
+    "description": "Dredge creator Black Salt Games has launched a new studio, Team Trifold, alongside a new white-label publisher called Saltworks Entertainment which will provide services to both studios along with fellow New Zealand indie Disc 2 Games. Read more",
+    "date": "Fri, 18 Sep 2026 07:36:32 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Draft of new EU law proposes sweeping restrictions on online games",
+    "link": "https://www.gamesindustry.biz/gdc-festival-of-gaming-appoints-four-members-to-advisory-board",
+    "description": "GDC Festival of Gaming has appointed four new members to its advisory board. Read more",
+    "date": "Thu, 17 Sep 2026 14:29:58 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"Every major publisher has approached us to review their old Kinect and Wii catalogue\" – Nex Playground is spoilt for choice as its international rollout continues",
+    "link": "https://www.gamesindustry.biz/draft-of-new-eu-law-proposes-sweeping-restrictions-on-online-games",
+    "description": "The EU Commission has published a draft for the proposed EU KIDS Act. While the most controversial stipulations &ndash; namely a ban for under 13's and restrictions for under 15 year old kids &ndash; only apply to social networks and video sharing platforms &ndash; others also apply to online games.",
+    "date": "Thu, 17 Sep 2026 13:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Remedy's Arhi Makkonen on designing the \"biggest world we have ever done\" for Control Resonant",
+    "link": "https://www.gamesindustry.biz/nex-playground-announces-150m-in-new-funding-as-hardware-sales-pass-one-million",
+    "description": "Nex has secured $150 million in funding as sales of its family-oriented active console, Nex Playground, exceed one million units. Read more",
+    "date": "Thu, 17 Sep 2026 10:29:52 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Here are the first finalists for the 2026 GamesIndustry.biz Best Places To Work Awards UK",
     "link": "https://www.gamesindustry.biz/mindseye-developers-report-new-round-of-layoffs-at-build-a-rocket-boy",
     "description": "Scottish studio Build a Rocket Boy has reportedly initiated another round of job cuts. Read more",
@@ -299,51 +344,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/here-are-the-first-finalists-for-the-2026-gamesindustrybiz-best-places-to-work-awards-uk",
     "description": "We are thrilled to reveal the finalists for the special awards at the UK GamesIndustry.biz Best Places To Work Awards 2026. Read more",
     "date": "Wed, 16 Sep 2026 13:25:18 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Why the publisher of Nintendo Life is launching a new PC gaming site",
-    "link": "https://www.gamesindustry.biz/bohemia-interactive-takes-minority-stake-in-everwind-developer-enjoy-studio",
-    "description": "Bohemia Interactive has secured an undisclosed minority stake in Polish developer Enjoy Studio, creator of co-op FPS survival RPG Everwind. Read more",
-    "date": "Wed, 16 Sep 2026 06:30:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Why switching main characters for your game's sequel might be a mistake",
-    "link": "https://www.gamesindustry.biz/why-the-publisher-of-nintendo-life-is-launching-a-new-pc-gaming-site",
-    "description": "Games media publisher Hookshot has launched Steam Hype, a new PC-focused media outlet. It is the fifth site launched by Hookshot &ndash; in which GamesIndustry.biz parent IGN Entertainment holds a minority stake through its acquisition of Gamer Network &ndash; and completes the firm's platform lineu",
-    "date": "Tue, 15 Sep 2026 12:30:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Sega and Netflix announce partnership to develop Crazy Taxi, Sonic, and Stranger Than Heaven adaptations",
-    "link": "https://www.gamesindustry.biz/why-switching-main-characters-for-your-games-sequel-might-be-a-mistake",
-    "description": "Christian Fonnesbech is a well-known name in the North European games industry. He was previously head of IP development at Nordisk Film Games, but in 2019 he founded Leverage in Copenhagen to help game studios develop their IP. Read more",
-    "date": "Tue, 15 Sep 2026 10:47:08 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Curve Games partners with Wayfinder Studios to publish online co-op RPG Wyldheart",
-    "link": "https://www.gamesindustry.biz/team17-owner-everplay-increases-shareholding-in-wardogs-dev-bulkhead-touts-strong-fy26-results",
-    "description": "Team17 owner Everplay expects strong full-year results, as Bulkhead's Wardogs and Expression Games' Hell Let Loose: Vietnam are outperforming expectations. Read more",
-    "date": "Tue, 15 Sep 2026 07:44:48 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Level-5 CEO admits using generative AI in recent showcase",
-    "link": "https://www.gamesindustry.biz/curve-games-partners-with-wayfinder-studios-to-publish-online-co-op-rpg-wyldheart",
-    "description": "Curve Games has partnered with independent developer Wayfinder Studios to publish Wyldheart, its online co-op RPG. Read more",
-    "date": "Mon, 14 Sep 2026 20:10:38 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
