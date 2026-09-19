@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-18 11:01 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-19 10:44 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-18T11:01:14.669995",
+  fetched_at: "2026-09-19T10:44:50.830871",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 17,
     "matched_keywords": [
+      "crack",
       "denuvo",
-      "piracy",
-      "pirate",
       "dmca",
-      "crack"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "denuvo",
       "pirate",
-      "crack",
-      "drm"
+      "drm",
+      "denuvo",
+      "crack"
     ]
   },
   {
@@ -41,10 +41,10 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "torrent",
-      "piracy",
+      "copyright",
       "rom",
       "pirate",
-      "copyright"
+      "piracy"
     ]
   },
   {
@@ -56,8 +56,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "pirate",
-      "piracy",
-      "dmca"
+      "dmca",
+      "piracy"
     ]
   },
   {
@@ -68,8 +68,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "torrent",
       "pirate",
+      "torrent",
       "piracy",
       "rom"
     ]
@@ -119,9 +119,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
       "pirate",
+      "torrent",
       "rom"
+    ]
+  },
+  {
+    "title": "Strauss Zelnick stresses a well-known franchise like GTA still needs marketing: \"You always have to go out and create enthusiasm\"",
+    "link": "https://www.gamesindustry.biz/pulling-focus-must-aaa-pander-to-the-distracted-opinion",
+    "description": "There's been a lot of talk in recent years about the effect that the inflation of development budgets has had on the industry. As budgets in the hundreds of millions of dollars have become common, cracks have emerged in the foundations of the entire model for funding new games. Attitudes to risk hav",
+    "date": "Fri, 18 Sep 2026 10:22:40 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 5,
+    "matched_keywords": [
+      "crack"
     ]
   },
   {
@@ -132,8 +143,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -144,8 +155,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -156,8 +167,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -168,8 +179,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "dmca"
+      "dmca",
+      "copyright"
     ]
   },
   {
@@ -242,10 +253,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Strauss Zelnick stresses a well-known franchise like GTA still needs marketing: \"You always have to go out and create enthusiasm\"",
+    "title": "Control Resonant | Critical Consensus",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 18 Sep 2026 10:22:40 +0000",
+    "date": "Fri, 18 Sep 2026 16:15:36 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -286,6 +297,24 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Sessions on managing AI impact, neurodivergent teams and personal resilience confirmed for GamesIndustry.biz HR Summit",
+    "link": "https://www.gamesindustry.biz/theyve-watched-so-many-people-lose-their-jobs-that-has-an-impact-managing-morale-in-the-wake-of-layoffs",
+    "description": "With tens of thousands of jobs lost across industry in the past few years, to say this is a demoralising time to be working in video games would be something of an understatement. Read more",
+    "date": "Fri, 18 Sep 2026 15:44:15 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Pulling focus: Must AAA pander to the distracted? | Opinion",
+    "link": "https://www.gamesindustry.biz/sessions-on-managing-ai-impact-neurodivergent-teams-and-personal-resilience-confirmed-for-gamesindustrybiz-hr-summit",
+    "description": "We are delighted to confirm the first round of facilitated discussion sessions at this year's GamesIndustry.biz HR Summit, sponsored by Amiqus, which will be held next month at the Royal Institution in London. Read more",
+    "date": "Fri, 18 Sep 2026 13:45:12 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Dredge maker Black Salt Games establishes indie studio Team Trifold under new Saltworks Entertainment label",
     "link": "https://www.gamesindustry.biz/king-workers-to-strike-in-sweden-following-rejection-of-collective-bargaining-agreement",
     "description": "Swedish trade unions Unionen and Sveriges Ingenj&ouml;rer have issued a strike notice against King after executives rejected a proposed collective bargaining agreement  last month. Read more",
@@ -313,37 +342,10 @@ const ARIA_NEWS = {
     "matched_keywords": []
   },
   {
-    "title": "\"Every major publisher has approached us to review their old Kinect and Wii catalogue\" – Nex Playground is spoilt for choice as its international rollout continues",
+    "title": "Nex Playground announces $150m in new funding as hardware sales pass one million",
     "link": "https://www.gamesindustry.biz/draft-of-new-eu-law-proposes-sweeping-restrictions-on-online-games",
     "description": "The EU Commission has published a draft for the proposed EU KIDS Act. While the most controversial stipulations &ndash; namely a ban for under 13's and restrictions for under 15 year old kids &ndash; only apply to social networks and video sharing platforms &ndash; others also apply to online games.",
     "date": "Thu, 17 Sep 2026 13:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Remedy's Arhi Makkonen on designing the \"biggest world we have ever done\" for Control Resonant",
-    "link": "https://www.gamesindustry.biz/nex-playground-announces-150m-in-new-funding-as-hardware-sales-pass-one-million",
-    "description": "Nex has secured $150 million in funding as sales of its family-oriented active console, Nex Playground, exceed one million units. Read more",
-    "date": "Thu, 17 Sep 2026 10:29:52 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Here are the first finalists for the 2026 GamesIndustry.biz Best Places To Work Awards UK",
-    "link": "https://www.gamesindustry.biz/mindseye-developers-report-new-round-of-layoffs-at-build-a-rocket-boy",
-    "description": "Scottish studio Build a Rocket Boy has reportedly initiated another round of job cuts. Read more",
-    "date": "Wed, 16 Sep 2026 16:08:21 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "1312 Interactive raises $1m in seed funding round",
-    "link": "https://www.gamesindustry.biz/here-are-the-first-finalists-for-the-2026-gamesindustrybiz-best-places-to-work-awards-uk",
-    "description": "We are thrilled to reveal the finalists for the special awards at the UK GamesIndustry.biz Best Places To Work Awards 2026. Read more",
-    "date": "Wed, 16 Sep 2026 13:25:18 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
