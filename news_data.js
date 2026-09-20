@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-19 10:44 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-20 11:07 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-19T10:44:50.830871",
+  fetched_at: "2026-09-20T11:07:47.387927",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 17,
     "matched_keywords": [
-      "crack",
-      "denuvo",
       "dmca",
       "pirate",
-      "piracy"
+      "piracy",
+      "crack",
+      "denuvo"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "pirate",
+      "crack",
       "drm",
       "denuvo",
-      "crack"
+      "pirate"
     ]
   },
   {
@@ -40,24 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
       "copyright",
+      "pirate",
       "rom",
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Belgian Orders Demand Pirate Site Operators&#8217; Bank Details, Crypto Wallets and Server Logs",
-    "link": "https://torrentfreak.com/ace-targets-dozens-of-streaming-pirates-through-cloudflare-and-discord-subpoenas/",
-    "description": "Through the Motion Picture Association, anti-piracy coalition ACE has requested two DMCA subpoenas at California federal courts. One covers 49 Cloudflare-fronted domains including Miruro.to and Aniworld.to, while the other targets two Discord servers. How effective the requests will be is hard to sa",
-    "date": "Fri, 28 Aug 2026 10:21:53 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 9,
-    "matched_keywords": [
-      "pirate",
-      "dmca",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -68,10 +55,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
-      "torrent",
       "piracy",
-      "rom"
+      "rom",
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -82,8 +69,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
-      "dmca"
+      "dmca",
+      "pirate"
+    ]
+  },
+  {
+    "title": "Court Upholds Belgian Pirate DNS Blocking Order, OpenDNS Exit Looms",
+    "link": "https://torrentfreak.com/south-african-minister-tells-film-summit-it-has-a-double-standard-on-piracy/",
+    "description": "At a global film summit in France, regulators and rightsholders praised site-blocking successes, but they also faced unexpected pushback from one of the panelists. South Africa's culture minister accused the film industry of a double standard on piracy, demanding a partnership of equals rather than ",
+    "date": "Thu, 17 Sep 2026 10:35:06 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "piracy",
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -94,9 +94,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "piracy",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -107,8 +107,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -119,9 +119,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
+      "rom",
       "torrent",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -136,14 +136,27 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Court Upholds Belgian Pirate DNS Blocking Order, OpenDNS Exit Looms",
+    "title": "Other Barks &#038; Bites for Friday, September 18: Third Circuit Hears Arguments in Vintage Merch Case; Ninth Circuit Nixes Output Challenge Under DMCA; and CAFC Affirms Attorneys’ Fees in Lab-Grown Diamond Case",
+    "link": "https://ipwatchdog.com/",
+    "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
+    "date": "Fri, 18 Sep 2026 17:15:40 +0000",
+    "source": "IPWatchdog",
+    "relevance_score": 5,
+    "matched_keywords": [
+      "dmca",
+      "intellectual property",
+      "copyright"
+    ]
+  },
+  {
+    "title": "South African Minister Tells Film Summit It Has a Double Standard on Piracy",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Thu, 17 Sep 2026 10:35:06 +0000",
+    "date": "Sat, 19 Sep 2026 11:23:19 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
+      "piracy",
       "copyright"
     ]
   },
@@ -155,8 +168,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -167,8 +180,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -203,8 +216,32 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
+    ]
+  },
+  {
+    "title": "New Bill Would Overhaul Judicial Misconduct Proceedings in Light of Moore-Newman Battle",
+    "link": "https://ipwatchdog.com/2026/09/18/other-barks-ninth-circuit-nixes-output-challenge-under-dmca-and-cafc-affirms-attorneys-fees-in-lab-grow/",
+    "description": "This week in Other Barks &#038; Bites: the Ninth Circuit finds that a series of Doe plaintiffs did not succeed on the theory that GitHub’s AI-powered coding platform violated the Digital Millennium Copyright Act (DMCA) under an output theory; U.S. Patent and Trademark Office (USPTO) Director John Sq",
+    "date": "Thu, 17 Sep 2026 17:01:58 +0000",
+    "source": "IPWatchdog",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "dmca",
+      "copyright"
+    ]
+  },
+  {
+    "title": "Songwriter Tells SCOTUS to Ignore Music Companies’ Bid to Retain Foreign Copyright in His Song",
+    "link": "https://ipwatchdog.com/2026/09/16/groups-slam-issa-bill-to-expedite-site-blocking-orders/",
+    "description": "Representative Darrell Issa introduced the American Copyright Protection Act (ACPA) on Monday, a bill aimed at creating an expedited judicial mechanism for copyright owners to obtain orders blocking access to certain foreign piracy sites. While the official text of the bill has not yet been publishe",
+    "date": "Wed, 16 Sep 2026 12:15:19 +0000",
+    "source": "IPWatchdog",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -215,8 +252,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
     ]
   },
   {
@@ -319,33 +356,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/king-workers-to-strike-in-sweden-following-rejection-of-collective-bargaining-agreement",
     "description": "Swedish trade unions Unionen and Sveriges Ingenj&ouml;rer have issued a strike notice against King after executives rejected a proposed collective bargaining agreement  last month. Read more",
     "date": "Fri, 18 Sep 2026 08:04:19 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "GDC Festival of Gaming appoints four members to advisory board",
-    "link": "https://www.gamesindustry.biz/black-salt-games-establishes-indie-studio-team-trifold-under-new-saltworks-entertainment-label",
-    "description": "Dredge creator Black Salt Games has launched a new studio, Team Trifold, alongside a new white-label publisher called Saltworks Entertainment which will provide services to both studios along with fellow New Zealand indie Disc 2 Games. Read more",
-    "date": "Fri, 18 Sep 2026 07:36:32 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Draft of new EU law proposes sweeping restrictions on online games",
-    "link": "https://www.gamesindustry.biz/gdc-festival-of-gaming-appoints-four-members-to-advisory-board",
-    "description": "GDC Festival of Gaming has appointed four new members to its advisory board. Read more",
-    "date": "Thu, 17 Sep 2026 14:29:58 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Nex Playground announces $150m in new funding as hardware sales pass one million",
-    "link": "https://www.gamesindustry.biz/draft-of-new-eu-law-proposes-sweeping-restrictions-on-online-games",
-    "description": "The EU Commission has published a draft for the proposed EU KIDS Act. While the most controversial stipulations &ndash; namely a ban for under 13's and restrictions for under 15 year old kids &ndash; only apply to social networks and video sharing platforms &ndash; others also apply to online games.",
-    "date": "Thu, 17 Sep 2026 13:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
