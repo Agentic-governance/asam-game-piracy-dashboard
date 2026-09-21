@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-20 11:07 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-21 12:36 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-20T11:07:47.387927",
+  fetched_at: "2026-09-21T12:36:18.165439",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 17,
     "matched_keywords": [
+      "piracy",
       "dmca",
       "pirate",
-      "piracy",
-      "crack",
-      "denuvo"
+      "denuvo",
+      "crack"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "crack",
-      "drm",
+      "pirate",
       "denuvo",
-      "pirate"
+      "drm",
+      "crack"
     ]
   },
   {
@@ -40,11 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "piracy",
       "copyright",
       "pirate",
-      "rom",
-      "piracy",
-      "torrent"
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -56,20 +56,21 @@ const ARIA_NEWS = {
     "relevance_score": 8,
     "matched_keywords": [
       "piracy",
-      "rom",
       "torrent",
+      "rom",
       "pirate"
     ]
   },
   {
-    "title": "ACE Targets Dozens of Streaming Pirates Through Cloudflare and Discord Subpoenas",
-    "link": "https://torrentfreak.com/take-two-says-gta-6-leak-probe-is-rapidly-evolving-wants-new-discord-demands-under-seal/",
-    "description": "Take-Two has informed U.S. federal courts that its investigation into the GTA 6 leak is \"rapidly evolving.\" On the heels of its Netflix preview, the gaming company filed a new DMCA subpoena request, asking the court to keep it sealed to prevent tipping off the alleged infringers. Meanwhile, Take-Two",
-    "date": "Sun, 30 Aug 2026 07:29:18 +0000",
+    "title": "South African Minister Tells Film Summit It Has a Double Standard on Piracy",
+    "link": "https://torrentfreak.com/u-s-site-blocking-bill-adds-vpns-to-the-list-of-blocking/",
+    "description": "VPN providers with over 100,000 American users could be ordered to block pirate sites under the bill Rep. Darrell Issa introduced last week. The full text shows that VPNs were added after last year's discussion draft, which only mentioned ISPs and DNS resolvers. How a VPN should block access \"from t",
+    "date": "Sat, 19 Sep 2026 11:23:19 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 8,
+    "relevance_score": 7,
     "matched_keywords": [
-      "dmca",
+      "piracy",
+      "rom",
       "pirate"
     ]
   },
@@ -119,9 +120,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "rom",
+      "pirate",
       "torrent",
-      "pirate"
+      "rom"
     ]
   },
   {
@@ -136,31 +137,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Other Barks &#038; Bites for Friday, September 18: Third Circuit Hears Arguments in Vintage Merch Case; Ninth Circuit Nixes Output Challenge Under DMCA; and CAFC Affirms Attorneys’ Fees in Lab-Grown Diamond Case",
-    "link": "https://ipwatchdog.com/",
-    "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
-    "date": "Fri, 18 Sep 2026 17:15:40 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 5,
-    "matched_keywords": [
-      "dmca",
-      "intellectual property",
-      "copyright"
-    ]
-  },
-  {
-    "title": "South African Minister Tells Film Summit It Has a Double Standard on Piracy",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sat, 19 Sep 2026 11:23:19 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "piracy",
-      "copyright"
-    ]
-  },
-  {
     "title": "Top 10 Most Pirated Movies of The Week – 09/14/2026",
     "link": "https://torrentfreak.com/rightsholders-cant-use-openai-and-anthropic-to-dismantle-metas-seeding-defense/",
     "description": "Meta previously argued that uploading pirated books to other BitTorrent users was an unavoidable side effect of downloading them, and therefore fair use. Rightsholders suing Meta in three related cases tried to dismantle this theory by asking OpenAI and Anthropic to reveal how they torrented shadow ",
@@ -168,8 +144,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -180,8 +156,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -192,8 +168,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "dmca",
-      "copyright"
+      "copyright",
+      "dmca"
     ]
   },
   {
@@ -221,30 +197,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "New Bill Would Overhaul Judicial Misconduct Proceedings in Light of Moore-Newman Battle",
-    "link": "https://ipwatchdog.com/2026/09/18/other-barks-ninth-circuit-nixes-output-challenge-under-dmca-and-cafc-affirms-attorneys-fees-in-lab-grow/",
-    "description": "This week in Other Barks &#038; Bites: the Ninth Circuit finds that a series of Doe plaintiffs did not succeed on the theory that GitHub’s AI-powered coding platform violated the Digital Millennium Copyright Act (DMCA) under an output theory; U.S. Patent and Trademark Office (USPTO) Director John Sq",
-    "date": "Thu, 17 Sep 2026 17:01:58 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "dmca",
-      "copyright"
-    ]
-  },
-  {
-    "title": "Songwriter Tells SCOTUS to Ignore Music Companies’ Bid to Retain Foreign Copyright in His Song",
-    "link": "https://ipwatchdog.com/2026/09/16/groups-slam-issa-bill-to-expedite-site-blocking-orders/",
-    "description": "Representative Darrell Issa introduced the American Copyright Protection Act (ACPA) on Monday, a bill aimed at creating an expedited judicial mechanism for copyright owners to obtain orders blocking access to certain foreign piracy sites. While the official text of the bill has not yet been publishe",
-    "date": "Wed, 16 Sep 2026 12:15:19 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "piracy",
-      "copyright"
-    ]
-  },
-  {
     "title": "Two Alleged &#8216;TeamPCP&#8217; Hackers Arrested in Australia",
     "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
     "description": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning i",
@@ -252,8 +204,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
     ]
   },
   {
@@ -290,10 +242,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Control Resonant | Critical Consensus",
+    "title": "Tokyo Game Show 2026 celebrated the past, and an uncertain AI future | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 18 Sep 2026 16:15:36 +0000",
+    "date": "Mon, 21 Sep 2026 12:01:04 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -334,6 +286,24 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Northern Forge Studios and Runaway Play lead Green Games Jam Awards 2026",
+    "link": "https://www.gamesindustry.biz/tokyo-game-show-2026-celebrated-the-past-and-an-uncertain-ai-future-opinion",
+    "description": "Tokyo Game Show&rsquo;s 30th anniversary badged itself as \"the longest five days of nonstop play\", a showcase of the future of gaming. In reality, the event in Japan&rsquo;s largest gaming convention center, Makuhari Messe, ended after only four, the final day canceled due to the risk of an oncoming",
+    "date": "Mon, 21 Sep 2026 11:34:05 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Hideo Kojima \"couldn't understand\" why Physint \"would be on the list of being cancelled\" by Sony",
+    "link": "https://www.gamesindustry.biz/northern-forge-studios-and-runaway-play-lead-green-games-jam-awards-2026",
+    "description": "The 2026 Green Games Jam Awards, hosted by Playing for the Planet, were presented last week at BFI Southbank, recognising developers for achievements in \"sustainable game development and environmental storytelling.\" Read more",
+    "date": "Mon, 21 Sep 2026 08:35:21 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Sessions on managing AI impact, neurodivergent teams and personal resilience confirmed for GamesIndustry.biz HR Summit",
     "link": "https://www.gamesindustry.biz/theyve-watched-so-many-people-lose-their-jobs-that-has-an-impact-managing-morale-in-the-wake-of-layoffs",
     "description": "With tens of thousands of jobs lost across industry in the past few years, to say this is a demoralising time to be working in video games would be something of an understatement. Read more",
@@ -356,6 +326,24 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/king-workers-to-strike-in-sweden-following-rejection-of-collective-bargaining-agreement",
     "description": "Swedish trade unions Unionen and Sveriges Ingenj&ouml;rer have issued a strike notice against King after executives rejected a proposed collective bargaining agreement  last month. Read more",
     "date": "Fri, 18 Sep 2026 08:04:19 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "GDC Festival of Gaming appoints four members to advisory board",
+    "link": "https://www.gamesindustry.biz/black-salt-games-establishes-indie-studio-team-trifold-under-new-saltworks-entertainment-label",
+    "description": "Dredge creator Black Salt Games has launched a new studio, Team Trifold, alongside a new white-label publisher called Saltworks Entertainment which will provide services to both studios along with fellow New Zealand indie Disc 2 Games. Read more",
+    "date": "Fri, 18 Sep 2026 07:36:32 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Draft of new EU law proposes sweeping restrictions on online games",
+    "link": "https://www.gamesindustry.biz/gdc-festival-of-gaming-appoints-four-members-to-advisory-board",
+    "description": "GDC Festival of Gaming has appointed four new members to its advisory board. Read more",
+    "date": "Thu, 17 Sep 2026 14:29:58 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
