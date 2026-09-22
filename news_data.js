@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-21 12:36 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-22 11:23 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-21T12:36:18.165439",
+  fetched_at: "2026-09-22T11:23:28.087117",
   item_count: 30,
   items: [
   {
@@ -12,10 +12,10 @@ const ARIA_NEWS = {
     "relevance_score": 17,
     "matched_keywords": [
       "piracy",
-      "dmca",
       "pirate",
-      "denuvo",
-      "crack"
+      "dmca",
+      "crack",
+      "denuvo"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "pirate",
-      "denuvo",
+      "crack",
       "drm",
-      "crack"
+      "denuvo",
+      "pirate"
     ]
   },
   {
@@ -41,10 +41,10 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "piracy",
-      "copyright",
+      "rom",
       "pirate",
       "torrent",
-      "rom"
+      "copyright"
     ]
   },
   {
@@ -56,8 +56,8 @@ const ARIA_NEWS = {
     "relevance_score": 8,
     "matched_keywords": [
       "piracy",
-      "torrent",
       "rom",
+      "torrent",
       "pirate"
     ]
   },
@@ -120,9 +120,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
+      "rom",
       "torrent",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -144,8 +144,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -156,8 +156,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -168,8 +168,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "dmca"
+      "dmca",
+      "copyright"
     ]
   },
   {
@@ -204,8 +204,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
     ]
   },
   {
@@ -242,10 +242,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Tokyo Game Show 2026 celebrated the past, and an uncertain AI future | Opinion",
+    "title": "IO Interactive \"had no choice\" but to delay Switch 2 launch of 007 First Light for a third time",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 21 Sep 2026 12:01:04 +0000",
+    "date": "Tue, 22 Sep 2026 10:55:16 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -253,10 +253,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Heart Machine faces possible closure after publishing deal falls through; majority of staff laid off",
-    "link": "https://www.gamesindustry.biz/remedys-arhi-makkonen-on-designing-the-biggest-world-we-have-ever-done-for-control-resonant",
-    "description": "Control Resonant releases on September 24, some seven years after 2019's Control. Much has changed for the sequel, notably a switch of main character from Jesse Faden to Dylan Faden, her brother. The new game also places a focus on melee combat &ndash; a first for Remedy &ndash; and the tight confin",
-    "date": "Thu, 17 Sep 2026 08:39:10 +0000",
+    "title": "Activision cites data claiming cheating in games is an $8.5bn industry; 69% of online multiplayer studios consider cheating \"a significant or very significant problem\"",
+    "link": "https://www.gamesindustry.biz/its-sad-and-devastating-black-myth-wukongs-physical-publisher-is-mourning-the-loss-of-playstation-discs",
+    "description": "PM Studios has been doing physical game publishing for a long time. In its early days, around 20 years ago, the Las Vegas-based publisher brought the Korean rhythm-action series DJMax to the US, and since then it has carved out a healthy business from slapping a wide range of titles onto discs and c",
+    "date": "Mon, 21 Sep 2026 13:27:45 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -286,9 +286,45 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Bungie says it's \"not done with Destiny\", aims to earn back player trust by restoring archived Destiny 2 content",
+    "link": "https://www.gamesindustry.biz/io-interactive-had-no-choice-but-to-delay-switch-2-launch-of-007-first-light-for-a-third-time",
+    "description": "IO Interactive said it \"had no choice\" but to  delay the launch of 007 First Light on Nintendo Switch 2 for a third time, with the game now set to release in March 2027. Read more",
+    "date": "Tue, 22 Sep 2026 09:43:57 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Xbox reportedly set to announce second round of layoffs this week",
+    "link": "https://www.gamesindustry.biz/bungie-says-its-not-done-with-destiny-aims-to-earn-back-player-trust-by-restoring-archived-destiny-2-content",
+    "description": "Three months after Destiny 2's final update, Bungie has announced plans to reinstate vaulted campaigns, raids, and destinations to regain player trust. Read more",
+    "date": "Tue, 22 Sep 2026 07:55:38 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"It's sad and devastating\" – Black Myth: Wukong's physical publisher is mourning the loss of PlayStation discs",
+    "link": "https://www.gamesindustry.biz/xbox-reportedly-set-to-announce-second-round-of-layoffs-this-week",
+    "description": "Xbox is reportedly preparing for a second round of layoffs this week, according to  The Information. Read more",
+    "date": "Mon, 21 Sep 2026 16:24:23 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Tokyo Game Show 2026 celebrated the past, and an uncertain AI future | Opinion",
+    "link": "https://www.gamesindustry.biz/activision-cites-data-claiming-cheating-in-games-is-an-85bn-industry-69-of-online-multiplayer-studios-consider-cheating-a-significant-or-very-significant-problem",
+    "description": "Activision's Team Ricochet, which manages Call of Duty's anti-cheat initiative, recently cited data that claimed cheating in games is an $8.5 billion industry. Read more",
+    "date": "Mon, 21 Sep 2026 12:01:04 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Northern Forge Studios and Runaway Play lead Green Games Jam Awards 2026",
     "link": "https://www.gamesindustry.biz/tokyo-game-show-2026-celebrated-the-past-and-an-uncertain-ai-future-opinion",
-    "description": "Tokyo Game Show&rsquo;s 30th anniversary badged itself as \"the longest five days of nonstop play\", a showcase of the future of gaming. In reality, the event in Japan&rsquo;s largest gaming convention center, Makuhari Messe, ended after only four, the final day canceled due to the risk of an oncoming",
+    "description": "Tokyo Game Show's 30th anniversary badged itself as \"the longest five days of nonstop play\", a showcase of the future of gaming. In reality, the event in Japan's largest gaming convention center, Makuhari Messe, ended after only four, the final day canceled due to the risk of an oncoming typhoon, an",
     "date": "Mon, 21 Sep 2026 11:34:05 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
@@ -308,42 +344,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/theyve-watched-so-many-people-lose-their-jobs-that-has-an-impact-managing-morale-in-the-wake-of-layoffs",
     "description": "With tens of thousands of jobs lost across industry in the past few years, to say this is a demoralising time to be working in video games would be something of an understatement. Read more",
     "date": "Fri, 18 Sep 2026 15:44:15 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Pulling focus: Must AAA pander to the distracted? | Opinion",
-    "link": "https://www.gamesindustry.biz/sessions-on-managing-ai-impact-neurodivergent-teams-and-personal-resilience-confirmed-for-gamesindustrybiz-hr-summit",
-    "description": "We are delighted to confirm the first round of facilitated discussion sessions at this year's GamesIndustry.biz HR Summit, sponsored by Amiqus, which will be held next month at the Royal Institution in London. Read more",
-    "date": "Fri, 18 Sep 2026 13:45:12 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Dredge maker Black Salt Games establishes indie studio Team Trifold under new Saltworks Entertainment label",
-    "link": "https://www.gamesindustry.biz/king-workers-to-strike-in-sweden-following-rejection-of-collective-bargaining-agreement",
-    "description": "Swedish trade unions Unionen and Sveriges Ingenj&ouml;rer have issued a strike notice against King after executives rejected a proposed collective bargaining agreement  last month. Read more",
-    "date": "Fri, 18 Sep 2026 08:04:19 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "GDC Festival of Gaming appoints four members to advisory board",
-    "link": "https://www.gamesindustry.biz/black-salt-games-establishes-indie-studio-team-trifold-under-new-saltworks-entertainment-label",
-    "description": "Dredge creator Black Salt Games has launched a new studio, Team Trifold, alongside a new white-label publisher called Saltworks Entertainment which will provide services to both studios along with fellow New Zealand indie Disc 2 Games. Read more",
-    "date": "Fri, 18 Sep 2026 07:36:32 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Draft of new EU law proposes sweeping restrictions on online games",
-    "link": "https://www.gamesindustry.biz/gdc-festival-of-gaming-appoints-four-members-to-advisory-board",
-    "description": "GDC Festival of Gaming has appointed four new members to its advisory board. Read more",
-    "date": "Thu, 17 Sep 2026 14:29:58 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
