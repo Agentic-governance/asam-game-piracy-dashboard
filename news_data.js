@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-22 11:23 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-23 11:19 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-22T11:23:28.087117",
+  fetched_at: "2026-09-23T11:19:54.953516",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 17,
     "matched_keywords": [
-      "piracy",
-      "pirate",
-      "dmca",
       "crack",
-      "denuvo"
+      "pirate",
+      "denuvo",
+      "dmca",
+      "piracy"
     ]
   },
   {
@@ -27,24 +27,24 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "crack",
-      "drm",
       "denuvo",
-      "pirate"
+      "pirate",
+      "drm"
     ]
   },
   {
-    "title": "As U.S. Trade Pressure Mounts, Vietnam Prepares to Prosecute 74 &#8216;Xoi Lac&#8217; Sports Pirates",
+    "title": "South African Minister Tells Film Summit It Has a Double Standard on Piracy",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Spider-Man: Brand New Day' tops the chart, followed by 'Coyote vs. Acme.' 'The Odyssey' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sat, 12 Sep 2026 18:18:08 +0000",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Spider-Man: Brand New Day' tops the chart, followed by 'The End of Oak Street.' 'Coyote vs. Acme' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sat, 19 Sep 2026 11:23:19 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "rom",
-      "pirate",
+      "copyright",
       "torrent",
-      "copyright"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -55,22 +55,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "piracy",
-      "rom",
       "torrent",
-      "pirate"
-    ]
-  },
-  {
-    "title": "South African Minister Tells Film Summit It Has a Double Standard on Piracy",
-    "link": "https://torrentfreak.com/u-s-site-blocking-bill-adds-vpns-to-the-list-of-blocking/",
-    "description": "VPN providers with over 100,000 American users could be ordered to block pirate sites under the bill Rep. Darrell Issa introduced last week. The full text shows that VPNs were added after last year's discussion draft, which only mentioned ISPs and DNS resolvers. How a VPN should block access \"from t",
-    "date": "Sat, 19 Sep 2026 11:23:19 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "piracy",
       "rom",
+      "piracy",
       "pirate"
     ]
   },
@@ -82,8 +69,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "rom",
+      "piracy",
       "pirate"
     ]
   },
@@ -95,8 +82,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "rom",
+      "piracy",
       "pirate"
     ]
   },
@@ -113,19 +100,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Take-Two Says GTA 6 Leak Probe Is &#8220;Rapidly Evolving,&#8221; Wants New Discord Demands Under Seal",
-    "link": "https://torrentfreak.com/a-cute-little-libgen-babysitter-music-publishers-sue-anthropic-founders-over-torrenting-spree/",
-    "description": "Anthropic's bulk torrenting of pirated books from shadow libraries LibGen and Pirate Library Mirror continues to generate new lawsuits. A group of major publishers, including Sony Music and Warner Chappell, have sued the AI company and its co-founders, alleging that torrenting activity that resulted",
-    "date": "Mon, 31 Aug 2026 08:53:36 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 5,
-    "matched_keywords": [
-      "rom",
-      "torrent",
-      "pirate"
-    ]
-  },
-  {
     "title": "Strauss Zelnick stresses a well-known franchise like GTA still needs marketing: \"You always have to go out and create enthusiasm\"",
     "link": "https://www.gamesindustry.biz/pulling-focus-must-aaa-pander-to-the-distracted-opinion",
     "description": "There's been a lot of talk in recent years about the effect that the inflation of development budgets has had on the industry. As budgets in the hundreds of millions of dollars have become common, cracks have emerged in the foundations of the entire model for funding new games. Attitudes to risk hav",
@@ -137,10 +111,34 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 09/14/2026",
+    "title": "Pirate IPTV App LiveNetTV Shut Down After Turkish Police Raid, Operators Settle With ACE",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Tue, 22 Sep 2026 17:24:28 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "pirate",
+      "copyright"
+    ]
+  },
+  {
+    "title": "Top 10 Most Pirated Movies of The Week – 09/21/2026",
+    "link": "https://torrentfreak.com/u-s-site-blocking-bill-adds-vpns-to-the-list-of-blocking/",
+    "description": "VPN providers with over 100,000 American users could be ordered to block pirate sites under the bill Rep. Darrell Issa introduced last week. The full text shows that VPNs were added after last year's discussion draft, which only mentioned ISPs and DNS resolvers. How a VPN should block access \"from t",
+    "date": "Sun, 20 Sep 2026 23:09:40 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "rom",
+      "pirate"
+    ]
+  },
+  {
+    "title": "As U.S. Trade Pressure Mounts, Vietnam Prepares to Prosecute 74 &#8216;Xoi Lac&#8217; Sports Pirates",
     "link": "https://torrentfreak.com/rightsholders-cant-use-openai-and-anthropic-to-dismantle-metas-seeding-defense/",
     "description": "Meta previously argued that uploading pirated books to other BitTorrent users was an unavoidable side effect of downloading them, and therefore fair use. Rightsholders suing Meta in three related cases tried to dismantle this theory by asking OpenAI and Anthropic to reveal how they torrented shadow ",
-    "date": "Sun, 13 Sep 2026 23:09:40 +0000",
+    "date": "Sat, 12 Sep 2026 18:18:08 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
@@ -204,8 +202,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
     ]
   },
   {
@@ -242,10 +240,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "IO Interactive \"had no choice\" but to delay Switch 2 launch of 007 First Light for a third time",
+    "title": "Discord re-launches age verification following backlash over privacy concerns",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 22 Sep 2026 10:55:16 +0000",
+    "date": "Wed, 23 Sep 2026 10:11:43 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -286,6 +284,24 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Xbox transfers Rare and Halo franchise to Activision, proposes closure of Ninja Theory, and confirms another 268 roles cut amid studio restructure",
+    "link": "https://www.gamesindustry.biz/undead-labs-confirms-it-is-now-an-employee-owned-studio",
+    "description": "Undead Labs has announced its independence and is now operating as an \"employee-owned game development studio.\" Read more",
+    "date": "Tue, 22 Sep 2026 14:06:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"There is no easy answer anymore, there's no kind of playbook\" – Secret Mode is hedging its bets with two very different pillars",
+    "link": "https://www.gamesindustry.biz/xbox-transfers-rare-and-halo-franchise-to-activision-proposes-closure-of-ninja-theory-and-confirms-another-268-roles-cut-amid-studio-restructure",
+    "description": "Original story: Xbox has transferred legendary UK studio Rare and ownership of the Halo franchise to Activision, announced the imminent closure of Ninja Theory, and enacted sweeping cuts at Halo Studios. The news was announced via an Xbox Wire post this morning, and followed earlier reports of plann",
+    "date": "Tue, 22 Sep 2026 12:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Bungie says it's \"not done with Destiny\", aims to earn back player trust by restoring archived Destiny 2 content",
     "link": "https://www.gamesindustry.biz/io-interactive-had-no-choice-but-to-delay-switch-2-launch-of-007-first-light-for-a-third-time",
     "description": "IO Interactive said it \"had no choice\" but to  delay the launch of 007 First Light on Nintendo Switch 2 for a third time, with the game now set to release in March 2027. Read more",
@@ -306,7 +322,7 @@ const ARIA_NEWS = {
   {
     "title": "\"It's sad and devastating\" – Black Myth: Wukong's physical publisher is mourning the loss of PlayStation discs",
     "link": "https://www.gamesindustry.biz/xbox-reportedly-set-to-announce-second-round-of-layoffs-this-week",
-    "description": "Xbox is reportedly preparing for a second round of layoffs this week, according to  The Information. Read more",
+    "description": "UPDATE: Microsoft has confirmed the loss of 268 jobs amid a sweeping reorganisation of its internal studios, including the proposed closure of Ninja Theory. Read more",
     "date": "Mon, 21 Sep 2026 16:24:23 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
@@ -326,24 +342,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/tokyo-game-show-2026-celebrated-the-past-and-an-uncertain-ai-future-opinion",
     "description": "Tokyo Game Show's 30th anniversary badged itself as \"the longest five days of nonstop play\", a showcase of the future of gaming. In reality, the event in Japan's largest gaming convention center, Makuhari Messe, ended after only four, the final day canceled due to the risk of an oncoming typhoon, an",
     "date": "Mon, 21 Sep 2026 11:34:05 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Hideo Kojima \"couldn't understand\" why Physint \"would be on the list of being cancelled\" by Sony",
-    "link": "https://www.gamesindustry.biz/northern-forge-studios-and-runaway-play-lead-green-games-jam-awards-2026",
-    "description": "The 2026 Green Games Jam Awards, hosted by Playing for the Planet, were presented last week at BFI Southbank, recognising developers for achievements in \"sustainable game development and environmental storytelling.\" Read more",
-    "date": "Mon, 21 Sep 2026 08:35:21 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Sessions on managing AI impact, neurodivergent teams and personal resilience confirmed for GamesIndustry.biz HR Summit",
-    "link": "https://www.gamesindustry.biz/theyve-watched-so-many-people-lose-their-jobs-that-has-an-impact-managing-morale-in-the-wake-of-layoffs",
-    "description": "With tens of thousands of jobs lost across industry in the past few years, to say this is a demoralising time to be working in video games would be something of an understatement. Read more",
-    "date": "Fri, 18 Sep 2026 15:44:15 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
