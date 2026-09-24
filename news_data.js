@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-23 11:19 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-24 11:32 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-23T11:19:54.953516",
+  fetched_at: "2026-09-24T11:32:51.863044",
   item_count: 30,
   items: [
   {
@@ -13,8 +13,8 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "crack",
       "pirate",
-      "denuvo",
       "dmca",
+      "denuvo",
       "piracy"
     ]
   },
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "crack",
+      "drm",
       "denuvo",
       "pirate",
-      "drm"
+      "crack"
     ]
   },
   {
@@ -42,9 +42,9 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "rom",
       "copyright",
-      "torrent",
       "pirate",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -55,10 +55,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "torrent",
-      "rom",
+      "pirate",
       "piracy",
-      "pirate"
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -69,9 +69,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
+      "pirate",
       "piracy",
-      "pirate"
+      "rom"
     ]
   },
   {
@@ -82,9 +82,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
+      "pirate",
       "piracy",
-      "pirate"
+      "rom"
     ]
   },
   {
@@ -95,26 +95,15 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
-    "title": "Strauss Zelnick stresses a well-known franchise like GTA still needs marketing: \"You always have to go out and create enthusiasm\"",
-    "link": "https://www.gamesindustry.biz/pulling-focus-must-aaa-pander-to-the-distracted-opinion",
-    "description": "There's been a lot of talk in recent years about the effect that the inflation of development budgets has had on the industry. As budgets in the hundreds of millions of dollars have become common, cracks have emerged in the foundations of the entire model for funding new games. Attitudes to risk hav",
-    "date": "Fri, 18 Sep 2026 10:22:40 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 5,
-    "matched_keywords": [
-      "crack"
-    ]
-  },
-  {
-    "title": "Pirate IPTV App LiveNetTV Shut Down After Turkish Police Raid, Operators Settle With ACE",
+    "title": "Pirate Site Must Face Chinese Streaming Giant Tencent in U.S. Court, Judge Rules",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 22 Sep 2026 17:24:28 +0000",
+    "date": "Wed, 23 Sep 2026 19:15:38 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
@@ -130,8 +119,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -142,8 +131,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -154,8 +143,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -166,8 +155,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "dmca",
-      "copyright"
+      "copyright",
+      "dmca"
     ]
   },
   {
@@ -183,18 +172,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "&#8220;A Cute Little LibGen Babysitter&#8221;: Music Publishers Sue Anthropic Founders Over Torrenting Spree",
-    "link": "https://torrentfreak.com/rcn-urges-judge-to-toss-the-major-labels-last-piracy-liability-lawsuit/",
-    "description": "Internet service provider RCN has asked a New Jersey federal court to reconsider a six-year-old ruling and dismiss the major record labels' piracy liability lawsuit. RCN argues that the Supreme Court's decision in Cox v. Sony wiped out the legal basis for the claims. With \"repeat infringer\" cases ag",
-    "date": "Tue, 01 Sep 2026 10:10:07 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "piracy",
-      "torrent"
-    ]
-  },
-  {
     "title": "Two Alleged &#8216;TeamPCP&#8217; Hackers Arrested in Australia",
     "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
     "description": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning i",
@@ -202,8 +179,19 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
+    ]
+  },
+  {
+    "title": "Pirate IPTV App LiveNetTV Shut Down After Turkish Police Raid, Operators Settle With ACE",
+    "link": "https://torrentfreak.com/pirate-site-must-face-chinese-streaming-giant-tencent-in-u-s-court-judge-rules/",
+    "description": "China's biggest streaming companies are using U.S. courts to take down pirate sites, and a Florida judge just made that path easier. Overruling a magistrate's recommendation, the court ruled that the Chinese-language pirate site Olevod, which is run by a Spanish company, must answer Tencent's lawsui",
+    "date": "Tue, 22 Sep 2026 17:24:28 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "pirate"
     ]
   },
   {
@@ -240,10 +228,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Discord re-launches age verification following backlash over privacy concerns",
+    "title": "TinyBuild revenue rises 18% to $20m during H1 2026, with 85% coming from first and second-party owned IP",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 23 Sep 2026 10:11:43 +0000",
+    "date": "Thu, 24 Sep 2026 10:12:10 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Sensor Tower: PC and PlayStation unit sales in Japan rise 13% to 21m during H1 2026, led by Resident Evil Requiem",
+    "link": "https://www.gamesindustry.biz/new-publisher-publsh-launches-with-disco-elysium-inspired-title-pera-coda",
+    "description": "A new game publisher, PUBLSH, has been established by former leadership from marketing agency Petrol. Read more",
+    "date": "Wed, 23 Sep 2026 12:55:38 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -284,6 +283,42 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Microsoft files patent for \"ad-credit\" system to show ads on PC and Xbox without disrupting gameplay",
+    "link": "https://www.gamesindustry.biz/tinybuild-revenue-rises-18-to-20m-during-h1-2026-with-85-coming-from-first-and-second-party-owned-ip",
+    "description": "TinyBuild reported an 18% revenue increase to $20 million for the six months ending June 30, 2026, driven by \"strong catalogue performance and new launches.\" Read more",
+    "date": "Thu, 24 Sep 2026 07:56:51 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Bethesda boss confirms Obsidian will remain a \"distinct\" team",
+    "link": "https://www.gamesindustry.biz/microsoft-files-patent-for-ad-credit-system-to-show-ads-on-pc-and-xbox-without-disrupting-gameplay",
+    "description": "Microsoft has patented an \"ad-credit\" system to display adverts and announcements during PC and Xbox game sessions without disrupting gameplay. Read more",
+    "date": "Wed, 23 Sep 2026 18:47:06 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "The EU KIDS Act: What game developers need to know",
+    "link": "https://www.gamesindustry.biz/age-of-empires-developer-worlds-edge-hit-with-layoffs-following-move-to-activision",
+    "description": "Age of Empires studio World's Edge has been hit with layoffs following its transition to Activision, with \"just under half\" of employees affected. Read more",
+    "date": "Wed, 23 Sep 2026 13:43:08 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Discord re-launches age verification following backlash over privacy concerns",
+    "link": "https://www.gamesindustry.biz/sensor-tower-pc-and-playstation-unit-sales-in-japan-rise-13-to-21m-during-h1-2026-led-by-resident-evil-requiem",
+    "description": "PC and PlayStation unit sales increased 13% to 21 million in Japan during the first half of 2026, led by Resident Evil Requiem. Read more",
+    "date": "Wed, 23 Sep 2026 10:11:43 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Xbox transfers Rare and Halo franchise to Activision, proposes closure of Ninja Theory, and confirms another 268 roles cut amid studio restructure",
     "link": "https://www.gamesindustry.biz/undead-labs-confirms-it-is-now-an-employee-owned-studio",
     "description": "Undead Labs has announced its independence and is now operating as an \"employee-owned game development studio.\" Read more",
@@ -306,42 +341,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/io-interactive-had-no-choice-but-to-delay-switch-2-launch-of-007-first-light-for-a-third-time",
     "description": "IO Interactive said it \"had no choice\" but to  delay the launch of 007 First Light on Nintendo Switch 2 for a third time, with the game now set to release in March 2027. Read more",
     "date": "Tue, 22 Sep 2026 09:43:57 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Xbox reportedly set to announce second round of layoffs this week",
-    "link": "https://www.gamesindustry.biz/bungie-says-its-not-done-with-destiny-aims-to-earn-back-player-trust-by-restoring-archived-destiny-2-content",
-    "description": "Three months after Destiny 2's final update, Bungie has announced plans to reinstate vaulted campaigns, raids, and destinations to regain player trust. Read more",
-    "date": "Tue, 22 Sep 2026 07:55:38 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"It's sad and devastating\" – Black Myth: Wukong's physical publisher is mourning the loss of PlayStation discs",
-    "link": "https://www.gamesindustry.biz/xbox-reportedly-set-to-announce-second-round-of-layoffs-this-week",
-    "description": "UPDATE: Microsoft has confirmed the loss of 268 jobs amid a sweeping reorganisation of its internal studios, including the proposed closure of Ninja Theory. Read more",
-    "date": "Mon, 21 Sep 2026 16:24:23 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Tokyo Game Show 2026 celebrated the past, and an uncertain AI future | Opinion",
-    "link": "https://www.gamesindustry.biz/activision-cites-data-claiming-cheating-in-games-is-an-85bn-industry-69-of-online-multiplayer-studios-consider-cheating-a-significant-or-very-significant-problem",
-    "description": "Activision's Team Ricochet, which manages Call of Duty's anti-cheat initiative, recently cited data that claimed cheating in games is an $8.5 billion industry. Read more",
-    "date": "Mon, 21 Sep 2026 12:01:04 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Northern Forge Studios and Runaway Play lead Green Games Jam Awards 2026",
-    "link": "https://www.gamesindustry.biz/tokyo-game-show-2026-celebrated-the-past-and-an-uncertain-ai-future-opinion",
-    "description": "Tokyo Game Show's 30th anniversary badged itself as \"the longest five days of nonstop play\", a showcase of the future of gaming. In reality, the event in Japan's largest gaming convention center, Makuhari Messe, ended after only four, the final day canceled due to the risk of an oncoming typhoon, an",
-    "date": "Mon, 21 Sep 2026 11:34:05 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
