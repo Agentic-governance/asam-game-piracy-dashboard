@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-24 11:32 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-25 11:39 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-24T11:32:51.863044",
+  fetched_at: "2026-09-25T11:39:18.617532",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 17,
     "matched_keywords": [
-      "crack",
-      "pirate",
-      "dmca",
       "denuvo",
-      "piracy"
+      "dmca",
+      "crack",
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "drm",
       "denuvo",
+      "crack",
       "pirate",
-      "crack"
+      "drm"
     ]
   },
   {
@@ -42,9 +42,9 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "rom",
       "copyright",
-      "pirate",
+      "torrent",
       "piracy",
-      "torrent"
+      "pirate"
     ]
   },
   {
@@ -55,9 +55,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
-      "piracy",
       "rom",
+      "piracy",
+      "pirate",
       "torrent"
     ]
   },
@@ -69,9 +69,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "rom",
       "piracy",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -82,9 +82,33 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "rom",
       "piracy",
-      "rom"
+      "pirate"
+    ]
+  },
+  {
+    "title": "Nintendo Wins $4.5 Million Judgment Against r/SwitchPirates Mod &#8216;Archbox&#8217;",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Fri, 25 Sep 2026 04:47:40 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "copyright",
+      "pirate"
+    ]
+  },
+  {
+    "title": "Pirate Site Must Face Chinese Streaming Giant Tencent in U.S. Court, Judge Rules",
+    "link": "https://torrentfreak.com/nintendo-wins-4-5-million-judgment-against-r-switchpirates-mod-archbox/",
+    "description": "A Washington federal court has ordered former r/SwitchPirates moderator James 'Archbox' Williams to pay Nintendo $4.5 million in damages. The default judgment includes a permanent injunction that prohibits Williams from distributing pirated games and circumvention tools, or encouraging others to use",
+    "date": "Wed, 23 Sep 2026 19:15:38 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -95,20 +119,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Pirate Site Must Face Chinese Streaming Giant Tencent in U.S. Court, Judge Rules",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Wed, 23 Sep 2026 19:15:38 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "pirate",
-      "copyright"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -119,8 +131,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -155,8 +167,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "dmca"
+      "dmca",
+      "copyright"
     ]
   },
   {
@@ -167,8 +179,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Dutch consumer group files lawsuit against Epic for misleading young players on Fortnite, seeking more than €100m in compensation",
+    "link": "https://www.gamesindustry.biz/nintendo-of-america-awarded-45m-in-lawsuit-from-redditor-for-pirating-switch-hardware-and-software",
+    "description": "Nintendo of America has won $4.5 million in damages from Reddit user James C. Williams, also known as 'Archbox,' for copyright violations. Read more",
+    "date": "Thu, 24 Sep 2026 13:48:19 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "rom",
+      "copyright"
     ]
   },
   {
@@ -217,20 +241,31 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "RCN Urges Judge to Toss the Major Labels&#8217; &#8216;Last&#8217; Piracy Liability Lawsuit",
-    "link": "https://torrentfreak.com/adult-film-producer-unmasks-prolific-john-doe-torrent-pirate-as-meta-executive/",
-    "description": "A routine John Doe lawsuit could become part of Strike 3 Holdings' $446 million AI training case against Meta. The adult film producer wants to link the two lawsuits, arguing that a Reality Labs executive downloaded nearly 20,000 files at his home for work purposes, not for personal use. Meta counte",
-    "date": "Wed, 02 Sep 2026 13:54:46 +0000",
-    "source": "TorrentFreak",
+    "title": "Build A Rocket Boy has appointed administrators",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Fri, 25 Sep 2026 09:55:07 +0000",
+    "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
-      "piracy"
+      "rom"
+    ]
+  },
+  {
+    "title": "Nintendo of America awarded $4.5m in lawsuit from Redditor for pirating Switch hardware and software",
+    "link": "https://www.gamesindustry.biz/king-signs-collective-agreement-with-swedish-trade-unions-following-call-to-industrial-action-last-week",
+    "description": "King has  signed a collective agreement with the Swedish trade unions Unionen and Sveriges Ingenj&ouml;rer after last week&rsquo;s call to industrial action. Read more",
+    "date": "Fri, 25 Sep 2026 08:04:53 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
     ]
   },
   {
     "title": "TinyBuild revenue rises 18% to $20m during H1 2026, with 85% coming from first and second-party owned IP",
-    "link": "https://www.gamesindustry.biz/feed",
-    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "link": "https://www.gamesindustry.biz/righting-old-wrongs-mobygames-on-letting-developers-claim-games-they-werent-credited-for",
+    "description": "In March 2022, Atari acquired the video game database MobyGames. Read more",
     "date": "Thu, 24 Sep 2026 10:12:10 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -243,17 +278,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/new-publisher-publsh-launches-with-disco-elysium-inspired-title-pera-coda",
     "description": "A new game publisher, PUBLSH, has been established by former leadership from marketing agency Petrol. Read more",
     "date": "Wed, 23 Sep 2026 12:55:38 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Activision cites data claiming cheating in games is an $8.5bn industry; 69% of online multiplayer studios consider cheating \"a significant or very significant problem\"",
-    "link": "https://www.gamesindustry.biz/its-sad-and-devastating-black-myth-wukongs-physical-publisher-is-mourning-the-loss-of-playstation-discs",
-    "description": "PM Studios has been doing physical game publishing for a long time. In its early days, around 20 years ago, the Las Vegas-based publisher brought the Korean rhythm-action series DJMax to the US, and since then it has carved out a healthy business from slapping a wide range of titles onto discs and c",
-    "date": "Mon, 21 Sep 2026 13:27:45 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -281,6 +305,15 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
+  },
+  {
+    "title": "Righting old wrongs: MobyGames on letting developers claim games they weren't credited for",
+    "link": "https://www.gamesindustry.biz/dutch-consumer-group-files-lawsuit-against-epic-for-misleading-young-players-on-fortnite-seeking-more-than-100m-in-compensation",
+    "description": "Original story: The Dutch consumer group Stichting Massaschade & Consument (SMC) has filed a class action lawsuit against Epic Games, alleging it has misled young Fortnite players. Read more",
+    "date": "Thu, 24 Sep 2026 12:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Microsoft files patent for \"ad-credit\" system to show ads on PC and Xbox without disrupting gameplay",
@@ -314,33 +347,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/sensor-tower-pc-and-playstation-unit-sales-in-japan-rise-13-to-21m-during-h1-2026-led-by-resident-evil-requiem",
     "description": "PC and PlayStation unit sales increased 13% to 21 million in Japan during the first half of 2026, led by Resident Evil Requiem. Read more",
     "date": "Wed, 23 Sep 2026 10:11:43 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Xbox transfers Rare and Halo franchise to Activision, proposes closure of Ninja Theory, and confirms another 268 roles cut amid studio restructure",
-    "link": "https://www.gamesindustry.biz/undead-labs-confirms-it-is-now-an-employee-owned-studio",
-    "description": "Undead Labs has announced its independence and is now operating as an \"employee-owned game development studio.\" Read more",
-    "date": "Tue, 22 Sep 2026 14:06:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"There is no easy answer anymore, there's no kind of playbook\" – Secret Mode is hedging its bets with two very different pillars",
-    "link": "https://www.gamesindustry.biz/xbox-transfers-rare-and-halo-franchise-to-activision-proposes-closure-of-ninja-theory-and-confirms-another-268-roles-cut-amid-studio-restructure",
-    "description": "Original story: Xbox has transferred legendary UK studio Rare and ownership of the Halo franchise to Activision, announced the imminent closure of Ninja Theory, and enacted sweeping cuts at Halo Studios. The news was announced via an Xbox Wire post this morning, and followed earlier reports of plann",
-    "date": "Tue, 22 Sep 2026 12:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Bungie says it's \"not done with Destiny\", aims to earn back player trust by restoring archived Destiny 2 content",
-    "link": "https://www.gamesindustry.biz/io-interactive-had-no-choice-but-to-delay-switch-2-launch-of-007-first-light-for-a-third-time",
-    "description": "IO Interactive said it \"had no choice\" but to  delay the launch of 007 First Light on Nintendo Switch 2 for a third time, with the game now set to release in March 2027. Read more",
-    "date": "Tue, 22 Sep 2026 09:43:57 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
