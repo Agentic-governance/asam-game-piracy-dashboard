@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-25 11:39 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-26 11:13 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-25T11:39:18.617532",
+  fetched_at: "2026-09-26T11:13:02.608387",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 17,
     "matched_keywords": [
-      "denuvo",
+      "piracy",
       "dmca",
       "crack",
-      "piracy",
+      "denuvo",
       "pirate"
     ]
   },
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "denuvo",
+      "drm",
       "crack",
       "pirate",
-      "drm"
+      "denuvo"
     ]
   },
   {
@@ -40,10 +40,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "piracy",
+      "torrent",
       "rom",
       "copyright",
-      "torrent",
-      "piracy",
       "pirate"
     ]
   },
@@ -55,10 +55,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "rom",
+      "torrent",
       "piracy",
       "pirate",
-      "torrent"
+      "rom"
     ]
   },
   {
@@ -69,9 +69,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "piracy",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -82,9 +82,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "piracy",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -95,8 +95,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -107,8 +107,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -124,6 +124,20 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Other Barks &#038; Bites for Friday, September 25: UPC Will Hear Noninfringement Claim to Pre-Issue Patent; DEFEND IP Act Introduced to Target Foreign Piracy Sites; and Judge Rogers Dissents from D.C. Circuit’s Royalty Allocation Ruling",
+    "link": "https://ipwatchdog.com/",
+    "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
+    "date": "Fri, 25 Sep 2026 18:15:31 +0000",
+    "source": "IPWatchdog",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "piracy",
+      "intellectual property",
+      "copyright",
+      "rom"
+    ]
+  },
+  {
     "title": "Top 10 Most Pirated Movies of The Week – 09/21/2026",
     "link": "https://torrentfreak.com/u-s-site-blocking-bill-adds-vpns-to-the-list-of-blocking/",
     "description": "VPN providers with over 100,000 American users could be ordered to block pirate sites under the bill Rep. Darrell Issa introduced last week. The full text shows that VPNs were added after last year's discussion draft, which only mentioned ISPs and DNS resolvers. How a VPN should block access \"from t",
@@ -131,8 +145,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -143,8 +157,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -155,8 +169,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -167,8 +181,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "dmca",
-      "copyright"
+      "copyright",
+      "dmca"
     ]
   },
   {
@@ -179,8 +193,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -191,8 +205,8 @@ const ARIA_NEWS = {
     "source": "GamesIndustry",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "copyright"
+      "copyright",
+      "rom"
     ]
   },
   {
@@ -203,8 +217,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
     ]
   },
   {
@@ -241,10 +255,43 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Build A Rocket Boy has appointed administrators",
+    "title": "Here is the full line-up for the GamesIndustry.biz HR Summit 2026",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 25 Sep 2026 09:55:07 +0000",
+    "date": "Fri, 25 Sep 2026 15:30:44 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Trophy Games acquires Airport Simulator: First Class developer Playrion from Paradox Interactive",
+    "link": "https://www.gamesindustry.biz/here-is-the-full-line-up-for-the-gamesindustrybiz-hr-summit-2026",
+    "description": "The full line-up of this year's GamesIndustry.biz HR Summit has been announced, featuring keynotes from Sarah Venables, founder of the HR Confidence Club; Jonny Hopper, CEO of Glowmade Studio; and Harvey Elliott and Carmen Martino of Playstack. The event is once again sponsored by Amiqus. Read more",
+    "date": "Fri, 25 Sep 2026 13:56:43 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Meta unveils AI-powered game tools for mobile devices and browsers; announces VR Glasses with day-one Unity support",
+    "link": "https://www.gamesindustry.biz/trophy-games-acquires-airport-simulator-first-class-developer-playrion-from-paradox-interactive",
+    "description": "Danish studio Trophy Games has acquired Airport Simulator: First Class developer Playrion from Paradox Interactive. Read more",
+    "date": "Fri, 25 Sep 2026 13:07:11 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "The Xbox reset doesn't have an end date | Opinion",
+    "link": "https://www.gamesindustry.biz/meta-unveils-ai-powered-game-tools-for-mobile-devices-and-browsers-announces-vr-glasses-with-day-one-unity-support",
+    "description": "Meta has revealed two AI-powered game tools that let players develop 2D and 3D games using prompts on mobile devices and browsers. Read more",
+    "date": "Fri, 25 Sep 2026 13:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -307,46 +354,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Righting old wrongs: MobyGames on letting developers claim games they weren't credited for",
-    "link": "https://www.gamesindustry.biz/dutch-consumer-group-files-lawsuit-against-epic-for-misleading-young-players-on-fortnite-seeking-more-than-100m-in-compensation",
-    "description": "Original story: The Dutch consumer group Stichting Massaschade & Consument (SMC) has filed a class action lawsuit against Epic Games, alleging it has misled young Fortnite players. Read more",
-    "date": "Thu, 24 Sep 2026 12:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Microsoft files patent for \"ad-credit\" system to show ads on PC and Xbox without disrupting gameplay",
-    "link": "https://www.gamesindustry.biz/tinybuild-revenue-rises-18-to-20m-during-h1-2026-with-85-coming-from-first-and-second-party-owned-ip",
-    "description": "TinyBuild reported an 18% revenue increase to $20 million for the six months ending June 30, 2026, driven by \"strong catalogue performance and new launches.\" Read more",
-    "date": "Thu, 24 Sep 2026 07:56:51 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Bethesda boss confirms Obsidian will remain a \"distinct\" team",
-    "link": "https://www.gamesindustry.biz/microsoft-files-patent-for-ad-credit-system-to-show-ads-on-pc-and-xbox-without-disrupting-gameplay",
-    "description": "Microsoft has patented an \"ad-credit\" system to display adverts and announcements during PC and Xbox game sessions without disrupting gameplay. Read more",
-    "date": "Wed, 23 Sep 2026 18:47:06 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "The EU KIDS Act: What game developers need to know",
-    "link": "https://www.gamesindustry.biz/age-of-empires-developer-worlds-edge-hit-with-layoffs-following-move-to-activision",
-    "description": "Age of Empires studio World's Edge has been hit with layoffs following its transition to Activision, with \"just under half\" of employees affected. Read more",
-    "date": "Wed, 23 Sep 2026 13:43:08 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Discord re-launches age verification following backlash over privacy concerns",
-    "link": "https://www.gamesindustry.biz/sensor-tower-pc-and-playstation-unit-sales-in-japan-rise-13-to-21m-during-h1-2026-led-by-resident-evil-requiem",
-    "description": "PC and PlayStation unit sales increased 13% to 21 million in Japan during the first half of 2026, led by Resident Evil Requiem. Read more",
-    "date": "Wed, 23 Sep 2026 10:11:43 +0000",
+    "title": "\"Crowdfunding is fundamentally a marketing and a community exercise\" – What developers need to know about funding a game with Kickstarter in 2026",
+    "link": "https://www.gamesindustry.biz/the-xbox-reset-doesnt-have-an-end-date-opinion",
+    "description": "Asha Sharma marked the conclusion of her first hundred days as Xbox CEO with a public blog post in which she called for the next hundred days to be a \"reset\" of the business. Highlighting the division's low \"accountability margin\" and declining revenues, along with macro factors like the hardware co",
+    "date": "Fri, 25 Sep 2026 12:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
