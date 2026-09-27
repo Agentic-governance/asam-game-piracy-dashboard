@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-26 11:13 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-27 11:51 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-26T11:13:02.608387",
+  fetched_at: "2026-09-27T11:51:52.595665",
   item_count: 30,
   items: [
   {
@@ -13,9 +13,9 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy",
       "dmca",
+      "pirate",
       "crack",
-      "denuvo",
-      "pirate"
+      "denuvo"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "denuvo",
       "drm",
       "crack",
-      "pirate",
-      "denuvo"
+      "pirate"
     ]
   },
   {
@@ -41,10 +41,10 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "piracy",
-      "torrent",
+      "pirate",
       "rom",
-      "copyright",
-      "pirate"
+      "torrent",
+      "copyright"
     ]
   },
   {
@@ -55,10 +55,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
+      "rom",
       "torrent",
       "piracy",
-      "pirate",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -69,9 +69,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "rom",
       "piracy",
-      "pirate",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -82,9 +82,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "rom",
       "piracy",
-      "pirate",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -95,8 +95,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -107,8 +107,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -124,20 +124,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Other Barks &#038; Bites for Friday, September 25: UPC Will Hear Noninfringement Claim to Pre-Issue Patent; DEFEND IP Act Introduced to Target Foreign Piracy Sites; and Judge Rogers Dissents from D.C. Circuit’s Royalty Allocation Ruling",
-    "link": "https://ipwatchdog.com/",
-    "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
-    "date": "Fri, 25 Sep 2026 18:15:31 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "piracy",
-      "intellectual property",
-      "copyright",
-      "rom"
-    ]
-  },
-  {
     "title": "Top 10 Most Pirated Movies of The Week – 09/21/2026",
     "link": "https://torrentfreak.com/u-s-site-blocking-bill-adds-vpns-to-the-list-of-blocking/",
     "description": "VPN providers with over 100,000 American users could be ordered to block pirate sites under the bill Rep. Darrell Issa introduced last week. The full text shows that VPNs were added after last year's discussion draft, which only mentioned ISPs and DNS resolvers. How a VPN should block access \"from t",
@@ -145,8 +131,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -181,8 +167,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "dmca"
+      "dmca",
+      "copyright"
     ]
   },
   {
@@ -193,8 +179,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -205,8 +191,8 @@ const ARIA_NEWS = {
     "source": "GamesIndustry",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "rom"
+      "rom",
+      "copyright"
     ]
   },
   {
@@ -358,6 +344,15 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/the-xbox-reset-doesnt-have-an-end-date-opinion",
     "description": "Asha Sharma marked the conclusion of her first hundred days as Xbox CEO with a public blog post in which she called for the next hundred days to be a \"reset\" of the business. Highlighting the division's low \"accountability margin\" and declining revenues, along with macro factors like the hardware co",
     "date": "Fri, 25 Sep 2026 12:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Build A Rocket Boy has appointed administrators",
+    "link": "https://www.gamesindustry.biz/crowdfunding-is-fundamentally-a-marketing-and-a-community-exercise-what-developers-need-to-know-about-funding-a-game-with-kickstarter-in-2026",
+    "description": "We might be long past the days of games companies raising eye-watering figures on Kickstarter, but the platform is still a viable way to raise money to fund &ndash; at last part of &ndash; your game. Read more",
+    "date": "Fri, 25 Sep 2026 09:55:07 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
