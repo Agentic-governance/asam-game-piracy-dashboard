@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-27 11:51 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-28 13:37 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-27T11:51:52.595665",
+  fetched_at: "2026-09-28T13:37:12.055472",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 17,
     "matched_keywords": [
-      "piracy",
-      "dmca",
       "pirate",
+      "dmca",
+      "denuvo",
       "crack",
-      "denuvo"
+      "piracy"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "denuvo",
       "drm",
-      "crack",
-      "pirate"
+      "pirate",
+      "denuvo",
+      "crack"
     ]
   },
   {
@@ -40,25 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
+      "torrent",
+      "rom",
       "pirate",
-      "rom",
-      "torrent",
-      "copyright"
-    ]
-  },
-  {
-    "title": "Adult Film Producer Unmasks Prolific &#8216;John Doe&#8217; Torrent Pirate as Meta Executive",
-    "link": "https://torrentfreak.com/online-piracy-costs-the-uk-9400-nurses-a-year-if-pirates-keep-their-word/",
-    "description": "A new UK industry report says illegal streaming costs the government the equivalent of 9,400 NHS nurse salaries a year. This missed tax money is linked to a broader £1.35 billion annual hit to the economy. The billion-pound figure is extrapolated from what some pirates say they would pay if piracy d",
-    "date": "Fri, 04 Sep 2026 09:27:03 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 8,
-    "matched_keywords": [
-      "rom",
-      "torrent",
       "piracy",
-      "pirate"
+      "copyright"
     ]
   },
   {
@@ -70,8 +56,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "rom",
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -83,20 +69,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "rom",
-      "piracy",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Nintendo Wins $4.5 Million Judgment Against r/SwitchPirates Mod &#8216;Archbox&#8217;",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Fri, 25 Sep 2026 04:47:40 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -119,7 +93,18 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
+      "pirate",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Nintendo Wins $4.5 Million Judgment Against r/SwitchPirates Mod &#8216;Archbox&#8217;",
+    "link": "https://torrentfreak.com/unified-u-s-site-blocking-bill-targets-isps-and-dns-resolvers-but-spares-vpns/",
+    "description": "Senator Thom Tillis and Rep. Zoe Lofgren have introduced their joint site blocking bill, the DEFEND IP Act. The proposal comes less than two weeks after Rep. Darrell Issa's competing proposal, and both bills allow rightsholders to obtain court orders requiring ISPs and large DNS resolvers to block f",
+    "date": "Fri, 25 Sep 2026 04:47:40 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 5,
+    "matched_keywords": [
       "pirate"
     ]
   },
@@ -143,8 +128,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -155,8 +140,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -167,8 +152,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "dmca",
-      "copyright"
+      "copyright",
+      "dmca"
     ]
   },
   {
@@ -203,8 +188,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
     ]
   },
   {
@@ -241,10 +226,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Here is the full line-up for the GamesIndustry.biz HR Summit 2026",
+    "title": "Wardogs studio chief Brammer insists he isn't \"pro crunch, I am pro hard work\"",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 25 Sep 2026 15:30:44 +0000",
+    "date": "Mon, 28 Sep 2026 11:14:50 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -340,19 +325,28 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"Crowdfunding is fundamentally a marketing and a community exercise\" – What developers need to know about funding a game with Kickstarter in 2026",
-    "link": "https://www.gamesindustry.biz/the-xbox-reset-doesnt-have-an-end-date-opinion",
-    "description": "Asha Sharma marked the conclusion of her first hundred days as Xbox CEO with a public blog post in which she called for the next hundred days to be a \"reset\" of the business. Highlighting the division's low \"accountability margin\" and declining revenues, along with macro factors like the hardware co",
-    "date": "Fri, 25 Sep 2026 12:00:00 +0000",
+    "title": "Microsoft boss Nadella says Xbox has to invent \"sustainable business model\"",
+    "link": "https://www.gamesindustry.biz/wardogs-studio-chief-brammer-insists-he-isnt-pro-crunch-i-am-pro-hard-work",
+    "description": "The CEO of Wardogs maker Bulkhead, Joe Brammer, has clarified his remarks on crunch. Read more",
+    "date": "Mon, 28 Sep 2026 09:05:32 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Build A Rocket Boy has appointed administrators",
-    "link": "https://www.gamesindustry.biz/crowdfunding-is-fundamentally-a-marketing-and-a-community-exercise-what-developers-need-to-know-about-funding-a-game-with-kickstarter-in-2026",
-    "description": "We might be long past the days of games companies raising eye-watering figures on Kickstarter, but the platform is still a viable way to raise money to fund &ndash; at last part of &ndash; your game. Read more",
-    "date": "Fri, 25 Sep 2026 09:55:07 +0000",
+    "title": "Here is the full line-up for the GamesIndustry.biz HR Summit 2026",
+    "link": "https://www.gamesindustry.biz/microsoft-boss-nadella-says-xbox-has-to-invent-sustainable-business-model",
+    "description": "The CEO of Microsoft, Satya Nadella, has said that the company's Xbox division needs to \"invent\" the correct \"sustainable business model\" to allow it to reach more and more people with its games. Read more",
+    "date": "Fri, 25 Sep 2026 15:30:44 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"Crowdfunding is fundamentally a marketing and a community exercise\" – What developers need to know about funding a game with Kickstarter in 2026",
+    "link": "https://www.gamesindustry.biz/the-xbox-reset-doesnt-have-an-end-date-opinion",
+    "description": "Asha Sharma marked the conclusion of her first hundred days as Xbox CEO with a public blog post in which she called for the next hundred days to be a \"reset\" of the business. Highlighting the division's low \"accountability margin\" and declining revenues, along with macro factors like the hardware co",
+    "date": "Fri, 25 Sep 2026 12:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
