@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-28 13:37 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-29 12:37 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-28T13:37:12.055472",
+  fetched_at: "2026-09-29T12:37:21.952426",
   item_count: 30,
   items: [
   {
@@ -12,9 +12,9 @@ const ARIA_NEWS = {
     "relevance_score": 17,
     "matched_keywords": [
       "pirate",
-      "dmca",
-      "denuvo",
       "crack",
+      "denuvo",
+      "dmca",
       "piracy"
     ]
   },
@@ -26,25 +26,38 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "drm",
-      "pirate",
       "denuvo",
+      "pirate",
+      "drm",
       "crack"
     ]
   },
   {
-    "title": "South African Minister Tells Film Summit It Has a Double Standard on Piracy",
+    "title": "Nintendo Wins $4.5 Million Judgment Against r/SwitchPirates Mod &#8216;Archbox&#8217;",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
     "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Spider-Man: Brand New Day' tops the chart, followed by 'The End of Oak Street.' 'Coyote vs. Acme' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Fri, 25 Sep 2026 04:47:40 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 11,
+    "matched_keywords": [
+      "pirate",
+      "rom",
+      "piracy",
+      "torrent",
+      "copyright"
+    ]
+  },
+  {
+    "title": "South African Minister Tells Film Summit It Has a Double Standard on Piracy",
+    "link": "https://torrentfreak.com/u-s-site-blocking-bill-adds-vpns-to-the-list-of-blocking/",
+    "description": "VPN providers with over 100,000 American users could be ordered to block pirate sites under the bill Rep. Darrell Issa introduced last week. The full text shows that VPNs were added after last year's discussion draft, which only mentioned ISPs and DNS resolvers. How a VPN should block access \"from t",
     "date": "Sat, 19 Sep 2026 11:23:19 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 9,
+    "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
-      "rom",
       "pirate",
       "piracy",
-      "copyright"
+      "rom"
     ]
   },
   {
@@ -55,22 +68,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Online Piracy Costs the UK 9,400 Nurses a Year, If Pirates Keep Their Word",
-    "link": "https://torrentfreak.com/openais-chatgpt-was-built-on-concealed-mass-piracy-authors-tell-court/",
-    "description": "Book authors have asked a New York federal judge to rule that OpenAI built its AI models on “mass piracy”. Pointing to internal documents, a summary judgment motion alleges the AI giant downloaded books from LibGen, hid the evidence by renaming datasets, and designed its models to supplant human wri",
-    "date": "Sun, 06 Sep 2026 07:41:26 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "rom",
-      "pirate",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -81,8 +81,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -98,26 +98,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Nintendo Wins $4.5 Million Judgment Against r/SwitchPirates Mod &#8216;Archbox&#8217;",
-    "link": "https://torrentfreak.com/unified-u-s-site-blocking-bill-targets-isps-and-dns-resolvers-but-spares-vpns/",
-    "description": "Senator Thom Tillis and Rep. Zoe Lofgren have introduced their joint site blocking bill, the DEFEND IP Act. The proposal comes less than two weeks after Rep. Darrell Issa's competing proposal, and both bills allow rightsholders to obtain court orders requiring ISPs and large DNS resolvers to block f",
-    "date": "Fri, 25 Sep 2026 04:47:40 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 5,
-    "matched_keywords": [
-      "pirate"
-    ]
-  },
-  {
-    "title": "Top 10 Most Pirated Movies of The Week – 09/21/2026",
-    "link": "https://torrentfreak.com/u-s-site-blocking-bill-adds-vpns-to-the-list-of-blocking/",
-    "description": "VPN providers with over 100,000 American users could be ordered to block pirate sites under the bill Rep. Darrell Issa introduced last week. The full text shows that VPNs were added after last year's discussion draft, which only mentioned ISPs and DNS resolvers. How a VPN should block access \"from t",
-    "date": "Sun, 20 Sep 2026 23:09:40 +0000",
+    "title": "IFPI Wants Open Source YouTube Downloader yt-dlp on EU Piracy Watch List",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Tue, 29 Sep 2026 08:33:07 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "pirate"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -164,8 +153,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -176,8 +165,8 @@ const ARIA_NEWS = {
     "source": "GamesIndustry",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "copyright"
+      "copyright",
+      "rom"
     ]
   },
   {
@@ -188,8 +177,30 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
+    ]
+  },
+  {
+    "title": "Unified U.S. Site Blocking Bill Targets ISPs and DNS Resolvers But Spares VPNs",
+    "link": "https://torrentfreak.com/ifpi-wants-open-source-youtube-downloader-yt-dlp-on-eu-piracy-watch-list/",
+    "description": "Music industry group IFPI has asked the European Commission to add the popular open source YouTube download tool yt-dlp to its Counterfeit and Piracy Watch List. The submission names four of the project's developers by their GitHub handles and describes the software as a major problem for the music ",
+    "date": "Mon, 28 Sep 2026 07:49:44 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "piracy"
+    ]
+  },
+  {
+    "title": "Top 10 Most Pirated Movies of The Week – 09/28/2026",
+    "link": "https://torrentfreak.com/unified-u-s-site-blocking-bill-targets-isps-and-dns-resolvers-but-spares-vpns/",
+    "description": "Senator Thom Tillis and Rep. Zoe Lofgren have introduced their joint site blocking bill, the DEFEND IP Act. The proposal comes less than two weeks after Rep. Darrell Issa's competing proposal, and both bills allow rightsholders to obtain court orders requiring ISPs and large DNS resolvers to block f",
+    "date": "Sun, 27 Sep 2026 23:09:40 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "pirate"
     ]
   },
   {
@@ -226,10 +237,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Wardogs studio chief Brammer insists he isn't \"pro crunch, I am pro hard work\"",
+    "title": "\"Why should we just give up the entire month of November?\" – The indie games going head to head with GTA 6",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 28 Sep 2026 11:14:50 +0000",
+    "date": "Tue, 29 Sep 2026 12:30:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"It's a nice story to tell\": How DICE bounced back from Battlefield 2042's disastrous launch to release the blockbuster Battlefield 6",
+    "link": "https://www.gamesindustry.biz/national-videogame-museum-launches-uk-wide-survey-on-game-preservation",
+    "description": "The National Videogame Museum has launched a UK-wide survey aimed at mapping the state of video game preservation across the country. Read more",
+    "date": "Mon, 28 Sep 2026 18:09:25 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -292,14 +314,14 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Sensor Tower: PC and PlayStation unit sales in Japan rise 13% to 21m during H1 2026, led by Resident Evil Requiem",
-    "link": "https://www.gamesindustry.biz/new-publisher-publsh-launches-with-disco-elysium-inspired-title-pera-coda",
-    "description": "A new game publisher, PUBLSH, has been established by former leadership from marketing agency Petrol. Read more",
-    "date": "Wed, 23 Sep 2026 12:55:38 +0000",
-    "source": "GamesIndustry",
+    "title": "U.S. Soldier Gets 70 Months in Prison for AT&#038;T, Verizon Extortions",
+    "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
+    "description": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attac",
+    "date": "Fri, 25 Sep 2026 21:44:40 +0000",
+    "source": "KrebsOnSecurity",
     "relevance_score": 3,
     "matched_keywords": [
-      "rom"
+      "arrested"
     ]
   },
   {
@@ -325,28 +347,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Microsoft boss Nadella says Xbox has to invent \"sustainable business model\"",
-    "link": "https://www.gamesindustry.biz/wardogs-studio-chief-brammer-insists-he-isnt-pro-crunch-i-am-pro-hard-work",
-    "description": "The CEO of Wardogs maker Bulkhead, Joe Brammer, has clarified his remarks on crunch. Read more",
-    "date": "Mon, 28 Sep 2026 09:05:32 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Here is the full line-up for the GamesIndustry.biz HR Summit 2026",
-    "link": "https://www.gamesindustry.biz/microsoft-boss-nadella-says-xbox-has-to-invent-sustainable-business-model",
-    "description": "The CEO of Microsoft, Satya Nadella, has said that the company's Xbox division needs to \"invent\" the correct \"sustainable business model\" to allow it to reach more and more people with its games. Read more",
-    "date": "Fri, 25 Sep 2026 15:30:44 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"Crowdfunding is fundamentally a marketing and a community exercise\" – What developers need to know about funding a game with Kickstarter in 2026",
-    "link": "https://www.gamesindustry.biz/the-xbox-reset-doesnt-have-an-end-date-opinion",
-    "description": "Asha Sharma marked the conclusion of her first hundred days as Xbox CEO with a public blog post in which she called for the next hundred days to be a \"reset\" of the business. Highlighting the division's low \"accountability margin\" and declining revenues, along with macro factors like the hardware co",
-    "date": "Fri, 25 Sep 2026 12:00:00 +0000",
+    "title": "Sony to skip CES 2027 for first time since expo's inaugural event in 1967",
+    "link": "https://www.gamesindustry.biz/why-should-we-just-give-up-the-entire-month-of-november-the-indie-games-going-head-to-head-with-gta-6",
+    "description": "Grand Theft Auto 6 is set to launch on November 19, and it's a fairly safe bet that it will be the biggest game launch of all time. Read more",
+    "date": "Tue, 29 Sep 2026 10:15:28 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
