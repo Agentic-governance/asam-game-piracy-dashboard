@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-29 12:37 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-09-30 12:22 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-29T12:37:21.952426",
+  fetched_at: "2026-09-30T12:22:48.978504",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 17,
     "matched_keywords": [
-      "pirate",
       "crack",
+      "pirate",
       "denuvo",
-      "dmca",
-      "piracy"
+      "piracy",
+      "dmca"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "crack",
       "denuvo",
       "pirate",
-      "drm",
-      "crack"
+      "drm"
     ]
   },
   {
@@ -40,11 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
+      "copyright",
       "pirate",
-      "rom",
-      "piracy",
       "torrent",
-      "copyright"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -98,10 +98,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "IFPI Wants Open Source YouTube Downloader yt-dlp on EU Piracy Watch List",
+    "title": "LaLiga Wants Major VPNs on EU Piracy Watch List Over Affiliate Marketing",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 29 Sep 2026 08:33:07 +0000",
+    "date": "Wed, 30 Sep 2026 09:20:17 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
@@ -146,18 +146,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "OpenAI&#8217;s ChatGPT Was Built on Concealed &#8216;Mass Piracy&#8217;, Authors Tell Court",
-    "link": "https://torrentfreak.com/stray-kids-label-hits-music-distributor-with-dmca-subpoena-over-bootleg-track/",
-    "description": "Stray Kids is one of the biggest bands in today's music industry. Because of that massive reach, a solo track from member Han went from a YouTube exclusive to bootleg releases on Apple Music and TikTok in days. Label JYP Entertainment now wants to identify the bootlegger. Instead of subpoenaing the ",
-    "date": "Mon, 07 Sep 2026 10:46:26 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "piracy",
-      "rom"
-    ]
-  },
-  {
     "title": "Dutch consumer group files lawsuit against Epic for misleading young players on Fortnite, seeking more than €100m in compensation",
     "link": "https://www.gamesindustry.biz/nintendo-of-america-awarded-45m-in-lawsuit-from-redditor-for-pirating-switch-hardware-and-software",
     "description": "Nintendo of America has won $4.5 million in damages from Reddit user James C. Williams, also known as 'Archbox,' for copyright violations. Read more",
@@ -179,6 +167,17 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "arrested",
       "rom"
+    ]
+  },
+  {
+    "title": "IFPI Wants Open Source YouTube Downloader yt-dlp on EU Piracy Watch List",
+    "link": "https://torrentfreak.com/laliga-wants-major-vpns-on-eu-piracy-watch-list-over-affiliate-marketing/",
+    "description": "Months after a Spanish court refused to fine NordVPN over IP blocking, LaLiga is now raising its concerns with the European Commission. The football league has asked the EU to add four major VPN providers to its Piracy Watch List, arguing that third-party affiliate marketing guides on how to bypass ",
+    "date": "Tue, 29 Sep 2026 08:33:07 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "piracy"
     ]
   },
   {
@@ -237,10 +236,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"Why should we just give up the entire month of November?\" – The indie games going head to head with GTA 6",
+    "title": "Housemarque and Bithell Games join Game Republic New Horizons speaker lineup, Nintendo to host open session for developers and publishers",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 29 Sep 2026 12:30:00 +0000",
+    "date": "Wed, 30 Sep 2026 10:53:37 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Global game content revenue forecast to rise 2.3% to $229.1bn in 2030, supported by PC and Asia-Pacific market",
+    "link": "https://www.gamesindustry.biz/valve-is-updating-steams-discount-events-section-to-become-more-dynamic-and-personalised",
+    "description": "Valve is updating Steam's Discount & Events section, shifting from manual, calendar-based listings to a more \"dynamic and personalised\" system to improve discoverability. Read more",
+    "date": "Wed, 30 Sep 2026 07:48:33 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "How indie studios can survive industry volatility | Opinion",
+    "link": "https://www.gamesindustry.biz/global-game-content-revenue-forecast-to-rise-23-to-2291bn-in-2030-supported-by-pc-and-asia-pacific-market",
+    "description": "Global game content revenue is projected to increase from $204.4 billion in 2025 to $229.1 billion in 2030, representing a 2.3% compound annual growth rate (CAGR), according to S&P Global Market Intelligence Kagan. Read more",
+    "date": "Tue, 29 Sep 2026 14:39:42 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -303,17 +324,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "TinyBuild revenue rises 18% to $20m during H1 2026, with 85% coming from first and second-party owned IP",
-    "link": "https://www.gamesindustry.biz/righting-old-wrongs-mobygames-on-letting-developers-claim-games-they-werent-credited-for",
-    "description": "In March 2022, Atari acquired the video game database MobyGames. Read more",
-    "date": "Thu, 24 Sep 2026 10:12:10 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "U.S. Soldier Gets 70 Months in Prison for AT&#038;T, Verizon Extortions",
     "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
     "description": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attac",
@@ -345,15 +355,6 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
-  },
-  {
-    "title": "Sony to skip CES 2027 for first time since expo's inaugural event in 1967",
-    "link": "https://www.gamesindustry.biz/why-should-we-just-give-up-the-entire-month-of-november-the-indie-games-going-head-to-head-with-gta-6",
-    "description": "Grand Theft Auto 6 is set to launch on November 19, and it's a fairly safe bet that it will be the biggest game launch of all time. Read more",
-    "date": "Tue, 29 Sep 2026 10:15:28 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
   }
 ]
 };
