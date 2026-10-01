@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-09-30 12:22 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-01 12:57 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-09-30T12:22:48.978504",
+  fetched_at: "2026-10-01T12:57:49.259899",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 17,
     "matched_keywords": [
-      "crack",
       "pirate",
-      "denuvo",
+      "crack",
       "piracy",
+      "denuvo",
       "dmca"
     ]
   },
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "crack",
-      "denuvo",
       "pirate",
-      "drm"
+      "drm",
+      "crack",
+      "denuvo"
     ]
   },
   {
@@ -40,11 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "copyright",
       "pirate",
-      "torrent",
       "piracy",
-      "rom"
+      "rom",
+      "copyright",
+      "torrent"
     ]
   },
   {
@@ -55,9 +55,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "rom",
       "pirate",
-      "piracy",
-      "rom"
+      "piracy"
     ]
   },
   {
@@ -68,9 +68,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "rom",
       "pirate",
-      "piracy",
-      "rom"
+      "piracy"
     ]
   },
   {
@@ -81,8 +81,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -95,6 +95,17 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "pirate",
       "piracy"
+    ]
+  },
+  {
+    "title": "Xbox CEO Asha Sharma insists \"Xbox is not for sale\"",
+    "link": "https://www.gamesindustry.biz/alleged-hacker-arrested-over-leak-that-exposed-gta-onlines-daily-revenue",
+    "description": "Dutch police have arrested a 24-year-old Amsterdam man in connection with an investigation into ShinyHunters, the hacking group the FBI says was behind a data breach that exposed confidential GTA Online revenue figures earlier this year. Read more",
+    "date": "Wed, 30 Sep 2026 17:43:08 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 5,
+    "matched_keywords": [
+      "arrested"
     ]
   },
   {
@@ -141,20 +152,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "dmca"
-    ]
-  },
-  {
-    "title": "Dutch consumer group files lawsuit against Epic for misleading young players on Fortnite, seeking more than €100m in compensation",
-    "link": "https://www.gamesindustry.biz/nintendo-of-america-awarded-45m-in-lawsuit-from-redditor-for-pirating-switch-hardware-and-software",
-    "description": "Nintendo of America has won $4.5 million in damages from Reddit user James C. Williams, also known as 'Archbox,' for copyright violations. Read more",
-    "date": "Thu, 24 Sep 2026 13:48:19 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "copyright",
-      "rom"
+      "dmca",
+      "copyright"
     ]
   },
   {
@@ -165,8 +164,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
     ]
   },
   {
@@ -236,10 +235,43 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Housemarque and Bithell Games join Game Republic New Horizons speaker lineup, Nintendo to host open session for developers and publishers",
+    "title": "Jobs roundup: October | Code Wizards Group appoints Catherine Bygrave as head of commercial",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 30 Sep 2026 10:53:37 +0000",
+    "date": "Thu, 01 Oct 2026 09:26:54 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Alleged hacker arrested over leak that exposed GTA Online's daily revenue",
+    "link": "https://www.gamesindustry.biz/ubisoft-renames-creative-house-2-home-of-the-division-ghost-recon-and-splinter-cell-as-massive-entertainment",
+    "description": "Ubisoft has announced that its Creative House 2 business unit, which houses Tom Clancy's The Division, Ghost Recon, and Splinter Cell alongside \"new original IP including March of Giants\", will henceforth be known as Massive Entertainment, adopting the 29-year-old brand of the Swedish studio that or",
+    "date": "Wed, 30 Sep 2026 18:59:09 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "arrested"
+    ]
+  },
+  {
+    "title": "Grasshopper Manufacture becomes independent as it splits from NetEase Games",
+    "link": "https://www.gamesindustry.biz/the-witcher-3-hits-its-highest-ever-steam-concurrent-player-count-following-remastered-launch",
+    "description": "The Witcher 3: Wild Hunt has hit its highest concurrent player count on Steam since launch following the launch of CD Projekt Red's free Remastered edition. Read more",
+    "date": "Wed, 30 Sep 2026 14:06:09 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "How to run an indie game studio: Part 1, What is a studio?",
+    "link": "https://www.gamesindustry.biz/grasshopper-manufacture-becomes-independent-as-it-splits-from-netease-games",
+    "description": "Romeo is a Dead Man developer Grasshopper Manufacture has announced its separation from NetEase Games to become an independent studio. Read more",
+    "date": "Wed, 30 Sep 2026 14:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -280,50 +312,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Trophy Games acquires Airport Simulator: First Class developer Playrion from Paradox Interactive",
-    "link": "https://www.gamesindustry.biz/here-is-the-full-line-up-for-the-gamesindustrybiz-hr-summit-2026",
-    "description": "The full line-up of this year's GamesIndustry.biz HR Summit has been announced, featuring keynotes from Sarah Venables, founder of the HR Confidence Club; Jonny Hopper, CEO of Glowmade Studio; and Harvey Elliott and Carmen Martino of Playstack. The event is once again sponsored by Amiqus. Read more",
-    "date": "Fri, 25 Sep 2026 13:56:43 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Meta unveils AI-powered game tools for mobile devices and browsers; announces VR Glasses with day-one Unity support",
-    "link": "https://www.gamesindustry.biz/trophy-games-acquires-airport-simulator-first-class-developer-playrion-from-paradox-interactive",
-    "description": "Danish studio Trophy Games has acquired Airport Simulator: First Class developer Playrion from Paradox Interactive. Read more",
-    "date": "Fri, 25 Sep 2026 13:07:11 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "The Xbox reset doesn't have an end date | Opinion",
-    "link": "https://www.gamesindustry.biz/meta-unveils-ai-powered-game-tools-for-mobile-devices-and-browsers-announces-vr-glasses-with-day-one-unity-support",
-    "description": "Meta has revealed two AI-powered game tools that let players develop 2D and 3D games using prompts on mobile devices and browsers. Read more",
-    "date": "Fri, 25 Sep 2026 13:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Nintendo of America awarded $4.5m in lawsuit from Redditor for pirating Switch hardware and software",
-    "link": "https://www.gamesindustry.biz/king-signs-collective-agreement-with-swedish-trade-unions-following-call-to-industrial-action-last-week",
-    "description": "King has  signed a collective agreement with the Swedish trade unions Unionen and Sveriges Ingenj&ouml;rer after last week&rsquo;s call to industrial action. Read more",
-    "date": "Fri, 25 Sep 2026 08:04:53 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "U.S. Soldier Gets 70 Months in Prison for AT&#038;T, Verizon Extortions",
     "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
     "description": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attac",
@@ -355,6 +343,15 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy"
     ]
+  },
+  {
+    "title": "PC and console revenue charts led by new releases in August | Newzoo charts",
+    "link": "https://www.gamesindustry.biz/jobs-roundup-october-code-wizards-group-appoints-catherine-bygrave-as-head-of-commercial",
+    "description": "It can be difficult keeping track of the various comings and goings in the games industry, which is why we compile them in semi-regular round-ups. Read more",
+    "date": "Thu, 01 Oct 2026 08:25:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   }
 ]
 };
