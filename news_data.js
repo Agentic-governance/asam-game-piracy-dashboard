@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-01 12:57 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-02 12:20 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-01T12:57:49.259899",
+  fetched_at: "2026-10-02T12:20:07.258031",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 17,
     "matched_keywords": [
+      "piracy",
       "pirate",
       "crack",
-      "piracy",
-      "denuvo",
-      "dmca"
+      "dmca",
+      "denuvo"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "denuvo",
       "pirate",
       "drm",
-      "crack",
-      "denuvo"
+      "crack"
     ]
   },
   {
@@ -40,11 +40,24 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "pirate",
       "piracy",
+      "pirate",
       "rom",
       "copyright",
       "torrent"
+    ]
+  },
+  {
+    "title": "LaLiga Wants Major VPNs on EU Piracy Watch List Over Affiliate Marketing",
+    "link": "https://torrentfreak.com/alleged-kemo-iptv-operator-faces-criminal-prosecution-in-dubai-following-ace-complaint/",
+    "description": "An alleged operator of pirate IPTV services Kemo IPTV and Lemo TV faces criminal prosecution in Dubai, following a complaint from anti-piracy coalition ACE. The case surprisingly surfaced in a Florida federal court, where DISH Network's request for a $28.65 million default judgment against the same ",
+    "date": "Wed, 30 Sep 2026 09:20:17 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "pirate",
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -55,8 +68,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "pirate",
+      "rom",
       "piracy"
     ]
   },
@@ -68,8 +81,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "pirate",
+      "rom",
       "piracy"
     ]
   },
@@ -81,8 +94,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -106,18 +119,6 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "arrested"
-    ]
-  },
-  {
-    "title": "LaLiga Wants Major VPNs on EU Piracy Watch List Over Affiliate Marketing",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Wed, 30 Sep 2026 09:20:17 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "copyright",
-      "piracy"
     ]
   },
   {
@@ -145,15 +146,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Stray Kids Label Hits Music Distributor With DMCA Subpoena Over Bootleg Track",
-    "link": "https://torrentfreak.com/private-torrent-tracker-lawsuit-takes-bizarre-turn-im-a-different-matthew-schneider/",
-    "description": "The copyright lawsuit targeting PassThePopcorn, BroadcasTheNet, HDBits, and three other major private trackers has taken a bizarre turn. After a Canadian filmmaker filed a sworn declaration confirming he has nothing to do with the case, the plaintiff argues there are simply two filmmakers with the s",
-    "date": "Tue, 08 Sep 2026 09:02:41 +0000",
-    "source": "TorrentFreak",
+    "title": "Other Barks &#038; Bites for Friday, September 25: UPC Will Hear Noninfringement Claim to Pre-Issue Patent; DEFEND IP Act Introduced to Target Foreign Piracy Sites; and Judge Rogers Dissents from D.C. Circuit’s Royalty Allocation Ruling",
+    "link": "https://ipwatchdog.com/2026/09/27/cafc-affirms-section-101-dismissal-for-google-over-internet-advertising-patents/",
+    "description": "The U.S. Court of Appeals for the Federal Circuit (CAFC) issued a decision Friday in The Receivership Estate of AudienceScience Inc. v. Google LLC, affirming a ruling from the U.S. District Court for the Northern District of California that granted Google LLC and YouTube LLC judgment on the pleading",
+    "date": "Fri, 25 Sep 2026 18:15:31 +0000",
+    "source": "IPWatchdog",
     "relevance_score": 4,
     "matched_keywords": [
-      "dmca",
-      "copyright"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -235,10 +236,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Jobs roundup: October | Code Wizards Group appoints Catherine Bygrave as head of commercial",
+    "title": "Reigns developer Nerial closes following \"significant trading losses\" over past two years",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 01 Oct 2026 09:26:54 +0000",
+    "date": "Fri, 02 Oct 2026 11:19:13 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -301,14 +302,14 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"It's a nice story to tell\": How DICE bounced back from Battlefield 2042's disastrous launch to release the blockbuster Battlefield 6",
-    "link": "https://www.gamesindustry.biz/national-videogame-museum-launches-uk-wide-survey-on-game-preservation",
-    "description": "The National Videogame Museum has launched a UK-wide survey aimed at mapping the state of video game preservation across the country. Read more",
-    "date": "Mon, 28 Sep 2026 18:09:25 +0000",
-    "source": "GamesIndustry",
+    "title": "FTC Seeks Comment on Proposed Rule to Crack Down on Platform Facilitation of Impersonation Scam Ads",
+    "link": "https://ipwatchdog.com/2026/09/28/federal-circuit-upholds-ptab-obviousness-finding-in-apple-ipr-of-speech-recognition-patent/",
+    "description": "The U.S. Court of Appeals for the Federal Circuit (CAFC) issued a decision on September 25 in Zentian Ltd. v. Apple Inc., affirming a Patent Trial and Appeal Board (PTAB) final written decision that found all claims of a speech recognition patent unpatentable as obvious. The court rejected Zentian’s",
+    "date": "Mon, 28 Sep 2026 14:15:58 +0000",
+    "source": "IPWatchdog",
     "relevance_score": 3,
     "matched_keywords": [
-      "rom"
+      "crack"
     ]
   },
   {
@@ -345,10 +346,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "PC and console revenue charts led by new releases in August | Newzoo charts",
-    "link": "https://www.gamesindustry.biz/jobs-roundup-october-code-wizards-group-appoints-catherine-bygrave-as-head-of-commercial",
-    "description": "It can be difficult keeping track of the various comings and goings in the games industry, which is why we compile them in semi-regular round-ups. Read more",
-    "date": "Thu, 01 Oct 2026 08:25:00 +0000",
+    "title": "Krafton shuts down PUBG spin-off Black Budget nine months after closed alpha test",
+    "link": "https://www.gamesindustry.biz/2xko-would-have-needed-an-mau-base-in-the-high-hundreds-of-thousands-if-not-millions-to-succeed",
+    "description": "Riot Games' 2XKO would have had to attract a base of monthly active users \"in the high hundreds of thousands, if not millions\" to be sustainable, according to CPO Marc Merrill. Read more",
+    "date": "Fri, 02 Oct 2026 08:03:39 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
