@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-02 12:20 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-03 11:30 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-02T12:20:07.258031",
+  fetched_at: "2026-10-03T11:30:00.034576",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 17,
     "matched_keywords": [
-      "piracy",
-      "pirate",
-      "crack",
       "dmca",
+      "crack",
+      "pirate",
+      "piracy",
       "denuvo"
     ]
   },
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "denuvo",
-      "pirate",
       "drm",
+      "pirate",
+      "denuvo",
       "crack"
     ]
   },
@@ -40,10 +40,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "piracy",
-      "pirate",
-      "rom",
       "copyright",
+      "rom",
+      "pirate",
+      "piracy",
       "torrent"
     ]
   },
@@ -55,8 +55,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "rom",
+      "pirate",
       "piracy"
     ]
   },
@@ -68,8 +68,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "rom",
+      "pirate",
       "piracy"
     ]
   },
@@ -81,8 +81,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "rom",
+      "pirate",
       "piracy"
     ]
   },
@@ -94,8 +94,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -146,18 +146,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Other Barks &#038; Bites for Friday, September 25: UPC Will Hear Noninfringement Claim to Pre-Issue Patent; DEFEND IP Act Introduced to Target Foreign Piracy Sites; and Judge Rogers Dissents from D.C. Circuit’s Royalty Allocation Ruling",
-    "link": "https://ipwatchdog.com/2026/09/27/cafc-affirms-section-101-dismissal-for-google-over-internet-advertising-patents/",
-    "description": "The U.S. Court of Appeals for the Federal Circuit (CAFC) issued a decision Friday in The Receivership Estate of AudienceScience Inc. v. Google LLC, affirming a ruling from the U.S. District Court for the Northern District of California that granted Google LLC and YouTube LLC judgment on the pleading",
-    "date": "Fri, 25 Sep 2026 18:15:31 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "rom",
-      "piracy"
-    ]
-  },
-  {
     "title": "Two Alleged &#8216;TeamPCP&#8217; Hackers Arrested in Australia",
     "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
     "description": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning i",
@@ -165,8 +153,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
     ]
   },
   {
@@ -236,10 +224,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Reigns developer Nerial closes following \"significant trading losses\" over past two years",
+    "title": "Sony's consultation on physical media: better late than never | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 02 Oct 2026 11:19:13 +0000",
+    "date": "Fri, 02 Oct 2026 15:19:56 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "In pictures: the Best Places To Work Awards 2026",
+    "link": "https://www.gamesindustry.biz/sonys-consultation-on-physical-media-better-late-than-never-opinion",
+    "description": "The news that Sony is surveying its development partners to get their input on its decision to end support for physical game releases (first reported by Moore's Law is Dead) is a little odd, at least from a sequencing perspective. You'd generally imagine that talking to your most important business ",
+    "date": "Fri, 02 Oct 2026 14:55:28 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -273,28 +272,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/grasshopper-manufacture-becomes-independent-as-it-splits-from-netease-games",
     "description": "Romeo is a Dead Man developer Grasshopper Manufacture has announced its separation from NetEase Games to become an independent studio. Read more",
     "date": "Wed, 30 Sep 2026 14:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Global game content revenue forecast to rise 2.3% to $229.1bn in 2030, supported by PC and Asia-Pacific market",
-    "link": "https://www.gamesindustry.biz/valve-is-updating-steams-discount-events-section-to-become-more-dynamic-and-personalised",
-    "description": "Valve is updating Steam's Discount & Events section, shifting from manual, calendar-based listings to a more \"dynamic and personalised\" system to improve discoverability. Read more",
-    "date": "Wed, 30 Sep 2026 07:48:33 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "How indie studios can survive industry volatility | Opinion",
-    "link": "https://www.gamesindustry.biz/global-game-content-revenue-forecast-to-rise-23-to-2291bn-in-2030-supported-by-pc-and-asia-pacific-market",
-    "description": "Global game content revenue is projected to increase from $204.4 billion in 2025 to $229.1 billion in 2030, representing a 2.3% compound annual growth rate (CAGR), according to S&P Global Market Intelligence Kagan. Read more",
-    "date": "Tue, 29 Sep 2026 14:39:42 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -346,10 +323,28 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Krafton shuts down PUBG spin-off Black Budget nine months after closed alpha test",
-    "link": "https://www.gamesindustry.biz/2xko-would-have-needed-an-mau-base-in-the-high-hundreds-of-thousands-if-not-millions-to-succeed",
-    "description": "Riot Games' 2XKO would have had to attract a base of monthly active users \"in the high hundreds of thousands, if not millions\" to be sustainable, according to CPO Marc Merrill. Read more",
-    "date": "Fri, 02 Oct 2026 08:03:39 +0000",
+    "title": "\"Quite often it's given me more to do\" – Why AI might be creating more work for games companies, rather than saving time",
+    "link": "https://www.gamesindustry.biz/in-pictures-the-best-places-to-work-awards-2026",
+    "description": "Last night saw the reveal of this year's GamesIndustry.biz Best Places To Work Awards UK, which returned to the Royal Institution in London at the end of the GamesIndustry.biz HR Summit. The awards were generously sponsored by Amiqus, Playground Games, IO Interactive, Games London and Special Effect",
+    "date": "Fri, 02 Oct 2026 14:29:12 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Bungie co-founder and Destiny 2 narrative director launch transmedia studio Stone Kite",
+    "link": "https://www.gamesindustry.biz/quite-often-its-given-me-more-to-do-why-ai-might-be-creating-more-work-for-games-companies-rather-than-saving-time",
+    "description": "The GamesIndustry.biz HR Summit took place on October 1, and one topic that came up again and again at sessions throughout the day was generative AI and the impact it's having on the workplace. Read more",
+    "date": "Fri, 02 Oct 2026 13:54:44 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Reigns developer Nerial closes following \"significant trading losses\" over past two years",
+    "link": "https://www.gamesindustry.biz/winners-of-the-uk-best-places-to-work-awards-2026-revealed",
+    "description": "The UK Best Places to Work Awards 2026 took place at the Royal Institution in London on October 1, with special awards going to Dink, Hangar 13, Jagex: The RuneScape Company, NaturalMotion Games, Rare, and Snap Finger Click. Read more",
+    "date": "Fri, 02 Oct 2026 11:19:13 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
