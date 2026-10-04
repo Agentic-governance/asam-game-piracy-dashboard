@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-03 11:30 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-04 12:11 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-03T11:30:00.034576",
+  fetched_at: "2026-10-04T12:11:09.969370",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 17,
     "matched_keywords": [
-      "dmca",
       "crack",
-      "pirate",
       "piracy",
-      "denuvo"
+      "dmca",
+      "denuvo",
+      "pirate"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "drm",
       "pirate",
-      "denuvo",
-      "crack"
+      "drm",
+      "crack",
+      "denuvo"
     ]
   },
   {
@@ -40,11 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "copyright",
+      "torrent",
+      "piracy",
       "rom",
       "pirate",
-      "piracy",
-      "torrent"
+      "copyright"
     ]
   },
   {
@@ -55,9 +55,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "pirate",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -68,9 +68,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "pirate",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -81,9 +81,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "pirate",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -94,8 +94,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -134,18 +134,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Private Torrent Tracker Lawsuit Takes Bizarre Turn: &#8216;I&#8217;m a Different Matthew Schneider&#8217; (Updated)",
-    "link": "https://torrentfreak.com/pirate-iptv-operators-face-32-7-million-judgment-and-self-expanding-blocking-injunction/",
-    "description": "TelevisaUnivision has asked a Florida federal judge to enter a $32.7 million default judgment against the operators of three pirate IPTV services, who all failed to appear in court. The proposed permanent blocking injunction expands its already-broad predecessor, letting the broadcaster add new defe",
-    "date": "Wed, 09 Sep 2026 11:57:22 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "pirate",
-      "torrent"
-    ]
-  },
-  {
     "title": "Two Alleged &#8216;TeamPCP&#8217; Hackers Arrested in Australia",
     "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
     "description": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning i",
@@ -155,6 +143,17 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "arrested",
       "rom"
+    ]
+  },
+  {
+    "title": "Alleged Kemo IPTV Operator Faces Criminal Prosecution in Dubai Following ACE Complaint",
+    "link": "https://torrentfreak.com/two-u-s-site-blocking-bills-compete-over-vpn-rules-and-isp-liability/",
+    "description": "The two competing pirate site-blocking bills that were introduced in Congress recently take different approached. While Rep. Darrell Issa's ACPA targets VPNs and provides broad liability protections to Internet service providers, the bipartisan and bicameral DEFEND IP Act explicitly excludes VPNs, w",
+    "date": "Fri, 02 Oct 2026 06:04:15 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "pirate"
     ]
   },
   {
@@ -279,17 +278,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "FTC Seeks Comment on Proposed Rule to Crack Down on Platform Facilitation of Impersonation Scam Ads",
-    "link": "https://ipwatchdog.com/2026/09/28/federal-circuit-upholds-ptab-obviousness-finding-in-apple-ipr-of-speech-recognition-patent/",
-    "description": "The U.S. Court of Appeals for the Federal Circuit (CAFC) issued a decision on September 25 in Zentian Ltd. v. Apple Inc., affirming a Patent Trial and Appeal Board (PTAB) final written decision that found all claims of a speech recognition patent unpatentable as obvious. The court rejected Zentian’s",
-    "date": "Mon, 28 Sep 2026 14:15:58 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "crack"
-    ]
-  },
-  {
     "title": "U.S. Soldier Gets 70 Months in Prison for AT&#038;T, Verizon Extortions",
     "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
     "description": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attac",
@@ -345,6 +333,15 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/winners-of-the-uk-best-places-to-work-awards-2026-revealed",
     "description": "The UK Best Places to Work Awards 2026 took place at the Royal Institution in London on October 1, with special awards going to Dink, Hangar 13, Jagex: The RuneScape Company, NaturalMotion Games, Rare, and Snap Finger Click. Read more",
     "date": "Fri, 02 Oct 2026 11:19:13 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Krafton shuts down PUBG spin-off Black Budget nine months after closed alpha test",
+    "link": "https://www.gamesindustry.biz/2xko-would-have-needed-an-mau-base-in-the-high-hundreds-of-thousands-if-not-millions-to-succeed",
+    "description": "Riot Games' 2XKO would have had to attract a base of monthly active users \"in the high hundreds of thousands, if not millions\" to be sustainable, according to CPO Marc Merrill. Read more",
+    "date": "Fri, 02 Oct 2026 08:03:39 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
