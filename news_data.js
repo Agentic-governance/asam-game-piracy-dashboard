@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-04 12:11 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-05 14:21 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-04T12:11:09.969370",
+  fetched_at: "2026-10-05T14:21:06.600137",
   item_count: 30,
   items: [
   {
@@ -26,25 +26,25 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "pirate",
       "drm",
       "crack",
-      "denuvo"
+      "denuvo",
+      "pirate"
     ]
   },
   {
-    "title": "Nintendo Wins $4.5 Million Judgment Against r/SwitchPirates Mod &#8216;Archbox&#8217;",
+    "title": "Two U.S. Site-Blocking Bills Compete Over VPN Rules and ISP Liability",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Spider-Man: Brand New Day' tops the chart, followed by 'The End of Oak Street.' 'Coyote vs. Acme' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Fri, 25 Sep 2026 04:47:40 +0000",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Coyote vs. Acme' tops the chart, followed by 'The End of Oak Street.' 'Runner' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sat, 03 Oct 2026 19:11:40 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 11,
+    "relevance_score": 9,
     "matched_keywords": [
+      "copyright",
+      "rom",
       "torrent",
       "piracy",
-      "rom",
-      "pirate",
-      "copyright"
+      "pirate"
     ]
   },
   {
@@ -55,9 +55,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "rom",
       "piracy",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -68,9 +68,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "rom",
       "piracy",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -81,9 +81,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "rom",
       "piracy",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -94,20 +94,19 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
-    "title": "Pirate IPTV Operators Face $32.7 Million Judgment and Self-Expanding Blocking Injunction",
-    "link": "https://torrentfreak.com/report-links-pirate-iptv-to-hezbollah-tv-calls-for-u-s-site-blocking/",
-    "description": "A new report released by the Digital Citizens Alliance warns that pirate IPTV services are giving terrorist organizations a back door into American homes. By highlighting the availability of Hezbollah and Hamas channels via these services, the group reframes piracy as a national security threat, whi",
-    "date": "Thu, 10 Sep 2026 13:39:13 +0000",
+    "title": "Nintendo Wins $4.5 Million Judgment Against r/SwitchPirates Mod &#8216;Archbox&#8217;",
+    "link": "https://torrentfreak.com/unified-u-s-site-blocking-bill-targets-isps-and-dns-resolvers-but-spares-vpns/",
+    "description": "Senator Thom Tillis and Rep. Zoe Lofgren have introduced their joint site blocking bill, the DEFEND IP Act. The proposal comes less than two weeks after Rep. Darrell Issa's competing proposal, and both bills allow rightsholders to obtain court orders requiring ISPs and large DNS resolvers to block f",
+    "date": "Fri, 25 Sep 2026 04:47:40 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 6,
+    "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -122,6 +121,18 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "DNS Resolver Quad9 Rejects French Piracy Blocks, Weighs Exit as beIN Seeks Up to €580K a Day",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Mon, 05 Oct 2026 06:40:07 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
+      "piracy"
+    ]
+  },
+  {
     "title": "As U.S. Trade Pressure Mounts, Vietnam Prepares to Prosecute 74 &#8216;Xoi Lac&#8217; Sports Pirates",
     "link": "https://torrentfreak.com/rightsholders-cant-use-openai-and-anthropic-to-dismantle-metas-seeding-defense/",
     "description": "Meta previously argued that uploading pirated books to other BitTorrent users was an unavoidable side effect of downloading them, and therefore fair use. Rightsholders suing Meta in three related cases tried to dismantle this theory by asking OpenAI and Anthropic to reveal how they torrented shadow ",
@@ -129,8 +140,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -141,8 +152,19 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
+    ]
+  },
+  {
+    "title": "Top 10 Most Pirated Movies of The Week – 10/05/2026",
+    "link": "https://torrentfreak.com/dns-resolver-quad9-rejects-french-piracy-blocks-weighs-exit-as-bein-seeks-up-to-e580k-a-day/",
+    "description": "DNS resolver Quad9 is considering pulling out of France after broadcaster beIN Sports asked a Paris court to impose non-compliance penalties that could go up to €580,000 per day. The Swiss non-profit is not blocking the pirate tennis streams covered by a May site-blocking order, arguing that it can'",
+    "date": "Sun, 04 Oct 2026 23:09:40 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "pirate"
     ]
   },
   {
@@ -179,17 +201,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 09/28/2026",
-    "link": "https://torrentfreak.com/unified-u-s-site-blocking-bill-targets-isps-and-dns-resolvers-but-spares-vpns/",
-    "description": "Senator Thom Tillis and Rep. Zoe Lofgren have introduced their joint site blocking bill, the DEFEND IP Act. The proposal comes less than two weeks after Rep. Darrell Issa's competing proposal, and both bills allow rightsholders to obtain court orders requiring ISPs and large DNS resolvers to block f",
-    "date": "Sun, 27 Sep 2026 23:09:40 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "pirate"
-    ]
-  },
-  {
     "title": "Pirate IPTV App LiveNetTV Shut Down After Turkish Police Raid, Operators Settle With ACE",
     "link": "https://torrentfreak.com/pirate-site-must-face-chinese-streaming-giant-tencent-in-u-s-court-judge-rules/",
     "description": "China's biggest streaming companies are using U.S. courts to take down pirate sites, and a Florida judge just made that path easier. Overruling a magistrate's recommendation, the court ruled that the Chinese-language pirate site Olevod, which is run by a Spanish company, must answer Tencent's lawsui",
@@ -223,10 +234,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Sony's consultation on physical media: better late than never | Opinion",
+    "title": "Sony introduces AI upscaling to base PS5; Marvel's Wolverine and Ghost of Yōtei are first games to implement new tech",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 02 Oct 2026 15:19:56 +0000",
+    "date": "Mon, 05 Oct 2026 13:35:22 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -253,28 +264,6 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "arrested"
-    ]
-  },
-  {
-    "title": "Grasshopper Manufacture becomes independent as it splits from NetEase Games",
-    "link": "https://www.gamesindustry.biz/the-witcher-3-hits-its-highest-ever-steam-concurrent-player-count-following-remastered-launch",
-    "description": "The Witcher 3: Wild Hunt has hit its highest concurrent player count on Steam since launch following the launch of CD Projekt Red's free Remastered edition. Read more",
-    "date": "Wed, 30 Sep 2026 14:06:09 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "How to run an indie game studio: Part 1, What is a studio?",
-    "link": "https://www.gamesindustry.biz/grasshopper-manufacture-becomes-independent-as-it-splits-from-netease-games",
-    "description": "Romeo is a Dead Man developer Grasshopper Manufacture has announced its separation from NetEase Games to become an independent studio. Read more",
-    "date": "Wed, 30 Sep 2026 14:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
     ]
   },
   {
@@ -311,37 +300,46 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "\"It's less risky to be the masters of our own fate\" – The AAA developers going indie",
+    "link": "https://www.gamesindustry.biz/sony-introduces-ai-upscaling-to-base-ps5-marvels-wolverine-and-ghost-of-yotei-are-first-games-to-implement-new-tech",
+    "description": "Sony Interactive Entertainment has introduced new AI upscaling technology to the base PlayStation 5, called  Quick Spectral Super Resolution (QSSR). Read more",
+    "date": "Mon, 05 Oct 2026 13:12:44 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Jagex responds to use of generative AI in RuneScape trailer made by \"trusted external partner\"",
+    "link": "https://www.gamesindustry.biz/its-less-risky-to-be-the-masters-of-our-own-fate-the-aaa-developers-going-indie",
+    "description": "Justin Fischer and Brock Feldman suddenly found themselves out of a job in 2025, when Warner Bros decided to shutter their studio, Player First Games, the developer of Multiversus. Read more",
+    "date": "Mon, 05 Oct 2026 11:08:39 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Disney president and CCO dismisses rumours of Epic Games buyout: \"Those are not the conversations we are having right now\"",
+    "link": "https://www.gamesindustry.biz/jagex-responds-to-use-of-generative-ai-in-runescape-trailer-made-by-trusted-external-partner",
+    "description": "RuneScape creator Jagex has responded to the use of generative AI in a trailer for RuneScape 3's Dragon Slayer 2 quest shown during RuneFest. Read more",
+    "date": "Mon, 05 Oct 2026 10:05:48 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Capcom aims to enhance its propriety RE Engine with AI to accelerate efficiency in QA, debugging, and data processing",
+    "link": "https://www.gamesindustry.biz/disney-president-and-cco-dismisses-rumours-of-epic-games-buyout-those-are-not-the-conversations-we-are-having-right-now",
+    "description": "Walt Disney Company president and CCO Dana Walden has dismissed ongoing rumours of an Epic Games buyout, saying \"those are not the conversations we are having right now.\" Read more",
+    "date": "Mon, 05 Oct 2026 08:29:51 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "\"Quite often it's given me more to do\" – Why AI might be creating more work for games companies, rather than saving time",
     "link": "https://www.gamesindustry.biz/in-pictures-the-best-places-to-work-awards-2026",
     "description": "Last night saw the reveal of this year's GamesIndustry.biz Best Places To Work Awards UK, which returned to the Royal Institution in London at the end of the GamesIndustry.biz HR Summit. The awards were generously sponsored by Amiqus, Playground Games, IO Interactive, Games London and Special Effect",
     "date": "Fri, 02 Oct 2026 14:29:12 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Bungie co-founder and Destiny 2 narrative director launch transmedia studio Stone Kite",
-    "link": "https://www.gamesindustry.biz/quite-often-its-given-me-more-to-do-why-ai-might-be-creating-more-work-for-games-companies-rather-than-saving-time",
-    "description": "The GamesIndustry.biz HR Summit took place on October 1, and one topic that came up again and again at sessions throughout the day was generative AI and the impact it's having on the workplace. Read more",
-    "date": "Fri, 02 Oct 2026 13:54:44 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Reigns developer Nerial closes following \"significant trading losses\" over past two years",
-    "link": "https://www.gamesindustry.biz/winners-of-the-uk-best-places-to-work-awards-2026-revealed",
-    "description": "The UK Best Places to Work Awards 2026 took place at the Royal Institution in London on October 1, with special awards going to Dink, Hangar 13, Jagex: The RuneScape Company, NaturalMotion Games, Rare, and Snap Finger Click. Read more",
-    "date": "Fri, 02 Oct 2026 11:19:13 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Krafton shuts down PUBG spin-off Black Budget nine months after closed alpha test",
-    "link": "https://www.gamesindustry.biz/2xko-would-have-needed-an-mau-base-in-the-high-hundreds-of-thousands-if-not-millions-to-succeed",
-    "description": "Riot Games' 2XKO would have had to attract a base of monthly active users \"in the high hundreds of thousands, if not millions\" to be sustainable, according to CPO Marc Merrill. Read more",
-    "date": "Fri, 02 Oct 2026 08:03:39 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
