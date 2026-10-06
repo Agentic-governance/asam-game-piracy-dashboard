@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-05 14:21 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-06 13:11 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-05T14:21:06.600137",
+  fetched_at: "2026-10-06T13:11:06.099591",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 17,
     "matched_keywords": [
-      "crack",
-      "piracy",
+      "pirate",
       "dmca",
+      "piracy",
       "denuvo",
-      "pirate"
+      "crack"
     ]
   },
   {
@@ -26,10 +26,36 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "drm",
       "crack",
       "denuvo",
-      "pirate"
+      "pirate",
+      "drm"
+    ]
+  },
+  {
+    "title": "DNS Resolver Quad9 Rejects French Piracy Blocks, Weighs Exit as beIN Seeks Up to €580K a Day",
+    "link": "https://torrentfreak.com/denuvo-asks-court-to-unmask-game-cracker-voices38-reveals-crypto-transactions/",
+    "description": "Denuvo has asked a California federal court for permission to subpoena Discord, Valve and Reddit, hoping to unmask the anonymous game cracker 'voices38.' The anti-piracy company wants account details, IP addresses and Steam transaction histories tied to a Discord ID, a Reddit account and seven Steam",
+    "date": "Mon, 05 Oct 2026 06:40:07 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 11,
+    "matched_keywords": [
+      "crack",
+      "piracy",
+      "denuvo"
+    ]
+  },
+  {
+    "title": "Denuvo Asks Court to Unmask Game Cracker &#8216;voices38&#8217;, Reveals Crypto Transactions",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Tue, 06 Oct 2026 09:07:05 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 9,
+    "matched_keywords": [
+      "crack",
+      "denuvo",
+      "copyright"
     ]
   },
   {
@@ -40,11 +66,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
-      "rom",
       "torrent",
-      "piracy",
-      "pirate"
+      "rom",
+      "pirate",
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -55,8 +81,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "piracy",
+      "rom",
       "pirate"
     ]
   },
@@ -68,8 +94,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "piracy",
+      "rom",
       "pirate"
     ]
   },
@@ -81,8 +107,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "piracy",
+      "rom",
       "pirate"
     ]
   },
@@ -110,29 +136,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Xbox CEO Asha Sharma insists \"Xbox is not for sale\"",
-    "link": "https://www.gamesindustry.biz/alleged-hacker-arrested-over-leak-that-exposed-gta-onlines-daily-revenue",
-    "description": "Dutch police have arrested a 24-year-old Amsterdam man in connection with an investigation into ShinyHunters, the hacking group the FBI says was behind a data breach that exposed confidential GTA Online revenue figures earlier this year. Read more",
-    "date": "Wed, 30 Sep 2026 17:43:08 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 5,
-    "matched_keywords": [
-      "arrested"
-    ]
-  },
-  {
-    "title": "DNS Resolver Quad9 Rejects French Piracy Blocks, Weighs Exit as beIN Seeks Up to €580K a Day",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Mon, 05 Oct 2026 06:40:07 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "copyright",
-      "piracy"
-    ]
-  },
-  {
     "title": "As U.S. Trade Pressure Mounts, Vietnam Prepares to Prosecute 74 &#8216;Xoi Lac&#8217; Sports Pirates",
     "link": "https://torrentfreak.com/rightsholders-cant-use-openai-and-anthropic-to-dismantle-metas-seeding-defense/",
     "description": "Meta previously argued that uploading pirated books to other BitTorrent users was an unavoidable side effect of downloading them, and therefore fair use. Rightsholders suing Meta in three related cases tried to dismantle this theory by asking OpenAI and Anthropic to reveal how they torrented shadow ",
@@ -152,8 +155,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
     ]
   },
   {
@@ -223,21 +226,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Report Links Pirate IPTV to Hezbollah TV, Calls for U.S. Site-Blocking",
-    "link": "https://torrentfreak.com/as-us-trade-pressure-mounts-vietnam-prepares-to-prosecute-74-xoi-lac-sports-pirates/",
-    "description": "Six months after Vietnamese police shut down the country's notorious pirate football streaming network 'Xoi Lac TV', investigators have recommended criminal charges against 74 people. While pirated streams drew millions of people to the sites, the operators face the most severe prison sentences for ",
-    "date": "Fri, 11 Sep 2026 11:48:27 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "pirate"
-    ]
-  },
-  {
-    "title": "Sony introduces AI upscaling to base PS5; Marvel's Wolverine and Ghost of Yōtei are first games to implement new tech",
+    "title": "Brazil wants to be in \"the top five game producers in the world in less than 10 years\"",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 05 Oct 2026 13:35:22 +0000",
+    "date": "Tue, 06 Oct 2026 13:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -256,14 +248,16 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Alleged hacker arrested over leak that exposed GTA Online's daily revenue",
-    "link": "https://www.gamesindustry.biz/ubisoft-renames-creative-house-2-home-of-the-division-ghost-recon-and-splinter-cell-as-massive-entertainment",
-    "description": "Ubisoft has announced that its Creative House 2 business unit, which houses Tom Clancy's The Division, Ghost Recon, and Splinter Cell alongside \"new original IP including March of Giants\", will henceforth be known as Massive Entertainment, adopting the 29-year-old brand of the Swedish studio that or",
-    "date": "Wed, 30 Sep 2026 18:59:09 +0000",
-    "source": "GamesIndustry",
+    "title": "Webinar: Best Practices for Using AI in the Innovation Pipeline &#8211; How to Move from Scattered Ideas to Strong Patents with AI",
+    "link": "https://ipwatchdog.com/event/webinar-inspireip-2025-10-16-best-practices-for-using-ai-in-the-innovation-pipeline/",
+    "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
+    "date": "Thu, 16 Oct 2025 16:00:00 +0000",
+    "source": "IPWatchdog",
     "relevance_score": 3,
     "matched_keywords": [
-      "arrested"
+      "intellectual property",
+      "rom",
+      "copyright"
     ]
   },
   {
@@ -300,6 +294,42 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "South Australian government makes largest investment in game development by doubling its Digital Games Fund to $1m",
+    "link": "https://www.gamesindustry.biz/brazil-wants-to-be-in-the-top-five-game-producers-in-the-world-in-less-than-10-years",
+    "description": "Soft power &ndash; a nation exerting power through economic or cultural influence &ndash; is something we're all used to in terms of film and TV. Think of the influence that Hollywood has around the world, or the way that anime has spread the recognition of Japanese culture. Read more",
+    "date": "Tue, 06 Oct 2026 11:11:16 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Star Wars: Galactic Racer launches on Amazon Luna as part of Prime subscription",
+    "link": "https://www.gamesindustry.biz/south-australian-government-makes-largest-investment-in-game-development-by-doubling-its-digital-games-fund-to-1m",
+    "description": "The South Australian Film Corporation (SAFC) has doubled its Digital Games Fund (DGF) funding to $1 million to support local developers. Read more",
+    "date": "Tue, 06 Oct 2026 09:12:24 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "NBA 2K25 servers to shut down on December 31, single-player story mode will become unplayable",
+    "link": "https://www.gamesindustry.biz/star-wars-galactic-racer-launches-on-amazon-luna-as-part-of-prime-subscription",
+    "description": "Star Wars: Galactic Racer will be available to play on cloud gaming service Amazon Luna at launch as part of a Prime subscription. Read more",
+    "date": "Tue, 06 Oct 2026 07:24:06 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Sony introduces AI upscaling to base PS5; Marvel's Wolverine and Ghost of Yōtei are first games to implement new tech",
+    "link": "https://www.gamesindustry.biz/free-to-play-playtime-is-broadly-flat-as-gacha-rpgs-drive-pc-growth-says-newzoo",
+    "description": "\"F2P is not dying,\" according to a Newzoo special focus report that challenges assumptions that free-to-play is in decline. Read more",
+    "date": "Mon, 05 Oct 2026 13:35:22 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "\"It's less risky to be the masters of our own fate\" – The AAA developers going indie",
     "link": "https://www.gamesindustry.biz/sony-introduces-ai-upscaling-to-base-ps5-marvels-wolverine-and-ghost-of-yotei-are-first-games-to-implement-new-tech",
     "description": "Sony Interactive Entertainment has introduced new AI upscaling technology to the base PlayStation 5, called  Quick Spectral Super Resolution (QSSR). Read more",
@@ -313,33 +343,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/its-less-risky-to-be-the-masters-of-our-own-fate-the-aaa-developers-going-indie",
     "description": "Justin Fischer and Brock Feldman suddenly found themselves out of a job in 2025, when Warner Bros decided to shutter their studio, Player First Games, the developer of Multiversus. Read more",
     "date": "Mon, 05 Oct 2026 11:08:39 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Disney president and CCO dismisses rumours of Epic Games buyout: \"Those are not the conversations we are having right now\"",
-    "link": "https://www.gamesindustry.biz/jagex-responds-to-use-of-generative-ai-in-runescape-trailer-made-by-trusted-external-partner",
-    "description": "RuneScape creator Jagex has responded to the use of generative AI in a trailer for RuneScape 3's Dragon Slayer 2 quest shown during RuneFest. Read more",
-    "date": "Mon, 05 Oct 2026 10:05:48 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Capcom aims to enhance its propriety RE Engine with AI to accelerate efficiency in QA, debugging, and data processing",
-    "link": "https://www.gamesindustry.biz/disney-president-and-cco-dismisses-rumours-of-epic-games-buyout-those-are-not-the-conversations-we-are-having-right-now",
-    "description": "Walt Disney Company president and CCO Dana Walden has dismissed ongoing rumours of an Epic Games buyout, saying \"those are not the conversations we are having right now.\" Read more",
-    "date": "Mon, 05 Oct 2026 08:29:51 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"Quite often it's given me more to do\" – Why AI might be creating more work for games companies, rather than saving time",
-    "link": "https://www.gamesindustry.biz/in-pictures-the-best-places-to-work-awards-2026",
-    "description": "Last night saw the reveal of this year's GamesIndustry.biz Best Places To Work Awards UK, which returned to the Royal Institution in London at the end of the GamesIndustry.biz HR Summit. The awards were generously sponsored by Amiqus, Playground Games, IO Interactive, Games London and Special Effect",
-    "date": "Fri, 02 Oct 2026 14:29:12 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
