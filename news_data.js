@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-06 13:11 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-07 13:07 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-06T13:11:06.099591",
+  fetched_at: "2026-10-07T13:07:55.307885",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,25 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 17,
     "matched_keywords": [
-      "pirate",
-      "dmca",
       "piracy",
-      "denuvo",
-      "crack"
+      "dmca",
+      "pirate",
+      "crack",
+      "denuvo"
+    ]
+  },
+  {
+    "title": "Denuvo Asks Court to Unmask Game Cracker &#8216;voices38&#8217;, Reveals Crypto Transactions",
+    "link": "https://torrentfreak.com/pirate-app-moviebox-passes-300-million-downloads-as-rightsholders-alert-eu/",
+    "description": "Pirate streaming app MovieBox has been downloaded more than 300 million times from Palm Store, the app store that's preinstalled on Tecno, Infinix and itel phones. This is a thorn in the side of rightsholders, which have flagged the app to the European Commission. French pay-TV group Canal+ goes a s",
+    "date": "Tue, 06 Oct 2026 09:07:05 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 12,
+    "matched_keywords": [
+      "pirate",
+      "crack",
+      "rom",
+      "denuvo"
     ]
   },
   {
@@ -26,10 +40,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "crack",
-      "denuvo",
       "pirate",
-      "drm"
+      "drm",
+      "crack",
+      "denuvo"
     ]
   },
   {
@@ -40,22 +54,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "crack",
-      "piracy",
-      "denuvo"
-    ]
-  },
-  {
-    "title": "Denuvo Asks Court to Unmask Game Cracker &#8216;voices38&#8217;, Reveals Crypto Transactions",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 06 Oct 2026 09:07:05 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 9,
-    "matched_keywords": [
-      "crack",
       "denuvo",
-      "copyright"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -66,11 +67,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
+      "piracy",
       "rom",
-      "pirate",
       "copyright",
-      "piracy"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -81,9 +82,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "pirate",
       "piracy",
-      "rom",
-      "pirate"
+      "rom"
     ]
   },
   {
@@ -94,9 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "pirate",
       "piracy",
-      "rom",
-      "pirate"
+      "rom"
     ]
   },
   {
@@ -107,9 +108,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "pirate",
       "piracy",
-      "rom",
-      "pirate"
+      "rom"
     ]
   },
   {
@@ -120,8 +121,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -136,15 +137,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "As U.S. Trade Pressure Mounts, Vietnam Prepares to Prosecute 74 &#8216;Xoi Lac&#8217; Sports Pirates",
-    "link": "https://torrentfreak.com/rightsholders-cant-use-openai-and-anthropic-to-dismantle-metas-seeding-defense/",
-    "description": "Meta previously argued that uploading pirated books to other BitTorrent users was an unavoidable side effect of downloading them, and therefore fair use. Rightsholders suing Meta in three related cases tried to dismantle this theory by asking OpenAI and Anthropic to reveal how they torrented shadow ",
-    "date": "Sat, 12 Sep 2026 18:18:08 +0000",
+    "title": "Pirate App MovieBox Passes 300 Million Downloads as Rightsholders Alert EU",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Wed, 07 Oct 2026 11:47:48 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -226,10 +227,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Brazil wants to be in \"the top five game producers in the world in less than 10 years\"",
+    "title": "Unity unveils a web-based AI game creation platform",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 06 Oct 2026 13:00:00 +0000",
+    "date": "Wed, 07 Oct 2026 12:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Asha Sharma reportedly informs staff that Xbox has \"started to return to growth\" during internal town hall",
+    "link": "https://www.gamesindustry.biz/unity-unveils-a-web-based-ai-game-creation-platform",
+    "description": "Today marks the launch of Playground, a new Google platform for generating games using natural language prompts, and it will soon host a version of Unity based around generative AI agents. Read more",
+    "date": "Wed, 07 Oct 2026 10:59:12 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -245,19 +257,6 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "rom"
-    ]
-  },
-  {
-    "title": "Webinar: Best Practices for Using AI in the Innovation Pipeline &#8211; How to Move from Scattered Ideas to Strong Patents with AI",
-    "link": "https://ipwatchdog.com/event/webinar-inspireip-2025-10-16-best-practices-for-using-ai-in-the-innovation-pipeline/",
-    "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
-    "date": "Thu, 16 Oct 2025 16:00:00 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "intellectual property",
-      "rom",
-      "copyright"
     ]
   },
   {
@@ -294,55 +293,55 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "GamesIndustry.biz to host panel at Game Republic's Investment Summit at MCM Comic Con October 2026",
+    "link": "https://www.gamesindustry.biz/asha-sharma-reportedly-informs-staff-that-xbox-has-started-to-return-to-growth-during-internal-town-hall",
+    "description": "Xbox CEO Asha Sharma reportedly held an internal town hall, telling staff that \"after an all time low, we've started to return to growth.\" Read more",
+    "date": "Wed, 07 Oct 2026 09:40:56 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Paramount and Warner Bros. Discovery operating under Skydance following completion of $111bn merger",
+    "link": "https://www.gamesindustry.biz/gamesindustrybiz-to-host-panel-at-game-republics-investment-summit-at-mcm-comic-con-october-2026",
+    "description": "GamesIndustry.biz will host a panel during Game Republic's Investment Summit at MCM Comic Con later this month. Read more",
+    "date": "Wed, 07 Oct 2026 08:21:09 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Resident Evil games engagement leapt 50% following release of Zach Cregger's movie, but analysts say real value is in brand building",
+    "link": "https://www.gamesindustry.biz/paramount-and-warner-bros-discovery-operating-under-skydance-following-completion-of-111bn-merger",
+    "description": "Paramount has  completed its $111 billion acquisition of Warner Bros. Discovery, with both companies now operating under the name Skydance. Read more",
+    "date": "Tue, 06 Oct 2026 14:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Sega won't \"entrust the creative aspect of games to AI,\" but is using tech to \"improve efficiency\" in other departments",
+    "link": "https://www.gamesindustry.biz/resident-evil-games-engagement-leapt-50-following-release-of-zach-creggers-movie-but-analysts-say-real-value-is-in-brand-building-1",
+    "description": "Player engagement with Resident Evil games jumped 50% in the run up to and following the release of Zach Cregger's Resident Evil movie, according to data shared exclusively with GamesIndustry.biz. Read more",
+    "date": "Tue, 06 Oct 2026 13:50:19 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Brazil wants to be in \"the top five game producers in the world in less than 10 years\"",
+    "link": "https://www.gamesindustry.biz/sega-wont-entrust-the-creative-aspect-of-games-to-ai-but-is-using-tech-to-improve-efficiency-in-other-departments",
+    "description": "Sega is \"not entrusting the creative aspects of games to AI\", but is using the technology to \"improve efficiency\" in other departments like publishing. Read more",
+    "date": "Tue, 06 Oct 2026 13:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "South Australian government makes largest investment in game development by doubling its Digital Games Fund to $1m",
     "link": "https://www.gamesindustry.biz/brazil-wants-to-be-in-the-top-five-game-producers-in-the-world-in-less-than-10-years",
     "description": "Soft power &ndash; a nation exerting power through economic or cultural influence &ndash; is something we're all used to in terms of film and TV. Think of the influence that Hollywood has around the world, or the way that anime has spread the recognition of Japanese culture. Read more",
     "date": "Tue, 06 Oct 2026 11:11:16 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Star Wars: Galactic Racer launches on Amazon Luna as part of Prime subscription",
-    "link": "https://www.gamesindustry.biz/south-australian-government-makes-largest-investment-in-game-development-by-doubling-its-digital-games-fund-to-1m",
-    "description": "The South Australian Film Corporation (SAFC) has doubled its Digital Games Fund (DGF) funding to $1 million to support local developers. Read more",
-    "date": "Tue, 06 Oct 2026 09:12:24 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "NBA 2K25 servers to shut down on December 31, single-player story mode will become unplayable",
-    "link": "https://www.gamesindustry.biz/star-wars-galactic-racer-launches-on-amazon-luna-as-part-of-prime-subscription",
-    "description": "Star Wars: Galactic Racer will be available to play on cloud gaming service Amazon Luna at launch as part of a Prime subscription. Read more",
-    "date": "Tue, 06 Oct 2026 07:24:06 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Sony introduces AI upscaling to base PS5; Marvel's Wolverine and Ghost of Yōtei are first games to implement new tech",
-    "link": "https://www.gamesindustry.biz/free-to-play-playtime-is-broadly-flat-as-gacha-rpgs-drive-pc-growth-says-newzoo",
-    "description": "\"F2P is not dying,\" according to a Newzoo special focus report that challenges assumptions that free-to-play is in decline. Read more",
-    "date": "Mon, 05 Oct 2026 13:35:22 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"It's less risky to be the masters of our own fate\" – The AAA developers going indie",
-    "link": "https://www.gamesindustry.biz/sony-introduces-ai-upscaling-to-base-ps5-marvels-wolverine-and-ghost-of-yotei-are-first-games-to-implement-new-tech",
-    "description": "Sony Interactive Entertainment has introduced new AI upscaling technology to the base PlayStation 5, called  Quick Spectral Super Resolution (QSSR). Read more",
-    "date": "Mon, 05 Oct 2026 13:12:44 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Jagex responds to use of generative AI in RuneScape trailer made by \"trusted external partner\"",
-    "link": "https://www.gamesindustry.biz/its-less-risky-to-be-the-masters-of-our-own-fate-the-aaa-developers-going-indie",
-    "description": "Justin Fischer and Brock Feldman suddenly found themselves out of a job in 2025, when Warner Bros decided to shutter their studio, Player First Games, the developer of Multiversus. Read more",
-    "date": "Mon, 05 Oct 2026 11:08:39 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
