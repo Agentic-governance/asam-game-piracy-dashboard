@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-07 13:07 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-08 13:15 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-07T13:07:55.307885",
+  fetched_at: "2026-10-08T13:15:01.896999",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 17,
     "matched_keywords": [
-      "piracy",
+      "crack",
+      "denuvo",
       "dmca",
       "pirate",
-      "crack",
-      "denuvo"
+      "piracy"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "pirate",
       "crack",
+      "denuvo",
       "rom",
-      "denuvo"
+      "pirate"
     ]
   },
   {
@@ -40,10 +40,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "pirate",
-      "drm",
       "crack",
-      "denuvo"
+      "denuvo",
+      "pirate",
+      "drm"
     ]
   },
   {
@@ -54,9 +54,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
+      "crack",
       "denuvo",
-      "piracy",
-      "crack"
+      "piracy"
     ]
   },
   {
@@ -67,11 +67,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
-      "rom",
       "copyright",
+      "rom",
       "torrent",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -82,9 +82,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "rom",
       "pirate",
-      "piracy",
-      "rom"
+      "piracy"
     ]
   },
   {
@@ -95,9 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "rom",
       "pirate",
-      "piracy",
-      "rom"
+      "piracy"
     ]
   },
   {
@@ -108,9 +108,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "rom",
       "pirate",
-      "piracy",
-      "rom"
+      "piracy"
     ]
   },
   {
@@ -121,8 +121,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -144,8 +144,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -174,7 +174,7 @@ const ARIA_NEWS = {
   {
     "title": "Alleged Kemo IPTV Operator Faces Criminal Prosecution in Dubai Following ACE Complaint",
     "link": "https://torrentfreak.com/two-u-s-site-blocking-bills-compete-over-vpn-rules-and-isp-liability/",
-    "description": "The two competing pirate site-blocking bills that were introduced in Congress recently take different approached. While Rep. Darrell Issa's ACPA targets VPNs and provides broad liability protections to Internet service providers, the bipartisan and bicameral DEFEND IP Act explicitly excludes VPNs, w",
+    "description": "The two competing pirate site-blocking bills that were introduced in Congress recently take different approaches. While Rep. Darrell Issa's ACPA targets VPNs and provides broad liability protections to Internet service providers, the bipartisan and bicameral DEFEND IP Act explicitly excludes VPNs, w",
     "date": "Fri, 02 Oct 2026 06:04:15 +0000",
     "source": "TorrentFreak",
     "relevance_score": 3,
@@ -227,10 +227,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Unity unveils a web-based AI game creation platform",
+    "title": "NBA 2K27 tops US August charts, becomes third-best selling game of 2026 | US Monthly Charts",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 07 Oct 2026 12:00:00 +0000",
+    "date": "Thu, 08 Oct 2026 13:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -242,17 +242,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/unity-unveils-a-web-based-ai-game-creation-platform",
     "description": "Today marks the launch of Playground, a new Google platform for generating games using natural language prompts, and it will soon host a version of Unity based around generative AI agents. Read more",
     "date": "Wed, 07 Oct 2026 10:59:12 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "In pictures: the Best Places To Work Awards 2026",
-    "link": "https://www.gamesindustry.biz/sonys-consultation-on-physical-media-better-late-than-never-opinion",
-    "description": "The news that Sony is surveying its development partners to get their input on its decision to end support for physical game releases (first reported by Moore's Law is Dead) is a little odd, at least from a sequencing perspective. You'd generally imagine that talking to your most important business ",
-    "date": "Fri, 02 Oct 2026 14:55:28 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -282,66 +271,73 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Read This Before You Buy That TV Streaming Stick",
-    "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-    "description": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontar",
-    "date": "Thu, 30 Jul 2026 16:49:00 +0000",
-    "source": "KrebsOnSecurity",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "piracy"
-    ]
-  },
-  {
-    "title": "GamesIndustry.biz to host panel at Game Republic's Investment Summit at MCM Comic Con October 2026",
-    "link": "https://www.gamesindustry.biz/asha-sharma-reportedly-informs-staff-that-xbox-has-started-to-return-to-growth-during-internal-town-hall",
-    "description": "Xbox CEO Asha Sharma reportedly held an internal town hall, telling staff that \"after an all time low, we've started to return to growth.\" Read more",
-    "date": "Wed, 07 Oct 2026 09:40:56 +0000",
+    "title": "Safe In Our World launches Four Billion Players campaign to make mental health support more accessible for gamers",
+    "link": "https://www.gamesindustry.biz/nba-2k27-tops-us-august-charts-becomes-third-best-selling-game-of-2026-us-monthly-charts",
+    "description": "NBA 2K27 topped the US charts in August, becoming the third-best-selling game of the year according to Circana data. Read more",
+    "date": "Thu, 08 Oct 2026 13:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Paramount and Warner Bros. Discovery operating under Skydance following completion of $111bn merger",
-    "link": "https://www.gamesindustry.biz/gamesindustrybiz-to-host-panel-at-game-republics-investment-summit-at-mcm-comic-con-october-2026",
-    "description": "GamesIndustry.biz will host a panel during Game Republic's Investment Summit at MCM Comic Con later this month. Read more",
-    "date": "Wed, 07 Oct 2026 08:21:09 +0000",
+    "title": "Xbox announces new XP division to deliver transmedia spinoffs including film, TV, and theme parks",
+    "link": "https://www.gamesindustry.biz/safe-in-our-world-launches-four-billion-players-campaign-to-make-mental-health-support-more-accessible-for-gamers",
+    "description": "Mental health charity Safe In Our World has launched Four Billion Players, a campaign to raise awareness of mental health support for gamers. Read more",
+    "date": "Thu, 08 Oct 2026 12:18:40 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Resident Evil games engagement leapt 50% following release of Zach Cregger's movie, but analysts say real value is in brand building",
-    "link": "https://www.gamesindustry.biz/paramount-and-warner-bros-discovery-operating-under-skydance-following-completion-of-111bn-merger",
-    "description": "Paramount has  completed its $111 billion acquisition of Warner Bros. Discovery, with both companies now operating under the name Skydance. Read more",
-    "date": "Tue, 06 Oct 2026 14:00:00 +0000",
+    "title": "Hell Let Loose developer Expression opens new studio in Manchester \"in response to what's happening in the talent market\"",
+    "link": "https://www.gamesindustry.biz/xbox-announces-new-xp-division-to-deliver-transmedia-spinoffs-including-film-tv-and-theme-parks",
+    "description": "Xbox has announced a new XP business unit, dedicated to transmedia brand extensions, including the Fallout TV series and the Minecraft World theme park. Read more",
+    "date": "Thu, 08 Oct 2026 10:31:11 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Sega won't \"entrust the creative aspect of games to AI,\" but is using tech to \"improve efficiency\" in other departments",
-    "link": "https://www.gamesindustry.biz/resident-evil-games-engagement-leapt-50-following-release-of-zach-creggers-movie-but-analysts-say-real-value-is-in-brand-building-1",
-    "description": "Player engagement with Resident Evil games jumped 50% in the run up to and following the release of Zach Cregger's Resident Evil movie, according to data shared exclusively with GamesIndustry.biz. Read more",
-    "date": "Tue, 06 Oct 2026 13:50:19 +0000",
+    "title": "Gardens Interactive, founded by veterans behind Journey and Sky: Children of the Light, raises over $35m in Series B funding round",
+    "link": "https://www.gamesindustry.biz/hell-let-loose-developer-expression-opens-new-studio-in-manchester-in-response-to-whats-happening-in-the-talent-market",
+    "description": "Expression Games, the hitherto entirely remote developer behind Hell Let Loose Vietnam and co-developer on Star Wars Galactic Racer, has announced the opening of a physical studio in Manchester, in response to what CEO Errol Ismail described as the requirements of both its staff and its co-developme",
+    "date": "Thu, 08 Oct 2026 09:58:52 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Brazil wants to be in \"the top five game producers in the world in less than 10 years\"",
-    "link": "https://www.gamesindustry.biz/sega-wont-entrust-the-creative-aspect-of-games-to-ai-but-is-using-tech-to-improve-efficiency-in-other-departments",
-    "description": "Sega is \"not entrusting the creative aspects of games to AI\", but is using the technology to \"improve efficiency\" in other departments like publishing. Read more",
-    "date": "Tue, 06 Oct 2026 13:00:00 +0000",
+    "title": "Fireshine Games acquires Necesse dev Fair Games, described as a \"defining moment\" for Danish indie studio",
+    "link": "https://www.gamesindustry.biz/gardens-interactive-founded-by-veterans-behind-journey-and-sky-children-of-the-light-raise-over-35m-in-series-b-funding-round",
+    "description": "Gardens Interactive has raised over $35 million in a Series B funding round led by Lightspeed Venture Partners, bringing its  total funding to more than $70 million. Read more",
+    "date": "Thu, 08 Oct 2026 08:09:16 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "South Australian government makes largest investment in game development by doubling its Digital Games Fund to $1m",
-    "link": "https://www.gamesindustry.biz/brazil-wants-to-be-in-the-top-five-game-producers-in-the-world-in-less-than-10-years",
-    "description": "Soft power &ndash; a nation exerting power through economic or cultural influence &ndash; is something we're all used to in terms of film and TV. Think of the influence that Hollywood has around the world, or the way that anime has spread the recognition of Japanese culture. Read more",
-    "date": "Tue, 06 Oct 2026 11:11:16 +0000",
+    "title": "Gravity Well lays off more than 40 developers after losing its funding",
+    "link": "https://www.gamesindustry.biz/fireshine-games-acquires-necesse-dev-fair-games-described-as-a-defining-moment-for-danish-indie-studio",
+    "description": "Fireshine Games has acquired Danish indie studio Fair Games and its open world sandbox title Necesse. Read more",
+    "date": "Wed, 07 Oct 2026 20:30:32 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Discord protection bot Double Counter hit by breach exposing around 1 million email addresses",
+    "link": "https://www.gamesindustry.biz/star-wars-zero-company-developer-bit-reactor-begins-bringing-furloughed-staff-back",
+    "description": "Star Wars Zero Company developer Bit Reactor has started bringing back staff it furloughed ahead of the game's launch. Read more",
+    "date": "Wed, 07 Oct 2026 19:15:58 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Paramount Games Studio and WB Games merge under Skydance following completion of $111bn acquisition",
+    "link": "https://www.gamesindustry.biz/wizards-of-the-coast-union-expands-demands-company-stop-pushing-generative-ai",
+    "description": "The Dungeons & Dragons and Magic: The Gathering teams at Wizards of the Coast are unionizing, and are calling on Hasbro and Wizards leadership to stop pushing generative AI. Read more",
+    "date": "Wed, 07 Oct 2026 14:00:22 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
