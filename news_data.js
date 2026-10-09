@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-08 13:15 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-09 13:02 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-08T13:15:01.896999",
+  fetched_at: "2026-10-09T13:02:05.564066",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 17,
     "matched_keywords": [
-      "crack",
-      "denuvo",
-      "dmca",
       "pirate",
-      "piracy"
+      "denuvo",
+      "crack",
+      "piracy",
+      "dmca"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "rom",
       "crack",
       "denuvo",
-      "rom",
       "pirate"
     ]
   },
@@ -41,9 +41,9 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "crack",
+      "drm",
       "denuvo",
-      "pirate",
-      "drm"
+      "pirate"
     ]
   },
   {
@@ -67,11 +67,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
-      "rom",
-      "torrent",
       "pirate",
-      "piracy"
+      "rom",
+      "piracy",
+      "torrent",
+      "copyright"
     ]
   },
   {
@@ -114,6 +114,18 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Cloudflare Keeps 1.1.1.1 Out of Piracy Blocking, Escapes Penalties in France",
+    "link": "https://torrentfreak.com/pirate-streaming-portal-series-ly-has-domain-suspended-rebrands-instantly/",
+    "description": "The .ly domain of Spanish pirate streaming portal Series.ly was suspended by its Libyan registrar this week, more than a week after a Madrid court approved a broad anti-piracy order against the site. After losing the domain, the site's operator swiftly rebranded. The Spanish order also covers future",
+    "date": "Thu, 08 Oct 2026 16:43:41 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "pirate",
+      "piracy"
+    ]
+  },
+  {
     "title": "Pirate Site Must Face Chinese Streaming Giant Tencent in U.S. Court, Judge Rules",
     "link": "https://torrentfreak.com/nintendo-wins-4-5-million-judgment-against-r-switchpirates-mod-archbox/",
     "description": "A Washington federal court has ordered former r/SwitchPirates moderator James 'Archbox' Williams to pay Nintendo $4.5 million in damages. The default judgment includes a permanent injunction that prohibits Williams from distributing pirated games and circumvention tools, or encouraging others to use",
@@ -137,10 +149,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Pirate App MovieBox Passes 300 Million Downloads as Rightsholders Alert EU",
+    "title": "Pirate Streaming Portal Series.ly Has Domain Suspended, Rebrands Instantly (Updated)",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Wed, 07 Oct 2026 11:47:48 +0000",
+    "date": "Fri, 09 Oct 2026 12:48:42 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
@@ -156,8 +168,19 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
+    ]
+  },
+  {
+    "title": "Pirate App MovieBox Passes 300 Million Downloads as Rightsholders Alert EU",
+    "link": "https://torrentfreak.com/cloudflare-keeps-1-1-1-1-out-of-piracy-blocking-escapes-penalties-in-france/",
+    "description": "Cloudflare doesn't block pirate sports streaming sites through its 1.1.1.1 DNS resolver in France, only through its CDN. The Paris Judicial Court has now accepted that stance, rejecting Canal+'s request for penalties of €50,000 per site, per day. Interestingly, the court's conclusion relies on stati",
+    "date": "Wed, 07 Oct 2026 11:47:48 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "pirate"
     ]
   },
   {
@@ -216,21 +239,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Accused Impostor in Private Tracker Lawsuit Driven by Revenge, Defense Says",
-    "link": "https://torrentfreak.com/rep-issa-files-competing-u-s-pirate-site-blocking-bill/",
-    "description": "U.S. Representative Darrell Issa has officially introduced a new bill that aims to block foreign pirate sites in the United States. While the final text has yet to be published, an early draft suggests that both ISPs and DNS resolvers will be covered. The bill has already triggered opposition, while",
-    "date": "Tue, 15 Sep 2026 14:31:00 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "pirate"
-    ]
-  },
-  {
-    "title": "NBA 2K27 tops US August charts, becomes third-best selling game of 2026 | US Monthly Charts",
+    "title": "Paramount Pictures adapting live-action movie set in Cyberpunk 2077 universe, co-produced by CD Projekt Red",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 08 Oct 2026 13:00:00 +0000",
+    "date": "Fri, 09 Oct 2026 12:54:02 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -238,10 +250,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Asha Sharma reportedly informs staff that Xbox has \"started to return to growth\" during internal town hall",
-    "link": "https://www.gamesindustry.biz/unity-unveils-a-web-based-ai-game-creation-platform",
-    "description": "Today marks the launch of Playground, a new Google platform for generating games using natural language prompts, and it will soon host a version of Unity based around generative AI agents. Read more",
-    "date": "Wed, 07 Oct 2026 10:59:12 +0000",
+    "title": "Sony agrees to transfer over 400 global VR patents to Meta following December 2025 agreement",
+    "link": "https://www.gamesindustry.biz/video-games-arent-the-enemy-of-kids-mental-health-ignoring-them-is-opinion",
+    "description": "Video games have become an easy target in conversations about young people's mental health, often without much understanding of the positive role they can play. Parents cite them as the cause of anxiety, isolation, and poor sleep. Researchers, meanwhile, keep finding that the picture is far from bla",
+    "date": "Fri, 09 Oct 2026 10:50:02 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Avalanche Studio Group to globally publish, market, and distribute titles from Supermassive Games",
+    "link": "https://www.gamesindustry.biz/sony-agrees-to-transfer-over-400-global-vr-patents-to-meta-following-december-2025-agreement",
+    "description": "Sony has agreed to transfer 419 global VR patents to Meta, with 180 patents filed in the US under an agreement signed in December 2025. Read more",
+    "date": "Fri, 09 Oct 2026 08:51:01 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Safe In Our World launches Four Billion Players campaign to make mental health support more accessible for gamers",
+    "link": "https://www.gamesindustry.biz/a-creative-idea-can-save-more-money-than-ai-can-right-now-glen-schofield-on-his-retirement-callisto-protocols-development-and-the-state-of-aaa",
+    "description": "During the summer, veteran developer Glen Schofield announced his retirement from the games industry. Read more",
+    "date": "Thu, 08 Oct 2026 13:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -271,73 +305,46 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Safe In Our World launches Four Billion Players campaign to make mental health support more accessible for gamers",
-    "link": "https://www.gamesindustry.biz/nba-2k27-tops-us-august-charts-becomes-third-best-selling-game-of-2026-us-monthly-charts",
-    "description": "NBA 2K27 topped the US charts in August, becoming the third-best-selling game of the year according to Circana data. Read more",
-    "date": "Thu, 08 Oct 2026 13:00:00 +0000",
+    "title": "Video games aren't the enemy of kids' mental health – ignoring them is | Opinion",
+    "link": "https://www.gamesindustry.biz/paramount-pictures-adapting-live-action-movie-set-in-cyberpunk-2077-universe-co-produced-by-cd-projekt-red",
+    "description": "Paramount Pictures is adapting a live-action film set in the Cyberpunk 2077 universe. Read more",
+    "date": "Fri, 09 Oct 2026 11:01:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Xbox announces new XP division to deliver transmedia spinoffs including film, TV, and theme parks",
+    "title": "Ubisoft announces shutdown of Rainbow Six Mobile seven months after global launch",
+    "link": "https://www.gamesindustry.biz/avalanche-studio-group-to-globally-publish-market-and-distribute-titles-from-supermassive-games",
+    "description": "Nordisk Games has announced a publishing agreement between its subsidiaries Avalanche Studios Group and Supermassive Games. Read more",
+    "date": "Fri, 09 Oct 2026 07:44:35 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Mixtape wins three awards at Australian Game Developer Awards 2026, including GOTY",
+    "link": "https://www.gamesindustry.biz/ubisoft-announces-shutdown-of-rainbow-six-mobile-seven-months-after-global-launch",
+    "description": "Rainbow Six Mobile is shutting down less than a year after its global launch. The free-to-play tactical shooter will remain available to play until January 15, 2027. Read more",
+    "date": "Thu, 08 Oct 2026 13:58:42 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"A creative idea can save more money than AI can right now\" – Glen Schofield on his retirement, Callisto Protocol's development, and the state of AAA",
+    "link": "https://www.gamesindustry.biz/mixtape-wins-three-awards-at-australian-game-developer-awards-2026-including-goty",
+    "description": "The winners of this year's Australian Game Developer Awards have been revealed, with Beethoven & Dinosaur's Mixtape receiving three awards, including Game of the Year alongside Excellence in Art and Sound Design. Read more",
+    "date": "Thu, 08 Oct 2026 13:30:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "NBA 2K27 tops US August charts, becomes third-best selling game of 2026 | US Monthly Charts",
     "link": "https://www.gamesindustry.biz/safe-in-our-world-launches-four-billion-players-campaign-to-make-mental-health-support-more-accessible-for-gamers",
     "description": "Mental health charity Safe In Our World has launched Four Billion Players, a campaign to raise awareness of mental health support for gamers. Read more",
-    "date": "Thu, 08 Oct 2026 12:18:40 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Hell Let Loose developer Expression opens new studio in Manchester \"in response to what's happening in the talent market\"",
-    "link": "https://www.gamesindustry.biz/xbox-announces-new-xp-division-to-deliver-transmedia-spinoffs-including-film-tv-and-theme-parks",
-    "description": "Xbox has announced a new XP business unit, dedicated to transmedia brand extensions, including the Fallout TV series and the Minecraft World theme park. Read more",
-    "date": "Thu, 08 Oct 2026 10:31:11 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Gardens Interactive, founded by veterans behind Journey and Sky: Children of the Light, raises over $35m in Series B funding round",
-    "link": "https://www.gamesindustry.biz/hell-let-loose-developer-expression-opens-new-studio-in-manchester-in-response-to-whats-happening-in-the-talent-market",
-    "description": "Expression Games, the hitherto entirely remote developer behind Hell Let Loose Vietnam and co-developer on Star Wars Galactic Racer, has announced the opening of a physical studio in Manchester, in response to what CEO Errol Ismail described as the requirements of both its staff and its co-developme",
-    "date": "Thu, 08 Oct 2026 09:58:52 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Fireshine Games acquires Necesse dev Fair Games, described as a \"defining moment\" for Danish indie studio",
-    "link": "https://www.gamesindustry.biz/gardens-interactive-founded-by-veterans-behind-journey-and-sky-children-of-the-light-raise-over-35m-in-series-b-funding-round",
-    "description": "Gardens Interactive has raised over $35 million in a Series B funding round led by Lightspeed Venture Partners, bringing its  total funding to more than $70 million. Read more",
-    "date": "Thu, 08 Oct 2026 08:09:16 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Gravity Well lays off more than 40 developers after losing its funding",
-    "link": "https://www.gamesindustry.biz/fireshine-games-acquires-necesse-dev-fair-games-described-as-a-defining-moment-for-danish-indie-studio",
-    "description": "Fireshine Games has acquired Danish indie studio Fair Games and its open world sandbox title Necesse. Read more",
-    "date": "Wed, 07 Oct 2026 20:30:32 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Discord protection bot Double Counter hit by breach exposing around 1 million email addresses",
-    "link": "https://www.gamesindustry.biz/star-wars-zero-company-developer-bit-reactor-begins-bringing-furloughed-staff-back",
-    "description": "Star Wars Zero Company developer Bit Reactor has started bringing back staff it furloughed ahead of the game's launch. Read more",
-    "date": "Wed, 07 Oct 2026 19:15:58 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Paramount Games Studio and WB Games merge under Skydance following completion of $111bn acquisition",
-    "link": "https://www.gamesindustry.biz/wizards-of-the-coast-union-expands-demands-company-stop-pushing-generative-ai",
-    "description": "The Dungeons & Dragons and Magic: The Gathering teams at Wizards of the Coast are unionizing, and are calling on Hasbro and Wizards leadership to stop pushing generative AI. Read more",
-    "date": "Wed, 07 Oct 2026 14:00:22 +0000",
+    "date": "Thu, 08 Oct 2026 13:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
