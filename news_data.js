@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-09 13:02 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-10 12:18 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-09T13:02:05.564066",
+  fetched_at: "2026-10-10T12:18:58.691645",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 17,
     "matched_keywords": [
-      "pirate",
-      "denuvo",
       "crack",
-      "piracy",
-      "dmca"
+      "denuvo",
+      "pirate",
+      "dmca",
+      "piracy"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "rom",
-      "crack",
       "denuvo",
-      "pirate"
+      "pirate",
+      "rom",
+      "crack"
     ]
   },
   {
@@ -40,10 +40,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "crack",
-      "drm",
       "denuvo",
-      "pirate"
+      "pirate",
+      "crack",
+      "drm"
     ]
   },
   {
@@ -54,9 +54,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "crack",
+      "piracy",
       "denuvo",
-      "piracy"
+      "crack"
     ]
   },
   {
@@ -67,11 +67,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
-      "rom",
-      "piracy",
       "torrent",
-      "copyright"
+      "rom",
+      "copyright",
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -82,9 +82,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
+      "piracy",
       "pirate",
-      "piracy"
+      "rom"
     ]
   },
   {
@@ -95,9 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
+      "piracy",
       "pirate",
-      "piracy"
+      "rom"
     ]
   },
   {
@@ -108,21 +108,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
+      "piracy",
       "pirate",
-      "piracy"
+      "rom"
     ]
   },
   {
     "title": "Cloudflare Keeps 1.1.1.1 Out of Piracy Blocking, Escapes Penalties in France",
-    "link": "https://torrentfreak.com/pirate-streaming-portal-series-ly-has-domain-suspended-rebrands-instantly/",
-    "description": "The .ly domain of Spanish pirate streaming portal Series.ly was suspended by its Libyan registrar this week, more than a week after a Madrid court approved a broad anti-piracy order against the site. After losing the domain, the site's operator swiftly rebranded. The Spanish order also covers future",
+    "link": "https://torrentfreak.com/pirate-streaming-portal-series-ly-has-domain-suspended-rebrand/",
+    "description": "The .ly domain of Spanish pirate streaming portal Series.ly was suspended by its Libyan registrar this week, more than a week after a Madrid court approved a broad anti-piracy order against the site. Soon after the domain was lost the Telegram and Discord were rebranded to Cinubo. The Spanish order ",
     "date": "Thu, 08 Oct 2026 16:43:41 +0000",
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -133,8 +133,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -149,7 +149,7 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Pirate Streaming Portal Series.ly Has Domain Suspended, Rebrands Instantly (Updated)",
+    "title": "Pirate Streaming Portal Series.ly Has Domain Suspended, Rebrand Surfaces (Updated)",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
     "date": "Fri, 09 Oct 2026 12:48:42 +0000",
@@ -168,8 +168,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
     ]
   },
   {
@@ -239,10 +239,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Paramount Pictures adapting live-action movie set in Cyberpunk 2077 universe, co-produced by CD Projekt Red",
+    "title": "This should be game streaming’s moment. It's not | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 09 Oct 2026 12:54:02 +0000",
+    "date": "Fri, 09 Oct 2026 15:42:04 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -283,6 +283,17 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+    "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+    "description": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSec",
+    "date": "Wed, 07 Oct 2026 13:48:45 +0000",
+    "source": "KrebsOnSecurity",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "arrested"
+    ]
+  },
+  {
     "title": "U.S. Soldier Gets 70 Months in Prison for AT&#038;T, Verizon Extortions",
     "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
     "description": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attac",
@@ -305,6 +316,24 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Undead Labs boss \"reluctant to share\" number affected by layoffs: \"I would hate to reduce the impact to those individuals to a number or statistic\"",
+    "link": "https://www.gamesindustry.biz/this-should-be-game-streamings-moment-its-not-opinion",
+    "description": "Earlier this week, there was a ripple of excitement among long-suffering Xbox fans over news that the platform had struck an exclusive deal for the streaming rights to Grand Theft Auto VI &ndash; suggesting that while the game would launch on both PlayStation and Xbox, Microsoft&rsquo;s Xcloud servi",
+    "date": "Fri, 09 Oct 2026 13:58:18 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Paramount Pictures adapting live-action movie set in Cyberpunk 2077 universe, co-produced by CD Projekt Red",
+    "link": "https://www.gamesindustry.biz/undead-labs-boss-reluctant-to-share-number-affected-by-layoffs-i-would-hate-to-reduce-the-impact-to-those-individuals-to-a-number-or-statistic",
+    "description": "Undead Labs studio boss Philip Holt is \"reluctant to share\" how many employees the developer lost when it became independent of Xbox. Read more",
+    "date": "Fri, 09 Oct 2026 12:54:02 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Video games aren't the enemy of kids' mental health – ignoring them is | Opinion",
     "link": "https://www.gamesindustry.biz/paramount-pictures-adapting-live-action-movie-set-in-cyberpunk-2077-universe-co-produced-by-cd-projekt-red",
     "description": "Paramount Pictures is adapting a live-action film set in the Cyberpunk 2077 universe. Read more",
@@ -318,33 +347,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/avalanche-studio-group-to-globally-publish-market-and-distribute-titles-from-supermassive-games",
     "description": "Nordisk Games has announced a publishing agreement between its subsidiaries Avalanche Studios Group and Supermassive Games. Read more",
     "date": "Fri, 09 Oct 2026 07:44:35 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Mixtape wins three awards at Australian Game Developer Awards 2026, including GOTY",
-    "link": "https://www.gamesindustry.biz/ubisoft-announces-shutdown-of-rainbow-six-mobile-seven-months-after-global-launch",
-    "description": "Rainbow Six Mobile is shutting down less than a year after its global launch. The free-to-play tactical shooter will remain available to play until January 15, 2027. Read more",
-    "date": "Thu, 08 Oct 2026 13:58:42 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"A creative idea can save more money than AI can right now\" – Glen Schofield on his retirement, Callisto Protocol's development, and the state of AAA",
-    "link": "https://www.gamesindustry.biz/mixtape-wins-three-awards-at-australian-game-developer-awards-2026-including-goty",
-    "description": "The winners of this year's Australian Game Developer Awards have been revealed, with Beethoven & Dinosaur's Mixtape receiving three awards, including Game of the Year alongside Excellence in Art and Sound Design. Read more",
-    "date": "Thu, 08 Oct 2026 13:30:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "NBA 2K27 tops US August charts, becomes third-best selling game of 2026 | US Monthly Charts",
-    "link": "https://www.gamesindustry.biz/safe-in-our-world-launches-four-billion-players-campaign-to-make-mental-health-support-more-accessible-for-gamers",
-    "description": "Mental health charity Safe In Our World has launched Four Billion Players, a campaign to raise awareness of mental health support for gamers. Read more",
-    "date": "Thu, 08 Oct 2026 13:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
