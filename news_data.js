@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-10 12:18 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-11 12:35 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-10T12:18:58.691645",
+  fetched_at: "2026-10-11T12:35:27.031916",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 17,
     "matched_keywords": [
-      "crack",
-      "denuvo",
-      "pirate",
       "dmca",
-      "piracy"
+      "crack",
+      "piracy",
+      "denuvo",
+      "pirate"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "denuvo",
       "pirate",
-      "rom",
-      "crack"
+      "crack",
+      "denuvo",
+      "rom"
     ]
   },
   {
@@ -40,10 +40,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "denuvo",
+      "drm",
       "pirate",
       "crack",
-      "drm"
+      "denuvo"
     ]
   },
   {
@@ -54,9 +54,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "piracy",
       "denuvo",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -67,11 +67,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "copyright",
+      "piracy",
       "torrent",
       "rom",
-      "copyright",
-      "pirate",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -82,8 +82,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "pirate",
+      "piracy",
       "rom"
     ]
   },
@@ -95,8 +95,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "pirate",
+      "piracy",
       "rom"
     ]
   },
@@ -108,8 +108,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "pirate",
+      "piracy",
       "rom"
     ]
   },
@@ -121,8 +121,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -156,8 +156,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
