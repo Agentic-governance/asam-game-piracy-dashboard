@@ -1,21 +1,35 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-11 12:35 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-12 15:08 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-11T12:35:27.031916",
+  fetched_at: "2026-10-12T15:08:28.673037",
   item_count: 30,
   items: [
   {
-    "title": "Rep. Issa Files Competing U.S. Pirate Site Blocking Bill",
-    "link": "https://torrentfreak.com/denuvo-sues-game-cracker-voices38-for-bypassing-its-anti-tamper-drm/",
-    "description": "Anti-piracy outfit Denuvo has filed a DMCA anti-circumvention lawsuit in a U.S. federal court, targeting the anonymous game cracker known as 'voices38.' The defendant stands accused of bypassing Denuvo's digital locks on more than two dozen games, including Hogwarts Legacy and Black Myth: Wukong. As",
-    "date": "Tue, 15 Sep 2026 19:43:34 +0000",
+    "title": "Top 10 Most Pirated Movies of The Week – 10/12/2026",
+    "link": "https://torrentfreak.com/game-industry-asks-u-s-to-flag-denuvo-cracker-voices38-as-notorious-piracy-threat/",
+    "description": "The Entertainment Software Association has asked the U.S. Government to label the Denuvo cracker ‘voices38’ as a notorious piracy market. The game industry group argues that the cracker is an essential source in the game piracy ecosystem, feeding repackers and torrent sites. A notorious market flag ",
+    "date": "Sun, 11 Oct 2026 23:09:40 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 17,
+    "relevance_score": 15,
     "matched_keywords": [
-      "dmca",
-      "crack",
-      "piracy",
+      "pirate",
       "denuvo",
-      "pirate"
+      "crack",
+      "torrent",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Game Industry Asks U.S. to Flag Denuvo Cracker ‘voices38’ as Notorious Piracy Threat",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Mon, 12 Oct 2026 08:06:26 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 12,
+    "matched_keywords": [
+      "denuvo",
+      "crack",
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -26,24 +40,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "pirate",
-      "crack",
       "denuvo",
-      "rom"
-    ]
-  },
-  {
-    "title": "Denuvo Sues Game Cracker &#8216;voices38&#8217; for Bypassing its Anti-Tamper DRM",
-    "link": "https://torrentfreak.com/court-upholds-belgian-pirate-dns-blocking-order-opendns-exit-looms/",
-    "description": "Google, Cloudflare, and Cisco lost a key challenge against a Belgian DNS blocking order. The revised injunction, obtained by sports rightsholder DAZN, requires alternative resolvers to block pirate sports streaming domains on match days. Cisco says it will suspend OpenDNS in Belgium rather than comp",
-    "date": "Wed, 16 Sep 2026 08:29:21 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 12,
-    "matched_keywords": [
-      "drm",
-      "pirate",
       "crack",
-      "denuvo"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -60,18 +60,18 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Two U.S. Site-Blocking Bills Compete Over VPN Rules and ISP Liability",
+    "title": "AI-Built Torrent Site Looks Inside Downloads to Catch Fakes and Malware",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Coyote vs. Acme' tops the chart, followed by 'The End of Oak Street.' 'Runner' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sat, 03 Oct 2026 19:11:40 +0000",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Spider-Man: Brand New Day' tops the chart, followed by 'The End of Oak Street.' 'Matchbox the Movie' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and mor",
+    "date": "Sun, 11 Oct 2026 20:00:53 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
-      "piracy",
-      "torrent",
       "rom",
-      "pirate"
+      "pirate",
+      "copyright",
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -83,8 +83,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -96,8 +96,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -109,8 +109,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -133,8 +133,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -150,14 +150,14 @@ const ARIA_NEWS = {
   },
   {
     "title": "Pirate Streaming Portal Series.ly Has Domain Suspended, Rebrand Surfaces (Updated)",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/ai-built-torrent-site-looks-inside-downloads-to-catch-fakes-and-malware/",
+    "description": "In recent years, AI has made it much easier to create new websites and tools. That also applies to pirate sites, including TorrentClaw, a torrent search engine that’s largely built with AI. The site's TrueSpec feature, for example, checks what’s inside torrents. The results reveal a recurring malwar",
     "date": "Fri, 09 Oct 2026 12:48:42 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -184,10 +184,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 10/05/2026",
+    "title": "Two U.S. Site-Blocking Bills Compete Over VPN Rules and ISP Liability",
     "link": "https://torrentfreak.com/dns-resolver-quad9-rejects-french-piracy-blocks-weighs-exit-as-bein-seeks-up-to-e580k-a-day/",
     "description": "DNS resolver Quad9 is considering pulling out of France after broadcaster beIN Sports asked a Paris court to impose non-compliance penalties that could go up to €580,000 per day. The Swiss non-profit is not blocking the pirate tennis streams covered by a May site-blocking order, arguing that it can'",
-    "date": "Sun, 04 Oct 2026 23:09:40 +0000",
+    "date": "Sat, 03 Oct 2026 19:11:40 +0000",
     "source": "TorrentFreak",
     "relevance_score": 3,
     "matched_keywords": [
@@ -239,10 +239,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "This should be game streaming’s moment. It's not | Opinion",
+    "title": "The happiest man in gaming hates generative AI",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 09 Oct 2026 15:42:04 +0000",
+    "date": "Mon, 12 Oct 2026 13:11:17 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Group behind GTA 6 leaks threatens to release alleged full build of game including story mode",
+    "link": "https://www.gamesindustry.biz/the-happiest-man-in-gaming-hates-generative-ai",
+    "description": "It's impossible to not be swept up in Tarn Adams' enthusiasm. To speak to him is to feel like you're talking to the happiest man in gaming. Along with his brother Zach, he's been working on the wonderfully chaotic procedurally generated world of Dwarf Fortress since 2002, and he is far from tired of",
+    "date": "Mon, 12 Oct 2026 10:32:50 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -316,37 +327,28 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "BAFTA awards over £270,000 to 112 recipients in UK and US to support career growth in games, film, and TV",
+    "link": "https://www.gamesindustry.biz/group-behind-gta-6-leaks-threatens-to-release-alleged-full-build-of-game-including-story-mode",
+    "description": "The group responsible for the recent Grand Theft Auto 6 leaks has reportedly threatened to release a full build of the game, including its full story mode and end credits. Read more",
+    "date": "Mon, 12 Oct 2026 08:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "This should be game streaming’s moment. It's not | Opinion",
+    "link": "https://www.gamesindustry.biz/bafta-awards-over-270000-to-112-recipients-in-uk-and-us-to-support-career-growth-in-games-film-and-tv",
+    "description": "BAFTA has awarded over &pound;270,000 in grants to 112 recipients in the UK and North America under its  2026 Prince William BAFTA Bursary and scholarship programmes. Read more",
+    "date": "Fri, 09 Oct 2026 15:42:04 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Undead Labs boss \"reluctant to share\" number affected by layoffs: \"I would hate to reduce the impact to those individuals to a number or statistic\"",
     "link": "https://www.gamesindustry.biz/this-should-be-game-streamings-moment-its-not-opinion",
     "description": "Earlier this week, there was a ripple of excitement among long-suffering Xbox fans over news that the platform had struck an exclusive deal for the streaming rights to Grand Theft Auto VI &ndash; suggesting that while the game would launch on both PlayStation and Xbox, Microsoft&rsquo;s Xcloud servi",
     "date": "Fri, 09 Oct 2026 13:58:18 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Paramount Pictures adapting live-action movie set in Cyberpunk 2077 universe, co-produced by CD Projekt Red",
-    "link": "https://www.gamesindustry.biz/undead-labs-boss-reluctant-to-share-number-affected-by-layoffs-i-would-hate-to-reduce-the-impact-to-those-individuals-to-a-number-or-statistic",
-    "description": "Undead Labs studio boss Philip Holt is \"reluctant to share\" how many employees the developer lost when it became independent of Xbox. Read more",
-    "date": "Fri, 09 Oct 2026 12:54:02 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Video games aren't the enemy of kids' mental health – ignoring them is | Opinion",
-    "link": "https://www.gamesindustry.biz/paramount-pictures-adapting-live-action-movie-set-in-cyberpunk-2077-universe-co-produced-by-cd-projekt-red",
-    "description": "Paramount Pictures is adapting a live-action film set in the Cyberpunk 2077 universe. Read more",
-    "date": "Fri, 09 Oct 2026 11:01:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Ubisoft announces shutdown of Rainbow Six Mobile seven months after global launch",
-    "link": "https://www.gamesindustry.biz/avalanche-studio-group-to-globally-publish-market-and-distribute-titles-from-supermassive-games",
-    "description": "Nordisk Games has announced a publishing agreement between its subsidiaries Avalanche Studios Group and Supermassive Games. Read more",
-    "date": "Fri, 09 Oct 2026 07:44:35 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
