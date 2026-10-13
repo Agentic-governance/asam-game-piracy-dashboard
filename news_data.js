@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-12 15:08 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-13 14:00 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-12T15:08:28.673037",
+  fetched_at: "2026-10-13T14:00:45.709893",
   item_count: 30,
   items: [
   {
@@ -11,8 +11,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 15,
     "matched_keywords": [
-      "pirate",
       "denuvo",
+      "pirate",
       "crack",
       "torrent",
       "piracy"
@@ -20,16 +20,16 @@ const ARIA_NEWS = {
   },
   {
     "title": "Game Industry Asks U.S. to Flag Denuvo Cracker ‘voices38’ as Notorious Piracy Threat",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/mpa-takes-credit-for-shutting-down-piracy-giants-animeflv-and-cineby/",
+    "description": "When pirate streaming giant Cineby shut down at the end of August, its operators blamed the loss of their main video providers. Now, the MPA informs the U.S. Trade Representative that the site stopped operating following \"MPA and ACE actions,\" adding that the same applies to anime piracy portal Anim",
     "date": "Mon, 12 Oct 2026 08:06:26 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 12,
+    "relevance_score": 14,
     "matched_keywords": [
       "denuvo",
       "crack",
-      "copyright",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -67,10 +67,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
       "pirate",
-      "copyright",
       "torrent",
+      "rom",
+      "copyright",
       "piracy"
     ]
   },
@@ -82,9 +82,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "piracy",
       "rom",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -95,22 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "piracy",
       "rom",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Court Upholds Belgian Pirate DNS Blocking Order, OpenDNS Exit Looms",
-    "link": "https://torrentfreak.com/south-african-minister-tells-film-summit-it-has-a-double-standard-on-piracy/",
-    "description": "At a global film summit in France, regulators and rightsholders praised site-blocking successes, but they also faced unexpected pushback from one of the panelists. South Africa's culture minister accused the film industry of a double standard on piracy, demanding a partnership of equals rather than ",
-    "date": "Thu, 17 Sep 2026 10:35:06 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "pirate",
-      "rom",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -121,8 +108,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -146,6 +133,18 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "pirate"
+    ]
+  },
+  {
+    "title": "MPA Takes Credit for Shutting Down Piracy Giants AnimeFLV and Cineby",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Tue, 13 Oct 2026 07:34:34 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -239,10 +238,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "The happiest man in gaming hates generative AI",
+    "title": "\"Years of building, pitching and raising for games made the same failure painful to watch\" – Why GameDataCore wants to find out how players feel",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 12 Oct 2026 13:11:17 +0000",
+    "date": "Tue, 13 Oct 2026 12:30:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Dragon Quest creator Yuji Horii releases game he says he made with AI in about 30 minutes",
+    "link": "https://www.gamesindustry.biz/epic-games-delays-disney-game-and-tells-developers-to-go-ai-first",
+    "description": "Epic Games has delayed its upcoming Disney collaboration - a shooter featuring characters from the Marvel and Star Wars franchises - and told developers to move to an \"AI first\" production model. Read more",
+    "date": "Mon, 12 Oct 2026 18:49:25 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Nvidia reportedly ends GeForce RTX 5090 graphics card production",
+    "link": "https://www.gamesindustry.biz/nintendos-latin-america-vp-says-there-are-no-plans-to-ditch-physical-games",
+    "description": "Nintendo has no plans to move away from physical games. Read more",
+    "date": "Mon, 12 Oct 2026 16:17:15 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -283,17 +304,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Safe In Our World launches Four Billion Players campaign to make mental health support more accessible for gamers",
-    "link": "https://www.gamesindustry.biz/a-creative-idea-can-save-more-money-than-ai-can-right-now-glen-schofield-on-his-retirement-callisto-protocols-development-and-the-state-of-aaa",
-    "description": "During the summer, veteran developer Glen Schofield announced his retirement from the games industry. Read more",
-    "date": "Thu, 08 Oct 2026 13:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
     "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
     "description": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSec",
@@ -327,28 +337,19 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "BAFTA awards over £270,000 to 112 recipients in UK and US to support career growth in games, film, and TV",
-    "link": "https://www.gamesindustry.biz/group-behind-gta-6-leaks-threatens-to-release-alleged-full-build-of-game-including-story-mode",
-    "description": "The group responsible for the recent Grand Theft Auto 6 leaks has reportedly threatened to release a full build of the game, including its full story mode and end credits. Read more",
-    "date": "Mon, 12 Oct 2026 08:00:00 +0000",
+    "title": "A guide to six regulatory risks shaping games in 2026",
+    "link": "https://www.gamesindustry.biz/years-of-building-pitching-and-raising-for-games-made-the-same-failure-painful-to-watch-why-gamedatacore-wants-to-find-out-how-players-feel",
+    "description": "If you can't understand something, you can't fix it. That's the motivation behind a new platform that aims to cut through the noise of Steam reviews and find out what players really feel about a game, what the developers need to address, and even what game they should think about making next. Read m",
+    "date": "Tue, 13 Oct 2026 11:25:38 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "This should be game streaming’s moment. It's not | Opinion",
-    "link": "https://www.gamesindustry.biz/bafta-awards-over-270000-to-112-recipients-in-uk-and-us-to-support-career-growth-in-games-film-and-tv",
-    "description": "BAFTA has awarded over &pound;270,000 in grants to 112 recipients in the UK and North America under its  2026 Prince William BAFTA Bursary and scholarship programmes. Read more",
-    "date": "Fri, 09 Oct 2026 15:42:04 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Undead Labs boss \"reluctant to share\" number affected by layoffs: \"I would hate to reduce the impact to those individuals to a number or statistic\"",
-    "link": "https://www.gamesindustry.biz/this-should-be-game-streamings-moment-its-not-opinion",
-    "description": "Earlier this week, there was a ripple of excitement among long-suffering Xbox fans over news that the platform had struck an exclusive deal for the streaming rights to Grand Theft Auto VI &ndash; suggesting that while the game would launch on both PlayStation and Xbox, Microsoft&rsquo;s Xcloud servi",
-    "date": "Fri, 09 Oct 2026 13:58:18 +0000",
+    "title": "Epic Games delays Disney game and tells developers to go \"AI first\"",
+    "link": "https://www.gamesindustry.biz/a-guide-to-six-regulatory-risks-shaping-games-in-2026",
+    "description": "Dr Simon Hembt is counsel at Bird & Bird in Frankfurt, Germany. He advises games companies on IP, AI/tech, and media regulation. He co-edited Bird & Bird's Game Plan 2026 report. Read more",
+    "date": "Mon, 12 Oct 2026 19:54:58 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
