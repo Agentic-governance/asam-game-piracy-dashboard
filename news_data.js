@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-14 11:37 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-15 11:16 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-14T11:37:28.812952",
+  fetched_at: "2026-10-15T11:16:10.652255",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 15,
     "matched_keywords": [
-      "torrent",
-      "piracy",
-      "crack",
       "denuvo",
-      "pirate"
+      "torrent",
+      "pirate",
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
-      "crack",
       "denuvo",
       "pirate",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -40,10 +40,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "rom",
-      "crack",
       "denuvo",
-      "pirate"
+      "pirate",
+      "crack",
+      "rom"
     ]
   },
   {
@@ -54,9 +54,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "crack",
       "denuvo",
-      "piracy"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -69,9 +69,22 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "rom",
       "torrent",
-      "piracy",
+      "copyright",
       "pirate",
-      "copyright"
+      "piracy"
+    ]
+  },
+  {
+    "title": "MPA Takes Credit for Shutting Down Piracy Giants AnimeFLV and Cineby",
+    "link": "https://torrentfreak.com/publishers-seek-19-5m-from-pirate-library-welib-recycle-annas-archive-claims/",
+    "description": "A group of major publishers has asked a New York federal court to issue a $19.5 million default judgment against pirate library WeLib. The site allegedly copied its code and most of its collection from Anna's Archive, which lost a nearly identical case in May. Ironically, the publishers' brief appea",
+    "date": "Tue, 13 Oct 2026 07:34:34 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "pirate",
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -82,22 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "South African Minister Tells Film Summit It Has a Double Standard on Piracy",
-    "link": "https://torrentfreak.com/u-s-site-blocking-bill-adds-vpns-to-the-list-of-blocking/",
-    "description": "VPN providers with over 100,000 American users could be ordered to block pirate sites under the bill Rep. Darrell Issa introduced last week. The full text shows that VPNs were added after last year's discussion draft, which only mentioned ISPs and DNS resolvers. How a VPN should block access \"from t",
-    "date": "Sat, 19 Sep 2026 11:23:19 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "rom",
-      "pirate",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -120,8 +120,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -149,15 +149,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "MPA Takes Credit for Shutting Down Piracy Giants AnimeFLV and Cineby",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 13 Oct 2026 07:34:34 +0000",
+    "title": "Publishers Seek $19.5m From Pirate Library WeLib, Recycle Anna&#8217;s Archive Claims",
+    "link": "https://torrentfreak.com/riaa-flags-annas-archive-and-ai-voice-cloner-to-u-s-government/",
+    "description": "The RIAA has submitted its latest overview of \"notorious markets\" to the U.S. Government. It lists familiar names such as The Pirate Bay and Rapidgator, but the music group also flags shadow library Anna's Archive and AI voice-cloning service Lalals.  The RIAA presents both as \"additional\" areas of ",
+    "date": "Wed, 14 Oct 2026 12:05:31 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -168,20 +168,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
-    ]
-  },
-  {
-    "title": "CAFC Upholds PTAB Indefiniteness Rejections of Pro Se Applicant’s Message Notation Application",
-    "link": "https://ipwatchdog.com/2026/10/07/copyright-office-solicits-comment-on-music-streaming-fraud/",
-    "description": "Today, the U.S. Copyright Office published a notice of inquiry (NOI) in the Federal Register soliciting public comment on issues related to music piracy threatening billions in U.S. domestic revenues generated by digital streaming. The Office’s NOI responds to a request into the prevalence of stream",
-    "date": "Wed, 07 Oct 2026 16:15:05 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "copyright",
-      "piracy"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -263,10 +251,43 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "ESA flags retro console maker Anbernic for inclusion on US government's Notorious Market List",
+    "title": "House House will not release Big Walk on Xbox in support of pro-Palestinian BDS campaign",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 14 Oct 2026 09:59:16 +0000",
+    "date": "Thu, 15 Oct 2026 11:08:03 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Epic Games claims its new \"vibe coded\" launcher runs 46% faster than Steam from cold start to store page",
+    "link": "https://www.gamesindustry.biz/house-house-will-not-release-big-walk-on-xbox-in-support-of-pro-palestinian-bds-campaign",
+    "description": "Melbourne-based developer House House will not release its co-op hit Big Walk on Xbox, citing support for the Palestinian-led  Boycott, Divestment, Sanctions (BDS) campaign. Read more",
+    "date": "Thu, 15 Oct 2026 09:35:29 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Ubisoft to reduce workforce across Düsseldorf, Berlin, and Mainz as part of \"proposed voluntary departure plan\"",
+    "link": "https://www.gamesindustry.biz/epic-games-claims-its-new-vibe-coded-launcher-runs-46-faster-than-steam-from-cold-start-to-store-page",
+    "description": "Epic Games has released a beta version of its new launcher, claiming it is 46% faster than Steam from cold start to the store page. Read more",
+    "date": "Thu, 15 Oct 2026 08:09:37 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Funcom to lay off staff as it pivots to focusing solely on Conan Exiles and Dune: Awakening",
+    "link": "https://www.gamesindustry.biz/sbox-plans-to-go-free-to-play-and-embrace-human-curation-saying-netflix-for-games-doesnt-work",
+    "description": "Facepunch Studios plans to make its s&box platform free-to-play toward the end of the year as it shifts from offering as many games as possible to promoting the best and most popular ones. Read more",
+    "date": "Wed, 14 Oct 2026 16:34:08 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -296,39 +317,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Nvidia reportedly ends GeForce RTX 5090 graphics card production",
-    "link": "https://www.gamesindustry.biz/nintendos-latin-america-vp-says-there-are-no-plans-to-ditch-physical-games",
-    "description": "Nintendo has no plans to move away from physical games. Read more",
-    "date": "Mon, 12 Oct 2026 16:17:15 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Group behind GTA 6 leaks threatens to release alleged full build of game including story mode",
-    "link": "https://www.gamesindustry.biz/the-happiest-man-in-gaming-hates-generative-ai",
-    "description": "It's impossible to not be swept up in Tarn Adams' enthusiasm. To speak to him is to feel like you're talking to the happiest man in gaming. Along with his brother Zach, he's been working on the wonderfully chaotic procedurally generated world of Dwarf Fortress since 2002, and he is far from tired of",
-    "date": "Mon, 12 Oct 2026 10:32:50 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Sony agrees to transfer over 400 global VR patents to Meta following December 2025 agreement",
-    "link": "https://www.gamesindustry.biz/video-games-arent-the-enemy-of-kids-mental-health-ignoring-them-is-opinion",
-    "description": "Video games have become an easy target in conversations about young people's mental health, often without much understanding of the positive role they can play. Parents cite them as the cause of anxiety, isolation, and poor sleep. Researchers, meanwhile, keep finding that the picture is far from bla",
-    "date": "Fri, 09 Oct 2026 10:50:02 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
     "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
     "description": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSec",
@@ -351,15 +339,22 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Who&#8217;s Tracking You? Use This New Service to Find Out",
-    "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-    "description": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever.\r\n\r\nIn a statement released today, the Australian Federal Police (AFP) said two unn",
-    "date": "Fri, 14 Aug 2026 11:24:35 +0000",
-    "source": "KrebsOnSecurity",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "arrested"
-    ]
+    "title": "Google Play adds Game Finder, Sprints, and Sidekick Playbacks in discovery push",
+    "link": "https://www.gamesindustry.biz/ubisoft-to-reduce-workforce-across-dusseldorf-berlin-and-mainz-as-part-of-proposed-voluntary-departure-plan",
+    "description": "Ubisoft intends to reduce its German workforce by approximately 100 employees across its D&uuml;sseldorf, Berlin, and Mainz studios. Read more",
+    "date": "Wed, 14 Oct 2026 21:02:24 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Duke Nukem 3D level designer Richard \"Levelord\" Gray dies aged 68",
+    "link": "https://www.gamesindustry.biz/google-play-adds-game-finder-sprints-and-sidekick-playbacks-in-discovery-push",
+    "description": "Google Play is adding a batch of new discovery and social features for games, including a personalized Game Finder, timed competitive Sprints, and clip-sharing via its Sidekick overlay. Read more",
+    "date": "Wed, 14 Oct 2026 19:45:48 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   }
 ]
 };
