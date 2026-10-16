@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-15 11:16 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-16 11:10 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-15T11:16:10.652255",
+  fetched_at: "2026-10-16T11:10:49.320634",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 15,
     "matched_keywords": [
-      "denuvo",
-      "torrent",
-      "pirate",
       "piracy",
-      "crack"
+      "crack",
+      "pirate",
+      "torrent",
+      "denuvo"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
-      "denuvo",
       "pirate",
+      "crack",
       "piracy",
-      "crack"
+      "denuvo"
     ]
   },
   {
@@ -40,10 +40,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "denuvo",
-      "pirate",
+      "rom",
       "crack",
-      "rom"
+      "pirate",
+      "denuvo"
     ]
   },
   {
@@ -54,9 +54,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "denuvo",
+      "crack",
       "piracy",
-      "crack"
+      "denuvo"
     ]
   },
   {
@@ -67,11 +67,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
+      "piracy",
+      "pirate",
       "torrent",
       "copyright",
-      "pirate",
-      "piracy"
+      "rom"
     ]
   },
   {
@@ -120,8 +120,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -136,16 +136,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Beyond Takedowns: Disrupting the Business of Counterfeiting",
-    "link": "https://ipwatchdog.com/2026/10/12/bad-patents-patent-trolls-pr-campaign-created-to-excuse-infringement/",
-    "description": "There's a curious double standard in the way we talk about intellectual property (IP) in America. When someone copies a copyrighted work without permission, we recognize that the creator has rights. Copyright infringement can even carry criminal penalties. When someone steals another person's proper",
-    "date": "Mon, 12 Oct 2026 18:41:11 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 5,
+    "title": "VPNs and Cloudflare Escape beIN’s €10,000-a-Day Piracy Blocking Penalties",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Fri, 16 Oct 2026 06:29:47 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
     "matched_keywords": [
-      "takedown",
-      "intellectual property",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -156,8 +155,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -180,8 +179,19 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "arrested"
+      "arrested",
+      "rom"
+    ]
+  },
+  {
+    "title": "RIAA Flags Anna’s Archive and AI Voice Cloner to U.S. Government",
+    "link": "https://torrentfreak.com/vpns-and-cloudflare-escape-beins-e10000-a-day-piracy-blocking-penalties/",
+    "description": "VPN providers and Cloudflare only have to make a reasonable effort to block pirate sports streams in France. That's the conclusion of two Paris court rulings that refused beIN Sports' request for penalties of €10,000 per day, per domain. Meanwhile, the Paris Court of Appeal put a separate VPN blocki",
+    "date": "Thu, 15 Oct 2026 07:52:44 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "pirate"
     ]
   },
   {
@@ -240,21 +250,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Pirate IPTV App LiveNetTV Shut Down After Turkish Police Raid, Operators Settle With ACE",
-    "link": "https://torrentfreak.com/pirate-site-must-face-chinese-streaming-giant-tencent-in-u-s-court-judge-rules/",
-    "description": "China's biggest streaming companies are using U.S. courts to take down pirate sites, and a Florida judge just made that path easier. Overruling a magistrate's recommendation, the court ruled that the Chinese-language pirate site Olevod, which is run by a Spanish company, must answer Tencent's lawsui",
-    "date": "Tue, 22 Sep 2026 17:24:28 +0000",
-    "source": "TorrentFreak",
+    "title": "Game Republic New Horizons 2026 attendance grew 76% to over 461 visitors",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Fri, 16 Oct 2026 10:10:06 +0000",
+    "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
-      "pirate"
+      "rom"
     ]
   },
   {
-    "title": "House House will not release Big Walk on Xbox in support of pro-Palestinian BDS campaign",
-    "link": "https://www.gamesindustry.biz/feed",
-    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 15 Oct 2026 11:08:03 +0000",
+    "title": "Fishlabs announces layoffs due to \"changing project requirements,\" development and support teams affected",
+    "link": "https://www.gamesindustry.biz/game-republic-new-horizons-2026-attendance-grew-76-to-over-461-visitors",
+    "description": "Attendance at Game Republic New Horizons 2026 rose by 78% year-over-year, from 259 to 461 visitors. Read more",
+    "date": "Fri, 16 Oct 2026 09:27:33 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "DayZ creator Dean Hall releases open-source game development framework Brutal",
+    "link": "https://www.gamesindustry.biz/sega-and-creative-assembly-remove-total-war-shogun-2-remaster-from-sale-as-it-falls-short-of-both-your-expectations-and-our-own-standards",
+    "description": "Sega and Creative Assembly have temporarily withdrawn Total War: Shogun 2 &ndash; Complete Edition from sale in response to concerns about AI upscaling and other performance issues. Read more",
+    "date": "Thu, 15 Oct 2026 14:31:28 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -295,28 +316,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"Years of building, pitching and raising for games made the same failure painful to watch\" – Why GameDataCore wants to find out how players feel",
-    "link": "https://www.gamesindustry.biz/xbox-announces-xbox-labs-a-new-initiative-to-trial-emerging-ideas-and-new-technology",
-    "description": "Xbox CEO Asha Sharma has announced the creation of Xbox Labs, a new team within the organisation to \"turn emerging ideas into things our players and developers can experience.\" The unit is a \"a small group of game makers, engineers and scientists,\" drawn from within the business, charged with rapid ",
-    "date": "Tue, 13 Oct 2026 12:30:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Dragon Quest creator Yuji Horii releases game he says he made with AI in about 30 minutes",
-    "link": "https://www.gamesindustry.biz/epic-games-delays-disney-game-and-tells-developers-to-go-ai-first",
-    "description": "Epic Games has delayed its upcoming Disney collaboration - a shooter featuring characters from the Marvel and Star Wars franchises - and told developers to move to an \"AI first\" production model. Read more",
-    "date": "Mon, 12 Oct 2026 18:49:25 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
     "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
     "description": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSec",
@@ -339,19 +338,19 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Google Play adds Game Finder, Sprints, and Sidekick Playbacks in discovery push",
-    "link": "https://www.gamesindustry.biz/ubisoft-to-reduce-workforce-across-dusseldorf-berlin-and-mainz-as-part-of-proposed-voluntary-departure-plan",
-    "description": "Ubisoft intends to reduce its German workforce by approximately 100 employees across its D&uuml;sseldorf, Berlin, and Mainz studios. Read more",
-    "date": "Wed, 14 Oct 2026 21:02:24 +0000",
+    "title": "Reforj developer 4J Studios announces PC release date at Game Republic New Horizons",
+    "link": "https://www.gamesindustry.biz/dayz-creator-dean-hall-releases-open-source-game-development-framework-brutal",
+    "description": "Industry veteran Dean Hall has rolled out Brutal, an open-source game development framework made in collaboration by two of his companies, Ahwoo and RocketWerkz. Read more",
+    "date": "Thu, 15 Oct 2026 13:25:49 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Duke Nukem 3D level designer Richard \"Levelord\" Gray dies aged 68",
-    "link": "https://www.gamesindustry.biz/google-play-adds-game-finder-sprints-and-sidekick-playbacks-in-discovery-push",
-    "description": "Google Play is adding a batch of new discovery and social features for games, including a personalized Game Finder, timed competitive Sprints, and clip-sharing via its Sidekick overlay. Read more",
-    "date": "Wed, 14 Oct 2026 19:45:48 +0000",
+    "title": "An oral history of the Tomb Raider game no one wanted to make",
+    "link": "https://www.gamesindustry.biz/reforj-developer-4j-studios-announces-pc-release-date-at-game-republic-new-horizons",
+    "description": "4J Studios has announced that its open-world survival sandbox Reforj will be available on PC via a closed playtest starting in Q1 2027. Read more",
+    "date": "Thu, 15 Oct 2026 12:30:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
