@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-16 11:10 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-17 10:29 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-16T11:10:49.320634",
+  fetched_at: "2026-10-17T10:29:38.277549",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 15,
     "matched_keywords": [
-      "piracy",
-      "crack",
       "pirate",
-      "torrent",
-      "denuvo"
+      "crack",
+      "denuvo",
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
+      "denuvo",
       "pirate",
-      "crack",
       "piracy",
-      "denuvo"
+      "crack"
     ]
   },
   {
@@ -40,10 +40,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "rom",
-      "crack",
+      "denuvo",
       "pirate",
-      "denuvo"
+      "rom",
+      "crack"
     ]
   },
   {
@@ -54,9 +54,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "crack",
+      "denuvo",
       "piracy",
-      "denuvo"
+      "crack"
     ]
   },
   {
@@ -67,11 +67,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "pirate",
-      "torrent",
+      "rom",
+      "piracy",
       "copyright",
-      "rom"
+      "torrent"
     ]
   },
   {
@@ -120,8 +120,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -155,8 +155,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -250,9 +250,42 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Game Republic New Horizons 2026 attendance grew 76% to over 461 visitors",
+    "title": "A hardware market freeze could transform the industry forever | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Fri, 16 Oct 2026 15:18:57 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Gamescom Asia x Thailand Game Show 2026 announces four additional pavilions from Indonesia, Japan, Malaysia, and the US",
+    "link": "https://www.gamesindustry.biz/how-star-wars-galactic-racer-kept-the-core-team-small-and-sustainable-through-distributed-development",
+    "description": "Matt Webster, CEO of Fuse Games, is \"thrilled\" with the critical reception to Star Wars: Galactic Racer, which is currently sitting on a Metacritic score of 88 for the PS5 version. Speaking to GamesIndustry.biz at Game Republic New Horizons this week, he says it \"felt like we had something good\", bu",
+    "date": "Fri, 16 Oct 2026 12:44:48 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "The Netflix series Drive to Survive inspired Star Wars: Galactic Racer",
+    "link": "https://www.gamesindustry.biz/gamescom-asia-x-thailand-game-show-2026-announces-four-additional-pavilions-from-indonesia-japan-malaysia-and-the-us",
+    "description": "Gamescom Asia x Thailand Game Show 2026 has announced four additional pavilions, bringing its total to 20 from 12 markets across Asia, Europe, and North America. Read more",
+    "date": "Fri, 16 Oct 2026 12:26:23 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Game Republic New Horizons 2026 attendance grew 78% to over 461 visitors",
+    "link": "https://www.gamesindustry.biz/the-netflix-series-drive-to-survive-inspired-star-wars-galactic-racer",
+    "description": "Matt Webster, the head of Star Wars: Galactic Racer developer Fuse Games, has said that the Netflix series Drive to Survive was an inspiration for the game right from the start. Read more",
     "date": "Fri, 16 Oct 2026 10:10:06 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -325,35 +358,6 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "arrested"
     ]
-  },
-  {
-    "title": "U.S. Soldier Gets 70 Months in Prison for AT&#038;T, Verizon Extortions",
-    "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
-    "description": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attac",
-    "date": "Fri, 25 Sep 2026 21:44:40 +0000",
-    "source": "KrebsOnSecurity",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "arrested"
-    ]
-  },
-  {
-    "title": "Reforj developer 4J Studios announces PC release date at Game Republic New Horizons",
-    "link": "https://www.gamesindustry.biz/dayz-creator-dean-hall-releases-open-source-game-development-framework-brutal",
-    "description": "Industry veteran Dean Hall has rolled out Brutal, an open-source game development framework made in collaboration by two of his companies, Ahwoo and RocketWerkz. Read more",
-    "date": "Thu, 15 Oct 2026 13:25:49 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "An oral history of the Tomb Raider game no one wanted to make",
-    "link": "https://www.gamesindustry.biz/reforj-developer-4j-studios-announces-pc-release-date-at-game-republic-new-horizons",
-    "description": "4J Studios has announced that its open-world survival sandbox Reforj will be available on PC via a closed playtest starting in Q1 2027. Read more",
-    "date": "Thu, 15 Oct 2026 12:30:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
   }
 ]
 };
