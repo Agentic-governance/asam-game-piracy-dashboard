@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-17 10:29 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-18 10:50 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-17T10:29:38.277549",
+  fetched_at: "2026-10-18T10:50:03.876603",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 15,
     "matched_keywords": [
-      "pirate",
-      "crack",
-      "denuvo",
+      "torrent",
       "piracy",
-      "torrent"
+      "denuvo",
+      "crack",
+      "pirate"
     ]
   },
   {
@@ -28,8 +28,8 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "denuvo",
       "pirate",
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -41,9 +41,9 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "denuvo",
-      "pirate",
+      "crack",
       "rom",
-      "crack"
+      "pirate"
     ]
   },
   {
@@ -55,8 +55,8 @@ const ARIA_NEWS = {
     "relevance_score": 11,
     "matched_keywords": [
       "denuvo",
-      "piracy",
-      "crack"
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -67,11 +67,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "rom",
-      "piracy",
+      "torrent",
       "copyright",
-      "torrent"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -83,8 +83,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -96,8 +96,20 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
+    ]
+  },
+  {
+    "title": "VPNs and Cloudflare Escape beIN’s €10,000-a-Day Piracy Blocking Penalties",
+    "link": "https://torrentfreak.com/chinese-court-jails-aiyifan-operator-u-s-judge-wont-transfer-pirate-sites-domains/",
+    "description": "A Shanghai court confirmed the criminal conviction of Wang Jianyang, one of the operators of pirate streaming platform Aiyifan. In a parallel case, a Florida federal judge awarded Chinese streaming service iQIYI $1.96 million in damages, roughly 1% of what it initially requested. The court also refu",
+    "date": "Fri, 16 Oct 2026 06:29:47 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -113,18 +125,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Pirate Site Must Face Chinese Streaming Giant Tencent in U.S. Court, Judge Rules",
-    "link": "https://torrentfreak.com/nintendo-wins-4-5-million-judgment-against-r-switchpirates-mod-archbox/",
-    "description": "A Washington federal court has ordered former r/SwitchPirates moderator James 'Archbox' Williams to pay Nintendo $4.5 million in damages. The default judgment includes a permanent injunction that prohibits Williams from distributing pirated games and circumvention tools, or encouraging others to use",
-    "date": "Wed, 23 Sep 2026 19:15:38 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "pirate",
-      "rom"
-    ]
-  },
-  {
     "title": "Nintendo Wins $4.5 Million Judgment Against r/SwitchPirates Mod &#8216;Archbox&#8217;",
     "link": "https://torrentfreak.com/unified-u-s-site-blocking-bill-targets-isps-and-dns-resolvers-but-spares-vpns/",
     "description": "Senator Thom Tillis and Rep. Zoe Lofgren have introduced their joint site blocking bill, the DEFEND IP Act. The proposal comes less than two weeks after Rep. Darrell Issa's competing proposal, and both bills allow rightsholders to obtain court orders requiring ISPs and large DNS resolvers to block f",
@@ -136,15 +136,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "VPNs and Cloudflare Escape beIN’s €10,000-a-Day Piracy Blocking Penalties",
+    "title": "Chinese Court Jails Aiyifan Operator, U.S. Judge Won’t Transfer Pirate Site’s Domains",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Fri, 16 Oct 2026 06:29:47 +0000",
+    "date": "Sun, 18 Oct 2026 10:41:19 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
       "copyright",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -155,8 +155,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -167,8 +167,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -179,8 +179,8 @@ const ARIA_NEWS = {
     "source": "KrebsOnSecurity",
     "relevance_score": 4,
     "matched_keywords": [
-      "arrested",
-      "rom"
+      "rom",
+      "arrested"
     ]
   },
   {
