@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-18 10:50 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-19 12:51 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-18T10:50:03.876603",
+  fetched_at: "2026-10-19T12:51:16.650238",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 15,
     "matched_keywords": [
+      "pirate",
       "torrent",
-      "piracy",
-      "denuvo",
       "crack",
-      "pirate"
+      "denuvo",
+      "piracy"
     ]
   },
   {
@@ -26,10 +26,24 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
-      "denuvo",
       "pirate",
+      "denuvo",
       "crack",
       "piracy"
+    ]
+  },
+  {
+    "title": "Chinese Court Jails Aiyifan Operator, U.S. Judge Won’t Transfer Pirate Site’s Domains",
+    "link": "https://torrentfreak.com/court-approves-voices38-subpoenas-after-denuvo-drops-payment-and-login-data-requests/",
+    "description": "Denuvo can subpoena Discord, Valve and Reddit to identify the anonymous game cracker ‘voices38’. After a California federal judge raised privacy concerns, the DRM company dropped its demands for payment data, comments and other data, reducing 46 requests to nine. What remains are identity and contac",
+    "date": "Sun, 18 Oct 2026 10:41:19 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 12,
+    "matched_keywords": [
+      "pirate",
+      "drm",
+      "crack",
+      "denuvo"
     ]
   },
   {
@@ -40,10 +54,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "denuvo",
+      "pirate",
       "crack",
-      "rom",
-      "pirate"
+      "denuvo",
+      "rom"
     ]
   },
   {
@@ -67,11 +81,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
+      "pirate",
       "torrent",
+      "rom",
       "copyright",
-      "piracy",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -83,8 +97,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -96,8 +110,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "rom",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -125,26 +139,28 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Nintendo Wins $4.5 Million Judgment Against r/SwitchPirates Mod &#8216;Archbox&#8217;",
-    "link": "https://torrentfreak.com/unified-u-s-site-blocking-bill-targets-isps-and-dns-resolvers-but-spares-vpns/",
-    "description": "Senator Thom Tillis and Rep. Zoe Lofgren have introduced their joint site blocking bill, the DEFEND IP Act. The proposal comes less than two weeks after Rep. Darrell Issa's competing proposal, and both bills allow rightsholders to obtain court orders requiring ISPs and large DNS resolvers to block f",
-    "date": "Fri, 25 Sep 2026 04:47:40 +0000",
-    "source": "TorrentFreak",
+    "title": "Beyond Takedowns: Disrupting the Business of Counterfeiting",
+    "link": "https://ipwatchdog.com/2026/10/12/bad-patents-patent-trolls-pr-campaign-created-to-excuse-infringement/",
+    "description": "There's a curious double standard in the way we talk about intellectual property (IP) in America. When someone copies a copyrighted work without permission, we recognize that the creator has rights. Copyright infringement can even carry criminal penalties. When someone steals another person's proper",
+    "date": "Mon, 12 Oct 2026 18:41:11 +0000",
+    "source": "IPWatchdog",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate"
+      "takedown",
+      "copyright",
+      "intellectual property"
     ]
   },
   {
-    "title": "Chinese Court Jails Aiyifan Operator, U.S. Judge Won’t Transfer Pirate Site’s Domains",
+    "title": "Court Approves ‘voices38’ Subpoenas After Denuvo Drops Payment and Login Data Requests",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sun, 18 Oct 2026 10:41:19 +0000",
+    "date": "Mon, 19 Oct 2026 08:09:47 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
       "copyright",
-      "pirate"
+      "denuvo"
     ]
   },
   {
@@ -155,8 +171,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -167,8 +183,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -250,10 +266,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "A hardware market freeze could transform the industry forever | Opinion",
+    "title": "GDCA 2027 moves away from nominations-based system, publishers and devs can now submit games for consideration",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 16 Oct 2026 15:18:57 +0000",
+    "date": "Mon, 19 Oct 2026 10:57:47 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Activision QA United-CWA union vote to authorise strike, claims publisher has \"failed to bargain in good faith over key issues\"",
+    "link": "https://www.gamesindustry.biz/gdca-2027-moves-away-from-nominations-based-system-publishers-and-devs-can-now-submit-games-for-consideration",
+    "description": "The 2027 Game Developers Choice Awards (GDCA) will be accepting submissions from publishers and developers for the first time. Read more",
+    "date": "Mon, 19 Oct 2026 10:13:55 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -335,28 +362,6 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "rom"
-    ]
-  },
-  {
-    "title": "Funcom to lay off staff as it pivots to focusing solely on Conan Exiles and Dune: Awakening",
-    "link": "https://www.gamesindustry.biz/sbox-plans-to-go-free-to-play-and-embrace-human-curation-saying-netflix-for-games-doesnt-work",
-    "description": "Facepunch Studios plans to make its s&box platform free-to-play toward the end of the year as it shifts from offering as many games as possible to promoting the best and most popular ones. Read more",
-    "date": "Wed, 14 Oct 2026 16:34:08 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-    "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-    "description": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSec",
-    "date": "Wed, 07 Oct 2026 13:48:45 +0000",
-    "source": "KrebsOnSecurity",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "arrested"
     ]
   }
 ]
