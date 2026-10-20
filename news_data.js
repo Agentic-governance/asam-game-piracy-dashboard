@@ -1,23 +1,8 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-19 12:51 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-20 11:20 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-19T12:51:16.650238",
+  fetched_at: "2026-10-20T11:20:31.923012",
   item_count: 30,
   items: [
-  {
-    "title": "Top 10 Most Pirated Movies of The Week – 10/12/2026",
-    "link": "https://torrentfreak.com/game-industry-asks-u-s-to-flag-denuvo-cracker-voices38-as-notorious-piracy-threat/",
-    "description": "The Entertainment Software Association has asked the U.S. Government to label the Denuvo cracker ‘voices38’ as a notorious piracy market. The game industry group argues that the cracker is an essential source in the game piracy ecosystem, feeding repackers and torrent sites. A notorious market flag ",
-    "date": "Sun, 11 Oct 2026 23:09:40 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 15,
-    "matched_keywords": [
-      "pirate",
-      "torrent",
-      "crack",
-      "denuvo",
-      "piracy"
-    ]
-  },
   {
     "title": "Game Industry Asks U.S. to Flag Denuvo Cracker ‘voices38’ as Notorious Piracy Threat",
     "link": "https://torrentfreak.com/mpa-takes-credit-for-shutting-down-piracy-giants-animeflv-and-cineby/",
@@ -26,24 +11,38 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
+      "piracy",
       "pirate",
       "denuvo",
-      "crack",
-      "piracy"
+      "crack"
     ]
   },
   {
-    "title": "Chinese Court Jails Aiyifan Operator, U.S. Judge Won’t Transfer Pirate Site’s Domains",
+    "title": "Top 10 Most Pirated Movies of The Week – 10/19/2026",
     "link": "https://torrentfreak.com/court-approves-voices38-subpoenas-after-denuvo-drops-payment-and-login-data-requests/",
     "description": "Denuvo can subpoena Discord, Valve and Reddit to identify the anonymous game cracker ‘voices38’. After a California federal judge raised privacy concerns, the DRM company dropped its demands for payment data, comments and other data, reducing 46 requests to nine. What remains are identity and contac",
-    "date": "Sun, 18 Oct 2026 10:41:19 +0000",
+    "date": "Sun, 18 Oct 2026 23:09:40 +0000",
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
       "pirate",
-      "drm",
+      "denuvo",
       "crack",
-      "denuvo"
+      "drm"
+    ]
+  },
+  {
+    "title": "AI-Built Torrent Site Looks Inside Downloads to Catch Fakes and Malware",
+    "link": "https://torrentfreak.com/game-industry-asks-u-s-to-flag-denuvo-cracker-voices38-as-notorious-piracy-threat/",
+    "description": "The Entertainment Software Association has asked the U.S. Government to label the Denuvo cracker ‘voices38’ as a notorious piracy market. The game industry group argues that the cracker is an essential source in the game piracy ecosystem, feeding repackers and torrent sites. A notorious market flag ",
+    "date": "Sun, 11 Oct 2026 20:00:53 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 12,
+    "matched_keywords": [
+      "piracy",
+      "denuvo",
+      "torrent",
+      "crack"
     ]
   },
   {
@@ -54,10 +53,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "rom",
       "pirate",
-      "crack",
       "denuvo",
-      "rom"
+      "crack"
     ]
   },
   {
@@ -68,24 +67,38 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
+      "piracy",
       "denuvo",
-      "crack",
-      "piracy"
+      "crack"
     ]
   },
   {
-    "title": "AI-Built Torrent Site Looks Inside Downloads to Catch Fakes and Malware",
+    "title": "Chinese Court Jails Aiyifan Operator, U.S. Judge Won’t Transfer Pirate Site’s Domains",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Spider-Man: Brand New Day' tops the chart, followed by 'The End of Oak Street.' 'Matchbox the Movie' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and mor",
-    "date": "Sun, 11 Oct 2026 20:00:53 +0000",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Spider-Man: Brand New Day' tops the chart, followed by 'Hope.' 'The End of Oak Street' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sun, 18 Oct 2026 10:41:19 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "piracy",
+      "rom",
       "pirate",
       "torrent",
+      "copyright"
+    ]
+  },
+  {
+    "title": "Court Approves ‘voices38’ Subpoenas After Denuvo Drops Payment and Login Data Requests",
+    "link": "https://torrentfreak.com/judge-orders-meta-to-name-employees-who-approved-torrenting-annas-archive-and-libgen/",
+    "description": "Meta will have to name the people who greenlit its torrenting of pirated books. A federal magistrate judge has ordered the company to identify everyone who approved sourcing books from LibGen and Anna’s Archive. This goes beyond the employees who ran the downloads and includes whoever decided whethe",
+    "date": "Mon, 19 Oct 2026 08:09:47 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 8,
+    "matched_keywords": [
       "rom",
-      "copyright",
-      "piracy"
+      "pirate",
+      "denuvo",
+      "torrent"
     ]
   },
   {
@@ -96,8 +109,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "piracy",
+      "pirate",
       "rom"
     ]
   },
@@ -109,8 +122,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "piracy",
+      "pirate",
       "rom"
     ]
   },
@@ -122,8 +135,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -134,33 +147,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Beyond Takedowns: Disrupting the Business of Counterfeiting",
-    "link": "https://ipwatchdog.com/2026/10/12/bad-patents-patent-trolls-pr-campaign-created-to-excuse-infringement/",
-    "description": "There's a curious double standard in the way we talk about intellectual property (IP) in America. When someone copies a copyrighted work without permission, we recognize that the creator has rights. Copyright infringement can even carry criminal penalties. When someone steals another person's proper",
-    "date": "Mon, 12 Oct 2026 18:41:11 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 5,
-    "matched_keywords": [
-      "takedown",
-      "copyright",
-      "intellectual property"
-    ]
-  },
-  {
-    "title": "Court Approves ‘voices38’ Subpoenas After Denuvo Drops Payment and Login Data Requests",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Mon, 19 Oct 2026 08:09:47 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "copyright",
-      "denuvo"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -171,8 +159,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -185,18 +173,6 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "pirate",
       "torrent"
-    ]
-  },
-  {
-    "title": "Two Alleged &#8216;TeamPCP&#8217; Hackers Arrested in Australia",
-    "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
-    "description": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning i",
-    "date": "Thu, 27 Aug 2026 11:04:15 +0000",
-    "source": "KrebsOnSecurity",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "rom",
-      "arrested"
     ]
   },
   {
@@ -255,20 +231,31 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Unified U.S. Site Blocking Bill Targets ISPs and DNS Resolvers But Spares VPNs",
-    "link": "https://torrentfreak.com/ifpi-wants-open-source-youtube-downloader-yt-dlp-on-eu-piracy-watch-list/",
-    "description": "Music industry group IFPI has asked the European Commission to add the popular open source YouTube download tool yt-dlp to its Counterfeit and Piracy Watch List. The submission names four of the project's developers by their GitHub handles and describes the software as a major problem for the music ",
-    "date": "Mon, 28 Sep 2026 07:49:44 +0000",
-    "source": "TorrentFreak",
+    "title": "Japan Actors Union announces guidelines addressing unauthorised use of generative AI to replicate voice performances",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Tue, 20 Oct 2026 10:42:26 +0000",
+    "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
-      "piracy"
+      "rom"
+    ]
+  },
+  {
+    "title": "GDC Festival of Gaming 2027 moves to four-day format to \"create a higher quality, more focused and valuable experience\"",
+    "link": "https://www.gamesindustry.biz/sensor-tower-data-shows-the-yawning-gap-between-gta-6-and-everything-else",
+    "description": "An analysis from Sensor Tower shows just how far ahead GTA 6 is in terms of preorders when compared with some of the biggest AAA games of the past six years. Read more",
+    "date": "Tue, 20 Oct 2026 08:37:14 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
     ]
   },
   {
     "title": "GDCA 2027 moves away from nominations-based system, publishers and devs can now submit games for consideration",
-    "link": "https://www.gamesindustry.biz/feed",
-    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "link": "https://www.gamesindustry.biz/wizards-of-the-coast-declines-to-voluntarily-recognize-dd-and-studio-x-union-drive",
+    "description": "Wizards of the Coast is refusing to grant voluntary recognition to a union drive by its Dungeons & Dragons and Studio X teams. Staff will instead vote on joining in a secret-ballot election overseen by the National Labor Relations Board. Read more",
     "date": "Mon, 19 Oct 2026 10:57:47 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -343,25 +330,37 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Epic Games claims its new \"vibe coded\" launcher runs 46% faster than Steam from cold start to store page",
-    "link": "https://www.gamesindustry.biz/house-house-will-not-release-big-walk-on-xbox-in-support-of-pro-palestinian-bds-campaign",
-    "description": "Melbourne-based developer House House will not release its co-op hit Big Walk on Xbox, citing support for the Palestinian-led  Boycott, Divestment, Sanctions (BDS) campaign. Read more",
-    "date": "Thu, 15 Oct 2026 09:35:29 +0000",
-    "source": "GamesIndustry",
+    "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+    "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+    "description": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSec",
+    "date": "Wed, 07 Oct 2026 13:48:45 +0000",
+    "source": "KrebsOnSecurity",
     "relevance_score": 3,
     "matched_keywords": [
-      "rom"
+      "arrested"
     ]
   },
   {
-    "title": "Ubisoft to reduce workforce across Düsseldorf, Berlin, and Mainz as part of \"proposed voluntary departure plan\"",
-    "link": "https://www.gamesindustry.biz/epic-games-claims-its-new-vibe-coded-launcher-runs-46-faster-than-steam-from-cold-start-to-store-page",
-    "description": "Epic Games has released a beta version of its new launcher, claiming it is 46% faster than Steam from cold start to the store page. Read more",
-    "date": "Thu, 15 Oct 2026 08:09:37 +0000",
-    "source": "GamesIndustry",
+    "title": "U.S. Soldier Gets 70 Months in Prison for AT&#038;T, Verizon Extortions",
+    "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
+    "description": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attac",
+    "date": "Fri, 25 Sep 2026 21:44:40 +0000",
+    "source": "KrebsOnSecurity",
     "relevance_score": 3,
     "matched_keywords": [
-      "rom"
+      "arrested"
+    ]
+  },
+  {
+    "title": "Judge Orders Meta to Name Employees Who Approved Torrenting Anna’s Archive and LibGen",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Tue, 20 Oct 2026 09:20:22 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 2,
+    "matched_keywords": [
+      "torrent",
+      "copyright"
     ]
   }
 ]
