@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-20 11:20 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-21 11:35 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-20T11:20:31.923012",
+  fetched_at: "2026-10-21T11:35:56.292954",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
-      "piracy",
-      "pirate",
+      "crack",
       "denuvo",
-      "crack"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -25,10 +25,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "pirate",
-      "denuvo",
       "crack",
-      "drm"
+      "denuvo",
+      "drm",
+      "pirate"
     ]
   },
   {
@@ -39,10 +39,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "piracy",
-      "denuvo",
+      "crack",
       "torrent",
-      "crack"
+      "denuvo",
+      "piracy"
     ]
   },
   {
@@ -53,10 +53,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "crack",
       "rom",
-      "pirate",
       "denuvo",
-      "crack"
+      "pirate"
     ]
   },
   {
@@ -67,9 +67,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "piracy",
+      "crack",
       "denuvo",
-      "crack"
+      "piracy"
     ]
   },
   {
@@ -80,11 +80,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
       "rom",
+      "copyright",
       "pirate",
-      "torrent",
-      "copyright"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -95,10 +95,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "rom",
-      "pirate",
       "denuvo",
-      "torrent"
+      "torrent",
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -109,9 +109,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
+      "rom",
       "pirate",
-      "rom"
+      "piracy"
     ]
   },
   {
@@ -122,9 +122,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
+      "rom",
       "pirate",
-      "rom"
+      "piracy"
     ]
   },
   {
@@ -135,8 +135,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -147,8 +147,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -171,8 +171,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -231,10 +231,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Japan Actors Union announces guidelines addressing unauthorised use of generative AI to replicate voice performances",
+    "title": "Games like Call of Duty and EA Sports FC most at risk of losing players during GTA 6 launch, according to new data",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 20 Oct 2026 10:42:26 +0000",
+    "date": "Wed, 21 Oct 2026 10:53:35 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"Players want to engage with brands, not just consume them\" – Mattel on its new Game Studios arm, why it's releasing on Roblox, and what it learnt from NetEase",
+    "link": "https://www.gamesindustry.biz/griffin-gaming-partners-and-entertainment-360-launch-new-company-to-support-video-game-adaptations-for-film-and-tv",
+    "description": "Griffin Gaming Partners has launched a new company to support game adaptations for film and television in partnership with talent management and production firm Entertainment 360. Read more",
+    "date": "Tue, 20 Oct 2026 12:30:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -297,39 +308,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Game Republic New Horizons 2026 attendance grew 78% to over 461 visitors",
-    "link": "https://www.gamesindustry.biz/the-netflix-series-drive-to-survive-inspired-star-wars-galactic-racer",
-    "description": "Matt Webster, the head of Star Wars: Galactic Racer developer Fuse Games, has said that the Netflix series Drive to Survive was an inspiration for the game right from the start. Read more",
-    "date": "Fri, 16 Oct 2026 10:10:06 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Fishlabs announces layoffs due to \"changing project requirements,\" development and support teams affected",
-    "link": "https://www.gamesindustry.biz/game-republic-new-horizons-2026-attendance-grew-76-to-over-461-visitors",
-    "description": "Attendance at Game Republic New Horizons 2026 rose by 78% year-over-year, from 259 to 461 visitors. Read more",
-    "date": "Fri, 16 Oct 2026 09:27:33 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "DayZ creator Dean Hall releases open-source game development framework Brutal",
-    "link": "https://www.gamesindustry.biz/sega-and-creative-assembly-remove-total-war-shogun-2-remaster-from-sale-as-it-falls-short-of-both-your-expectations-and-our-own-standards",
-    "description": "Sega and Creative Assembly have temporarily withdrawn Total War: Shogun 2 &ndash; Complete Edition from sale in response to concerns about AI upscaling and other performance issues. Read more",
-    "date": "Thu, 15 Oct 2026 14:31:28 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
     "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
     "description": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSec",
@@ -362,6 +340,24 @@ const ARIA_NEWS = {
       "torrent",
       "copyright"
     ]
+  },
+  {
+    "title": "Vivrato: 97% of studio leaders use AI in some form during development in EU and North America",
+    "link": "https://www.gamesindustry.biz/games-like-call-of-duty-and-ea-sports-fc-most-at-risk-of-losing-players-during-gta-6-launch-according-to-new-data",
+    "description": "New data shows that competitive shooters and sports games are most at risk of losing players to Grand Theft Auto 6 during its launch next month. Read more",
+    "date": "Wed, 21 Oct 2026 08:40:54 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Demystifying unions: What games leaders need to know",
+    "link": "https://www.gamesindustry.biz/vivrato-97-of-studio-leaders-use-ai-in-some-form-during-development-in-eu-and-north-america",
+    "description": "97% of studio leaders have used AI in some form during development, with 94% having used AI in at least one of the nine production stages. Read more",
+    "date": "Wed, 21 Oct 2026 08:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   }
 ]
 };
