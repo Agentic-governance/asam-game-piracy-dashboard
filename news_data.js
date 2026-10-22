@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-21 11:35 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-22 11:35 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-21T11:35:56.292954",
+  fetched_at: "2026-10-22T11:35:53.453054",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
+      "piracy",
       "crack",
       "denuvo",
-      "pirate",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -26,8 +26,8 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "crack",
-      "denuvo",
       "drm",
+      "denuvo",
       "pirate"
     ]
   },
@@ -39,10 +39,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "piracy",
       "crack",
       "torrent",
-      "denuvo",
-      "piracy"
+      "denuvo"
     ]
   },
   {
@@ -53,8 +53,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "crack",
       "rom",
+      "crack",
       "denuvo",
       "pirate"
     ]
@@ -67,9 +67,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
+      "piracy",
       "crack",
-      "denuvo",
-      "piracy"
+      "denuvo"
     ]
   },
   {
@@ -80,11 +80,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
       "copyright",
-      "pirate",
+      "rom",
+      "torrent",
       "piracy",
-      "torrent"
+      "pirate"
     ]
   },
   {
@@ -95,9 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "denuvo",
       "torrent",
       "rom",
+      "denuvo",
       "pirate"
     ]
   },
@@ -109,9 +109,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "piracy",
       "rom",
-      "pirate",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -122,9 +122,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "piracy",
       "rom",
-      "pirate",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -135,8 +135,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -147,8 +147,32 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
+    ]
+  },
+  {
+    "title": "‘VPNs at Risk’: Tech Coalition Pushes Back on Piracy Blocking Duties for VPNs",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Thu, 22 Oct 2026 06:35:05 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "piracy",
+      "copyright"
+    ]
+  },
+  {
+    "title": "Judge Orders Meta to Name Employees Who Approved Torrenting Anna’s Archive and LibGen",
+    "link": "https://torrentfreak.com/vpns-at-risk-tech-coalition-pushes-back-on-piracy-blocking-duties-for-vpns/",
+    "description": "A new report published by the Internet Infrastructure Coalition (i2Coalition) warns that poorly targeted VPN regulation can weaken the security infrastructure everyone depends on. The group, whose members include VPN providers, points to piracy blocking orders against VPNs in France, while U.S. lawm",
+    "date": "Tue, 20 Oct 2026 09:20:22 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -220,21 +244,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "IFPI Wants Open Source YouTube Downloader yt-dlp on EU Piracy Watch List",
-    "link": "https://torrentfreak.com/laliga-wants-major-vpns-on-eu-piracy-watch-list-over-affiliate-marketing/",
-    "description": "Months after a Spanish court refused to fine NordVPN over IP blocking, LaLiga is now raising its concerns with the European Commission. The football league has asked the EU to add four major VPN providers to its Piracy Watch List, arguing that third-party affiliate marketing guides on how to bypass ",
-    "date": "Tue, 29 Sep 2026 08:33:07 +0000",
-    "source": "TorrentFreak",
+    "title": "How Pantaloon is curating an \"evolving library of bold and bizarre games\" with its new subscription service",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Thu, 22 Oct 2026 11:00:00 +0000",
+    "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
-      "piracy"
+      "rom"
     ]
   },
   {
-    "title": "Games like Call of Duty and EA Sports FC most at risk of losing players during GTA 6 launch, according to new data",
-    "link": "https://www.gamesindustry.biz/feed",
-    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 21 Oct 2026 10:53:35 +0000",
+    "title": "Report explores how Roblox can maintain older players as it becomes most-played game by total hours in H1 2026",
+    "link": "https://www.gamesindustry.biz/how-pantaloon-is-curating-an-evolving-library-of-bold-and-bizarre-games-with-its-new-subscription-service",
+    "description": "Over recent years, more and more companies have moved away from the traditional publishing model and set their sights on indie curation. Read more",
+    "date": "Thu, 22 Oct 2026 11:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -275,39 +299,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Activision QA United-CWA union vote to authorise strike, claims publisher has \"failed to bargain in good faith over key issues\"",
-    "link": "https://www.gamesindustry.biz/gdca-2027-moves-away-from-nominations-based-system-publishers-and-devs-can-now-submit-games-for-consideration",
-    "description": "The 2027 Game Developers Choice Awards (GDCA) will be accepting submissions from publishers and developers for the first time. Read more",
-    "date": "Mon, 19 Oct 2026 10:13:55 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Gamescom Asia x Thailand Game Show 2026 announces four additional pavilions from Indonesia, Japan, Malaysia, and the US",
-    "link": "https://www.gamesindustry.biz/how-star-wars-galactic-racer-kept-the-core-team-small-and-sustainable-through-distributed-development",
-    "description": "Matt Webster, CEO of Fuse Games, is \"thrilled\" with the critical reception to Star Wars: Galactic Racer, which is currently sitting on a Metacritic score of 88 for the PS5 version. Speaking to GamesIndustry.biz at Game Republic New Horizons this week, he says it \"felt like we had something good\", bu",
-    "date": "Fri, 16 Oct 2026 12:44:48 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "The Netflix series Drive to Survive inspired Star Wars: Galactic Racer",
-    "link": "https://www.gamesindustry.biz/gamescom-asia-x-thailand-game-show-2026-announces-four-additional-pavilions-from-indonesia-japan-malaysia-and-the-us",
-    "description": "Gamescom Asia x Thailand Game Show 2026 has announced four additional pavilions, bringing its total to 20 from 12 markets across Asia, Europe, and North America. Read more",
-    "date": "Fri, 16 Oct 2026 12:26:23 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
     "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
     "description": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSec",
@@ -330,31 +321,37 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Judge Orders Meta to Name Employees Who Approved Torrenting Anna’s Archive and LibGen",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 20 Oct 2026 09:20:22 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 2,
-    "matched_keywords": [
-      "torrent",
-      "copyright"
-    ]
-  },
-  {
-    "title": "Vivrato: 97% of studio leaders use AI in some form during development in EU and North America",
-    "link": "https://www.gamesindustry.biz/games-like-call-of-duty-and-ea-sports-fc-most-at-risk-of-losing-players-during-gta-6-launch-according-to-new-data",
-    "description": "New data shows that competitive shooters and sports games are most at risk of losing players to Grand Theft Auto 6 during its launch next month. Read more",
-    "date": "Wed, 21 Oct 2026 08:40:54 +0000",
+    "title": "Xbox reveals pricing for cloud gaming limits, starting at $3.99 for 10 hours",
+    "link": "https://www.gamesindustry.biz/report-explores-how-roblox-can-maintain-older-players-as-it-becomes-most-played-game-by-total-hours-in-h1-2026",
+    "description": "Roblox generated 4.05 billion hours of playtime across PC and console in H1 2026, making it the most-played game by total hours. Read more",
+    "date": "Thu, 22 Oct 2026 09:14:16 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Demystifying unions: What games leaders need to know",
-    "link": "https://www.gamesindustry.biz/vivrato-97-of-studio-leaders-use-ai-in-some-form-during-development-in-eu-and-north-america",
-    "description": "97% of studio leaders have used AI in some form during development, with 94% having used AI in at least one of the nine production stages. Read more",
-    "date": "Wed, 21 Oct 2026 08:00:00 +0000",
+    "title": "Fortnite returns to iOS in Australia after court rules Apple violated competition law",
+    "link": "https://www.gamesindustry.biz/xbox-reveals-pricing-for-cloud-gaming-limits-starting-at-399-for-10-hours",
+    "description": "Xbox has revealed the  pricing for the cloud gaming limits on Game Pass,  announced last month. Read more",
+    "date": "Thu, 22 Oct 2026 08:08:08 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "AMD's FSR 4.1 upscaling is coming to Xbox Series X|S",
+    "link": "https://www.gamesindustry.biz/bioware-is-closing-after-30-years",
+    "description": "Mass Effect and Dragon Age developer BioWare is closing after more than 30 years, and early development on the next Mass Effect project is ending. Read more",
+    "date": "Wed, 21 Oct 2026 17:39:13 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "How to run an indie game studio: Part 4, Setting (and hitting) quarterly rocks",
+    "link": "https://www.gamesindustry.biz/amds-fsr-41-upscaling-is-coming-to-xbox-series-xs",
+    "description": "Microsoft and AMD have announced that AMD's FSR 4.1 upscaling technology is coming to Xbox Series X|S consoles. Read more",
+    "date": "Wed, 21 Oct 2026 14:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
