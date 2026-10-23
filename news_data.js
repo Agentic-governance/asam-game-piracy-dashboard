@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-22 11:35 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-23 11:25 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-22T11:35:53.453054",
+  fetched_at: "2026-10-23T11:25:16.462793",
   item_count: 30,
   items: [
   {
@@ -11,9 +11,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
+      "denuvo",
       "piracy",
       "crack",
-      "denuvo",
       "pirate"
     ]
   },
@@ -25,9 +25,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "crack",
-      "drm",
       "denuvo",
+      "drm",
+      "crack",
       "pirate"
     ]
   },
@@ -41,8 +41,8 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "piracy",
       "crack",
-      "torrent",
-      "denuvo"
+      "denuvo",
+      "torrent"
     ]
   },
   {
@@ -53,10 +53,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "rom",
-      "crack",
       "denuvo",
-      "pirate"
+      "crack",
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -80,11 +80,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
-      "rom",
       "torrent",
       "piracy",
-      "pirate"
+      "rom",
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -95,10 +95,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "torrent",
-      "rom",
       "denuvo",
-      "pirate"
+      "pirate",
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -110,20 +110,19 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
-    "title": "LaLiga Wants Major VPNs on EU Piracy Watch List Over Affiliate Marketing",
-    "link": "https://torrentfreak.com/alleged-kemo-iptv-operator-faces-criminal-prosecution-in-dubai-following-ace-complaint/",
-    "description": "An alleged operator of pirate IPTV services Kemo IPTV and Lemo TV faces criminal prosecution in Dubai, following a complaint from anti-piracy coalition ACE. The case surprisingly surfaced in a Florida federal court, where DISH Network's request for a $28.65 million default judgment against the same ",
-    "date": "Wed, 30 Sep 2026 09:20:17 +0000",
+    "title": "‘VPNs at Risk’: Tech Coalition Pushes Back on Piracy Blocking Duties for VPNs",
+    "link": "https://torrentfreak.com/dns-resolver-quad9-will-leave-france-after-court-orders-piracy-blocking-penalty/",
+    "description": "Quad9 is leaving France over pirate site blocking orders, which makes it the second DNS resolver to leave the country. Quad9 will stop serving French users on November 24, after a Paris court set a €1,000 daily penalty for not blocking pirate tennis streams. Faced with this order and roughly 20 othe",
+    "date": "Thu, 22 Oct 2026 06:35:05 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 7,
+    "relevance_score": 6,
     "matched_keywords": [
       "piracy",
-      "rom",
       "pirate"
     ]
   },
@@ -152,10 +151,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "‘VPNs at Risk’: Tech Coalition Pushes Back on Piracy Blocking Duties for VPNs",
+    "title": "DNS Resolver Quad9 Will Leave France After Court Orders Piracy Blocking Penalty",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Thu, 22 Oct 2026 06:35:05 +0000",
+    "date": "Thu, 22 Oct 2026 16:51:02 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
@@ -183,8 +182,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -195,8 +194,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -244,10 +243,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "How Pantaloon is curating an \"evolving library of bold and bizarre games\" with its new subscription service",
+    "title": "Capcom affected by data breach, over 11.7m Capcom ID accounts compromised",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 22 Oct 2026 11:00:00 +0000",
+    "date": "Fri, 23 Oct 2026 11:05:20 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -255,10 +254,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Report explores how Roblox can maintain older players as it becomes most-played game by total hours in H1 2026",
+    "title": "Xbox reveals pricing for cloud gaming limits, starting at $3.99 for 10 hours",
     "link": "https://www.gamesindustry.biz/how-pantaloon-is-curating-an-evolving-library-of-bold-and-bizarre-games-with-its-new-subscription-service",
     "description": "Over recent years, more and more companies have moved away from the traditional publishing model and set their sights on indie curation. Read more",
-    "date": "Thu, 22 Oct 2026 11:00:00 +0000",
+    "date": "Thu, 22 Oct 2026 09:14:16 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -270,28 +269,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/griffin-gaming-partners-and-entertainment-360-launch-new-company-to-support-video-game-adaptations-for-film-and-tv",
     "description": "Griffin Gaming Partners has launched a new company to support game adaptations for film and television in partnership with talent management and production firm Entertainment 360. Read more",
     "date": "Tue, 20 Oct 2026 12:30:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "GDC Festival of Gaming 2027 moves to four-day format to \"create a higher quality, more focused and valuable experience\"",
-    "link": "https://www.gamesindustry.biz/sensor-tower-data-shows-the-yawning-gap-between-gta-6-and-everything-else",
-    "description": "An analysis from Sensor Tower shows just how far ahead GTA 6 is in terms of preorders when compared with some of the biggest AAA games of the past six years. Read more",
-    "date": "Tue, 20 Oct 2026 08:37:14 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "GDCA 2027 moves away from nominations-based system, publishers and devs can now submit games for consideration",
-    "link": "https://www.gamesindustry.biz/wizards-of-the-coast-declines-to-voluntarily-recognize-dd-and-studio-x-union-drive",
-    "description": "Wizards of the Coast is refusing to grant voluntary recognition to a union drive by its Dungeons & Dragons and Studio X teams. Staff will instead vote on joining in a secret-ballot election overseen by the National Labor Relations Board. Read more",
-    "date": "Mon, 19 Oct 2026 10:57:47 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -321,10 +298,37 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Xbox reveals pricing for cloud gaming limits, starting at $3.99 for 10 hours",
+    "title": "Podcast: Landfall's Rebecca Lautner on Peak's 23 million sales and looking past friendslop",
+    "link": "https://www.gamesindustry.biz/call-of-duty-modern-warfare-4-critical-consensus",
+    "description": "Activision has a lot riding on Call of Duty: Modern Warfare 4. Last year's entry, Black Ops 7, was poorly received by critics and players, and third-party tracking data suggested  the game significantly underperformed compared to other entries in the series. Read more",
+    "date": "Fri, 23 Oct 2026 08:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"It was crushing how hard it was\" – The chaotic development of Dispatch, and what AdHoc Studio plans next",
+    "link": "https://www.gamesindustry.biz/podcast-landfalls-rebecca-lautner-on-peaks-23-million-sales-and-looking-past-friendslop",
+    "description": "A new episode of the still-somewhat-irregular GamesIndustry.biz podcast features a fireside chat with Rebecca Lautner, CBO at Landfall Games, recorded at Game Republic New Horizons. In conversation with features editor Lewis Packwood, Lautner says that even though Peak has now sold more than 23 mill",
+    "date": "Thu, 22 Oct 2026 16:15:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Report explores how Roblox can maintain older players as it becomes most-played game by total hours in H1 2026",
+    "link": "https://www.gamesindustry.biz/marvels-wolverine-leads-us-september-charts-achieves-highest-monthly-dollar-sales-for-a-sony-published-title-since-helldivers-2",
+    "description": "Marvel's Wolverine led US game sales in September, achieving the highest monthly dollar sales for a Sony-published title since Helldivers 2. Read more",
+    "date": "Thu, 22 Oct 2026 11:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "How Pantaloon is curating an \"evolving library of bold and bizarre games\" with its new subscription service",
     "link": "https://www.gamesindustry.biz/report-explores-how-roblox-can-maintain-older-players-as-it-becomes-most-played-game-by-total-hours-in-h1-2026",
     "description": "Roblox generated 4.05 billion hours of playtime across PC and console in H1 2026, making it the most-played game by total hours. Read more",
-    "date": "Thu, 22 Oct 2026 09:14:16 +0000",
+    "date": "Thu, 22 Oct 2026 11:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
@@ -343,15 +347,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/bioware-is-closing-after-30-years",
     "description": "Mass Effect and Dragon Age developer BioWare is closing after more than 30 years, and early development on the next Mass Effect project is ending. Read more",
     "date": "Wed, 21 Oct 2026 17:39:13 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "How to run an indie game studio: Part 4, Setting (and hitting) quarterly rocks",
-    "link": "https://www.gamesindustry.biz/amds-fsr-41-upscaling-is-coming-to-xbox-series-xs",
-    "description": "Microsoft and AMD have announced that AMD's FSR 4.1 upscaling technology is coming to Xbox Series X|S consoles. Read more",
-    "date": "Wed, 21 Oct 2026 14:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
