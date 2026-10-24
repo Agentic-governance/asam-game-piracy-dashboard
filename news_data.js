@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-23 11:25 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-24 10:44 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-23T11:25:16.462793",
+  fetched_at: "2026-10-24T10:44:20.570195",
   item_count: 30,
   items: [
   {
@@ -12,9 +12,9 @@ const ARIA_NEWS = {
     "relevance_score": 14,
     "matched_keywords": [
       "denuvo",
-      "piracy",
+      "pirate",
       "crack",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "denuvo",
+      "pirate",
       "drm",
-      "crack",
-      "pirate"
+      "crack"
     ]
   },
   {
@@ -39,10 +39,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "piracy",
-      "crack",
       "denuvo",
-      "torrent"
+      "torrent",
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -54,9 +54,9 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "denuvo",
-      "crack",
       "pirate",
-      "rom"
+      "rom",
+      "crack"
     ]
   },
   {
@@ -67,9 +67,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "piracy",
+      "denuvo",
       "crack",
-      "denuvo"
+      "piracy"
     ]
   },
   {
@@ -80,11 +80,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
-      "piracy",
-      "rom",
       "pirate",
-      "copyright"
+      "piracy",
+      "torrent",
+      "copyright",
+      "rom"
     ]
   },
   {
@@ -96,9 +96,9 @@ const ARIA_NEWS = {
     "relevance_score": 8,
     "matched_keywords": [
       "denuvo",
+      "rom",
       "pirate",
-      "torrent",
-      "rom"
+      "torrent"
     ]
   },
   {
@@ -109,9 +109,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "pirate",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -122,8 +122,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -134,8 +134,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -146,20 +146,33 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Other Barks &#038; Bites for Friday, October 23: EUIPO Announces Record Number of Counterfeits Seized in 2025; EPO Study Shows Growing Importance of Tech Transfer Offices; and Taction Seeks to Add Damages to $5.7 Billion Apple Infringement Verdict",
+    "link": "https://ipwatchdog.com/",
+    "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
+    "date": "Fri, 23 Oct 2026 18:15:05 +0000",
+    "source": "IPWatchdog",
+    "relevance_score": 5,
+    "matched_keywords": [
+      "seized",
+      "intellectual property",
+      "copyright"
     ]
   },
   {
     "title": "DNS Resolver Quad9 Will Leave France After Court Orders Piracy Blocking Penalty",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+    "description": "A fresh academic paper on Z-Library cites a TorrentFreak article that doesn’t exist, and several other sources in the paper are also unfindable. The authors disclose that they used AI tools, which may explain what is going on. The use of AI in an academic paper on shadow libraries is also somewhat i",
     "date": "Thu, 22 Oct 2026 16:51:02 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -170,8 +183,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -232,20 +245,31 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Alleged Kemo IPTV Operator Faces Criminal Prosecution in Dubai Following ACE Complaint",
-    "link": "https://torrentfreak.com/two-u-s-site-blocking-bills-compete-over-vpn-rules-and-isp-liability/",
-    "description": "The two competing pirate site-blocking bills that were introduced in Congress recently take different approaches. While Rep. Darrell Issa's ACPA targets VPNs and provides broad liability protections to Internet service providers, the bipartisan and bicameral DEFEND IP Act explicitly excludes VPNs, w",
-    "date": "Fri, 02 Oct 2026 06:04:15 +0000",
-    "source": "TorrentFreak",
+    "title": "BioWare's end is a tragically familiar tale | Opinion",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Fri, 23 Oct 2026 15:04:13 +0000",
+    "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
-      "pirate"
+      "rom"
+    ]
+  },
+  {
+    "title": "Nintendo veteran Shigeru Miyamoto to receive Japan's Order of Culture award",
+    "link": "https://www.gamesindustry.biz/gamemaker-to-make-its-next-generation-runtime-gmrt-free-for-commercial-use-in-january-2027",
+    "description": "2D-centric engine GameMaker is making its \"next-generation runtime\" GMRT free for commercial use from January 1, 2027. Read more",
+    "date": "Fri, 23 Oct 2026 13:06:01 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
     ]
   },
   {
     "title": "Capcom affected by data breach, over 11.7m Capcom ID accounts compromised",
-    "link": "https://www.gamesindustry.biz/feed",
-    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "link": "https://www.gamesindustry.biz/nintendo-veteran-shigeru-miyamoto-to-receive-japans-order-of-culture-award",
+    "description": "Nintendo's Shigeru Miyamoto will be the first game developer to receive Japan's Order of Culture award. Read more",
     "date": "Fri, 23 Oct 2026 11:05:20 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -258,17 +282,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/how-pantaloon-is-curating-an-evolving-library-of-bold-and-bizarre-games-with-its-new-subscription-service",
     "description": "Over recent years, more and more companies have moved away from the traditional publishing model and set their sights on indie curation. Read more",
     "date": "Thu, 22 Oct 2026 09:14:16 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "\"Players want to engage with brands, not just consume them\" – Mattel on its new Game Studios arm, why it's releasing on Roblox, and what it learnt from NetEase",
-    "link": "https://www.gamesindustry.biz/griffin-gaming-partners-and-entertainment-360-launch-new-company-to-support-video-game-adaptations-for-film-and-tv",
-    "description": "Griffin Gaming Partners has launched a new company to support game adaptations for film and television in partnership with talent management and production firm Entertainment 360. Read more",
-    "date": "Tue, 20 Oct 2026 12:30:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -298,6 +311,27 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn’t Exist",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Sat, 24 Oct 2026 07:55:15 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 2,
+    "matched_keywords": [
+      "torrent",
+      "copyright"
+    ]
+  },
+  {
+    "title": "GameMaker to make its \"next-generation runtime\" GMRT free for commercial use in January 2027",
+    "link": "https://www.gamesindustry.biz/biowares-end-is-a-tragically-familiar-tale-opinion",
+    "description": "After the past five years of seemingly endless closures, cancellations, and restructures, after the tens of thousands of layoffs that the industry has endured like a relentless drumbeat, you'd think that we'd all have grown some pretty thick skin. How much can one more bad news story really hurt? Re",
+    "date": "Fri, 23 Oct 2026 13:52:52 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Podcast: Landfall's Rebecca Lautner on Peak's 23 million sales and looking past friendslop",
     "link": "https://www.gamesindustry.biz/call-of-duty-modern-warfare-4-critical-consensus",
     "description": "Activision has a lot riding on Call of Duty: Modern Warfare 4. Last year's entry, Black Ops 7, was poorly received by critics and players, and third-party tracking data suggested  the game significantly underperformed compared to other entries in the series. Read more",
@@ -320,33 +354,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/marvels-wolverine-leads-us-september-charts-achieves-highest-monthly-dollar-sales-for-a-sony-published-title-since-helldivers-2",
     "description": "Marvel's Wolverine led US game sales in September, achieving the highest monthly dollar sales for a Sony-published title since Helldivers 2. Read more",
     "date": "Thu, 22 Oct 2026 11:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "How Pantaloon is curating an \"evolving library of bold and bizarre games\" with its new subscription service",
-    "link": "https://www.gamesindustry.biz/report-explores-how-roblox-can-maintain-older-players-as-it-becomes-most-played-game-by-total-hours-in-h1-2026",
-    "description": "Roblox generated 4.05 billion hours of playtime across PC and console in H1 2026, making it the most-played game by total hours. Read more",
-    "date": "Thu, 22 Oct 2026 11:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Fortnite returns to iOS in Australia after court rules Apple violated competition law",
-    "link": "https://www.gamesindustry.biz/xbox-reveals-pricing-for-cloud-gaming-limits-starting-at-399-for-10-hours",
-    "description": "Xbox has revealed the  pricing for the cloud gaming limits on Game Pass,  announced last month. Read more",
-    "date": "Thu, 22 Oct 2026 08:08:08 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "AMD's FSR 4.1 upscaling is coming to Xbox Series X|S",
-    "link": "https://www.gamesindustry.biz/bioware-is-closing-after-30-years",
-    "description": "Mass Effect and Dragon Age developer BioWare is closing after more than 30 years, and early development on the next Mass Effect project is ending. Read more",
-    "date": "Wed, 21 Oct 2026 17:39:13 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
