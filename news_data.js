@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-24 10:44 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-25 11:09 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-24T10:44:20.570195",
+  fetched_at: "2026-10-25T11:09:41.130613",
   item_count: 30,
   items: [
   {
@@ -11,9 +11,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
-      "denuvo",
       "pirate",
       "crack",
+      "denuvo",
       "piracy"
     ]
   },
@@ -25,10 +25,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "denuvo",
       "pirate",
-      "drm",
-      "crack"
+      "crack",
+      "denuvo",
+      "drm"
     ]
   },
   {
@@ -39,9 +39,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "crack",
       "denuvo",
       "torrent",
-      "crack",
       "piracy"
     ]
   },
@@ -53,10 +53,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "denuvo",
       "pirate",
-      "rom",
-      "crack"
+      "crack",
+      "denuvo",
+      "rom"
     ]
   },
   {
@@ -67,8 +67,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "denuvo",
       "crack",
+      "denuvo",
       "piracy"
     ]
   },
@@ -80,11 +80,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
-      "piracy",
-      "torrent",
+      "rom",
       "copyright",
-      "rom"
+      "pirate",
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -95,10 +95,23 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
+      "pirate",
       "denuvo",
       "rom",
-      "pirate",
       "torrent"
+    ]
+  },
+  {
+    "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn’t Exist",
+    "link": "https://torrentfreak.com/framing-the-news-anti-piracy-press-release-turned-a-2016-raid-into-a-2026-story/",
+    "description": "In August, City of London Police and anti-piracy group FACT announced a six and a half year prison sentence for a 68-year-old pirate IPTV operator. Without dates or a service name in the release, some outlets reported it as a recent bust. Records obtained by TorrentFreak show the operation was raide",
+    "date": "Sat, 24 Oct 2026 07:55:15 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "pirate",
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -158,9 +171,21 @@ const ARIA_NEWS = {
     "source": "IPWatchdog",
     "relevance_score": 5,
     "matched_keywords": [
-      "seized",
       "intellectual property",
+      "seized",
       "copyright"
+    ]
+  },
+  {
+    "title": "Framing the News: Anti-Piracy Press Release Turned a 2016 Raid Into a 2026 Story",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Sun, 25 Oct 2026 08:23:04 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -234,17 +259,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Two U.S. Site-Blocking Bills Compete Over VPN Rules and ISP Liability",
-    "link": "https://torrentfreak.com/dns-resolver-quad9-rejects-french-piracy-blocks-weighs-exit-as-bein-seeks-up-to-e580k-a-day/",
-    "description": "DNS resolver Quad9 is considering pulling out of France after broadcaster beIN Sports asked a Paris court to impose non-compliance penalties that could go up to €580,000 per day. The Swiss non-profit is not blocking the pirate tennis streams covered by a May site-blocking order, arguing that it can'",
-    "date": "Sat, 03 Oct 2026 19:11:40 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "pirate"
-    ]
-  },
-  {
     "title": "BioWare's end is a tragically familiar tale | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
@@ -308,18 +322,6 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "arrested"
-    ]
-  },
-  {
-    "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn’t Exist",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sat, 24 Oct 2026 07:55:15 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 2,
-    "matched_keywords": [
-      "torrent",
-      "copyright"
     ]
   },
   {
