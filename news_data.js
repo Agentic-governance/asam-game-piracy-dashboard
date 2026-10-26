@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-25 11:09 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-26 12:43 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-25T11:09:41.130613",
+  fetched_at: "2026-10-26T12:43:33.690483",
   item_count: 30,
   items: [
   {
@@ -11,24 +11,24 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
-      "pirate",
       "crack",
       "denuvo",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 10/19/2026",
+    "title": "Chinese Court Jails Aiyifan Operator, U.S. Judge Won’t Transfer Pirate Site’s Domains",
     "link": "https://torrentfreak.com/court-approves-voices38-subpoenas-after-denuvo-drops-payment-and-login-data-requests/",
     "description": "Denuvo can subpoena Discord, Valve and Reddit to identify the anonymous game cracker ‘voices38’. After a California federal judge raised privacy concerns, the DRM company dropped its demands for payment data, comments and other data, reducing 46 requests to nine. What remains are identity and contac",
-    "date": "Sun, 18 Oct 2026 23:09:40 +0000",
+    "date": "Sun, 18 Oct 2026 10:41:19 +0000",
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "pirate",
-      "crack",
+      "drm",
       "denuvo",
-      "drm"
+      "pirate",
+      "crack"
     ]
   },
   {
@@ -39,10 +39,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "crack",
       "denuvo",
+      "piracy",
       "torrent",
-      "piracy"
+      "crack"
     ]
   },
   {
@@ -53,37 +53,24 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "denuvo",
       "pirate",
-      "crack",
-      "denuvo",
-      "rom"
+      "rom",
+      "crack"
     ]
   },
   {
-    "title": "DNS Resolver Quad9 Rejects French Piracy Blocks, Weighs Exit as beIN Seeks Up to €580K a Day",
-    "link": "https://torrentfreak.com/denuvo-asks-court-to-unmask-game-cracker-voices38-reveals-crypto-transactions/",
-    "description": "Denuvo has asked a California federal court for permission to subpoena Discord, Valve and Reddit, hoping to unmask the anonymous game cracker 'voices38.' The anti-piracy company wants account details, IP addresses and Steam transaction histories tied to a Discord ID, a Reddit account and seven Steam",
-    "date": "Mon, 05 Oct 2026 06:40:07 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 11,
-    "matched_keywords": [
-      "crack",
-      "denuvo",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Chinese Court Jails Aiyifan Operator, U.S. Judge Won’t Transfer Pirate Site’s Domains",
+    "title": "Framing the News: Anti-Piracy Press Release Turned a 2016 Raid Into a 2026 Story",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Spider-Man: Brand New Day' tops the chart, followed by 'Hope.' 'The End of Oak Street' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sun, 18 Oct 2026 10:41:19 +0000",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Spider-Man: Brand New Day' tops the chart, followed by 'Hope.' 'Project Hail Mary' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sun, 25 Oct 2026 08:23:04 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
       "rom",
-      "copyright",
-      "pirate",
       "torrent",
+      "pirate",
+      "copyright",
       "piracy"
     ]
   },
@@ -95,10 +82,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
       "denuvo",
-      "rom",
-      "torrent"
+      "pirate",
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -109,9 +96,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "piracy",
       "torrent",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -122,9 +109,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "rom",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -135,8 +122,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -147,8 +134,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -159,33 +146,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
-    "title": "Other Barks &#038; Bites for Friday, October 23: EUIPO Announces Record Number of Counterfeits Seized in 2025; EPO Study Shows Growing Importance of Tech Transfer Offices; and Taction Seeks to Add Damages to $5.7 Billion Apple Infringement Verdict",
-    "link": "https://ipwatchdog.com/",
-    "description": "Trusted on intellectual property law. News and commentary on patents, innovation policy, trade secrets, copyrights and trademarks.",
-    "date": "Fri, 23 Oct 2026 18:15:05 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 5,
-    "matched_keywords": [
-      "intellectual property",
-      "seized",
-      "copyright"
-    ]
-  },
-  {
-    "title": "Framing the News: Anti-Piracy Press Release Turned a 2016 Raid Into a 2026 Story",
+    "title": "Meta Pitches AI Sports Piracy Detector in Notorious Markets Rebuttal",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sun, 25 Oct 2026 08:23:04 +0000",
+    "date": "Mon, 26 Oct 2026 08:06:09 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -196,8 +170,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -208,8 +182,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -220,8 +194,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -234,6 +208,29 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "pirate",
       "torrent"
+    ]
+  },
+  {
+    "title": "Other Barks &#038; Bites for Friday, October 23: EUIPO Announces Record Number of Counterfeits Seized in 2025; EPO Study Shows Growing Importance of Tech Transfer Offices; and Taction Seeks to Add Damages to $5.7 Billion Apple Infringement Verdict",
+    "link": "https://ipwatchdog.com/2026/10/25/winning-combination-recent-decisions-signal-strengthened-protectability-of-compilation-and-combination-trade-secrets/",
+    "description": "For companies in many industries, their most valuable trade secrets reside not in a single formula or document, but in years of accumulated data, coordinated processes, and combinations of technical and commercial information from various internal sources. Engineering know-how (including negative kn",
+    "date": "Fri, 23 Oct 2026 18:15:05 +0000",
+    "source": "IPWatchdog",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "rom",
+      "seized"
+    ]
+  },
+  {
+    "title": "Top 10 Most Pirated Movies of The Week – 10/26/2026",
+    "link": "https://torrentfreak.com/meta-pitches-ai-sports-piracy-detector-in-notorious-markets-rebuttal/",
+    "description": "Meta informed the U.S. Trade Representative that it built an AI tool to predict whether a live stream is a pirated sports broadcast. The tool is featured in Meta’s rebuttal to this year’s “notorious markets” submissions, which also lists restrictions on Facebook Live. Cloud storage platform Mega, me",
+    "date": "Sun, 25 Oct 2026 23:09:40 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "pirate"
     ]
   },
   {
@@ -259,9 +256,20 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "BioWare's end is a tragically familiar tale | Opinion",
+    "title": "Microsoft extends consultation period for Arkane Lyon as it continues development on Marvel's Blade",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Mon, 26 Oct 2026 10:52:14 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "BioWare's end is a tragically familiar tale | Opinion",
+    "link": "https://www.gamesindustry.biz/shogun-2-complete-edition-was-not-a-creative-assembly-developed-game-says-total-war-vp-after-it-was-pulled-amid-generative-ai-concerns",
+    "description": "Creative Assembly has issued a statement regarding the use of generative AI in Total War: Shogun 2 &ndash; Complete Edition, which led to the game's removal  from sale last week. Read more",
     "date": "Fri, 23 Oct 2026 15:04:13 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -325,6 +333,15 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Shogun 2 – Complete Edition was \"not a Creative Assembly developed game,\" says Total War VP after it was pulled amid generative AI concerns",
+    "link": "https://www.gamesindustry.biz/microsoft-extends-consultation-period-for-arkane-lyon-as-it-continues-development-on-marvels-blade",
+    "description": "Microsoft has extended the consultation period by one month to seek a new buyer for Arkane Lyon, while development on Marvel's Blade continues. Read more",
+    "date": "Mon, 26 Oct 2026 08:40:16 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "GameMaker to make its \"next-generation runtime\" GMRT free for commercial use in January 2027",
     "link": "https://www.gamesindustry.biz/biowares-end-is-a-tragically-familiar-tale-opinion",
     "description": "After the past five years of seemingly endless closures, cancellations, and restructures, after the tens of thousands of layoffs that the industry has endured like a relentless drumbeat, you'd think that we'd all have grown some pretty thick skin. How much can one more bad news story really hurt? Re",
@@ -338,24 +355,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/call-of-duty-modern-warfare-4-critical-consensus",
     "description": "Activision has a lot riding on Call of Duty: Modern Warfare 4. Last year's entry, Black Ops 7, was poorly received by critics and players, and third-party tracking data suggested  the game significantly underperformed compared to other entries in the series. Read more",
     "date": "Fri, 23 Oct 2026 08:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"It was crushing how hard it was\" – The chaotic development of Dispatch, and what AdHoc Studio plans next",
-    "link": "https://www.gamesindustry.biz/podcast-landfalls-rebecca-lautner-on-peaks-23-million-sales-and-looking-past-friendslop",
-    "description": "A new episode of the still-somewhat-irregular GamesIndustry.biz podcast features a fireside chat with Rebecca Lautner, CBO at Landfall Games, recorded at Game Republic New Horizons. In conversation with features editor Lewis Packwood, Lautner says that even though Peak has now sold more than 23 mill",
-    "date": "Thu, 22 Oct 2026 16:15:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Report explores how Roblox can maintain older players as it becomes most-played game by total hours in H1 2026",
-    "link": "https://www.gamesindustry.biz/marvels-wolverine-leads-us-september-charts-achieves-highest-monthly-dollar-sales-for-a-sony-published-title-since-helldivers-2",
-    "description": "Marvel's Wolverine led US game sales in September, achieving the highest monthly dollar sales for a Sony-published title since Helldivers 2. Read more",
-    "date": "Thu, 22 Oct 2026 11:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
