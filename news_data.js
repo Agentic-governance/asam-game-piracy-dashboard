@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-26 12:43 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-27 11:58 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-26T12:43:33.690483",
+  fetched_at: "2026-10-27T11:58:11.728167",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
-      "crack",
-      "denuvo",
       "piracy",
-      "pirate"
+      "pirate",
+      "crack",
+      "denuvo"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "drm",
-      "denuvo",
       "pirate",
-      "crack"
+      "crack",
+      "denuvo"
     ]
   },
   {
@@ -39,24 +39,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "denuvo",
-      "piracy",
       "torrent",
-      "crack"
-    ]
-  },
-  {
-    "title": "Denuvo Asks Court to Unmask Game Cracker &#8216;voices38&#8217;, Reveals Crypto Transactions",
-    "link": "https://torrentfreak.com/pirate-app-moviebox-passes-300-million-downloads-as-rightsholders-alert-eu/",
-    "description": "Pirate streaming app MovieBox has been downloaded more than 300 million times from Palm Store, the app store that's preinstalled on Tecno, Infinix and itel phones. This is a thorn in the side of rightsholders, which have flagged the app to the European Commission. French pay-TV group Canal+ goes a s",
-    "date": "Tue, 06 Oct 2026 09:07:05 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 12,
-    "matched_keywords": [
-      "denuvo",
-      "pirate",
-      "rom",
-      "crack"
+      "piracy",
+      "crack",
+      "denuvo"
     ]
   },
   {
@@ -67,11 +53,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
-      "torrent",
       "pirate",
       "copyright",
-      "piracy"
+      "torrent",
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -82,10 +68,23 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "denuvo",
-      "pirate",
       "torrent",
-      "rom"
+      "rom",
+      "pirate",
+      "denuvo"
+    ]
+  },
+  {
+    "title": "Judge Allows Google, Yahoo and Microsoft Subpoenas to Identify Gay-Torrents Users",
+    "link": "https://torrentfreak.com/streamed-the-live-sports-engine-behind-many-pirate-sites-shuts-down/",
+    "description": "Live sports piracy service Streamed, which offered streams to many pirate sites, has surprisingly shut down. Its operators posted a brief farewell message without further detail, pointing visitors to five alternative sites. Earlier this month, the MPA marked the service as a growing threat in its su",
+    "date": "Tue, 27 Oct 2026 07:18:00 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "torrent",
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -96,8 +95,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "torrent",
+      "piracy",
       "pirate"
     ]
   },
@@ -152,14 +151,27 @@ const ARIA_NEWS = {
   },
   {
     "title": "Meta Pitches AI Sports Piracy Detector in Notorious Markets Rebuttal",
+    "link": "https://torrentfreak.com/judge-allows-google-yahoo-and-microsoft-subpoenas-to-identify-gay-torrents-users/",
+    "description": "FlavaWorks can subpoena Google, Yahoo, Microsoft and three other companies to identify staff and members of the defunct BitTorrent site Gay-Torrents.org, an Illinois federal court ruled. Instead of starting from IP addresses, the subpoenas target the email accounts that are linked to their tracker p",
+    "date": "Mon, 26 Oct 2026 08:06:09 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 5,
+    "matched_keywords": [
+      "torrent",
+      "rom",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Streamed, the Live Sports Engine Behind Many Pirate Sites, Shuts Down",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Mon, 26 Oct 2026 08:06:09 +0000",
+    "date": "Tue, 27 Oct 2026 11:34:42 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -170,8 +182,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -182,8 +194,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -206,8 +218,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -245,21 +257,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Pirate App MovieBox Passes 300 Million Downloads as Rightsholders Alert EU",
-    "link": "https://torrentfreak.com/cloudflare-keeps-1-1-1-1-out-of-piracy-blocking-escapes-penalties-in-france/",
-    "description": "Cloudflare doesn't block pirate sports streaming sites through its 1.1.1.1 DNS resolver in France, only through its CDN. The Paris Judicial Court has now accepted that stance, rejecting Canal+'s request for penalties of €50,000 per site, per day. Interestingly, the court's conclusion relies on stati",
-    "date": "Wed, 07 Oct 2026 11:47:48 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "pirate"
-    ]
-  },
-  {
-    "title": "Microsoft extends consultation period for Arkane Lyon as it continues development on Marvel's Blade",
+    "title": "TiMi Studio Group's Pokémon Unite to shut down on March 23, 2027",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 26 Oct 2026 10:52:14 +0000",
+    "date": "Tue, 27 Oct 2026 11:43:41 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -300,17 +301,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Xbox reveals pricing for cloud gaming limits, starting at $3.99 for 10 hours",
-    "link": "https://www.gamesindustry.biz/how-pantaloon-is-curating-an-evolving-library-of-bold-and-bizarre-games-with-its-new-subscription-service",
-    "description": "Over recent years, more and more companies have moved away from the traditional publishing model and set their sights on indie curation. Read more",
-    "date": "Thu, 22 Oct 2026 09:14:16 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
     "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
     "description": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSec",
@@ -333,28 +323,37 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Shogun 2 – Complete Edition was \"not a Creative Assembly developed game,\" says Total War VP after it was pulled amid generative AI concerns",
-    "link": "https://www.gamesindustry.biz/microsoft-extends-consultation-period-for-arkane-lyon-as-it-continues-development-on-marvels-blade",
-    "description": "Microsoft has extended the consultation period by one month to seek a new buyer for Arkane Lyon, while development on Marvel's Blade continues. Read more",
-    "date": "Mon, 26 Oct 2026 08:40:16 +0000",
+    "title": "Xbox staff among up to 60,000 Microsoft employees offered voluntary exit",
+    "link": "https://www.gamesindustry.biz/sucker-punch-productions-reportedly-lays-off-24-employees-following-launch-of-ghost-of-yotei-complete-edition",
+    "description": "Ghost of Y&omacr;tei developer Sucker Punch Productions has reportedly been hit with layoffs, affecting 24 employees. Read more",
+    "date": "Mon, 26 Oct 2026 21:34:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "GameMaker to make its \"next-generation runtime\" GMRT free for commercial use in January 2027",
-    "link": "https://www.gamesindustry.biz/biowares-end-is-a-tragically-familiar-tale-opinion",
-    "description": "After the past five years of seemingly endless closures, cancellations, and restructures, after the tens of thousands of layoffs that the industry has endured like a relentless drumbeat, you'd think that we'd all have grown some pretty thick skin. How much can one more bad news story really hurt? Re",
-    "date": "Fri, 23 Oct 2026 13:52:52 +0000",
+    "title": "Epic Games CEO calls Steam's AI disclosure policies \"a political act\"",
+    "link": "https://www.gamesindustry.biz/xbox-staff-among-up-to-60000-microsoft-employees-offered-voluntary-exit",
+    "description": "Microsoft is offering voluntary exit to employees. Read more",
+    "date": "Mon, 26 Oct 2026 19:54:19 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Podcast: Landfall's Rebecca Lautner on Peak's 23 million sales and looking past friendslop",
-    "link": "https://www.gamesindustry.biz/call-of-duty-modern-warfare-4-critical-consensus",
-    "description": "Activision has a lot riding on Call of Duty: Modern Warfare 4. Last year's entry, Black Ops 7, was poorly received by critics and players, and third-party tracking data suggested  the game significantly underperformed compared to other entries in the series. Read more",
-    "date": "Fri, 23 Oct 2026 08:00:00 +0000",
+    "title": "Auroch Digital lays off a quarter of its staff",
+    "link": "https://www.gamesindustry.biz/epic-games-ceo-calls-steams-ai-disclosure-policies-a-political-act",
+    "description": "CEO of Epic Games, Tim Sweeney, has once again slammed Steam's AI disclosure policy, calling the company's position on AI disclosure \"a political act\". Read more",
+    "date": "Mon, 26 Oct 2026 18:20:01 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Paris Games Biz showcased a guarded optimism in the face of turmoil, both locally and in the industry at large | Opinion",
+    "link": "https://www.gamesindustry.biz/223000-people-sign-petition-to-save-mass-effect",
+    "description": "Over 223,000 people have signed a petition asking EA to \"save Mass Effect.\" Read more",
+    "date": "Mon, 26 Oct 2026 16:33:59 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
