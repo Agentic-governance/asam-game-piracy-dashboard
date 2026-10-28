@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-27 11:58 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-28 12:36 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-27T11:58:11.728167",
+  fetched_at: "2026-10-28T12:36:09.922093",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
-      "piracy",
+      "denuvo",
       "pirate",
       "crack",
-      "denuvo"
+      "piracy"
     ]
   },
   {
@@ -25,10 +25,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "denuvo",
       "drm",
       "pirate",
-      "crack",
-      "denuvo"
+      "crack"
     ]
   },
   {
@@ -40,9 +40,9 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "torrent",
-      "piracy",
+      "denuvo",
       "crack",
-      "denuvo"
+      "piracy"
     ]
   },
   {
@@ -53,11 +53,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
+      "rom",
       "copyright",
       "torrent",
-      "piracy",
-      "rom"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -68,10 +68,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "torrent",
       "rom",
-      "pirate",
-      "denuvo"
+      "torrent",
+      "denuvo",
+      "pirate"
     ]
   },
   {
@@ -83,8 +83,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "torrent",
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -96,8 +96,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "torrent",
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -109,8 +109,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "rom",
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -121,8 +121,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -133,20 +133,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
-    "title": "Cloudflare Keeps 1.1.1.1 Out of Piracy Blocking, Escapes Penalties in France",
-    "link": "https://torrentfreak.com/pirate-streaming-portal-series-ly-has-domain-suspended-rebrand/",
-    "description": "The .ly domain of Spanish pirate streaming portal Series.ly was suspended by its Libyan registrar this week, more than a week after a Madrid court approved a broad anti-piracy order against the site. Soon after the domain was lost the Telegram and Discord were rebranded to Cinubo. The Spanish order ",
-    "date": "Thu, 08 Oct 2026 16:43:41 +0000",
+    "title": "Streamed, the Live Sports Engine Behind Many Pirate Sites, Shuts Down",
+    "link": "https://torrentfreak.com/accused-impostor-in-private-tracker-lawsuit-faces-contempt-for-withholding-passport/",
+    "description": "The alleged impostor behind a lawsuit against several private torrent trackers now faces a request to hold him in civil contempt. According to the defense, he missed a deadline to hand over his passport, driver’s license, and Copyright Office paperwork. Meanwhile, the defense’s proposed discovery ha",
+    "date": "Tue, 27 Oct 2026 11:34:42 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 6,
+    "relevance_score": 5,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "torrent",
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -160,18 +161,6 @@ const ARIA_NEWS = {
       "torrent",
       "rom",
       "piracy"
-    ]
-  },
-  {
-    "title": "Streamed, the Live Sports Engine Behind Many Pirate Sites, Shuts Down",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 27 Oct 2026 11:34:42 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "copyright",
-      "pirate"
     ]
   },
   {
@@ -230,8 +219,8 @@ const ARIA_NEWS = {
     "source": "IPWatchdog",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "seized"
+      "seized",
+      "rom"
     ]
   },
   {
@@ -257,10 +246,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "TiMi Studio Group's Pokémon Unite to shut down on March 23, 2027",
+    "title": "Wardogs leads Newzoo's September PC revenue charts",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 27 Oct 2026 11:43:41 +0000",
+    "date": "Wed, 28 Oct 2026 11:54:35 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Warhorse Studios hit by cyberattack, company systems and data affected",
+    "link": "https://www.gamesindustry.biz/gamescom-asia-touts-new-records-for-international-attendance-and-showfloor-size",
+    "description": "No event has come back more strongly from its pandemic-enforced hiatus than Gamescom. The German event posted record attendance this year, driven in part by business attendance boosted by the demise of E3; its two-year-old South American spinoff Gamescom LatAm claimed an audience of 175,000, up 17% ",
+    "date": "Tue, 27 Oct 2026 14:20:32 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "UKIE calls on government to modernise Video Games Expenditure Credit ahead of Autumn Budget",
+    "link": "https://www.gamesindustry.biz/developers-need-to-treat-early-access-like-a-real-launch-because-players-do-early-access-games-are-on-the-rise-but-so-are-player-expectations",
+    "description": "The number of games released through Steam's Early Access program has risen significantly in recent years. According to SteamDB, 2,924 Early Access games launched on Valve's platform in 2026 (as of mid-October), an 18% increase from 2025 and a 60% increase from 2020. Read more",
+    "date": "Tue, 27 Oct 2026 12:00:59 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -272,28 +283,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/shogun-2-complete-edition-was-not-a-creative-assembly-developed-game-says-total-war-vp-after-it-was-pulled-amid-generative-ai-concerns",
     "description": "Creative Assembly has issued a statement regarding the use of generative AI in Total War: Shogun 2 &ndash; Complete Edition, which led to the game's removal  from sale last week. Read more",
     "date": "Fri, 23 Oct 2026 15:04:13 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Nintendo veteran Shigeru Miyamoto to receive Japan's Order of Culture award",
-    "link": "https://www.gamesindustry.biz/gamemaker-to-make-its-next-generation-runtime-gmrt-free-for-commercial-use-in-january-2027",
-    "description": "2D-centric engine GameMaker is making its \"next-generation runtime\" GMRT free for commercial use from January 1, 2027. Read more",
-    "date": "Fri, 23 Oct 2026 13:06:01 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Capcom affected by data breach, over 11.7m Capcom ID accounts compromised",
-    "link": "https://www.gamesindustry.biz/nintendo-veteran-shigeru-miyamoto-to-receive-japans-order-of-culture-award",
-    "description": "Nintendo's Shigeru Miyamoto will be the first game developer to receive Japan's Order of Culture award. Read more",
-    "date": "Fri, 23 Oct 2026 11:05:20 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -323,37 +312,46 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Xbox staff among up to 60,000 Microsoft employees offered voluntary exit",
-    "link": "https://www.gamesindustry.biz/sucker-punch-productions-reportedly-lays-off-24-employees-following-launch-of-ghost-of-yotei-complete-edition",
-    "description": "Ghost of Y&omacr;tei developer Sucker Punch Productions has reportedly been hit with layoffs, affecting 24 employees. Read more",
-    "date": "Mon, 26 Oct 2026 21:34:00 +0000",
+    "title": "First Xbox COO Helen Chiang leaves company after three months in the role",
+    "link": "https://www.gamesindustry.biz/wardogs-leads-newzoos-september-pc-revenue-charts",
+    "description": "Bulkhead's Wardogs topped Newzoo's September PC revenue charts, surpassing EA Sports FC 27. Read more",
+    "date": "Wed, 28 Oct 2026 10:15:53 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Epic Games CEO calls Steam's AI disclosure policies \"a political act\"",
-    "link": "https://www.gamesindustry.biz/xbox-staff-among-up-to-60000-microsoft-employees-offered-voluntary-exit",
-    "description": "Microsoft is offering voluntary exit to employees. Read more",
-    "date": "Mon, 26 Oct 2026 19:54:19 +0000",
+    "title": "Interior Night studio head Charu Desodt appointed chair of BAFTA Games Committee",
+    "link": "https://www.gamesindustry.biz/first-xbox-coo-helen-chiang-leaves-company-after-three-months-in-the-role",
+    "description": "Xbox's first COO Helen Chiang has left the company after only three months in the role. Read more",
+    "date": "Wed, 28 Oct 2026 09:28:56 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Auroch Digital lays off a quarter of its staff",
-    "link": "https://www.gamesindustry.biz/epic-games-ceo-calls-steams-ai-disclosure-policies-a-political-act",
-    "description": "CEO of Epic Games, Tim Sweeney, has once again slammed Steam's AI disclosure policy, calling the company's position on AI disclosure \"a political act\". Read more",
-    "date": "Mon, 26 Oct 2026 18:20:01 +0000",
+    "title": "Gamescom Asia touts new records for international attendance and showfloor size",
+    "link": "https://www.gamesindustry.biz/interior-night-studio-head-charu-desodt-appointed-chair-of-bafta-games-committee",
+    "description": "Interior Night studio head Charu Desodt has been appointed chair of the BAFTA Games Committee. Read more",
+    "date": "Wed, 28 Oct 2026 08:16:13 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Paris Games Biz showcased a guarded optimism in the face of turmoil, both locally and in the industry at large | Opinion",
-    "link": "https://www.gamesindustry.biz/223000-people-sign-petition-to-save-mass-effect",
-    "description": "Over 223,000 people have signed a petition asking EA to \"save Mass Effect.\" Read more",
-    "date": "Mon, 26 Oct 2026 16:33:59 +0000",
+    "title": "\"Developers need to treat Early Access like a real launch, because players do\" – Early Access games are on the rise, but so are player expectations",
+    "link": "https://www.gamesindustry.biz/warhorse-studios-hit-by-cyberattack-company-systems-and-data-affected",
+    "description": "Warhorse Studios has experienced a cyberattack resulting in unauthorised access to both company systems and data. Read more",
+    "date": "Tue, 27 Oct 2026 13:30:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "TiMi Studio Group's Pokémon Unite to shut down on March 23, 2027",
+    "link": "https://www.gamesindustry.biz/ukie-calls-on-government-to-modernise-video-games-expenditure-credit-ahead-of-autumn-budget",
+    "description": "Ahead of this week's Autumn Budget, UKIE is urging the UK government to modernise the Video Games Expenditure Credit (VGEC). Read more",
+    "date": "Tue, 27 Oct 2026 11:43:41 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
