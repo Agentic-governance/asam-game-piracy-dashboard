@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-28 12:36 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-29 12:46 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-28T12:36:09.922093",
+  fetched_at: "2026-10-29T12:46:28.346141",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
-      "denuvo",
+      "piracy",
       "pirate",
-      "crack",
-      "piracy"
+      "denuvo",
+      "crack"
     ]
   },
   {
@@ -25,9 +25,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "denuvo",
       "drm",
       "pirate",
+      "denuvo",
       "crack"
     ]
   },
@@ -39,10 +39,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "torrent",
-      "denuvo",
+      "piracy",
       "crack",
-      "piracy"
+      "torrent",
+      "denuvo"
     ]
   },
   {
@@ -53,11 +53,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
+      "piracy",
       "copyright",
-      "torrent",
       "pirate",
-      "piracy"
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -69,9 +69,9 @@ const ARIA_NEWS = {
     "relevance_score": 8,
     "matched_keywords": [
       "rom",
+      "pirate",
       "torrent",
-      "denuvo",
-      "pirate"
+      "denuvo"
     ]
   },
   {
@@ -82,9 +82,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
+      "piracy",
       "pirate",
-      "piracy"
+      "torrent"
     ]
   },
   {
@@ -95,9 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
+      "piracy",
       "pirate",
-      "piracy"
+      "torrent"
     ]
   },
   {
@@ -108,9 +108,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
+      "piracy",
       "pirate",
-      "piracy"
+      "rom"
+    ]
+  },
+  {
+    "title": "Accused Impostor in Private Tracker Lawsuit Faces Contempt for Withholding Passport",
+    "link": "https://torrentfreak.com/chile-blocks-1954-pirate-tv-urls-to-protect-citizens-privacy-and-personal-data/",
+    "description": "Chile's telecoms regulator Subtel reports that local ISPs blocked 1,954 pirate streaming URLs between June and October. The blocks are part of a court order obtained by Warner Bros., but Subtel presents them as a data protection measure. Meanwhile, the piracy problem persists as several of the targe",
+    "date": "Wed, 28 Oct 2026 08:07:36 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -121,8 +133,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -133,8 +145,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -145,9 +157,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
+      "copyright",
       "pirate",
-      "copyright"
+      "torrent"
     ]
   },
   {
@@ -158,9 +170,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
+      "piracy",
       "torrent",
-      "rom",
-      "piracy"
+      "rom"
+    ]
+  },
+  {
+    "title": "Chile Blocks 1,954 Pirate TV URLs to Protect Citizens&#8217; &#8216;Privacy and Personal Data&#8217;",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Thu, 29 Oct 2026 07:25:28 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -171,8 +195,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -183,8 +207,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -195,20 +219,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Pirate Streaming Portal Series.ly Has Domain Suspended, Rebrand Surfaces (Updated)",
-    "link": "https://torrentfreak.com/ai-built-torrent-site-looks-inside-downloads-to-catch-fakes-and-malware/",
-    "description": "In recent years, AI has made it much easier to create new websites and tools. That also applies to pirate sites, including TorrentClaw, a torrent search engine that’s largely built with AI. The site's TrueSpec feature, for example, checks what’s inside torrents. The results reveal a recurring malwar",
-    "date": "Fri, 09 Oct 2026 12:48:42 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -246,10 +258,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Wardogs leads Newzoo's September PC revenue charts",
+    "title": "Xbox first-party content partially offsets 2% drop in Q1 revenue, hardware decreases 14%",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 28 Oct 2026 11:54:35 +0000",
+    "date": "Thu, 29 Oct 2026 10:53:08 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "PressEngine announces The Pre-Show, an in-person London showcase for upcoming games",
+    "link": "https://www.gamesindustry.biz/the-five-golden-rules-of-external-development",
+    "description": "We created Code Wizards 24 years ago, and as an external development partner, we work with a mix of small and large companies on backend engineering, live operations, IT and more. Over the years we've learnt from our mistakes, and CEOs of new studios and service providers often ask me how they can b",
+    "date": "Wed, 28 Oct 2026 19:13:51 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -279,17 +302,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "BioWare's end is a tragically familiar tale | Opinion",
-    "link": "https://www.gamesindustry.biz/shogun-2-complete-edition-was-not-a-creative-assembly-developed-game-says-total-war-vp-after-it-was-pulled-amid-generative-ai-concerns",
-    "description": "Creative Assembly has issued a statement regarding the use of generative AI in Total War: Shogun 2 &ndash; Complete Edition, which led to the game's removal  from sale last week. Read more",
-    "date": "Fri, 23 Oct 2026 15:04:13 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
     "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
     "description": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSec",
@@ -312,46 +324,37 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "First Xbox COO Helen Chiang leaves company after three months in the role",
-    "link": "https://www.gamesindustry.biz/wardogs-leads-newzoos-september-pc-revenue-charts",
-    "description": "Bulkhead's Wardogs topped Newzoo's September PC revenue charts, surpassing EA Sports FC 27. Read more",
-    "date": "Wed, 28 Oct 2026 10:15:53 +0000",
+    "title": "Hearth and Hamlet publisher Runic Forge rebrands as Pythia Games",
+    "link": "https://www.gamesindustry.biz/pressengine-announces-the-pre-show-an-in-person-london-showcase-for-upcoming-games",
+    "description": "PR and influencer marketing platform PressEngine is launching The Pre-Show, an in-person event that puts developers directly in front of media and content creators. Read more",
+    "date": "Wed, 28 Oct 2026 17:56:48 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Interior Night studio head Charu Desodt appointed chair of BAFTA Games Committee",
-    "link": "https://www.gamesindustry.biz/first-xbox-coo-helen-chiang-leaves-company-after-three-months-in-the-role",
-    "description": "Xbox's first COO Helen Chiang has left the company after only three months in the role. Read more",
-    "date": "Wed, 28 Oct 2026 09:28:56 +0000",
+    "title": "How to run an indie game studio: Part 5, Better meetings",
+    "link": "https://www.gamesindustry.biz/hearth-and-hamlet-publisher-runic-forge-rebrands-as-pythia-games",
+    "description": "Hearth and Hamlet publisher Runic Forge has rebranded as Pythia Games. Read more",
+    "date": "Wed, 28 Oct 2026 15:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Gamescom Asia touts new records for international attendance and showfloor size",
-    "link": "https://www.gamesindustry.biz/interior-night-studio-head-charu-desodt-appointed-chair-of-bafta-games-committee",
-    "description": "Interior Night studio head Charu Desodt has been appointed chair of the BAFTA Games Committee. Read more",
-    "date": "Wed, 28 Oct 2026 08:16:13 +0000",
+    "title": "\"Taking several years with several thousand people… It's almost impossible\" – PlayStation creator Ken Kutaragi on the current state of gaming",
+    "link": "https://www.gamesindustry.biz/how-to-run-an-indie-game-studio-part-5-better-meetings",
+    "description": "If you've made it this far in the series, you now have the building blocks of a functioning studio operating system: a clear purpose, long and short-term goals, a system for catching and solving issues, and a quarterly rhythm that keeps your team focused and accountable. This week, we're looking at ",
+    "date": "Wed, 28 Oct 2026 13:30:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "\"Developers need to treat Early Access like a real launch, because players do\" – Early Access games are on the rise, but so are player expectations",
-    "link": "https://www.gamesindustry.biz/warhorse-studios-hit-by-cyberattack-company-systems-and-data-affected",
-    "description": "Warhorse Studios has experienced a cyberattack resulting in unauthorised access to both company systems and data. Read more",
-    "date": "Tue, 27 Oct 2026 13:30:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "TiMi Studio Group's Pokémon Unite to shut down on March 23, 2027",
-    "link": "https://www.gamesindustry.biz/ukie-calls-on-government-to-modernise-video-games-expenditure-credit-ahead-of-autumn-budget",
-    "description": "Ahead of this week's Autumn Budget, UKIE is urging the UK government to modernise the Video Games Expenditure Credit (VGEC). Read more",
-    "date": "Tue, 27 Oct 2026 11:43:41 +0000",
+    "title": "Wardogs leads Newzoo's September PC revenue charts",
+    "link": "https://www.gamesindustry.biz/taking-several-years-with-several-thousand-people-its-almost-impossible-playstation-creator-ken-kutaragi-on-the-current-state-of-gaming",
+    "description": "Middlesbrough is probably the last place we expected to meet Ken Kutaragi, widely known as the father of the PlayStation. He admits he hadn't heard of the northern UK town before he was invited here to give a talk at the second Game Republic New Horizons event on October 15. Read more",
+    "date": "Wed, 28 Oct 2026 11:54:35 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
