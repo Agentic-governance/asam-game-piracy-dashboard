@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-29 12:46 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-30 12:38 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-29T12:46:28.346141",
+  fetched_at: "2026-10-30T12:38:14.958598",
   item_count: 30,
   items: [
   {
@@ -12,9 +12,9 @@ const ARIA_NEWS = {
     "relevance_score": 14,
     "matched_keywords": [
       "piracy",
-      "pirate",
+      "crack",
       "denuvo",
-      "crack"
+      "pirate"
     ]
   },
   {
@@ -25,24 +25,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "drm",
-      "pirate",
-      "denuvo",
-      "crack"
-    ]
-  },
-  {
-    "title": "AI-Built Torrent Site Looks Inside Downloads to Catch Fakes and Malware",
-    "link": "https://torrentfreak.com/game-industry-asks-u-s-to-flag-denuvo-cracker-voices38-as-notorious-piracy-threat/",
-    "description": "The Entertainment Software Association has asked the U.S. Government to label the Denuvo cracker ‘voices38’ as a notorious piracy market. The game industry group argues that the cracker is an essential source in the game piracy ecosystem, feeding repackers and torrent sites. A notorious market flag ",
-    "date": "Sun, 11 Oct 2026 20:00:53 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 12,
-    "matched_keywords": [
-      "piracy",
       "crack",
-      "torrent",
-      "denuvo"
+      "denuvo",
+      "drm",
+      "pirate"
     ]
   },
   {
@@ -53,11 +39,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "piracy",
-      "copyright",
-      "pirate",
       "torrent",
-      "rom"
+      "rom",
+      "piracy",
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -68,10 +54,23 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "rom",
-      "pirate",
+      "denuvo",
       "torrent",
-      "denuvo"
+      "pirate",
+      "rom"
+    ]
+  },
+  {
+    "title": "Chile Blocks 1,954 Pirate TV URLs to Protect Citizens&#8217; &#8216;Privacy and Personal Data&#8217;",
+    "link": "https://torrentfreak.com/vietnam-indicts-hianime-operators-over-12-85-million-in-pirate-ad-revenue/",
+    "description": "Vietnam's top prosecutor has indicted seven alleged HiAnime operators, sending them to trial for copyright infringement and money laundering. According to the indictment, the group behind the anime piracy ring collected $12.85 million in USDT through ad network PropellerAds. The crypto was allegedly",
+    "date": "Thu, 29 Oct 2026 07:25:28 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "piracy",
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -83,8 +82,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -96,8 +95,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -158,8 +157,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "copyright",
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -176,10 +175,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Chile Blocks 1,954 Pirate TV URLs to Protect Citizens&#8217; &#8216;Privacy and Personal Data&#8217;",
+    "title": "Vietnam Indicts HiAnime Operators Over $12.85 Million in Pirate Ad Revenue",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Thu, 29 Oct 2026 07:25:28 +0000",
+    "date": "Fri, 30 Oct 2026 10:17:49 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
@@ -224,18 +223,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Other Barks &#038; Bites for Friday, October 23: EUIPO Announces Record Number of Counterfeits Seized in 2025; EPO Study Shows Growing Importance of Tech Transfer Offices; and Taction Seeks to Add Damages to $5.7 Billion Apple Infringement Verdict",
-    "link": "https://ipwatchdog.com/2026/10/25/winning-combination-recent-decisions-signal-strengthened-protectability-of-compilation-and-combination-trade-secrets/",
-    "description": "For companies in many industries, their most valuable trade secrets reside not in a single formula or document, but in years of accumulated data, coordinated processes, and combinations of technical and commercial information from various internal sources. Engineering know-how (including negative kn",
-    "date": "Fri, 23 Oct 2026 18:15:05 +0000",
-    "source": "IPWatchdog",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "seized",
-      "rom"
-    ]
-  },
-  {
     "title": "Top 10 Most Pirated Movies of The Week – 10/26/2026",
     "link": "https://torrentfreak.com/meta-pitches-ai-sports-piracy-detector-in-notorious-markets-rebuttal/",
     "description": "Meta informed the U.S. Trade Representative that it built an AI tool to predict whether a live stream is a pirated sports broadcast. The tool is featured in Meta’s rebuttal to this year’s “notorious markets” submissions, which also lists restrictions on Facebook Live. Cloud storage platform Mega, me",
@@ -258,10 +245,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Xbox first-party content partially offsets 2% drop in Q1 revenue, hardware decreases 14%",
+    "title": "Maddy Makes Games removes Celeste and TowerFall from Xbox in support of pro-Palestinian BDS boycott",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 29 Oct 2026 10:53:08 +0000",
+    "date": "Fri, 30 Oct 2026 12:10:27 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Gaming storefronts are facing a Slop Grenade problem | Opinion",
+    "link": "https://www.gamesindustry.biz/maddy-makes-games-removes-celeste-and-towerfall-from-xbox-in-support-of-pro-palestinian-bds-boycott",
+    "description": "Indie developer Maddy Makes Games has delisted Celeste and TowerFall from Xbox to support the pro-Palestinian Boycott, Divestment, and Sanctions (BDS) movement. Read more",
+    "date": "Fri, 30 Oct 2026 12:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -291,17 +289,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "UKIE calls on government to modernise Video Games Expenditure Credit ahead of Autumn Budget",
-    "link": "https://www.gamesindustry.biz/developers-need-to-treat-early-access-like-a-real-launch-because-players-do-early-access-games-are-on-the-rise-but-so-are-player-expectations",
-    "description": "The number of games released through Steam's Early Access program has risen significantly in recent years. According to SteamDB, 2,924 Early Access games launched on Valve's platform in 2026 (as of mid-October), an 18% increase from 2025 and a 60% increase from 2020. Read more",
-    "date": "Tue, 27 Oct 2026 12:00:59 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
     "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
     "description": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSec",
@@ -324,37 +311,46 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Roblox Q3 results beat expectations despite bookings falling 12% to $1.7bn",
+    "link": "https://www.gamesindustry.biz/gaming-storefronts-are-facing-a-slop-grenade-problem-opinion",
+    "description": "There is currently a concerted and not-so-subtle campaign underway to try to manufacture consent for the use of AI in game development. Read more",
+    "date": "Fri, 30 Oct 2026 10:44:44 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Why asking \"what's the budget for your game?\" doesn't make sense in 2026 | Opinion",
+    "link": "https://www.gamesindustry.biz/roblox-q3-results-beat-expectations-despite-bookings-falling-12-to-17bn",
+    "description": "Roblox's latest financial results beat expectations for its third quarter, with revenue up 16% year-on-year to $1.6 billion. Read more",
+    "date": "Fri, 30 Oct 2026 09:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Newly merged Skydance mandates staff return to office five days a week, offers Voluntary Buyout Program",
+    "link": "https://www.gamesindustry.biz/why-asking-whats-the-budget-for-your-game-doesnt-make-sense-in-2026-opinion",
+    "description": "Three years ago, we launched our Kickstarter campaign for Trash Goblin, our cosy shop sim. It was an existential moment for Spilt Milk Studios. Seventy-four publishers had turned down the game - one of them pulling out in the meeting that we thought was to sign the final publishing contract - but pl",
+    "date": "Thu, 29 Oct 2026 14:29:45 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Xbox first-party content partially offsets 2% drop in Q1 revenue, hardware decreases 14%",
+    "link": "https://www.gamesindustry.biz/onimusha-resident-evil-pragmata-and-monster-hunter-franchises-boost-capcom-h1-results",
+    "description": "Capcom published its financial results for the six months ended September 30, 2026, and reported increases across the board, including a 67.5% rise in ordinary profit to &yen;61.2 billion ($387.2 million). Read more",
+    "date": "Thu, 29 Oct 2026 10:53:08 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Hearth and Hamlet publisher Runic Forge rebrands as Pythia Games",
     "link": "https://www.gamesindustry.biz/pressengine-announces-the-pre-show-an-in-person-london-showcase-for-upcoming-games",
     "description": "PR and influencer marketing platform PressEngine is launching The Pre-Show, an in-person event that puts developers directly in front of media and content creators. Read more",
     "date": "Wed, 28 Oct 2026 17:56:48 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "How to run an indie game studio: Part 5, Better meetings",
-    "link": "https://www.gamesindustry.biz/hearth-and-hamlet-publisher-runic-forge-rebrands-as-pythia-games",
-    "description": "Hearth and Hamlet publisher Runic Forge has rebranded as Pythia Games. Read more",
-    "date": "Wed, 28 Oct 2026 15:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"Taking several years with several thousand people… It's almost impossible\" – PlayStation creator Ken Kutaragi on the current state of gaming",
-    "link": "https://www.gamesindustry.biz/how-to-run-an-indie-game-studio-part-5-better-meetings",
-    "description": "If you've made it this far in the series, you now have the building blocks of a functioning studio operating system: a clear purpose, long and short-term goals, a system for catching and solving issues, and a quarterly rhythm that keeps your team focused and accountable. This week, we're looking at ",
-    "date": "Wed, 28 Oct 2026 13:30:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Wardogs leads Newzoo's September PC revenue charts",
-    "link": "https://www.gamesindustry.biz/taking-several-years-with-several-thousand-people-its-almost-impossible-playstation-creator-ken-kutaragi-on-the-current-state-of-gaming",
-    "description": "Middlesbrough is probably the last place we expected to meet Ken Kutaragi, widely known as the father of the PlayStation. He admits he hadn't heard of the northern UK town before he was invited here to give a talk at the second Game Republic New Horizons event on October 15. Read more",
-    "date": "Wed, 28 Oct 2026 11:54:35 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
