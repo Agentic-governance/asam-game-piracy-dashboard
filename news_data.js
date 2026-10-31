@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-30 12:38 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-10-31 12:05 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-30T12:38:14.958598",
+  fetched_at: "2026-10-31T12:05:41.844232",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 14,
     "matched_keywords": [
-      "piracy",
-      "crack",
       "denuvo",
-      "pirate"
+      "pirate",
+      "crack",
+      "piracy"
     ]
   },
   {
@@ -25,10 +25,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "crack",
-      "denuvo",
       "drm",
-      "pirate"
+      "denuvo",
+      "pirate",
+      "crack"
     ]
   },
   {
@@ -40,9 +40,9 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "torrent",
-      "rom",
       "piracy",
       "pirate",
+      "rom",
       "copyright"
     ]
   },
@@ -54,8 +54,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "denuvo",
       "torrent",
+      "denuvo",
       "pirate",
       "rom"
     ]
@@ -68,9 +68,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
+      "copyright",
       "pirate",
-      "copyright"
+      "piracy"
     ]
   },
   {
@@ -81,9 +81,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "torrent",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -94,9 +94,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "torrent",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -107,9 +107,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "pirate",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -120,8 +120,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -132,8 +132,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -144,8 +144,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -157,8 +157,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "copyright",
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -169,9 +169,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "piracy",
       "torrent",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -194,8 +194,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -206,8 +206,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -245,9 +245,20 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Maddy Makes Games removes Celeste and TowerFall from Xbox in support of pro-Palestinian BDS boycott",
+    "title": "Studio Atelico launches Atelico AI Engine into Early Access",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Fri, 30 Oct 2026 14:39:49 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Maddy Makes Games removes Celeste and TowerFall from Xbox in support of pro-Palestinian BDS boycott",
+    "link": "https://www.gamesindustry.biz/studio-atelico-launches-atelico-ai-engine-into-early-access",
+    "description": "Studio Atelico has launched its Atelico AI Engine into Early Access. Read more",
     "date": "Fri, 30 Oct 2026 12:10:27 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -342,15 +353,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/onimusha-resident-evil-pragmata-and-monster-hunter-franchises-boost-capcom-h1-results",
     "description": "Capcom published its financial results for the six months ended September 30, 2026, and reported increases across the board, including a 67.5% rise in ordinary profit to &yen;61.2 billion ($387.2 million). Read more",
     "date": "Thu, 29 Oct 2026 10:53:08 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Hearth and Hamlet publisher Runic Forge rebrands as Pythia Games",
-    "link": "https://www.gamesindustry.biz/pressengine-announces-the-pre-show-an-in-person-london-showcase-for-upcoming-games",
-    "description": "PR and influencer marketing platform PressEngine is launching The Pre-Show, an in-person event that puts developers directly in front of media and content creators. Read more",
-    "date": "Wed, 28 Oct 2026 17:56:48 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
