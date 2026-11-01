@@ -1,22 +1,8 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-10-31 12:05 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-01 13:05 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-10-31T12:05:41.844232",
+  fetched_at: "2026-11-01T13:05:55.153227",
   item_count: 30,
   items: [
-  {
-    "title": "Game Industry Asks U.S. to Flag Denuvo Cracker ‘voices38’ as Notorious Piracy Threat",
-    "link": "https://torrentfreak.com/mpa-takes-credit-for-shutting-down-piracy-giants-animeflv-and-cineby/",
-    "description": "When pirate streaming giant Cineby shut down at the end of August, its operators blamed the loss of their main video providers. Now, the MPA informs the U.S. Trade Representative that the site stopped operating following \"MPA and ACE actions,\" adding that the same applies to anime piracy portal Anim",
-    "date": "Mon, 12 Oct 2026 08:06:26 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 14,
-    "matched_keywords": [
-      "denuvo",
-      "pirate",
-      "crack",
-      "piracy"
-    ]
-  },
   {
     "title": "Chinese Court Jails Aiyifan Operator, U.S. Judge Won’t Transfer Pirate Site’s Domains",
     "link": "https://torrentfreak.com/court-approves-voices38-subpoenas-after-denuvo-drops-payment-and-login-data-requests/",
@@ -26,8 +12,8 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "drm",
-      "denuvo",
       "pirate",
+      "denuvo",
       "crack"
     ]
   },
@@ -40,9 +26,9 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "torrent",
-      "piracy",
-      "pirate",
       "rom",
+      "pirate",
+      "piracy",
       "copyright"
     ]
   },
@@ -54,10 +40,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "torrent",
-      "denuvo",
       "pirate",
-      "rom"
+      "torrent",
+      "rom",
+      "denuvo"
     ]
   },
   {
@@ -68,9 +54,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "copyright",
+      "piracy",
       "pirate",
-      "piracy"
+      "copyright"
     ]
   },
   {
@@ -81,9 +67,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
+      "piracy",
       "pirate",
-      "piracy"
+      "torrent"
     ]
   },
   {
@@ -94,9 +80,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
+      "piracy",
       "pirate",
-      "piracy"
+      "torrent"
     ]
   },
   {
@@ -107,9 +93,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "piracy",
       "pirate",
-      "rom",
-      "piracy"
+      "rom"
     ]
   },
   {
@@ -120,8 +106,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -132,8 +118,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -144,8 +130,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
+      "piracy",
+      "pirate"
+    ]
+  },
+  {
+    "title": "Ex-Meta Researcher Torrented Pirated Books Dataset, Deleted It &#8216;Due to All This Litigation&#8217;",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Sat, 31 Oct 2026 11:55:12 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 5,
+    "matched_keywords": [
       "pirate",
-      "piracy"
+      "torrent",
+      "copyright"
     ]
   },
   {
@@ -156,9 +155,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "copyright",
       "pirate",
-      "torrent"
+      "torrent",
+      "copyright"
     ]
   },
   {
@@ -169,21 +168,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
+      "piracy",
       "torrent",
-      "rom",
-      "piracy"
+      "rom"
     ]
   },
   {
     "title": "Vietnam Indicts HiAnime Operators Over $12.85 Million in Pirate Ad Revenue",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/ex-meta-researcher-torrented-pirated-books-dataset-deleted-it-due-to-all-this-litigation/",
+    "description": "A former Meta researcher has testified that he downloaded an AI training dataset via BitTorrent, including the pirated Books3 collection. According to various rightsholders, this happened while he worked at the company, and he later deleted his copy \"[d]ue to all this litigation.\" Meta, which admitt",
     "date": "Fri, 30 Oct 2026 10:17:49 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -194,8 +193,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -206,8 +205,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
