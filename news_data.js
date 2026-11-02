@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-01 13:05 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-02 15:29 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-01T13:05:55.153227",
+  fetched_at: "2026-11-02T15:29:29.329218",
   item_count: 30,
   items: [
   {
@@ -11,24 +11,24 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "drm",
+      "crack",
       "pirate",
-      "denuvo",
-      "crack"
+      "drm",
+      "denuvo"
     ]
   },
   {
-    "title": "Framing the News: Anti-Piracy Press Release Turned a 2016 Raid Into a 2026 Story",
+    "title": "Ex-Meta Researcher Torrented Pirated Books Dataset, Deleted It &#8216;Due to All This Litigation&#8217;",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Spider-Man: Brand New Day' tops the chart, followed by 'Hope.' 'Project Hail Mary' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sun, 25 Oct 2026 08:23:04 +0000",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Spider-Man: Brand New Day' tops the chart, followed by 'Verity.' 'The Dog Stars' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sat, 31 Oct 2026 11:55:12 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
-      "rom",
       "pirate",
       "piracy",
+      "rom",
+      "torrent",
       "copyright"
     ]
   },
@@ -40,9 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
+      "rom",
       "pirate",
       "torrent",
-      "rom",
       "denuvo"
     ]
   },
@@ -54,8 +54,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "pirate",
+      "piracy",
       "copyright"
     ]
   },
@@ -67,8 +67,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "pirate",
+      "piracy",
       "torrent"
     ]
   },
@@ -80,22 +80,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "pirate",
+      "piracy",
       "torrent"
     ]
   },
   {
-    "title": "MPA Takes Credit for Shutting Down Piracy Giants AnimeFLV and Cineby",
-    "link": "https://torrentfreak.com/publishers-seek-19-5m-from-pirate-library-welib-recycle-annas-archive-claims/",
-    "description": "A group of major publishers has asked a New York federal court to issue a $19.5 million default judgment against pirate library WeLib. The site allegedly copied its code and most of its collection from Anna's Archive, which lost a nearly identical case in May. Ironically, the publishers' brief appea",
-    "date": "Tue, 13 Oct 2026 07:34:34 +0000",
+    "title": "Top 10 Most Pirated Movies of The Week – 11/02/2026",
+    "link": "https://torrentfreak.com/dutch-court-orders-isp-to-block-z-library-and-oceanofpdf/",
+    "description": "A Dutch court has ordered Internet provider KPN to block shadow libraries Z-Library and OceanofPDF. The dynamic blocking order, requested by anti-piracy group BREIN, also covers new domains, proxies, and mirrors. Back in 2024, BREIN already said that it planned to target Z-Library if the site stayed",
+    "date": "Sun, 01 Nov 2026 23:09:40 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 7,
+    "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
       "pirate",
-      "rom"
+      "piracy"
     ]
   },
   {
@@ -106,8 +105,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Framing the News: Anti-Piracy Press Release Turned a 2016 Raid Into a 2026 Story",
+    "link": "https://torrentfreak.com/meta-pitches-ai-sports-piracy-detector-in-notorious-markets-rebuttal/",
+    "description": "Meta informed the U.S. Trade Representative that it built an AI tool to predict whether a live stream is a pirated sports broadcast. The tool is featured in Meta’s rebuttal to this year’s “notorious markets” submissions, which also lists restrictions on Facebook Live. Cloud storage platform Mega, me",
+    "date": "Sun, 25 Oct 2026 08:23:04 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -118,8 +129,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -130,21 +141,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Ex-Meta Researcher Torrented Pirated Books Dataset, Deleted It &#8216;Due to All This Litigation&#8217;",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sat, 31 Oct 2026 11:55:12 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 5,
-    "matched_keywords": [
       "pirate",
-      "torrent",
-      "copyright"
+      "piracy"
     ]
   },
   {
@@ -156,8 +154,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "pirate",
-      "torrent",
-      "copyright"
+      "copyright",
+      "torrent"
     ]
   },
   {
@@ -168,9 +166,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
+      "rom",
       "piracy",
-      "torrent",
-      "rom"
+      "torrent"
     ]
   },
   {
@@ -217,18 +215,7 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "rom"
-    ]
-  },
-  {
-    "title": "Top 10 Most Pirated Movies of The Week – 10/26/2026",
-    "link": "https://torrentfreak.com/meta-pitches-ai-sports-piracy-detector-in-notorious-markets-rebuttal/",
-    "description": "Meta informed the U.S. Trade Representative that it built an AI tool to predict whether a live stream is a pirated sports broadcast. The tool is featured in Meta’s rebuttal to this year’s “notorious markets” submissions, which also lists restrictions on Facebook Live. Cloud storage platform Mega, me",
-    "date": "Sun, 25 Oct 2026 23:09:40 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
+      "rom",
       "pirate"
     ]
   },
@@ -244,10 +231,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Studio Atelico launches Atelico AI Engine into Early Access",
+    "title": "Gamescom Asia x Thailand Game Show \"most international yet\", attracting nearly 220,000 visitors from 113 countries",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 30 Oct 2026 14:39:49 +0000",
+    "date": "Mon, 02 Nov 2026 14:32:18 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"We all met by doing improv comedy\" – The Los Angeles indie studio making a comedy game in one of the most expensive places for game dev in the world",
+    "link": "https://www.gamesindustry.biz/gamescom-asia-x-thailand-game-show-most-international-yet-attracting-nearly-220000-visitors-from-113-countries",
+    "description": "Organisers described this year's Gamescom Asia x Thailand Game Show as the \"most international edition\" to date, with 219,546 attendees from 113 countries. Read more",
+    "date": "Mon, 02 Nov 2026 13:30:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -288,17 +286,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Warhorse Studios hit by cyberattack, company systems and data affected",
-    "link": "https://www.gamesindustry.biz/gamescom-asia-touts-new-records-for-international-attendance-and-showfloor-size",
-    "description": "No event has come back more strongly from its pandemic-enforced hiatus than Gamescom. The German event posted record attendance this year, driven in part by business attendance boosted by the demise of E3; its two-year-old South American spinoff Gamescom LatAm claimed an audience of 175,000, up 17% ",
-    "date": "Tue, 27 Oct 2026 14:20:32 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
     "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
     "description": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSec",
@@ -321,6 +308,33 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Among Us VR co-developer Schell Games announces second round of layoffs this year",
+    "link": "https://www.gamesindustry.biz/we-all-met-by-doing-improv-comedy-the-los-angeles-indie-studio-making-a-comedy-game-in-one-of-the-most-expensive-places-for-game-dev-in-the-world",
+    "description": "What do you get if you cross a SpaceX engineer, a TV writer, and a former professor? Read more",
+    "date": "Mon, 02 Nov 2026 11:51:05 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Gang of Dragon developer Nagoshi Studio shutters months after NetEase cut funding",
+    "link": "https://www.gamesindustry.biz/among-us-vr-co-developer-schell-games-announces-second-round-of-layoffs-this-year",
+    "description": "VR developer Schell Games has announced a second round of layoffs this year. Read more",
+    "date": "Mon, 02 Nov 2026 10:00:16 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Studio Atelico launches Atelico AI Engine into Early Access",
+    "link": "https://www.gamesindustry.biz/a-vital-message-to-people-in-hr-protecting-our-own-wellbeing-is-paramount",
+    "description": "Sarah Venables, an experienced HR veteran of 25 years, opened her keynote at the GamesIndustry.biz HR Summit with a story. It was a personal story, one of how she realised she had reached her lowest moments. Read more",
+    "date": "Fri, 30 Oct 2026 14:39:49 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Roblox Q3 results beat expectations despite bookings falling 12% to $1.7bn",
     "link": "https://www.gamesindustry.biz/gaming-storefronts-are-facing-a-slop-grenade-problem-opinion",
     "description": "There is currently a concerted and not-so-subtle campaign underway to try to manufacture consent for the use of AI in game development. Read more",
@@ -334,24 +348,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/roblox-q3-results-beat-expectations-despite-bookings-falling-12-to-17bn",
     "description": "Roblox's latest financial results beat expectations for its third quarter, with revenue up 16% year-on-year to $1.6 billion. Read more",
     "date": "Fri, 30 Oct 2026 09:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Newly merged Skydance mandates staff return to office five days a week, offers Voluntary Buyout Program",
-    "link": "https://www.gamesindustry.biz/why-asking-whats-the-budget-for-your-game-doesnt-make-sense-in-2026-opinion",
-    "description": "Three years ago, we launched our Kickstarter campaign for Trash Goblin, our cosy shop sim. It was an existential moment for Spilt Milk Studios. Seventy-four publishers had turned down the game - one of them pulling out in the meeting that we thought was to sign the final publishing contract - but pl",
-    "date": "Thu, 29 Oct 2026 14:29:45 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Xbox first-party content partially offsets 2% drop in Q1 revenue, hardware decreases 14%",
-    "link": "https://www.gamesindustry.biz/onimusha-resident-evil-pragmata-and-monster-hunter-franchises-boost-capcom-h1-results",
-    "description": "Capcom published its financial results for the six months ended September 30, 2026, and reported increases across the board, including a 67.5% rise in ordinary profit to &yen;61.2 billion ($387.2 million). Read more",
-    "date": "Thu, 29 Oct 2026 10:53:08 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
