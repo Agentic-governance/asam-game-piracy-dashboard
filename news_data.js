@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-02 15:29 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-03 13:59 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-02T15:29:29.329218",
+  fetched_at: "2026-11-03T13:59:02.042947",
   item_count: 30,
   items: [
   {
@@ -11,9 +11,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "crack",
       "pirate",
       "drm",
+      "crack",
       "denuvo"
     ]
   },
@@ -25,11 +25,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
-      "piracy",
+      "copyright",
       "rom",
-      "torrent",
-      "copyright"
+      "piracy",
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -40,9 +40,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "rom",
       "pirate",
       "torrent",
+      "rom",
       "denuvo"
     ]
   },
@@ -55,8 +55,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -166,13 +166,37 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "rom",
+      "torrent",
       "piracy",
-      "torrent"
+      "rom"
     ]
   },
   {
-    "title": "Vietnam Indicts HiAnime Operators Over $12.85 Million in Pirate Ad Revenue",
+    "title": "Funimation Shutdown Fuels Push for DMCA Exemption to Legally Rip Anime Content",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Tue, 03 Nov 2026 08:08:25 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
+      "dmca"
+    ]
+  },
+  {
+    "title": "Dutch Court Orders ISP to Block Z-Library and OceanofPDF",
+    "link": "https://torrentfreak.com/funimation-shutdown-fuels-push-for-dmca-exemption-to-legally-rip-anime-content/",
+    "description": "When Funimation shut down in 2024, buyers of DVDs and Blu-ray discs that came with a Funimation digital release lost access to those copies. A fresh petition to the U.S. Copyright Office cites this as a reason for a DMCA exemption that would allow disc owners to make replacement copies for personal ",
+    "date": "Mon, 02 Nov 2026 09:05:37 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
+      "dmca"
+    ]
+  },
+  {
+    "title": "Vietnam Indicts HiAnime Operators Over $12.85 Million in Pirate Ad Revenue (Updated)",
     "link": "https://torrentfreak.com/ex-meta-researcher-torrented-pirated-books-dataset-deleted-it-due-to-all-this-litigation/",
     "description": "A former Meta researcher has testified that he downloaded an AI training dataset via BitTorrent, including the pirated Books3 collection. According to various rightsholders, this happened while he worked at the company, and he later deleted his copy \"[d]ue to all this litigation.\" Meta, which admitt",
     "date": "Fri, 30 Oct 2026 10:17:49 +0000",
@@ -191,8 +215,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -203,20 +227,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
-    ]
-  },
-  {
-    "title": "Publishers Seek $19.5m From Pirate Library WeLib, Recycle Anna&#8217;s Archive Claims",
-    "link": "https://torrentfreak.com/riaa-flags-annas-archive-and-ai-voice-cloner-to-u-s-government/",
-    "description": "The RIAA has submitted its latest overview of \"notorious markets\" to the U.S. Government. It lists familiar names such as The Pirate Bay and Rapidgator, but the music group also flags shadow library Anna's Archive and AI voice-cloning service Lalals.  The RIAA presents both as \"additional\" areas of ",
-    "date": "Wed, 14 Oct 2026 12:05:31 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "rom",
-      "pirate"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -231,9 +243,31 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Gamescom Asia x Thailand Game Show \"most international yet\", attracting nearly 220,000 visitors from 113 countries",
+    "title": "The launch is not the end: How Beholder: Conductor equalled its launch sales 15 months after release",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Tue, 03 Nov 2026 13:30:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "CI Games secures $32 million loan to finish and self-publish Lords of the Fallen 2",
+    "link": "https://www.gamesindustry.biz/saudi-backed-kingdom-of-gaming-event-delayed-to-2027",
+    "description": "Kingdom of Gaming, a new Saudi government-backed games industry event, has been pushed back from December to an unspecified date in 2027. Read more",
+    "date": "Mon, 02 Nov 2026 21:28:03 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Gamescom Asia x Thailand Game Show \"most international yet\", attracting nearly 220,000 visitors from 113 countries",
+    "link": "https://www.gamesindustry.biz/anthropic-adds-rule-to-stop-claude-code-recreating-existing-games",
+    "description": "Anthropic has updated its AI coding tool Claude Code so it stops building clones of existing video games. Read more",
     "date": "Mon, 02 Nov 2026 14:32:18 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -275,14 +309,14 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "PressEngine announces The Pre-Show, an in-person London showcase for upcoming games",
-    "link": "https://www.gamesindustry.biz/the-five-golden-rules-of-external-development",
-    "description": "We created Code Wizards 24 years ago, and as an external development partner, we work with a mix of small and large companies on backend engineering, live operations, IT and more. Over the years we've learnt from our mistakes, and CEOs of new studios and service providers often ask me how they can b",
-    "date": "Wed, 28 Oct 2026 19:13:51 +0000",
-    "source": "GamesIndustry",
+    "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+    "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+    "description": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown s",
+    "date": "Wed, 21 Oct 2026 15:26:07 +0000",
+    "source": "KrebsOnSecurity",
     "relevance_score": 3,
     "matched_keywords": [
-      "rom"
+      "takedown"
     ]
   },
   {
@@ -308,46 +342,19 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Among Us VR co-developer Schell Games announces second round of layoffs this year",
-    "link": "https://www.gamesindustry.biz/we-all-met-by-doing-improv-comedy-the-los-angeles-indie-studio-making-a-comedy-game-in-one-of-the-most-expensive-places-for-game-dev-in-the-world",
-    "description": "What do you get if you cross a SpaceX engineer, a TV writer, and a former professor? Read more",
-    "date": "Mon, 02 Nov 2026 11:51:05 +0000",
+    "title": "AppMagic: Non-gaming apps have beaten mobile games in IAP revenue since 2016",
+    "link": "https://www.gamesindustry.biz/the-launch-is-not-the-end-how-beholder-conductor-equalled-its-launch-sales-15-months-after-release",
+    "description": "Once a game is out, its post-release story can seem almost settled. After the launch window, a DLC or major patch might give players a reason to return &ndash; but if the team has no plans to keep working on the game, what is left to do except watch the sales taper off? Read more",
+    "date": "Tue, 03 Nov 2026 12:24:23 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Gang of Dragon developer Nagoshi Studio shutters months after NetEase cut funding",
-    "link": "https://www.gamesindustry.biz/among-us-vr-co-developer-schell-games-announces-second-round-of-layoffs-this-year",
-    "description": "VR developer Schell Games has announced a second round of layoffs this year. Read more",
-    "date": "Mon, 02 Nov 2026 10:00:16 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Studio Atelico launches Atelico AI Engine into Early Access",
-    "link": "https://www.gamesindustry.biz/a-vital-message-to-people-in-hr-protecting-our-own-wellbeing-is-paramount",
-    "description": "Sarah Venables, an experienced HR veteran of 25 years, opened her keynote at the GamesIndustry.biz HR Summit with a story. It was a personal story, one of how she realised she had reached her lowest moments. Read more",
-    "date": "Fri, 30 Oct 2026 14:39:49 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Roblox Q3 results beat expectations despite bookings falling 12% to $1.7bn",
-    "link": "https://www.gamesindustry.biz/gaming-storefronts-are-facing-a-slop-grenade-problem-opinion",
-    "description": "There is currently a concerted and not-so-subtle campaign underway to try to manufacture consent for the use of AI in game development. Read more",
-    "date": "Fri, 30 Oct 2026 10:44:44 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Why asking \"what's the budget for your game?\" doesn't make sense in 2026 | Opinion",
-    "link": "https://www.gamesindustry.biz/roblox-q3-results-beat-expectations-despite-bookings-falling-12-to-17bn",
-    "description": "Roblox's latest financial results beat expectations for its third quarter, with revenue up 16% year-on-year to $1.6 billion. Read more",
-    "date": "Fri, 30 Oct 2026 09:00:00 +0000",
+    "title": "Remedy Q3 revenue triples to €39.6m following launch of Control Resonant",
+    "link": "https://www.gamesindustry.biz/appmagic-non-gaming-apps-have-beaten-mobile-games-in-iap-revenue-since-2016",
+    "description": "Mobile games last led in-app purchase (IAP) revenue in 2016, having since been outperformed by non-gaming platforms such as TikTok and AI chatbots. Read more",
+    "date": "Tue, 03 Nov 2026 08:39:15 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
