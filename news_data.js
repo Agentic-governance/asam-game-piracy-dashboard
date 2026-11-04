@@ -1,8 +1,23 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-03 13:59 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-04 14:15 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-03T13:59:02.042947",
+  fetched_at: "2026-11-04T14:15:03.154496",
   item_count: 30,
   items: [
+  {
+    "title": "Funimation Shutdown Fuels Push for DMCA Exemption to Legally Rip Anime Content",
+    "link": "https://torrentfreak.com/vietnam-jails-pirate-football-streamers-for-up-to-a-year-three-escape-prison/",
+    "description": "A Vietnamese court has sentenced 14 people who worked on the pirate football streaming site Bún Chả TV, handing out the first prison terms we've seen since the country's piracy crackdown began earlier this year. Eleven defendants received sentences ranging from eight to twelve months, while three co",
+    "date": "Tue, 03 Nov 2026 08:08:25 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 13,
+    "matched_keywords": [
+      "crack",
+      "dmca",
+      "rom",
+      "pirate",
+      "piracy"
+    ]
+  },
   {
     "title": "Chinese Court Jails Aiyifan Operator, U.S. Judge Won’t Transfer Pirate Site’s Domains",
     "link": "https://torrentfreak.com/court-approves-voices38-subpoenas-after-denuvo-drops-payment-and-login-data-requests/",
@@ -11,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "crack",
       "pirate",
       "drm",
-      "crack",
       "denuvo"
     ]
   },
@@ -25,11 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
       "rom",
-      "piracy",
+      "torrent",
       "pirate",
-      "torrent"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -40,9 +55,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
       "torrent",
       "rom",
+      "pirate",
       "denuvo"
     ]
   },
@@ -54,8 +69,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "copyright",
+      "pirate",
       "piracy"
     ]
   },
@@ -67,9 +82,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "torrent",
       "pirate",
-      "piracy",
-      "torrent"
+      "piracy"
     ]
   },
   {
@@ -80,9 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "torrent",
       "pirate",
-      "piracy",
-      "torrent"
+      "piracy"
     ]
   },
   {
@@ -153,8 +168,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
       "copyright",
+      "pirate",
       "torrent"
     ]
   },
@@ -172,15 +187,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Funimation Shutdown Fuels Push for DMCA Exemption to Legally Rip Anime Content",
+    "title": "Vietnam Jails Pirate Football Streamers for Up to a Year, Three Escape Prison",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 03 Nov 2026 08:08:25 +0000",
+    "date": "Wed, 04 Nov 2026 09:27:48 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
       "copyright",
-      "dmca"
+      "pirate"
     ]
   },
   {
@@ -203,8 +218,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -232,21 +247,32 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "RIAA Flags Anna’s Archive and AI Voice Cloner to U.S. Government",
-    "link": "https://torrentfreak.com/vpns-and-cloudflare-escape-beins-e10000-a-day-piracy-blocking-penalties/",
-    "description": "VPN providers and Cloudflare only have to make a reasonable effort to block pirate sports streams in France. That's the conclusion of two Paris court rulings that refused beIN Sports' request for penalties of €10,000 per day, per domain. Meanwhile, the Paris Court of Appeal put a separate VPN blocki",
-    "date": "Thu, 15 Oct 2026 07:52:44 +0000",
-    "source": "TorrentFreak",
+    "title": "\"I realised I might only have time to make one more game, so I wanted to try something new\" – Tekken director Katsuhiro Harada on starting VS Studio",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Wed, 04 Nov 2026 13:30:00 +0000",
+    "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
-      "pirate"
+      "rom"
     ]
   },
   {
-    "title": "The launch is not the end: How Beholder: Conductor equalled its launch sales 15 months after release",
-    "link": "https://www.gamesindustry.biz/feed",
-    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 03 Nov 2026 13:30:00 +0000",
+    "title": "Advertising Standards Authority bans mobile ads from King, Scopely, and others for misrepresenting gameplay",
+    "link": "https://www.gamesindustry.biz/i-realised-i-might-only-have-time-to-make-one-more-game-so-i-wanted-to-try-something-new-tekken-director-katsuhiro-harada-on-starting-vs-studio",
+    "description": "When Katsuhiro Harada announced his departure from Bandai Namco last December after more than three decades, fighting game fans were left dejected. Many feared the retirement of the driving force behind Tekken would deprive the genre of one its remaining greats, particularly so soon after the passin",
+    "date": "Wed, 04 Nov 2026 10:43:47 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Ubisoft reportedly seeking to acquire Arkane Lyon from Xbox",
+    "link": "https://www.gamesindustry.biz/advertising-standards-authority-bans-mobile-ads-from-king-scopely-and-others-for-misrepresenting-gameplay",
+    "description": "The UK Advertising Standards Authority (ASA) has banned mobile ads from developers such as King and Scopely for misleading consumers with non-representative gameplay. Read more",
+    "date": "Wed, 04 Nov 2026 08:35:49 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -340,24 +366,6 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "arrested"
     ]
-  },
-  {
-    "title": "AppMagic: Non-gaming apps have beaten mobile games in IAP revenue since 2016",
-    "link": "https://www.gamesindustry.biz/the-launch-is-not-the-end-how-beholder-conductor-equalled-its-launch-sales-15-months-after-release",
-    "description": "Once a game is out, its post-release story can seem almost settled. After the launch window, a DLC or major patch might give players a reason to return &ndash; but if the team has no plans to keep working on the game, what is left to do except watch the sales taper off? Read more",
-    "date": "Tue, 03 Nov 2026 12:24:23 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Remedy Q3 revenue triples to €39.6m following launch of Control Resonant",
-    "link": "https://www.gamesindustry.biz/appmagic-non-gaming-apps-have-beaten-mobile-games-in-iap-revenue-since-2016",
-    "description": "Mobile games last led in-app purchase (IAP) revenue in 2016, having since been outperformed by non-gaming platforms such as TikTok and AI chatbots. Read more",
-    "date": "Tue, 03 Nov 2026 08:39:15 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
   }
 ]
 };
