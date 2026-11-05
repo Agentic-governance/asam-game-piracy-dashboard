@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-04 14:15 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-05 14:28 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-04T14:15:03.154496",
+  fetched_at: "2026-11-05T14:28:14.469803",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 13,
     "matched_keywords": [
+      "rom",
       "crack",
       "dmca",
-      "rom",
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "crack",
       "pirate",
       "drm",
-      "denuvo"
+      "denuvo",
+      "crack"
     ]
   },
   {
@@ -40,11 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
       "torrent",
-      "pirate",
+      "rom",
+      "copyright",
       "piracy",
-      "copyright"
+      "pirate"
     ]
   },
   {
@@ -55,10 +55,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "torrent",
-      "rom",
       "pirate",
-      "denuvo"
+      "denuvo",
+      "torrent",
+      "rom"
     ]
   },
   {
@@ -69,8 +69,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "copyright",
       "pirate",
+      "copyright",
       "piracy"
     ]
   },
@@ -82,8 +82,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
       "pirate",
+      "torrent",
       "piracy"
     ]
   },
@@ -95,8 +95,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
       "pirate",
+      "torrent",
       "piracy"
     ]
   },
@@ -149,18 +149,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "VPNs and Cloudflare Escape beIN’s €10,000-a-Day Piracy Blocking Penalties",
-    "link": "https://torrentfreak.com/chinese-court-jails-aiyifan-operator-u-s-judge-wont-transfer-pirate-sites-domains/",
-    "description": "A Shanghai court confirmed the criminal conviction of Wang Jianyang, one of the operators of pirate streaming platform Aiyifan. In a parallel case, a Florida federal judge awarded Chinese streaming service iQIYI $1.96 million in damages, roughly 1% of what it initially requested. The court also refu",
-    "date": "Fri, 16 Oct 2026 06:29:47 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
     "title": "Streamed, the Live Sports Engine Behind Many Pirate Sites, Shuts Down",
     "link": "https://torrentfreak.com/accused-impostor-in-private-tracker-lawsuit-faces-contempt-for-withholding-passport/",
     "description": "The alleged impostor behind a lawsuit against several private torrent trackers now faces a request to hold him in civil contempt. According to the defense, he missed a deadline to hand over his passport, driver’s license, and Copyright Office paperwork. Meanwhile, the defense’s proposed discovery ha",
@@ -168,9 +156,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "copyright",
       "pirate",
-      "torrent"
+      "torrent",
+      "copyright"
     ]
   },
   {
@@ -182,20 +170,32 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "torrent",
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Meta Employees &#8216;Interacted&#8217; With Pirated Copies of Adult Films, Filing Shows",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Thu, 05 Nov 2026 07:22:30 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "pirate",
+      "copyright"
     ]
   },
   {
     "title": "Vietnam Jails Pirate Football Streamers for Up to a Year, Three Escape Prison",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/meta-employees-interacted-with-pirated-copies-of-adult-films-filing-shows/",
+    "description": "A newly unredacted court filing shows that Meta’s internal investigation found several employees who appear to have interacted with Strike 3’s adult films. The adult content producers say these were torrented copies listed in their lawsuit, but Meta says there is no evidence of torrenting. The compa",
     "date": "Wed, 04 Nov 2026 09:27:48 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -218,8 +218,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -247,9 +247,31 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"I realised I might only have time to make one more game, so I wanted to try something new\" – Tekken director Katsuhiro Harada on starting VS Studio",
+    "title": "Sensor Tower: GTA 6 pre-orders almost reach 8m, 74% bought on PlayStation 5",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Thu, 05 Nov 2026 14:13:50 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "IGN Entertainment promotes Alex Simmons to lead editorial across its portfolio, with Wesley Yin-Poole overseeing IGN",
+    "link": "https://www.gamesindustry.biz/its-such-a-massively-underserved-market-in-the-gaming-industry-the-creators-of-dressmaker-on-why-more-games-should-be-aimed-at-women",
+    "description": "You may have seen enthusiastic posts about Dressmaker doing the rounds on social media. It's yet another example of an indie game blowing up on Steam, seemingly out of nowhere: Video Game Insights estimates that Dressmaker has sold over 482,000 units since its release on September 21. Read more",
+    "date": "Thu, 05 Nov 2026 12:23:50 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"I realised I might only have time to make one more game, so I wanted to try something new\" – Tekken director Katsuhiro Harada on starting VS Studio",
+    "link": "https://www.gamesindustry.biz/meet-the-uks-2026-video-game-bafta-breakthroughs",
+    "description": "BAFTA has announced its annual list of Breakthroughs: 21 promising creatives in UK film, games, and television who will receive career guidance and access to industry networking events, as well as full BAFTA membership. Read more",
     "date": "Wed, 04 Nov 2026 13:30:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -291,50 +313,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Gamescom Asia x Thailand Game Show \"most international yet\", attracting nearly 220,000 visitors from 113 countries",
-    "link": "https://www.gamesindustry.biz/anthropic-adds-rule-to-stop-claude-code-recreating-existing-games",
-    "description": "Anthropic has updated its AI coding tool Claude Code so it stops building clones of existing video games. Read more",
-    "date": "Mon, 02 Nov 2026 14:32:18 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "\"We all met by doing improv comedy\" – The Los Angeles indie studio making a comedy game in one of the most expensive places for game dev in the world",
-    "link": "https://www.gamesindustry.biz/gamescom-asia-x-thailand-game-show-most-international-yet-attracting-nearly-220000-visitors-from-113-countries",
-    "description": "Organisers described this year's Gamescom Asia x Thailand Game Show as the \"most international edition\" to date, with 219,546 attendees from 113 countries. Read more",
-    "date": "Mon, 02 Nov 2026 13:30:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Maddy Makes Games removes Celeste and TowerFall from Xbox in support of pro-Palestinian BDS boycott",
-    "link": "https://www.gamesindustry.biz/studio-atelico-launches-atelico-ai-engine-into-early-access",
-    "description": "Studio Atelico has launched its Atelico AI Engine into Early Access. Read more",
-    "date": "Fri, 30 Oct 2026 12:10:27 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Gaming storefronts are facing a Slop Grenade problem | Opinion",
-    "link": "https://www.gamesindustry.biz/maddy-makes-games-removes-celeste-and-towerfall-from-xbox-in-support-of-pro-palestinian-bds-boycott",
-    "description": "Indie developer Maddy Makes Games has delisted Celeste and TowerFall from Xbox to support the pro-Palestinian Boycott, Divestment, and Sanctions (BDS) movement. Read more",
-    "date": "Fri, 30 Oct 2026 12:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
     "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
     "description": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown s",
@@ -366,6 +344,24 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "arrested"
     ]
+  },
+  {
+    "title": "\"It's such a massively underserved market in the gaming industry\" – The creators of Dressmaker on why more games should be aimed at women",
+    "link": "https://www.gamesindustry.biz/sensor-tower-gta-6-pre-orders-almost-reach-8m-74-bought-on-playstation-5",
+    "description": "Grand Theft Auto 6 is two weeks away, and the highly anticipated title has nearly reached eight million pre-orders, according to recent data. Read more",
+    "date": "Thu, 05 Nov 2026 13:15:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "PlayStation raises full-year forecast after revenue growth in network services and first-party software",
+    "link": "https://www.gamesindustry.biz/ign-entertainment-promotes-alex-simmons-to-lead-editorial-across-its-portfolio-with-wesley-yin-poole-overseeing-ign",
+    "description": "IGN Entertainment, the parent company of GamesIndustry.biz, has appointed Alex Simmons as VP, Editorial and Group Editor-in-Chief, overseeing the firm&rsquo;s entire portfolio of editorial brands. Read more",
+    "date": "Thu, 05 Nov 2026 11:55:30 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   }
 ]
 };
