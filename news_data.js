@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-05 14:28 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-06 14:05 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-05T14:28:14.469803",
+  fetched_at: "2026-11-06T14:05:03.935320",
   item_count: 30,
   items: [
   {
@@ -12,23 +12,9 @@ const ARIA_NEWS = {
     "relevance_score": 13,
     "matched_keywords": [
       "rom",
-      "crack",
       "dmca",
-      "piracy",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Chinese Court Jails Aiyifan Operator, U.S. Judge Won’t Transfer Pirate Site’s Domains",
-    "link": "https://torrentfreak.com/court-approves-voices38-subpoenas-after-denuvo-drops-payment-and-login-data-requests/",
-    "description": "Denuvo can subpoena Discord, Valve and Reddit to identify the anonymous game cracker ‘voices38’. After a California federal judge raised privacy concerns, the DRM company dropped its demands for payment data, comments and other data, reducing 46 requests to nine. What remains are identity and contac",
-    "date": "Sun, 18 Oct 2026 10:41:19 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 12,
-    "matched_keywords": [
       "pirate",
-      "drm",
-      "denuvo",
+      "piracy",
       "crack"
     ]
   },
@@ -40,9 +26,23 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
       "rom",
       "copyright",
+      "pirate",
+      "piracy",
+      "torrent"
+    ]
+  },
+  {
+    "title": "Meta Employees &#8216;Interacted&#8217; With Pirated Copies of Adult Films, Filing Shows",
+    "link": "https://torrentfreak.com/mexicos-senate-approves-isp-rules-to-disconnect-persistent-online-pirates/",
+    "description": "Mexico's Senate has approved copyright amendments that require Internet providers to have a policy to cut off repeat infringers, or risk liability for their subscribers' piracy. The law doesn't explicitly say who counts as a repeat infringer. The changes follow calls from U.S. rightsholders, and com",
+    "date": "Thu, 05 Nov 2026 07:22:30 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 8,
+    "matched_keywords": [
+      "copyright",
+      "rom",
       "piracy",
       "pirate"
     ]
@@ -55,10 +55,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
       "denuvo",
       "torrent",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -69,9 +69,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "copyright",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -82,9 +82,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "torrent",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -95,9 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "torrent",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -108,8 +108,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -120,8 +120,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -132,8 +132,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -144,8 +144,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -156,9 +156,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
+      "copyright",
       "pirate",
-      "torrent",
-      "copyright"
+      "torrent"
     ]
   },
   {
@@ -175,15 +175,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Meta Employees &#8216;Interacted&#8217; With Pirated Copies of Adult Films, Filing Shows",
+    "title": "Mexico&#8217;s Senate Approves ISP Rules to Disconnect Persistent Online Pirates",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Thu, 05 Nov 2026 07:22:30 +0000",
+    "date": "Fri, 06 Nov 2026 08:34:45 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -194,8 +194,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -218,8 +218,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -247,10 +247,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Sensor Tower: GTA 6 pre-orders almost reach 8m, 74% bought on PlayStation 5",
+    "title": "Jobs roundup: November | Nordisk Games appoints Stefanía Halldórsdóttir as CEO and Ásgeir Kröyer as CFO",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 05 Nov 2026 14:13:50 +0000",
+    "date": "Fri, 06 Nov 2026 13:53:10 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -302,17 +302,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "CI Games secures $32 million loan to finish and self-publish Lords of the Fallen 2",
-    "link": "https://www.gamesindustry.biz/saudi-backed-kingdom-of-gaming-event-delayed-to-2027",
-    "description": "Kingdom of Gaming, a new Saudi government-backed games industry event, has been pushed back from December to an unspecified date in 2027. Read more",
-    "date": "Mon, 02 Nov 2026 21:28:03 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
     "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
     "description": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown s",
@@ -346,19 +335,28 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"It's such a massively underserved market in the gaming industry\" – The creators of Dressmaker on why more games should be aimed at women",
-    "link": "https://www.gamesindustry.biz/sensor-tower-gta-6-pre-orders-almost-reach-8m-74-bought-on-playstation-5",
-    "description": "Grand Theft Auto 6 is two weeks away, and the highly anticipated title has nearly reached eight million pre-orders, according to recent data. Read more",
-    "date": "Thu, 05 Nov 2026 13:15:00 +0000",
+    "title": "Sega Q2 results exceed expectations, driven by surge in operating income for pachislot and pachinko machines",
+    "link": "https://www.gamesindustry.biz/jobs-roundup-november-nordisk-games-appoints-stefania-halldorsdottir-as-ceo-and-asgeir-kroyer-as-cfo",
+    "description": "It can be difficult keeping track of the various comings and goings in the games industry, which is why we compile them in semi-regular round-ups. Read more",
+    "date": "Fri, 06 Nov 2026 11:30:10 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "PlayStation raises full-year forecast after revenue growth in network services and first-party software",
-    "link": "https://www.gamesindustry.biz/ign-entertainment-promotes-alex-simmons-to-lead-editorial-across-its-portfolio-with-wesley-yin-poole-overseeing-ign",
-    "description": "IGN Entertainment, the parent company of GamesIndustry.biz, has appointed Alex Simmons as VP, Editorial and Group Editor-in-Chief, overseeing the firm&rsquo;s entire portfolio of editorial brands. Read more",
-    "date": "Thu, 05 Nov 2026 11:55:30 +0000",
+    "title": "How to get investment for your video game in 2026",
+    "link": "https://www.gamesindustry.biz/unity-reportedly-in-acquisition-talks-with-silver-lake-and-public-investment-fund-two-firms-involved-in-eas-55bn-buyout",
+    "description": "Unity has reportedly engaged in acquisition talks with private equity firm Silver Lake and Saudi Arabia's Public Investment Fund (PIF), both of which acquired  Electronic Arts for $55 billion earlier this year. Read more",
+    "date": "Fri, 06 Nov 2026 07:55:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Investment firm Denmu closes oversubscribed debut fund, surpassing $50 million target",
+    "link": "https://www.gamesindustry.biz/how-to-get-investment-for-your-video-game-in-2026",
+    "description": "GamesIndustry.biz hosted a panel during Game Republic's Investment Summit at MCM Comic Con in London on October 23, where editorial director Jon Hicks talked to Lirui Ding (principal at Transcend Fund), Nick Cavander (senior portfolio manager at Creative UK), and Cassia Curran (founder of Curran Gam",
+    "date": "Thu, 05 Nov 2026 16:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
