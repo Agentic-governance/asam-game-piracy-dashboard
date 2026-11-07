@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-06 14:05 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-07 12:49 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-06T14:05:03.935320",
+  fetched_at: "2026-11-07T12:49:10.172822",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 13,
     "matched_keywords": [
+      "crack",
       "rom",
       "dmca",
-      "pirate",
       "piracy",
-      "crack"
+      "pirate"
     ]
   },
   {
@@ -27,10 +27,10 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "rom",
-      "copyright",
-      "pirate",
       "piracy",
-      "torrent"
+      "pirate",
+      "torrent",
+      "copyright"
     ]
   },
   {
@@ -41,10 +41,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "copyright",
+      "pirate",
       "rom",
       "piracy",
-      "pirate"
+      "copyright"
     ]
   },
   {
@@ -56,9 +56,9 @@ const ARIA_NEWS = {
     "relevance_score": 8,
     "matched_keywords": [
       "denuvo",
-      "torrent",
+      "pirate",
       "rom",
-      "pirate"
+      "torrent"
     ]
   },
   {
@@ -69,9 +69,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "copyright",
+      "pirate",
       "piracy",
-      "pirate"
+      "copyright"
     ]
   },
   {
@@ -82,9 +82,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "pirate",
       "torrent",
-      "piracy",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -95,9 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "pirate",
       "torrent",
-      "piracy",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -108,8 +108,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -120,8 +120,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -132,8 +132,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -144,8 +144,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -156,9 +156,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "copyright",
       "pirate",
-      "torrent"
+      "torrent",
+      "copyright"
     ]
   },
   {
@@ -169,8 +169,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
       "rom",
+      "torrent",
       "piracy"
     ]
   },
@@ -182,8 +182,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -194,8 +194,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -206,8 +206,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "dmca"
+      "dmca",
+      "copyright"
     ]
   },
   {
@@ -218,8 +218,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -247,10 +247,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Jobs roundup: November | Nordisk Games appoints Stefanía Halldórsdóttir as CEO and Ásgeir Kröyer as CFO",
+    "title": "Elections signal cultural shifts that no creative industry can dare to ignore | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 06 Nov 2026 13:53:10 +0000",
+    "date": "Fri, 06 Nov 2026 16:10:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -335,28 +335,28 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "SAG-AFTRA launches new video game agreement enabling devs to hire professional actors for demos and vertical slices",
+    "link": "https://www.gamesindustry.biz/elections-signal-cultural-shifts-that-no-creative-industry-can-dare-to-ignore-opinion",
+    "description": "There is a perfectly logical way in which you can look at an election result &ndash; even a truly seismic election result &ndash; and say that it is largely irrelevant to the business decision-making of the games industry. Elections do not change your customer demographics; all of Washington or West",
+    "date": "Fri, 06 Nov 2026 14:50:40 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Jobs roundup: November | Nordisk Games appoints Stefanía Halldórsdóttir as CEO and Ásgeir Kröyer as CFO",
+    "link": "https://www.gamesindustry.biz/sag-aftra-launches-new-video-game-agreement-enabling-devs-to-hire-professional-actors-for-demos-and-vertical-slices",
+    "description": "SAG-AFTRA has introduced a video game agreement for pre-funding pitches, allowing creators to use professional actors earlier in development. Read more",
+    "date": "Fri, 06 Nov 2026 13:53:10 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Sega Q2 results exceed expectations, driven by surge in operating income for pachislot and pachinko machines",
     "link": "https://www.gamesindustry.biz/jobs-roundup-november-nordisk-games-appoints-stefania-halldorsdottir-as-ceo-and-asgeir-kroyer-as-cfo",
     "description": "It can be difficult keeping track of the various comings and goings in the games industry, which is why we compile them in semi-regular round-ups. Read more",
     "date": "Fri, 06 Nov 2026 11:30:10 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "How to get investment for your video game in 2026",
-    "link": "https://www.gamesindustry.biz/unity-reportedly-in-acquisition-talks-with-silver-lake-and-public-investment-fund-two-firms-involved-in-eas-55bn-buyout",
-    "description": "Unity has reportedly engaged in acquisition talks with private equity firm Silver Lake and Saudi Arabia's Public Investment Fund (PIF), both of which acquired  Electronic Arts for $55 billion earlier this year. Read more",
-    "date": "Fri, 06 Nov 2026 07:55:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Investment firm Denmu closes oversubscribed debut fund, surpassing $50 million target",
-    "link": "https://www.gamesindustry.biz/how-to-get-investment-for-your-video-game-in-2026",
-    "description": "GamesIndustry.biz hosted a panel during Game Republic's Investment Summit at MCM Comic Con in London on October 23, where editorial director Jon Hicks talked to Lirui Ding (principal at Transcend Fund), Nick Cavander (senior portfolio manager at Creative UK), and Cassia Curran (founder of Curran Gam",
-    "date": "Thu, 05 Nov 2026 16:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
