@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-07 12:49 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-08 13:09 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-07T12:49:10.172822",
+  fetched_at: "2026-11-08T13:09:54.827809",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 13,
     "matched_keywords": [
-      "crack",
-      "rom",
       "dmca",
       "piracy",
-      "pirate"
+      "pirate",
+      "crack",
+      "rom"
     ]
   },
   {
@@ -26,11 +26,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
+      "copyright",
       "piracy",
       "pirate",
-      "torrent",
-      "copyright"
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -41,24 +41,23 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
-      "rom",
+      "copyright",
       "piracy",
-      "copyright"
+      "pirate",
+      "rom"
     ]
   },
   {
-    "title": "Court Approves ‘voices38’ Subpoenas After Denuvo Drops Payment and Login Data Requests",
-    "link": "https://torrentfreak.com/judge-orders-meta-to-name-employees-who-approved-torrenting-annas-archive-and-libgen/",
-    "description": "Meta will have to name the people who greenlit its torrenting of pirated books. A federal magistrate judge has ordered the company to identify everyone who approved sourcing books from LibGen and Anna’s Archive. This goes beyond the employees who ran the downloads and includes whoever decided whethe",
-    "date": "Mon, 19 Oct 2026 08:09:47 +0000",
+    "title": "Inside a French Piracy Blocklist: Expired Domains, a Seized Site, and Hong Kong Servers",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Sat, 07 Nov 2026 13:36:53 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 8,
+    "relevance_score": 7,
     "matched_keywords": [
-      "denuvo",
-      "pirate",
-      "rom",
-      "torrent"
+      "seized",
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -69,9 +68,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "copyright",
       "piracy",
-      "copyright"
+      "pirate"
     ]
   },
   {
@@ -82,9 +81,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "piracy",
       "torrent",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -95,9 +94,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "piracy",
       "torrent",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -108,8 +107,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -120,8 +119,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -132,8 +131,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -144,8 +143,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -156,9 +155,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "pirate",
+      "copyright",
       "torrent",
-      "copyright"
+      "pirate"
     ]
   },
   {
@@ -170,20 +169,20 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "rom",
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
     "title": "Mexico&#8217;s Senate Approves ISP Rules to Disconnect Persistent Online Pirates",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/inside-a-french-piracy-blocklist-expired-domains-a-seized-site-and-hong-kong-servers/",
+    "description": "In May, a Paris court ordered DNS resolvers to block six domains that streamed pirated tennis matches. After a series of quiet, unannounced expansions, the list has since grown to 118. This includes two domain names that now belong to TorrentFreak. Notably, no domain names have been taken off the li",
     "date": "Fri, 06 Nov 2026 08:34:45 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -194,8 +193,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -218,8 +217,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -230,8 +229,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -242,8 +241,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
