@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-08 13:09 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-09 15:55 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-08T13:09:54.827809",
+  fetched_at: "2026-11-09T15:55:53.485693",
   item_count: 30,
   items: [
   {
@@ -12,25 +12,26 @@ const ARIA_NEWS = {
     "relevance_score": 13,
     "matched_keywords": [
       "dmca",
-      "piracy",
-      "pirate",
       "crack",
-      "rom"
+      "pirate",
+      "rom",
+      "piracy"
     ]
   },
   {
-    "title": "Ex-Meta Researcher Torrented Pirated Books Dataset, Deleted It &#8216;Due to All This Litigation&#8217;",
+    "title": "Inside a French Piracy Blocklist: Expired Domains, a Seized Site, and Hong Kong Servers",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Spider-Man: Brand New Day' tops the chart, followed by 'Verity.' 'The Dog Stars' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sat, 31 Oct 2026 11:55:12 +0000",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Resident Evil' tops the chart, followed by 'The Odyssey.' 'Heart of the Beast' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sat, 07 Nov 2026 13:36:53 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 9,
+    "relevance_score": 12,
     "matched_keywords": [
-      "copyright",
-      "piracy",
+      "torrent",
       "pirate",
+      "seized",
+      "piracy",
       "rom",
-      "torrent"
+      "copyright"
     ]
   },
   {
@@ -41,23 +42,23 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
+      "rom",
       "copyright",
-      "piracy",
       "pirate",
-      "rom"
+      "piracy"
     ]
   },
   {
-    "title": "Inside a French Piracy Blocklist: Expired Domains, a Seized Site, and Hong Kong Servers",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Sat, 07 Nov 2026 13:36:53 +0000",
+    "title": "Ex-Meta Researcher Torrented Pirated Books Dataset, Deleted It &#8216;Due to All This Litigation&#8217;",
+    "link": "https://torrentfreak.com/dutch-court-orders-isp-to-block-z-library-and-oceanofpdf/",
+    "description": "A Dutch court has ordered Internet provider KPN to block shadow libraries Z-Library and OceanofPDF. The dynamic blocking order, requested by anti-piracy group BREIN, also covers new domains, proxies, and mirrors. Back in 2024, BREIN already said that it planned to target Z-Library if the site stayed",
+    "date": "Sat, 31 Oct 2026 11:55:12 +0000",
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "seized",
-      "piracy",
-      "copyright"
+      "torrent",
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -69,8 +70,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "copyright",
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -81,9 +82,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "torrent",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -94,21 +95,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "torrent",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 11/02/2026",
-    "link": "https://torrentfreak.com/dutch-court-orders-isp-to-block-z-library-and-oceanofpdf/",
-    "description": "A Dutch court has ordered Internet provider KPN to block shadow libraries Z-Library and OceanofPDF. The dynamic blocking order, requested by anti-piracy group BREIN, also covers new domains, proxies, and mirrors. Back in 2024, BREIN already said that it planned to target Z-Library if the site stayed",
-    "date": "Sun, 01 Nov 2026 23:09:40 +0000",
+    "title": "Top 10 Most Pirated Movies of The Week – 11/09/2026",
+    "link": "https://torrentfreak.com/movistar-blocks-its-own-support-forum-under-laliga-anti-piracy-order/",
+    "description": "Spain's court-ordered piracy blocking regime blocked the official customer support forum of Internet provider Movistar on Saturday night. A blocking notice referenced a ruling that LaLiga obtained together with the company that runs the Movistar Plus+ streaming service. On Sunday, the forum moved fr",
+    "date": "Sun, 08 Nov 2026 23:09:40 +0000",
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -119,8 +120,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -131,8 +132,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -143,8 +144,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -155,8 +156,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "copyright",
       "torrent",
+      "copyright",
       "pirate"
     ]
   },
@@ -169,8 +170,20 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "rom",
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Movistar Blocks Its Own Support Forum Under LaLiga Anti-Piracy Order",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Mon, 09 Nov 2026 09:36:47 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -229,27 +242,15 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "piracy",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
-    "title": "Judge Orders Meta to Name Employees Who Approved Torrenting Anna’s Archive and LibGen",
-    "link": "https://torrentfreak.com/vpns-at-risk-tech-coalition-pushes-back-on-piracy-blocking-duties-for-vpns/",
-    "description": "A new report published by the Internet Infrastructure Coalition (i2Coalition) warns that poorly targeted VPN regulation can weaken the security infrastructure everyone depends on. The group, whose members include VPN providers, points to piracy blocking orders against VPNs in France, while U.S. lawm",
-    "date": "Tue, 20 Oct 2026 09:20:22 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "piracy",
-      "torrent"
-    ]
-  },
-  {
-    "title": "Elections signal cultural shifts that no creative industry can dare to ignore | Opinion",
+    "title": "Will Grand Theft Auto 6 break the internet?",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 06 Nov 2026 16:10:00 +0000",
+    "date": "Mon, 09 Nov 2026 15:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -261,39 +262,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/its-such-a-massively-underserved-market-in-the-gaming-industry-the-creators-of-dressmaker-on-why-more-games-should-be-aimed-at-women",
     "description": "You may have seen enthusiastic posts about Dressmaker doing the rounds on social media. It's yet another example of an indie game blowing up on Steam, seemingly out of nowhere: Video Game Insights estimates that Dressmaker has sold over 482,000 units since its release on September 21. Read more",
     "date": "Thu, 05 Nov 2026 12:23:50 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "\"I realised I might only have time to make one more game, so I wanted to try something new\" – Tekken director Katsuhiro Harada on starting VS Studio",
-    "link": "https://www.gamesindustry.biz/meet-the-uks-2026-video-game-bafta-breakthroughs",
-    "description": "BAFTA has announced its annual list of Breakthroughs: 21 promising creatives in UK film, games, and television who will receive career guidance and access to industry networking events, as well as full BAFTA membership. Read more",
-    "date": "Wed, 04 Nov 2026 13:30:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Advertising Standards Authority bans mobile ads from King, Scopely, and others for misrepresenting gameplay",
-    "link": "https://www.gamesindustry.biz/i-realised-i-might-only-have-time-to-make-one-more-game-so-i-wanted-to-try-something-new-tekken-director-katsuhiro-harada-on-starting-vs-studio",
-    "description": "When Katsuhiro Harada announced his departure from Bandai Namco last December after more than three decades, fighting game fans were left dejected. Many feared the retirement of the driving force behind Tekken would deprive the genre of one its remaining greats, particularly so soon after the passin",
-    "date": "Wed, 04 Nov 2026 10:43:47 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Ubisoft reportedly seeking to acquire Arkane Lyon from Xbox",
-    "link": "https://www.gamesindustry.biz/advertising-standards-authority-bans-mobile-ads-from-king-scopely-and-others-for-misrepresenting-gameplay",
-    "description": "The UK Advertising Standards Authority (ASA) has banned mobile ads from developers such as King and Scopely for misleading consumers with non-representative gameplay. Read more",
-    "date": "Wed, 04 Nov 2026 08:35:49 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -334,6 +302,42 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Thanks to GTA 6, millions of people are about to discover what a manatee is | Opinion",
+    "link": "https://www.gamesindustry.biz/will-grand-theft-auto-6-break-the-internet",
+    "description": "Back in September 2025, the launch of Hollow Knight: Silksong crashed the digital storefronts of Nintendo, PlayStation, Xbox, and Steam, as players who had waited over eight years for a follow-up to 2017's Hollow Knight rushed to download the highly anticipated sequel. Read more",
+    "date": "Mon, 09 Nov 2026 12:27:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Star Wars Zero Company developer Bit Reactor has laid off an unspecified number of people",
+    "link": "https://www.gamesindustry.biz/thanks-to-gta-6-millions-of-people-are-about-to-discover-what-a-manatee-is-opinion",
+    "description": "Alex Avard is a project manager at Playing for the Planet, working with the alliance's 54 members across decarbonisation, storytelling, and more to facilitate collaborations on projects such as its Carbon Calculator, Sustainable Games Events Guide, and recent report on climate storytelling, Beyond t",
+    "date": "Mon, 09 Nov 2026 11:29:50 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "German Games Industry Association warns the EU KIDS Act could undermine existing age-rating systems for video games",
+    "link": "https://www.gamesindustry.biz/star-wars-zero-company-developer-bit-reactor-has-laid-off-an-unspecified-number-of-people",
+    "description": "Bit Reactor furloughed \"many of its workers\" ahead of the release of the turn-based tactics game Star Wars Zero Company in August, before starting the process of returning furloughed staff to work in October. Now, it has emerged that an unspecified number of workers at the developer have been laid o",
+    "date": "Mon, 09 Nov 2026 09:43:50 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Elections signal cultural shifts that no creative industry can dare to ignore | Opinion",
+    "link": "https://www.gamesindustry.biz/german-games-industry-association-warns-the-eu-kids-act-could-undermine-existing-age-rating-systems-for-video-games",
+    "description": "Game, the German Games Industry Association, has warned that the EU KIDS Act &ndash; which was unveiled in draft form in September and which is likely to have sweeping repercussions for game developers &ndash; could override well-established age-rating systems at the national level. Read more",
+    "date": "Fri, 06 Nov 2026 16:10:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "SAG-AFTRA launches new video game agreement enabling devs to hire professional actors for demos and vertical slices",
     "link": "https://www.gamesindustry.biz/elections-signal-cultural-shifts-that-no-creative-industry-can-dare-to-ignore-opinion",
     "description": "There is a perfectly logical way in which you can look at an election result &ndash; even a truly seismic election result &ndash; and say that it is largely irrelevant to the business decision-making of the games industry. Elections do not change your customer demographics; all of Washington or West",
@@ -347,15 +351,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/sag-aftra-launches-new-video-game-agreement-enabling-devs-to-hire-professional-actors-for-demos-and-vertical-slices",
     "description": "SAG-AFTRA has introduced a video game agreement for pre-funding pitches, allowing creators to use professional actors earlier in development. Read more",
     "date": "Fri, 06 Nov 2026 13:53:10 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Sega Q2 results exceed expectations, driven by surge in operating income for pachislot and pachinko machines",
-    "link": "https://www.gamesindustry.biz/jobs-roundup-november-nordisk-games-appoints-stefania-halldorsdottir-as-ceo-and-asgeir-kroyer-as-cfo",
-    "description": "It can be difficult keeping track of the various comings and goings in the games industry, which is why we compile them in semi-regular round-ups. Read more",
-    "date": "Fri, 06 Nov 2026 11:30:10 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
