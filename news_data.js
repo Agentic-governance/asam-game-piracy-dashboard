@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-09 15:55 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-10 14:43 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-09T15:55:53.485693",
+  fetched_at: "2026-11-10T14:43:18.434917",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 13,
     "matched_keywords": [
-      "dmca",
       "crack",
-      "pirate",
+      "piracy",
+      "dmca",
       "rom",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -26,12 +26,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "torrent",
-      "pirate",
-      "seized",
+      "copyright",
       "piracy",
+      "torrent",
       "rom",
-      "copyright"
+      "seized",
+      "pirate"
     ]
   },
   {
@@ -42,10 +42,23 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "rom",
       "copyright",
-      "pirate",
-      "piracy"
+      "piracy",
+      "rom",
+      "pirate"
+    ]
+  },
+  {
+    "title": "Pirate Library WeLib Hit With $19.5m Default Judgment and Domain Takedown Order",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Tue, 10 Nov 2026 09:36:20 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "copyright",
+      "takedown",
+      "pirate"
     ]
   },
   {
@@ -57,8 +70,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "torrent",
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -70,8 +83,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "copyright",
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -83,8 +96,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "torrent",
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -96,8 +109,20 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "torrent",
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
+    ]
+  },
+  {
+    "title": "Movistar Blocks Its Own Support Forum Under LaLiga Anti-Piracy Order",
+    "link": "https://torrentfreak.com/pirate-library-welib-hit-with-19-5m-judgment-and-domain-takedown-order/",
+    "description": "A New York federal judge has awarded thirteen major publishers $19.5 million in damages in their lawsuit against pirate library WeLib. The default judgment also orders registries, registrars and hosting providers, including Cloudflare and Njalla, to take the site's domains offline. Whether the publi",
+    "date": "Mon, 09 Nov 2026 09:36:47 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -108,8 +133,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -120,8 +145,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -132,20 +157,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "‘VPNs at Risk’: Tech Coalition Pushes Back on Piracy Blocking Duties for VPNs",
-    "link": "https://torrentfreak.com/dns-resolver-quad9-will-leave-france-after-court-orders-piracy-blocking-penalty/",
-    "description": "Quad9 is leaving France over pirate site blocking orders, which makes it the second DNS resolver to leave the country. Quad9 will stop serving French users on November 24, after a Paris court set a €1,000 daily penalty for not blocking pirate tennis streams. Faced with this order and roughly 20 othe",
-    "date": "Thu, 22 Oct 2026 06:35:05 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -156,8 +169,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
       "copyright",
+      "torrent",
       "pirate"
     ]
   },
@@ -169,21 +182,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "rom",
       "torrent",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Movistar Blocks Its Own Support Forum Under LaLiga Anti-Piracy Order",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Mon, 09 Nov 2026 09:36:47 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "copyright",
-      "piracy"
+      "piracy",
+      "rom"
     ]
   },
   {
@@ -247,21 +248,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Will Grand Theft Auto 6 break the internet?",
+    "title": "Krafton Q3 revenue rises 11.6% despite decreases in PC and console segments",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Mon, 09 Nov 2026 15:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "IGN Entertainment promotes Alex Simmons to lead editorial across its portfolio, with Wesley Yin-Poole overseeing IGN",
-    "link": "https://www.gamesindustry.biz/its-such-a-massively-underserved-market-in-the-gaming-industry-the-creators-of-dressmaker-on-why-more-games-should-be-aimed-at-women",
-    "description": "You may have seen enthusiastic posts about Dressmaker doing the rounds on social media. It's yet another example of an indie game blowing up on Steam, seemingly out of nowhere: Video Game Insights estimates that Dressmaker has sold over 482,000 units since its release on September 21. Read more",
-    "date": "Thu, 05 Nov 2026 12:23:50 +0000",
+    "date": "Tue, 10 Nov 2026 14:27:40 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -302,55 +292,64 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Bandai Namco closes Reflector Entertainment, expects to post €21m loss in Q3 as a result",
+    "link": "https://www.gamesindustry.biz/krafton-q3-revenue-rises-116-despite-decreases-in-pc-and-console-segments",
+    "description": "Krafton has reported a 35.5% drop in operating profit to ₩225 billion ($168.1 million) for its third quarter, which it attributed to costs \"associated with participation in Gamescom and other activities. Read more",
+    "date": "Tue, 10 Nov 2026 11:46:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Skydance announces layoffs to games division following $111bn merger",
+    "link": "https://www.gamesindustry.biz/bandai-namco-closes-reflector-entertainment-expects-to-post-21m-loss-in-q3-as-a-result",
+    "description": "Bandai Namco is closing Unknown 9: Awakening developer Reflector Entertainment. Read more",
+    "date": "Tue, 10 Nov 2026 10:34:40 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "House House clarifies use of AI tools in Big Walk's \"final stage of development\"",
+    "link": "https://www.gamesindustry.biz/skydance-announces-layoffs-to-games-division-following-111bn-merger",
+    "description": "Skydance has implemented an undisclosed number of cuts to its games division. Read more",
+    "date": "Tue, 10 Nov 2026 09:07:50 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Take-Two Q2 net bookings fall 18% to $1.6bn as NBA 2K27 misses forecast but GTA 6 pre-orders are \"tracking far in excess\" of expectations",
+    "link": "https://www.gamesindustry.biz/theres-no-such-thing-as-easy-money-in-our-business-strauss-zelnick-on-gta-6-bioshock-take-twos-acquisition-plans-and-reviving-old-ip",
+    "description": "Take-Two Interactive reported the earnings for its second quarter today, and GamesIndustry.biz had a chance to talk with CEO Strauss Zelnick about the results, as well as where the company is headed. Read more",
+    "date": "Mon, 09 Nov 2026 21:22:20 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "PlayStation cancels Ratchet &amp; Clank: Ranger Rumble a year into soft launch",
+    "link": "https://www.gamesindustry.biz/tripwire-interactive-lays-off-36",
+    "description": "Killing Floor and Maneater developer Tripwire Interactive has laid off 36 staff. Read more",
+    "date": "Mon, 09 Nov 2026 17:37:10 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Will Grand Theft Auto 6 break the internet?",
+    "link": "https://www.gamesindustry.biz/playstation-cancels-ratchet-clank-ranger-rumble-a-year-into-soft-launch",
+    "description": "PlayStation has canceled Ratchet & Clank: Ranger Rumble, its free-to-play mobile spin-off of the platforming series, a year after it entered soft launch. Read more",
+    "date": "Mon, 09 Nov 2026 15:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Thanks to GTA 6, millions of people are about to discover what a manatee is | Opinion",
     "link": "https://www.gamesindustry.biz/will-grand-theft-auto-6-break-the-internet",
     "description": "Back in September 2025, the launch of Hollow Knight: Silksong crashed the digital storefronts of Nintendo, PlayStation, Xbox, and Steam, as players who had waited over eight years for a follow-up to 2017's Hollow Knight rushed to download the highly anticipated sequel. Read more",
     "date": "Mon, 09 Nov 2026 12:27:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Star Wars Zero Company developer Bit Reactor has laid off an unspecified number of people",
-    "link": "https://www.gamesindustry.biz/thanks-to-gta-6-millions-of-people-are-about-to-discover-what-a-manatee-is-opinion",
-    "description": "Alex Avard is a project manager at Playing for the Planet, working with the alliance's 54 members across decarbonisation, storytelling, and more to facilitate collaborations on projects such as its Carbon Calculator, Sustainable Games Events Guide, and recent report on climate storytelling, Beyond t",
-    "date": "Mon, 09 Nov 2026 11:29:50 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "German Games Industry Association warns the EU KIDS Act could undermine existing age-rating systems for video games",
-    "link": "https://www.gamesindustry.biz/star-wars-zero-company-developer-bit-reactor-has-laid-off-an-unspecified-number-of-people",
-    "description": "Bit Reactor furloughed \"many of its workers\" ahead of the release of the turn-based tactics game Star Wars Zero Company in August, before starting the process of returning furloughed staff to work in October. Now, it has emerged that an unspecified number of workers at the developer have been laid o",
-    "date": "Mon, 09 Nov 2026 09:43:50 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Elections signal cultural shifts that no creative industry can dare to ignore | Opinion",
-    "link": "https://www.gamesindustry.biz/german-games-industry-association-warns-the-eu-kids-act-could-undermine-existing-age-rating-systems-for-video-games",
-    "description": "Game, the German Games Industry Association, has warned that the EU KIDS Act &ndash; which was unveiled in draft form in September and which is likely to have sweeping repercussions for game developers &ndash; could override well-established age-rating systems at the national level. Read more",
-    "date": "Fri, 06 Nov 2026 16:10:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "SAG-AFTRA launches new video game agreement enabling devs to hire professional actors for demos and vertical slices",
-    "link": "https://www.gamesindustry.biz/elections-signal-cultural-shifts-that-no-creative-industry-can-dare-to-ignore-opinion",
-    "description": "There is a perfectly logical way in which you can look at an election result &ndash; even a truly seismic election result &ndash; and say that it is largely irrelevant to the business decision-making of the games industry. Elections do not change your customer demographics; all of Washington or West",
-    "date": "Fri, 06 Nov 2026 14:50:40 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Jobs roundup: November | Nordisk Games appoints Stefanía Halldórsdóttir as CEO and Ásgeir Kröyer as CFO",
-    "link": "https://www.gamesindustry.biz/sag-aftra-launches-new-video-game-agreement-enabling-devs-to-hire-professional-actors-for-demos-and-vertical-slices",
-    "description": "SAG-AFTRA has introduced a video game agreement for pre-funding pitches, allowing creators to use professional actors earlier in development. Read more",
-    "date": "Fri, 06 Nov 2026 13:53:10 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
