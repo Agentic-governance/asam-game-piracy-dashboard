@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-10 14:43 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-11 13:58 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-10T14:43:18.434917",
+  fetched_at: "2026-11-11T13:58:25.212376",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,25 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 13,
     "matched_keywords": [
+      "pirate",
+      "dmca",
       "crack",
       "piracy",
+      "rom"
+    ]
+  },
+  {
+    "title": "Pirate Library WeLib Hit With $19.5m Default Judgment and Domain Takedown Order",
+    "link": "https://torrentfreak.com/nintendo-targets-picofly-switch-modchip-firmware-in-github-dmca-takedown/",
+    "description": "After taking down Switch emulators and hacking tools on GitHub for years, Nintendo is now going after modchip firmware. The gaming company sent a DMCA notice targeting firmware for modchips such as Picofly, SX Core and HWFLY, after which GitHub disabled 144 repositories. To back its claim, Nintendo ",
+    "date": "Tue, 10 Nov 2026 09:36:20 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 12,
+    "matched_keywords": [
+      "pirate",
       "dmca",
-      "rom",
-      "pirate"
+      "takedown",
+      "emulator"
     ]
   },
   {
@@ -26,12 +40,25 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "copyright",
-      "piracy",
-      "torrent",
-      "rom",
+      "pirate",
       "seized",
-      "pirate"
+      "piracy",
+      "rom",
+      "torrent",
+      "copyright"
+    ]
+  },
+  {
+    "title": "Nintendo Targets Picofly Switch Modchip Firmware in GitHub DMCA Takedown",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Wed, 11 Nov 2026 09:08:48 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 9,
+    "matched_keywords": [
+      "dmca",
+      "takedown",
+      "copyright"
     ]
   },
   {
@@ -42,23 +69,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "copyright",
-      "piracy",
+      "pirate",
       "rom",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Pirate Library WeLib Hit With $19.5m Default Judgment and Domain Takedown Order",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 10 Nov 2026 09:36:20 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "copyright",
-      "takedown",
-      "pirate"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -69,9 +83,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "pirate",
       "torrent",
-      "piracy",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -82,9 +96,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "copyright",
+      "pirate",
       "piracy",
-      "pirate"
+      "copyright"
     ]
   },
   {
@@ -95,9 +109,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "pirate",
       "torrent",
-      "piracy",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -108,9 +122,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "pirate",
       "torrent",
-      "piracy",
-      "pirate"
+      "piracy"
     ]
   },
   {
@@ -121,8 +135,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -133,8 +147,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -145,8 +159,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -157,8 +171,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -169,9 +183,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "copyright",
+      "pirate",
       "torrent",
-      "pirate"
+      "copyright"
     ]
   },
   {
@@ -195,8 +209,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -207,8 +221,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -231,27 +245,15 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
-    "title": "DNS Resolver Quad9 Will Leave France After Court Orders Piracy Blocking Penalty",
-    "link": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
-    "description": "A fresh academic paper on Z-Library cites a TorrentFreak article that doesn’t exist, and several other sources in the paper are also unfindable. The authors disclose that they used AI tools, which may explain what is going on. The use of AI in an academic paper on shadow libraries is also somewhat i",
-    "date": "Thu, 22 Oct 2026 16:51:02 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "torrent",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Krafton Q3 revenue rises 11.6% despite decreases in PC and console segments",
+    "title": "GTA 6 becomes most pre-ordered game on PlayStation and Xbox storefronts",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 10 Nov 2026 14:27:40 +0000",
+    "date": "Wed, 11 Nov 2026 12:10:40 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -281,15 +283,40 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "U.S. Soldier Gets 70 Months in Prison for AT&#038;T, Verizon Extortions",
-    "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
-    "description": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attac",
-    "date": "Fri, 25 Sep 2026 21:44:40 +0000",
-    "source": "KrebsOnSecurity",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "arrested"
-    ]
+    "title": "What the Digital Fairness Act means for the games industry",
+    "link": "https://www.gamesindustry.biz/gta-6-becomes-most-pre-ordered-game-on-playstation-and-xbox-storefronts",
+    "description": "Grand Theft Auto 6 has become the most pre-ordered game on the PlayStation Store and Microsoft Store. Read more",
+    "date": "Wed, 11 Nov 2026 11:29:10 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "PlayStation cancels live-service shooter Fairgames",
+    "link": "https://www.gamesindustry.biz/what-the-digital-fairness-act-means-for-the-games-industry",
+    "description": "After it was leaked earlier this week, the European Commission has formally presented its draft for the Digital Fairness Act today. If adopted, the Act will have a massive impact on the games sector, particularly where virtual currencies are involved. Read more",
+    "date": "Wed, 11 Nov 2026 10:40:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Mobile publisher Fortis Games shuts down, up to 440 workers affected",
+    "link": "https://www.gamesindustry.biz/playstation-cancels-live-service-shooter-fairgames",
+    "description": "PlayStation has cancelled Fairgames, the live-service shooter previously in development at its Montreal-based subsidiary Haven Studios. Read more",
+    "date": "Wed, 11 Nov 2026 09:10:30 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Krafton Q3 revenue rises 11.6% despite decreases in PC and console segments",
+    "link": "https://www.gamesindustry.biz/mobile-publisher-fortis-games-shuts-down-up-to-440-workers-affected",
+    "description": "Mobile publisher Fortis Games has announced its closure, impacting up to 440 employees. Read more",
+    "date": "Tue, 10 Nov 2026 14:27:40 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Bandai Namco closes Reflector Entertainment, expects to post €21m loss in Q3 as a result",
@@ -323,33 +350,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/theres-no-such-thing-as-easy-money-in-our-business-strauss-zelnick-on-gta-6-bioshock-take-twos-acquisition-plans-and-reviving-old-ip",
     "description": "Take-Two Interactive reported the earnings for its second quarter today, and GamesIndustry.biz had a chance to talk with CEO Strauss Zelnick about the results, as well as where the company is headed. Read more",
     "date": "Mon, 09 Nov 2026 21:22:20 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "PlayStation cancels Ratchet &amp; Clank: Ranger Rumble a year into soft launch",
-    "link": "https://www.gamesindustry.biz/tripwire-interactive-lays-off-36",
-    "description": "Killing Floor and Maneater developer Tripwire Interactive has laid off 36 staff. Read more",
-    "date": "Mon, 09 Nov 2026 17:37:10 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Will Grand Theft Auto 6 break the internet?",
-    "link": "https://www.gamesindustry.biz/playstation-cancels-ratchet-clank-ranger-rumble-a-year-into-soft-launch",
-    "description": "PlayStation has canceled Ratchet & Clank: Ranger Rumble, its free-to-play mobile spin-off of the platforming series, a year after it entered soft launch. Read more",
-    "date": "Mon, 09 Nov 2026 15:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Thanks to GTA 6, millions of people are about to discover what a manatee is | Opinion",
-    "link": "https://www.gamesindustry.biz/will-grand-theft-auto-6-break-the-internet",
-    "description": "Back in September 2025, the launch of Hollow Knight: Silksong crashed the digital storefronts of Nintendo, PlayStation, Xbox, and Steam, as players who had waited over eight years for a follow-up to 2017's Hollow Knight rushed to download the highly anticipated sequel. Read more",
-    "date": "Mon, 09 Nov 2026 12:27:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
