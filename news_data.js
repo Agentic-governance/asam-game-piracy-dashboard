@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-11 13:58 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-12 14:59 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-11T13:58:25.212376",
+  fetched_at: "2026-11-12T14:59:13.316298",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 13,
     "matched_keywords": [
-      "pirate",
       "dmca",
+      "pirate",
       "crack",
-      "piracy",
-      "rom"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -40,25 +40,25 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "torrent",
       "pirate",
       "seized",
-      "piracy",
       "rom",
-      "torrent",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
     "title": "Nintendo Targets Picofly Switch Modchip Firmware in GitHub DMCA Takedown",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/copyright-strike-for-hire-lawsuit-targets-service-over-fake-meta-takedowns/",
+    "description": "A rivalry between two Miami sellers of $120 dog breed photo books has been escalated to a Florida federal court. The lawsuit accuses a rival publisher of hiring an account-ban vendor, who allegedly weaponized Meta's copyright system by filing takedown notices in the target's own name. The takedown v",
     "date": "Wed, 11 Nov 2026 09:08:48 +0000",
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "copyright",
       "dmca",
-      "takedown",
-      "copyright"
+      "takedown"
     ]
   },
   {
@@ -70,9 +70,9 @@ const ARIA_NEWS = {
     "relevance_score": 8,
     "matched_keywords": [
       "pirate",
-      "rom",
+      "copyright",
       "piracy",
-      "copyright"
+      "rom"
     ]
   },
   {
@@ -84,8 +84,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -97,8 +97,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "piracy",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -110,21 +110,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "torrent",
-      "piracy"
-    ]
-  },
-  {
-    "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn’t Exist",
-    "link": "https://torrentfreak.com/framing-the-news-anti-piracy-press-release-turned-a-2016-raid-into-a-2026-story/",
-    "description": "In August, City of London Police and anti-piracy group FACT announced a six and a half year prison sentence for a 68-year-old pirate IPTV operator. Without dates or a service name in the release, some outlets reported it as a recent bust. Records obtained by TorrentFreak show the operation was raide",
-    "date": "Sat, 24 Oct 2026 07:55:15 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "pirate",
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -184,8 +171,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "pirate",
-      "torrent",
-      "copyright"
+      "copyright",
+      "torrent"
     ]
   },
   {
@@ -196,9 +183,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
       "piracy",
+      "torrent",
       "rom"
+    ]
+  },
+  {
+    "title": "Copyright-Strike-for-Hire: Lawsuit Targets Service Over Fake Meta Takedowns",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Thu, 12 Nov 2026 08:56:28 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
+      "takedown"
     ]
   },
   {
@@ -233,8 +232,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "dmca",
-      "copyright"
+      "copyright",
+      "dmca"
     ]
   },
   {
@@ -250,10 +249,54 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "GTA 6 becomes most pre-ordered game on PlayStation and Xbox storefronts",
+    "title": "Resident Evil Requiem wins four Golden Joystick Awards, including Ultimate and Console GOTY",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 11 Nov 2026 12:10:40 +0000",
+    "date": "Thu, 12 Nov 2026 14:42:10 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Eve Online maker Fenris Creations is adding a rendering technique to its open-source Carbon engine that promises more accurate shading and greater depth",
+    "link": "https://www.gamesindustry.biz/german-games-industry-association-warns-digital-fairness-act-could-cause-double-regulation-and-legal-uncertainty",
+    "description": "The German Games Industry Association (Game) has criticised the Digital Fairness Act (DFA), warning that the legislation creates \"double regulation and legal uncertainty\" that could significantly harm European developers. Read more",
+    "date": "Thu, 12 Nov 2026 14:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Black Forest Games spins out from THQ Nordic, co-founds indie studio group Third Signal",
+    "link": "https://www.gamesindustry.biz/eve-online-maker-fenris-creations-is-adding-a-rendering-technique-to-its-open-source-carbon-engine-that-promises-more-accurate-shading-and-greater-depth",
+    "description": "Having open-sourced its Carbon engine earlier this year, Eve Online creator Fenris Creations is making a sizeable addition to the tech in the form of CORTAO. Read more",
+    "date": "Thu, 12 Nov 2026 11:53:40 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Laid-off Id Software devs form employee-owned studio Hidden Horses",
+    "link": "https://www.gamesindustry.biz/black-forest-games-spins-out-from-thq-nordic-co-founds-indie-studio-group-third-signal",
+    "description": "Black Forest Games has separated from THQ Nordic through a management buyout and co-founded an independent game studio group, Third Signal. Read more",
+    "date": "Thu, 12 Nov 2026 10:17:40 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Lego Digital Play acquires ForthStar Games \"to bring Lego to the prominence it truly deserves on mobile\"",
+    "link": "https://www.gamesindustry.biz/fredrik-wester-steps-down-as-paradox-interactive-ceo",
+    "description": "Paradox Interactive CEO Fredrik Wester is stepping down, with deputy CEO Mattias Lilja assuming the role on January 4, 2027. Read more",
+    "date": "Wed, 11 Nov 2026 14:46:40 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -283,73 +326,37 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "German Games Industry Association warns Digital Fairness Act could cause \"double regulation and legal uncertainty\"",
+    "link": "https://www.gamesindustry.biz/resident-evil-requiem-wins-four-golden-joystick-awards-including-ultimate-and-console-goty",
+    "description": "The 44th Golden Joystick Awards took place last night, with Resident Evil Requiem winning four awards including Ultimate Game of the Year and Console Game of the Year. Read more",
+    "date": "Thu, 12 Nov 2026 14:36:10 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Fredrik Wester steps down as Paradox Interactive CEO",
+    "link": "https://www.gamesindustry.biz/laid-off-id-software-devs-form-employee-owned-studio-hidden-horses",
+    "description": "A group of  Id Software developers affected by  Xbox's mass layoffs have formed an independent, employee-owned studio called Hidden Horses. Read more",
+    "date": "Thu, 12 Nov 2026 08:34:30 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "GTA 6 becomes most pre-ordered game on PlayStation and Xbox storefronts",
+    "link": "https://www.gamesindustry.biz/lego-digital-play-acquires-forthstar-games-to-bring-lego-to-the-prominence-it-truly-deserves-on-mobile",
+    "description": "Lego Digital Play has acquired mobile studio ForthStar Games for an undisclosed sum. Read more",
+    "date": "Wed, 11 Nov 2026 12:10:40 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "What the Digital Fairness Act means for the games industry",
     "link": "https://www.gamesindustry.biz/gta-6-becomes-most-pre-ordered-game-on-playstation-and-xbox-storefronts",
     "description": "Grand Theft Auto 6 has become the most pre-ordered game on the PlayStation Store and Microsoft Store. Read more",
     "date": "Wed, 11 Nov 2026 11:29:10 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "PlayStation cancels live-service shooter Fairgames",
-    "link": "https://www.gamesindustry.biz/what-the-digital-fairness-act-means-for-the-games-industry",
-    "description": "After it was leaked earlier this week, the European Commission has formally presented its draft for the Digital Fairness Act today. If adopted, the Act will have a massive impact on the games sector, particularly where virtual currencies are involved. Read more",
-    "date": "Wed, 11 Nov 2026 10:40:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Mobile publisher Fortis Games shuts down, up to 440 workers affected",
-    "link": "https://www.gamesindustry.biz/playstation-cancels-live-service-shooter-fairgames",
-    "description": "PlayStation has cancelled Fairgames, the live-service shooter previously in development at its Montreal-based subsidiary Haven Studios. Read more",
-    "date": "Wed, 11 Nov 2026 09:10:30 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Krafton Q3 revenue rises 11.6% despite decreases in PC and console segments",
-    "link": "https://www.gamesindustry.biz/mobile-publisher-fortis-games-shuts-down-up-to-440-workers-affected",
-    "description": "Mobile publisher Fortis Games has announced its closure, impacting up to 440 employees. Read more",
-    "date": "Tue, 10 Nov 2026 14:27:40 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Bandai Namco closes Reflector Entertainment, expects to post €21m loss in Q3 as a result",
-    "link": "https://www.gamesindustry.biz/krafton-q3-revenue-rises-116-despite-decreases-in-pc-and-console-segments",
-    "description": "Krafton has reported a 35.5% drop in operating profit to ₩225 billion ($168.1 million) for its third quarter, which it attributed to costs \"associated with participation in Gamescom and other activities. Read more",
-    "date": "Tue, 10 Nov 2026 11:46:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Skydance announces layoffs to games division following $111bn merger",
-    "link": "https://www.gamesindustry.biz/bandai-namco-closes-reflector-entertainment-expects-to-post-21m-loss-in-q3-as-a-result",
-    "description": "Bandai Namco is closing Unknown 9: Awakening developer Reflector Entertainment. Read more",
-    "date": "Tue, 10 Nov 2026 10:34:40 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "House House clarifies use of AI tools in Big Walk's \"final stage of development\"",
-    "link": "https://www.gamesindustry.biz/skydance-announces-layoffs-to-games-division-following-111bn-merger",
-    "description": "Skydance has implemented an undisclosed number of cuts to its games division. Read more",
-    "date": "Tue, 10 Nov 2026 09:07:50 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Take-Two Q2 net bookings fall 18% to $1.6bn as NBA 2K27 misses forecast but GTA 6 pre-orders are \"tracking far in excess\" of expectations",
-    "link": "https://www.gamesindustry.biz/theres-no-such-thing-as-easy-money-in-our-business-strauss-zelnick-on-gta-6-bioshock-take-twos-acquisition-plans-and-reviving-old-ip",
-    "description": "Take-Two Interactive reported the earnings for its second quarter today, and GamesIndustry.biz had a chance to talk with CEO Strauss Zelnick about the results, as well as where the company is headed. Read more",
-    "date": "Mon, 09 Nov 2026 21:22:20 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
