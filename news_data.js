@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-12 14:59 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-13 14:25 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-12T14:59:13.316298",
+  fetched_at: "2026-11-13T14:25:01.244096",
   item_count: 30,
   items: [
   {
@@ -12,10 +12,10 @@ const ARIA_NEWS = {
     "relevance_score": 13,
     "matched_keywords": [
       "dmca",
-      "pirate",
       "crack",
-      "rom",
-      "piracy"
+      "piracy",
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "pirate",
       "dmca",
       "takedown",
-      "emulator"
+      "emulator",
+      "pirate"
     ]
   },
   {
@@ -41,11 +41,24 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "torrent",
-      "pirate",
       "seized",
-      "rom",
+      "piracy",
+      "pirate",
       "copyright",
-      "piracy"
+      "rom"
+    ]
+  },
+  {
+    "title": "Copyright-Strike-for-Hire: Lawsuit Targets Service Over Fake Meta Takedowns",
+    "link": "https://torrentfreak.com/game-repacker-dodi-retires-ahead-of-wedding-hands-site-to-new-team/",
+    "description": "Popular game repacker DODI is retiring, citing his wedding and a move to France, noting that running a pirate site is not an option there. He says the domains, hosting and accounts were already handed to a new repack team. Meanwhile, the game industry wants the U.S. to list DODI's site as a notoriou",
+    "date": "Thu, 12 Nov 2026 08:56:28 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 9,
+    "matched_keywords": [
+      "takedown",
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -56,9 +69,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
+      "takedown",
       "dmca",
-      "takedown"
+      "copyright"
     ]
   },
   {
@@ -69,10 +82,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
-      "copyright",
       "piracy",
-      "rom"
+      "rom",
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -83,9 +96,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "piracy",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -96,9 +109,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "piracy",
       "pirate",
-      "copyright",
-      "piracy"
+      "copyright"
     ]
   },
   {
@@ -109,9 +122,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "piracy",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -122,8 +135,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -134,8 +147,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -146,20 +159,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Framing the News: Anti-Piracy Press Release Turned a 2016 Raid Into a 2026 Story",
-    "link": "https://torrentfreak.com/meta-pitches-ai-sports-piracy-detector-in-notorious-markets-rebuttal/",
-    "description": "Meta informed the U.S. Trade Representative that it built an AI tool to predict whether a live stream is a pirated sports broadcast. The tool is featured in Meta’s rebuttal to this year’s “notorious markets” submissions, which also lists restrictions on Facebook Live. Cloud storage platform Mega, me",
-    "date": "Sun, 25 Oct 2026 08:23:04 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -170,9 +171,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
+      "torrent",
       "pirate",
-      "copyright",
-      "torrent"
+      "copyright"
     ]
   },
   {
@@ -189,18 +190,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Copyright-Strike-for-Hire: Lawsuit Targets Service Over Fake Meta Takedowns",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Thu, 12 Nov 2026 08:56:28 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "copyright",
-      "takedown"
-    ]
-  },
-  {
     "title": "Mexico&#8217;s Senate Approves ISP Rules to Disconnect Persistent Online Pirates",
     "link": "https://torrentfreak.com/inside-a-french-piracy-blocklist-expired-domains-a-seized-site-and-hong-kong-servers/",
     "description": "In May, a Paris court ordered DNS resolvers to block six domains that streamed pirated tennis matches. After a series of quiet, unannounced expansions, the list has since grown to 118. This includes two domain names that now belong to TorrentFreak. Notably, no domain names have been taken off the li",
@@ -208,8 +197,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -220,8 +209,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -232,8 +221,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "dmca"
+      "dmca",
+      "copyright"
     ]
   },
   {
@@ -244,15 +233,37 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
-    "title": "Resident Evil Requiem wins four Golden Joystick Awards, including Ultimate and Console GOTY",
+    "title": "Game Repacker DODI Retires Ahead of Wedding, Hands Site to New Team",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Fri, 13 Nov 2026 08:31:08 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "copyright"
+    ]
+  },
+  {
+    "title": "The Digital Fairness Act is a decade-long bill coming due | Opinion",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 12 Nov 2026 14:42:10 +0000",
+    "date": "Fri, 13 Nov 2026 13:42:30 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "GDC's Mark DeLoura addresses the event's dip in attendance in 2026 as he details the planned changes for 2027",
+    "link": "https://www.gamesindustry.biz/gdc-state-of-the-game-industry-report-40-of-developers-are-using-generative-ai-for-work",
+    "description": "40% of developers are using generative AI in their work, according to the latest State of the Game Industry report from the Game Developers Conference (GDC). Read more",
+    "date": "Thu, 12 Nov 2026 17:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -326,37 +337,28 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "German Games Industry Association warns Digital Fairness Act could cause \"double regulation and legal uncertainty\"",
-    "link": "https://www.gamesindustry.biz/resident-evil-requiem-wins-four-golden-joystick-awards-including-ultimate-and-console-goty",
-    "description": "The 44th Golden Joystick Awards took place last night, with Resident Evil Requiem winning four awards including Ultimate Game of the Year and Console Game of the Year. Read more",
-    "date": "Thu, 12 Nov 2026 14:36:10 +0000",
+    "title": "Steam's submission and approval backlog is forcing indie devs to delay game launches",
+    "link": "https://www.gamesindustry.biz/its-a-wild-situation-an-investor-and-publisher-perspective-on-the-rise-of-ai-copycats-the-discoverability-crisis-and-more",
+    "description": "GamesIndustry.biz attended the AI and Games Conference in London this week, where a publisher and investor panel discussed the problems and opportunities of AI when it comes to marketing, funding, and publishing games (the full talk will be available via the AI and Games Conference YouTube channel a",
+    "date": "Fri, 13 Nov 2026 12:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Fredrik Wester steps down as Paradox Interactive CEO",
-    "link": "https://www.gamesindustry.biz/laid-off-id-software-devs-form-employee-owned-studio-hidden-horses",
-    "description": "A group of  Id Software developers affected by  Xbox's mass layoffs have formed an independent, employee-owned studio called Hidden Horses. Read more",
-    "date": "Thu, 12 Nov 2026 08:34:30 +0000",
+    "title": "MapleStory franchise Q3 revenue rises 72%, drives overall growth for Nexon",
+    "link": "https://www.gamesindustry.biz/steams-submission-and-approval-backlog-is-forcing-indie-devs-to-delay-game-launches",
+    "description": "Several indie developers have had to postpone their game launches due to delays in Steam's game submission and approval process. Read more",
+    "date": "Fri, 13 Nov 2026 09:33:30 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "GTA 6 becomes most pre-ordered game on PlayStation and Xbox storefronts",
-    "link": "https://www.gamesindustry.biz/lego-digital-play-acquires-forthstar-games-to-bring-lego-to-the-prominence-it-truly-deserves-on-mobile",
-    "description": "Lego Digital Play has acquired mobile studio ForthStar Games for an undisclosed sum. Read more",
-    "date": "Wed, 11 Nov 2026 12:10:40 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "What the Digital Fairness Act means for the games industry",
-    "link": "https://www.gamesindustry.biz/gta-6-becomes-most-pre-ordered-game-on-playstation-and-xbox-storefronts",
-    "description": "Grand Theft Auto 6 has become the most pre-ordered game on the PlayStation Store and Microsoft Store. Read more",
-    "date": "Wed, 11 Nov 2026 11:29:10 +0000",
+    "title": "GDC State of the Game Industry report: 40% of developers are using generative AI for work",
+    "link": "https://www.gamesindustry.biz/nvidias-jensen-huang-resigns-as-ceo-amid-reports-of-affairs-with-alleged-chinese-spy-and-two-employees",
+    "description": "Nvidia co-founder Jensen Huang has resigned as president, CEO, and board member. Read more",
+    "date": "Thu, 12 Nov 2026 17:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
