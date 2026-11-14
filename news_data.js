@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-13 14:25 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-14 13:21 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-13T14:25:01.244096",
+  fetched_at: "2026-11-14T13:21:02.993057",
   item_count: 30,
   items: [
   {
@@ -12,10 +12,10 @@ const ARIA_NEWS = {
     "relevance_score": 13,
     "matched_keywords": [
       "dmca",
-      "crack",
+      "rom",
       "piracy",
-      "pirate",
-      "rom"
+      "crack",
+      "pirate"
     ]
   },
   {
@@ -27,9 +27,9 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "dmca",
-      "takedown",
       "emulator",
-      "pirate"
+      "pirate",
+      "takedown"
     ]
   },
   {
@@ -40,12 +40,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "torrent",
       "seized",
+      "rom",
+      "copyright",
       "piracy",
       "pirate",
-      "copyright",
-      "rom"
+      "torrent"
     ]
   },
   {
@@ -56,9 +56,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
+      "copyright",
       "pirate",
-      "copyright"
+      "takedown"
     ]
   },
   {
@@ -69,9 +69,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
       "dmca",
-      "copyright"
+      "copyright",
+      "takedown"
     ]
   },
   {
@@ -82,10 +82,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "piracy",
       "rom",
-      "pirate",
-      "copyright"
+      "copyright",
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -97,8 +97,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -109,9 +109,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "copyright",
       "piracy",
-      "pirate",
-      "copyright"
+      "pirate"
     ]
   },
   {
@@ -123,8 +123,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "piracy",
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -171,9 +171,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "torrent",
+      "copyright",
       "pirate",
-      "copyright"
+      "torrent"
     ]
   },
   {
@@ -184,9 +184,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
+      "rom",
       "piracy",
-      "torrent",
-      "rom"
+      "torrent"
     ]
   },
   {
@@ -197,8 +197,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -209,8 +209,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -233,8 +233,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -249,10 +249,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "The Digital Fairness Act is a decade-long bill coming due | Opinion",
+    "title": "How to protect your IP against the army of AI clones",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 13 Nov 2026 13:42:30 +0000",
+    "date": "Fri, 13 Nov 2026 15:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -337,6 +337,15 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "CD Projekt Red used AI to alter the voice of Geralt's original Polish actor in Witcher 3: Songs of the Past",
+    "link": "https://www.gamesindustry.biz/how-to-protect-your-ip-against-the-army-of-ai-clones",
+    "description": "Generative AI usage in video game development has increased significantly in recent months. Steam Next Fest featured over 8,000 demos in October 2026, many of which were created partly or entirely using generative AI tools. Read more",
+    "date": "Fri, 13 Nov 2026 14:43:20 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Steam's submission and approval backlog is forcing indie devs to delay game launches",
     "link": "https://www.gamesindustry.biz/its-a-wild-situation-an-investor-and-publisher-perspective-on-the-rise-of-ai-copycats-the-discoverability-crisis-and-more",
     "description": "GamesIndustry.biz attended the AI and Games Conference in London this week, where a publisher and investor panel discussed the problems and opportunities of AI when it comes to marketing, funding, and publishing games (the full talk will be available via the AI and Games Conference YouTube channel a",
@@ -350,15 +359,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/steams-submission-and-approval-backlog-is-forcing-indie-devs-to-delay-game-launches",
     "description": "Several indie developers have had to postpone their game launches due to delays in Steam's game submission and approval process. Read more",
     "date": "Fri, 13 Nov 2026 09:33:30 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "GDC State of the Game Industry report: 40% of developers are using generative AI for work",
-    "link": "https://www.gamesindustry.biz/nvidias-jensen-huang-resigns-as-ceo-amid-reports-of-affairs-with-alleged-chinese-spy-and-two-employees",
-    "description": "Nvidia co-founder Jensen Huang has resigned as president, CEO, and board member. Read more",
-    "date": "Thu, 12 Nov 2026 17:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
