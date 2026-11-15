@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-14 13:21 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-15 13:48 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-14T13:21:02.993057",
+  fetched_at: "2026-11-15T13:48:27.294280",
   item_count: 30,
   items: [
   {
@@ -12,8 +12,8 @@ const ARIA_NEWS = {
     "relevance_score": 13,
     "matched_keywords": [
       "dmca",
-      "rom",
       "piracy",
+      "rom",
       "crack",
       "pirate"
     ]
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "dmca",
       "emulator",
-      "pirate",
-      "takedown"
+      "dmca",
+      "takedown",
+      "pirate"
     ]
   },
   {
@@ -40,12 +40,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "seized",
-      "rom",
-      "copyright",
       "piracy",
+      "copyright",
+      "torrent",
+      "rom",
       "pirate",
-      "torrent"
+      "seized"
     ]
   },
   {
@@ -57,8 +57,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "copyright",
-      "pirate",
-      "takedown"
+      "takedown",
+      "pirate"
     ]
   },
   {
@@ -69,8 +69,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "dmca",
       "copyright",
+      "dmca",
       "takedown"
     ]
   },
@@ -82,10 +82,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "rom",
       "copyright",
-      "piracy",
-      "pirate"
+      "pirate",
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -96,9 +96,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "pirate",
-      "torrent"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -110,8 +110,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "copyright",
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -122,9 +122,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "pirate",
-      "torrent"
+      "torrent",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Game Repacker DODI Retires Ahead of Wedding, Hands Site to New Team",
+    "link": "https://torrentfreak.com/reddits-copyright-removals-rise-as-repeat-infringer-bans-drop/",
+    "description": "Reddit's latest transparency report shows that it removed nearly 259,000 pieces of content in response to copyright takedown notices during the first half of 2026, 19% more than in the previous six months. At the same time, the number of users and communities banned for repeat infringement dropped s",
+    "date": "Fri, 13 Nov 2026 08:31:08 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 6,
+    "matched_keywords": [
+      "copyright",
+      "takedown"
     ]
   },
   {
@@ -135,8 +147,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -147,8 +159,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -159,8 +171,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -172,21 +184,8 @@ const ARIA_NEWS = {
     "relevance_score": 5,
     "matched_keywords": [
       "copyright",
-      "pirate",
-      "torrent"
-    ]
-  },
-  {
-    "title": "Meta Pitches AI Sports Piracy Detector in Notorious Markets Rebuttal",
-    "link": "https://torrentfreak.com/judge-allows-google-yahoo-and-microsoft-subpoenas-to-identify-gay-torrents-users/",
-    "description": "FlavaWorks can subpoena Google, Yahoo, Microsoft and three other companies to identify staff and members of the defunct BitTorrent site Gay-Torrents.org, an Illinois federal court ruled. Instead of starting from IP addresses, the subpoenas target the email accounts that are linked to their tracker p",
-    "date": "Mon, 26 Oct 2026 08:06:09 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 5,
-    "matched_keywords": [
-      "rom",
-      "piracy",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -197,8 +196,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -209,8 +208,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -221,8 +220,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "dmca",
-      "copyright"
+      "copyright",
+      "dmca"
     ]
   },
   {
@@ -233,19 +232,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
-    ]
-  },
-  {
-    "title": "Game Repacker DODI Retires Ahead of Wedding, Hands Site to New Team",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Fri, 13 Nov 2026 08:31:08 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "copyright"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -359,6 +347,15 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/steams-submission-and-approval-backlog-is-forcing-indie-devs-to-delay-game-launches",
     "description": "Several indie developers have had to postpone their game launches due to delays in Steam's game submission and approval process. Read more",
     "date": "Fri, 13 Nov 2026 09:33:30 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "GDC State of the Game Industry report: 40% of developers are using generative AI for work",
+    "link": "https://www.gamesindustry.biz/nvidias-jensen-huang-resigns-as-ceo-amid-reports-of-affairs-with-alleged-chinese-spy-and-two-employees",
+    "description": "Nvidia co-founder Jensen Huang has resigned as president, CEO, and board member. Read more",
+    "date": "Thu, 12 Nov 2026 17:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
