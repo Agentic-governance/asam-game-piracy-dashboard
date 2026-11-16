@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-15 13:48 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-16 15:30 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-15T13:48:27.294280",
+  fetched_at: "2026-11-16T15:30:56.415656",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 13,
     "matched_keywords": [
-      "dmca",
-      "piracy",
       "rom",
+      "piracy",
       "crack",
+      "dmca",
       "pirate"
     ]
   },
@@ -26,26 +26,25 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "emulator",
-      "dmca",
       "takedown",
-      "pirate"
+      "dmca",
+      "pirate",
+      "emulator"
     ]
   },
   {
-    "title": "Inside a French Piracy Blocklist: Expired Domains, a Seized Site, and Hong Kong Servers",
+    "title": "Reddit&#8217;s Copyright Removals Rise as Repeat Infringer Bans Drop",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
-    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'Resident Evil' tops the chart, followed by 'The Odyssey.' 'Heart of the Beast' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
-    "date": "Sat, 07 Nov 2026 13:36:53 +0000",
+    "description": "Every week we take a close look at the most pirated movies on torrent sites. What are pirates downloading? 'The Odyssey' tops the chart, followed by 'Heart of the Beast.' 'Resident Evil' completes the top three.\nFrom: TF, for the latest news on copyright battles, piracy and more.",
+    "date": "Sun, 15 Nov 2026 12:38:47 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 12,
+    "relevance_score": 9,
     "matched_keywords": [
+      "rom",
       "piracy",
       "copyright",
       "torrent",
-      "rom",
-      "pirate",
-      "seized"
+      "pirate"
     ]
   },
   {
@@ -96,8 +95,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "torrent",
+      "pirate",
       "piracy"
     ]
   },
@@ -111,19 +110,6 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "copyright",
       "pirate",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Judge Allows Google, Yahoo and Microsoft Subpoenas to Identify Gay-Torrents Users",
-    "link": "https://torrentfreak.com/streamed-the-live-sports-engine-behind-many-pirate-sites-shuts-down/",
-    "description": "Live sports piracy service Streamed, which offered streams to many pirate sites, has surprisingly shut down. Its operators posted a brief farewell message without further detail, pointing visitors to five alternative sites. Earlier this month, the MPA marked the service as a growing threat in its su",
-    "date": "Tue, 27 Oct 2026 07:18:00 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "pirate",
-      "torrent",
       "piracy"
     ]
   },
@@ -152,14 +138,14 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Top 10 Most Pirated Movies of The Week – 11/09/2026",
+    "title": "Inside a French Piracy Blocklist: Expired Domains, a Seized Site, and Hong Kong Servers",
     "link": "https://torrentfreak.com/movistar-blocks-its-own-support-forum-under-laliga-anti-piracy-order/",
     "description": "Spain's court-ordered piracy blocking regime blocked the official customer support forum of Internet provider Movistar on Saturday night. A blocking notice referenced a ruling that LaLiga obtained together with the company that runs the Movistar Plus+ streaming service. On Sunday, the forum moved fr",
-    "date": "Sun, 08 Nov 2026 23:09:40 +0000",
+    "date": "Sat, 07 Nov 2026 13:36:53 +0000",
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
+      "seized",
       "piracy"
     ]
   },
@@ -185,6 +171,18 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "copyright",
       "torrent",
+      "pirate"
+    ]
+  },
+  {
+    "title": "Alleged Operator of Pirate Site Movie2K Could Walk Free as Bitcoin Billionaire",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Mon, 16 Nov 2026 09:03:22 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
       "pirate"
     ]
   },
@@ -237,10 +235,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "How to protect your IP against the army of AI clones",
+    "title": "Top 10 Most Pirated Movies of The Week – 11/16/2026",
+    "link": "https://torrentfreak.com/alleged-operator-of-pirate-site-movie2k-could-walk-free-as-bitcoin-billionaire/",
+    "description": "The alleged operator of defunct pirate streaming site Movie2K could walk out of a German court a free man, and still a bitcoin billionaire. The presiding judge in Leipzig has proposed dropping the criminal case if he hands over another 40,000 bitcoin, worth roughly $2.6 billion (€2.4 billion) at tod",
+    "date": "Sun, 15 Nov 2026 23:09:40 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "pirate"
+    ]
+  },
+  {
+    "title": "\"Gamers don't hate ads; they hate bad ads\" – Why EA and Xbox are putting adverts in their games",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 13 Nov 2026 15:00:00 +0000",
+    "date": "Mon, 16 Nov 2026 13:30:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -325,37 +334,28 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Unity launches $50,000 grant for indie developers with no equity or repayment",
+    "link": "https://www.gamesindustry.biz/gamers-dont-hate-ads-they-hate-bad-ads-why-ea-and-xbox-are-putting-adverts-in-their-games",
+    "description": "Once again, game companies are putting more adverts into PC and console titles. Read more",
+    "date": "Mon, 16 Nov 2026 13:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "How to protect your IP against the army of AI clones",
+    "link": "https://www.gamesindustry.biz/unity-launches-50000-grant-for-indie-developers-with-no-equity-or-repayment",
+    "description": "Unity has launched  the Unity Fellowship program, offering indie developers planning to launch a game within the next 12 months a $50,000 grant with no equity or repayment. Read more",
+    "date": "Fri, 13 Nov 2026 15:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "CD Projekt Red used AI to alter the voice of Geralt's original Polish actor in Witcher 3: Songs of the Past",
     "link": "https://www.gamesindustry.biz/how-to-protect-your-ip-against-the-army-of-ai-clones",
     "description": "Generative AI usage in video game development has increased significantly in recent months. Steam Next Fest featured over 8,000 demos in October 2026, many of which were created partly or entirely using generative AI tools. Read more",
     "date": "Fri, 13 Nov 2026 14:43:20 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Steam's submission and approval backlog is forcing indie devs to delay game launches",
-    "link": "https://www.gamesindustry.biz/its-a-wild-situation-an-investor-and-publisher-perspective-on-the-rise-of-ai-copycats-the-discoverability-crisis-and-more",
-    "description": "GamesIndustry.biz attended the AI and Games Conference in London this week, where a publisher and investor panel discussed the problems and opportunities of AI when it comes to marketing, funding, and publishing games (the full talk will be available via the AI and Games Conference YouTube channel a",
-    "date": "Fri, 13 Nov 2026 12:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "MapleStory franchise Q3 revenue rises 72%, drives overall growth for Nexon",
-    "link": "https://www.gamesindustry.biz/steams-submission-and-approval-backlog-is-forcing-indie-devs-to-delay-game-launches",
-    "description": "Several indie developers have had to postpone their game launches due to delays in Steam's game submission and approval process. Read more",
-    "date": "Fri, 13 Nov 2026 09:33:30 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "GDC State of the Game Industry report: 40% of developers are using generative AI for work",
-    "link": "https://www.gamesindustry.biz/nvidias-jensen-huang-resigns-as-ceo-amid-reports-of-affairs-with-alleged-chinese-spy-and-two-employees",
-    "description": "Nvidia co-founder Jensen Huang has resigned as president, CEO, and board member. Read more",
-    "date": "Thu, 12 Nov 2026 17:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
