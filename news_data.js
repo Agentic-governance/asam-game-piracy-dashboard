@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-16 15:30 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-17 15:50 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-16T15:30:56.415656",
+  fetched_at: "2026-11-17T15:50:44.039341",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 13,
     "matched_keywords": [
-      "rom",
+      "pirate",
       "piracy",
-      "crack",
       "dmca",
-      "pirate"
+      "crack",
+      "rom"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "takedown",
-      "dmca",
       "pirate",
-      "emulator"
+      "takedown",
+      "emulator",
+      "dmca"
     ]
   },
   {
@@ -40,11 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
+      "pirate",
       "piracy",
-      "copyright",
       "torrent",
-      "pirate"
+      "rom",
+      "copyright"
     ]
   },
   {
@@ -55,9 +55,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
+      "pirate",
       "takedown",
-      "pirate"
+      "copyright"
     ]
   },
   {
@@ -68,9 +68,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
+      "takedown",
       "dmca",
-      "takedown"
+      "copyright"
     ]
   },
   {
@@ -81,10 +81,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "copyright",
       "pirate",
+      "piracy",
       "rom",
-      "piracy"
+      "copyright"
     ]
   },
   {
@@ -95,9 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
       "pirate",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -108,9 +108,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "copyright",
       "pirate",
-      "piracy"
+      "piracy",
+      "copyright"
     ]
   },
   {
@@ -121,8 +121,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "copyright",
-      "takedown"
+      "takedown",
+      "copyright"
     ]
   },
   {
@@ -145,8 +145,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "seized",
-      "piracy"
+      "piracy",
+      "seized"
     ]
   },
   {
@@ -162,28 +162,16 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Streamed, the Live Sports Engine Behind Many Pirate Sites, Shuts Down",
-    "link": "https://torrentfreak.com/accused-impostor-in-private-tracker-lawsuit-faces-contempt-for-withholding-passport/",
-    "description": "The alleged impostor behind a lawsuit against several private torrent trackers now faces a request to hold him in civil contempt. According to the defense, he missed a deadline to hand over his passport, driver’s license, and Copyright Office paperwork. Meanwhile, the defense’s proposed discovery ha",
-    "date": "Tue, 27 Oct 2026 11:34:42 +0000",
+    "title": "DISH Wants $21m From Pirate IPTV Operators Who Ignored Its Lawsuit",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Tue, 17 Nov 2026 08:49:26 +0000",
     "source": "TorrentFreak",
     "relevance_score": 5,
     "matched_keywords": [
-      "copyright",
-      "torrent",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Alleged Operator of Pirate Site Movie2K Could Walk Free as Bitcoin Billionaire",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Mon, 16 Nov 2026 09:03:22 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "rom",
+      "copyright"
     ]
   },
   {
@@ -194,8 +182,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -206,8 +194,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -218,8 +206,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "dmca"
+      "dmca",
+      "copyright"
     ]
   },
   {
@@ -230,7 +218,18 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
+      "pirate",
+      "torrent"
+    ]
+  },
+  {
+    "title": "Alleged Operator of Pirate Site Movie2K Could Walk Free as Bitcoin Billionaire",
+    "link": "https://torrentfreak.com/dish-wants-21m-from-pirate-iptv-operators-who-ignored-its-lawsuit/",
+    "description": "DISH asks a New York federal court for a $21.15 million default judgment and a broad injunction against the alleged operators of pirate IPTV service DMTN. The two men, who are believed to reside in North Africa, are aware of the lawsuit but did not appear in U.S. court. Meanwhile, the service's webs",
+    "date": "Mon, 16 Nov 2026 09:03:22 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
       "pirate"
     ]
   },
@@ -246,65 +245,43 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"Gamers don't hate ads; they hate bad ads\" – Why EA and Xbox are putting adverts in their games",
+    "title": "Roblox launches creator program for devs to bring games to its platform for free",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Tue, 17 Nov 2026 15:07:20 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Sensor Tower: GTA 6 pre-orders exceed $1.4bn, with 87% for the Ultimate Edition",
+    "link": "https://www.gamesindustry.biz/newzoo-gta-6-pre-orders-are-archetypal-console-players-but-overwhelmingly-male-game-will-grow-the-market-rather-than-simply-redistribute-it",
+    "description": "GTA 6 preorders are from archetypal, high-spending console gamers, overwhelmingly male, and most have a history of spending on the franchise, according to data from Newzoo shared exclusively with GamesIndustry.biz ahead of the game's final release on Thursday. Read more",
+    "date": "Tue, 17 Nov 2026 01:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Coffee Stain acquires Chronicles: Medieval IP from bankrupt Raw Power Games",
+    "link": "https://www.gamesindustry.biz/shigeru-miyamoto-to-receive-inaugural-legend-award-at-the-30th-dice-awards",
+    "description": "Nintendo's Shigeru Miyamoto will be the first recipient of the Academy of Interactive Arts & Sciences' new Legend Award. Read more",
+    "date": "Mon, 16 Nov 2026 17:56:40 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "\"Gamers don't hate ads; they hate bad ads\" – Why EA and Xbox are putting adverts in their games",
+    "link": "https://www.gamesindustry.biz/coffee-stain-acquires-chronicles-medieval-ip-from-bankrupt-raw-power-games",
+    "description": "Satisfactory publisher Coffee Stain Group has agreed to acquire the IP rights and related assets for Chronicles: Medieval from the bankruptcy estate of Raw Power Games.\r\n Read more",
     "date": "Mon, 16 Nov 2026 13:30:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "GDC's Mark DeLoura addresses the event's dip in attendance in 2026 as he details the planned changes for 2027",
-    "link": "https://www.gamesindustry.biz/gdc-state-of-the-game-industry-report-40-of-developers-are-using-generative-ai-for-work",
-    "description": "40% of developers are using generative AI in their work, according to the latest State of the Game Industry report from the Game Developers Conference (GDC). Read more",
-    "date": "Thu, 12 Nov 2026 17:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Eve Online maker Fenris Creations is adding a rendering technique to its open-source Carbon engine that promises more accurate shading and greater depth",
-    "link": "https://www.gamesindustry.biz/german-games-industry-association-warns-digital-fairness-act-could-cause-double-regulation-and-legal-uncertainty",
-    "description": "The German Games Industry Association (Game) has criticised the Digital Fairness Act (DFA), warning that the legislation creates \"double regulation and legal uncertainty\" that could significantly harm European developers. Read more",
-    "date": "Thu, 12 Nov 2026 14:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Black Forest Games spins out from THQ Nordic, co-founds indie studio group Third Signal",
-    "link": "https://www.gamesindustry.biz/eve-online-maker-fenris-creations-is-adding-a-rendering-technique-to-its-open-source-carbon-engine-that-promises-more-accurate-shading-and-greater-depth",
-    "description": "Having open-sourced its Carbon engine earlier this year, Eve Online creator Fenris Creations is making a sizeable addition to the tech in the form of CORTAO. Read more",
-    "date": "Thu, 12 Nov 2026 11:53:40 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Laid-off Id Software devs form employee-owned studio Hidden Horses",
-    "link": "https://www.gamesindustry.biz/black-forest-games-spins-out-from-thq-nordic-co-founds-indie-studio-group-third-signal",
-    "description": "Black Forest Games has separated from THQ Nordic through a management buyout and co-founded an independent game studio group, Third Signal. Read more",
-    "date": "Thu, 12 Nov 2026 10:17:40 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Lego Digital Play acquires ForthStar Games \"to bring Lego to the prominence it truly deserves on mobile\"",
-    "link": "https://www.gamesindustry.biz/fredrik-wester-steps-down-as-paradox-interactive-ceo",
-    "description": "Paradox Interactive CEO Fredrik Wester is stepping down, with deputy CEO Mattias Lilja assuming the role on January 4, 2027. Read more",
-    "date": "Wed, 11 Nov 2026 14:46:40 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -334,28 +311,46 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Unity launches $50,000 grant for indie developers with no equity or repayment",
-    "link": "https://www.gamesindustry.biz/gamers-dont-hate-ads-they-hate-bad-ads-why-ea-and-xbox-are-putting-adverts-in-their-games",
-    "description": "Once again, game companies are putting more adverts into PC and console titles. Read more",
-    "date": "Mon, 16 Nov 2026 13:00:00 +0000",
+    "title": "Tanuki: Pon's Summer is hoping to be a \"lovely little underdog\" between Ocarina of Time and GTA 6",
+    "link": "https://www.gamesindustry.biz/roblox-launches-creator-program-for-devs-to-bring-games-to-its-platform-for-free",
+    "description": "Roblox has launched a new creator program that lets developers convert existing games to its platform for free. Read more",
+    "date": "Tue, 17 Nov 2026 15:01:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "How to protect your IP against the army of AI clones",
-    "link": "https://www.gamesindustry.biz/unity-launches-50000-grant-for-indie-developers-with-no-equity-or-repayment",
-    "description": "Unity has launched  the Unity Fellowship program, offering indie developers planning to launch a game within the next 12 months a $50,000 grant with no equity or repayment. Read more",
-    "date": "Fri, 13 Nov 2026 15:00:00 +0000",
+    "title": "IWGB Game Workers Union leads manifesto on generative AI use in the industry",
+    "link": "https://www.gamesindustry.biz/tanuki-pons-summer-is-hoping-to-be-a-lovely-little-underdog-between-ocarina-of-time-and-gta-6",
+    "description": "While most titles have fled the release period between the Ocarina of Time remake and this week's GTA 6, Denkiworks opted to release their debut title Tanuki: Pon's Summer right in the middle, rolling it out last week. It is, mostly, a deliberate decision. Read more",
+    "date": "Tue, 17 Nov 2026 14:28:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "CD Projekt Red used AI to alter the voice of Geralt's original Polish actor in Witcher 3: Songs of the Past",
-    "link": "https://www.gamesindustry.biz/how-to-protect-your-ip-against-the-army-of-ai-clones",
-    "description": "Generative AI usage in video game development has increased significantly in recent months. Steam Next Fest featured over 8,000 demos in October 2026, many of which were created partly or entirely using generative AI tools. Read more",
-    "date": "Fri, 13 Nov 2026 14:43:20 +0000",
+    "title": "Xbox's Project Helix \"is not a PC that can also play console games\"",
+    "link": "https://www.gamesindustry.biz/iwgb-game-workers-union-leads-manifesto-on-generative-ai-use-in-the-industry",
+    "description": "Six European game workers' unions have  published a manifesto examining the use of generative AI in the games industry and its implications. Read more",
+    "date": "Tue, 17 Nov 2026 11:44:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Unity acquires 3D asset creator Synty Studios; artist-created content to be integrated into AI game-creation platform Unity Spark",
+    "link": "https://www.gamesindustry.biz/xboxs-project-helix-is-not-a-pc-that-can-also-play-console-games",
+    "description": "Xbox VP of Next Generation Jason Ronald has clarified that Project Helix is \"designed to be a console that is also capable of playing games, not a PC that can also play console games.\" Read more",
+    "date": "Tue, 17 Nov 2026 09:53:30 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Newzoo: GTA 6 pre-orders are archetypal console players but overwhelmingly male; game will \"grow the market rather than simply redistribute it\"",
+    "link": "https://www.gamesindustry.biz/lisbon-based-studio-bravarda-closes-down-after-failing-to-recoup-dev-costs-on-its-most-recent-title-extremely-powerful-capybaras",
+    "description": "Indie developer Studio Bravada has announced its closure after its second title, Extremely Powerful Capybaras, failed to recoup development costs over three years. Read more",
+    "date": "Tue, 17 Nov 2026 07:00:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
