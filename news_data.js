@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-17 15:50 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-18 15:29 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-17T15:50:44.039341",
+  fetched_at: "2026-11-18T15:29:16.079489",
   item_count: 30,
   items: [
   {
@@ -12,10 +12,10 @@ const ARIA_NEWS = {
     "relevance_score": 13,
     "matched_keywords": [
       "pirate",
-      "piracy",
+      "rom",
       "dmca",
-      "crack",
-      "rom"
+      "piracy",
+      "crack"
     ]
   },
   {
@@ -26,9 +26,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
+      "emulator",
       "pirate",
       "takedown",
-      "emulator",
       "dmca"
     ]
   },
@@ -41,10 +41,10 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "pirate",
-      "piracy",
-      "torrent",
       "rom",
-      "copyright"
+      "copyright",
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -81,9 +81,22 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
       "piracy",
+      "pirate",
       "rom",
+      "copyright"
+    ]
+  },
+  {
+    "title": "Pirate Site Movix&#8217;s Source Code Survives Four Rounds of GitHub Takedowns",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Wed, 18 Nov 2026 08:04:56 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "pirate",
+      "takedown",
       "copyright"
     ]
   },
@@ -95,8 +108,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "piracy",
+      "pirate",
       "torrent"
     ]
   },
@@ -108,8 +121,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "piracy",
+      "pirate",
       "copyright"
     ]
   },
@@ -133,8 +146,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -150,28 +163,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Accused Impostor in Private Tracker Lawsuit Faces Contempt for Withholding Passport",
-    "link": "https://torrentfreak.com/chile-blocks-1954-pirate-tv-urls-to-protect-citizens-privacy-and-personal-data/",
-    "description": "Chile's telecoms regulator Subtel reports that local ISPs blocked 1,954 pirate streaming URLs between June and October. The blocks are part of a court order obtained by Warner Bros., but Subtel presents them as a data protection measure. Meanwhile, the piracy problem persists as several of the targe",
-    "date": "Wed, 28 Oct 2026 08:07:36 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
-    "matched_keywords": [
-      "pirate",
-      "piracy"
-    ]
-  },
-  {
     "title": "DISH Wants $21m From Pirate IPTV Operators Who Ignored Its Lawsuit",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/pirate-site-movixs-source-code-survives-four-rounds-of-github-takedowns/",
+    "description": "Earlier this year, the source code of pirate streaming site Movix was shared openly on GitHub. This was a thorn in the side of the French rightsholder group ALPA, which has had several copies removed since, including another 38 forks last week, citing a Paris court order. Meanwhile, a fresh copy rem",
     "date": "Tue, 17 Nov 2026 08:49:26 +0000",
     "source": "TorrentFreak",
-    "relevance_score": 5,
+    "relevance_score": 4,
     "matched_keywords": [
       "pirate",
-      "rom",
-      "copyright"
+      "rom"
     ]
   },
   {
@@ -245,10 +245,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Roblox launches creator program for devs to bring games to its platform for free",
+    "title": "GTA 6 arrives to record review scores and streaming audiences",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 17 Nov 2026 15:07:20 +0000",
+    "date": "Wed, 18 Nov 2026 15:24:20 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -278,14 +278,14 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"Gamers don't hate ads; they hate bad ads\" – Why EA and Xbox are putting adverts in their games",
-    "link": "https://www.gamesindustry.biz/coffee-stain-acquires-chronicles-medieval-ip-from-bankrupt-raw-power-games",
-    "description": "Satisfactory publisher Coffee Stain Group has agreed to acquire the IP rights and related assets for Chronicles: Medieval from the bankruptcy estate of Raw Power Games.\r\n Read more",
-    "date": "Mon, 16 Nov 2026 13:30:00 +0000",
-    "source": "GamesIndustry",
+    "title": "China’s Automotive Surge in Brazil Is Reshaping the Patent Landscape",
+    "link": "https://ipwatchdog.com/2026/11/17/gilead-wins-69-million-damages-permanent-injunction-against-defaulting-defendants-in-hiv-counterfeiting-ring/",
+    "description": "Last Friday, U.S. District Judge Natasha Merle of the Eastern District of New York entered an order adopting a U.S. magistrate judge’s report and recommendation to grant Gilead Sciences’ motion for default judgment against eight individuals and 18 shell companies involved in a conspiracy to market c",
+    "date": "Tue, 17 Nov 2026 12:15:30 +0000",
+    "source": "IPWatchdog",
     "relevance_score": 3,
     "matched_keywords": [
-      "rom"
+      "piracy"
     ]
   },
   {
@@ -300,57 +300,55 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-    "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-    "description": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSec",
-    "date": "Wed, 07 Oct 2026 13:48:45 +0000",
-    "source": "KrebsOnSecurity",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "arrested"
-    ]
-  },
-  {
-    "title": "Tanuki: Pon's Summer is hoping to be a \"lovely little underdog\" between Ocarina of Time and GTA 6",
-    "link": "https://www.gamesindustry.biz/roblox-launches-creator-program-for-devs-to-bring-games-to-its-platform-for-free",
-    "description": "Roblox has launched a new creator program that lets developers convert existing games to its platform for free. Read more",
-    "date": "Tue, 17 Nov 2026 15:01:00 +0000",
+    "title": "Analyst: Console shipments drop 36.5% to 6.4m units during Q3 on run-up to major releases",
+    "link": "https://www.gamesindustry.biz/grand-theft-auto-6-critical-consensus",
+    "description": "After a 13-year wait, Grand Theft Auto 6 has been met with universal acclaim. Despite a lead-up marred by  delays and  leaks the hype has only grown, with over 17 million pre-orders generating more than $1.6 billion in revenue, according to  recent data. Read more",
+    "date": "Wed, 18 Nov 2026 10:58:50 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "IWGB Game Workers Union leads manifesto on generative AI use in the industry",
-    "link": "https://www.gamesindustry.biz/tanuki-pons-summer-is-hoping-to-be-a-lovely-little-underdog-between-ocarina-of-time-and-gta-6",
-    "description": "While most titles have fled the release period between the Ocarina of Time remake and this week's GTA 6, Denkiworks opted to release their debut title Tanuki: Pon's Summer right in the middle, rolling it out last week. It is, mostly, a deliberate decision. Read more",
-    "date": "Tue, 17 Nov 2026 14:28:00 +0000",
+    "title": "GTA 6 leads The Game Awards 2026 with eight nominations",
+    "link": "https://www.gamesindustry.biz/analyst-console-shipments-drop-365-to-64m-units-during-q3-on-run-up-to-major-releases",
+    "description": "Console shipments fell 36.5% year-on-year to 6.4 million units during the third quarter, according to S&P Global Market Intelligence Kagan. Read more",
+    "date": "Wed, 18 Nov 2026 09:12:10 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Xbox's Project Helix \"is not a PC that can also play console games\"",
-    "link": "https://www.gamesindustry.biz/iwgb-game-workers-union-leads-manifesto-on-generative-ai-use-in-the-industry",
-    "description": "Six European game workers' unions have  published a manifesto examining the use of generative AI in the games industry and its implications. Read more",
-    "date": "Tue, 17 Nov 2026 11:44:00 +0000",
+    "title": "How to build a welcoming company culture in times of turmoil",
+    "link": "https://www.gamesindustry.biz/gta-6-leads-the-game-awards-2026-with-eight-nominations",
+    "description": "Grand Theft Auto 6 received eight nominations for The Game Awards 2026, including Game of the Year. Read more",
+    "date": "Wed, 18 Nov 2026 08:30:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Unity acquires 3D asset creator Synty Studios; artist-created content to be integrated into AI game-creation platform Unity Spark",
-    "link": "https://www.gamesindustry.biz/xboxs-project-helix-is-not-a-pc-that-can-also-play-console-games",
-    "description": "Xbox VP of Next Generation Jason Ronald has clarified that Project Helix is \"designed to be a console that is also capable of playing games, not a PC that can also play console games.\" Read more",
-    "date": "Tue, 17 Nov 2026 09:53:30 +0000",
+    "title": "Report: Civilization dev Firaxis lays off a third of its staff",
+    "link": "https://www.gamesindustry.biz/how-to-build-a-welcoming-company-culture-in-times-of-turmoil",
+    "description": "With everything going on in the games industry today, it can be easy to spend more time worrying about what's happening outside your studio than inside it. But building a positive company culture remains a priority for any business leader in the games space, and those external worries can have a dir",
+    "date": "Tue, 17 Nov 2026 17:33:10 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Newzoo: GTA 6 pre-orders are archetypal console players but overwhelmingly male; game will \"grow the market rather than simply redistribute it\"",
-    "link": "https://www.gamesindustry.biz/lisbon-based-studio-bravarda-closes-down-after-failing-to-recoup-dev-costs-on-its-most-recent-title-extremely-powerful-capybaras",
-    "description": "Indie developer Studio Bravada has announced its closure after its second title, Extremely Powerful Capybaras, failed to recoup development costs over three years. Read more",
-    "date": "Tue, 17 Nov 2026 07:00:00 +0000",
+    "title": "Meet the company that finds Chinese game developers to work on Western IP",
+    "link": "https://www.gamesindustry.biz/report-civilization-dev-firaxis-lays-off-a-third-of-its-staff-following-development-difficulties-with-xcom-sequel",
+    "description": "Firaxis, the 30-year-old studio behind the Civilization and XCOM franchises, is laying off a third of its staff, totalling 60 people, as reported by Bloomberg's Jason Schreier. Studio head Heather Hazen, who has lead it since 2023, will be leaving as part of the cuts. Read more",
+    "date": "Tue, 17 Nov 2026 16:24:30 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "UK tribunal dismisses £2bn PlayStation class-action suit which alleged unfair pricing over 30% cut on PlayStation Store",
+    "link": "https://www.gamesindustry.biz/meet-the-company-that-finds-chinese-game-developers-to-work-on-western-ip",
+    "description": "Earlier this month, Yodo1 Games announced a strategic digital licensing partnership with the American firm AMC Global Media, which is behind television series such as The Walking Dead and Anne Rice's Interview with the Vampire. Yodo1 is tasked with finding and supporting Chinese game developers and ",
+    "date": "Tue, 17 Nov 2026 16:17:40 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
