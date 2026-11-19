@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-18 15:29 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-19 15:36 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-18T15:29:16.079489",
+  fetched_at: "2026-11-19T15:36:51.128651",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 13,
     "matched_keywords": [
+      "crack",
       "pirate",
-      "rom",
       "dmca",
-      "piracy",
-      "crack"
+      "rom",
+      "piracy"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "emulator",
       "pirate",
+      "dmca",
       "takedown",
-      "dmca"
+      "emulator"
     ]
   },
   {
@@ -40,11 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "torrent",
+      "copyright",
       "pirate",
       "rom",
-      "copyright",
-      "piracy",
-      "torrent"
+      "piracy"
     ]
   },
   {
@@ -68,8 +68,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
       "dmca",
+      "takedown",
       "copyright"
     ]
   },
@@ -81,23 +81,23 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "piracy",
       "pirate",
       "rom",
-      "copyright"
+      "copyright",
+      "piracy"
     ]
   },
   {
     "title": "Pirate Site Movix&#8217;s Source Code Survives Four Rounds of GitHub Takedowns",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "link": "https://torrentfreak.com/take-two-targets-hundreds-of-gta-v-mobile-ports-on-github-ahead-of-gta-vi-launch/",
+    "description": "Just hours ahead of the Grand Theft Auto VI launch, GitHub published four takedown notices from Take-Two, targeting unofficial GTA V ports for iPhone, Mac and Android. The notices also cover hundreds of forks, and the main repositories are now offline. Notably, only one of the four notices says that",
     "date": "Wed, 18 Nov 2026 08:04:56 +0000",
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "takedown",
-      "copyright"
+      "rom",
+      "takedown"
     ]
   },
   {
@@ -108,22 +108,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "piracy",
       "pirate",
-      "torrent"
-    ]
-  },
-  {
-    "title": "Chile Blocks 1,954 Pirate TV URLs to Protect Citizens&#8217; &#8216;Privacy and Personal Data&#8217;",
-    "link": "https://torrentfreak.com/vietnam-indicts-hianime-operators-over-12-85-million-in-pirate-ad-revenue/",
-    "description": "Vietnam's top prosecutor has indicted seven alleged HiAnime operators, sending them to trial for copyright infringement and money laundering. According to the indictment, the group behind the anime piracy ring collected $12.85 million in USDT through ad network PropellerAds. The crypto was allegedly",
-    "date": "Thu, 29 Oct 2026 07:25:28 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "piracy",
-      "pirate",
-      "copyright"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -146,8 +133,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -158,8 +145,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "seized"
+      "seized",
+      "piracy"
     ]
   },
   {
@@ -245,10 +232,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "GTA 6 arrives to record review scores and streaming audiences",
+    "title": "Ubisoft lays off 166 staff in Montreal and Quebec studios",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 18 Nov 2026 15:24:20 +0000",
+    "date": "Thu, 19 Nov 2026 15:15:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -256,21 +243,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Sensor Tower: GTA 6 pre-orders exceed $1.4bn, with 87% for the Ultimate Edition",
-    "link": "https://www.gamesindustry.biz/newzoo-gta-6-pre-orders-are-archetypal-console-players-but-overwhelmingly-male-game-will-grow-the-market-rather-than-simply-redistribute-it",
-    "description": "GTA 6 preorders are from archetypal, high-spending console gamers, overwhelmingly male, and most have a history of spending on the franchise, according to data from Newzoo shared exclusively with GamesIndustry.biz ahead of the game's final release on Thursday. Read more",
-    "date": "Tue, 17 Nov 2026 01:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Coffee Stain acquires Chronicles: Medieval IP from bankrupt Raw Power Games",
-    "link": "https://www.gamesindustry.biz/shigeru-miyamoto-to-receive-inaugural-legend-award-at-the-30th-dice-awards",
-    "description": "Nintendo's Shigeru Miyamoto will be the first recipient of the Academy of Interactive Arts & Sciences' new Legend Award. Read more",
-    "date": "Mon, 16 Nov 2026 17:56:40 +0000",
+    "title": "Rockstar and IWGB members issue closing arguments following conclusion of employment tribunal",
+    "link": "https://www.gamesindustry.biz/the-future-of-british-gaming-is-more-than-just-games-opinion",
+    "description": "The UK has one of the most creative and innovative video games industries in the world. From independent studios developing original ideas to established businesses creating globally recognised franchises, British developers have consistently shown that they can compete on the international stage. R",
+    "date": "Thu, 19 Nov 2026 10:03:40 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -300,55 +276,73 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "007 First Light wins GOTY at 2026 TIGA Awards, Dovetail Games takes home four accolades including Best Publisher",
+    "link": "https://www.gamesindustry.biz/ubisoft-lays-off-166-staff-in-montreal-and-quebec-studios",
+    "description": "Ubisoft is laying off staff in its vast Montreal and Quebec studios, with 166 roles being lost \"to ensure our resources are aligned with current production priorities and business needs.\" Read more",
+    "date": "Thu, 19 Nov 2026 14:55:30 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Call of Duty: Modern Warfare 4 debuts as top-selling game in US for October 2026",
+    "link": "https://www.gamesindustry.biz/007-first-light-wins-goty-at-2026-tiga-awards-dovetail-games-takes-home-four-accolades-including-best-publisher",
+    "description": "IO Interactive's 007 First Light received Game of the Year at the 2026 TIGA Awards, while Dovetail Games earned four awards, including Best Publisher and Best Educational, Serious or Simulation Game for Train Sim World 6. Read more",
+    "date": "Thu, 19 Nov 2026 14:00:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "US Senate hearing examines child safety on Roblox, considers bipartisan bill to bypass forced arbitration",
+    "link": "https://www.gamesindustry.biz/call-of-duty-modern-warfare-4-debuts-as-top-selling-game-in-us-for-october-2026",
+    "description": "Call of Duty: Modern Warfare 4 led US sales in October according to Circana, marking the 19th consecutive year a Call of Duty title has been the best-selling game during its launch month. Read more",
+    "date": "Thu, 19 Nov 2026 11:52:10 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "The future of British gaming is more than just games | Opinion",
+    "link": "https://www.gamesindustry.biz/us-senate-hearing-examines-child-safety-on-roblox-considers-bipartisan-bill-to-bypass-forced-arbitration",
+    "description": "The US Senate Judiciary Subcommittee on Crime and Counterterrorism held a hearing this week to examine child safety on Roblox and consider a bipartisan bill that would allow families and victims to bypass forced arbitration. Read more",
+    "date": "Thu, 19 Nov 2026 10:32:50 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Arknights: Endfield named Google Play's best game of 2026",
+    "link": "https://www.gamesindustry.biz/rockstar-and-iwgb-members-issue-closing-arguments-following-conclusion-of-employment-tribunal",
+    "description": "The employment tribunal between Rockstar and members of the Independent Workers' Union of Great Britain (IWGB) has concluded, with both parties issuing their closing arguments. Read more",
+    "date": "Wed, 18 Nov 2026 17:36:20 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "18 unsolicited third-party statistics about GTA 6",
+    "link": "https://www.gamesindustry.biz/arknights-endfield-named-google-plays-best-game-of-2026",
+    "description": "Gryphline's Arknights: Endfield has been named Google Play's best game of 2026, taking the top prize in every market except Japan and Korea. Read more",
+    "date": "Wed, 18 Nov 2026 17:03:10 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "GTA 6 arrives to record review scores and streaming audiences",
+    "link": "https://www.gamesindustry.biz/sam-houser-with-gta-6-rockstar-tried-to-create-an-experience-that-will-exceed-your-expectations-while-showing-what-this-medium-is-capable-of",
+    "description": "Rockstar Games president and co-founder Sam Houser has issued a rare statement as GTA 6 launches, celebrating the game's debut and its glowing critical reception. Read more",
+    "date": "Wed, 18 Nov 2026 15:24:20 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Analyst: Console shipments drop 36.5% to 6.4m units during Q3 on run-up to major releases",
     "link": "https://www.gamesindustry.biz/grand-theft-auto-6-critical-consensus",
     "description": "After a 13-year wait, Grand Theft Auto 6 has been met with universal acclaim. Despite a lead-up marred by  delays and  leaks the hype has only grown, with over 17 million pre-orders generating more than $1.6 billion in revenue, according to  recent data. Read more",
     "date": "Wed, 18 Nov 2026 10:58:50 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "GTA 6 leads The Game Awards 2026 with eight nominations",
-    "link": "https://www.gamesindustry.biz/analyst-console-shipments-drop-365-to-64m-units-during-q3-on-run-up-to-major-releases",
-    "description": "Console shipments fell 36.5% year-on-year to 6.4 million units during the third quarter, according to S&P Global Market Intelligence Kagan. Read more",
-    "date": "Wed, 18 Nov 2026 09:12:10 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "How to build a welcoming company culture in times of turmoil",
-    "link": "https://www.gamesindustry.biz/gta-6-leads-the-game-awards-2026-with-eight-nominations",
-    "description": "Grand Theft Auto 6 received eight nominations for The Game Awards 2026, including Game of the Year. Read more",
-    "date": "Wed, 18 Nov 2026 08:30:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Report: Civilization dev Firaxis lays off a third of its staff",
-    "link": "https://www.gamesindustry.biz/how-to-build-a-welcoming-company-culture-in-times-of-turmoil",
-    "description": "With everything going on in the games industry today, it can be easy to spend more time worrying about what's happening outside your studio than inside it. But building a positive company culture remains a priority for any business leader in the games space, and those external worries can have a dir",
-    "date": "Tue, 17 Nov 2026 17:33:10 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Meet the company that finds Chinese game developers to work on Western IP",
-    "link": "https://www.gamesindustry.biz/report-civilization-dev-firaxis-lays-off-a-third-of-its-staff-following-development-difficulties-with-xcom-sequel",
-    "description": "Firaxis, the 30-year-old studio behind the Civilization and XCOM franchises, is laying off a third of its staff, totalling 60 people, as reported by Bloomberg's Jason Schreier. Studio head Heather Hazen, who has lead it since 2023, will be leaving as part of the cuts. Read more",
-    "date": "Tue, 17 Nov 2026 16:24:30 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "UK tribunal dismisses £2bn PlayStation class-action suit which alleged unfair pricing over 30% cut on PlayStation Store",
-    "link": "https://www.gamesindustry.biz/meet-the-company-that-finds-chinese-game-developers-to-work-on-western-ip",
-    "description": "Earlier this month, Yodo1 Games announced a strategic digital licensing partnership with the American firm AMC Global Media, which is behind television series such as The Walking Dead and Anne Rice's Interview with the Vampire. Yodo1 is tasked with finding and supporting Chinese game developers and ",
-    "date": "Tue, 17 Nov 2026 16:17:40 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
