@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-19 15:36 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-20 15:15 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-19T15:36:51.128651",
+  fetched_at: "2026-11-20T15:15:45.989128",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 13,
     "matched_keywords": [
-      "crack",
       "pirate",
       "dmca",
+      "piracy",
       "rom",
-      "piracy"
+      "crack"
     ]
   },
   {
@@ -26,8 +26,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "pirate",
       "dmca",
+      "pirate",
       "takedown",
       "emulator"
     ]
@@ -40,11 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "torrent",
-      "copyright",
       "pirate",
+      "copyright",
+      "piracy",
       "rom",
-      "piracy"
+      "torrent"
     ]
   },
   {
@@ -55,9 +55,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "copyright",
       "pirate",
-      "takedown",
-      "copyright"
+      "takedown"
     ]
   },
   {
@@ -68,9 +68,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "copyright",
       "dmca",
-      "takedown",
-      "copyright"
+      "takedown"
     ]
   },
   {
@@ -81,10 +81,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
-      "rom",
       "copyright",
-      "piracy"
+      "piracy",
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -95,8 +95,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
       "rom",
+      "pirate",
       "takedown"
     ]
   },
@@ -108,9 +108,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "piracy",
       "pirate",
-      "torrent",
-      "piracy"
+      "torrent"
     ]
   },
   {
@@ -121,8 +121,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "takedown",
-      "copyright"
+      "copyright",
+      "takedown"
     ]
   },
   {
@@ -133,8 +133,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "pirate",
-      "piracy"
+      "piracy",
+      "pirate"
     ]
   },
   {
@@ -145,8 +145,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "seized",
-      "piracy"
+      "piracy",
+      "seized"
     ]
   },
   {
@@ -193,20 +193,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "dmca",
-      "copyright"
-    ]
-  },
-  {
-    "title": "Vietnam Indicts HiAnime Operators Over $12.85 Million in Pirate Ad Revenue (Updated)",
-    "link": "https://torrentfreak.com/ex-meta-researcher-torrented-pirated-books-dataset-deleted-it-due-to-all-this-litigation/",
-    "description": "A former Meta researcher has testified that he downloaded an AI training dataset via BitTorrent, including the pirated Books3 collection. According to various rightsholders, this happened while he worked at the company, and he later deleted his copy \"[d]ue to all this litigation.\" Meta, which admitt",
-    "date": "Fri, 30 Oct 2026 10:17:49 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "pirate",
-      "torrent"
+      "copyright",
+      "dmca"
     ]
   },
   {
@@ -232,10 +220,43 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Ubisoft lays off 166 staff in Montreal and Quebec studios",
+    "title": "GTA 6: the first billion-dollar game may also be the last",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 19 Nov 2026 15:15:00 +0000",
+    "date": "Fri, 20 Nov 2026 15:02:20 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Assassin's Creed Black Flag Resynced drives Ubisoft Q2 net bookings above guidance; H1 results decline 16.5% to €644.7m",
+    "link": "https://www.gamesindustry.biz/how-the-eus-digital-fairness-act-will-impact-game-design-and-why-it-hits-european-indies-particularly-hard",
+    "description": "The European Commission's publication of its draft Digital Fairness Act (DFA) last week prompted uproar within the games industry, with many notable voices candidly expressing their concerns. Opinions in the wider industry were more measured, possibly because some of the practices targeted by the DF",
+    "date": "Fri, 20 Nov 2026 11:43:40 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Ubisoft launches Motherbrain, a new subsidiary focused on AI-driven \"gameplay innovation\"",
+    "link": "https://www.gamesindustry.biz/the-creator-of-et-on-the-atari-2600-likens-the-deluge-of-ai-made-games-to-the-glut-of-poor-quality-titles-released-ahead-of-the-us-video-game-crash-of-1983",
+    "description": "At the DevGAMM Lisbon conference this week, veteran game designer Howard Scott Warshaw gave a talk called \"From Atari to AI\". Warshaw was behind a number of famous titles for the Atari 2600, including the classic Yars' Revenge, but infamously he also designed the game E.T. the Extra-Terrestial, the ",
+    "date": "Fri, 20 Nov 2026 10:21:10 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Phonopolis from Amanita Design wins Grand Prize at the DevGAMM Awards",
+    "link": "https://www.gamesindustry.biz/ign-partners-with-rockstar-to-host-official-strategy-guide-for-gta-6",
+    "description": "IGN Entertainment, the parent company of GamesIndustry.biz, has released the Official Online Guide for GTA 6, created through direct collaboration with Rockstar Games. The free guide, which was published on IGN.com, includes an extensive interactive map built using the firm's MapGenie platform, alon",
+    "date": "Fri, 20 Nov 2026 09:44:20 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -276,73 +297,58 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "&#8216;Absurd&#8217;: Private Torrent Trackers Still Don&#8217;t Know Who Sued Them as Plaintiff Skips Hearing",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Fri, 20 Nov 2026 08:23:04 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 2,
+    "matched_keywords": [
+      "copyright",
+      "torrent"
+    ]
+  },
+  {
+    "title": "Sensor Tower estimates GTA 6 generated $2.36bn in pre-order and launch-day sales",
+    "link": "https://www.gamesindustry.biz/gta-6-the-first-billion-dollar-game-may-also-be-the-last",
+    "description": "What does a billion dollars look like on screen? Or $1.5bn, or perhaps $2bn; estimates swing around a little for just how much money has been spent creating GTA 6. The one thing that&rsquo;s certain is that it&rsquo;s the most expensive game ever made &ndash; in fact, by far the most expensive piece",
+    "date": "Fri, 20 Nov 2026 14:07:30 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "How the EU's Digital Fairness Act will impact game design, and why it hits European indies particularly hard",
+    "link": "https://www.gamesindustry.biz/sensor-tower-estimates-gta-6-generated-236bn-in-pre-order-and-launch-day-sales",
+    "description": "Sensor Tower estimates Grand Theft Auto 6 sold over 24.5 million copies through pre-orders and on launch day, generating approximately $2.36 billion in revenue. Read more",
+    "date": "Fri, 20 Nov 2026 12:27:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "The creator of E.T. on the Atari 2600 likens the deluge of AI-made games to the glut of poor-quality titles released ahead of the US video game crash of 1983",
+    "link": "https://www.gamesindustry.biz/assassins-creed-black-flag-resynced-drives-ubisoft-q2-net-bookings-above-guidance-h1-results-decline-165-to-6447m",
+    "description": "Assassin's Creed Black Flag Resynced increased Ubisoft's Q2 net bookings to &euro;389 million, exceeding the estimated guidance of &euro;370 million. Read more",
+    "date": "Fri, 20 Nov 2026 11:13:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "IGN partners with Rockstar to host Official Strategy Guide for GTA 6",
+    "link": "https://www.gamesindustry.biz/ubisoft-launches-motherbrain-a-new-subsidiary-focused-on-ai-driven-gameplay-innovation",
+    "description": "Ubisoft has launched Motherbrain, a dedicated subsidiary focused on developing proprietary generative AI technology for gameplay. Read more",
+    "date": "Fri, 20 Nov 2026 10:07:40 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "007 First Light wins GOTY at 2026 TIGA Awards, Dovetail Games takes home four accolades including Best Publisher",
     "link": "https://www.gamesindustry.biz/ubisoft-lays-off-166-staff-in-montreal-and-quebec-studios",
     "description": "Ubisoft is laying off staff in its vast Montreal and Quebec studios, with 166 roles being lost \"to ensure our resources are aligned with current production priorities and business needs.\" Read more",
     "date": "Thu, 19 Nov 2026 14:55:30 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Call of Duty: Modern Warfare 4 debuts as top-selling game in US for October 2026",
-    "link": "https://www.gamesindustry.biz/007-first-light-wins-goty-at-2026-tiga-awards-dovetail-games-takes-home-four-accolades-including-best-publisher",
-    "description": "IO Interactive's 007 First Light received Game of the Year at the 2026 TIGA Awards, while Dovetail Games earned four awards, including Best Publisher and Best Educational, Serious or Simulation Game for Train Sim World 6. Read more",
-    "date": "Thu, 19 Nov 2026 14:00:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "US Senate hearing examines child safety on Roblox, considers bipartisan bill to bypass forced arbitration",
-    "link": "https://www.gamesindustry.biz/call-of-duty-modern-warfare-4-debuts-as-top-selling-game-in-us-for-october-2026",
-    "description": "Call of Duty: Modern Warfare 4 led US sales in October according to Circana, marking the 19th consecutive year a Call of Duty title has been the best-selling game during its launch month. Read more",
-    "date": "Thu, 19 Nov 2026 11:52:10 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "The future of British gaming is more than just games | Opinion",
-    "link": "https://www.gamesindustry.biz/us-senate-hearing-examines-child-safety-on-roblox-considers-bipartisan-bill-to-bypass-forced-arbitration",
-    "description": "The US Senate Judiciary Subcommittee on Crime and Counterterrorism held a hearing this week to examine child safety on Roblox and consider a bipartisan bill that would allow families and victims to bypass forced arbitration. Read more",
-    "date": "Thu, 19 Nov 2026 10:32:50 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Arknights: Endfield named Google Play's best game of 2026",
-    "link": "https://www.gamesindustry.biz/rockstar-and-iwgb-members-issue-closing-arguments-following-conclusion-of-employment-tribunal",
-    "description": "The employment tribunal between Rockstar and members of the Independent Workers' Union of Great Britain (IWGB) has concluded, with both parties issuing their closing arguments. Read more",
-    "date": "Wed, 18 Nov 2026 17:36:20 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "18 unsolicited third-party statistics about GTA 6",
-    "link": "https://www.gamesindustry.biz/arknights-endfield-named-google-plays-best-game-of-2026",
-    "description": "Gryphline's Arknights: Endfield has been named Google Play's best game of 2026, taking the top prize in every market except Japan and Korea. Read more",
-    "date": "Wed, 18 Nov 2026 17:03:10 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "GTA 6 arrives to record review scores and streaming audiences",
-    "link": "https://www.gamesindustry.biz/sam-houser-with-gta-6-rockstar-tried-to-create-an-experience-that-will-exceed-your-expectations-while-showing-what-this-medium-is-capable-of",
-    "description": "Rockstar Games president and co-founder Sam Houser has issued a rare statement as GTA 6 launches, celebrating the game's debut and its glowing critical reception. Read more",
-    "date": "Wed, 18 Nov 2026 15:24:20 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Analyst: Console shipments drop 36.5% to 6.4m units during Q3 on run-up to major releases",
-    "link": "https://www.gamesindustry.biz/grand-theft-auto-6-critical-consensus",
-    "description": "After a 13-year wait, Grand Theft Auto 6 has been met with universal acclaim. Despite a lead-up marred by  delays and  leaks the hype has only grown, with over 17 million pre-orders generating more than $1.6 billion in revenue, according to  recent data. Read more",
-    "date": "Wed, 18 Nov 2026 10:58:50 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
