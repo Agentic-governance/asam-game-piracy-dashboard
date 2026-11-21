@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-20 15:15 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-21 14:29 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-20T15:15:45.989128",
+  fetched_at: "2026-11-21T14:29:52.870396",
   item_count: 30,
   items: [
   {
@@ -11,11 +11,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 13,
     "matched_keywords": [
-      "pirate",
-      "dmca",
-      "piracy",
+      "crack",
       "rom",
-      "crack"
+      "dmca",
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -26,10 +26,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "dmca",
-      "pirate",
+      "emulator",
       "takedown",
-      "emulator"
+      "dmca",
+      "pirate"
     ]
   },
   {
@@ -40,11 +40,11 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
-      "copyright",
-      "piracy",
       "rom",
-      "torrent"
+      "copyright",
+      "pirate",
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -56,8 +56,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "copyright",
-      "pirate",
-      "takedown"
+      "takedown",
+      "pirate"
     ]
   },
   {
@@ -82,9 +82,9 @@ const ARIA_NEWS = {
     "relevance_score": 8,
     "matched_keywords": [
       "copyright",
+      "rom",
       "piracy",
-      "pirate",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -95,9 +95,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "takedown",
       "rom",
-      "pirate",
-      "takedown"
+      "pirate"
     ]
   },
   {
@@ -108,9 +108,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "torrent",
       "piracy",
-      "pirate",
-      "torrent"
+      "pirate"
     ]
   },
   {
@@ -145,8 +145,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "seized"
+      "seized",
+      "piracy"
     ]
   },
   {
@@ -157,8 +157,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -169,8 +169,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -181,8 +181,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "torrent"
+      "torrent",
+      "pirate"
     ]
   },
   {
@@ -220,10 +220,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "GTA 6: the first billion-dollar game may also be the last",
+    "title": "GTA 6 hits $3.79 billion in its first day on sale, becoming \"the biggest entertainment launch in history\"",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 20 Nov 2026 15:02:20 +0000",
+    "date": "Fri, 20 Nov 2026 20:24:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -231,7 +231,7 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Assassin's Creed Black Flag Resynced drives Ubisoft Q2 net bookings above guidance; H1 results decline 16.5% to €644.7m",
+    "title": "Ubisoft merges two Creative Houses as H1 results decline 16.5%; Q2 net bookings above guidance thanks to Assassin's Creed Black Flag remake",
     "link": "https://www.gamesindustry.biz/how-the-eus-digital-fairness-act-will-impact-game-design-and-why-it-hits-european-indies-particularly-hard",
     "description": "The European Commission's publication of its draft Digital Fairness Act (DFA) last week prompted uproar within the games industry, with many notable voices candidly expressing their concerns. Opinions in the wider industry were more measured, possibly because some of the practices targeted by the DF",
     "date": "Fri, 20 Nov 2026 11:43:40 +0000",
@@ -304,9 +304,27 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 2,
     "matched_keywords": [
-      "copyright",
-      "torrent"
+      "torrent",
+      "copyright"
     ]
+  },
+  {
+    "title": "Ampere Analysis: Over 2m UK and US Xbox players accessed GTA 6 before official launch by switching location to New Zealand",
+    "link": "https://www.gamesindustry.biz/gta-6-hits-379-billion-in-its-first-day-on-sale-becoming-the-biggest-entertainment-launch-in-history",
+    "description": "Rockstar has announced that GTA 6 achieved $3.79 billion in retail sales in its first day on sale, \"setting a new record for entertainment across any medium, and becoming the biggest entertainment launch in history.\" Read more",
+    "date": "Fri, 20 Nov 2026 15:21:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "GTA 6: the first billion-dollar game may also be the last | Opinion",
+    "link": "https://www.gamesindustry.biz/ampere-analysis-over-1m-uk-and-us-xbox-players-accessed-gta-6-before-official-launch-by-switching-location-to-new-zealand",
+    "description": "Over two million Xbox players in the UK and US accessed Grand Theft Auto 6 before its official launch by changing their location to New Zealand, according to Ampere Analysis. Read more",
+    "date": "Fri, 20 Nov 2026 15:02:20 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Sensor Tower estimates GTA 6 generated $2.36bn in pre-order and launch-day sales",
@@ -331,24 +349,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/assassins-creed-black-flag-resynced-drives-ubisoft-q2-net-bookings-above-guidance-h1-results-decline-165-to-6447m",
     "description": "Assassin's Creed Black Flag Resynced increased Ubisoft's Q2 net bookings to &euro;389 million, exceeding the estimated guidance of &euro;370 million. Read more",
     "date": "Fri, 20 Nov 2026 11:13:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "IGN partners with Rockstar to host Official Strategy Guide for GTA 6",
-    "link": "https://www.gamesindustry.biz/ubisoft-launches-motherbrain-a-new-subsidiary-focused-on-ai-driven-gameplay-innovation",
-    "description": "Ubisoft has launched Motherbrain, a dedicated subsidiary focused on developing proprietary generative AI technology for gameplay. Read more",
-    "date": "Fri, 20 Nov 2026 10:07:40 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "007 First Light wins GOTY at 2026 TIGA Awards, Dovetail Games takes home four accolades including Best Publisher",
-    "link": "https://www.gamesindustry.biz/ubisoft-lays-off-166-staff-in-montreal-and-quebec-studios",
-    "description": "Ubisoft is laying off staff in its vast Montreal and Quebec studios, with 166 roles being lost \"to ensure our resources are aligned with current production priorities and business needs.\" Read more",
-    "date": "Thu, 19 Nov 2026 14:55:30 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
