@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-21 14:29 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-22 14:25 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-21T14:29:52.870396",
+  fetched_at: "2026-11-22T14:25:54.700771",
   item_count: 30,
   items: [
   {
@@ -11,10 +11,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 13,
     "matched_keywords": [
+      "pirate",
+      "dmca",
       "crack",
       "rom",
-      "dmca",
-      "pirate",
       "piracy"
     ]
   },
@@ -27,9 +27,9 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "emulator",
+      "pirate",
       "takedown",
-      "dmca",
-      "pirate"
+      "dmca"
     ]
   },
   {
@@ -40,10 +40,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "rom",
-      "copyright",
-      "pirate",
       "torrent",
+      "pirate",
+      "copyright",
+      "rom",
       "piracy"
     ]
   },
@@ -56,8 +56,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "copyright",
-      "takedown",
-      "pirate"
+      "pirate",
+      "takedown"
     ]
   },
   {
@@ -69,8 +69,8 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "copyright",
-      "dmca",
-      "takedown"
+      "takedown",
+      "dmca"
     ]
   },
   {
@@ -82,9 +82,22 @@ const ARIA_NEWS = {
     "relevance_score": 8,
     "matched_keywords": [
       "copyright",
+      "pirate",
       "rom",
+      "piracy"
+    ]
+  },
+  {
+    "title": "&#8216;Absurd&#8217;: Private Torrent Trackers Still Don&#8217;t Know Who Sued Them as Plaintiff Skips Hearing",
+    "link": "https://torrentfreak.com/judge-wont-let-dmca-ignored-host-use-cox-ruling-to-escape-42m-judgment/",
+    "description": "A federal judge in Seattle has refused to throw out DISH's $42 million piracy judgment against a Ukrainian host that once advertised 'DMCA Ignored' services. The hosting company argued that the Supreme Court's Cox ruling put the judgment in a different light, but the court disagreed. Meanwhile, the ",
+    "date": "Fri, 20 Nov 2026 08:23:04 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 7,
+    "matched_keywords": [
+      "torrent",
       "piracy",
-      "pirate"
+      "dmca"
     ]
   },
   {
@@ -95,22 +108,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "takedown",
       "rom",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Ex-Meta Researcher Torrented Pirated Books Dataset, Deleted It &#8216;Due to All This Litigation&#8217;",
-    "link": "https://torrentfreak.com/dutch-court-orders-isp-to-block-z-library-and-oceanofpdf/",
-    "description": "A Dutch court has ordered Internet provider KPN to block shadow libraries Z-Library and OceanofPDF. The dynamic blocking order, requested by anti-piracy group BREIN, also covers new domains, proxies, and mirrors. Back in 2024, BREIN already said that it planned to target Z-Library if the site stayed",
-    "date": "Sat, 31 Oct 2026 11:55:12 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 7,
-    "matched_keywords": [
-      "torrent",
-      "piracy",
-      "pirate"
+      "pirate",
+      "takedown"
     ]
   },
   {
@@ -133,8 +133,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -147,6 +147,18 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "seized",
       "piracy"
+    ]
+  },
+  {
+    "title": "Judge Won&#8217;t Let &#8216;DMCA-Ignored&#8217; Host Use Cox Ruling to Escape $42m Judgment",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Sun, 22 Nov 2026 07:51:36 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
+      "dmca"
     ]
   },
   {
@@ -169,8 +181,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -181,8 +193,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -294,18 +306,6 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "takedown"
-    ]
-  },
-  {
-    "title": "&#8216;Absurd&#8217;: Private Torrent Trackers Still Don&#8217;t Know Who Sued Them as Plaintiff Skips Hearing",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Fri, 20 Nov 2026 08:23:04 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 2,
-    "matched_keywords": [
-      "torrent",
-      "copyright"
     ]
   },
   {
