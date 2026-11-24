@@ -1,23 +1,8 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-23 17:53 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-24 17:26 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-23T17:53:19.383589",
+  fetched_at: "2026-11-24T17:26:20.869029",
   item_count: 30,
   items: [
-  {
-    "title": "Funimation Shutdown Fuels Push for DMCA Exemption to Legally Rip Anime Content",
-    "link": "https://torrentfreak.com/vietnam-jails-pirate-football-streamers-for-up-to-a-year-three-escape-prison/",
-    "description": "A Vietnamese court has sentenced 14 people who worked on the pirate football streaming site Bún Chả TV, handing out the first prison terms we've seen since the country's piracy crackdown began earlier this year. Eleven defendants received sentences ranging from eight to twelve months, while three co",
-    "date": "Tue, 03 Nov 2026 08:08:25 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 13,
-    "matched_keywords": [
-      "crack",
-      "dmca",
-      "piracy",
-      "rom",
-      "pirate"
-    ]
-  },
   {
     "title": "Judge Won&#8217;t Let &#8216;DMCA-Ignored&#8217; Host Use Cox Ruling to Escape $42m Judgment",
     "link": "https://torrentfreak.com/top-10-most-torrented-pirated-movies/",
@@ -26,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "copyright",
-      "dmca",
+      "torrent",
+      "pirate",
       "piracy",
       "rom",
-      "torrent",
-      "pirate"
+      "copyright",
+      "dmca"
     ]
   },
   {
@@ -42,10 +27,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "emulator",
-      "takedown",
       "dmca",
-      "pirate"
+      "emulator",
+      "pirate",
+      "takedown"
     ]
   },
   {
@@ -56,9 +41,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
+      "copyright",
       "pirate",
-      "copyright"
+      "takedown"
     ]
   },
   {
@@ -69,9 +54,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
+      "copyright",
       "dmca",
-      "copyright"
+      "takedown"
     ]
   },
   {
@@ -82,10 +67,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
+      "copyright",
       "rom",
-      "piracy",
       "pirate",
-      "copyright"
+      "piracy"
     ]
   },
   {
@@ -110,8 +95,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "rom",
-      "takedown",
-      "pirate"
+      "pirate",
+      "takedown"
     ]
   },
   {
@@ -122,8 +107,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -134,8 +119,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "takedown",
-      "copyright"
+      "copyright",
+      "takedown"
     ]
   },
   {
@@ -146,8 +131,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "pirate"
+      "pirate",
+      "piracy"
     ]
   },
   {
@@ -158,8 +143,20 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "piracy",
-      "seized"
+      "seized",
+      "piracy"
+    ]
+  },
+  {
+    "title": "Quad9 Exits France as Expired Piracy Order Lingers at Google and ISPs",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Tue, 24 Nov 2026 08:10:52 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
+    "matched_keywords": [
+      "copyright",
+      "piracy"
     ]
   },
   {
@@ -170,8 +167,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "pirate"
+      "pirate",
+      "rom"
     ]
   },
   {
@@ -182,8 +179,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "copyright"
+      "copyright",
+      "pirate"
     ]
   },
   {
@@ -211,6 +208,17 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Publisher Wants Nhentai&#8217;s Alleged Owners in Lawsuit, Subpoenas Bank of America",
+    "link": "https://torrentfreak.com/quad9-exits-france-as-expired-piracy-order-lingers-at-google-and-isps/",
+    "description": "As of this morning, DNS resolver Quad9 no longer serves users in France. The exit comes after a Paris court ordered it to block pirate tennis streams, which it refused to do. The blocking order behind that ruling expired when the WTA season ended ten days ago. Most of the blocks have since been lift",
+    "date": "Mon, 23 Nov 2026 08:40:00 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "pirate"
+    ]
+  },
+  {
     "title": "Alleged Operator of Pirate Site Movie2K Could Walk Free as Bitcoin Billionaire",
     "link": "https://torrentfreak.com/dish-wants-21m-from-pirate-iptv-operators-who-ignored-its-lawsuit/",
     "description": "DISH asks a New York federal court for a $21.15 million default judgment and a broad injunction against the alleged operators of pirate IPTV service DMTN. The two men, who are believed to reside in North Africa, are aware of the lawsuit but did not appear in U.S. court. Meanwhile, the service's webs",
@@ -222,9 +230,42 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "EU opens consultation on Digital Fairness Act",
+    "title": "\"You are still taking 100% of the risk\" – Why Cairn dev The Game Bakers backs self-publishing for all but the smallest developers",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Tue, 24 Nov 2026 15:28:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Nicalis removes AI-generated music from The Binding of Isaac: Repentance+ after player backlash",
+    "link": "https://www.gamesindustry.biz/uk-mobile-developers-can-now-apply-for-their-share-of-a-260-million-google-settlement",
+    "description": "UK developers who released games, apps or content on the Google Play Store between August 2018 and July 2026 can now claim for their share of a &pound;260 million settlement agreed in a class action suit earlier this year. Read more",
+    "date": "Mon, 23 Nov 2026 20:56:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "GTA 6 leaker reportedly releases file needed to run leaked Xbox build",
+    "link": "https://www.gamesindustry.biz/nicalis-removes-ai-generated-music-from-the-binding-of-isaac-repentance-after-player-backlash",
+    "description": "Nicalis has pulled AI-generated music from The Binding of Isaac: Repentance+ after players discovered it in the game's latest update, prompting a wave of negative Steam reviews. Read more",
+    "date": "Mon, 23 Nov 2026 19:43:30 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "EU opens consultation on Digital Fairness Act",
+    "link": "https://www.gamesindustry.biz/gta-6-leaker-reportedly-releases-file-needed-to-run-leaked-xbox-build",
+    "description": "GTA 6 leaker Cyberleek has reportedly released the executable file for the leaked Xbox build of the game, prompting concern that an unofficial PC port could follow. Read more",
     "date": "Mon, 23 Nov 2026 17:33:10 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
@@ -266,28 +307,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Ubisoft launches Motherbrain, a new subsidiary focused on AI-driven \"gameplay innovation\"",
-    "link": "https://www.gamesindustry.biz/the-creator-of-et-on-the-atari-2600-likens-the-deluge-of-ai-made-games-to-the-glut-of-poor-quality-titles-released-ahead-of-the-us-video-game-crash-of-1983",
-    "description": "At the DevGAMM Lisbon conference this week, veteran game designer Howard Scott Warshaw gave a talk called \"From Atari to AI\". Warshaw was behind a number of famous titles for the Atari 2600, including the classic Yars' Revenge, but infamously he also designed the game E.T. the Extra-Terrestial, the ",
-    "date": "Fri, 20 Nov 2026 10:21:10 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "Phonopolis from Amanita Design wins Grand Prize at the DevGAMM Awards",
-    "link": "https://www.gamesindustry.biz/ign-partners-with-rockstar-to-host-official-strategy-guide-for-gta-6",
-    "description": "IGN Entertainment, the parent company of GamesIndustry.biz, has released the Official Online Guide for GTA 6, created through direct collaboration with Rockstar Games. The free guide, which was published on IGN.com, includes an extensive interactive map built using the firm's MapGenie platform, alon",
-    "date": "Fri, 20 Nov 2026 09:44:20 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
     "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
     "description": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown s",
@@ -299,55 +318,37 @@ const ARIA_NEWS = {
     ]
   },
   {
+    "title": "Splitscreen Croatia conference offers free travel packages for developers looking to showcase unreleased games to publishers and investors",
+    "link": "https://www.gamesindustry.biz/you-are-still-taking-100-of-the-risk-why-cairn-dev-the-game-bakers-backs-self-publishing-for-all-but-the-smallest-developers",
+    "description": "Self-publishing is now firmly established as a viable route to market for indie developers, with many only looking to publishers for help with specific issues &ndash; chiefly marketing, based on conversations with GamesIndustry.biz this year. Audrey Leprince, co-founder of Cairn developer The Game B",
+    "date": "Tue, 24 Nov 2026 12:18:30 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "GTA 6 was the \"biggest launch in PlayStation history\", with the highest number of concurrent players ever",
+    "link": "https://www.gamesindustry.biz/splitscreen-croatia-conference-offers-free-travel-packages-for-developers-looking-to-showcase-unreleased-games-to-publishers-and-investors",
+    "description": "Splitcreen Croatia, the new industry conference seeking to fill the gap left by Reboot Develop, has opened applications for its Official Selection showcase, which includes free travel, accommodation and exhibition space for developers with unreleased games. Read more",
+    "date": "Tue, 24 Nov 2026 11:44:10 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "UK mobile developers can now apply for their share of a £260 million Google settlement",
+    "link": "https://www.gamesindustry.biz/gta-6-was-the-biggest-launch-in-playstation-history-with-the-highest-number-of-concurrent-players-ever",
+    "description": "Christmas did not come early for Sony, but it came close: the firm has declared that GTA 6 was the largest game launch in the platform's history, driving a record number of concurrent players on its November 19th launch, although the number of new consoles playing the game fell short of year-end hig",
+    "date": "Tue, 24 Nov 2026 10:50:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
     "title": "Plug in Digital acquires News Tower publisher Twin Sails Interactive, creating new publishing group to \"compete in a highly competitive market\"",
     "link": "https://www.gamesindustry.biz/eu-opens-consultation-on-digital-fairness-act",
     "description": "The European Commission is inviting public feedback on its proposed Digital Fairness Act (DFA), which would introduce new rules on loot boxes, virtual currencies, and in-game purchases by children. Read more",
     "date": "Mon, 23 Nov 2026 15:15:10 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Jensen Huang reinstated as Nvidia CEO and president following affair allegations",
-    "link": "https://www.gamesindustry.biz/one-way-to-stave-off-ai-clones-minimise-the-gap-between-announcement-and-launch",
-    "description": "\"I think the biggest talking point over the next half year is going to be the time to market, and how devs are now afraid of how AI copies their games,\" says Alex Nichiporchik, the head of Tinybuild. Read more",
-    "date": "Mon, 23 Nov 2026 14:33:30 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Christoph Hartmann wants Ubisoft's Massive Entertainment to go beyond shooters and be the \"A24 of gaming\"",
-    "link": "https://www.gamesindustry.biz/jensen-huang-reinstated-as-nvidia-ceo-and-president-following-affair-allegations",
-    "description": "Nvidia has reinstated Jensen Huang as CEO and president following a unanimous vote by its Board of Directors. Read more",
-    "date": "Mon, 23 Nov 2026 12:38:20 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Over half of console players in the US played GTA 6 on launch day, according to Circana",
-    "link": "https://www.gamesindustry.biz/christoph-hartmann-wants-ubisofts-massive-entertainment-to-go-beyond-shooters-and-be-the-a24-of-gaming",
-    "description": "Massive Entertainment's general manager Christoph Hartmann wants the Ubisoft business unit to go beyond shooters and become the \"A24 of gaming.\" Read more",
-    "date": "Mon, 23 Nov 2026 10:57:20 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "GTA 6 hits $3.79 billion in its first day on sale, becoming \"the biggest entertainment launch in history\"",
-    "link": "https://www.gamesindustry.biz/over-half-of-console-players-in-the-us-played-gta-6-on-launch-day-according-to-circana",
-    "description": "Over half of players on console in the US played Grand Theft Auto 6 on launch day, according to Circana. Read more",
-    "date": "Fri, 20 Nov 2026 20:24:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Ampere Analysis: Over 2m UK and US Xbox players accessed GTA 6 before official launch by switching location to New Zealand",
-    "link": "https://www.gamesindustry.biz/gta-6-hits-379-billion-in-its-first-day-on-sale-becoming-the-biggest-entertainment-launch-in-history",
-    "description": "Rockstar has announced that GTA 6 achieved $3.79 billion in retail sales in its first day on sale, \"setting a new record for entertainment across any medium, and becoming the biggest entertainment launch in history.\" Read more",
-    "date": "Fri, 20 Nov 2026 15:21:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
