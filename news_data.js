@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-24 17:26 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-25 17:01 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-24T17:26:20.869029",
+  fetched_at: "2026-11-25T17:01:46.352786",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "torrent",
       "pirate",
-      "piracy",
       "rom",
+      "dmca",
       "copyright",
-      "dmca"
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -27,10 +27,10 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "dmca",
-      "emulator",
       "pirate",
-      "takedown"
+      "takedown",
+      "emulator",
+      "dmca"
     ]
   },
   {
@@ -55,8 +55,22 @@ const ARIA_NEWS = {
     "relevance_score": 9,
     "matched_keywords": [
       "copyright",
-      "dmca",
-      "takedown"
+      "takedown",
+      "dmca"
+    ]
+  },
+  {
+    "title": "Quad9 Exits France as Expired Piracy Order Lingers at Google and ISPs",
+    "link": "https://torrentfreak.com/nvidia-seeded-pirated-books-and-shared-them-with-adobe-authors-allege/",
+    "description": "Several book authors have filed an amended complaint accusing NVIDIA of seeding pirated books via BitTorrent, after downloading them from shadow libraries including Anna's Archive and LibGen. The chip giant allegedly also shared pirated books with business partners, including Adobe. According to the",
+    "date": "Tue, 24 Nov 2026 08:10:52 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 8,
+    "matched_keywords": [
+      "pirate",
+      "rom",
+      "torrent",
+      "piracy"
     ]
   },
   {
@@ -68,8 +82,8 @@ const ARIA_NEWS = {
     "relevance_score": 8,
     "matched_keywords": [
       "copyright",
-      "rom",
       "pirate",
+      "rom",
       "piracy"
     ]
   },
@@ -81,8 +95,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "torrent",
       "dmca",
+      "torrent",
       "piracy"
     ]
   },
@@ -94,8 +108,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "rom",
       "pirate",
+      "rom",
       "takedown"
     ]
   },
@@ -148,15 +162,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Quad9 Exits France as Expired Piracy Order Lingers at Google and ISPs",
+    "title": "NVIDIA Seeded Pirated Books and Shared Them With Adobe, Authors Allege",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Tue, 24 Nov 2026 08:10:52 +0000",
+    "date": "Wed, 25 Nov 2026 08:57:04 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
       "copyright",
-      "piracy"
+      "pirate"
     ]
   },
   {
@@ -191,20 +205,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "torrent",
-      "pirate"
-    ]
-  },
-  {
-    "title": "Vietnam Jails Pirate Football Streamers for Up to a Year, Three Escape Prison",
-    "link": "https://torrentfreak.com/meta-employees-interacted-with-pirated-copies-of-adult-films-filing-shows/",
-    "description": "A newly unredacted court filing shows that Meta’s internal investigation found several employees who appear to have interacted with Strike 3’s adult films. The adult content producers say these were torrented copies listed in their lawsuit, but Meta says there is no evidence of torrenting. The compa",
-    "date": "Wed, 04 Nov 2026 09:27:48 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "torrent",
-      "pirate"
+      "pirate",
+      "torrent"
     ]
   },
   {
@@ -230,10 +232,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"You are still taking 100% of the risk\" – Why Cairn dev The Game Bakers backs self-publishing for all but the smallest developers",
+    "title": "\"You'd be nuts to take on all of that in the first project, and yet here we are\" – How Playground is finally making good on an all-new Fable",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Tue, 24 Nov 2026 15:28:00 +0000",
+    "date": "Wed, 25 Nov 2026 15:48:30 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "Gaming sector to benefit from funding package of over £45m as part of Creative Industries Sector Plan",
+    "link": "https://www.gamesindustry.biz/youd-be-nuts-to-take-on-all-of-that-in-the-first-project-and-yet-here-we-are-how-playground-is-finally-making-good-on-an-all-new-fable",
+    "description": "Fable is finally set to be released on February 23, 2027, after being pushed back from its autumn 2026 launch date earlier this year, and having previously slipped from a 2025 release window. The game has been a long time coming: it was announced in 2020, but development reportedly began several yea",
+    "date": "Wed, 25 Nov 2026 14:55:50 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -296,17 +309,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Ubisoft merges two Creative Houses as H1 results decline 16.5%; Q2 net bookings above guidance thanks to Assassin's Creed Black Flag remake",
-    "link": "https://www.gamesindustry.biz/how-the-eus-digital-fairness-act-will-impact-game-design-and-why-it-hits-european-indies-particularly-hard",
-    "description": "The European Commission's publication of its draft Digital Fairness Act (DFA) last week prompted uproar within the games industry, with many notable voices candidly expressing their concerns. Opinions in the wider industry were more measured, possibly because some of the practices targeted by the DF",
-    "date": "Fri, 20 Nov 2026 11:43:40 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
     "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
     "description": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown s",
@@ -318,37 +320,37 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Splitscreen Croatia conference offers free travel packages for developers looking to showcase unreleased games to publishers and investors",
-    "link": "https://www.gamesindustry.biz/you-are-still-taking-100-of-the-risk-why-cairn-dev-the-game-bakers-backs-self-publishing-for-all-but-the-smallest-developers",
-    "description": "Self-publishing is now firmly established as a viable route to market for indie developers, with many only looking to publishers for help with specific issues &ndash; chiefly marketing, based on conversations with GamesIndustry.biz this year. Audrey Leprince, co-founder of Cairn developer The Game B",
-    "date": "Tue, 24 Nov 2026 12:18:30 +0000",
+    "title": "Analyst: Don't expect hardware price cuts until at least 2028",
+    "link": "https://www.gamesindustry.biz/gaming-sector-to-benefit-from-funding-package-of-over-45m-as-part-of-creative-industries-sector-plan",
+    "description": "Eight games studios will share over &pound;45 million in a government funding package with other creative sectors as part of a wider &pound;500 million investment by UK Research and Innovation (UKRI) in the Creative Industries Sector Plan. Read more",
+    "date": "Wed, 25 Nov 2026 13:09:40 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "GTA 6 was the \"biggest launch in PlayStation history\", with the highest number of concurrent players ever",
-    "link": "https://www.gamesindustry.biz/splitscreen-croatia-conference-offers-free-travel-packages-for-developers-looking-to-showcase-unreleased-games-to-publishers-and-investors",
-    "description": "Splitcreen Croatia, the new industry conference seeking to fill the gap left by Reboot Develop, has opened applications for its Official Selection showcase, which includes free travel, accommodation and exhibition space for developers with unreleased games. Read more",
-    "date": "Tue, 24 Nov 2026 11:44:10 +0000",
+    "title": "Unreal Engine 6 won't include Blueprints or Actor Gameplay Framework",
+    "link": "https://www.gamesindustry.biz/analyst-dont-expect-hardware-price-cuts-until-at-least-2028",
+    "description": "Manufacturers are unlikely to drop console prices until at least 2028, according to a new analysis by S&P Global Market Intelligence Kagan, which judged that planned expansions in manufacturing capacity for DRAM &ndash; a key component in gaming hardware that has rocketed in price due to the demands",
+    "date": "Wed, 25 Nov 2026 12:43:40 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "UK mobile developers can now apply for their share of a £260 million Google settlement",
-    "link": "https://www.gamesindustry.biz/gta-6-was-the-biggest-launch-in-playstation-history-with-the-highest-number-of-concurrent-players-ever",
-    "description": "Christmas did not come early for Sony, but it came close: the firm has declared that GTA 6 was the largest game launch in the platform's history, driving a record number of concurrent players on its November 19th launch, although the number of new consoles playing the game fell short of year-end hig",
-    "date": "Tue, 24 Nov 2026 10:50:00 +0000",
+    "title": "Gravity Well enters hibernation after failing to secure funding",
+    "link": "https://www.gamesindustry.biz/unreal-engine-6-wont-include-blueprints-or-actor-gameplay-framework",
+    "description": "Unreal Engine 6 will discontinue support for Blueprints and the Actor Gameplay Framework, instead utilising  Verse and Epic's new Scene Graph framework. Read more",
+    "date": "Wed, 25 Nov 2026 09:15:50 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
   },
   {
-    "title": "Plug in Digital acquires News Tower publisher Twin Sails Interactive, creating new publishing group to \"compete in a highly competitive market\"",
-    "link": "https://www.gamesindustry.biz/eu-opens-consultation-on-digital-fairness-act",
-    "description": "The European Commission is inviting public feedback on its proposed Digital Fairness Act (DFA), which would introduce new rules on loot boxes, virtual currencies, and in-game purchases by children. Read more",
-    "date": "Mon, 23 Nov 2026 15:15:10 +0000",
+    "title": "\"You are still taking 100% of the risk\" – Why Cairn dev The Game Bakers backs self-publishing for all but the smallest developers",
+    "link": "https://www.gamesindustry.biz/gravity-well-enters-hibernation-after-failing-to-secure-funding",
+    "description": "Gravity Well has entered hibernation after failing to secure funding. Read more",
+    "date": "Tue, 24 Nov 2026 15:28:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
