@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-25 17:01 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-26 16:43 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-25T17:01:46.352786",
+  fetched_at: "2026-11-26T16:43:23.941331",
   item_count: 30,
   items: [
   {
@@ -12,11 +12,11 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "pirate",
-      "rom",
       "dmca",
+      "piracy",
       "copyright",
-      "torrent",
-      "piracy"
+      "rom",
+      "torrent"
     ]
   },
   {
@@ -41,9 +41,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
       "pirate",
-      "takedown"
+      "takedown",
+      "copyright"
     ]
   },
   {
@@ -54,9 +54,21 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "copyright",
       "takedown",
+      "copyright",
       "dmca"
+    ]
+  },
+  {
+    "title": "NVIDIA Seeded Pirated Books and Shared Them With Adobe, Authors Allege",
+    "link": "https://torrentfreak.com/takedown-notice-hits-102000-wand-enhancer-repositories-on-github/",
+    "description": "A takedown notice that targeted four files of Wand-Enhancer, a popular patcher that unlocks Pro features in the game trainer app Wand, affected more than 100,000 GitHub repositories. GitHub processed the notice, sent by Web Sheriff, against the project's entire fork network. The original repo is sti",
+    "date": "Wed, 25 Nov 2026 08:57:04 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 8,
+    "matched_keywords": [
+      "pirate",
+      "takedown"
     ]
   },
   {
@@ -69,22 +81,8 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "pirate",
       "rom",
-      "torrent",
-      "piracy"
-    ]
-  },
-  {
-    "title": "Meta Employees &#8216;Interacted&#8217; With Pirated Copies of Adult Films, Filing Shows",
-    "link": "https://torrentfreak.com/mexicos-senate-approves-isp-rules-to-disconnect-persistent-online-pirates/",
-    "description": "Mexico's Senate has approved copyright amendments that require Internet providers to have a policy to cut off repeat infringers, or risk liability for their subscribers' piracy. The law doesn't explicitly say who counts as a repeat infringer. The changes follow calls from U.S. rightsholders, and com",
-    "date": "Thu, 05 Nov 2026 07:22:30 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 8,
-    "matched_keywords": [
-      "copyright",
-      "pirate",
-      "rom",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -96,8 +94,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "dmca",
-      "torrent",
-      "piracy"
+      "piracy",
+      "torrent"
     ]
   },
   {
@@ -109,8 +107,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "pirate",
-      "rom",
-      "takedown"
+      "takedown",
+      "rom"
     ]
   },
   {
@@ -133,8 +131,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "copyright",
-      "takedown"
+      "takedown",
+      "copyright"
     ]
   },
   {
@@ -162,15 +160,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "NVIDIA Seeded Pirated Books and Shared Them With Adobe, Authors Allege",
+    "title": "Takedown Notice Hits 102,000 Wand-Enhancer Repositories on GitHub",
     "link": "https://torrentfreak.com/",
     "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Wed, 25 Nov 2026 08:57:04 +0000",
+    "date": "Thu, 26 Nov 2026 07:51:58 +0000",
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "takedown",
+      "copyright"
     ]
   },
   {
@@ -193,8 +191,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "copyright",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -232,10 +230,21 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "\"You'd be nuts to take on all of that in the first project, and yet here we are\" – How Playground is finally making good on an all-new Fable",
+    "title": "Nearly 500 new members joined Women in Games Ambassador Programme over the past year",
     "link": "https://www.gamesindustry.biz/feed",
     "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Wed, 25 Nov 2026 15:48:30 +0000",
+    "date": "Thu, 26 Nov 2026 14:59:10 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
+    ]
+  },
+  {
+    "title": "NielsenIQ: GTA 6 boosts UK games retail revenue by 99% to £142m during launch period",
+    "link": "https://www.gamesindustry.biz/nearly-500-new-members-joined-women-in-games-ambassador-programme-over-the-past-year",
+    "description": "Almost 500 people from 71 countries joined the Women in Games Individual Ambassador Programme over the past year, with 14 countries represented for the first time since its founding in 2016. Read more",
+    "date": "Thu, 26 Nov 2026 11:55:50 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -287,28 +296,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Activision files patent for neural network to train NPCs from in-game voice chat",
-    "link": "https://www.gamesindustry.biz/plug-in-digital-acquires-news-tower-publisher-twin-sails-interactive-creating-new-publishing-group-to-compete-in-a-highly-competitive-market",
-    "description": "French publisher and distributor Plug In Digital has acquired Paris-based indie publisher Twin Sails Interactive - formerly the digital division of boardgame publisher Asmodee, and publisher of News Tower - and announced the two will combine to form an indie-focused distribution and publishing group",
-    "date": "Mon, 23 Nov 2026 15:09:50 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "One way to stave off AI clones? Minimise the gap between announcement and launch",
-    "link": "https://www.gamesindustry.biz/activision-files-patent-for-neural-network-to-train-npcs-from-in-game-voice-chat",
-    "description": "Activision has filed a patent to train NPCs from in-game voice chat using a neural network and large language models (LLMs). Read more",
-    "date": "Mon, 23 Nov 2026 15:07:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
     "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
     "description": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown s",
@@ -318,6 +305,15 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "takedown"
     ]
+  },
+  {
+    "title": "GTA 6 launch drives combined 2.3m downloads of franchise's mobile ports, according to AppMagic",
+    "link": "https://www.gamesindustry.biz/nielseniq-gta-6-boosts-uk-games-retail-revenue-by-99-to-142m-during-launch-period",
+    "description": "UK games retail revenue increased 99% week-on-week to &pound;142 million during Grand Theft Auto 6's three-day launch period. Read more",
+    "date": "Thu, 26 Nov 2026 10:07:50 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "Analyst: Don't expect hardware price cuts until at least 2028",
