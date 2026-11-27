@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-26 16:43 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-27 16:29 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-26T16:43:23.941331",
+  fetched_at: "2026-11-27T16:29:31.356466",
   item_count: 30,
   items: [
   {
@@ -12,11 +12,11 @@ const ARIA_NEWS = {
     "relevance_score": 12,
     "matched_keywords": [
       "pirate",
-      "dmca",
-      "piracy",
       "copyright",
+      "torrent",
       "rom",
-      "torrent"
+      "dmca",
+      "piracy"
     ]
   },
   {
@@ -27,10 +27,36 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "pirate",
-      "takedown",
       "emulator",
-      "dmca"
+      "dmca",
+      "takedown",
+      "pirate"
+    ]
+  },
+  {
+    "title": "Takedown Notice Hits 102,000 Wand-Enhancer Repositories on GitHub",
+    "link": "https://torrentfreak.com/denuvo-fails-to-unmask-game-cracker-voices38-eyes-private-tracker-and-crypto/",
+    "description": "Denuvo's legal effort to reveal the identity of anonymous game cracker 'voices38' by subpoenaing Discord, Reddit and Valve has failed. According to Denuvo, one of the Steam accounts it links to the cracker was deleted on the same day the court approved the subpoenas. Denuvo now asks the court for 90",
+    "date": "Thu, 26 Nov 2026 07:51:58 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 11,
+    "matched_keywords": [
+      "denuvo",
+      "crack",
+      "takedown"
+    ]
+  },
+  {
+    "title": "Denuvo Fails to Unmask Game Cracker &#8216;voices38&#8217;, Eyes Private Tracker and Crypto",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Fri, 27 Nov 2026 08:03:29 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 9,
+    "matched_keywords": [
+      "denuvo",
+      "crack",
+      "copyright"
     ]
   },
   {
@@ -41,8 +67,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "pirate",
       "takedown",
+      "pirate",
       "copyright"
     ]
   },
@@ -54,9 +80,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "dmca",
       "takedown",
-      "copyright",
-      "dmca"
+      "copyright"
     ]
   },
   {
@@ -67,8 +93,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
-      "takedown"
+      "takedown",
+      "pirate"
     ]
   },
   {
@@ -80,9 +106,9 @@ const ARIA_NEWS = {
     "relevance_score": 8,
     "matched_keywords": [
       "pirate",
-      "rom",
+      "torrent",
       "piracy",
-      "torrent"
+      "rom"
     ]
   },
   {
@@ -93,9 +119,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
+      "torrent",
       "dmca",
-      "piracy",
-      "torrent"
+      "piracy"
     ]
   },
   {
@@ -106,9 +132,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 7,
     "matched_keywords": [
-      "pirate",
+      "rom",
       "takedown",
-      "rom"
+      "pirate"
     ]
   },
   {
@@ -160,15 +186,15 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Takedown Notice Hits 102,000 Wand-Enhancer Repositories on GitHub",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Thu, 26 Nov 2026 07:51:58 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
+    "title": "GTA 6's pirate PC ports: new tools, old problem | Opinion",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Fri, 27 Nov 2026 14:43:20 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 6,
     "matched_keywords": [
-      "takedown",
-      "copyright"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -179,8 +205,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 4,
     "matched_keywords": [
-      "pirate",
-      "rom"
+      "rom",
+      "pirate"
     ]
   },
   {
@@ -193,18 +219,6 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "pirate",
       "copyright"
-    ]
-  },
-  {
-    "title": "Mexico&#8217;s Senate Approves ISP Rules to Disconnect Persistent Online Pirates",
-    "link": "https://torrentfreak.com/inside-a-french-piracy-blocklist-expired-domains-a-seized-site-and-hong-kong-servers/",
-    "description": "In May, a Paris court ordered DNS resolvers to block six domains that streamed pirated tennis matches. After a series of quiet, unannounced expansions, the list has since grown to 118. This includes two domain names that now belong to TorrentFreak. Notably, no domain names have been taken off the li",
-    "date": "Fri, 06 Nov 2026 08:34:45 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 4,
-    "matched_keywords": [
-      "pirate",
-      "torrent"
     ]
   },
   {
@@ -230,10 +244,10 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Nearly 500 new members joined Women in Games Ambassador Programme over the past year",
-    "link": "https://www.gamesindustry.biz/feed",
-    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Thu, 26 Nov 2026 14:59:10 +0000",
+    "title": "Mastered receives funding to support training for games studios in West of England",
+    "link": "https://www.gamesindustry.biz/indie-puzzle-adventure-rhell-beats-gta-6-to-win-best-game-made-in-the-north-at-the-game-republic-awards",
+    "description": "At the Game Republic Awards in Wakefield last night, the indie puzzle adventure Rhell: Warped Worlds and Troubled Times beat off competition from the likes of Grand Theft Auto 6, Lego Batman: Legacy of the Dark Knight, and Wardogs to take home the prize for Best Game Made in The North. Read more",
+    "date": "Fri, 27 Nov 2026 10:59:20 +0000",
     "source": "GamesIndustry",
     "relevance_score": 3,
     "matched_keywords": [
@@ -263,39 +277,6 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Nicalis removes AI-generated music from The Binding of Isaac: Repentance+ after player backlash",
-    "link": "https://www.gamesindustry.biz/uk-mobile-developers-can-now-apply-for-their-share-of-a-260-million-google-settlement",
-    "description": "UK developers who released games, apps or content on the Google Play Store between August 2018 and July 2026 can now claim for their share of a &pound;260 million settlement agreed in a class action suit earlier this year. Read more",
-    "date": "Mon, 23 Nov 2026 20:56:00 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "GTA 6 leaker reportedly releases file needed to run leaked Xbox build",
-    "link": "https://www.gamesindustry.biz/nicalis-removes-ai-generated-music-from-the-binding-of-isaac-repentance-after-player-backlash",
-    "description": "Nicalis has pulled AI-generated music from The Binding of Isaac: Repentance+ after players discovered it in the game's latest update, prompting a wave of negative Steam reviews. Read more",
-    "date": "Mon, 23 Nov 2026 19:43:30 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
-    "title": "EU opens consultation on Digital Fairness Act",
-    "link": "https://www.gamesindustry.biz/gta-6-leaker-reportedly-releases-file-needed-to-run-leaked-xbox-build",
-    "description": "GTA 6 leaker Cyberleek has reportedly released the executable file for the leaked Xbox build of the game, prompting concern that an unofficial PC port could follow. Read more",
-    "date": "Mon, 23 Nov 2026 17:33:10 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 3,
-    "matched_keywords": [
-      "rom"
-    ]
-  },
-  {
     "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
     "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
     "description": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown s",
@@ -305,6 +286,42 @@ const ARIA_NEWS = {
     "matched_keywords": [
       "takedown"
     ]
+  },
+  {
+    "title": "Story of Seasons studio Marvelous offering voluntary resignations to reduce headcount by 65 roles",
+    "link": "https://www.gamesindustry.biz/gta-6s-pirate-pc-ports-new-tools-old-problem-opinion",
+    "description": "I'm sorry in advance. I know we'd all far prefer to be spending our time running around the sun-soaked dystopia of Vice City this week rather than spending it reading yet another column about the game, but we need to talk about GTA 6 again. Specifically, we need to talk about the side story that's s",
+    "date": "Fri, 27 Nov 2026 14:39:00 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Indie puzzle adventure Rhell beats GTA 6 to win Best Game Made in The North at the Game Republic Awards",
+    "link": "https://www.gamesindustry.biz/story-of-seasons-studio-marvelous-offering-voluntary-resignations-to-reduce-headcount-by-65-roles",
+    "description": "Story of Seasons developer Marvelous is offering voluntary resignations to reduce its workforce by 65 positions. Read more",
+    "date": "Fri, 27 Nov 2026 12:55:20 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "\"This was unlike anything else we've ever seen before\" - but GTA 6's success is limited by the console install base, and its future rests on PC",
+    "link": "https://www.gamesindustry.biz/modern-warfare-4-launch-boosts-call-of-duty-hq-to-top-of-newzoos-pc-charts",
+    "description": "While October saw only a few new releases, the launch of Call of Duty: Modern Warfare 4 significantly increased revenue for game launcher Call of Duty HQ, moving it to first place on Newzoo's PC charts and second on console within a week. Read more",
+    "date": "Thu, 26 Nov 2026 16:53:20 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
+  },
+  {
+    "title": "Nearly 500 new members joined Women in Games Ambassador Programme over the past year",
+    "link": "https://www.gamesindustry.biz/staff-at-grand-theft-auto-maker-rockstar-vote-against-union-recognition-deal",
+    "description": "Workers at Grand Theft Auto maker Rockstar Games have voted against a union recognition deal. Read more",
+    "date": "Thu, 26 Nov 2026 14:59:10 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 2,
+    "matched_keywords": []
   },
   {
     "title": "GTA 6 launch drives combined 2.3m downloads of franchise's mobile ports, according to AppMagic",
@@ -329,24 +346,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/analyst-dont-expect-hardware-price-cuts-until-at-least-2028",
     "description": "Manufacturers are unlikely to drop console prices until at least 2028, according to a new analysis by S&P Global Market Intelligence Kagan, which judged that planned expansions in manufacturing capacity for DRAM &ndash; a key component in gaming hardware that has rocketed in price due to the demands",
     "date": "Wed, 25 Nov 2026 12:43:40 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Gravity Well enters hibernation after failing to secure funding",
-    "link": "https://www.gamesindustry.biz/unreal-engine-6-wont-include-blueprints-or-actor-gameplay-framework",
-    "description": "Unreal Engine 6 will discontinue support for Blueprints and the Actor Gameplay Framework, instead utilising  Verse and Epic's new Scene Graph framework. Read more",
-    "date": "Wed, 25 Nov 2026 09:15:50 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "\"You are still taking 100% of the risk\" – Why Cairn dev The Game Bakers backs self-publishing for all but the smallest developers",
-    "link": "https://www.gamesindustry.biz/gravity-well-enters-hibernation-after-failing-to-secure-funding",
-    "description": "Gravity Well has entered hibernation after failing to secure funding. Read more",
-    "date": "Tue, 24 Nov 2026 15:28:00 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
