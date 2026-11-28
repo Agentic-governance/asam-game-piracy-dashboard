@@ -1,6 +1,6 @@
-// [LIVE DATA] Game piracy news — auto-fetched 2026-11-27 16:29 UTC
+// [LIVE DATA] Game piracy news — auto-fetched 2026-11-28 15:22 UTC
 const ARIA_NEWS = {
-  fetched_at: "2026-11-27T16:29:31.356466",
+  fetched_at: "2026-11-28T15:22:02.560305",
   item_count: 30,
   items: [
   {
@@ -11,12 +11,12 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "pirate",
-      "copyright",
-      "torrent",
       "rom",
-      "dmca",
-      "piracy"
+      "pirate",
+      "torrent",
+      "copyright",
+      "piracy",
+      "dmca"
     ]
   },
   {
@@ -27,10 +27,23 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 12,
     "matched_keywords": [
-      "emulator",
+      "pirate",
       "dmca",
       "takedown",
-      "pirate"
+      "emulator"
+    ]
+  },
+  {
+    "title": "Denuvo Fails to Unmask Game Cracker &#8216;voices38&#8217;, Eyes Private Tracker and Crypto",
+    "link": "https://torrentfreak.com/study-growing-ip-address-sharing-raises-collateral-damage-risks-for-pirate-site-blocking/",
+    "description": "Rightsholders frequently request domain and IP address blockades to curb piracy, but academic research warns that the latter can cause significant collateral damage through overblocking. With U.S. lawmakers weighing new site-blocking bills, Stanford and Cloudflare researchers present data showing th",
+    "date": "Fri, 27 Nov 2026 08:03:29 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 11,
+    "matched_keywords": [
+      "crack",
+      "piracy",
+      "denuvo"
     ]
   },
   {
@@ -41,22 +54,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 11,
     "matched_keywords": [
-      "denuvo",
       "crack",
-      "takedown"
-    ]
-  },
-  {
-    "title": "Denuvo Fails to Unmask Game Cracker &#8216;voices38&#8217;, Eyes Private Tracker and Crypto",
-    "link": "https://torrentfreak.com/",
-    "description": "Breaking File-sharing, Copyright and Privacy News",
-    "date": "Fri, 27 Nov 2026 08:03:29 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 9,
-    "matched_keywords": [
-      "denuvo",
-      "crack",
-      "copyright"
+      "takedown",
+      "denuvo"
     ]
   },
   {
@@ -67,8 +67,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
-      "takedown",
       "pirate",
+      "takedown",
       "copyright"
     ]
   },
@@ -80,9 +80,9 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 9,
     "matched_keywords": [
+      "copyright",
       "dmca",
-      "takedown",
-      "copyright"
+      "takedown"
     ]
   },
   {
@@ -93,8 +93,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "takedown",
-      "pirate"
+      "pirate",
+      "takedown"
     ]
   },
   {
@@ -105,8 +105,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 8,
     "matched_keywords": [
-      "pirate",
       "torrent",
+      "pirate",
       "piracy",
       "rom"
     ]
@@ -133,8 +133,8 @@ const ARIA_NEWS = {
     "relevance_score": 7,
     "matched_keywords": [
       "rom",
-      "takedown",
-      "pirate"
+      "pirate",
+      "takedown"
     ]
   },
   {
@@ -157,8 +157,8 @@ const ARIA_NEWS = {
     "source": "TorrentFreak",
     "relevance_score": 6,
     "matched_keywords": [
-      "takedown",
-      "copyright"
+      "copyright",
+      "takedown"
     ]
   },
   {
@@ -174,27 +174,26 @@ const ARIA_NEWS = {
     ]
   },
   {
-    "title": "Inside a French Piracy Blocklist: Expired Domains, a Seized Site, and Hong Kong Servers",
-    "link": "https://torrentfreak.com/movistar-blocks-its-own-support-forum-under-laliga-anti-piracy-order/",
-    "description": "Spain's court-ordered piracy blocking regime blocked the official customer support forum of Internet provider Movistar on Saturday night. A blocking notice referenced a ruling that LaLiga obtained together with the company that runs the Movistar Plus+ streaming service. On Sunday, the forum moved fr",
-    "date": "Sat, 07 Nov 2026 13:36:53 +0000",
-    "source": "TorrentFreak",
-    "relevance_score": 6,
+    "title": "GTA 6's pirate PC ports: new tools, old problem | Opinion",
+    "link": "https://www.gamesindustry.biz/one-week-on-heres-the-impact-gta-6s-launch-had-on-the-industry-so-far",
+    "description": "GTA 6 has been on sale for a week, and remained the dominant game and talking point across the games industry &ndash; supported, admittedly, by a quiet news week in America due to the Thanksgiving holiday. Beyond its record-breaking day-one revenue haul, it's now possible to start judging its impact",
+    "date": "Fri, 27 Nov 2026 14:43:20 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 5,
     "matched_keywords": [
-      "seized",
-      "piracy"
+      "pirate"
     ]
   },
   {
-    "title": "GTA 6's pirate PC ports: new tools, old problem | Opinion",
-    "link": "https://www.gamesindustry.biz/feed",
-    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
-    "date": "Fri, 27 Nov 2026 14:43:20 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 6,
+    "title": "Study: Growing IP Address Sharing Raises Collateral Damage Risks for Pirate Site Blocking",
+    "link": "https://torrentfreak.com/",
+    "description": "Breaking File-sharing, Copyright and Privacy News",
+    "date": "Sat, 28 Nov 2026 13:42:31 +0000",
+    "source": "TorrentFreak",
+    "relevance_score": 4,
     "matched_keywords": [
-      "rom",
-      "pirate"
+      "pirate",
+      "copyright"
     ]
   },
   {
@@ -241,6 +240,17 @@ const ARIA_NEWS = {
     "relevance_score": 3,
     "matched_keywords": [
       "pirate"
+    ]
+  },
+  {
+    "title": "One week on, here's the impact GTA 6's launch had on the industry so far",
+    "link": "https://www.gamesindustry.biz/feed",
+    "description": "This is a feed of the latest articles from GamesIndustry.biz.",
+    "date": "Fri, 27 Nov 2026 16:38:10 +0000",
+    "source": "GamesIndustry",
+    "relevance_score": 3,
+    "matched_keywords": [
+      "rom"
     ]
   },
   {
@@ -337,15 +347,6 @@ const ARIA_NEWS = {
     "link": "https://www.gamesindustry.biz/gaming-sector-to-benefit-from-funding-package-of-over-45m-as-part-of-creative-industries-sector-plan",
     "description": "Eight games studios will share over &pound;45 million in a government funding package with other creative sectors as part of a wider &pound;500 million investment by UK Research and Innovation (UKRI) in the Creative Industries Sector Plan. Read more",
     "date": "Wed, 25 Nov 2026 13:09:40 +0000",
-    "source": "GamesIndustry",
-    "relevance_score": 2,
-    "matched_keywords": []
-  },
-  {
-    "title": "Unreal Engine 6 won't include Blueprints or Actor Gameplay Framework",
-    "link": "https://www.gamesindustry.biz/analyst-dont-expect-hardware-price-cuts-until-at-least-2028",
-    "description": "Manufacturers are unlikely to drop console prices until at least 2028, according to a new analysis by S&P Global Market Intelligence Kagan, which judged that planned expansions in manufacturing capacity for DRAM &ndash; a key component in gaming hardware that has rocketed in price due to the demands",
-    "date": "Wed, 25 Nov 2026 12:43:40 +0000",
     "source": "GamesIndustry",
     "relevance_score": 2,
     "matched_keywords": []
